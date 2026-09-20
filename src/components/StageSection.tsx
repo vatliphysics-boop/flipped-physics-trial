@@ -1,0 +1,2 @@
+import type { ReactNode } from "react";
+export function StageSection({title,description,tone="blue",children}:{title:string;description:string;tone?:"blue"|"green"|"orange";children:ReactNode}){const c=tone==="green"?"green":tone==="orange"?"orange":"";return <section className={`card stage ${c}`} style={{marginBottom:18}}><span className="badge">{title}</span><h2 style={{margin:"12px 0 6px"}}>{title}</h2><p>{description}</p><div className="grid-3" style={{marginTop:18}}>{children}</div></section>}

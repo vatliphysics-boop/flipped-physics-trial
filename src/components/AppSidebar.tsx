@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function AppSidebar({items}:{items:{label:string;href:string;active?:boolean}[]}){return <aside className="sidebar"><div className="brand"><div className="brand-mark">VL</div><div><div>Vật lí hạt nhân 12</div><small style={{color:"#aebfe8"}}>Lớp học đảo ngược</small></div></div><nav className="side-links">{items.map(i=><Link key={i.label} href={i.href} className={i.active?"active":""}>{i.label}</Link>)}</nav></aside>}

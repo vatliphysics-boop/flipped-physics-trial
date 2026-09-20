@@ -1,0 +1,1 @@
+export function StatCard({label,value,note}:{label:string;value:string;note?:string}){return <div className="card"><span className="badge">{label}</span><div className="stat-number">{value}</div>{note&&<p>{note}</p>}</div>}
