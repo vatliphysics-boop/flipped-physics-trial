@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { randomInt } from "node:crypto";
 import { createClient } from "@/lib/supabase/server";
+import { classifyVideoSource, YOUTUBE_VIDEO_ERROR } from "@/lib/video-source";
 
 export type CreateClassState = {
   error?: string;
@@ -20,6 +21,11 @@ export type CreateLessonState = {
 };
 
 export type LessonMaterialState = {
+  error?: string;
+  message?: string;
+};
+
+export type LessonClassAssignmentState = {
   error?: string;
   message?: string;
 };
@@ -43,13 +49,123 @@ function generateJoinCode() {
   ).join("");
 }
 
-function isHttpUrl(value: string) {
+function videoUrlError(value: string) {
+  const source = classifyVideoSource(value);
+  return source.kind === "invalid" ? (source.reason === "youtube" ? YOUTUBE_VIDEO_ERROR : "Link video phải trỏ trực tiếp tới tệp MP4, WebM hoặc MOV có thể phát.") : null;
+}
+
+function storagePathForOwnedLesson(value: string, userId: string, lessonId: string) {
+  const source = classifyVideoSource(value);
+  return source.kind === "storage" && source.bucket === "lesson-videos" && source.path.startsWith(`${userId}/${lessonId}/`) ? source.path : null;
+}
+
+async function removeUploadedVideo(supabase: Awaited<ReturnType<typeof createClient>>, value: string, userId: string, lessonId: string) {
+  const path = storagePathForOwnedLesson(value, userId, lessonId);
+  if (path) await supabase.storage.from("lesson-videos").remove([path]);
+}
+
+function readVideoContentUrl(formData: FormData, userId: string, lessonId: string) {
+  const value = readText(formData, "content_url");
+  const storagePath = storagePathForOwnedLesson(value, userId, lessonId);
+  if (value.startsWith("storage:")) return storagePath ? { value } : { error: "Đường dẫn video Storage không hợp lệ." };
+  const urlError = videoUrlError(value);
+  return urlError ? { error: urlError } : { value };
+}
+
+type VideoCheckpointInput = {
+  prompt: string;
+  options: string[];
+  correctIndex: number;
+  atPercent: number;
+};
+
+function parseVideoCheckpoints(raw: string): VideoCheckpointInput[] | null {
+  let value: unknown;
   try {
-    const url = new URL(value);
-    return url.protocol === "http:" || url.protocol === "https:";
+    value = raw ? JSON.parse(raw) : [];
   } catch {
-    return false;
+    return null;
   }
+
+  if (!Array.isArray(value) || value.length !== 2) return null;
+  const checkpoints = value as Partial<VideoCheckpointInput>[];
+  if (checkpoints.some((checkpoint) =>
+    typeof checkpoint.prompt !== "string" ||
+    !checkpoint.prompt.trim() ||
+    !Array.isArray(checkpoint.options) ||
+    checkpoint.options.length !== 4 ||
+    checkpoint.options.some((option) => typeof option !== "string" || !option.trim()) ||
+    typeof checkpoint.correctIndex !== "number" ||
+    !Number.isInteger(checkpoint.correctIndex) ||
+    checkpoint.correctIndex < 0 || checkpoint.correctIndex > 3 ||
+    typeof checkpoint.atPercent !== "number" ||
+    !Number.isInteger(checkpoint.atPercent) ||
+    checkpoint.atPercent <= 0 || checkpoint.atPercent >= 100
+  )) return null;
+
+  return checkpoints as VideoCheckpointInput[];
+}
+
+function checkpointRows(materialId: string, checkpoints: VideoCheckpointInput[]) {
+  return checkpoints.map((checkpoint, index) => ({
+    material_id: materialId,
+    checkpoint_percent: checkpoint.atPercent,
+    question: checkpoint.prompt.trim(),
+    option_a: checkpoint.options[0].trim(),
+    option_b: checkpoint.options[1].trim(),
+    option_c: checkpoint.options[2].trim(),
+    option_d: checkpoint.options[3].trim(),
+    correct_option: ["A", "B", "C", "D"][checkpoint.correctIndex],
+    sort_order: index,
+  }));
+}
+
+async function getTeacherForLessonAssignment(lessonId: string, classId?: string) {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { supabase, user: null, error: "Bạn cần đăng nhập để gắn lớp cho bài học." };
+  const { data: profile } = await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle();
+  if (profile?.role !== "teacher") return { supabase, user, error: "Bạn không có quyền gắn lớp cho bài học." };
+  const { data: lesson } = await supabase.from("lessons").select("id").eq("id", lessonId).eq("teacher_id", user.id).maybeSingle();
+  if (!lesson) return { supabase, user, error: "Không tìm thấy bài học hoặc bạn không có quyền quản lý bài học này." };
+  if (classId) {
+    const { data: classItem } = await supabase.from("classes").select("id").eq("id", classId).eq("teacher_id", user.id).maybeSingle();
+    if (!classItem) return { supabase, user, error: "Lớp học không tồn tại hoặc không thuộc quyền quản lý của bạn." };
+  }
+  return { supabase, user, error: undefined };
+}
+
+export async function assignLessonToClassAction(
+  _previousState: LessonClassAssignmentState,
+  formData: FormData
+): Promise<LessonClassAssignmentState> {
+  const lessonId = readText(formData, "lesson_id");
+  const classId = readText(formData, "class_id");
+  if (!lessonId || !classId) return { error: "Vui lòng chọn lớp học để gắn bài học." };
+  const { supabase, error } = await getTeacherForLessonAssignment(lessonId, classId);
+  if (error) return { error };
+  const { error: updateError } = await supabase.from("lessons").update({ class_id: classId }).eq("id", lessonId);
+  if (updateError) return { error: "Không thể gắn bài học vào lớp. Vui lòng thử lại." };
+  revalidatePath("/teacher");
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath(`/student/lessons/${lessonId}`);
+  return { message: "Đã gắn bài học vào lớp thành công." };
+}
+
+export async function removeLessonFromClassAction(
+  _previousState: LessonClassAssignmentState,
+  formData: FormData
+): Promise<LessonClassAssignmentState> {
+  const lessonId = readText(formData, "lesson_id");
+  if (!lessonId) return { error: "Không xác định được bài học cần bỏ gắn lớp." };
+  const { supabase, error } = await getTeacherForLessonAssignment(lessonId);
+  if (error) return { error };
+  const { error: updateError } = await supabase.from("lessons").update({ class_id: null }).eq("id", lessonId);
+  if (updateError) return { error: "Không thể bỏ gắn lớp cho bài học. Vui lòng thử lại." };
+  revalidatePath("/teacher");
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath(`/student/lessons/${lessonId}`);
+  return { message: "Đã bỏ gắn lớp cho bài học." };
 }
 
 async function getOwnedLesson(lessonId: string) {
@@ -67,18 +183,34 @@ export async function createVideoMaterialAction(_previousState: LessonMaterialSt
   const lessonId = readText(formData, "lesson_id");
   const title = readText(formData, "title");
   const description = readText(formData, "description");
-  const contentUrl = readText(formData, "content_url");
   const instructions = readText(formData, "instructions");
+  const checkpointQuestions = readText(formData, "checkpoint_questions");
   const durationText = readText(formData, "duration_minutes");
   const isPublished = formData.get("is_published") === "true";
-  if (!lessonId || !title || !contentUrl) return { error: "Vui lòng nhập tiêu đề và link video." };
-  if (!isHttpUrl(contentUrl)) return { error: "Link video phải là URL http hoặc https hợp lệ." };
+  if (!lessonId || !title) return { error: "Vui lòng nhập tiêu đề video." };
   const duration = durationText ? Number(durationText) : null;
   if (durationText && (duration === null || !Number.isInteger(duration) || duration <= 0)) return { error: "Thời lượng phải là số nguyên dương." };
+  const checkpoints = parseVideoCheckpoints(checkpointQuestions);
+  if (!checkpoints) return { error: "Dữ liệu câu hỏi kiểm tra không hợp lệ: cần đúng 2 câu hỏi và 4 đáp án cho mỗi câu." };
   const { supabase, user, error } = await getOwnedLesson(lessonId);
   if (error || !user) return { error: error ?? "Không thể xác thực giáo viên." };
-  const { error: insertError } = await supabase.from("lesson_materials").insert({ lesson_id: lessonId, teacher_id: user.id, phase: "before_class", material_type: "video", title, description: description || null, content_url: contentUrl, duration_minutes: duration, instructions: instructions || null, is_published: isPublished });
-  if (insertError) return { error: "Không thể tạo video. Vui lòng thử lại." };
+  const source = readVideoContentUrl(formData, user.id, lessonId);
+  if (source.error || !source.value) return { error: source.error ?? "Không xác định được nguồn video." };
+  const contentUrl = source.value;
+  const { data: material, error: insertError } = await supabase.from("lesson_materials").insert({ lesson_id: lessonId, teacher_id: user.id, phase: "before_class", material_type: "video", title, description: description || null, content_url: contentUrl, duration_minutes: duration, instructions: instructions || null, is_published: isPublished }).select("id").single();
+  if (insertError || !material) {
+    const error = insertError ?? new Error("Không thể tạo bản ghi video.");
+    console.error("create video error:", error);
+    await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
+    return { error: error.message };
+  }
+  const { error: checkpointError } = await supabase.from("video_checkpoints").insert(checkpointRows(material.id, checkpoints));
+  if (checkpointError) {
+    console.error("create video error:", checkpointError);
+    await supabase.from("lesson_materials").delete().eq("id", material.id).eq("lesson_id", lessonId);
+    await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
+    return { error: checkpointError.message };
+  }
   revalidatePath(`/teacher/lessons/${lessonId}`);
   revalidatePath(`/student/lessons/${lessonId}`);
   return { message: isPublished ? "Đã thêm và xuất bản video." : "Đã lưu video bản nháp." };
@@ -89,18 +221,42 @@ export async function updateVideoMaterialAction(_previousState: LessonMaterialSt
   const lessonId = readText(formData, "lesson_id");
   const title = readText(formData, "title");
   const description = readText(formData, "description");
-  const contentUrl = readText(formData, "content_url");
   const instructions = readText(formData, "instructions");
+  const checkpointQuestions = readText(formData, "checkpoint_questions");
   const durationText = readText(formData, "duration_minutes");
   const isPublished = formData.get("is_published") === "true";
-  if (!id || !lessonId || !title || !contentUrl) return { error: "Vui lòng nhập đầy đủ tiêu đề và link video." };
-  if (!isHttpUrl(contentUrl)) return { error: "Link video phải là URL http hoặc https hợp lệ." };
+  if (!id || !lessonId || !title) return { error: "Vui lòng nhập đầy đủ tiêu đề video." };
   const duration = durationText ? Number(durationText) : null;
   if (durationText && (duration === null || !Number.isInteger(duration) || duration <= 0)) return { error: "Thời lượng phải là số nguyên dương." };
+  const checkpoints = parseVideoCheckpoints(checkpointQuestions);
+  if (!checkpoints) return { error: "Dữ liệu câu hỏi kiểm tra không hợp lệ: cần đúng 2 câu hỏi và 4 đáp án cho mỗi câu." };
   const { supabase, error } = await getOwnedLesson(lessonId);
   if (error) return { error };
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập để cập nhật video." };
+  const existingMaterial = await supabase.from("lesson_materials").select("content_url").eq("id", id).eq("lesson_id", lessonId).eq("teacher_id", user.id).maybeSingle();
+  if (!existingMaterial.data) return { error: "Không tìm thấy video cần cập nhật." };
+  const source = readVideoContentUrl(formData, user.id, lessonId);
+  if (source.error || !source.value) return { error: source.error ?? "Không xác định được nguồn video." };
+  const contentUrl = source.value;
   const { error: updateError } = await supabase.from("lesson_materials").update({ title, description: description || null, content_url: contentUrl, duration_minutes: duration, instructions: instructions || null, is_published: isPublished }).eq("id", id).eq("lesson_id", lessonId).eq("material_type", "video");
-  if (updateError) return { error: "Không thể cập nhật video. Vui lòng thử lại." };
+  if (updateError) {
+    console.error("create video error:", updateError);
+    if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
+    return { error: updateError.message };
+  }
+  const { error: deleteCheckpointsError } = await supabase.from("video_checkpoints").delete().eq("material_id", id);
+  if (deleteCheckpointsError) {
+    console.error("create video error:", deleteCheckpointsError);
+    return { error: deleteCheckpointsError.message };
+  }
+  const { error: checkpointError } = await supabase.from("video_checkpoints").insert(checkpointRows(id, checkpoints));
+  if (checkpointError) {
+    console.error("create video error:", checkpointError);
+    if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
+    return { error: checkpointError.message };
+  }
+  if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, existingMaterial.data.content_url ?? "", user.id, lessonId);
   revalidatePath(`/teacher/lessons/${lessonId}`);
   revalidatePath(`/student/lessons/${lessonId}`);
   return { message: "Đã cập nhật video." };
@@ -111,8 +267,10 @@ export async function deleteVideoMaterialAction(_previousState: LessonMaterialSt
   const lessonId = readText(formData, "lesson_id");
   const { supabase, error } = await getOwnedLesson(lessonId);
   if (error) return { error };
+  const existingMaterial = await supabase.from("lesson_materials").select("content_url").eq("id", id).eq("lesson_id", lessonId).eq("teacher_id", (await supabase.auth.getUser()).data.user?.id ?? "").maybeSingle();
   const { error: deleteError } = await supabase.from("lesson_materials").delete().eq("id", id).eq("lesson_id", lessonId).eq("material_type", "video");
   if (deleteError) return { error: "Không thể xóa video. Vui lòng thử lại." };
+  if (existingMaterial.data?.content_url) await removeUploadedVideo(supabase, existingMaterial.data.content_url, (await supabase.auth.getUser()).data.user?.id ?? "", lessonId);
   revalidatePath(`/teacher/lessons/${lessonId}`);
   revalidatePath(`/student/lessons/${lessonId}`);
   return { message: "Đã xóa video." };

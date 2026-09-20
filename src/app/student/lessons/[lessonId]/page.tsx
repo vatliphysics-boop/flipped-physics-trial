@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation";
 import { AppSidebar } from "@/components/AppSidebar";
 import { createClient } from "@/lib/supabase/server";
+import { VideoCheckpointPlayer } from "../../VideoCheckpointPlayer";
+import { classifyVideoSource, isMovVideoSource, resolveVideoSource } from "@/lib/video-source";
 
 const items = [
   { label: "Tổng quan", href: "/student", active: false },
@@ -10,47 +12,10 @@ const items = [
 ];
 
 const stages = [
-  {
-    title: "TRƯỚC GIỜ HỌC",
-    description: "Không gian chuẩn bị trước khi đến lớp.",
-    tone: "blue",
-    materials: [
-      "Video bài học",
-      "Mô phỏng tương tác",
-      "Infographic",
-      "Phiếu học tập số",
-      "Trắc nghiệm chẩn đoán",
-    ],
-  },
-  {
-    title: "TRONG GIỜ HỌC",
-    description: "Không gian hoạt động và khám phá trên lớp.",
-    tone: "green",
-    materials: ["Xử lí dữ liệu", "Thảo luận", "Tình huống vận dụng", "Hoạt động củng cố"],
-  },
-  {
-    title: "SAU GIỜ HỌC",
-    description: "Không gian củng cố và mở rộng sau giờ học.",
-    tone: "orange",
-    materials: [
-      "Bài kiểm tra củng cố",
-      "Tự đánh giá",
-      "Nhật kí học tập",
-      "Phản hồi và điều chỉnh",
-      "Nhiệm vụ vận dụng",
-    ],
-  },
+  { title: "TRƯỚC GIỜ HỌC", description: "Video bài học và câu hỏi kiểm tra giúp em chuẩn bị kiến thức nền.", tone: "blue" },
+  { title: "TRONG GIỜ HỌC", description: "Hoạt động thảo luận, thí nghiệm và giải quyết vấn đề tại lớp.", tone: "green" },
+  { title: "SAU GIỜ HỌC", description: "Củng cố kiến thức và vận dụng vào các bài tập mở rộng.", tone: "orange" },
 ] as const;
-
-function youtubeEmbedUrl(value: string | null) {
-  if (!value) return null;
-  try {
-    const url = new URL(value);
-    let id = url.hostname === "youtu.be" ? url.pathname.slice(1) : url.searchParams.get("v");
-    if (!id && url.hostname.endsWith("youtube.com") && url.pathname.startsWith("/embed/")) id = url.pathname.split("/")[2];
-    return id ? `https://www.youtube.com/embed/${id}` : null;
-  } catch { return null; }
-}
 
 export default async function StudentLessonPage({
   params,
@@ -109,6 +74,38 @@ export default async function StudentLessonPage({
     .order("sort_order", { ascending: true })
     .order("created_at", { ascending: true });
 
+  const playableUrls = new Map<string, string>();
+  for (const video of videos ?? []) {
+    const contentUrl = video.content_url ?? "";
+    const source = classifyVideoSource(contentUrl);
+    if (source.kind !== "invalid" || source.reason !== "youtube") {
+      const resolvedUrl = resolveVideoSource(contentUrl, supabase);
+      if (resolvedUrl) {
+        playableUrls.set(video.id, resolvedUrl);
+      } else {
+        console.error("storage URL failure: unable to resolve video source", contentUrl);
+      }
+    } else if (source.reason === "youtube") {
+      console.error("storage URL failure: YouTube webpage URL cannot be used as HTML5 video source", video.content_url);
+    }
+  }
+
+  const materialIds = (videos ?? []).map((video) => video.id);
+  const { data: checkpointRows } = materialIds.length
+    ? await supabase.from("video_checkpoints").select("id, material_id, checkpoint_percent, question, option_a, option_b, option_c, option_d, correct_option, sort_order").in("material_id", materialIds).order("sort_order", { ascending: true })
+    : { data: [] };
+  const checkpointsByMaterial = new Map<string, { id: string; prompt: string; options: string[]; correctIndex: number; atPercent: number }[]>();
+  for (const row of checkpointRows ?? []) {
+    const current = checkpointsByMaterial.get(row.material_id) ?? [];
+    current.push({ id: row.id, prompt: row.question, options: [row.option_a, row.option_b, row.option_c, row.option_d], correctIndex: ["A", "B", "C", "D"].indexOf(row.correct_option), atPercent: row.checkpoint_percent });
+    checkpointsByMaterial.set(row.material_id, current);
+  }
+  const { data: progressRows } = materialIds.length
+    ? await supabase.from("lesson_material_progress").select("material_id, watched_seconds, answered_checkpoints, is_complete").eq("student_id", user.id).in("material_id", materialIds)
+    : { data: [] };
+  const progressByMaterial = new Map((progressRows ?? []).map((row) => [row.material_id, row]));
+  const beforeComplete = Boolean(videos?.length) && (videos ?? []).every((video) => progressByMaterial.get(video.id)?.is_complete === true);
+
   return (
     <div className="shell">
       <AppSidebar items={items} />
@@ -136,37 +133,30 @@ export default async function StudentLessonPage({
         </section>
 
         <div className="learning-phases">
-          {stages.map((stage) => (
-            <section className={`card stage ${stage.tone === "green" ? "green" : stage.tone === "orange" ? "orange" : ""}`} key={stage.title}>
+          {stages.map((stage, index) => {
+            const locked = index > 0 && !beforeComplete;
+            return <section className={`card stage stage-${stage.tone} ${locked ? "learning-phase-locked" : ""}`} key={stage.title}>
               <div className="stage-heading">
-                <span className="badge">GIAI ĐOẠN</span>
+                <span className="badge">GIAI ĐOẠN {String(index + 1).padStart(2, "0")}</span>
                 <span className="stage-marker">{stage.title}</span>
               </div>
               <h2>{stage.title}</h2>
               <p className="stage-description">{stage.description}</p>
-              {stage.title === "TRƯỚC GIỜ HỌC" && <div className="grid-3 stage-items">
-                {videos?.length ? videos.map((video) => { const embedUrl = youtubeEmbedUrl(video.content_url); return <article className="learning-item video-learning-item" key={video.id}>
-                  {embedUrl ? <div className="video-embed"><iframe src={embedUrl} title={video.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div> : <a className="btn primary video-watch-button" href={video.content_url ?? "#"} target="_blank" rel="noreferrer">Xem video</a>}
-                  <div className="learning-item-heading"><span className="learning-item-icon" aria-hidden="true">▶</span><h3>{video.title}</h3></div>
-                  <p>{video.description || "Chưa có mô tả."}</p>
-                  {video.duration_minutes && <span className="video-meta">Thời lượng: {video.duration_minutes} phút</span>}
-                  {video.instructions && <div className="video-instructions"><strong>Hướng dẫn trước khi xem</strong><p>{video.instructions}</p></div>}
-                </article>; }) : <p className="video-empty">Giáo viên chưa thêm video bài học.</p>}
+              {locked ? <div className="phase-lock-message"><span aria-hidden="true">🔒</span><strong>Hoàn thành giai đoạn trước để mở nội dung này.</strong></div> : stage.title === "TRƯỚC GIỜ HỌC" && <div className="video-learning-list">
+                {videos?.length ? videos.map((video) => {
+                  const progress = progressByMaterial.get(video.id);
+                  const checkpoints = checkpointsByMaterial.get(video.id) ?? [];
+                  return <article className="learning-item video-learning-item" key={video.id}>
+                    <div className="learning-item-heading"><span className="learning-item-icon" aria-hidden="true">▶</span><h3>{video.title}</h3><span className={`video-completion ${progress?.is_complete ? "is-complete" : ""}`}>{progress?.is_complete ? "Đã hoàn thành" : "Chưa hoàn thành"}</span></div>
+                    <p>{video.description || "Chưa có mô tả."}</p>
+                    <div className="video-detail-row"><span>Thời lượng: {video.duration_minutes ? `${video.duration_minutes} phút` : "Theo tiến độ thực tế"}</span><span>Checkpoint: {checkpoints.length}/2</span></div>
+                    {video.instructions && <div className="video-instructions"><strong>Hướng dẫn trước khi xem</strong><p>{video.instructions}</p></div>}
+                    {video.content_url && (playableUrls.get(video.id) ? <VideoCheckpointPlayer materialId={video.id} title={video.title} url={playableUrls.get(video.id)!} isMov={isMovVideoSource(video.content_url)} checkpoints={checkpoints} initialAnswered={Array.isArray(progress?.answered_checkpoints) ? progress.answered_checkpoints as string[] : []} initialSeconds={Number(progress?.watched_seconds ?? 0)} initialComplete={progress?.is_complete === true} /> : <p className="form-alert form-alert-error">Không thể tải video. Vui lòng báo cho giáo viên.</p>)}
+                  </article>;
+                }) : <p className="video-empty">Giáo viên chưa thêm video bài học.</p>}
               </div>}
-              {stage.title !== "TRƯỚC GIỜ HỌC" && <div className="grid-3 stage-items">
-                {stage.materials.map((material) => (
-                  <div className="learning-item" key={material}>
-                    <div className="learning-item-heading">
-                      <span className="learning-item-icon" aria-hidden="true">•</span>
-                      <h3>{material}</h3>
-                    </div>
-                    <p>Giáo viên chưa thêm học liệu.</p>
-                    <span className="learning-status">Chưa có học liệu</span>
-                  </div>
-                ))}
-              </div>}
-            </section>
-          ))}
+            </section>;
+          })}
         </div>
       </main>
     </div>

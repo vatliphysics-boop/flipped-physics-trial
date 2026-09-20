@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DeleteLessonButton } from "./DeleteLessonButton";
+import { LessonClassAssignment } from "./LessonClassAssignment";
 
 type Lesson = {
   id: string;
@@ -9,9 +10,12 @@ type Lesson = {
   status: "draft" | "published";
   created_at: string;
   className: string;
+  class_id: string | null;
 };
 
-export function LessonList({ lessons }: { lessons: Lesson[] }) {
+type TeacherClass = { id: string; name: string };
+
+export function LessonList({ lessons, classes }: { lessons: Lesson[]; classes: TeacherClass[] }) {
   if (!lessons.length) return <p>Bạn chưa tạo bài học nào.</p>;
 
   return (
@@ -25,7 +29,7 @@ export function LessonList({ lessons }: { lessons: Lesson[] }) {
             <span className="lesson-date">{new Date(lesson.created_at).toLocaleDateString("vi-VN")}</span>
           </div>
           <h3>{lesson.title}</h3>
-          <p className="lesson-class-name">Lớp: {lesson.className}</p>
+          <LessonClassAssignment lessonId={lesson.id} classId={lesson.class_id} className={lesson.className} classes={classes} />
           <p className="lesson-description">{lesson.description || "Chưa có mô tả."}</p>
           <div className="lesson-objectives-summary">
             <strong>Mục tiêu học tập</strong>

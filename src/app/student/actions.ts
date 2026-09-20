@@ -8,6 +8,14 @@ export type JoinClassState = {
   message?: string;
 };
 
+export async function saveVideoProgressAction(input: { materialId: string; watchedSeconds: number; completionPercent: number; answeredCheckpoints: string[]; isComplete: boolean }) {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập để lưu tiến độ học tập." };
+  const { error } = await supabase.from("lesson_material_progress").upsert({ material_id: input.materialId, student_id: user.id, watched_seconds: Math.max(0, input.watchedSeconds), completion_percent: Math.min(100, Math.max(0, input.completionPercent)), answered_checkpoints: input.answeredCheckpoints, is_complete: input.isComplete, updated_at: new Date().toISOString() }, { onConflict: "material_id,student_id" });
+  return error ? { error: "Không thể lưu tiến độ học tập." } : { message: "Đã lưu tiến độ." };
+}
+
 function readText(formData: FormData, key: string) {
   const value = formData.get(key);
   return typeof value === "string" ? value.trim() : "";

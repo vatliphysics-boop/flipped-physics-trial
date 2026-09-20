@@ -63,10 +63,11 @@ export default async function TeacherPage() {
         <section className="section dashboard-section">
           <h2>Bài học của tôi</h2>
           <p className="section-sub">Quản lý nội dung bài học theo từng lớp và từng giai đoạn học tập.</p>
-          <LessonList lessons={(lessons ?? []).map((lesson) => ({
+          <LessonList classes={(classes ?? []).map(({ id, name }) => ({ id, name }))} lessons={(lessons ?? []).map((lesson) => ({
             ...lesson,
             learning_objectives: lesson.learning_objectives ?? "",
             className: classNames.get(lesson.class_id ?? "") ?? "Chưa gắn lớp",
+            class_id: lesson.class_id,
           }))} />
         </section>
 

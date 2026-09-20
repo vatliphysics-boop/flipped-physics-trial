@@ -4,6 +4,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { createClient } from "@/lib/supabase/server";
 import { VideoMaterialManager, type VideoMaterial } from "./VideoMaterialManager";
 import { DeleteLessonButton } from "../../DeleteLessonButton";
+import { LessonClassAssignment } from "../../LessonClassAssignment";
 
 const items = [
   { label: "Tổng quan", href: "/teacher" },
@@ -16,42 +17,8 @@ const phases = [
     key: "01",
     title: "TRƯỚC GIỜ HỌC",
     subtitle: "Chuẩn bị nền tảng",
-    description: "Giúp học sinh hình thành kiến thức nền và câu hỏi định hướng trước khi đến lớp.",
+    description: "Thêm video bài học để học sinh chuẩn bị kiến thức nền trước khi đến lớp.",
     tone: "blue",
-    materials: [
-      ["▶", "Video bài học", "Tiếp cận kiến thức nền tảng trước giờ học."],
-      ["◌", "Mô phỏng tương tác", "Khám phá hiện tượng vật lí thông qua tương tác."],
-      ["▦", "Infographic", "Hệ thống hóa kiến thức bằng hình ảnh trực quan."],
-      ["□", "Phiếu học tập số", "Thực hiện nhiệm vụ định hướng trước giờ học."],
-      ["✓", "Trắc nghiệm chẩn đoán", "Tự kiểm tra mức độ hiểu bài và nhận phản hồi."],
-    ],
-  },
-  {
-    key: "02",
-    title: "TRONG GIỜ HỌC",
-    subtitle: "Khám phá và hợp tác",
-    description: "Tổ chức hoạt động học tập hỗ trợ tư duy bậc cao, thảo luận và giải quyết vấn đề.",
-    tone: "green",
-    materials: [
-      ["⌁", "Xử lí dữ liệu", "Phân tích dữ liệu và rút ra kết luận từ hiện tượng vật lí."],
-      ["◎", "Thảo luận nhóm", "Chia sẻ lập luận, lắng nghe và xây dựng hiểu biết chung."],
-      ["◇", "Tình huống vận dụng", "Vận dụng kiến thức để giải quyết vấn đề trong bối cảnh thực tiễn."],
-      ["＋", "Hoạt động củng cố", "Kiểm tra và củng cố hiểu biết ngay trong giờ học."],
-    ],
-  },
-  {
-    key: "03",
-    title: "SAU GIỜ HỌC",
-    subtitle: "Củng cố và tự học",
-    description: "Mở rộng cơ hội tự đánh giá, điều chỉnh cách học và vận dụng kiến thức sau giờ học.",
-    tone: "orange",
-    materials: [
-      ["▤", "Bài kiểm tra củng cố", "Ôn tập và kiểm tra mức độ nắm vững kiến thức."],
-      ["◉", "Tự đánh giá", "Nhìn lại tiến bộ và xác định nội dung cần tiếp tục rèn luyện."],
-      ["✎", "Nhật kí học tập", "Ghi lại suy nghĩ, câu hỏi và kinh nghiệm học tập."],
-      ["↔", "Phản hồi và điều chỉnh", "Sử dụng phản hồi để điều chỉnh chiến lược học tập."],
-      ["↗", "Nhiệm vụ vận dụng", "Mở rộng kiến thức qua nhiệm vụ gắn với thực tiễn."],
-    ],
   },
 ] as const;
 
@@ -74,6 +41,7 @@ export default async function LessonManagementPage({ params }: { params: Promise
   const { data: classItem } = lesson.class_id
     ? await supabase.from("classes").select("name").eq("id", lesson.class_id).eq("teacher_id", user.id).maybeSingle()
     : { data: null };
+  const { data: teacherClasses } = await supabase.from("classes").select("id, name").eq("teacher_id", user.id).order("name");
 
   const { data: videoMaterials } = await supabase
     .from("lesson_materials")
@@ -84,6 +52,16 @@ export default async function LessonManagementPage({ params }: { params: Promise
     .eq("material_type", "video")
     .order("sort_order", { ascending: true })
     .order("created_at", { ascending: true });
+  const materialIds = (videoMaterials ?? []).map((material) => material.id);
+  const { data: checkpointRows } = materialIds.length
+    ? await supabase.from("video_checkpoints").select("id, material_id, checkpoint_percent, question, option_a, option_b, option_c, option_d, correct_option, sort_order").in("material_id", materialIds).order("sort_order", { ascending: true })
+    : { data: [] };
+  const checkpointsByMaterial = new Map<string, VideoMaterial["checkpoint_questions"]>();
+  for (const row of checkpointRows ?? []) {
+    const current = checkpointsByMaterial.get(row.material_id) ?? [];
+    current.push({ id: row.id, prompt: row.question, options: [row.option_a, row.option_b, row.option_c, row.option_d], correctIndex: ["A", "B", "C", "D"].indexOf(row.correct_option), atPercent: row.checkpoint_percent });
+    checkpointsByMaterial.set(row.material_id, current);
+  }
 
   return (
     <div className="shell">
@@ -99,7 +77,10 @@ export default async function LessonManagementPage({ params }: { params: Promise
             <div className="teacher-materials-title-group">
               <span className="eyebrow">Không gian học liệu</span>
               <h1>{lesson.title}</h1>
-              <p className="teacher-materials-class">Lớp: {classItem?.name || "Chưa gắn lớp"}</p>
+              <div className="teacher-materials-context">
+                <span><strong>Bài học:</strong> {lesson.title}</span>
+                <LessonClassAssignment lessonId={lessonId} classId={lesson.class_id} className={classItem?.name || "Chưa gắn lớp"} classes={teacherClasses ?? []} />
+              </div>
               <p className="teacher-materials-description">{lesson.description || "Chưa có mô tả bài học."}</p>
             </div>
             <span className={`teacher-lesson-status teacher-lesson-status-${lesson.status}`}>
@@ -142,22 +123,7 @@ export default async function LessonManagementPage({ params }: { params: Promise
                   <p>{phase.description}</p>
                 </div>
               </div>
-              {phase.key === "01" && <VideoMaterialManager lessonId={lessonId} materials={(videoMaterials ?? []) as VideoMaterial[]} />}
-              {phase.key !== "01" && <div className="teacher-material-grid">
-                {phase.materials.map(([icon, title, purpose]) => (
-                  <article className="teacher-material-card" key={title}>
-                    <div className="teacher-material-icon" aria-hidden="true">{icon}</div>
-                    <div className="teacher-material-content">
-                      <h3>{title}</h3>
-                      <p>{purpose}</p>
-                    </div>
-                    <div className="teacher-material-footer">
-                      <span>Chưa có học liệu</span>
-                      <button className="teacher-add-material" type="button">+ Thêm học liệu</button>
-                    </div>
-                  </article>
-                ))}
-              </div>}
+              <VideoMaterialManager lessonId={lessonId} materials={(videoMaterials ?? []).map((material) => ({ ...material, checkpoint_questions: checkpointsByMaterial.get(material.id) ?? [] })) as VideoMaterial[]} />
             </section>
           ))}
         </div>
