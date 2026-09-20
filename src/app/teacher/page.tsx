@@ -2,6 +2,8 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { LogoutButton } from "@/components/LogoutButton";
 import { ProgressBar } from "@/components/ProgressBar";
 import { StatCard } from "@/components/StatCard";
+import { createClient } from "@/lib/supabase/server";
+import { CreateClassForm } from "./CreateClassForm";
 
 const items = [
   { label: "Tổng quan", href: "/teacher", active: true },
@@ -20,7 +22,19 @@ const lessons = [
   "Ứng dụng và an toàn bức xạ",
 ];
 
-export default function TeacherPage() {
+export default async function TeacherPage() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  const { data: classes } = user
+    ? await supabase
+        .from("classes")
+        .select("id, name, description, join_code, created_at")
+        .eq("teacher_id", user.id)
+        .order("created_at", { ascending: false })
+    : { data: [] };
+
   return (
     <div className="shell">
       <AppSidebar items={items} />
@@ -37,12 +51,40 @@ export default function TeacherPage() {
           </div>
         </div>
 
+        <section className="section">
+          <h2>Tạo lớp học</h2>
+          <CreateClassForm />
+        </section>
+
         <div className="grid-4">
-          <StatCard label="Lớp học" value="03" note="Đang hoạt động" />
-          <StatCard label="Học sinh" value="96" note="Trong các lớp phụ trách" />
-          <StatCard label="Bài học" value="08" note="Thuộc chủ đề Vật lí hạt nhân" />
-          <StatCard label="Đã xuất bản" value="05" note="Sẵn sàng cho học sinh" />
+          <StatCard
+            label="Lớp học"
+            value={String(classes?.length ?? 0).padStart(2, "0")}
+            note="Đang phụ trách"
+          />
         </div>
+
+        <section className="section">
+          <h2>Lớp học của tôi</h2>
+          {classes?.length ? (
+            <div className="grid-3">
+              {classes.map((classItem) => (
+                <div className="card" key={classItem.id}>
+                  <h3>{classItem.name}</h3>
+                  <p>{classItem.description || "Chưa có mô tả."}</p>
+                  <p>
+                    <b>Mã lớp:</b> {classItem.join_code}
+                  </p>
+                  <p>
+                    Ngày tạo: {new Date(classItem.created_at).toLocaleDateString("vi-VN")}
+                  </p>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p>Bạn chưa tạo lớp học nào.</p>
+          )}
+        </section>
 
         <section className="section">
           <h2>Tiến độ chuẩn bị trước giờ học</h2>
