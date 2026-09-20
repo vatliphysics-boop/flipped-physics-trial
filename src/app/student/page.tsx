@@ -3,6 +3,7 @@ import { LogoutButton } from "@/components/LogoutButton";
 import { createClient } from "@/lib/supabase/server";
 import { JoinClassForm } from "./JoinClassForm";
 import { StudentClasses } from "./StudentClasses";
+import { StudentLessonList } from "./StudentLessonList";
 
 const items = [
   { label: "Tổng quan", href: "/student", active: true },
@@ -18,6 +19,28 @@ export default async function StudentPage() {
   const {
     data: { user },
   } = await supabase.auth.getUser();
+
+  const { data: profile } = user
+    ? await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle()
+    : { data: null };
+
+  if (!user || profile?.role !== "student") {
+    return (
+      <div className="shell">
+        <AppSidebar items={items} />
+        <main className="main student-main">
+          <div className="page-title student-header">
+            <div>
+              <span className="eyebrow">Không gian học sinh</span>
+              <h1>Chào em</h1>
+              <p>Vui lòng đăng nhập bằng tài khoản học sinh để xem bài học.</p>
+            </div>
+            <div className="actions dashboard-actions"><LogoutButton /></div>
+          </div>
+        </main>
+      </div>
+    );
+  }
 
   const { data: memberships } = user
     ? await supabase
@@ -42,6 +65,20 @@ export default async function StudentPage() {
         classItem: classesById.get(membership.class_id),
       }))
       .filter((membership) => membership.classItem) ?? [];
+
+  const { data: lessons } = classIds.length
+    ? await supabase
+        .from("lessons")
+        .select("id, title, description, learning_objectives, created_at, class_id")
+        .in("class_id", classIds)
+        .eq("status", "published")
+        .order("created_at", { ascending: false })
+    : { data: [] };
+  const lessonsWithClassNames = (lessons ?? []).map((lesson) => ({
+    ...lesson,
+    learning_objectives: lesson.learning_objectives ?? "",
+    className: classesById.get(lesson.class_id)?.name ?? "Lớp học của em",
+  }));
 
   return (
     <div className="shell">
@@ -73,6 +110,14 @@ export default async function StudentPage() {
             joined_at,
           }))}
         />
+
+        <section className="section student-section">
+          <h2>Bài học của tôi</h2>
+          <p className="section-sub">
+            Các bài học đã được giáo viên xuất bản trong lớp của em.
+          </p>
+          <StudentLessonList lessons={lessonsWithClassNames} />
+        </section>
 
       </main>
     </div>

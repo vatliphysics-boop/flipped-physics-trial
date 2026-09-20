@@ -19,6 +19,11 @@ export type CreateLessonState = {
   message?: string;
 };
 
+export type LessonMaterialState = {
+  error?: string;
+  message?: string;
+};
+
 export type ClassMember = {
   student_id: string;
   full_name: string;
@@ -36,6 +41,94 @@ function generateJoinCode() {
   return Array.from({ length: 6 }, () =>
     JOIN_CODE_CHARACTERS[randomInt(JOIN_CODE_CHARACTERS.length)]
   ).join("");
+}
+
+function isHttpUrl(value: string) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
+async function getOwnedLesson(lessonId: string) {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { supabase, user: null, lesson: null, error: "Bạn cần đăng nhập để quản lý video." };
+  const { data: profile } = await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle();
+  if (profile?.role !== "teacher") return { supabase, user, lesson: null, error: "Bạn không có quyền quản lý video." };
+  const { data: lesson } = await supabase.from("lessons").select("id").eq("id", lessonId).eq("teacher_id", user.id).maybeSingle();
+  if (!lesson) return { supabase, user, lesson: null, error: "Không tìm thấy bài học hoặc bạn không có quyền quản lý bài học này." };
+  return { supabase, user, lesson, error: undefined };
+}
+
+export async function createVideoMaterialAction(_previousState: LessonMaterialState, formData: FormData): Promise<LessonMaterialState> {
+  const lessonId = readText(formData, "lesson_id");
+  const title = readText(formData, "title");
+  const description = readText(formData, "description");
+  const contentUrl = readText(formData, "content_url");
+  const instructions = readText(formData, "instructions");
+  const durationText = readText(formData, "duration_minutes");
+  const isPublished = formData.get("is_published") === "true";
+  if (!lessonId || !title || !contentUrl) return { error: "Vui lòng nhập tiêu đề và link video." };
+  if (!isHttpUrl(contentUrl)) return { error: "Link video phải là URL http hoặc https hợp lệ." };
+  const duration = durationText ? Number(durationText) : null;
+  if (durationText && (duration === null || !Number.isInteger(duration) || duration <= 0)) return { error: "Thời lượng phải là số nguyên dương." };
+  const { supabase, user, error } = await getOwnedLesson(lessonId);
+  if (error || !user) return { error: error ?? "Không thể xác thực giáo viên." };
+  const { error: insertError } = await supabase.from("lesson_materials").insert({ lesson_id: lessonId, teacher_id: user.id, phase: "before_class", material_type: "video", title, description: description || null, content_url: contentUrl, duration_minutes: duration, instructions: instructions || null, is_published: isPublished });
+  if (insertError) return { error: "Không thể tạo video. Vui lòng thử lại." };
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath(`/student/lessons/${lessonId}`);
+  return { message: isPublished ? "Đã thêm và xuất bản video." : "Đã lưu video bản nháp." };
+}
+
+export async function updateVideoMaterialAction(_previousState: LessonMaterialState, formData: FormData): Promise<LessonMaterialState> {
+  const id = readText(formData, "id");
+  const lessonId = readText(formData, "lesson_id");
+  const title = readText(formData, "title");
+  const description = readText(formData, "description");
+  const contentUrl = readText(formData, "content_url");
+  const instructions = readText(formData, "instructions");
+  const durationText = readText(formData, "duration_minutes");
+  const isPublished = formData.get("is_published") === "true";
+  if (!id || !lessonId || !title || !contentUrl) return { error: "Vui lòng nhập đầy đủ tiêu đề và link video." };
+  if (!isHttpUrl(contentUrl)) return { error: "Link video phải là URL http hoặc https hợp lệ." };
+  const duration = durationText ? Number(durationText) : null;
+  if (durationText && (duration === null || !Number.isInteger(duration) || duration <= 0)) return { error: "Thời lượng phải là số nguyên dương." };
+  const { supabase, error } = await getOwnedLesson(lessonId);
+  if (error) return { error };
+  const { error: updateError } = await supabase.from("lesson_materials").update({ title, description: description || null, content_url: contentUrl, duration_minutes: duration, instructions: instructions || null, is_published: isPublished }).eq("id", id).eq("lesson_id", lessonId).eq("material_type", "video");
+  if (updateError) return { error: "Không thể cập nhật video. Vui lòng thử lại." };
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath(`/student/lessons/${lessonId}`);
+  return { message: "Đã cập nhật video." };
+}
+
+export async function deleteVideoMaterialAction(_previousState: LessonMaterialState, formData: FormData): Promise<LessonMaterialState> {
+  const id = readText(formData, "id");
+  const lessonId = readText(formData, "lesson_id");
+  const { supabase, error } = await getOwnedLesson(lessonId);
+  if (error) return { error };
+  const { error: deleteError } = await supabase.from("lesson_materials").delete().eq("id", id).eq("lesson_id", lessonId).eq("material_type", "video");
+  if (deleteError) return { error: "Không thể xóa video. Vui lòng thử lại." };
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath(`/student/lessons/${lessonId}`);
+  return { message: "Đã xóa video." };
+}
+
+export async function toggleVideoMaterialAction(formData: FormData): Promise<LessonMaterialState> {
+  const id = readText(formData, "id");
+  const lessonId = readText(formData, "lesson_id");
+  const nextPublished = readText(formData, "is_published") === "true";
+  const { supabase, error } = await getOwnedLesson(lessonId);
+  if (error) return { error };
+  const { error: updateError } = await supabase.from("lesson_materials").update({ is_published: nextPublished }).eq("id", id).eq("lesson_id", lessonId).eq("material_type", "video");
+  if (updateError) return { error: "Không thể thay đổi trạng thái video." };
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath(`/student/lessons/${lessonId}`);
+  return { message: nextPublished ? "Đã xuất bản video." : "Đã chuyển video về bản nháp." };
 }
 
 export async function createClassAction(
@@ -184,6 +277,55 @@ export async function createLessonAction(
 
   revalidatePath("/teacher");
   return { message: status === "published" ? "Đã xuất bản bài học." : "Đã tạo bài học bản nháp." };
+}
+
+export async function deleteLessonAction(
+  _previousState: ManageClassState,
+  formData: FormData
+): Promise<ManageClassState> {
+  const lessonId = readText(formData, "lesson_id");
+  if (!lessonId) return { error: "Không xác định được bài học cần xóa." };
+
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) return { error: "Bạn cần đăng nhập để xóa bài học." };
+
+  const { data: profile, error: profileError } = await supabase
+    .from("profiles")
+    .select("role")
+    .eq("id", user.id)
+    .maybeSingle();
+
+  if (profileError || profile?.role !== "teacher") {
+    return { error: "Bạn không có quyền xóa bài học." };
+  }
+
+  const { data: lesson, error: lessonLookupError } = await supabase
+    .from("lessons")
+    .select("id")
+    .eq("id", lessonId)
+    .eq("teacher_id", user.id)
+    .maybeSingle();
+
+  if (lessonLookupError || !lesson) {
+    return { error: "Không tìm thấy bài học hoặc bạn không có quyền xóa bài học này." };
+  }
+
+  // lesson_materials.lesson_id uses ON DELETE CASCADE, so deleting this owned
+  // lesson also removes its materials without touching classes or memberships.
+  const { error: deleteError } = await supabase
+    .from("lessons")
+    .delete()
+    .eq("id", lesson.id)
+    .eq("teacher_id", user.id);
+
+  if (deleteError) return { error: "Không thể xóa bài học. Vui lòng thử lại." };
+
+  revalidatePath("/teacher");
+  return { message: "Đã xóa bài học thành công." };
 }
 
 async function getOwnedTeacherClass(classId: string) {

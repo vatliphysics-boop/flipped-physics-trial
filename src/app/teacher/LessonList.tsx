@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DeleteLessonButton } from "./DeleteLessonButton";
 
 type Lesson = {
   id: string;
@@ -33,6 +34,9 @@ export function LessonList({ lessons }: { lessons: Lesson[] }) {
           <Link className="btn lesson-manage-button" href={`/teacher/lessons/${lesson.id}`}>
             Quản lý học liệu
           </Link>
+          <div className="lesson-destructive-action">
+            <DeleteLessonButton lessonId={lesson.id} />
+          </div>
         </article>
       ))}
     </div>
