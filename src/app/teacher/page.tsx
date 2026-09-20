@@ -1,6 +1,5 @@
 import { AppSidebar } from "@/components/AppSidebar";
 import { LogoutButton } from "@/components/LogoutButton";
-import { ProgressBar } from "@/components/ProgressBar";
 import { StatCard } from "@/components/StatCard";
 import { createClient } from "@/lib/supabase/server";
 import { CreateClassForm } from "./CreateClassForm";
@@ -12,14 +11,6 @@ const items = [
   { label: "Bài học", href: "#" },
   { label: "Học liệu số", href: "#" },
   { label: "Theo dõi học sinh", href: "#" },
-];
-
-const lessons = [
-  "Cấu trúc hạt nhân",
-  "Độ hụt khối và năng lượng liên kết",
-  "Hiện tượng phóng xạ",
-  "Phản ứng hạt nhân",
-  "Ứng dụng và an toàn bức xạ",
 ];
 
 export default async function TeacherPage() {
@@ -38,25 +29,26 @@ export default async function TeacherPage() {
   return (
     <div className="shell">
       <AppSidebar items={items} />
-      <main className="main">
-        <div className="page-title">
+      <main className="main dashboard-main">
+        <div className="page-title dashboard-header">
           <div>
             <span className="eyebrow">Không gian giáo viên</span>
             <h1>Tổng quan</h1>
             <p>Theo dõi học liệu và mức độ chuẩn bị của học sinh.</p>
           </div>
-          <div className="actions" style={{ marginTop: 0 }}>
+          <div className="actions dashboard-actions">
             <button className="btn primary">+ Tạo bài học</button>
             <LogoutButton />
           </div>
         </div>
 
-        <section className="section">
+        <section className="section dashboard-section">
           <h2>Tạo lớp học</h2>
+          <p className="section-sub">Tạo không gian học tập cho lớp Vật lí hạt nhân của em.</p>
           <CreateClassForm />
         </section>
 
-        <div className="grid-4">
+        <div className="grid-4 dashboard-stats">
           <StatCard
             label="Lớp học"
             value={String(classes?.length ?? 0).padStart(2, "0")}
@@ -64,20 +56,18 @@ export default async function TeacherPage() {
           />
         </div>
 
-        <section className="section">
+        <section className="section dashboard-section">
           <h2>Lớp học của tôi</h2>
           {classes?.length ? (
             <div className="grid-3">
               {classes.map((classItem) => (
-                <div className="card" key={classItem.id}>
+                <div className="card class-card" key={classItem.id}>
                   <h3>{classItem.name}</h3>
-                  <p>{classItem.description || "Chưa có mô tả."}</p>
-                  <p>
-                    <b>Mã lớp:</b> {classItem.join_code}
-                  </p>
-                  <p>
-                    Ngày tạo: {new Date(classItem.created_at).toLocaleDateString("vi-VN")}
-                  </p>
+                  <p className="class-description">{classItem.description || "Chưa có mô tả."}</p>
+                  <div className="class-meta">
+                    <span className="class-code"><span>Mã lớp</span><strong>{classItem.join_code}</strong></span>
+                    <span><span>Ngày tạo</span><strong>{new Date(classItem.created_at).toLocaleDateString("vi-VN")}</strong></span>
+                  </div>
                 </div>
               ))}
             </div>
@@ -86,44 +76,6 @@ export default async function TeacherPage() {
           )}
         </section>
 
-        <section className="section">
-          <h2>Tiến độ chuẩn bị trước giờ học</h2>
-          <p className="section-sub">
-            Dữ liệu minh họa để thể hiện cách giáo viên theo dõi tiến độ.
-          </p>
-          <div className="list">
-            {[
-              ["Nguyễn Minh Anh", 90],
-              ["Trần Gia Huy", 72],
-              ["Lê Khánh Linh", 55],
-              ["Phạm Nhật Nam", 35],
-            ].map(([name, progress]) => (
-              <div className="row" key={String(name)}>
-                <div style={{ flex: 1 }}>
-                  <b>{name}</b>
-                  <ProgressBar value={Number(progress)} />
-                </div>
-                <b>{progress}%</b>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="section">
-          <h2>Chủ đề Vật lí hạt nhân</h2>
-          <div className="grid-3">
-            {lessons.map((lesson, index) => (
-              <div className="card" key={lesson}>
-                <span className="badge">Bài {index + 1}</span>
-                <h3>{lesson}</h3>
-                <p>
-                  Khung bài học có thể biên tập theo ba giai đoạn của lớp học đảo
-                  ngược.
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
       </main>
     </div>
   );
