@@ -1,8 +1,8 @@
 import { AppSidebar } from "@/components/AppSidebar";
 import { LogoutButton } from "@/components/LogoutButton";
-import { StatCard } from "@/components/StatCard";
 import { createClient } from "@/lib/supabase/server";
 import { JoinClassForm } from "./JoinClassForm";
+import { StudentClasses } from "./StudentClasses";
 
 const items = [
   { label: "Tổng quan", href: "/student", active: true },
@@ -58,43 +58,21 @@ export default async function StudentPage() {
           </div>
         </div>
 
-        <div className="grid-4 student-stats">
-          <StatCard label="Lớp học của tôi" value={String(joinedClasses.length)} note="Đã tham gia" />
-        </div>
-
         <section className="section student-section student-join-section">
           <h2>Tham gia lớp học</h2>
           <p className="section-sub">Nhập mã lớp để truy cập học liệu và hoạt động học tập.</p>
           <JoinClassForm />
         </section>
 
-        <section className="section student-section">
-          <h2>Lớp học của tôi</h2>
-          {joinedClasses.length ? (
-            <div className="grid-3">
-              {joinedClasses.map(({ classItem, joined_at }) => (
-                <div className="card student-class-card" key={classItem!.id}>
-                  <h3>{classItem!.name}</h3>
-                  <p className="student-class-description">
-                    {classItem!.description || "Chưa có mô tả."}
-                  </p>
-                  <div className="student-class-meta">
-                    <span className="class-code">
-                      <span>Mã lớp</span>
-                      <strong>{classItem!.join_code}</strong>
-                    </span>
-                    <span className="class-date">
-                      <span>Ngày tham gia</span>
-                      <strong>{new Date(joined_at).toLocaleDateString("vi-VN")}</strong>
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p>Bạn chưa tham gia lớp học nào.</p>
-          )}
-        </section>
+        <StudentClasses
+          classes={joinedClasses.map(({ classItem, joined_at }) => ({
+            id: classItem!.id,
+            name: classItem!.name,
+            description: classItem!.description,
+            join_code: classItem!.join_code,
+            joined_at,
+          }))}
+        />
 
       </main>
     </div>
