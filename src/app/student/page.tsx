@@ -69,10 +69,11 @@ export default async function StudentPage() {
   const { data: lessons } = classIds.length
     ? await supabase
         .from("lessons")
-        .select("id, title, description, learning_objectives, created_at, class_id")
+        .select("id, title, description, learning_objectives, created_at, class_id, curriculum_code, curriculum_order")
         .in("class_id", classIds)
         .eq("status", "published")
-        .order("created_at", { ascending: false })
+        .not("curriculum_code", "is", null)
+        .order("curriculum_order", { ascending: true, nullsFirst: false })
     : { data: [] };
   const lessonsWithClassNames = (lessons ?? []).map((lesson) => ({
     ...lesson,
@@ -112,7 +113,7 @@ export default async function StudentPage() {
         />
 
         <section className="section student-section">
-          <h2>Bài học của tôi</h2>
+          <h2>Chương IV — Vật lí hạt nhân</h2>
           <p className="section-sub">
             Các bài học đã được giáo viên xuất bản trong lớp của em.
           </p>

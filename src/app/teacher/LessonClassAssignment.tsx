@@ -14,11 +14,13 @@ export function LessonClassAssignment({
   classId,
   className,
   classes,
+  fixed,
 }: {
   lessonId: string;
   classId: string | null;
   className: string;
   classes: TeacherClass[];
+  fixed?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const [assignState, assignAction, assignPending] = useActionState<LessonClassAssignmentState, FormData>(assignLessonToClassAction, {});
@@ -34,13 +36,13 @@ export function LessonClassAssignment({
     <div className="lesson-class-assignment">
       <div className="lesson-class-assignment-row">
         <span className="lesson-class-name">Lớp: {className}</span>
-        {classes.length > 0 && (
+        {!fixed && classes.length > 0 && (
           <button className="lesson-class-link" type="button" onClick={openSelector}>
             {classId ? "Đổi lớp" : "Gắn vào lớp"}
           </button>
         )}
       </div>
-      {open && (
+      {!fixed && open && (
         <form action={assignAction} className="lesson-class-assignment-form" onSubmit={(event) => {
           if (classId && !window.confirm("Bạn có chắc muốn chuyển bài học này sang lớp đã chọn?\nHọc sinh ở lớp cũ sẽ không còn truy cập bài học sau khi chuyển.")) {
             event.preventDefault();
@@ -59,7 +61,7 @@ export function LessonClassAssignment({
           </div>
         </form>
       )}
-      {classId && !open && (
+      {!fixed && classId && !open && (
         <form action={removeAction} className="lesson-class-remove-form" onSubmit={(event) => { if (!window.confirm("Bạn có chắc muốn bỏ gắn lớp cho bài học này không?")) event.preventDefault(); }}>
           <input type="hidden" name="lesson_id" value={lessonId} />
           <button className="lesson-class-link lesson-class-remove" type="submit" disabled={removePending}>{removePending ? "Đang xử lý..." : "Bỏ gắn lớp"}</button>

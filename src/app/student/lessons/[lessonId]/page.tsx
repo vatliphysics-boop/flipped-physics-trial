@@ -3,6 +3,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { createClient } from "@/lib/supabase/server";
 import { VideoCheckpointPlayer } from "../../VideoCheckpointPlayer";
 import { classifyVideoSource, isMovVideoSource, resolveVideoSource } from "@/lib/video-source";
+import { getCurriculumLesson } from "@/lib/curriculum";
 
 const items = [
   { label: "Tổng quan", href: "/student", active: false },
@@ -40,7 +41,7 @@ export default async function StudentLessonPage({
 
   const { data: lesson } = await supabase
     .from("lessons")
-    .select("id, title, description, learning_objectives, status, class_id")
+    .select("id, title, description, learning_objectives, status, class_id, curriculum_code, activity_key, homework_title, homework_description, homework_instructions, homework_due_date, homework_status")
     .eq("id", lessonId)
     .eq("status", "published")
     .maybeSingle();
@@ -63,6 +64,9 @@ export default async function StudentLessonPage({
     .maybeSingle();
 
   if (!classItem) redirect("/student");
+
+  const curriculumLesson = getCurriculumLesson(lesson.curriculum_code);
+  if (!curriculumLesson) redirect("/student");
 
   const { data: videos } = await supabase
     .from("lesson_materials")
@@ -112,7 +116,7 @@ export default async function StudentLessonPage({
       <main className="main dashboard-main learning-page">
         <div className="lesson-hero">
           <div>
-            <span className="eyebrow">Bài học của em</span>
+            <span className="eyebrow">Chương IV — Vật lí hạt nhân · {lesson.curriculum_code ?? "Bài học của em"}</span>
             <h1>{lesson.title}</h1>
             <p className="lesson-description">
               {lesson.description || "Chưa có mô tả."}
@@ -130,6 +134,7 @@ export default async function StudentLessonPage({
             <span className="eyebrow">Mục tiêu học tập</span>
             <p>{lesson.learning_objectives || "Chưa có mục tiêu học tập."}</p>
           </div>
+          <div className="card lesson-objective"><span className="eyebrow">Hoạt động cố định</span><h2>{curriculumLesson.activityTitle}</h2><p>{curriculumLesson.concepts.join(" · ")}</p></div>
         </section>
 
         <div className="learning-phases">
@@ -158,6 +163,7 @@ export default async function StudentLessonPage({
             </section>;
           })}
         </div>
+        {lesson.homework_status === "published" && <section className="card homework-student-card"><span className="eyebrow">SAU GIỜ HỌC</span><h2>{lesson.homework_title || "Bài tập của em"}</h2><p>{lesson.homework_description || "Giáo viên chưa thêm nội dung chi tiết."}</p>{lesson.homework_instructions && <div className="video-instructions"><strong>Hướng dẫn</strong><p>{lesson.homework_instructions}</p></div>}{lesson.homework_due_date && <span className="video-meta">Hạn nộp: {new Date(`${lesson.homework_due_date}T00:00:00`).toLocaleDateString("vi-VN")}</span>}</section>}
       </main>
     </div>
   );

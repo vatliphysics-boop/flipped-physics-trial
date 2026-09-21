@@ -126,8 +126,9 @@ async function getTeacherForLessonAssignment(lessonId: string, classId?: string)
   if (!user) return { supabase, user: null, error: "Bạn cần đăng nhập để gắn lớp cho bài học." };
   const { data: profile } = await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle();
   if (profile?.role !== "teacher") return { supabase, user, error: "Bạn không có quyền gắn lớp cho bài học." };
-  const { data: lesson } = await supabase.from("lessons").select("id").eq("id", lessonId).eq("teacher_id", user.id).maybeSingle();
+  const { data: lesson } = await supabase.from("lessons").select("id, curriculum_code").eq("id", lessonId).eq("teacher_id", user.id).maybeSingle();
   if (!lesson) return { supabase, user, error: "Không tìm thấy bài học hoặc bạn không có quyền quản lý bài học này." };
+  if (lesson.curriculum_code) return { supabase, user, error: "Bài học cố định luôn thuộc lớp đã được tạo và không thể chuyển lớp." };
   if (classId) {
     const { data: classItem } = await supabase.from("classes").select("id").eq("id", classId).eq("teacher_id", user.id).maybeSingle();
     if (!classItem) return { supabase, user, error: "Lớp học không tồn tại hoặc không thuộc quyền quản lý của bạn." };
@@ -289,6 +290,34 @@ export async function toggleVideoMaterialAction(formData: FormData): Promise<Les
   return { message: nextPublished ? "Đã xuất bản video." : "Đã chuyển video về bản nháp." };
 }
 
+export async function updateHomeworkAction(_previousState: LessonMaterialState, formData: FormData): Promise<LessonMaterialState> {
+  const lessonId = readText(formData, "lesson_id");
+  const title = readText(formData, "homework_title");
+  const description = readText(formData, "homework_description");
+  const instructions = readText(formData, "homework_instructions");
+  const dueDate = readText(formData, "homework_due_date") || null;
+  const status = readText(formData, "homework_status");
+  if (!lessonId) return { error: "Không xác định được bài học." };
+  if (status !== "draft" && status !== "published") return { error: "Trạng thái bài tập không hợp lệ." };
+  if (status === "published" && !title) return { error: "Vui lòng nhập tiêu đề trước khi xuất bản bài tập." };
+  if (dueDate && !/^\d{4}-\d{2}-\d{2}$/.test(dueDate)) return { error: "Hạn nộp không hợp lệ." };
+  if (dueDate) {
+    const parsedDueDate = new Date(`${dueDate}T00:00:00Z`);
+    if (Number.isNaN(parsedDueDate.getTime()) || parsedDueDate.toISOString().slice(0, 10) !== dueDate) {
+      return { error: "Hạn nộp không hợp lệ." };
+    }
+  }
+  const { supabase, error } = await getOwnedLesson(lessonId);
+  if (error) return { error };
+  const { data: fixedLesson } = await supabase.from("lessons").select("curriculum_code").eq("id", lessonId).maybeSingle();
+  if (!fixedLesson?.curriculum_code) return { error: "Bài học này chưa thuộc chương trình cố định." };
+  const { error: updateError } = await supabase.from("lessons").update({ homework_title: title, homework_description: description, homework_instructions: instructions, homework_due_date: dueDate, homework_status: status }).eq("id", lessonId);
+  if (updateError) return { error: "Không thể lưu bài tập. Vui lòng thử lại." };
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath(`/student/lessons/${lessonId}`);
+  return { message: status === "published" ? "Đã xuất bản bài tập." : "Đã lưu bài tập bản nháp." };
+}
+
 export async function createClassAction(
   _previousState: CreateClassState,
   formData: FormData
@@ -342,99 +371,9 @@ export async function createClassAction(
 
 export async function createLessonAction(
   _previousState: CreateLessonState,
-  formData: FormData
+  _formData: FormData
 ): Promise<CreateLessonState> {
-  const classId = readText(formData, "class_id");
-  const title = readText(formData, "title");
-  const description = readText(formData, "description");
-  const learningObjectives = readText(formData, "learning_objectives");
-  const status = readText(formData, "status");
-
-  if (!classId) return { error: "Vui lòng chọn lớp học." };
-  if (!title) return { error: "Vui lòng nhập tên bài học." };
-  if (!learningObjectives) return { error: "Vui lòng nhập mục tiêu học tập." };
-  if (status !== "draft" && status !== "published") {
-    return { error: "Trạng thái bài học không hợp lệ." };
-  }
-
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) return { error: "Bạn cần đăng nhập để tạo bài học." };
-
-  const { data: profile, error: profileError } = await supabase
-    .from("profiles")
-    .select("role")
-    .eq("id", user.id)
-    .single();
-
-  if (profileError || profile?.role !== "teacher") {
-    return { error: "Bạn không có quyền tạo bài học." };
-  }
-
-  const { data: classItem, error: classError } = await supabase
-    .from("classes")
-    .select("id")
-    .eq("id", classId)
-    .eq("teacher_id", user.id)
-    .maybeSingle();
-
-  if (classError || !classItem) {
-    return { error: "Bạn không có quyền tạo bài học cho lớp này." };
-  }
-
-  const { data: existingTopic, error: topicLookupError } = await supabase
-    .from("topics")
-    .select("id")
-    .eq("teacher_id", user.id)
-    .eq("title", "Vật lí hạt nhân")
-    .maybeSingle();
-
-  if (topicLookupError) {
-    console.error("create lesson error:", topicLookupError);
-    return { error: topicLookupError.message };
-  }
-
-  let topicId = existingTopic?.id;
-  if (!topicId) {
-    const { data: createdTopic, error: topicCreateError } = await supabase
-      .from("topics")
-      .insert({
-        teacher_id: user.id,
-        title: "Vật lí hạt nhân",
-        description: "Chủ đề Vật lí hạt nhân cho các bài học của giáo viên.",
-      })
-      .select("id")
-      .single();
-
-    if (topicCreateError || !createdTopic) {
-      const error = topicCreateError ?? new Error("Không thể tạo chủ đề bài học.");
-      console.error("create lesson error:", error);
-      return { error: error.message };
-    }
-
-    topicId = createdTopic.id;
-  }
-
-  const { error: insertError } = await supabase.from("lessons").insert({
-    topic_id: topicId,
-    class_id: classId,
-    teacher_id: user.id,
-    title,
-    description,
-    learning_objectives: learningObjectives,
-    status,
-  });
-
-  if (insertError) {
-    console.error("create lesson error:", insertError);
-    return { error: insertError.message };
-  }
-
-  revalidatePath("/teacher");
-  return { message: status === "published" ? "Đã xuất bản bài học." : "Đã tạo bài học bản nháp." };
+  return { error: "Bài học được tạo tự động theo chương trình Vật lí hạt nhân cố định." };
 }
 
 export async function deleteLessonAction(
@@ -463,13 +402,16 @@ export async function deleteLessonAction(
 
   const { data: lesson, error: lessonLookupError } = await supabase
     .from("lessons")
-    .select("id")
+    .select("id, curriculum_code")
     .eq("id", lessonId)
     .eq("teacher_id", user.id)
     .maybeSingle();
 
   if (lessonLookupError || !lesson) {
     return { error: "Không tìm thấy bài học hoặc bạn không có quyền xóa bài học này." };
+  }
+  if (lesson.curriculum_code) {
+    return { error: "Bài học cố định không thể bị xóa." };
   }
 
   // lesson_materials.lesson_id uses ON DELETE CASCADE, so deleting this owned

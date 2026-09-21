@@ -7,6 +7,8 @@ export type StudentLesson = {
   learning_objectives: string;
   created_at: string;
   className: string;
+  curriculum_code?: string | null;
+  curriculum_order?: number | null;
 };
 
 export function StudentLessonList({ lessons }: { lessons: StudentLesson[] }) {
@@ -19,7 +21,7 @@ export function StudentLessonList({ lessons }: { lessons: StudentLesson[] }) {
       {lessons.map((lesson) => (
         <article className="card lesson-card" key={lesson.id}>
           <div className="lesson-card-heading">
-            <span className="lesson-status lesson-status-published">Đã xuất bản</span>
+            <span className="lesson-status lesson-status-published">Đã xuất bản</span><span className="curriculum-code">{lesson.curriculum_code ?? "HỌC LIỆU"}</span>
             <span className="lesson-date">
               {new Date(lesson.created_at).toLocaleDateString("vi-VN")}
             </span>

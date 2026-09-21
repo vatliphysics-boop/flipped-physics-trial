@@ -5,6 +5,8 @@ import { createClient } from "@/lib/supabase/server";
 import { VideoMaterialManager, type VideoMaterial } from "./VideoMaterialManager";
 import { DeleteLessonButton } from "../../DeleteLessonButton";
 import { LessonClassAssignment } from "../../LessonClassAssignment";
+import { HomeworkManager } from "../../HomeworkManager";
+import { getCurriculumLesson } from "@/lib/curriculum";
 
 const items = [
   { label: "Tổng quan", href: "/teacher" },
@@ -31,12 +33,13 @@ export default async function LessonManagementPage({ params }: { params: Promise
 
   const { data: lesson } = await supabase
     .from("lessons")
-    .select("id, title, description, learning_objectives, status, class_id")
+    .select("id, title, description, learning_objectives, status, class_id, curriculum_code, activity_key, homework_title, homework_description, homework_instructions, homework_due_date, homework_status")
     .eq("id", lessonId)
     .eq("teacher_id", user.id)
     .maybeSingle();
 
   if (!lesson) notFound();
+  const curriculumLesson = getCurriculumLesson(lesson.curriculum_code);
 
   const { data: classItem } = lesson.class_id
     ? await supabase.from("classes").select("name").eq("id", lesson.class_id).eq("teacher_id", user.id).maybeSingle()
@@ -79,16 +82,14 @@ export default async function LessonManagementPage({ params }: { params: Promise
               <h1>{lesson.title}</h1>
               <div className="teacher-materials-context">
                 <span><strong>Bài học:</strong> {lesson.title}</span>
-                <LessonClassAssignment lessonId={lessonId} classId={lesson.class_id} className={classItem?.name || "Chưa gắn lớp"} classes={teacherClasses ?? []} />
+                  <LessonClassAssignment fixed={Boolean(lesson.curriculum_code)} lessonId={lessonId} classId={lesson.class_id} className={classItem?.name || "Chưa gắn lớp"} classes={teacherClasses ?? []} />
               </div>
               <p className="teacher-materials-description">{lesson.description || "Chưa có mô tả bài học."}</p>
             </div>
             <span className={`teacher-lesson-status teacher-lesson-status-${lesson.status}`}>
               {lesson.status === "published" ? "Đã xuất bản" : "Bản nháp"}
             </span>
-            <div className="teacher-lesson-delete">
-              <DeleteLessonButton lessonId={lessonId} redirectOnSuccess />
-            </div>
+            {lesson.curriculum_code ? <span className="curriculum-fixed-badge">Bài học cố định · {lesson.curriculum_code}</span> : <div className="teacher-lesson-delete"><DeleteLessonButton lessonId={lessonId} redirectOnSuccess /></div>}
           </div>
         </header>
 
@@ -98,6 +99,7 @@ export default async function LessonManagementPage({ params }: { params: Promise
             <h2>Mục tiêu học tập</h2>
           </div>
           <p>{lesson.learning_objectives || "Chưa có mục tiêu học tập."}</p>
+          {curriculumLesson && <div className="fixed-activity-summary"><strong>{curriculumLesson.activityTitle}</strong><span>{curriculumLesson.concepts.join(" · ")}</span></div>}
         </section>
 
         <nav className="learning-journey-nav" aria-label="Các giai đoạn học tập">
@@ -124,6 +126,7 @@ export default async function LessonManagementPage({ params }: { params: Promise
                 </div>
               </div>
               <VideoMaterialManager lessonId={lessonId} materials={(videoMaterials ?? []).map((material) => ({ ...material, checkpoint_questions: checkpointsByMaterial.get(material.id) ?? [] })) as VideoMaterial[]} />
+              {lesson.curriculum_code && <HomeworkManager lessonId={lessonId} initial={{ title: lesson.homework_title ?? "", description: lesson.homework_description ?? "", instructions: lesson.homework_instructions ?? "", dueDate: lesson.homework_due_date, status: lesson.homework_status === "published" ? "published" : "draft" }} />}
             </section>
           ))}
         </div>

@@ -1,19 +1,17 @@
+import Link from "next/link";
 import { AppSidebar } from "@/components/AppSidebar";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StatCard } from "@/components/StatCard";
 import { createClient } from "@/lib/supabase/server";
 import { CreateClassForm } from "./CreateClassForm";
 import { ClassManagement } from "./ClassManagement";
-import { LessonCreationPanel } from "./LessonCreationPanel";
-import { LessonList } from "./LessonList";
 import type { ClassMember } from "./actions";
 
 const items = [
   { label: "Tổng quan", href: "/teacher", active: true },
   { label: "Lớp học", href: "#" },
-  { label: "Chủ đề", href: "#" },
-  { label: "Bài học", href: "#" },
-  { label: "Học liệu số", href: "#" },
+  { label: "Chương trình", href: "#" },
+  { label: "Học liệu", href: "#" },
   { label: "Theo dõi học sinh", href: "#" },
 ];
 
@@ -29,14 +27,6 @@ export default async function TeacherPage() {
         .eq("teacher_id", user.id)
         .order("created_at", { ascending: false })
     : { data: [] };
-  const { data: lessons } = user
-    ? await supabase
-        .from("lessons")
-        .select("id, title, description, learning_objectives, status, created_at, class_id")
-        .eq("teacher_id", user.id)
-        .order("created_at", { ascending: false })
-    : { data: [] };
-  const classNames = new Map(classes?.map((classItem) => [classItem.id, classItem.name]) ?? []);
 
   return (
     <div className="shell">
@@ -49,7 +39,6 @@ export default async function TeacherPage() {
             <p>Theo dõi học liệu và mức độ chuẩn bị của học sinh.</p>
           </div>
           <div className="actions dashboard-actions">
-            <LessonCreationPanel classes={(classes ?? []).map(({ id, name }) => ({ id, name }))} />
             <LogoutButton />
           </div>
         </div>
@@ -60,16 +49,7 @@ export default async function TeacherPage() {
           <CreateClassForm />
         </section>
 
-        <section className="section dashboard-section">
-          <h2>Bài học của tôi</h2>
-          <p className="section-sub">Quản lý nội dung bài học theo từng lớp và từng giai đoạn học tập.</p>
-          <LessonList classes={(classes ?? []).map(({ id, name }) => ({ id, name }))} lessons={(lessons ?? []).map((lesson) => ({
-            ...lesson,
-            learning_objectives: lesson.learning_objectives ?? "",
-            className: classNames.get(lesson.class_id ?? "") ?? "Chưa gắn lớp",
-            class_id: lesson.class_id,
-          }))} />
-        </section>
+        <section className="section dashboard-section"><h2>Chương trình Vật lí hạt nhân</h2><p className="section-sub">Chọn một lớp để quản lý năm bài học cố định và học liệu riêng của lớp.</p></section>
 
         <div className="grid-4 dashboard-stats">
           <StatCard
@@ -103,6 +83,7 @@ export default async function TeacherPage() {
                     description={classItem.description}
                     initialMembers={initialMembers}
                   />
+                  <Link className="btn primary curriculum-class-link" href={`/teacher/classes/${classItem.id}/curriculum`}>Mở chương trình lớp học</Link>
                 </div>
                 );
               })}
