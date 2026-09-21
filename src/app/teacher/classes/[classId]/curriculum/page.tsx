@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import { AppSidebar } from "@/components/AppSidebar";
 import { LogoutButton } from "@/components/LogoutButton";
 import { createClient } from "@/lib/supabase/server";
-import { NUCLEAR_PHYSICS_CURRICULUM } from "@/lib/curriculum";
+import { GRADE_12_CURRICULUM } from "@/lib/curriculum";
 
 const items = [
   { label: "Tổng quan", href: "/teacher" },
@@ -35,19 +35,24 @@ export default async function TeacherCurriculumPage({ params }: { params: Promis
     <AppSidebar items={items} />
     <main className="main dashboard-main curriculum-page">
       <div className="page-title dashboard-header">
-        <div><Link href="/teacher" className="back-link">← Lớp học</Link><span className="eyebrow">Chương trình cố định</span><h1>CHƯƠNG IV — VẬT LÍ HẠT NHÂN</h1><p>{classItem.name} · {classItem.description || "Cấu hình học liệu theo lớp học và năm học."}</p></div>
+        <div><div className="breadcrumbs"><Link href="/teacher">Lớp học</Link><span>›</span><strong>{classItem.name}</strong><span>›</span><strong>Chương trình</strong></div><span className="eyebrow">Chương trình cố định</span><h1>Chương trình Vật lí 12</h1><p>{classItem.name} · {classItem.description || "Quản lý học liệu theo lớp học và năm học."}</p></div>
         <LogoutButton />
       </div>
-      <section className="curriculum-intro card"><strong>Năm bài học chuẩn Grade 12</strong><p>Danh tính, thứ tự và hoạt động cố định. Thầy cô chỉ thay đổi học liệu, video, checkpoint và bài tập của lớp này.</p></section>
-      <section className="curriculum-list" aria-label="Năm bài học Vật lí hạt nhân">
-        {NUCLEAR_PHYSICS_CURRICULUM.map((fixedLesson) => {
-          const lesson = lessonsByCode.get(fixedLesson.code);
-          return <article className="card curriculum-row" key={fixedLesson.code}>
-            <div className="curriculum-number">{String(fixedLesson.order).padStart(2, "0")}</div>
-            <div className="curriculum-main"><span className="curriculum-code">{fixedLesson.code}</span><h2>{fixedLesson.title}</h2><p>{fixedLesson.activityTitle}</p></div>
-            <div className="curriculum-meta"><span className={`lesson-status lesson-status-${lesson?.status ?? "draft"}`}>{lesson?.status === "published" ? "Đã xuất bản" : "Bản nháp"}</span><span>{lesson?.homework_title ? "Có bài tập" : "Chưa có bài tập"}</span><Link className="btn primary" href={lesson ? `/teacher/lessons/${lesson.id}` : `/teacher`}>Quản lý học liệu</Link></div>
-          </article>;
-        })}
+      <section className="curriculum-intro card"><strong>Bốn chương, hai mươi lăm bài học chuẩn</strong><p>Danh tính và thứ tự bài học là cố định. Thầy cô chỉ thay đổi học liệu, video, checkpoint và bài tập của lớp này.</p></section>
+      <section className="curriculum-chapters" aria-label="Chương trình Vật lí 12">
+        {GRADE_12_CURRICULUM.map((chapter) => <section className="curriculum-chapter" key={chapter.code}>
+          <div className="section-heading"><div><span className="chapter-kicker">CHƯƠNG {chapter.code}</span><h2>{chapter.title}</h2></div><span className="muted">{chapter.lessons.length} bài học</span></div>
+          <div className="curriculum-list">
+            {chapter.lessons.map((fixedLesson) => {
+              const lesson = lessonsByCode.get(fixedLesson.code);
+              return <article className="card curriculum-row" key={fixedLesson.code}>
+                <div className="curriculum-number">{String(fixedLesson.order).padStart(2, "0")}</div>
+                <div className="curriculum-main"><span className="curriculum-code">{fixedLesson.code}</span><h2>{fixedLesson.title}</h2><p>Trạng thái học liệu: {lesson?.status === "published" ? "Đã xuất bản" : lesson ? "Bản nháp" : "Chưa có học liệu"}</p></div>
+                <div className="curriculum-meta"><span className={`lesson-status lesson-status-${lesson?.status ?? "draft"}`}>{lesson?.status === "published" ? "Đã xuất bản" : lesson ? "Bản nháp" : "Chưa có học liệu"}</span><Link className="btn primary" href={lesson ? `/teacher/lessons/${lesson.id}` : `/teacher`}>Quản lý học liệu →</Link></div>
+              </article>;
+            })}
+          </div>
+        </section>)}
       </section>
     </main>
   </div>;

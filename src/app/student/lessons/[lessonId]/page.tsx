@@ -6,10 +6,10 @@ import { classifyVideoSource, isMovVideoSource, resolveVideoSource } from "@/lib
 import { getCurriculumLesson } from "@/lib/curriculum";
 
 const items = [
-  { label: "Tổng quan", href: "/student", active: false },
-  { label: "Lớp học của em", href: "/student" },
-  { label: "Bài học của em", href: "/student", active: true },
-  { label: "Nhật ký học tập", href: "#" },
+  { label: "Tổng quan", href: "/student" },
+  { label: "Chương trình học", href: "/student/curriculum", active: true },
+  { label: "Lớp học của em", href: "/student#student-classes" },
+  { label: "Nhật kí học tập", href: "/student#learning-log" },
 ];
 
 const stages = [
@@ -86,11 +86,7 @@ export default async function StudentLessonPage({
       const resolvedUrl = resolveVideoSource(contentUrl, supabase);
       if (resolvedUrl) {
         playableUrls.set(video.id, resolvedUrl);
-      } else {
-        console.error("storage URL failure: unable to resolve video source", contentUrl);
       }
-    } else if (source.reason === "youtube") {
-      console.error("storage URL failure: YouTube webpage URL cannot be used as HTML5 video source", video.content_url);
     }
   }
 
