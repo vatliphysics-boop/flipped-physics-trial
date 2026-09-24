@@ -86,3 +86,16 @@ The visual foundation is laid down for the shell and dashboards. The next phase 
 
 # NEXT TASK
 Teacher Experience Q/A and Simulation refinements.
+
+# SESSION 5D RESULT: STUDENT ROUTE + SHELL UNIFICATION
+- **ROOT CAUSE**: `globals.css` had a critical CSS parse error — `.portal-drawer` block was unclosed (missing `}`), causing all subsequent rules (auth, physics, forms) to be parsed as nested rules or ignored. Also, `page-header`, `page-kicker`, `page-description` CSS classes referenced by `StudentShell` were not defined in globals.css, so page headings had no styling.
+- **CSS FIX**: Fixed the broken `.portal-drawer` block, restored all removed utility classes (auth/physics/forms) in correct order, and added `.page-header`, `.page-kicker`, `.page-description` CSS.
+- **SHELL UNIFICATION**: Every student route now flows through a single `StudentShell → PortalShell[data-role="student"]` pipeline. No more divergent shells.
+- **NAVIGATION LABELS**: Updated to spec: "Lớp học của em", "Chương trình Vật lí 12", "Bài tập và kiểm tra", "Nhật kí học tập".
+- **ROUTE MAP**: /student → overview, /student/classes → classes, /student/curriculum → curriculum, /student/assignments → assignments, /student/journal → journal. All use real Next.js Links, no anchors.
+- **DASHBOARD CLEANUP**: Removed redundant kicker, streamlined to Learning Focus + Upcoming Tasks. Short, scannable.
+- **EYEBROW PROP**: Added `eyebrow` prop to StudentShell for per-page kicker customization (curriculum/chapter show "Vật lí 12").
+- **TYPECHECK**: PASS. **LINT**: PASS. **BUILD**: PASS.
+
+# NEXT TASK
+Teacher Experience Q/A and Simulation refinements.
