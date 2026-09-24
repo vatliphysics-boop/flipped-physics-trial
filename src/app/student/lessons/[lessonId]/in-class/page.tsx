@@ -6,7 +6,7 @@ import { PhysicsActivityList } from "@/components/physics/FixedPhysicsActivityRe
 
 export default async function StudentInClassPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
-  const { lesson, classItem, curriculum } = await getStudentLesson(lessonId);
+  const { lesson, curriculum } = await getStudentLesson(lessonId);
   
   const cleanTitle = lesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "");
 

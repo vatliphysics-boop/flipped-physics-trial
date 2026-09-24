@@ -59,5 +59,16 @@ The visual foundation is laid down for the shell and dashboards. The next phase 
 - **Before-Class Video (`/before-class`)**: Replaced generic card and popup dialogs. Built an immersive video player wrapper (`VideoCheckpointPlayer`) with a dark theater mode and absolute-positioned seamless checkpoint overlays.
 - **In-Class & After-Class (`/in-class`, `/after-class`)**: Eliminated legacy panels, transitioning physics labs and assignment viewers to 1000-1200px focused clean widths with direct content emphasis.
 
+# SESSION 5B RESULT: STUDENT INFORMATION ARCHITECTURE RESET
+- **STUDENT ROUTES & PAGE RESPONSIBILITIES**: Separated student pages correctly into distinct routes so that each menu maps to an independent page.
+- **DASHBOARD CONTENT**: `/student` only shows Learning Focus and Upcoming Task Summary. Removed classes, curriculum, assignments, and journal from here.
+- **CLASSES CONTENT**: `/student/classes` only shows the Join Class form and the Class List. Unused files (`StudentClasses.tsx`) have been removed.
+- **CURRICULUM CONTENT**: `/student/curriculum` only shows the 4 chapters in an academic list-row style. No chapter cards. 
+- **ASSIGNMENTS CONTENT**: `/student/assignments` displays the assignments list correctly.
+- **JOURNAL CONTENT**: `/student/journal` lists learning journals independently.
+- **SIDEBAR CHANGES**: Refined `.portal-nav` in `globals.css` with a clean white background, `#E7EAF0` right border, and added a blue left indicator for the active route to remove the previous heavy admin look.
+- **TYPECHECK & LINT**: Removed unused variables across several files. Typecheck passes with 0 errors, and ESLint has 0 warnings.
+- **BUILD**: Passes successfully.
+
 # NEXT TASK
 Visual Q/A for Teacher Experience and Simulation refinements.

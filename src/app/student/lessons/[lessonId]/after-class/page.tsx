@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { PortalShell } from "@/components/PortalShell";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StudentLessonHeader } from "../../StudentLessonHeader";
@@ -6,7 +5,7 @@ import { getStudentLesson } from "@/lib/student-lesson";
 
 export default async function StudentAssessmentPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
-  const { lesson, classItem } = await getStudentLesson(lessonId);
+  const { lesson } = await getStudentLesson(lessonId);
   const published = lesson.homework_status === "published" && (lesson.homework_title || lesson.homework_description || lesson.homework_instructions);
   
   const cleanTitle = lesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "");

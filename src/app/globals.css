@@ -156,6 +156,7 @@ p { margin-top: 0; margin-bottom: 1em; }
   font-size: 14px;
   font-weight: 500;
   transition: background-color 0.15s, color 0.15s;
+  position: relative;
 }
 
 .portal-nav a:hover {
@@ -167,6 +168,18 @@ p { margin-top: 0; margin-bottom: 1em; }
   background-color: var(--nav-active-bg, #EFF6FF); /* blue-50 */
   color: var(--color-primary);
   font-weight: 600;
+}
+
+.portal-shell[data-role="student"] .portal-nav a.is-active::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 24px;
+  background-color: var(--color-primary);
+  border-radius: 0 4px 4px 0;
 }
 
 .shell-content-wrapper {

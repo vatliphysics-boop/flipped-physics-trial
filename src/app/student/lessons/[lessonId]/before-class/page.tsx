@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { PortalShell } from "@/components/PortalShell";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StudentLessonHeader } from "../../StudentLessonHeader";
@@ -8,7 +7,7 @@ import { createSignedVideoUrl, classifyVideoSource, isMovVideoSource } from "@/l
 
 export default async function StudentBeforeClassPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
-  const { supabase, user, lesson, classItem } = await getStudentLesson(lessonId);
+  const { supabase, user, lesson } = await getStudentLesson(lessonId);
   const { data: videos } = await supabase.from("lesson_materials").select("id, title, description, content_url, duration_minutes, instructions").eq("lesson_id", lessonId).eq("phase", "before_class").eq("material_type", "video").eq("is_published", true).order("sort_order").order("created_at");
   const ids = (videos ?? []).map((video) => video.id);
   const [{ data: progress }, { data: checkpoints }, { data: attempts }] = await Promise.all([

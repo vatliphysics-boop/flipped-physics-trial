@@ -5,7 +5,7 @@ import { refreshSignedVideoUrlAction, saveVideoProgressAction, submitVideoCheckp
 
 type Checkpoint = { id: string; prompt: string; options: string[]; atPercent: number };
 
-export function VideoCheckpointPlayer({ materialId, title, url, isMov = false, checkpoints, initialAnswered, initialSeconds }: { materialId: string; title: string; url: string; isMov?: boolean; checkpoints: Checkpoint[]; initialAnswered: string[]; initialSeconds: number }) {
+export function VideoCheckpointPlayer({ materialId, url, isMov = false, checkpoints, initialAnswered, initialSeconds }: { materialId: string; title: string; url: string; isMov?: boolean; checkpoints: Checkpoint[]; initialAnswered: string[]; initialSeconds: number }) {
   const videoRef = useRef<HTMLVideoElement>(null); const lastSaved = useRef(0);
   const [videoUrl, setVideoUrl] = useState(url); const [answered, setAnswered] = useState(initialAnswered);
   const [active, setActive] = useState<Checkpoint | null>(null); const [choice, setChoice] = useState("");
