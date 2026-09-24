@@ -48,25 +48,25 @@ export default async function StudentPage() {
       <div className="student-dashboard" style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 0" }}>
         
         {/* Current Learning Focus */}
-        <section className="learning-focus-panel" style={{ backgroundColor: "var(--color-primary)", color: "white", borderRadius: "var(--radius-lg)", padding: "48px 40px", marginBottom: "40px", display: "flex", flexDirection: "column", gap: "16px", boxShadow: "0 4px 20px rgba(51, 92, 255, 0.15)" }}>
-          <div style={{ fontSize: "13px", textTransform: "uppercase", letterSpacing: "0.05em", opacity: 0.85, fontWeight: 600 }}>
+        <section className="student-paper" style={{ marginBottom: "40px" }}>
+          <div className="student-kicker">
             Tiêu điểm học tập
           </div>
-          <h2 style={{ color: "white", fontSize: "32px", margin: 0, fontWeight: 600, letterSpacing: "-0.02em" }}>
+          <h2 className="student-heading">
             {nextLesson ? `Bài ${nextLesson.curriculum_code?.replace('B', '')} — ${nextCurriculumLesson}` : "Bắt đầu hành trình học tập"}
           </h2>
-          <p style={{ opacity: 0.9, fontSize: "16px", margin: 0, maxWidth: "600px", lineHeight: 1.6 }}>
+          <p style={{ color: "var(--text-secondary)", fontSize: "16px", lineHeight: 1.7, maxWidth: "600px", marginBottom: "24px" }}>
             {nextLesson 
               ? "Tiếp tục tìm hiểu nội dung bài học hiện tại của em." 
               : "Mở chương trình học để chọn bài học phù hợp với lớp của em."}
           </p>
-          <div style={{ marginTop: "24px" }}>
+          <div>
             {nextLesson ? (
-              <Link href={`/student/lessons/${nextLesson.id}`} className="btn" style={{ backgroundColor: "white", color: "var(--color-primary)", fontWeight: 600, border: "none", padding: "12px 24px", borderRadius: "var(--radius-sm)" }}>
+              <Link href={`/student/lessons/${nextLesson.id}`} className="btn primary" style={{ padding: "12px 24px" }}>
                 Tiếp tục học
               </Link>
             ) : (
-              <Link href="/student/curriculum" className="btn" style={{ backgroundColor: "white", color: "var(--color-primary)", fontWeight: 600, border: "none", padding: "12px 24px", borderRadius: "var(--radius-sm)" }}>
+              <Link href="/student/curriculum" className="btn primary" style={{ padding: "12px 24px" }}>
                 Xem chương trình
               </Link>
             )}
@@ -74,16 +74,18 @@ export default async function StudentPage() {
         </section>
 
         {/* Upcoming Tasks Summary */}
-        <section className="dashboard-tasks" style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <h3 style={{ margin: 0, fontSize: "18px", color: "var(--text-primary)" }}>Nhiệm vụ sắp tới</h3>
-            <Link href="/student/assignments" style={{ color: "var(--color-primary)", fontSize: "14px", fontWeight: 500 }}>Xem tất cả</Link>
+        <section className="dashboard-tasks">
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: "24px", paddingBottom: "16px", borderBottom: "1px solid var(--border-light)" }}>
+            <div>
+              <div className="student-kicker">Việc cần làm</div>
+              <h2 className="student-heading" style={{ margin: 0, fontSize: "24px" }}>Nhiệm vụ sắp tới</h2>
+            </div>
+            <Link href="/student/assignments" className="btn" style={{ fontSize: "13px" }}>Xem tất cả</Link>
           </div>
           
-          <div className="task-list" style={{ backgroundColor: "var(--bg-surface)", borderRadius: "var(--radius-md)", border: "1px solid var(--border-light)" }}>
-            <div style={{ padding: "32px 24px", textAlign: "center", color: "var(--text-muted)", fontSize: "14px" }}>
-              Hiện chưa có nhiệm vụ nào cần hoàn thành.
-            </div>
+          <div className="student-empty" style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border-light)", borderRadius: "var(--radius-lg)", padding: "48px 0" }}>
+            <h2>Chưa có nhiệm vụ</h2>
+            <p>Hiện không có bài tập nào cần hoàn thành.</p>
           </div>
         </section>
 

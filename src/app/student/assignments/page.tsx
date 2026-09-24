@@ -20,7 +20,7 @@ export default async function StudentAssignmentsPage() {
                 return (
                   <article key={item.id} className="list-row chapter-list-row" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "24px 0", borderBottom: "1px solid var(--border-light)", transition: "background-color 0.15s" }}>
                     <div style={{ flex: 1, paddingRight: "24px" }}>
-                      <div style={{ fontSize: "12px", textTransform: "uppercase", letterSpacing: "0.05em", color: "var(--color-primary)", fontWeight: 600, marginBottom: "8px" }}>
+                      <div className="student-kicker">
                         LỚP {classItem.name}
                       </div>
                       <h3 style={{ margin: "0 0 8px", fontSize: "18px", color: "var(--text-primary)", fontWeight: 600 }}>
@@ -42,10 +42,10 @@ export default async function StudentAssignmentsPage() {
               })}
             </div>
           ) : (
-            <div className="empty-state" style={{ padding: "64px 0", textAlign: "center", color: "var(--text-muted)", backgroundColor: "var(--bg-surface)", borderRadius: "var(--radius-lg)", border: "1px dashed var(--border-light)" }}>
-              <h2 style={{ fontSize: "20px", color: "var(--text-primary)", marginBottom: "8px" }}>Chưa có bài tập</h2>
+            <div className="student-empty" style={{ backgroundColor: "var(--bg-surface)", borderRadius: "var(--radius-lg)", border: "1px solid var(--border-light)" }}>
+              <h2>Chưa có bài tập</h2>
               <p style={{ marginBottom: "24px" }}>Khi giáo viên giao bài, nhiệm vụ sẽ hiển thị tại đây.</p>
-              <Link className="btn" href="/student/curriculum" style={{ backgroundColor: "var(--color-primary)", color: "white" }}>Mở chương trình học</Link>
+              <Link className="btn primary" href="/student/curriculum">Mở chương trình học</Link>
             </div>
           )}
         </section>

@@ -52,12 +52,12 @@ export function PhysicsActivityList({ lessonCode }: { lessonCode: NuclearPhysics
   return (
     <div className="physics-activity-list">
       {activities.map((activity) => (
-        <article className="card physics-activity-card" key={activity.activityCode}>
-          <header className="section-header">
+        <article className="student-paper" key={activity.activityCode} style={{ marginBottom: "40px" }}>
+          <header style={{ marginBottom: "32px", borderBottom: "1px solid var(--border-light)", paddingBottom: "24px" }}>
             <div>
-              <p className="eyebrow">{activity.activityCode} · {activity.activityType}</p>
-              <h3>{activity.title}</h3>
-              <p>{activity.shortDescription}</p>
+              <p className="student-kicker">{activity.activityCode} · {activity.activityType}</p>
+              <h3 className="student-heading">{activity.title}</h3>
+              <p style={{ color: "var(--text-secondary)", fontSize: "16px", lineHeight: 1.6 }}>{activity.shortDescription}</p>
             </div>
           </header>
           <FixedPhysicsActivityRenderer activityKey={activity.key} />

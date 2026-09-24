@@ -22,16 +22,16 @@ export default async function StudentAssessmentPage({ params }: { params: Promis
       
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "0 24px 64px" }}>
         {published ? (
-          <section className="assignment-content" style={{ backgroundColor: "var(--bg-surface)", padding: "48px", borderRadius: "var(--radius-lg)", border: "1px solid var(--border-light)", boxShadow: "0 4px 20px rgba(0,0,0,0.02)" }}>
+          <section className="student-paper">
             <header style={{ marginBottom: "32px", borderBottom: "1px solid var(--border-light)", paddingBottom: "24px" }}>
-              <div style={{ fontSize: "12px", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--color-primary)", fontWeight: 600, marginBottom: "12px" }}>
+              <div className="student-kicker">
                 Bài tập & Vận dụng
               </div>
-              <h2 style={{ fontSize: "28px", color: "var(--text-primary)", margin: "0 0 16px", fontWeight: 600 }}>
+              <h2 className="student-heading">
                 {lesson.homework_title || "Nhiệm vụ cuối bài"}
               </h2>
               {lesson.homework_due_date ? (
-                <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", backgroundColor: "var(--bg-page)", padding: "8px 16px", borderRadius: "var(--radius-sm)", color: "var(--text-secondary)", fontSize: "14px", fontWeight: 500 }}>
+                <div className="student-meta-pill">
                   <span style={{ color: "var(--semantic-warning)" }}>Hạn nộp:</span>
                   {new Intl.DateTimeFormat("vi-VN", { dateStyle: "medium", timeStyle: "short" }).format(new Date(lesson.homework_due_date))}
                 </div>
@@ -46,8 +46,8 @@ export default async function StudentAssessmentPage({ params }: { params: Promis
               )}
               
               {lesson.homework_instructions && (
-                <div style={{ backgroundColor: "var(--bg-page)", padding: "24px", borderRadius: "var(--radius-md)", borderLeft: "4px solid var(--color-primary)" }}>
-                  <h3 style={{ fontSize: "16px", color: "var(--text-primary)", margin: "0 0 12px", fontWeight: 600 }}>Yêu cầu thực hiện</h3>
+                <div className="student-callout">
+                  <h3 className="student-callout-title">Yêu cầu thực hiện</h3>
                   <p style={{ margin: 0 }}>{lesson.homework_instructions}</p>
                 </div>
               )}
@@ -60,8 +60,8 @@ export default async function StudentAssessmentPage({ params }: { params: Promis
             </div>
           </section>
         ) : (
-          <section className="empty-state" style={{ padding: "64px 0", textAlign: "center", color: "var(--text-muted)" }}>
-            <h2 style={{ fontSize: "20px", color: "var(--text-primary)", marginBottom: "8px" }}>Chưa có bài tập</h2>
+          <section className="student-empty" style={{ backgroundColor: "var(--bg-surface)", borderRadius: "var(--radius-lg)", border: "1px solid var(--border-light)" }}>
+            <h2>Chưa có bài tập</h2>
             <p style={{ marginBottom: "24px" }}>Giáo viên chưa mở bài tập cuối bài này.</p>
           </section>
         )}

@@ -27,7 +27,7 @@ function StudentClassRow({ classItem }: { classItem: StudentClass }) {
   return (
     <article className="list-row" style={{ padding: "24px 0", borderBottom: "1px solid var(--border-light)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
       <div className="list-row-content">
-        <h3 style={{ margin: "0 0 4px", fontSize: "18px", color: "var(--text-primary)", fontWeight: 600 }}>{classItem.name}</h3>
+        <h3 style={{ margin: "0 0 8px", fontSize: "18px", color: "var(--text-primary)", fontWeight: 600 }}>{classItem.name}</h3>
         <p style={{ margin: "0 0 12px", color: "var(--text-secondary)", fontSize: "15px" }}>
           {classItem.description || "Chương trình Vật lí 12"}
         </p>
@@ -57,8 +57,9 @@ function StudentClassRow({ classItem }: { classItem: StudentClass }) {
 export function StudentClassList({ classes }: Props) {
   if (!classes.length) {
     return (
-      <div style={{ padding: "48px 0", textAlign: "center", color: "var(--text-muted)", borderTop: "1px solid var(--border-light)" }}>
-        Bạn chưa tham gia lớp học nào.
+      <div className="student-empty" style={{ borderTop: "1px dashed var(--border-dark)", marginTop: "16px" }}>
+        <h2>Chưa tham gia lớp học</h2>
+        <p>Em chưa tham gia lớp học nào. Hãy dùng form bên trên để tham gia.</p>
       </div>
     );
   }

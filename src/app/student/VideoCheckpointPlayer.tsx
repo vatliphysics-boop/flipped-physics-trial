@@ -46,8 +46,8 @@ export function VideoCheckpointPlayer({ materialId, url, isMov = false, checkpoi
       {/* Checkpoint Overlay */}
       {active && (
         <div className="checkpoint-overlay" role="dialog" aria-modal="true" style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, backgroundColor: "rgba(0, 0, 0, 0.85)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 10 }}>
-          <div style={{ backgroundColor: "var(--bg-surface)", padding: "40px", borderRadius: "var(--radius-lg)", maxWidth: "500px", width: "90%", boxShadow: "0 20px 40px rgba(0,0,0,0.4)" }}>
-            <div style={{ fontSize: "12px", textTransform: "uppercase", letterSpacing: "0.1em", color: "var(--color-primary)", fontWeight: 600, marginBottom: "16px" }}>
+          <div className="student-paper" style={{ padding: "40px", maxWidth: "500px", width: "90%", boxShadow: "0 20px 40px rgba(0,0,0,0.4)" }}>
+            <div className="student-kicker" style={{ marginBottom: "16px" }}>
               Câu hỏi tương tác
             </div>
             <p style={{ fontSize: "18px", color: "var(--text-primary)", fontWeight: 500, marginBottom: "32px", lineHeight: 1.5 }}>
