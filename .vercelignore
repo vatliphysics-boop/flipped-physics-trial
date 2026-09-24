@@ -1,0 +1,7 @@
+.next
+node_modules
+.git
+*.zip
+*.Zip
+.DS_Store
+__MACOSX

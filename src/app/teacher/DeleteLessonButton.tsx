@@ -13,7 +13,6 @@ export function DeleteLessonButton({ lessonId, redirectOnSuccess = false }: { le
 
   useEffect(() => {
     if (!state.message) return;
-    setOpen(false);
     if (redirectOnSuccess) router.push("/teacher");
     else router.refresh();
   }, [redirectOnSuccess, router, state.message]);

@@ -2,18 +2,117 @@
 
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
+import { validateCheckpointAnswer, validateVideoProgressInput } from "@/lib/video-validation";
 
 export type JoinClassState = {
   error?: string;
   message?: string;
 };
 
-export async function saveVideoProgressAction(input: { materialId: string; watchedSeconds: number; completionPercent: number; answeredCheckpoints: string[]; isComplete: boolean }) {
+export type VideoCheckpointResult = { error?: string; message?: string; isCorrect?: boolean; attemptCount?: number };
+
+export async function saveVideoProgressAction(input: { materialId: string; watchedSeconds: number }) {
+  const valid = validateVideoProgressInput(input);
+  if (!valid) return { error: "Dữ liệu vị trí xem không hợp lệ." };
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập để lưu tiến độ học tập." };
-  const { error } = await supabase.from("lesson_material_progress").upsert({ material_id: input.materialId, student_id: user.id, watched_seconds: Math.max(0, input.watchedSeconds), completion_percent: Math.min(100, Math.max(0, input.completionPercent)), answered_checkpoints: input.answeredCheckpoints, is_complete: input.isComplete, updated_at: new Date().toISOString() }, { onConflict: "material_id,student_id" });
-  return error ? { error: "Không thể lưu tiến độ học tập." } : { message: "Đã lưu tiến độ." };
+  const { error } = await supabase.rpc("record_video_progress", {
+    p_material_id: valid.materialId,
+    p_watched_seconds: valid.watchedSeconds,
+  });
+  return error ? { error: "Không thể lưu tiến độ học tập. Vui lòng thử lại." } : { message: "Đã lưu tiến độ." };
+}
+
+export async function submitVideoCheckpointAction(input: { materialId: string; checkpointId: string; selectedOption: string }): Promise<VideoCheckpointResult> {
+  const valid = validateCheckpointAnswer(input);
+  if (!valid) return { error: "Câu trả lời không hợp lệ." };
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập để trả lời checkpoint." };
+  const { data, error } = await supabase.rpc("submit_video_checkpoint", {
+    p_material_id: valid.materialId,
+    p_checkpoint_id: valid.checkpointId,
+    p_selected_option: valid.selectedOption,
+  });
+  const result = Array.isArray(data) ? data[0] : data;
+  if (error || !result || typeof result.is_correct !== "boolean") return { error: "Không thể chấm checkpoint. Vui lòng thử lại." };
+  return { isCorrect: result.is_correct, attemptCount: Number(result.attempt_count) || 1, message: result.is_correct ? "Câu trả lời đúng." : "Chưa đúng, em có thể xem lại và thử tiếp." };
+}
+
+
+
+export type EvidenceState = { error?: string; message?: string };
+
+export async function refreshSignedVideoUrlAction(materialId: string) {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập để xem video." };
+  const { data: material } = await supabase
+    .from("lesson_materials")
+    .select("content_url, lessons!inner(class_id, status)")
+    .eq("id", materialId)
+    .eq("material_type", "video")
+    .eq("is_published", true)
+    .maybeSingle();
+  const lesson = material?.lessons as unknown as { class_id: string; status: string } | null;
+  const { getLessonVideoStoragePath } = await import("@/lib/video-source");
+  const path = getLessonVideoStoragePath(material?.content_url ?? "");
+  if (!lesson || lesson.status !== "published" || !path) return { error: "Video không còn khả dụng." };
+  const { data: membership } = await supabase.from("class_members").select("student_id").eq("class_id", lesson.class_id).eq("student_id", user.id).maybeSingle();
+  if (!membership) return { error: "Bạn không có quyền xem video này." };
+  const { data, error } = await supabase.storage.from("lesson-videos").createSignedUrl(path, 60 * 60 * 4);
+  return error || !data?.signedUrl ? { error: "Không thể cấp lại đường dẫn video. Vui lòng thử lại." } : { url: data.signedUrl };
+}
+
+async function getPublishedStudentMaterial(materialId: string, userId: string) {
+  const supabase = await createClient();
+  const { data: material } = await supabase
+    .from("lesson_materials")
+    .select("id, lesson_id, lessons!inner(class_id, status)")
+    .eq("id", materialId)
+    .eq("is_published", true)
+    .maybeSingle();
+  const lesson = material?.lessons as unknown as { class_id: string; status: string } | null;
+  if (!material || !lesson || lesson.status !== "published") return null;
+  const { data: membership } = await supabase.from("class_members").select("student_id").eq("class_id", lesson.class_id).eq("student_id", userId).maybeSingle();
+  return membership ? { supabase, lessonId: lesson.class_id } : null;
+}
+
+export async function saveActivityProgressAction(input: { materialId: string; response: Record<string, unknown>; isComplete: boolean }): Promise<EvidenceState> {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập để lưu hoạt động." };
+  if (!input.materialId || typeof input.response !== "object" || Array.isArray(input.response)) return { error: "Dữ liệu hoạt động không hợp lệ." };
+  const access = await getPublishedStudentMaterial(input.materialId, user.id);
+  if (!access) return { error: "Hoạt động này không còn khả dụng trong lớp học của em." };
+  const { error } = await supabase.from("lesson_material_progress").upsert({
+    material_id: input.materialId,
+    student_id: user.id,
+    response: input.response,
+    completion_percent: input.isComplete ? 100 : 0,
+    is_complete: input.isComplete,
+    updated_at: new Date().toISOString(),
+  }, { onConflict: "material_id,student_id" });
+  if (error) return { error: "Không thể lưu kết quả hoạt động. Vui lòng thử lại." };
+  revalidatePath("/student"); revalidatePath("/student/journal");
+  return { message: "Đã lưu kết quả hoạt động." };
+}
+
+export async function saveLessonReflectionAction(input: { lessonId: string; learned: string; difficult: string; nextStep: string; confidence: number; homeworkResponse?: string }): Promise<EvidenceState> {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập để lưu nhật kí." };
+  const learned = input.learned.trim(); const difficult = input.difficult.trim(); const nextStep = input.nextStep.trim();
+  if (!input.lessonId || !learned || learned.length > 2000 || difficult.length > 2000 || nextStep.length > 2000 || !Number.isInteger(input.confidence) || input.confidence < 1 || input.confidence > 5) return { error: "Vui lòng điền đầy đủ phản hồi hợp lệ (tối đa 2.000 ký tự mỗi mục)." };
+  const { data: lesson } = await supabase.from("lessons").select("id, class_id, status").eq("id", input.lessonId).eq("status", "published").maybeSingle();
+  if (!lesson) return { error: "Bài học chưa được xuất bản hoặc không tồn tại." };
+  const { data: membership } = await supabase.from("class_members").select("student_id").eq("class_id", lesson.class_id).eq("student_id", user.id).maybeSingle();
+  if (!membership) return { error: "Em không thuộc lớp học của bài học này." };
+  const { error } = await supabase.from("lesson_reflections").upsert({ lesson_id: lesson.id, student_id: user.id, learned, difficult, next_step: nextStep, confidence: input.confidence, homework_response: input.homeworkResponse?.trim().slice(0, 4000) || "", updated_at: new Date().toISOString() });
+  if (error) return { error: "Không thể lưu nhật kí học tập. Vui lòng thử lại." };
+  revalidatePath("/student"); revalidatePath("/student/journal"); revalidatePath(`/student/lessons/${input.lessonId}`);
+  return { message: "Đã lưu nhật kí học tập." };
 }
 
 function readText(formData: FormData, key: string) {

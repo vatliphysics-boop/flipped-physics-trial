@@ -66,6 +66,36 @@ export const NUCLEAR_PHYSICS_ACTIVITY_CATALOG = {
   ],
 } as const satisfies Record<"B21" | "B22" | "B23" | "B24" | "B25", readonly NuclearPhysicsActivity[]>;
 
+
+export type NuclearPhysicsLessonCode = keyof typeof NUCLEAR_PHYSICS_ACTIVITY_CATALOG;
+export type CanonicalActivityKey = (typeof NUCLEAR_PHYSICS_ACTIVITY_CATALOG)[NuclearPhysicsLessonCode][number]["key"];
+export type CanonicalPhysicsActivity = (typeof NUCLEAR_PHYSICS_ACTIVITY_CATALOG)[NuclearPhysicsLessonCode][number];
+
+export const CANONICAL_PHASE2_ACTIVITY_KEYS = Object.values(NUCLEAR_PHYSICS_ACTIVITY_CATALOG)
+  .flatMap((activities) => activities.map((activity) => activity.key)) as readonly CanonicalActivityKey[];
+
+export function normalizeActivityKey(value: unknown): CanonicalActivityKey | null {
+  if (typeof value !== "string") return null;
+  const normalized = value.trim().toLowerCase().replace(/^(activity|simulation):/i, "");
+  return (CANONICAL_PHASE2_ACTIVITY_KEYS as readonly string[]).includes(normalized)
+    ? normalized as CanonicalActivityKey
+    : null;
+}
+
+export function getCanonicalPhysicsActivities(lessonCode: NuclearPhysicsLessonCode) {
+  return NUCLEAR_PHYSICS_ACTIVITY_CATALOG[lessonCode];
+}
+
+export function getCanonicalPhysicsActivity(value: unknown): CanonicalPhysicsActivity | null {
+  const key = normalizeActivityKey(value);
+  if (!key) return null;
+  for (const activities of Object.values(NUCLEAR_PHYSICS_ACTIVITY_CATALOG)) {
+    const activity = activities.find((candidate) => candidate.key === key);
+    if (activity) return activity;
+  }
+  return null;
+}
+
 const preparedLesson = (
   code: CurriculumLessonCode,
   number: number,

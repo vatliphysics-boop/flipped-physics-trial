@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { useActionState } from "react";
 import { leaveClassAction, type JoinClassState } from "./actions";
 
@@ -14,21 +13,16 @@ export type StudentClass = {
 
 type Props = {
   classes: StudentClass[];
-  onCountChange?: (count: number) => void;
 };
 
-function StudentClassCard({ classItem, onLeft }: { classItem: StudentClass; onLeft: () => void }) {
-  const [left, setLeft] = useState(false);
+function StudentClassCard({ classItem }: { classItem: StudentClass }) {
   const [state, formAction, pending] = useActionState<JoinClassState, FormData>(leaveClassAction, {});
 
-  useEffect(() => {
-    if (state.message && !left) {
-      setLeft(true);
-      onLeft();
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    if (!window.confirm("Bạn có chắc muốn rời lớp này? Bạn sẽ mất quyền truy cập vào học liệu và hoạt động của lớp.")) {
+      event.preventDefault();
     }
-  }, [left, onLeft, state.message]);
-
-  if (left) return null;
+  }
 
   return (
     <div className="card student-class-card">
@@ -50,11 +44,7 @@ function StudentClassCard({ classItem, onLeft }: { classItem: StudentClass; onLe
         {state.error && <p className="form-alert form-alert-error">{state.error}</p>}
         <form
           action={formAction}
-          onSubmit={(event) => {
-            if (!window.confirm("Bạn có chắc muốn rời lớp này? Bạn sẽ mất quyền truy cập vào học liệu và hoạt động của lớp.")) {
-              event.preventDefault();
-            }
-          }}
+          onSubmit={handleSubmit}
         >
           <input type="hidden" name="class_id" value={classItem.id} />
           <button className="btn danger" type="submit" disabled={pending}>
@@ -66,35 +56,14 @@ function StudentClassCard({ classItem, onLeft }: { classItem: StudentClass; onLe
   );
 }
 
-export function StudentClassList({ classes, onCountChange }: Props) {
-  const [visibleClasses, setVisibleClasses] = useState(classes);
-  const [successMessage, setSuccessMessage] = useState("");
-
-  if (!visibleClasses.length) {
-    return (
-      <>
-        {successMessage && <p className="form-alert form-alert-success">{successMessage}</p>}
-        <p>Bạn chưa tham gia lớp học nào.</p>
-      </>
-    );
+export function StudentClassList({ classes }: Props) {
+  if (!classes.length) {
+    return <p className="empty-state">Bạn chưa tham gia lớp học nào.</p>;
   }
 
   return (
-    <>
-      {successMessage && <p className="form-alert form-alert-success student-leave-success">{successMessage}</p>}
-      <div className="grid-3">
-        {visibleClasses.map((classItem) => (
-          <StudentClassCard
-            key={classItem.id}
-            classItem={classItem}
-            onLeft={() => {
-              setVisibleClasses((current) => current.filter((item) => item.id !== classItem.id));
-              onCountChange?.(visibleClasses.length - 1);
-              setSuccessMessage("Đã rời lớp học thành công.");
-            }}
-          />
-        ))}
-      </div>
-    </>
+    <div className="grid-3 student-class-grid">
+      {classes.map((classItem) => <StudentClassCard key={classItem.id} classItem={classItem} />)}
+    </div>
   );
 }

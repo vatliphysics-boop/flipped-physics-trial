@@ -1,20 +1,12 @@
+"use client";
+
 import Link from "next/link";
 
-type SidebarItem = { label: string; href: string; active?: boolean };
+export { type PortalRole, type PortalSection } from "./PortalShell";
 
-function Navigation({ items }: { items: SidebarItem[] }) {
-  return <nav className="side-links">{items.map((item) => <Link key={item.label} href={item.href} className={item.active ? "active" : ""}>{item.label}</Link>)}</nav>;
-}
+type LegacyItem = { label: string; href: string; active?: boolean };
 
-export function AppSidebar({ items }: { items: SidebarItem[] }) {
-  return <>
-    <aside className="sidebar">
-      <div className="brand"><div className="brand-mark">VL</div><div><div>Vật lí 12</div><small style={{ color: "#aebfe8" }}>Lớp học đảo ngược</small></div></div>
-      <Navigation items={items} />
-    </aside>
-    <details className="sidebar-mobile">
-      <summary><span className="brand-mark">VL</span><span><strong>Vật lí 12</strong><small>Menu học tập</small></span><span aria-hidden="true">☰</span></summary>
-      <Navigation items={items} />
-    </details>
-  </>;
+/** @deprecated Existing pages use this minimal legacy navigation until moved to PortalShell. */
+export function AppSidebar({ items }: { items: LegacyItem[] }) {
+  return <aside className="sidebar"><nav className="side-links" aria-label="Điều hướng chính">{items.map((item) => <Link key={item.href} href={item.href} aria-current={item.active ? "page" : undefined} className={item.active ? "active" : ""}>{item.label}</Link>)}</nav></aside>;
 }

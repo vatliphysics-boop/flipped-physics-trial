@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useActionState } from "react";
+import { useState, useActionState } from "react";
 import {
   listClassMembersAction,
   removeStudentFromClassAction,
@@ -16,11 +16,18 @@ type Props = {
   name: string;
   description: string;
   initialMembers: ClassMember[];
+  showMembersInitially?: boolean;
 };
 
-export function ClassManagement({ classId, name, description, initialMembers }: Props) {
+export function ClassManagement({
+  classId,
+  name,
+  description,
+  initialMembers,
+  showMembersInitially = false,
+}: Props) {
   const [editing, setEditing] = useState(false);
-  const [membersOpen, setMembersOpen] = useState(false);
+  const [membersOpen, setMembersOpen] = useState(showMembersInitially);
   const [members, setMembers] = useState(initialMembers);
   const [membersError, setMembersError] = useState("");
   const [updateState, updateFormAction, updatePending] = useActionState<ManageClassState, FormData>(updateClassAction, {});
@@ -36,10 +43,6 @@ export function ClassManagement({ classId, name, description, initialMembers }: 
       setMembersError("");
     }
   }
-
-  useEffect(() => {
-    if (removeState.message) void loadMembers();
-  }, [removeState.message]);
 
   return (
     <div className="class-management">

@@ -27,13 +27,15 @@ function VideoForm({ lessonId, material, onCancel }: { lessonId: string; materia
   const action = material ? updateVideoMaterialAction : createVideoMaterialAction;
   const [state, formAction, pending] = useActionState<LessonMaterialState, FormData>(action, {});
   const initial = material?.checkpoint_questions?.length === 2 ? material.checkpoint_questions : [
+    { id: "checkpoint-30", prompt: "Em hãy nêu ý chính tại mốc này.", options: ["Lựa chọn A", "Lựa chọn B", "Lựa chọn C", "Lựa chọn D"], correctIndex: 0, atPercent: 30 },
+    { id: "checkpoint-80", prompt: "Kiến thức nào vừa được củng cố?", options: ["Lựa chọn A", "Lựa chọn B", "Lựa chọn C", "Lựa chọn D"], correctIndex: 0, atPercent: 80 },
     { id: "checkpoint-35", prompt: "Em hãy nêu ý chính tại mốc này.", options: ["Lựa chọn A", "Lựa chọn B", "Lựa chọn C", "Lựa chọn D"], correctIndex: 0, atPercent: 35 },
     { id: "checkpoint-75", prompt: "Kiến thức nào vừa được củng cố?", options: ["Lựa chọn A", "Lựa chọn B", "Lựa chọn C", "Lựa chọn D"], correctIndex: 0, atPercent: 75 },
   ];
   const [checkpoints, setCheckpoints] = useState(initial);
   const [sourceType, setSourceType] = useState(material?.content_url?.startsWith("storage:lesson-videos/") ? "upload" : "direct");
   const [fileName, setFileName] = useState("");
-  const [uploadedContentUrl, setUploadedContentUrl] = useState(material?.content_url?.startsWith("storage:lesson-videos/") ? material.content_url : "");
+  const [uploadedContentUrl] = useState(material?.content_url?.startsWith("storage:lesson-videos/") ? material.content_url : "");
   const [uploadError, setUploadError] = useState("");
   const [uploading, setUploading] = useState(false);
   const updateCheckpoint = (index: number, field: string, value: string | number) => setCheckpoints((current) => current.map((item, itemIndex) => itemIndex === index ? { ...item, [field]: value } : item));

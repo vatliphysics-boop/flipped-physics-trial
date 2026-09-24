@@ -1,99 +1,22 @@
 import Link from "next/link";
-import { AppSidebar } from "@/components/AppSidebar";
-import { LogoutButton } from "@/components/LogoutButton";
-import { StatCard } from "@/components/StatCard";
-import { createClient } from "@/lib/supabase/server";
-import { CreateClassForm } from "./CreateClassForm";
-import { ClassManagement } from "./ClassManagement";
-import type { ClassMember } from "./actions";
-
-const items = [
-  { label: "Tổng quan", href: "/teacher", active: true },
-  { label: "Lớp học", href: "#" },
-  { label: "Chương trình", href: "#" },
-  { label: "Học liệu", href: "#" },
-  { label: "Theo dõi học sinh", href: "#" },
-];
+import { TeacherShell } from "./TeacherShell";
+import { getTeacherClasses, getTeacherContext } from "./data";
 
 export default async function TeacherPage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  const { data: classes } = user
-    ? await supabase
-        .from("classes")
-        .select("id, name, description, join_code, created_at")
-        .eq("teacher_id", user.id)
-        .order("created_at", { ascending: false })
-    : { data: [] };
-
-  return (
-    <div className="shell">
-      <AppSidebar items={items} />
-      <main className="main dashboard-main">
-        <div className="page-title dashboard-header">
-          <div>
-            <span className="eyebrow">Không gian giáo viên</span>
-            <h1>Tổng quan</h1>
-            <p>Theo dõi học liệu và mức độ chuẩn bị của học sinh.</p>
-          </div>
-          <div className="actions dashboard-actions">
-            <LogoutButton />
-          </div>
-        </div>
-
-        <section className="section dashboard-section">
-          <h2>Tạo lớp học</h2>
-          <p className="section-sub">Tạo không gian học tập cho lớp Vật lí hạt nhân của em.</p>
-          <CreateClassForm />
-        </section>
-
-        <section className="section dashboard-section"><h2>Chương trình Vật lí hạt nhân</h2><p className="section-sub">Chọn một lớp để quản lý năm bài học cố định và học liệu riêng của lớp.</p></section>
-
-        <div className="grid-4 dashboard-stats">
-          <StatCard
-            label="Lớp học"
-            value={String(classes?.length ?? 0).padStart(2, "0")}
-            note="Đang phụ trách"
-          />
-        </div>
-
-        <section className="section dashboard-section">
-          <h2>Lớp học của tôi</h2>
-          {classes?.length ? (
-            <div className="grid-3">
-              {classes.map(async (classItem) => {
-                const { data: memberData } = await supabase.rpc("list_class_members_for_teacher", {
-                  p_class_id: classItem.id,
-                });
-                const initialMembers = Array.isArray(memberData) ? (memberData as ClassMember[]) : [];
-
-                return (
-                <div className="card class-card" key={classItem.id}>
-                  <h3>{classItem.name}</h3>
-                  <p className="class-description">{classItem.description || "Chưa có mô tả."}</p>
-                  <div className="class-meta">
-                    <span className="class-code"><span>Mã lớp</span><strong>{classItem.join_code}</strong></span>
-                    <span><span>Ngày tạo</span><strong>{new Date(classItem.created_at).toLocaleDateString("vi-VN")}</strong></span>
-                  </div>
-                  <ClassManagement
-                    classId={classItem.id}
-                    name={classItem.name}
-                    description={classItem.description}
-                    initialMembers={initialMembers}
-                  />
-                  <Link className="btn primary curriculum-class-link" href={`/teacher/classes/${classItem.id}/curriculum`}>Mở chương trình lớp học</Link>
-                </div>
-                );
-              })}
-            </div>
-          ) : (
-            <p>Bạn chưa tạo lớp học nào.</p>
-          )}
-        </section>
-
-      </main>
+  const [{ classes, error }, { supabase, user }] = await Promise.all([getTeacherClasses(), getTeacherContext()]);
+  const [{ count: publishedLessons, error: lessonError }, { data: members, error: memberError }] = await Promise.all([
+    supabase.from("lessons").select("id", { count: "exact", head: true }).eq("teacher_id", user.id).eq("status", "published"),
+    classes.length ? supabase.from("class_members").select("class_id").in("class_id", classes.map((item) => item.id)) : Promise.resolve({ data: [], error: null }),
+  ]);
+  const counts = new Map<string, number>();
+  for (const member of members ?? []) counts.set(member.class_id, (counts.get(member.class_id) ?? 0) + 1);
+  return <TeacherShell active="overview" title="Tổng quan giảng dạy" description="Quản lý lớp học, chuẩn bị học liệu và theo dõi việc học.">
+    <div className="overview-page">
+      <section className="overview-continue"><div><p className="overview-kicker">CÔNG VIỆC HÔM NAY</p><h2>{classes.length ? "Tiếp tục công việc giảng dạy" : "Tạo lớp học đầu tiên"}</h2><p>{classes.length ? "Chọn một lớp để chuẩn bị bài, quản lý học liệu hoặc theo dõi học sinh." : "Tạo lớp để bắt đầu tổ chức bài học và mời học sinh tham gia."}</p><div className="overview-actions"><Link className="btn primary" href="/teacher/classes">{classes.length ? "Chọn lớp học" : "Tạo lớp học"}</Link><Link className="btn" href="/teacher/curriculum">Xem chương trình</Link></div></div><div className="overview-illustration-wrap" aria-hidden="true"><svg className="overview-illustration" viewBox="0 0 220 150"><rect x="52" y="40" width="96" height="62" rx="8" fill="none" stroke="currentColor" strokeWidth="4"/><path d="M70 120h60M96 102v18M76 75c15-26 47-22 55-4 7 15-10 27-26 20-22-10-18-38 1-42M160 88c16-5 26-20 23-38M160 63c13 6 25 1 33-10" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"/><circle cx="109" cy="66" r="5" fill="currentColor"/><circle cx="184" cy="45" r="5" fill="currentColor"/></svg></div></section>
+      {error && <p role="alert" className="form-alert form-alert-error">Không thể tải lớp học. Vui lòng tải lại trang.</p>}
+      <section className="overview-stats"><article className="overview-stat"><span className="overview-stat-icon">L</span><div><p>Lớp đang phụ trách</p><strong>{error ? "—" : classes.length}</strong><span>Danh sách lớp do thầy cô tạo</span></div></article><article className="overview-stat"><span className="overview-stat-icon">B</span><div><p>Bài học đã xuất bản</p><strong>{lessonError ? "—" : publishedLessons ?? 0}</strong><span>Học sinh có thể truy cập</span></div></article>{!memberError && classes.length > 0 && <article className="overview-stat"><span className="overview-stat-icon">HS</span><div><p>Lượt tham gia lớp</p><strong>{members?.length ?? 0}</strong><span>Tổng lượt ghi danh ở các lớp</span></div></article>}</section>
+      <div className="overview-main-grid"><section className="overview-panel"><div className="overview-section-heading"><div><p className="overview-kicker">LỚP HỌC</p><h2>Lớp học của tôi</h2></div><Link className="text-link" href="/teacher/classes">Xem tất cả</Link></div>{error ? null : classes.length ? <div className="overview-list">{classes.slice(0, 5).map((item) => <article className="overview-class-row" key={item.id}><span className="overview-row-icon">L</span><div className="overview-row-content"><h3>{item.name}</h3><p>{item.description || "Chương trình Vật lí 12"}</p><span>{memberError ? "Chưa tải được sĩ số" : `${counts.get(item.id) ?? 0} học sinh`}</span></div><Link className="btn" href={`/teacher/classes/${item.id}`}>Mở lớp</Link></article>)}</div> : <div className="overview-empty"><p>Chưa có lớp học nào.</p><Link className="btn primary" href="/teacher/classes#create-class">Tạo lớp học</Link></div>}</section><aside className="overview-panel overview-quick-actions"><div className="overview-section-heading"><div><p className="overview-kicker">LỐI TẮT</p><h2>Thao tác nhanh</h2></div></div><Link href="/teacher/classes"><strong>Quản lý lớp học</strong><span>Tạo lớp, chia sẻ mã và mở lớp.</span></Link><Link href="/teacher/materials"><strong>Chuẩn bị học liệu</strong><span>Chọn lớp và bài trước khi thêm nội dung.</span></Link><Link href="/teacher/curriculum"><strong>Mở chương trình</strong><span>Chọn bài học trong chương trình Vật lí 12.</span></Link><Link href="/teacher/students"><strong>Theo dõi học sinh</strong><span>Xem danh sách và kết quả.</span></Link></aside></div>
+      <section className="overview-phases"><div className="overview-section-heading"><div><p className="overview-kicker">QUY TRÌNH BÀI HỌC</p><h2>Cấu trúc mỗi bài học</h2></div><Link className="text-link" href="/teacher/curriculum">Chọn bài học</Link></div><div className="overview-phase-list"><article><span>01</span><h3>Chuẩn bị trước giờ học</h3><p>Giáo viên đăng video và hướng dẫn chuẩn bị.</p></article><article><span>02</span><h3>Mô phỏng và khám phá</h3><p>Học sinh khám phá mô phỏng, giáo viên sử dụng khi dạy.</p></article><article><span>03</span><h3>Bài tập cuối bài</h3><p>Giáo viên giao bài, học sinh làm và nộp.</p></article></div></section>
     </div>
-  );
+  </TeacherShell>;
 }

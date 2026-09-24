@@ -7,7 +7,7 @@ import { classifyVideoSource, YOUTUBE_VIDEO_ERROR } from "@/lib/video-source";
 
 export type CreateClassState = {
   error?: string;
-  message?: string;
+  classId?: string;
 };
 
 export type ManageClassState = {
@@ -328,6 +328,10 @@ export async function createClassAction(
   if (!name) {
     return { error: "Vui lòng nhập tên lớp học." };
   }
+  if (name.length > 120 || description.length > 1000) {
+    return { error: "Thông tin lớp học vượt quá độ dài cho phép." };
+  }
+
 
   const supabase = await createClient();
   const {
@@ -349,19 +353,20 @@ export async function createClassAction(
   }
 
   for (let attempt = 0; attempt < 5; attempt += 1) {
-    const { error } = await supabase.from("classes").insert({
+    const { data: createdClass, error } = await supabase.from("classes").insert({
       teacher_id: user.id,
       name,
       description,
       join_code: generateJoinCode(),
-    });
+    }).select("id").single();
 
-    if (!error) {
+    if (!error && createdClass) {
       revalidatePath("/teacher");
-      return { message: "Tạo lớp học thành công." };
+      revalidatePath("/teacher/classes");
+      return { classId: createdClass.id };
     }
 
-    if (error.code !== "23505") {
+    if (error?.code !== "23505") {
       return { error: "Không thể tạo lớp học. Vui lòng thử lại." };
     }
   }
@@ -373,6 +378,8 @@ export async function createLessonAction(
   _previousState: CreateLessonState,
   _formData: FormData
 ): Promise<CreateLessonState> {
+  void _previousState;
+  void _formData;
   return { error: "Bài học được tạo tự động theo chương trình Vật lí hạt nhân cố định." };
 }
 
@@ -498,7 +505,7 @@ export async function regenerateJoinCodeAction(
   if (error || !classItem) return { error: error ?? "Không tìm thấy lớp học." };
 
   for (let attempt = 0; attempt < 8; attempt += 1) {
-    let newCode = generateJoinCode();
+    const newCode = generateJoinCode();
     if (newCode === classItem.join_code) continue;
 
     const { error: updateError } = await supabase

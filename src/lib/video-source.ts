@@ -15,28 +15,31 @@ export const SUPPORTED_VIDEO_MIME_TYPES = [
 
 const LESSON_VIDEO_STORAGE_PREFIX = "storage:lesson-videos/";
 
+export function getLessonVideoStoragePath(value: string): string | null {
+  const source = value.trim();
+  if (!source.startsWith(LESSON_VIDEO_STORAGE_PREFIX)) return null;
+  const path = source.slice(LESSON_VIDEO_STORAGE_PREFIX.length);
+  return path && !path.includes("..") ? path : null;
+}
+
+export function isLessonVideoStorageReference(value: string): boolean {
+  return getLessonVideoStoragePath(value) !== null;
+}
+
 type VideoStorageClient = {
   storage: {
     from: (bucket: string) => {
-      getPublicUrl: (objectPath: string) => { data: { publicUrl: string } };
+      createSignedUrl: (objectPath: string, expiresIn: number) => Promise<{ data: { signedUrl: string } | null; error: unknown }>;
     };
   };
 };
 
-export function resolveVideoSource(value: string, supabase: VideoStorageClient): string | null {
-  const source = value.trim();
-
-  if (source.startsWith(LESSON_VIDEO_STORAGE_PREFIX)) {
-    const objectPath = source.slice(LESSON_VIDEO_STORAGE_PREFIX.length);
-    if (!objectPath) return null;
-
-    const { data } = supabase.storage.from("lesson-videos").getPublicUrl(objectPath);
-    return data.publicUrl || null;
-  }
-
-  if (/^https?:\/\//i.test(source)) return source;
-
-  return null;
+/** A private lesson-videos reference is resolved only after the caller has checked access. */
+export async function createSignedVideoUrl(value: string, supabase: VideoStorageClient, expiresIn = 60 * 60 * 4): Promise<string | null> {
+  const storagePath = getLessonVideoStoragePath(value);
+  if (!storagePath) return null;
+  const { data, error } = await supabase.storage.from("lesson-videos").createSignedUrl(storagePath, expiresIn);
+  return error || !data?.signedUrl ? null : data.signedUrl;
 }
 
 export function isMovVideoSource(value: string) {
