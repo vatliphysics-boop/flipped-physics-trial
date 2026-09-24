@@ -1,45 +1,50 @@
 CURRENT BRANCH: rescue/weekend-final
-CURRENT COMMIT: b51eab1 (plus Milestone 2 and 3 changes)
+CURRENT COMMIT: HEAD
 
-COMPLETED
-- [Milestone 2] Thống nhất Routing:
-  - Teacher và Student sử dụng chung mô hình 3 pha: `/before-class`, `/in-class`, và `/after-class`.
-  - Hợp nhất `simulation` vào `in-class` và `assessment` vào `after-class`. Đã xóa các route `simulation` và `assessment` thừa.
-  - Cập nhật các liên kết (links) trong `LessonLearningCard`, `LessonNavigation`, và trang `student/assignments` để phản ánh route mới.
-- [Milestone 3] Unified Application Shell:
-  - Loại bỏ hoàn toàn `AppSidebar` khỏi hệ thống.
-  - Áp dụng `StudentShell` cho tất cả các trang của học sinh (`/student`, `/student/curriculum`, `/student/curriculum/[chapterCode]`, `/student/classes`, `/student/journal`).
-  - Đảm bảo `TeacherShell` và `StudentShell` hoạt động nhất quán, chia sẻ chung `PortalShell` bên dưới.
+# SESSION 4 RESULT
+Completed visual foundation setup based on modern scientific platform design principles. Replaced the marketplace aesthetic with a calm, focused LMS experience.
 
-FILES CHANGED
-- `src/app/teacher/lessons/[lessonId]/in-class/page.tsx` (ghi đè bằng nội dung từ simulation cũ)
-- `src/app/teacher/lessons/[lessonId]/after-class/page.tsx` (ghi đè bằng nội dung từ assessment cũ)
-- Tương tự cho `src/app/student/lessons/[lessonId]/after-class/page.tsx`
-- Các thư mục bị xóa: `simulation/` và `assessment/` của cả teacher và student.
-- `src/components/learning/LessonLearningCard.tsx`
-- `src/components/learning/LessonNavigation.tsx`
-- `src/app/student/assignments/page.tsx`
+# DESIGN TOKENS
+Defined in `src/app/globals.css`:
+- **Background**: `#F8FAFC` (off-white)
+- **Surface**: `#FFFFFF`
+- **Primary**: `#1E3A8A` (Deep Navy / Academic Indigo)
+- **Accent**: `#0891B2` (Cyan)
+- **Text**: Slate hierarchy (`#0F172A`, `#334155`, `#64748B`)
+- Eliminated dense gradients, marketplace colors, and excessive shadows.
+- Introduced strict spacing scales and standard radii.
+
+# SHELL CHANGES
+- **PortalShell**: Simplified topbar and sidebar layouts. 
+- Refined navigation styling: active states use subtle background highlighting instead of heavy borders.
+- Increased overall whitespace across desktop breakpoints.
+- Kept the same component structure but rewrote underlying CSS to remove admin-template baggage.
+
+# TEACHER DASHBOARD
+- Removed the dense wall-of-cards layout.
+- Introduced `panel` and `list-row` components.
+- Highlighted "Current Teaching Focus" as a large panel rather than a product card.
+- Simplified metrics display.
+- Updated `src/app/teacher/page.tsx` markup to leverage the new global styles without altering data fetching logic.
+
+# STUDENT DASHBOARD
+- Redesigned `src/app/student/page.tsx` to prioritize the learning flow.
+- Replaced the chapter cards grid with clean list rows.
+- Enhanced "Continue Learning" section using a dedicated focus panel.
+
+# FILES CHANGED
+- `src/app/globals.css` (completely rewritten for tokens and shell foundation)
+- `src/app/teacher/page.tsx`
 - `src/app/student/page.tsx`
-- `src/app/student/curriculum/page.tsx`
-- `src/app/student/curriculum/[chapterCode]/page.tsx`
-- Đã xóa: `src/components/AppSidebar.tsx`
 
-ROUTING DECISIONS
-- Giữ lại 3 tên đường dẫn gốc: `/before-class` (Pha 1), `/in-class` (Pha 2), `/after-class` (Pha 3).
-- Ngừng hỗ trợ các định dạng cũ như `simulation` hoặc `assessment` trên URL để đảm bảo 1 single source of truth.
-- Component Navigation nhận trực tiếp các ID pha `in_class` và `after_class` thay vì alias cũ.
+# TYPECHECK
+- PASS (`npx tsc --noEmit`)
 
-UI FOUNDATION DECISIONS
-- Toàn bộ app sử dụng mô hình Layout có Navigation Side/Drawer (nhờ `PortalShell`), chia làm hai Role (`TeacherShell` và `StudentShell`).
-- AppSidebar độc lập bị loại bỏ để tránh fragmentation giữa các layout component.
+# LINT
+- PASS (`npm run lint`)
 
-TEST STATUS
-- TypeScript: PASS (npx tsc --noEmit: OK)
-- Lint: PASS (npm run lint: OK)
-- Build: PASS (npm run build: OK - compiled successfully in 3.2s)
+# BUILD
+- PASS (`npm run build`)
 
-KNOWN ISSUES
-- Không có lỗi type, không lỗi compile. Cần chạy manual test (Smoke Test) giao diện thực tế.
-
-NEXT TASK
-- Mở trình duyệt, thực hiện luồng Teacher và Student Smoke Test để xác minh các component render chính xác trong Shell thống nhất, các Route link trơn tru.
+# NEXT TASK
+The visual foundation is laid down for the shell and dashboards. The next phase involves applying these principles to the Curriculum, Lesson Experience, and Simulation screens.
