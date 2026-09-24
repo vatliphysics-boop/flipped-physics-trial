@@ -10,7 +10,13 @@ export default async function TeacherClassesPage() {
   for (const member of members ?? []) counts[member.class_id] = (counts[member.class_id] ?? 0) + 1;
   return <TeacherShell active="classes" title="Lớp học của tôi" description="Quản lý lớp, chia sẻ mã tham gia và tổ chức bài học.">
     <section className="teacher-classes-page">
-      <div className="teacher-classes-heading"><div><p className="teacher-classes-eyebrow">QUẢN LÝ LỚP HỌC</p><h2>Danh sách lớp <span className="teacher-classes-count">{classes.length}</span></h2></div><Link className="btn primary" href="/teacher/classes/new">+ Tạo lớp học</Link></div>
+      <div className="teacher-classes-heading" style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", borderBottom: "1px solid var(--border-light)", paddingBottom: "16px", marginBottom: "32px" }}>
+        <div>
+          <h2 style={{ fontSize: "20px", fontWeight: 600, color: "var(--text-primary)", marginBottom: "4px" }}>Danh sách lớp học</h2>
+          <span style={{ fontSize: "14px", color: "var(--text-secondary)" }}>{classes.length} lớp đang hoạt động</span>
+        </div>
+        <Link className="btn primary" href="/teacher/classes/new">+ Tạo lớp học</Link>
+      </div>
       {error ? <div className="teacher-classes-state teacher-classes-error" role="alert"><strong>Không thể tải danh sách lớp học.</strong><span>Vui lòng thử lại sau.</span></div> : <ClassList classes={classes} counts={counts} memberError={Boolean(memberError)} />}
       <p className="teacher-classes-hint">Gửi mã tham gia cho học sinh để các em vào đúng lớp.</p>
     </section>

@@ -27,23 +27,45 @@ export default async function TeacherChapterPage({ params, searchParams }: { par
       <div className="chapter-section-list">
         {chapter.lessons.map((fixedLesson) => {
           const lesson = lessonsByCode.get(fixedLesson.code);
-          return lesson ? (
-            <Link key={fixedLesson.code} href={`/teacher/lessons/${lesson.id}`} className="card chapter-overview-row curriculum-tone-default">
-              <span className="chapter-number">{String(fixedLesson.number).padStart(2, "0")}</span>
-              <div>
-                <h2>{fixedLesson.title}</h2>
-                <p>Trạng thái: {lesson.status === "published" ? "Đã xuất bản" : "Bản nháp"}</p>
+          return (
+            <div key={fixedLesson.code} className="card curriculum-tone-default" style={{ display: "flex", flexDirection: "column", padding: "24px", backgroundColor: "var(--bg-surface)", border: "1px solid var(--border-light)", borderRadius: "var(--radius-md)", opacity: lesson ? 1 : 0.6 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "24px", marginBottom: "16px" }}>
+                <span className="chapter-number" style={{ fontSize: "28px", color: "var(--text-muted)" }}>{String(fixedLesson.number).padStart(2, "0")}</span>
+                <div style={{ flex: 1 }}>
+                  <h2 style={{ fontSize: "18px", fontWeight: 600, color: "var(--color-primary)", marginBottom: "4px", marginTop: 0 }}>{fixedLesson.title}</h2>
+                  <p style={{ fontSize: "13px", color: "var(--text-secondary)", margin: 0 }}>Trạng thái: {lesson ? (lesson.status === "published" ? "Đã xuất bản" : "Đang thiết lập") : "Chưa thiết lập"}</p>
+                </div>
+                {lesson && <Link href={`/teacher/lessons/${lesson.id}`} className="btn">Tổng quan bài →</Link>}
               </div>
-              <span className="arrow-link">Mở bài học →</span>
-            </Link>
-          ) : (
-            <div key={fixedLesson.code} className="card chapter-overview-row is-disabled" style={{ opacity: 0.6 }}>
-              <span className="chapter-number">{String(fixedLesson.number).padStart(2, "0")}</span>
-              <div>
-                <h2>{fixedLesson.title}</h2>
-                <p>Trạng thái: Đang thiết lập</p>
+
+              <div style={{ display: "flex", flexDirection: "column", borderTop: "1px solid var(--border-light)" }}>
+                {[
+                  { phase: "before_class", title: "Bài giảng và chuẩn bị", name: "Trước giờ học", num: "01" },
+                  { phase: "in_class", title: "Mô phỏng và khám phá", name: "Trong giờ học", num: "02" },
+                  { phase: "after_class", title: "Bài tập và kiểm tra cuối bài", name: "Sau giờ học", num: "03" }
+                ].map((p, idx) => {
+                  const content = (
+                    <div style={{ display: "flex", alignItems: "center", padding: "12px 8px", borderBottom: idx < 2 ? "1px solid var(--border-light)" : "none", gap: "16px", transition: "background-color 0.15s" }}>
+                      <span style={{ fontSize: "12px", fontWeight: 600, color: "var(--text-muted)", width: "24px" }}>{p.num}</span>
+                      <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
+                        <span style={{ fontSize: "11px", textTransform: "uppercase", letterSpacing: "0.05em", color: "var(--text-secondary)", fontWeight: 600 }}>{p.name}</span>
+                        <span style={{ fontSize: "14px", color: "var(--text-primary)", fontWeight: 500 }}>{p.title}</span>
+                      </div>
+                      <span style={{ fontSize: "14px", color: "var(--color-primary)" }}>→</span>
+                    </div>
+                  );
+
+                  return lesson ? (
+                    <Link key={p.phase} href={`/teacher/lessons/${lesson.id}/${p.phase.replace("_", "-")}`} style={{ textDecoration: "none" }}>
+                      {content}
+                    </Link>
+                  ) : (
+                    <div key={p.phase} style={{ opacity: 0.5, pointerEvents: "none" }}>
+                      {content}
+                    </div>
+                  );
+                })}
               </div>
-              <span className="arrow-link" style={{ visibility: "hidden" }}>Mở bài học →</span>
             </div>
           );
         })}
