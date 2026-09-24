@@ -18,6 +18,11 @@ export function LessonLearningCard({ fixedLesson, lesson, materialCounts, classN
   </article>;
 }
 
-export function ChapterIllustration({ code }: { code: string }) { return <svg className="chapter-illustration-svg" style={{ width: "96px", height: "auto", flexShrink: 0, opacity: 0.15 }} viewBox="0 0 220 150" aria-hidden="true"><circle cx="110" cy="75" r={code === "IV" ? 38 : 30} fill="none" stroke="currentColor" strokeWidth="8"/><circle cx="110" cy="75" r="12" fill="currentColor"/><path d="M48 75h35M137 75h35M110 20v30M110 100v30" stroke="currentColor" strokeWidth="6" strokeLinecap="round"/><circle cx="76" cy="48" r="7" fill="currentColor"/><circle cx="148" cy="55" r="7" fill="currentColor"/></svg>; }
+import { NuclearScienceIllustration } from "./NuclearScienceIllustration";
+
+export function ChapterIllustration({ code }: { code: string }) { 
+  if (code === "IV") return <NuclearScienceIllustration style={{ opacity: 0.15, flexShrink: 0 }} />;
+  return <svg className="chapter-illustration-svg" style={{ width: "96px", height: "auto", flexShrink: 0, opacity: 0.15 }} viewBox="0 0 220 150" aria-hidden="true"><circle cx="110" cy="75" r={30} fill="none" stroke="currentColor" strokeWidth="8"/><circle cx="110" cy="75" r="12" fill="currentColor"/><path d="M48 75h35M137 75h35M110 20v30M110 100v30" stroke="currentColor" strokeWidth="6" strokeLinecap="round"/><circle cx="76" cy="48" r="7" fill="currentColor"/><circle cx="148" cy="55" r="7" fill="currentColor"/></svg>; 
+}
 export const chapterDescriptions: Record<string, string> = { I: "Khảo sát nhiệt độ, nội năng và các quá trình nhiệt trong đời sống.", II: "Mô hình động học phân tử và các định luật của khí lí tưởng.", III: "Từ trường, cảm ứng điện từ và những ứng dụng của điện từ học.", IV: "Cấu trúc hạt nhân, phản ứng hạt nhân và các ứng dụng năng lượng." };
 export const chapterTones: Record<string, string> = { I: "thermal", II: "gas", III: "magnetic", IV: "nuclear" };
