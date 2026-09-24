@@ -246,17 +246,67 @@ export async function updateVideoMaterialAction(_previousState: LessonMaterialSt
     if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
     return { error: updateError.message };
   }
-  const { error: deleteCheckpointsError } = await supabase.from("video_checkpoints").delete().eq("material_id", id);
-  if (deleteCheckpointsError) {
-    console.error("create video error:", deleteCheckpointsError);
-    return { error: deleteCheckpointsError.message };
+  // Safe checkpoint update strategy: upsert existing checkpoints, insert new ones.
+  // Do NOT delete and re-insert all checkpoints as that would cascade-delete
+  // video_checkpoint_attempts (student answer history).
+  //
+  // Fetch existing checkpoints ordered by sort_order so we can match by position.
+  const { data: existingCheckpoints } = await supabase
+    .from("video_checkpoints")
+    .select("id, sort_order")
+    .eq("material_id", id)
+    .order("sort_order");
+
+  const rows = checkpointRows(id, checkpoints);
+  const existingIds = (existingCheckpoints ?? []).map((c) => c.id);
+
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    if (i < existingIds.length) {
+      // Update existing checkpoint in-place — preserves FK references in video_checkpoint_attempts
+      const { error: updateCpError } = await supabase
+        .from("video_checkpoints")
+        .update({
+          checkpoint_percent: row.checkpoint_percent,
+          question: row.question,
+          option_a: row.option_a,
+          option_b: row.option_b,
+          option_c: row.option_c,
+          option_d: row.option_d,
+          correct_option: row.correct_option,
+          sort_order: row.sort_order,
+        })
+        .eq("id", existingIds[i]);
+      if (updateCpError) {
+        console.error("update checkpoint error:", updateCpError);
+        if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
+        return { error: updateCpError.message };
+      }
+    } else {
+      // Insert brand-new checkpoint (more checkpoints than before)
+      const { error: insertCpError } = await supabase.from("video_checkpoints").insert(row);
+      if (insertCpError) {
+        console.error("insert checkpoint error:", insertCpError);
+        if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
+        return { error: insertCpError.message };
+      }
+    }
   }
-  const { error: checkpointError } = await supabase.from("video_checkpoints").insert(checkpointRows(id, checkpoints));
-  if (checkpointError) {
-    console.error("create video error:", checkpointError);
-    if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, contentUrl, user.id, lessonId);
-    return { error: checkpointError.message };
+
+  // If the new list is shorter, remove surplus checkpoints (intentional deletion).
+  // This deliberately removes student attempts for those specific checkpoints only.
+  if (existingIds.length > rows.length) {
+    const surplusIds = existingIds.slice(rows.length);
+    const { error: deleteSurplusError } = await supabase
+      .from("video_checkpoints")
+      .delete()
+      .in("id", surplusIds);
+    if (deleteSurplusError) {
+      console.error("delete surplus checkpoints error:", deleteSurplusError);
+      return { error: deleteSurplusError.message };
+    }
   }
+
   if (contentUrl !== existingMaterial.data.content_url) await removeUploadedVideo(supabase, existingMaterial.data.content_url ?? "", user.id, lessonId);
   revalidatePath(`/teacher/lessons/${lessonId}`);
   revalidatePath(`/student/lessons/${lessonId}`);

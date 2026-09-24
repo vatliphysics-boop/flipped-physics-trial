@@ -76,7 +76,7 @@ async function getPublishedStudentMaterial(materialId: string, userId: string) {
   const lesson = material?.lessons as unknown as { class_id: string; status: string } | null;
   if (!material || !lesson || lesson.status !== "published") return null;
   const { data: membership } = await supabase.from("class_members").select("student_id").eq("class_id", lesson.class_id).eq("student_id", userId).maybeSingle();
-  return membership ? { supabase, lessonId: lesson.class_id } : null;
+  return membership ? { supabase, lessonId: material.lesson_id } : null;
 }
 
 export async function saveActivityProgressAction(input: { materialId: string; response: Record<string, unknown>; isComplete: boolean }): Promise<EvidenceState> {
