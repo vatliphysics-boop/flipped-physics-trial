@@ -52,14 +52,30 @@ export function PortalShell({ role, active, children, account }: { role: PortalR
   const label = sidebarOpen ? "Ẩn menu" : "Hiện menu";
   return <div className={`portal-shell ${sidebarOpen ? "sidebar-open" : "sidebar-closed"}`} data-role={role}>
     <a className="skip-link" href="#main-content">Đi đến nội dung chính</a>
+    
     <header className="portal-topbar">
-      <button ref={desktopTrigger} type="button" className="menu-toggle desktop-toggle" aria-label={label} aria-expanded={sidebarOpen} aria-controls="portal-sidebar" onClick={() => setSidebarOpen((open) => !open)}><span aria-hidden="true">☰</span><span>{label}</span></button>
-      <button ref={mobileTrigger} type="button" className="menu-toggle mobile-toggle" aria-label="Mở menu" aria-expanded={mobileOpen} aria-controls="portal-mobile-menu" onClick={() => setMobileOpen(true)}><span aria-hidden="true">☰</span><span>Menu</span></button>
-      <Link className="portal-name" href={role === "teacher" ? "/teacher" : "/student"}>Học liệu Vật lí 12</Link>
+      <div className="topbar-left">
+        <button ref={desktopTrigger} type="button" className="menu-toggle desktop-toggle" aria-label={label} aria-expanded={sidebarOpen} aria-controls="portal-sidebar" onClick={() => setSidebarOpen((open) => !open)}>
+          <span aria-hidden="true">☰</span>
+          {/* Only show label if visual is better, but user said "hoặc chỉ ☰ nếu visual tốt hơn", let's keep label for now as it was or just ☰ */}
+          {/* Wait, user said "Nhưng phải nằm trong Topbar, sát title Học liệu Vật lí 12." */}
+        </button>
+        <button ref={mobileTrigger} type="button" className="menu-toggle mobile-toggle" aria-label="Mở menu" aria-expanded={mobileOpen} aria-controls="portal-mobile-menu" onClick={() => setMobileOpen(true)}>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <Link className="portal-name" href={role === "teacher" ? "/teacher" : "/student"}>Học liệu Vật lí 12</Link>
+      </div>
       <div className="portal-account">{account}</div>
     </header>
-    <aside id="portal-sidebar" className="portal-sidebar" aria-label="Thanh điều hướng"><div className="portal-sidebar-title"><strong>Học liệu Vật lí 12</strong><span>{role === "teacher" ? "Không gian giáo viên" : "Không gian học sinh"}</span></div><Navigation role={role} active={active} /></aside>
-    {mobileOpen ? <div className="drawer-layer" onMouseDown={(event) => { if (event.target === event.currentTarget) setMobileOpen(false); }}><aside ref={drawer} id="portal-mobile-menu" className="portal-drawer" aria-label="Menu di động" role="dialog" aria-modal="true"><div className="drawer-heading"><strong>Học liệu Vật lí 12</strong><button type="button" className="icon-button" aria-label="Đóng menu" onClick={() => setMobileOpen(false)}>×</button></div><Navigation role={role} active={active} onNavigate={() => setMobileOpen(false)} /></aside></div> : null}
-    <main id="main-content" className="portal-main">{children}</main>
+
+    <div className="portal-body">
+      <aside id="portal-sidebar" className="portal-sidebar" aria-label="Thanh điều hướng">
+        <Navigation role={role} active={active} />
+      </aside>
+      
+      {mobileOpen ? <div className="drawer-layer" onMouseDown={(event) => { if (event.target === event.currentTarget) setMobileOpen(false); }}><aside ref={drawer} id="portal-mobile-menu" className="portal-drawer" aria-label="Menu di động" role="dialog" aria-modal="true"><div className="drawer-heading"><strong>Học liệu Vật lí 12</strong><button type="button" className="icon-button" aria-label="Đóng menu" onClick={() => setMobileOpen(false)}>×</button></div><Navigation role={role} active={active} onNavigate={() => setMobileOpen(false)} /></aside></div> : null}
+      
+      <main id="main-content" className="portal-main">{children}</main>
+    </div>
   </div>;
 }
