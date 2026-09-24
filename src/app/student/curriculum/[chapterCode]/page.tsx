@@ -28,7 +28,7 @@ export default async function StudentChapterPage({ params }: { params: Promise<{
   }
 
   return (
-    <StudentShell active="curriculum" title={chapter.title} description="">
+    <StudentShell active="curriculum" eyebrow="Vật lí 12" title={chapter.title} description="">
       <div className="chapter-detail" style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 0" }}>
         
         {/* Breadcrumb & Header */}

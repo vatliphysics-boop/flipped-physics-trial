@@ -561,8 +561,65 @@ input:focus, select:focus, textarea:focus {
   left: 0;
   width: 280px;
   background-color: var(--bg-surface);
+  display: flex;
+  flex-direction: column;
+}
+.drawer-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 20px;
+  border-bottom: 1px solid var(--border-light);
+}
+.icon-button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  color: var(--text-secondary);
+  padding: 4px;
+  line-height: 1;
+}
 
-/* Added missing selectors for components used in the app */
+.chapter-list-row { transition: background-color 0.15s; }
+.chapter-list-row:hover { background-color: var(--bg-surface-elevated); }
+
+/* Page Header (used in StudentShell and TeacherShell) */
+.page-header {
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-light);
+}
+.page-kicker {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 8px;
+}
+.page-description {
+  color: var(--text-secondary);
+  font-size: 15px;
+  margin: 4px 0 0;
+  max-width: 640px;
+  line-height: 1.6;
+}
+
+/* Skip link (accessibility) */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+.skip-link:focus {
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  padding: 8px 16px;
+  background: var(--color-primary);
+  color: white;
+}
+
+/* Auth & shared components */
 .auth-wrap {
   max-width: 400px;
   margin: 0 auto;
@@ -583,9 +640,7 @@ input:focus, select:focus, textarea:focus {
   color: var(--color-primary);
   margin-bottom: 24px;
 }
-.brand-mark {
-  font-weight: 700;
-}
+.brand-mark { font-weight: 700; }
 .eyebrow {
   font-size: 12px;
   font-weight: 600;
@@ -594,10 +649,7 @@ input:focus, select:focus, textarea:focus {
   letter-spacing: 0.05em;
   margin-bottom: 8px;
 }
-.muted {
-  color: var(--text-muted);
-  font-size: 14px;
-}
+.muted { color: var(--text-muted); font-size: 14px; }
 .role-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -610,9 +662,7 @@ input:focus, select:focus, textarea:focus {
   padding: 24px;
   text-align: center;
 }
-.field {
-  margin-bottom: 16px;
-}
+.field { margin-bottom: 16px; }
 .input {
   width: 100%;
   padding: 10px 14px;
@@ -622,9 +672,7 @@ input:focus, select:focus, textarea:focus {
   color: var(--text-primary);
   font-size: 14px;
 }
-.form {
-  margin-top: 24px;
-}
+.form { margin-top: 24px; }
 .form-alert {
   padding: 12px;
   border-radius: var(--radius-sm);
@@ -634,7 +682,7 @@ input:focus, select:focus, textarea:focus {
 }
 .form-alert-error {
   border-color: var(--semantic-danger);
-  background-color: #FEF2F2; /* red-50 */
+  background-color: #FEF2F2;
 }
 .overview-continue {
   background-color: var(--bg-surface);
@@ -642,28 +690,13 @@ input:focus, select:focus, textarea:focus {
   border-radius: var(--radius-md);
   padding: 24px;
 }
-.overview-continue-content {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.overview-actions {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
+.overview-continue-content { display: flex; flex-direction: column; gap: 12px; }
+.overview-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
 /* Physics component selectors */
-.physics-lab {
-  margin-top: 20px;
-}
-.physics-intro, .physics-note {
-  font-size: 14px;
-  margin-bottom: 8px;
-}
-.physics-activity-list {
-  margin-top: 20px;
-}
+.physics-lab { margin-top: 20px; }
+.physics-intro, .physics-note { font-size: 14px; margin-bottom: 8px; }
+.physics-activity-list { margin-top: 20px; }
 .physics-activity-card {
   background-color: var(--bg-surface);
   border: 1px solid var(--border-light);
@@ -671,10 +704,7 @@ input:focus, select:focus, textarea:focus {
   padding: 24px;
   margin-bottom: 16px;
 }
-.section-header {
-  margin-bottom: 12px;
-  font-weight: 600;
-}
+.section-header { margin-bottom: 12px; font-weight: 600; }
 .progress {
   height: 8px;
   background-color: var(--border-light);
@@ -708,17 +738,10 @@ input:focus, select:focus, textarea:focus {
   justify-content: space-between;
   margin-bottom: 16px;
 }
-.stage-marker {
-  font-weight: 600;
-}
-.stage-description {
-  margin-top: 12px;
-}
-.stage-items {
-  gap: 24px;
-}
+.stage-marker { font-weight: 600; }
+.stage-description { margin-top: 12px; }
+.stage-items { gap: 24px; }
 
-/* Physics interaction selectors */
 .physics-controls, .physics-actions {
   display: flex;
   gap: 12px;
@@ -738,26 +761,3 @@ input:focus, select:focus, textarea:focus {
   color: white;
   border-color: var(--color-primary);
 }
-
-  display: flex;
-  flex-direction: column;
-}
-.drawer-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px 20px;
-  border-bottom: 1px solid var(--border-light);
-}
-.icon-button {
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  color: var(--text-secondary);
-  padding: 4px;
-  line-height: 1;
-}
-
-.chapter-list-row { transition: background-color 0.15s; }
-.chapter-list-row:hover { background-color: var(--bg-surface-elevated); }
-

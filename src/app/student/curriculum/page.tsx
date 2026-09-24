@@ -4,12 +4,9 @@ import { GRADE_12_CURRICULUM } from "@/lib/curriculum";
 
 export default function StudentCurriculumPage() {
   return (
-    <StudentShell active="curriculum" title="Chương trình Vật lí 12" description="Bốn chương, hai mươi lăm bài học theo cấu trúc chương trình giáo dục phổ thông.">
+    <StudentShell active="curriculum" eyebrow="Vật lí 12" title="Chương trình học" description="4 chương · 25 bài học theo cấu trúc chương trình giáo dục phổ thông.">
       <div className="curriculum-index" style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 0" }}>
         
-        <div className="student-kicker" style={{ marginBottom: "32px", borderBottom: "1px solid var(--border-light)", paddingBottom: "16px" }}>
-          Chương trình Vật lí 12
-        </div>
 
         <div className="chapter-list" style={{ display: "flex", flexDirection: "column" }}>
           {GRADE_12_CURRICULUM.map((chapter) => (

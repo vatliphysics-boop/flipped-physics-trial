@@ -6,7 +6,7 @@ import { getStudentContext } from "@/lib/student-learning";
 export default async function StudentClassesPage() {
   const state = await getStudentContext();
   return (
-    <StudentShell active="classes" title="Lớp học của em" description="Tham gia lớp và theo dõi tiến độ học tập.">
+    <StudentShell active="classes" title="Lớp học của em" description="Tham gia và quản lý các lớp học của em.">
       <div className="student-classes-page" style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 0" }}>
         
         <section className="student-card" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "24px", marginBottom: "40px" }}>

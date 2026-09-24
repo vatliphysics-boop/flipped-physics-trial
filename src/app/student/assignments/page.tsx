@@ -8,7 +8,7 @@ export default async function StudentAssignmentsPage() {
   const { data: assignments, error } = user ? await supabase.from("lessons").select("id, title, homework_title, homework_due_date, classes!inner(name, class_members!inner(student_id))").eq("status", "published").eq("homework_status", "published").eq("classes.class_members.student_id", user.id).order("homework_due_date", { ascending: true }) : { data: [], error: null };
   
   return (
-    <StudentShell active="assignments" title="Nhiệm vụ học tập" description="Các bài tập và yêu cầu thực hành giáo viên giao cho lớp.">
+    <StudentShell active="assignments" title="Bài tập và kiểm tra" description="Các bài tập và yêu cầu thực hành giáo viên giao cho lớp.">
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 0" }}>
         <section className="assignment-section">
           {error ? (

@@ -18,10 +18,10 @@ const navigation: Record<PortalRole, NavigationItem[]> = {
   ],
   student: [
     { section: "overview", label: "Tổng quan", href: "/student" },
-    { section: "classes", label: "Lớp học", href: "/student/classes" },
-    { section: "curriculum", label: "Chương trình học", href: "/student/curriculum" },
-    { section: "assignments", label: "Nhiệm vụ", href: "/student/assignments" },
-    { section: "journal", label: "Nhật ký học tập", href: "/student/journal" },
+    { section: "classes", label: "Lớp học của em", href: "/student/classes" },
+    { section: "curriculum", label: "Chương trình Vật lí 12", href: "/student/curriculum" },
+    { section: "assignments", label: "Bài tập và kiểm tra", href: "/student/assignments" },
+    { section: "journal", label: "Nhật kí học tập", href: "/student/journal" },
   ],
 };
 
