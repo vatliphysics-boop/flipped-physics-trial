@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { createClient } from "@/lib/supabase/client";
 
 export type ColabMaterial = {
@@ -12,13 +12,19 @@ export type ColabMaterial = {
   is_published: boolean;
 };
 
-export function ColabMaterialManager({ lessonId, phase, materials }: { lessonId: string; phase: "before_class" | "in_class"; materials: ColabMaterial[] }) {
+export function ColabMaterialManager({ lessonId, phase, materials, hideHeader }: { lessonId: string; phase: "before_class" | "in_class"; materials: ColabMaterial[]; hideHeader?: boolean }) {
   const [isAdding, setIsAdding] = useState(false);
   const [title, setTitle] = useState("");
   const [url, setUrl] = useState("");
   const [description, setDescription] = useState("");
   const [saving, setSaving] = useState(false);
   const supabase = createClient();
+
+  useEffect(() => {
+    const handleOpen = () => setIsAdding(true);
+    window.addEventListener("open-colab-form", handleOpen);
+    return () => window.removeEventListener("open-colab-form", handleOpen);
+  }, []);
 
   async function handleAdd(e: React.FormEvent) {
     e.preventDefault();
@@ -41,11 +47,11 @@ export function ColabMaterialManager({ lessonId, phase, materials }: { lessonId:
   }
 
   return (
-    <section className="card" style={{ marginTop: "24px", padding: "24px" }}>
-      <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
+    <section className="card" style={{ marginTop: hideHeader ? "0" : "24px", padding: hideHeader ? "0" : "24px", border: hideHeader ? "none" : undefined, boxShadow: hideHeader ? "none" : undefined }}>
+      {!hideHeader && <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
         <h2>Google Colab & Hướng dẫn</h2>
         <button className="btn" onClick={() => setIsAdding(!isAdding)}>+ Thêm Colab</button>
-      </header>
+      </header>}
 
       {isAdding && (
         <form onSubmit={handleAdd} style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "24px", padding: "16px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-md)" }}>

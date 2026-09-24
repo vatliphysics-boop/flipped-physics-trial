@@ -5,6 +5,7 @@ import { PhysicsActivityList } from "@/components/physics/FixedPhysicsActivityRe
 import { ColabMaterialManager } from "@/components/learning/ColabMaterialManager";
 import { PhaseFinalQuestionsManager } from "@/components/learning/PhaseFinalQuestionsManager";
 import { VideoMaterialManager, type VideoMaterial } from "../VideoMaterialManager";
+import { PhaseActionHeader } from "@/components/learning/PhaseActionHeader";
 
 export default async function TeacherSimulationPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
@@ -21,8 +22,21 @@ export default async function TeacherSimulationPage({ params }: { params: Promis
   return <TeacherShell active="curriculum" title={`${lesson.title} — Pha 2: Mô phỏng và khám phá`} description="Tổ chức hoạt động quan sát, thảo luận và khám phá trong giờ học.">
     <LessonNavigation role="teacher" lessonId={lessonId} className={classItem.name} lessonTitle={lesson.title} active="in_class" classId={classItem.id} chapterCode={curriculum.chapterCode} />
     <section className="phase-panel" style={{ marginBottom: "24px" }}><header className="section-header"><div><h2>Hoạt động mô phỏng (Hệ thống)</h2><p>Thực hiện từng hoạt động theo đúng bài học để tổ chức thảo luận trên lớp.</p></div></header><PhysicsActivityList lessonCode={curriculum.code as "B21"|"B22"|"B23"|"B24"|"B25"} /></section>
-    <VideoMaterialManager lessonId={lessonId} materials={videoMaterials} />
-    <ColabMaterialManager lessonId={lessonId} phase="in_class" materials={colabs ?? []} />
+    
+    <section className="card" style={{ padding: "24px", marginBottom: "24px" }}>
+      <PhaseActionHeader 
+        title="HỌC LIỆU BỔ SUNG" 
+        actions={[
+          { label: "+ Upload video", eventName: "open-video-form", primary: true },
+          { label: "+ Thêm Google Colab", eventName: "open-colab-form" }
+        ]} 
+      />
+      <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+        <VideoMaterialManager lessonId={lessonId} materials={videoMaterials} hideHeader={true} />
+        <ColabMaterialManager lessonId={lessonId} phase="in_class" materials={colabs ?? []} hideHeader={true} />
+      </div>
+    </section>
+
     <PhaseFinalQuestionsManager lessonId={lessonId} phase="in_class" questions={finalQs ?? []} />
   </TeacherShell>;
 }

@@ -4,6 +4,7 @@ import { getTeacherLesson } from "@/lib/teacher-lesson";
 import { VideoMaterialManager, type VideoMaterial } from "../VideoMaterialManager";
 import { ColabMaterialManager } from "@/components/learning/ColabMaterialManager";
 import { PhaseFinalQuestionsManager } from "@/components/learning/PhaseFinalQuestionsManager";
+import { PhaseActionHeader } from "@/components/learning/PhaseActionHeader";
 
 export default async function TeacherBeforeClassPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
@@ -46,8 +47,21 @@ export default async function TeacherBeforeClassPage({ params }: { params: Promi
 
   return <TeacherShell active="curriculum" title={`${lesson.title} — Bài giảng và chuẩn bị`} description="Tải, chỉnh sửa và xuất bản video cho học sinh trong lớp.">
     <LessonNavigation role="teacher" lessonId={lessonId} className={classItem.name} lessonTitle={lesson.title} active="before_class" />
-    <VideoMaterialManager lessonId={lessonId} materials={materials} />
-    <ColabMaterialManager lessonId={lessonId} phase="before_class" materials={colabs ?? []} />
+    
+    <section className="card" style={{ padding: "24px", marginBottom: "24px" }}>
+      <PhaseActionHeader 
+        title="HỌC LIỆU TRƯỚC GIỜ HỌC" 
+        actions={[
+          { label: "+ Upload video", eventName: "open-video-form", primary: true },
+          { label: "+ Thêm Google Colab", eventName: "open-colab-form" }
+        ]} 
+      />
+      <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+        <VideoMaterialManager lessonId={lessonId} materials={materials} hideHeader={true} />
+        <ColabMaterialManager lessonId={lessonId} phase="before_class" materials={colabs ?? []} hideHeader={true} />
+      </div>
+    </section>
+
     <PhaseFinalQuestionsManager lessonId={lessonId} phase="before_class" questions={finalQs ?? []} />
   </TeacherShell>;
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { startTransition, useState } from "react";
+import { startTransition, useState, useEffect } from "react";
 import { useActionState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { SUPPORTED_VIDEO_EXTENSIONS, SUPPORTED_VIDEO_MIME_TYPES } from "@/lib/video-source";
@@ -100,12 +100,19 @@ function VideoForm({ lessonId, material, onCancel }: { lessonId: string; materia
   );
 }
 
-export function VideoMaterialManager({ lessonId, materials }: { lessonId: string; materials: VideoMaterial[] }) {
+export function VideoMaterialManager({ lessonId, materials, hideHeader }: { lessonId: string; materials: VideoMaterial[]; hideHeader?: boolean }) {
   const [adding, setAdding] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleOpen = () => { setAdding(true); setEditingId(null); };
+    window.addEventListener("open-video-form", handleOpen);
+    return () => window.removeEventListener("open-video-form", handleOpen);
+  }, []);
+
   return (
     <div className="video-material-manager">
-      <div className="video-section-heading"><div><span className="teacher-panel-kicker">HỌC LIỆU THỰC TẾ</span><h3>Video bài học</h3></div><button className="btn primary" type="button" onClick={() => { setAdding((value) => !value); setEditingId(null); }}>{adding ? "Đóng biểu mẫu" : "+ Thêm video"}</button></div>
+      {!hideHeader && <div className="video-section-heading"><div><span className="teacher-panel-kicker">HỌC LIỆU THỰC TẾ</span><h3>Video bài học</h3></div><button className="btn primary" type="button" onClick={() => { setAdding((value) => !value); setEditingId(null); }}>{adding ? "Đóng biểu mẫu" : "+ Thêm video"}</button></div>}
       {adding && <VideoForm lessonId={lessonId} onCancel={() => setAdding(false)} />}
       {!materials.length && !adding && <p className="video-empty">Chưa có video bài học.</p>}
       <div className="video-material-list">
