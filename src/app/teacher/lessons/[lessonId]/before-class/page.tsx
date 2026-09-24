@@ -2,6 +2,8 @@ import { TeacherShell } from "../../../TeacherShell";
 import { LessonNavigation } from "@/components/learning/LessonNavigation";
 import { getTeacherLesson } from "@/lib/teacher-lesson";
 import { VideoMaterialManager, type VideoMaterial } from "../VideoMaterialManager";
+import { ColabMaterialManager } from "@/components/learning/ColabMaterialManager";
+import { PhaseFinalQuestionsManager } from "@/components/learning/PhaseFinalQuestionsManager";
 
 export default async function TeacherBeforeClassPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
@@ -39,8 +41,13 @@ export default async function TeacherBeforeClassPage({ params }: { params: Promi
       })),
   }));
 
+  const { data: colabs } = await supabase.from("lesson_materials").select("*").eq("lesson_id", lessonId).eq("phase", "before_class").eq("material_type", "worksheet").order("created_at");
+  const { data: finalQs } = await supabase.from("phase_final_questions").select("*").eq("lesson_id", lessonId).eq("phase", "before_class").order("sort_order");
+
   return <TeacherShell active="curriculum" title={`${lesson.title} — Bài giảng và chuẩn bị`} description="Tải, chỉnh sửa và xuất bản video cho học sinh trong lớp.">
     <LessonNavigation role="teacher" lessonId={lessonId} className={classItem.name} lessonTitle={lesson.title} active="before_class" />
     <VideoMaterialManager lessonId={lessonId} materials={materials} />
+    <ColabMaterialManager lessonId={lessonId} phase="before_class" materials={colabs ?? []} />
+    <PhaseFinalQuestionsManager lessonId={lessonId} phase="before_class" questions={finalQs ?? []} />
   </TeacherShell>;
 }

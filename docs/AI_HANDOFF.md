@@ -99,3 +99,29 @@ Teacher Experience Q/A and Simulation refinements.
 
 # NEXT TASK
 Teacher Experience Q/A and Simulation refinements.
+
+# SESSION 6 RESULT: TEACHER REGRESSION FIX
+- **PORTAL SHELL ALIGNMENT**: Restored Teacher UI specific CSS in `globals.css` so that the `PortalShell` structure accurately renders Teacher's curriculum and classes.
+- **GIANT ATOM FIX**: Fixed an issue in `LessonLearningCard` where the SVG atom illustration lacked size constraints, exploding to full-screen.
+- **BREADCRUMB ALIGNMENT**: Reintroduced `.breadcrumbs` styling to prevent squished text in headers.
+
+# SESSION 6A & 6B RESULT: TEACHER CLASSES + 3-PHASE LESSON INDEX
+- **CLASSES**: Fixed the "Danh sách lớp 1" bug by decoupling the class count into a separate metadata section under "Danh sách lớp học".
+- **CLASS ROW**: Refactored the Class row into a clean panel showing the join code in `monospace` alongside a clear copy button.
+- **CHAPTER PAGE & PHASE SHORTCUTS**: 
+  - Restored the 3-phase lesson architecture.
+  - The Chapter page no longer redundantly renders the entire phase content inline.
+  - Instead, each lesson is a compact panel with its title, status, and three thin sub-rows for Phase 1, Phase 2, and Phase 3 (shortcuts).
+- **LESSON OVERVIEW**: Revamped the overview page into a vertical "Learning Journey" listing the 3 phases cleanly.
+
+# SESSION 7 RESULT: PHASE MATERIAL UPLOADS & DATABASE GATES
+- **DATABASE CHANGES**: Created migration `20260924_015_phase_gates_and_questions.sql`.
+  - Added `phase_final_questions` table for strictly configuring 2 questions at the end of Phase 1 and 2.
+  - Added `phase_assessment_questions` for the Question Bank in Phase 3.
+  - Added progress tracking tables: `student_phase_progress`, `student_lesson_progress`.
+  - Modified `lesson_materials` constraint to support `colab` and `pdf` (using existing `worksheet` or dropping constraint safely).
+  - All tables configured with Row Level Security (RLS) allowing teachers full control on their lessons and students read access to published materials.
+- **PHASE 1 (TEACHER)**: Implemented `ColabMaterialManager.tsx` and `PhaseFinalQuestionsManager.tsx` and integrated them into `/before-class`.
+- **PHASE 2 (TEACHER)**: Added Video, Colab, and Final Questions management below the Native Simulation.
+- **PHASE 3 (TEACHER)**: Added `QuestionBankManager.tsx` to handle 3 types of questions across 4 difficulty levels.
+- **NEXT LESSON UNLOCK / RANDOMIZATION / STUDENT GATES**: The backend is ready. The next immediate step requires wiring the Student UI to enforce locking (prevent accessing Phase 2 until Phase 1 materials and final questions are completed), shuffle logic on Phase 3, and tracking.
