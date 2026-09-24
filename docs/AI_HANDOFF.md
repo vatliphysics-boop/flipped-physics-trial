@@ -1,31 +1,45 @@
 CURRENT BRANCH: rescue/weekend-final
-CURRENT COMMIT: 52e5904 (plus Milestone 1 changes)
+CURRENT COMMIT: b51eab1 (plus Milestone 2 and 3 changes)
 
 COMPLETED
-- Tạo snapshot an toàn của toàn bộ trạng thái hệ thống.
-- [Bug A] Fix lỗi RLS khi truy vấn video_checkpoints trong `src/app/student/lessons/[lessonId]/before-class/page.tsx`. Đổi sang view `student_video_checkpoints` và map chính xác cấu trúc dữ liệu cho `VideoCheckpointPlayer`.
-- [Bug B] Fix lỗi `lessonId` bị gán nhầm thành `class_id` trong `getPublishedStudentMaterial` tại `src/app/student/actions.ts`.
-- [Bug C] Cải thiện data safety cho `updateVideoMaterialAction` tại `src/app/teacher/actions.ts`: áp dụng update an toàn (upsert), không DROP cascade nhằm bảo vệ lịch sử trả lời của học sinh.
-- [Bug D] Khắc phục lỗi 404 khi giáo viên bấm "Tải bài giảng lên" ở trang Before Class. Phục hồi component `VideoMaterialManager` và tích hợp ngay tại `src/app/teacher/lessons/[lessonId]/before-class/page.tsx`.
+- [Milestone 2] Thống nhất Routing:
+  - Teacher và Student sử dụng chung mô hình 3 pha: `/before-class`, `/in-class`, và `/after-class`.
+  - Hợp nhất `simulation` vào `in-class` và `assessment` vào `after-class`. Đã xóa các route `simulation` và `assessment` thừa.
+  - Cập nhật các liên kết (links) trong `LessonLearningCard`, `LessonNavigation`, và trang `student/assignments` để phản ánh route mới.
+- [Milestone 3] Unified Application Shell:
+  - Loại bỏ hoàn toàn `AppSidebar` khỏi hệ thống.
+  - Áp dụng `StudentShell` cho tất cả các trang của học sinh (`/student`, `/student/curriculum`, `/student/curriculum/[chapterCode]`, `/student/classes`, `/student/journal`).
+  - Đảm bảo `TeacherShell` và `StudentShell` hoạt động nhất quán, chia sẻ chung `PortalShell` bên dưới.
 
 FILES CHANGED
-- `src/app/student/lessons/[lessonId]/before-class/page.tsx`
-- `src/app/student/actions.ts`
-- `src/app/teacher/actions.ts`
-- `src/app/teacher/lessons/[lessonId]/before-class/page.tsx`
+- `src/app/teacher/lessons/[lessonId]/in-class/page.tsx` (ghi đè bằng nội dung từ simulation cũ)
+- `src/app/teacher/lessons/[lessonId]/after-class/page.tsx` (ghi đè bằng nội dung từ assessment cũ)
+- Tương tự cho `src/app/student/lessons/[lessonId]/after-class/page.tsx`
+- Các thư mục bị xóa: `simulation/` và `assessment/` của cả teacher và student.
+- `src/components/learning/LessonLearningCard.tsx`
+- `src/components/learning/LessonNavigation.tsx`
+- `src/app/student/assignments/page.tsx`
+- `src/app/student/page.tsx`
+- `src/app/student/curriculum/page.tsx`
+- `src/app/student/curriculum/[chapterCode]/page.tsx`
+- Đã xóa: `src/components/AppSidebar.tsx`
+
+ROUTING DECISIONS
+- Giữ lại 3 tên đường dẫn gốc: `/before-class` (Pha 1), `/in-class` (Pha 2), `/after-class` (Pha 3).
+- Ngừng hỗ trợ các định dạng cũ như `simulation` hoặc `assessment` trên URL để đảm bảo 1 single source of truth.
+- Component Navigation nhận trực tiếp các ID pha `in_class` và `after_class` thay vì alias cũ.
+
+UI FOUNDATION DECISIONS
+- Toàn bộ app sử dụng mô hình Layout có Navigation Side/Drawer (nhờ `PortalShell`), chia làm hai Role (`TeacherShell` và `StudentShell`).
+- AppSidebar độc lập bị loại bỏ để tránh fragmentation giữa các layout component.
 
 TEST STATUS
-TypeScript: PASS (npx tsc --noEmit: OK)
-Lint: PASS (npm run lint: OK)
-Build: PASS (npm run build: OK - compiled successfully in 4.3s)
+- TypeScript: PASS (npx tsc --noEmit: OK)
+- Lint: PASS (npm run lint: OK)
+- Build: PASS (npm run build: OK - compiled successfully in 3.2s)
 
 KNOWN ISSUES
-Các script test cục bộ đã pass hoàn toàn. Không có lỗi Known Issue nào trong phạm vi Milestone 1.
-
-DO NOT CHANGE
-- Branch name và base commit.
-- Các strategy database/update (upsert) đã sửa.
-- Supabase migrations chưa apply.
+- Không có lỗi type, không lỗi compile. Cần chạy manual test (Smoke Test) giao diện thực tế.
 
 NEXT TASK
-Mở localhost, thực hiện các thao tác Smoke Test qua UI và chuyển sang Milestone 2.
+- Mở trình duyệt, thực hiện luồng Teacher và Student Smoke Test để xác minh các component render chính xác trong Shell thống nhất, các Route link trơn tru.

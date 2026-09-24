@@ -1,17 +1,11 @@
-import { AppSidebar } from "@/components/AppSidebar";
-import { LogoutButton } from "@/components/LogoutButton";
+import { StudentShell } from "./StudentShell";
 import { createClient } from "@/lib/supabase/server";
 import { JoinClassForm } from "./JoinClassForm";
 import { StudentClasses } from "./StudentClasses";
 import Link from "next/link";
 import { GRADE_12_CURRICULUM, getLessonLabel } from "@/lib/curriculum";
 
-const items = [
-  { label: "Tổng quan", href: "/student", active: true },
-  { label: "Chương trình học", href: "/student/curriculum" },
-  { label: "Lớp học của em", href: "#student-classes" },
-  { label: "Nhật kí học tập", href: "#learning-log" },
-];
+// Items removed as they are handled by StudentShell
 
 export default async function StudentPage() {
   const supabase = await createClient();
@@ -25,19 +19,9 @@ export default async function StudentPage() {
 
   if (!user || profile?.role !== "student") {
     return (
-      <div className="shell">
-        <AppSidebar items={items} />
-        <main className="main student-main">
-          <div className="page-title student-header">
-            <div>
-              <span className="eyebrow">Không gian học sinh</span>
-              <h1>Chào em</h1>
-              <p>Vui lòng đăng nhập bằng tài khoản học sinh để xem bài học.</p>
-            </div>
-            <div className="actions dashboard-actions"><LogoutButton /></div>
-          </div>
-        </main>
-      </div>
+      <StudentShell active="overview" title="Chào em" description="Vui lòng đăng nhập bằng tài khoản học sinh để xem bài học.">
+        <div />
+      </StudentShell>
     );
   }
 
@@ -78,15 +62,8 @@ export default async function StudentPage() {
   const nextCurriculumLesson = nextLesson ? getLessonLabel({ number: Number(nextLesson.curriculum_code?.slice(1) ?? 0), title: nextLesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "") }) : null;
 
   return (
-    <div className="shell">
-      <AppSidebar items={items} />
-      <main className="main student-main">
-        <div className="page-title student-header">
-          <div><span className="eyebrow">Không gian học sinh</span><h1>Tổng quan học tập</h1><p>Chọn bài để bắt đầu, theo dõi lớp học và hoàn thành hoạt động được giao.</p></div>
-          <div className="actions dashboard-actions"><LogoutButton /></div>
-        </div>
-
-        <div className="overview-page student-overview">
+    <StudentShell active="overview" title="Tổng quan học tập" description="Chọn bài để bắt đầu, theo dõi lớp học và hoàn thành hoạt động được giao.">
+      <div className="overview-page student-overview">
         <section className="overview-continue">
           <div><p className="overview-kicker">HỌC TẬP HÔM NAY</p><h2>{nextLesson ? "Bắt đầu bài học tiếp theo" : "Chọn bài để bắt đầu"}</h2><p>{nextLesson ? <><strong>{nextLesson.curriculum_code}</strong> · {nextCurriculumLesson}</> : "Mở chương trình để chọn bài học phù hợp với lớp của em."}</p><div className="overview-actions">{nextLesson ? <Link className="btn primary" href={`/student/lessons/${nextLesson.id}`}>Mở bài học</Link> : <Link className="btn primary" href="/student/curriculum">Xem chương trình</Link>}<Link className="btn" href="/student/assignments">Xem bài tập</Link></div></div>
           <div className="overview-illustration-wrap" aria-hidden="true"><svg className="overview-illustration" viewBox="0 0 220 150"><rect x="56" y="42" width="88" height="58" rx="8" fill="none" stroke="currentColor" strokeWidth="4"/><path d="M72 118h56M96 100v18M78 75c12-23 39-25 52-8 9 12-2 27-18 25-20-2-28-27-12-39" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"/><circle cx="110" cy="66" r="5" fill="currentColor"/></svg></div>
@@ -111,9 +88,7 @@ export default async function StudentPage() {
 
         <section id="learning-log" className="section student-section learning-log-note"><h2>Nhật kí học tập</h2><p className="section-sub">Tiến độ được lưu trong từng hoạt động. Mở một bài học để tiếp tục đúng nơi em đã dừng lại.</p></section>
 
-        </div>
-      </main>
-    </div>
-
+      </div>
+    </StudentShell>
   );
 }

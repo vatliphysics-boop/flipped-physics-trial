@@ -1,16 +1,10 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { AppSidebar } from "@/components/AppSidebar";
-import { LogoutButton } from "@/components/LogoutButton";
+import { StudentShell } from "../../StudentShell";
 import { createClient } from "@/lib/supabase/server";
 import { getCurriculumChapter, getLessonLabel } from "@/lib/curriculum";
 
-const items = [
-  { label: "Tổng quan", href: "/student" },
-  { label: "Chương trình học", href: "/student/curriculum", active: true },
-  { label: "Lớp học của em", href: "/student#student-classes" },
-  { label: "Nhật kí học tập", href: "/student#learning-log" },
-];
+// Items removed as they are handled by StudentShell
 
 export default async function StudentChapterPage({ params }: { params: Promise<{ chapterCode: string }> }) {
   const { chapterCode } = await params;
@@ -34,8 +28,8 @@ export default async function StudentChapterPage({ params }: { params: Promise<{
     current.complete &&= Boolean(item?.is_complete);
     progressByLesson.set(material.lesson_id, current);
   }
-  return <div className="shell"><AppSidebar items={items} /><main className="main dashboard-main curriculum-page">
-    <header className="page-title dashboard-header"><div><div className="breadcrumbs"><Link href="/student">Vật lí 12</Link><span>›</span><Link href="/student/curriculum">Chương trình học</Link><span>›</span><strong>Chương {chapter.code} — {chapter.shortTitle}</strong></div><span className="eyebrow">CHƯƠNG {chapter.code}</span><h1>{chapter.title}</h1><p>{chapter.lessons.length} bài học trong chương trình chính thức.</p></div><LogoutButton /></header>
+  return <StudentShell active="curriculum" title={chapter.title} description={`${chapter.lessons.length} bài học trong chương trình chính thức.`}>
+    <div className="breadcrumbs"><Link href="/student">Vật lí 12</Link><span>›</span><Link href="/student/curriculum">Chương trình học</Link><span>›</span><strong>Chương {chapter.code} — {chapter.shortTitle}</strong></div>
     <section className="chapter-lesson-list">{chapter.lessons.map((fixedLesson) => { const lesson = lessonByCode.get(fixedLesson.code); const state = lesson ? progressByLesson.get(lesson.id) : undefined; const status = !lesson ? "Chưa mở" : state?.complete ? "Đã hoàn thành" : state?.started ? "Đang học" : "Chưa bắt đầu"; const action = status === "Đã hoàn thành" ? "Xem lại" : status === "Đang học" ? "Tiếp tục" : "Bắt đầu"; return <article className="card chapter-lesson-row" key={fixedLesson.code}><div className="lesson-row-number">{String(fixedLesson.number).padStart(2, "0")}</div><div className="chapter-lesson-copy"><span className="curriculum-code">{fixedLesson.code}</span><h2>{getLessonLabel(fixedLesson)}</h2><p>{lesson ? "Học liệu thuộc lớp của em." : "Học liệu đang được chuẩn bị."}</p></div><div className="chapter-lesson-action"><span className={`lesson-status lesson-status-${status === "Chưa mở" ? "draft" : status === "Đã hoàn thành" ? "published" : "active"}`}>{status}</span>{lesson ? <Link className="btn primary" href={`/student/lessons/${lesson.id}`}>{action} →</Link> : <span className="lesson-unavailable">Chưa mở</span>}</div></article>; })}</section>
-  </main></div>;
+  </StudentShell>;
 }

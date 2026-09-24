@@ -9,7 +9,7 @@ const phaseCopy: Record<LearningPhase, { label: string; title: string; descripti
   in_class: { label: "PHA 2", title: "Mô phỏng và khám phá", description: "Khám phá mô phỏng, phục vụ tự học và hoạt động trên lớp.", icon: "✦", action: "Mở mô phỏng" },
   after_class: { label: "PHA 3", title: "Bài tập cuối bài", description: "Giao bài tập, kiểm tra và theo dõi sau giờ học.", icon: "✓", action: "Quản lý bài tập" },
 };
-const phasePath: Record<LearningPhase, string> = { before_class: "before-class", in_class: "simulation", after_class: "assessment" };
+const phasePath: Record<LearningPhase, string> = { before_class: "before-class", in_class: "in-class", after_class: "after-class" };
 
 export function LessonLearningCard({ fixedLesson, lesson, materialCounts, className }: Props) {
   return <article className="curriculum-learning-card">

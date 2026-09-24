@@ -2,7 +2,7 @@ import Link from "next/link";
 import { LEARNING_PHASES, PHASE_META, type LearningPhase } from "@/lib/learning-phases";
 
 type Role = "teacher" | "student";
-const phaseSegment: Record<LearningPhase, string> = { before_class: "before-class", in_class: "in-class", after_class: "assessment" };
+const phaseSegment: Record<LearningPhase, string> = { before_class: "before-class", in_class: "in-class", after_class: "after-class" };
 export function lessonPath(role: Role, lessonId: string, phase?: LearningPhase) {
   const base = `/${role}/lessons/${lessonId}`;
   return phase ? `${base}/${phaseSegment[phase]}` : base;
