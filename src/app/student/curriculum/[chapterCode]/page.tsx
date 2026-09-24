@@ -2,9 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { StudentShell } from "../../StudentShell";
 import { createClient } from "@/lib/supabase/server";
-import { getCurriculumChapter, getLessonLabel } from "@/lib/curriculum";
-
-// Items removed as they are handled by StudentShell
+import { getCurriculumChapter } from "@/lib/curriculum";
 
 export default async function StudentChapterPage({ params }: { params: Promise<{ chapterCode: string }> }) {
   const { chapterCode } = await params;
@@ -28,8 +26,76 @@ export default async function StudentChapterPage({ params }: { params: Promise<{
     current.complete &&= Boolean(item?.is_complete);
     progressByLesson.set(material.lesson_id, current);
   }
-  return <StudentShell active="curriculum" title={chapter.title} description={`${chapter.lessons.length} bài học trong chương trình chính thức.`}>
-    <div className="breadcrumbs"><Link href="/student">Vật lí 12</Link><span>›</span><Link href="/student/curriculum">Chương trình học</Link><span>›</span><strong>Chương {chapter.code} — {chapter.shortTitle}</strong></div>
-    <section className="chapter-lesson-list">{chapter.lessons.map((fixedLesson) => { const lesson = lessonByCode.get(fixedLesson.code); const state = lesson ? progressByLesson.get(lesson.id) : undefined; const status = !lesson ? "Chưa mở" : state?.complete ? "Đã hoàn thành" : state?.started ? "Đang học" : "Chưa bắt đầu"; const action = status === "Đã hoàn thành" ? "Xem lại" : status === "Đang học" ? "Tiếp tục" : "Bắt đầu"; return <article className="card chapter-lesson-row" key={fixedLesson.code}><div className="lesson-row-number">{String(fixedLesson.number).padStart(2, "0")}</div><div className="chapter-lesson-copy"><span className="curriculum-code">{fixedLesson.code}</span><h2>{getLessonLabel(fixedLesson)}</h2><p>{lesson ? "Học liệu thuộc lớp của em." : "Học liệu đang được chuẩn bị."}</p></div><div className="chapter-lesson-action"><span className={`lesson-status lesson-status-${status === "Chưa mở" ? "draft" : status === "Đã hoàn thành" ? "published" : "active"}`}>{status}</span>{lesson ? <Link className="btn primary" href={`/student/lessons/${lesson.id}`}>{action} →</Link> : <span className="lesson-unavailable">Chưa mở</span>}</div></article>; })}</section>
-  </StudentShell>;
+
+  return (
+    <StudentShell active="curriculum" title={chapter.title} description="">
+      <div className="chapter-detail" style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 0" }}>
+        
+        {/* Breadcrumb & Header */}
+        <div style={{ marginBottom: "48px" }}>
+          <div style={{ display: "flex", gap: "8px", fontSize: "14px", color: "var(--text-muted)", marginBottom: "16px" }}>
+            <Link href="/student" style={{ textDecoration: "none", color: "inherit" }}>Vật lí 12</Link>
+            <span>/</span>
+            <Link href="/student/curriculum" style={{ textDecoration: "none", color: "inherit" }}>Chương {chapter.code}</Link>
+          </div>
+          <h1 style={{ fontSize: "36px", margin: "0 0 16px", color: "var(--text-primary)", fontWeight: 600, letterSpacing: "-0.02em", textTransform: "uppercase" }}>
+            {chapter.shortTitle}
+          </h1>
+          <div style={{ fontSize: "16px", color: "var(--text-secondary)" }}>
+            {chapter.lessons.length} bài học
+          </div>
+        </div>
+
+        {/* Lesson List */}
+        <div className="lesson-list" style={{ display: "flex", flexDirection: "column" }}>
+          {chapter.lessons.map((fixedLesson) => {
+            const lesson = lessonByCode.get(fixedLesson.code);
+            const state = lesson ? progressByLesson.get(lesson.id) : undefined;
+            const status = !lesson ? "Chưa mở" : state?.complete ? "Đã hoàn thành" : state?.started ? "Đang học" : "Chưa bắt đầu";
+            
+            // Clean title: remove "Bài XX - " or "Bài XX: " from the start
+            const cleanTitle = fixedLesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "");
+
+            const rowContent = (
+              <div style={{ display: "flex", alignItems: "flex-start", padding: "24px 0", borderBottom: "1px solid var(--border-light)" }}>
+                <div style={{ width: "64px", flexShrink: 0, fontSize: "20px", color: "var(--text-muted)", fontWeight: 400 }}>
+                  {fixedLesson.number}
+                </div>
+                <div style={{ flex: 1 }}>
+                  <h3 style={{ margin: "0 0 8px", fontSize: "18px", color: lesson ? "var(--text-primary)" : "var(--text-muted)", fontWeight: 500 }}>
+                    {cleanTitle}
+                  </h3>
+                  <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "13px", color: "var(--text-muted)", fontWeight: 500 }}>
+                    {status === "Đang học" && <span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--color-primary)" }} />}
+                    {status === "Đã hoàn thành" && <span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--semantic-success)" }} />}
+                    <span style={{ color: status === "Đang học" ? "var(--color-primary)" : status === "Đã hoàn thành" ? "var(--semantic-success)" : "inherit" }}>
+                      {status}
+                    </span>
+                  </div>
+                </div>
+                <div style={{ paddingLeft: "16px", color: "var(--text-muted)", fontSize: "18px", opacity: lesson ? 1 : 0.3 }}>
+                  →
+                </div>
+              </div>
+            );
+
+            if (lesson) {
+              return (
+                <Link 
+                  href={`/student/lessons/${lesson.id}`} 
+                  key={fixedLesson.code}
+                  className="chapter-list-row"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  {rowContent}
+                </Link>
+              );
+            }
+
+            return <div key={fixedLesson.code} style={{ opacity: 0.7 }}>{rowContent}</div>;
+          })}
+        </div>
+      </div>
+    </StudentShell>
+  );
 }

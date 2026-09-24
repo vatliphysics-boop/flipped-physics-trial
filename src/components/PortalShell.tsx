@@ -18,10 +18,10 @@ const navigation: Record<PortalRole, NavigationItem[]> = {
   ],
   student: [
     { section: "overview", label: "Tổng quan", href: "/student" },
-    { section: "classes", label: "Lớp học của em", href: "/student/classes" },
-    { section: "curriculum", label: "Chương trình Vật lí 12", href: "/student/curriculum" },
-    { section: "assignments", label: "Bài tập và kiểm tra", href: "/student/assignments" },
-    { section: "journal", label: "Nhật kí học tập", href: "/student/journal" },
+    { section: "classes", label: "Lớp học", href: "/student/classes" },
+    { section: "curriculum", label: "Chương trình học", href: "/student/curriculum" },
+    { section: "assignments", label: "Nhiệm vụ", href: "/student/assignments" },
+    { section: "journal", label: "Nhật ký học tập", href: "/student/journal" },
   ],
 };
 
@@ -50,7 +50,7 @@ export function PortalShell({ role, active, children, account }: { role: PortalR
   useEffect(() => { if (!mobileOpen) mobileTrigger.current?.focus(); }, [mobileOpen]);
 
   const label = sidebarOpen ? "Ẩn menu" : "Hiện menu";
-  return <div className={`portal-shell ${sidebarOpen ? "sidebar-open" : "sidebar-closed"}`}>
+  return <div className={`portal-shell ${sidebarOpen ? "sidebar-open" : "sidebar-closed"}`} data-role={role}>
     <a className="skip-link" href="#main-content">Đi đến nội dung chính</a>
     <header className="portal-topbar">
       <button ref={desktopTrigger} type="button" className="menu-toggle desktop-toggle" aria-label={label} aria-expanded={sidebarOpen} aria-controls="portal-sidebar" onClick={() => setSidebarOpen((open) => !open)}><span aria-hidden="true">☰</span><span>{label}</span></button>

@@ -48,3 +48,16 @@ Defined in `src/app/globals.css`:
 
 # NEXT TASK
 The visual foundation is laid down for the shell and dashboards. The next phase involves applying these principles to the Curriculum, Lesson Experience, and Simulation screens.
+
+# SESSION 5A RESULT: STUDENT EXPERIENCE RESET
+- **Student Dashboard (`/student`)**: Replaced marketplace aesthetic with an academic layout ("Learning Focus" panel).
+- **Classes (`/student/classes`)**: Migrated to academic list-rows, removed heavy generic cards, inlined class join form.
+- **Curriculum Index (`/student/curriculum`)**: Converted from big chapter cards to a "textbook table of contents" style row index.
+- **Chapter Details (`/student/curriculum/[chapterCode]`)**: Removed redundant badge repetitions. Minimalized lesson rows with clean progression markers.
+- **Lesson Overview (`/student/lessons/[lessonId]`)**: Redesigned for FOCUSED LEARNING. Redirects to `/before-class` instantly to avoid unnecessary clicks.
+- **Lesson Layouts**: Implemented `StudentLessonHeader` for unified phase navigation across before-class, in-class, and after-class, replacing the generic Teacher-focused `LessonNavigation`.
+- **Before-Class Video (`/before-class`)**: Replaced generic card and popup dialogs. Built an immersive video player wrapper (`VideoCheckpointPlayer`) with a dark theater mode and absolute-positioned seamless checkpoint overlays.
+- **In-Class & After-Class (`/in-class`, `/after-class`)**: Eliminated legacy panels, transitioning physics labs and assignment viewers to 1000-1200px focused clean widths with direct content emphasis.
+
+# NEXT TASK
+Visual Q/A for Teacher Experience and Simulation refinements.

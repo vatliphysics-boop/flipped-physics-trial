@@ -30,6 +30,33 @@
   --topbar-height: 64px;
 }
 
+/* Student Theme Overrides */
+.portal-shell[data-role="student"] {
+  --bg-page: #F7F8FA;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #F9FAFB;
+  
+  --color-primary: #335CFF;
+  --color-primary-hover: #294ACC;
+  --color-primary-soft: #EEF3FF;
+  
+  --color-accent: #16A6B6;
+  
+  --text-primary: #172033;
+  --text-secondary: #344054;
+  --text-muted: #667085;
+  
+  --border-light: #E7EAF0;
+  --border-dark: #D0D5DD;
+  
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  
+  --sidebar-width: 240px;
+  --nav-active-bg: #EEF3FF;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -137,7 +164,7 @@ p { margin-top: 0; margin-bottom: 1em; }
 }
 
 .portal-nav a.is-active {
-  background-color: #EFF6FF; /* blue-50 */
+  background-color: var(--nav-active-bg, #EFF6FF); /* blue-50 */
   color: var(--color-primary);
   font-weight: 600;
 }
@@ -654,3 +681,7 @@ input:focus, select:focus, textarea:focus {
   padding: 4px;
   line-height: 1;
 }
+
+.chapter-list-row { transition: background-color 0.15s; }
+.chapter-list-row:hover { background-color: var(--bg-surface-elevated); }
+

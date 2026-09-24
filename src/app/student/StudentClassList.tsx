@@ -15,7 +15,7 @@ type Props = {
   classes: StudentClass[];
 };
 
-function StudentClassCard({ classItem }: { classItem: StudentClass }) {
+function StudentClassRow({ classItem }: { classItem: StudentClass }) {
   const [state, formAction, pending] = useActionState<JoinClassState, FormData>(leaveClassAction, {});
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
@@ -25,45 +25,47 @@ function StudentClassCard({ classItem }: { classItem: StudentClass }) {
   }
 
   return (
-    <div className="card student-class-card">
-      <h3>{classItem.name}</h3>
-      <p className="student-class-description">
-        {classItem.description || "Chưa có mô tả."}
-      </p>
-      <div className="student-class-meta">
-        <span className="class-code">
-          <span>Mã lớp</span>
-          <strong>{classItem.join_code}</strong>
-        </span>
-        <span className="class-date">
-          <span>Ngày tham gia</span>
-          <strong>{new Date(classItem.joined_at).toLocaleDateString("vi-VN")}</strong>
-        </span>
+    <article className="list-row" style={{ padding: "24px 0", borderBottom: "1px solid var(--border-light)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <div className="list-row-content">
+        <h3 style={{ margin: "0 0 4px", fontSize: "18px", color: "var(--text-primary)", fontWeight: 600 }}>{classItem.name}</h3>
+        <p style={{ margin: "0 0 12px", color: "var(--text-secondary)", fontSize: "15px" }}>
+          {classItem.description || "Chương trình Vật lí 12"}
+        </p>
+        <div style={{ display: "flex", gap: "24px", fontSize: "13px", color: "var(--text-muted)", alignItems: "center" }}>
+          <span>Giáo viên: <strong>—</strong></span>
+          <span>Mã lớp: <strong>{classItem.join_code}</strong></span>
+          <span style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+            Tiến độ: <strong>0%</strong>
+            <div style={{ width: "60px", height: "4px", backgroundColor: "var(--border-light)", borderRadius: "2px", overflow: "hidden" }}>
+              <div style={{ width: "0%", height: "100%", backgroundColor: "var(--color-accent)" }} />
+            </div>
+          </span>
+        </div>
+        {state.error && <p className="form-alert form-alert-error" style={{ marginTop: "12px", fontSize: "13px" }}>{state.error}</p>}
       </div>
-      <div className="student-class-actions">
-        {state.error && <p className="form-alert form-alert-error">{state.error}</p>}
-        <form
-          action={formAction}
-          onSubmit={handleSubmit}
-        >
-          <input type="hidden" name="class_id" value={classItem.id} />
-          <button className="btn danger" type="submit" disabled={pending}>
-            {pending ? "Đang rời lớp..." : "Rời lớp"}
-          </button>
-        </form>
-      </div>
-    </div>
+      
+      <form action={formAction} onSubmit={handleSubmit} style={{ marginLeft: "24px", flexShrink: 0 }}>
+        <input type="hidden" name="class_id" value={classItem.id} />
+        <button className="btn" type="submit" disabled={pending} style={{ fontSize: "13px", padding: "6px 12px", color: "var(--text-muted)", backgroundColor: "transparent", border: "1px solid var(--border-dark)" }}>
+          {pending ? "Đang rời..." : "Rời lớp"}
+        </button>
+      </form>
+    </article>
   );
 }
 
 export function StudentClassList({ classes }: Props) {
   if (!classes.length) {
-    return <p className="empty-state">Bạn chưa tham gia lớp học nào.</p>;
+    return (
+      <div style={{ padding: "48px 0", textAlign: "center", color: "var(--text-muted)", borderTop: "1px solid var(--border-light)" }}>
+        Bạn chưa tham gia lớp học nào.
+      </div>
+    );
   }
 
   return (
-    <div className="grid-3 student-class-grid">
-      {classes.map((classItem) => <StudentClassCard key={classItem.id} classItem={classItem} />)}
+    <div className="academic-list" style={{ borderTop: "1px solid var(--border-light)" }}>
+      {classes.map((classItem) => <StudentClassRow key={classItem.id} classItem={classItem} />)}
     </div>
   );
 }
