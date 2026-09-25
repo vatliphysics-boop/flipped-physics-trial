@@ -41,7 +41,7 @@ export default function RegisterPage() {
           </div>
 
           <div className="form-group" style={{ marginBottom: "20px" }}>
-            <label htmlFor="full_name" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Họ và tên</label>
+            <label htmlFor="full_name" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "var(--text-primary)" }}>Họ và tên</label>
             <input 
               id="full_name" 
               name="full_name" 
@@ -52,7 +52,7 @@ export default function RegisterPage() {
           </div>
 
           <div className="form-group" style={{ marginBottom: "20px" }}>
-            <label htmlFor="email" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Email</label>
+            <label htmlFor="email" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "var(--text-primary)" }}>Email</label>
             <input 
               id="email" 
               name="email" 
@@ -63,7 +63,7 @@ export default function RegisterPage() {
           </div>
 
           <div className="form-group" style={{ marginBottom: "20px" }}>
-            <label htmlFor="password" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Mật khẩu</label>
+            <label htmlFor="password" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "var(--text-primary)" }}>Mật khẩu</label>
             <input 
               id="password" 
               name="password" 
@@ -75,7 +75,7 @@ export default function RegisterPage() {
           </div>
           
           <div className="form-group" style={{ marginBottom: "32px" }}>
-            <label htmlFor="confirm_password" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Xác nhận mật khẩu</label>
+            <label htmlFor="confirm_password" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "var(--text-primary)" }}>Xác nhận mật khẩu</label>
             <input 
               id="confirm_password" 
               name="confirm_password" 
@@ -87,13 +87,13 @@ export default function RegisterPage() {
           </div>
 
           {state.error && (
-            <p role="alert" style={{ color: "#b42318", marginBottom: "16px", fontSize: "14px", fontWeight: 500 }}>
+            <p role="alert" style={{ color: "var(--semantic-danger)", marginBottom: "16px", fontSize: "14px", fontWeight: 500 }}>
               {state.error}
             </p>
           )}
 
           {state.message && (
-            <p role="status" style={{ color: "#1d7a56", marginBottom: "16px", fontSize: "14px", fontWeight: 500 }}>
+            <p role="status" style={{ color: "var(--semantic-success)", marginBottom: "16px", fontSize: "14px", fontWeight: 500 }}>
               {state.message}
             </p>
           )}
@@ -103,11 +103,11 @@ export default function RegisterPage() {
           </button>
         </form>
 
-        <p style={{ marginTop: "32px", textAlign: "center", color: "#667085", fontSize: "14px" }}>
+        <p style={{ marginTop: "32px", textAlign: "center", color: "var(--text-secondary)", fontSize: "14px" }}>
           Đã có tài khoản? <Link href="/login" style={{ color: "var(--color-primary)", fontWeight: 600, textDecoration: "none" }}>Đăng nhập</Link>
         </p>
         <div style={{ marginTop: "32px", textAlign: "center" }}>
-          <Link href="/" style={{ color: "#667085", fontSize: "14px", textDecoration: "none" }}>← Quay lại trang chủ</Link>
+          <Link href="/" style={{ color: "var(--text-secondary)", fontSize: "14px", textDecoration: "none" }}>← Quay lại trang chủ</Link>
         </div>
       </div>
     </div>

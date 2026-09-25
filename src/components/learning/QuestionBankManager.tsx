@@ -96,20 +96,23 @@ export function QuestionBankManager({ lessonId, questions }: { lessonId: string;
       )}
 
       {questions.length === 0 && !isAdding ? (
-        <p style={{ color: "var(--text-muted)" }}>Chưa có câu hỏi trong ngân hàng.</p>
+        <p style={{ color: "var(--text-muted)", fontSize: "15px" }}>Chưa có câu hỏi trong ngân hàng.</p>
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
           {questions.map((q, i) => (
-            <div key={q.id} style={{ padding: "12px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "8px" }}>
-                <strong>Câu {i + 1}</strong>
+            <div key={q.id} style={{ padding: "16px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", backgroundColor: "var(--bg-page)" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "8px", alignItems: "center" }}>
+                <strong style={{ fontSize: "15px", color: "var(--text-primary)" }}>Câu {i + 1}</strong>
                 <div style={{ display: "flex", gap: "8px" }}>
-                  <span className="badge">{q.difficulty}</span>
-                  <span className="badge">{q.question_type}</span>
+                  <span style={{ fontSize: "11px", fontWeight: 600, padding: "2px 8px", borderRadius: "100px", backgroundColor: "var(--bg-surface-elevated)", color: "var(--text-secondary)" }}>{q.difficulty}</span>
+                  <span style={{ fontSize: "11px", fontWeight: 600, padding: "2px 8px", borderRadius: "100px", backgroundColor: "var(--bg-surface-elevated)", color: "var(--text-secondary)" }}>{q.question_type}</span>
                 </div>
               </div>
-              <p>{q.content.prompt}</p>
-              <p style={{ color: "var(--color-primary)", fontSize: "13px", marginTop: "4px" }}>Đáp án: {q.content.correctAnswer}</p>
+              <p style={{ margin: "0 0 12px", fontSize: "14px", color: "var(--text-primary)" }}>{q.content.prompt}</p>
+              <div style={{ backgroundColor: "var(--bg-surface)", padding: "8px 12px", borderRadius: "var(--radius-sm)", border: "1px solid var(--border-light)" }}>
+                <strong style={{ fontSize: "12px", color: "var(--text-muted)", display: "block", marginBottom: "4px" }}>ĐÁP ÁN ĐÚNG</strong>
+                <p style={{ margin: 0, color: "var(--semantic-success)", fontSize: "14px", fontWeight: 500 }}>{q.content.correctAnswer}</p>
+              </div>
             </div>
           ))}
         </div>

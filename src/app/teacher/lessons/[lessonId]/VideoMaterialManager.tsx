@@ -116,12 +116,22 @@ export function VideoMaterialManager({ lessonId, materials, hideHeader, emptySta
       {adding && <VideoForm lessonId={lessonId} onCancel={() => setAdding(false)} />}
       {!materials.length && !adding && <p className="video-empty">{emptyState || "Chưa có video bài học."}</p>}
       <div className="video-material-list">
-        {materials.map((material) => editingId === material.id ? <VideoForm key={material.id} lessonId={lessonId} material={material} onCancel={() => setEditingId(null)} /> : <article className="video-material-card" key={material.id}>
-          <div className="video-card-top"><span className="video-card-icon">▶</span><span className={`video-status ${material.is_published ? "video-status-published" : "video-status-draft"}`}>{material.is_published ? "Đã xuất bản" : "Bản nháp"}</span></div>
-          <h4>{material.title}</h4><p>{material.description || "Chưa có mô tả."}</p>
-          {material.duration_minutes && <span className="video-meta">Thời lượng: {material.duration_minutes} phút</span>}
-          {material.instructions && <div className="video-instructions"><strong>Hướng dẫn</strong><p>{material.instructions}</p></div>}
-          <div className="video-card-actions"><button className="btn" type="button" onClick={() => { setEditingId(material.id); setAdding(false); }}>Chỉnh sửa</button><form action={async (formData) => { await toggleVideoMaterialAction(formData); }}><input type="hidden" name="id" value={material.id} /><input type="hidden" name="lesson_id" value={lessonId} /><input type="hidden" name="is_published" value={String(!material.is_published)} /><button className="btn" type="submit">{material.is_published ? "Chuyển về bản nháp" : "Xuất bản"}</button></form><form action={async (formData) => { await deleteVideoMaterialAction({}, formData); }} onSubmit={(event) => { if (!window.confirm("Bạn có chắc muốn xóa video này không?")) event.preventDefault(); }}><input type="hidden" name="id" value={material.id} /><input type="hidden" name="lesson_id" value={lessonId} /><button className="btn danger" type="submit">Xóa</button></form></div>
+        {materials.map((material) => editingId === material.id ? <VideoForm key={material.id} lessonId={lessonId} material={material} onCancel={() => setEditingId(null)} /> : <article className="material-item-row" key={material.id} style={{ display: "flex", alignItems: "flex-start", padding: "16px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", backgroundColor: "var(--bg-surface)", gap: "16px", marginBottom: "12px" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", backgroundColor: "var(--color-primary-soft)", color: "var(--color-primary)", borderRadius: "var(--radius-sm)", flexShrink: 0, fontSize: "18px" }}>🎬</div>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
+              <h4 style={{ margin: 0, fontSize: "15px", color: "var(--text-primary)" }}>{material.title}</h4>
+              <span style={{ fontSize: "11px", fontWeight: 600, padding: "2px 8px", borderRadius: "100px", backgroundColor: material.is_published ? "var(--bg-surface-elevated)" : "#FEF2F2", color: material.is_published ? "var(--text-secondary)" : "var(--semantic-danger)" }}>{material.is_published ? "Đã xuất bản" : "Bản nháp"}</span>
+            </div>
+            <p style={{ margin: "0 0 8px", fontSize: "13px", color: "var(--text-secondary)" }}>{material.description || "Chưa có mô tả."}</p>
+            {material.duration_minutes && <span style={{ display: "inline-block", fontSize: "12px", color: "var(--text-muted)", marginBottom: "8px" }}>Thời lượng: {material.duration_minutes} phút</span>}
+            {material.instructions && <div style={{ fontSize: "13px", backgroundColor: "var(--bg-page)", padding: "8px 12px", borderRadius: "var(--radius-sm)", color: "var(--text-secondary)" }}><strong>Hướng dẫn:</strong> {material.instructions}</div>}
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
+            <button className="btn" type="button" onClick={() => { setEditingId(material.id); setAdding(false); }}>Sửa</button>
+            <form action={async (formData) => { await toggleVideoMaterialAction(formData); }}><input type="hidden" name="id" value={material.id} /><input type="hidden" name="lesson_id" value={lessonId} /><input type="hidden" name="is_published" value={String(!material.is_published)} /><button className="btn" type="submit">{material.is_published ? "Ẩn" : "Xuất bản"}</button></form>
+            <form action={async (formData) => { await deleteVideoMaterialAction({}, formData); }} onSubmit={(event) => { if (!window.confirm("Bạn có chắc muốn xóa video này không?")) event.preventDefault(); }}><input type="hidden" name="id" value={material.id} /><input type="hidden" name="lesson_id" value={lessonId} /><button className="btn danger" type="submit">Xóa</button></form>
+          </div>
         </article>)}
       </div>
     </div>

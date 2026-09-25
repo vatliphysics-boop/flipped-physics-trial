@@ -86,19 +86,23 @@ export function PdfMaterialManager({ lessonId, materials }: { lessonId: string; 
       )}
 
       {materials.length === 0 && !isAdding ? (
-        <p style={{ color: "var(--text-muted)" }}>Chưa có tài liệu bài tập.</p>
+        <p style={{ color: "var(--text-muted)", fontSize: "15px" }}>Chưa có tài liệu bài tập.</p>
       ) : (
-        <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
           {materials.map((m) => (
-            <div key={m.id} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)" }}>
-              <div>
-                <h3 style={{ fontSize: "16px", fontWeight: 600 }}>{m.title}</h3>
-                <p style={{ fontSize: "13px", color: "var(--text-secondary)" }}>{m.description}</p>
+            <article className="material-item-row" key={m.id} style={{ display: "flex", alignItems: "flex-start", padding: "16px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", backgroundColor: "var(--bg-surface)", gap: "16px", marginBottom: "12px" }}>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", backgroundColor: "var(--color-primary-soft)", color: "var(--color-primary)", borderRadius: "var(--radius-sm)", flexShrink: 0, fontSize: "18px" }}>📄</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
+                  <h4 style={{ margin: 0, fontSize: "15px", color: "var(--text-primary)" }}>{m.title}</h4>
+                  <span style={{ fontSize: "11px", fontWeight: 600, padding: "2px 8px", borderRadius: "100px", backgroundColor: m.is_published ? "var(--bg-surface-elevated)" : "rgba(239, 68, 68, 0.1)", color: m.is_published ? "var(--text-secondary)" : "var(--semantic-danger)" }}>{m.is_published ? "Đã xuất bản" : "Bản nháp"}</span>
+                </div>
+                {m.description && <p style={{ margin: "0 0 8px", fontSize: "13px", color: "var(--text-secondary)" }}>{m.description}</p>}
               </div>
-              <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
-                <span className={`badge ${m.is_published ? "badge-success" : ""}`}>{m.is_published ? "Đã xuất bản" : "Nháp"}</span>
+              <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
+                {/* PDF actions can be added here if needed */}
               </div>
-            </div>
+            </article>
           ))}
         </div>
       )}
