@@ -1,3 +1,80 @@
 import Link from "next/link";
-const materials=[["Video / bài giảng số","Video ngắn, screencast hoặc bài giảng số để chuẩn bị kiến thức nền."],["Mô phỏng tương tác","Khám phá hiện tượng hạt nhân qua mô phỏng và nhiệm vụ có hướng dẫn."],["Infographic","Hệ thống hóa kiến thức bằng học liệu trực quan."],["Phiếu học tập số","Hoàn thành nhiệm vụ chuẩn bị trước giờ học."],["Trắc nghiệm & phản hồi","Kiểm tra nhanh mức độ hiểu bài và nhận phản hồi."],["Hoạt động vận dụng","Xử lý dữ liệu, tình huống và thảo luận trên lớp."]];
-export default function Home(){return <><header className="topbar"><div className="container nav"><div className="brand"><div className="brand-mark">VL</div><div>Học liệu số Vật lí hạt nhân 12</div></div><nav className="nav-links"><Link href="/demo-lesson">Bài học minh họa</Link><Link href="/login">Đăng nhập</Link><Link href="/register">Đăng ký</Link></nav></div></header><main><section className="container hero"><div><span className="eyebrow">Vật lí 12 • Lớp học đảo ngược</span><h1>HỌC LIỆU SỐ<br/>VẬT LÍ HẠT NHÂN 12</h1><p>Hỗ trợ tổ chức dạy học theo mô hình lớp học đảo ngược và phát triển năng lực tự học của học sinh qua các hoạt động trước, trong và sau giờ học.</p><div className="actions"><Link className="btn primary" href="/teacher">Dành cho giáo viên</Link><Link className="btn" href="/student">Dành cho học sinh</Link><Link className="btn" href="/demo-lesson">Xem bài học minh họa</Link></div></div><div className="hero-card"><span style={{opacity:.8,fontWeight:700}}>Hành trình học tập</span><h2 style={{fontSize:30,margin:"10px 0"}}>Tự học có định hướng</h2><p style={{opacity:.9,lineHeight:1.6}}>Học liệu được tổ chức theo tiến trình lớp học đảo ngược để học sinh chuẩn bị, vận dụng và tự phản hồi.</p><div className="metric"><div><b>01</b><br/><small>Trước giờ học</small></div><div><b>02</b><br/><small>Trong giờ học</small></div><div><b>03</b><br/><small>Sau giờ học</small></div></div></div></section><section className="section"><div className="container"><h2>Ba giai đoạn học tập</h2><p className="section-sub">Cấu trúc bài học làm rõ hoạt động chuẩn bị, hoạt động trên lớp và tự đánh giá sau giờ học.</p><div className="grid-3"><div className="card stage"><span className="badge">01</span><h3>TRƯỚC GIỜ HỌC</h3><p>Khám phá kiến thức nền tảng, xem học liệu số và hoàn thành nhiệm vụ chuẩn bị.</p></div><div className="card stage green"><span className="badge">02</span><h3>TRONG GIỜ HỌC</h3><p>Thảo luận, xử lý dữ liệu, giải quyết vấn đề và vận dụng kiến thức.</p></div><div className="card stage orange"><span className="badge">03</span><h3>SAU GIỜ HỌC</h3><p>Củng cố, tự đánh giá, ghi nhật ký học tập và nhận phản hồi.</p></div></div></div></section><section className="section" style={{background:"#eef3fa"}}><div className="container"><h2>Hệ sinh thái học liệu số</h2><p className="section-sub">Các loại học liệu được tổ chức linh hoạt để giáo viên biên tập theo mục tiêu bài học.</p><div className="grid-3">{materials.map(([t,d])=><div className="card" key={t}><span className="badge">Học liệu</span><h3>{t}</h3><p>{d}</p></div>)}</div></div></section></main><footer className="footer"><div className="container">Học liệu số Vật lí hạt nhân 12 • Bản MVP phục vụ nghiên cứu giáo dục</div></footer></>}
+import { PublicShell } from "./PublicShell";
+import { NuclearScienceIllustration } from "@/components/learning/NuclearScienceIllustration";
+
+export default function Home() {
+  return (
+    <PublicShell>
+      <section className="public-hero">
+        <div className="public-hero-content">
+          <span className="public-eyebrow">VẬT LÍ 12 · LỚP HỌC ĐẢO NGƯỢC</span>
+          <h1 className="public-h1">Học liệu số<br/>Vật lí hạt nhân 12</h1>
+          <p className="public-description">
+            Nền tảng hỗ trợ giáo viên tổ chức dạy học theo mô hình lớp học đảo ngược. 
+            Tối ưu hóa thời gian trên lớp, phát triển năng lực tự học của học sinh qua các 
+            hoạt động chuẩn bị, thảo luận và tự đánh giá.
+          </p>
+          <div className="public-actions">
+            <Link href="/demo-lesson" className="btn primary">Khám phá bài học mẫu</Link>
+            <Link href="/teacher" className="public-link-text">Dành cho giáo viên →</Link>
+          </div>
+        </div>
+        <div className="public-hero-art">
+          <NuclearScienceIllustration className="public-hero-svg" />
+        </div>
+      </section>
+
+      <section className="public-section">
+        <div className="public-section-header">
+          <h2>Tiến trình học tập</h2>
+          <p>Mô hình lớp học đảo ngược được thiết kế chặt chẽ qua 3 giai đoạn.</p>
+        </div>
+        
+        <div className="public-timeline">
+          <div className="timeline-step">
+            <span className="step-num">01</span>
+            <div className="step-content">
+              <h3>Trước giờ học</h3>
+              <p>Video · Colab · câu hỏi cuối pha</p>
+            </div>
+          </div>
+          <div className="timeline-divider"></div>
+          <div className="timeline-step">
+            <span className="step-num">02</span>
+            <div className="step-content">
+              <h3>Trong giờ học</h3>
+              <p>Mô phỏng · quan sát · thảo luận</p>
+            </div>
+          </div>
+          <div className="timeline-divider"></div>
+          <div className="timeline-step">
+            <span className="step-num">03</span>
+            <div className="step-content">
+              <h3>Sau giờ học</h3>
+              <p>PDF · bài tập · đánh giá</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="public-section public-section-featured">
+        <div className="featured-card">
+          <div className="featured-content">
+            <span className="public-eyebrow">BÀI HỌC MINH HỌA</span>
+            <h2>Bài 21<br/>Cấu tạo hạt nhân</h2>
+            <div className="featured-tags">
+              <span>Z – N – A</span>
+              <span>Đồng vị</span>
+              <span>Cấu tạo hạt nhân</span>
+              <span>Bán kính hạt nhân</span>
+            </div>
+            <Link href="/demo-lesson" className="btn primary">Xem bài học minh họa</Link>
+          </div>
+          <div className="featured-art">
+             <NuclearScienceIllustration className="featured-svg" />
+          </div>
+        </div>
+      </section>
+    </PublicShell>
+  );
+}

@@ -1,7 +1,6 @@
 import { StudentShell } from "./StudentShell";
 import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
-import { getLessonLabel } from "@/lib/curriculum";
 
 export default async function StudentPage() {
   const supabase = await createClient();
@@ -30,18 +29,20 @@ export default async function StudentPage() {
     : { data: [] };
 
   const classIds = memberships?.map((membership) => membership.class_id) ?? [];
+  // ACTUAL DB SCHEMA: lessons { id, topic_id, class_id, teacher_id, title, description,
+  //                             learning_objectives, status, created_at }
+  // No curriculum_code or curriculum_order columns.
   const { data: lessons } = classIds.length
     ? await supabase
         .from("lessons")
-        .select("id, title, description, learning_objectives, created_at, class_id, curriculum_code, curriculum_order")
+        .select("id, title, description, learning_objectives, created_at, class_id, topic_id")
         .in("class_id", classIds)
         .eq("status", "published")
-        .not("curriculum_code", "is", null)
-        .order("curriculum_order", { ascending: true, nullsFirst: false })
+        .not("topic_id", "is", null)
+        .order("created_at", { ascending: true, nullsFirst: false })
     : { data: [] };
     
   const nextLesson = lessons?.[0] ?? null;
-  const nextCurriculumLesson = nextLesson ? getLessonLabel({ number: Number(nextLesson.curriculum_code?.slice(1) ?? 0), title: nextLesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "") }) : null;
 
   return (
     <StudentShell active="overview" title="Tổng quan học tập" description="Tiếp tục quá trình học và theo dõi các nhiệm vụ sắp tới.">
@@ -51,7 +52,7 @@ export default async function StudentPage() {
         <section className="student-paper" style={{ marginBottom: "32px" }}>
           <div className="student-kicker">Tiêu điểm học tập</div>
           <h2 className="student-heading">
-            {nextLesson ? `Bài ${nextLesson.curriculum_code?.replace('B', '')} — ${nextCurriculumLesson}` : "Bắt đầu hành trình học tập"}
+            {nextLesson ? nextLesson.title : "Bắt đầu hành trình học tập"}
           </h2>
           <p style={{ color: "var(--text-secondary)", fontSize: "15px", lineHeight: 1.7, maxWidth: "560px", marginBottom: "24px" }}>
             {nextLesson 

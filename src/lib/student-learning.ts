@@ -3,7 +3,7 @@ import "server-only";
 import { cache } from "react";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { getCurriculumLesson, type FixedCurriculumLesson } from "@/lib/curriculum";
+import { getChapterByTopicTitle, getCurriculumLessonByTitle, type FixedCurriculumLesson, type CurriculumChapterCode } from "@/lib/curriculum";
 
 export type LearningPhase = "before_class" | "in_class" | "after_class";
 export const LEARNING_PHASE_LABELS: Record<LearningPhase, string> = {
@@ -61,9 +61,10 @@ export type StudentReflection = {
 type PublishedLesson = {
   id: string;
   class_id: string;
-  curriculum_code: string;
-  homework_status: string;
-  homework_title: string;
+  topic_id: string | null;
+  title: string;
+  homework_status?: string;
+  homework_title?: string;
 };
 
 export type StudentLearningLesson = PublishedLesson & {
@@ -109,11 +110,24 @@ export const getStudentLearning = cache(async () => {
   const classesById = new Map(classes.map((item) => [item.id, item]));
   const lessonResult = classes.length
     ? await supabase.from("lessons")
-      .select("id, class_id, curriculum_code, homework_status, homework_title")
+      .select("id, class_id, topic_id, title")
       .in("class_id", classes.map((item) => item.id)).eq("status", "published")
-      .not("curriculum_code", "is", null).returns<PublishedLesson[]>()
+      .not("topic_id", "is", null).returns<PublishedLesson[]>()
     : { data: [], error: null };
-  const publishedLessons = (lessonResult.data ?? []).filter((lesson) => getCurriculumLesson(lesson.curriculum_code));
+
+  // Resolve topic titles so we can map topic_id → chapter → curriculum lesson.
+  const topicIds = [...new Set((lessonResult.data ?? []).map((l) => l.topic_id).filter(Boolean) as string[])];
+  const topicTitleMap = new Map<string, string>();
+  if (topicIds.length) {
+    const { data: topics } = await supabase.from("topics").select("id, title").in("id", topicIds);
+    for (const t of topics ?? []) topicTitleMap.set(t.id, t.title);
+  }
+
+  const publishedLessons = (lessonResult.data ?? []).filter((lesson) => {
+    const topicTitle = lesson.topic_id ? topicTitleMap.get(lesson.topic_id) : undefined;
+    const chapter = getChapterByTopicTitle(topicTitle);
+    return chapter && getCurriculumLessonByTitle(lesson.title, chapter.code as CurriculumChapterCode);
+  });
   const lessonIds = publishedLessons.map((lesson) => lesson.id);
   const [materialResult, reflectionResult] = await Promise.all([
     lessonIds.length ? supabase.from("lesson_materials")
@@ -132,7 +146,12 @@ export const getStudentLearning = cache(async () => {
   const progressByMaterial = new Map((progressResult.data ?? []).map((row) => [row.material_id, row]));
   const reflectionsByLesson = new Map((reflectionResult.data ?? []).map((row) => [row.lesson_id, row]));
   const lessons: StudentLearningLesson[] = publishedLessons.map((lesson) => {
-    const curriculum = getCurriculumLesson(lesson.curriculum_code)!;
+    const topicTitle = lesson.topic_id ? topicTitleMap.get(lesson.topic_id) : undefined;
+    const chapter = getChapterByTopicTitle(topicTitle);
+    const curriculum = chapter
+      ? getCurriculumLessonByTitle(lesson.title, chapter.code as CurriculumChapterCode)!
+      : undefined;
+    if (!curriculum) throw new Error(`curriculum entry missing for lesson ${lesson.id}`);
     const lessonMaterials = materials.filter((material) => material.lesson_id === lesson.id)
       .sort((a, b) => phaseOrder[a.phase] - phaseOrder[b.phase] || a.sort_order - b.sort_order || a.created_at.localeCompare(b.created_at));
     const progress = lessonMaterials.flatMap((material) => {
@@ -142,7 +161,7 @@ export const getStudentLearning = cache(async () => {
     const reflection = reflectionsByLesson.get(lesson.id);
     const completedMaterials = progress.filter((row) => row.is_complete).length;
     const nextMaterial = lessonMaterials.find((material) => !progressByMaterial.get(material.id)?.is_complete);
-    const homeworkRemaining = lesson.homework_status === "published" && !reflection?.homework_response.trim();
+    // homework_* fields absent from actual DB schema.
     const updatedDates = [...progress.map((row) => row.updated_at), ...(reflection ? [reflection.updated_at] : [])].sort();
     return {
       ...lesson,
@@ -151,9 +170,9 @@ export const getStudentLearning = cache(async () => {
       materials: lessonMaterials,
       completedMaterials,
       started: Boolean(reflection || progress.some((row) => row.is_complete || Number(row.watched_seconds) > 0 || Number(row.completion_percent) > 0)),
-      complete: !materialResult.error && !progressResult.error && !reflectionResult.error && lessonMaterials.length > 0 && completedMaterials === lessonMaterials.length && Boolean(reflection) && !homeworkRemaining,
+      complete: !materialResult.error && !progressResult.error && !reflectionResult.error && lessonMaterials.length > 0 && completedMaterials === lessonMaterials.length && Boolean(reflection),
       nextPhase: nextMaterial?.phase ?? "after_class",
-      nextActivity: nextMaterial?.title ?? (homeworkRemaining ? lesson.homework_title || "Nhiệm vụ vận dụng" : "Tự đánh giá và lưu nhật kí học tập"),
+      nextActivity: nextMaterial?.title ?? "Tự đánh giá và lưu nhật kí học tập",
       lastUpdated: updatedDates.at(-1) ?? null,
       reflection,
     };

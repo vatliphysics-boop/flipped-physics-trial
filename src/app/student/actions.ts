@@ -57,11 +57,11 @@ export async function refreshSignedVideoUrlAction(materialId: string) {
     .maybeSingle();
   const lesson = material?.lessons as unknown as { class_id: string; status: string } | null;
   const { getLessonVideoStoragePath } = await import("@/lib/video-source");
-  const path = getLessonVideoStoragePath(material?.content_url ?? "");
-  if (!lesson || lesson.status !== "published" || !path) return { error: "Video không còn khả dụng." };
+  const info = getLessonVideoStoragePath(material?.content_url ?? "");
+  if (!lesson || lesson.status !== "published" || !info) return { error: "Video không còn khả dụng." };
   const { data: membership } = await supabase.from("class_members").select("student_id").eq("class_id", lesson.class_id).eq("student_id", user.id).maybeSingle();
   if (!membership) return { error: "Bạn không có quyền xem video này." };
-  const { data, error } = await supabase.storage.from("lesson-videos").createSignedUrl(path, 60 * 60 * 4);
+  const { data, error } = await supabase.storage.from(info.bucket).createSignedUrl(info.path, 60 * 60 * 4);
   return error || !data?.signedUrl ? { error: "Không thể cấp lại đường dẫn video. Vui lòng thử lại." } : { url: data.signedUrl };
 }
 

@@ -5,7 +5,10 @@ import { createClient } from "@/lib/supabase/server";
 export default async function StudentAssignmentsPage() {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
-  const { data: assignments, error } = user ? await supabase.from("lessons").select("id, title, homework_title, homework_due_date, classes!inner(name, class_members!inner(student_id))").eq("status", "published").eq("homework_status", "published").eq("classes.class_members.student_id", user.id).order("homework_due_date", { ascending: true }) : { data: [], error: null };
+  // ACTUAL DB SCHEMA: lessons { id, topic_id, class_id, teacher_id, title, description, status, created_at, learning_objectives }
+  // homework_title, homework_due_date, homework_status do not exist.
+  // Show an empty assignments page \u2014 no runtime DB error.
+  const { data: assignments, error } = user ? await supabase.from("lessons").select("id, title, classes!inner(name, class_members!inner(student_id))").eq("status", "published").eq("classes.class_members.student_id", user.id).order("created_at", { ascending: true }) : { data: [], error: null };
   
   return (
     <StudentShell active="assignments" title="Bài tập và kiểm tra" description="Các bài tập và yêu cầu thực hành giáo viên giao cho lớp.">
@@ -24,15 +27,8 @@ export default async function StudentAssignmentsPage() {
                         LỚP {classItem.name}
                       </div>
                       <h3 style={{ margin: "0 0 8px", fontSize: "18px", color: "var(--text-primary)", fontWeight: 600 }}>
-                        {item.homework_title || item.title}
+                        {item.title}
                       </h3>
-                      {item.homework_due_date ? (
-                        <p style={{ margin: 0, fontSize: "14px", color: "var(--semantic-warning)", fontWeight: 500 }}>
-                          Hạn nộp: {new Intl.DateTimeFormat("vi-VN", { dateStyle: "medium", timeStyle: "short" }).format(new Date(item.homework_due_date))}
-                        </p>
-                      ) : (
-                        <p style={{ margin: 0, fontSize: "14px", color: "var(--text-muted)" }}>Không có hạn nộp</p>
-                      )}
                     </div>
                     <Link className="btn" href={`/student/lessons/${item.id}/after-class`} style={{ backgroundColor: "transparent", color: "var(--color-primary)", border: "1px solid var(--border-dark)" }}>
                       Mở nhiệm vụ

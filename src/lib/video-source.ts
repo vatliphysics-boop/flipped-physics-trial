@@ -14,12 +14,19 @@ export const SUPPORTED_VIDEO_MIME_TYPES = [
 ] as const;
 
 const LESSON_VIDEO_STORAGE_PREFIX = "storage:lesson-videos/";
+const LESSON_MATERIALS_STORAGE_PREFIX = "storage:lesson-materials/";
 
-export function getLessonVideoStoragePath(value: string): string | null {
+export function getLessonVideoStoragePath(value: string): { bucket: string, path: string } | null {
   const source = value.trim();
-  if (!source.startsWith(LESSON_VIDEO_STORAGE_PREFIX)) return null;
-  const path = source.slice(LESSON_VIDEO_STORAGE_PREFIX.length);
-  return path && !path.includes("..") ? path : null;
+  if (source.startsWith(LESSON_VIDEO_STORAGE_PREFIX)) {
+    const path = source.slice(LESSON_VIDEO_STORAGE_PREFIX.length);
+    return path && !path.includes("..") ? { bucket: "lesson-videos", path } : null;
+  }
+  if (source.startsWith(LESSON_MATERIALS_STORAGE_PREFIX)) {
+    const path = source.slice(LESSON_MATERIALS_STORAGE_PREFIX.length);
+    return path && !path.includes("..") ? { bucket: "lesson-materials", path } : null;
+  }
+  return null;
 }
 
 export function isLessonVideoStorageReference(value: string): boolean {
@@ -36,9 +43,9 @@ type VideoStorageClient = {
 
 /** A private lesson-videos reference is resolved only after the caller has checked access. */
 export async function createSignedVideoUrl(value: string, supabase: VideoStorageClient, expiresIn = 60 * 60 * 4): Promise<string | null> {
-  const storagePath = getLessonVideoStoragePath(value);
-  if (!storagePath) return null;
-  const { data, error } = await supabase.storage.from("lesson-videos").createSignedUrl(storagePath, expiresIn);
+  const info = getLessonVideoStoragePath(value);
+  if (!info) return null;
+  const { data, error } = await supabase.storage.from(info.bucket).createSignedUrl(info.path, expiresIn);
   return error || !data?.signedUrl ? null : data.signedUrl;
 }
 
@@ -49,9 +56,9 @@ export function isMovVideoSource(value: string) {
 
 export function classifyVideoSource(value: string): VideoSource {
   const source = value.trim();
-  if (source.startsWith("storage:lesson-videos/")) {
-    const path = source.slice("storage:lesson-videos/".length);
-    return path ? { kind: "storage", bucket: "lesson-videos", path } : { kind: "invalid", reason: "unsupported" };
+  const info = getLessonVideoStoragePath(source);
+  if (info) {
+    return { kind: "storage", bucket: info.bucket, path: info.path };
   }
 
   try {

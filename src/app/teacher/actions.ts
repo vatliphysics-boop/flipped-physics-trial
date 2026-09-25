@@ -20,6 +20,11 @@ export type CreateLessonState = {
   message?: string;
 };
 
+export type SetupLessonState = {
+  error?: string;
+  lessonId?: string;
+};
+
 export type LessonMaterialState = {
   error?: string;
   message?: string;
@@ -56,18 +61,18 @@ function videoUrlError(value: string) {
 
 function storagePathForOwnedLesson(value: string, userId: string, lessonId: string) {
   const source = classifyVideoSource(value);
-  return source.kind === "storage" && source.bucket === "lesson-videos" && source.path.startsWith(`${userId}/${lessonId}/`) ? source.path : null;
+  return source.kind === "storage" && (source.bucket === "lesson-videos" || source.bucket === "lesson-materials") && (source.path.startsWith(`videos/${userId}/${lessonId}/`) || source.path.startsWith(`${userId}/${lessonId}/`)) ? source : null;
 }
 
 async function removeUploadedVideo(supabase: Awaited<ReturnType<typeof createClient>>, value: string, userId: string, lessonId: string) {
-  const path = storagePathForOwnedLesson(value, userId, lessonId);
-  if (path) await supabase.storage.from("lesson-videos").remove([path]);
+  const info = storagePathForOwnedLesson(value, userId, lessonId);
+  if (info) await supabase.storage.from(info.bucket).remove([info.path]);
 }
 
 function readVideoContentUrl(formData: FormData, userId: string, lessonId: string) {
   const value = readText(formData, "content_url");
-  const storagePath = storagePathForOwnedLesson(value, userId, lessonId);
-  if (value.startsWith("storage:")) return storagePath ? { value } : { error: "Đường dẫn video Storage không hợp lệ." };
+  const storageInfo = storagePathForOwnedLesson(value, userId, lessonId);
+  if (value.startsWith("storage:")) return storageInfo ? { value } : { error: "Đường dẫn video Storage không hợp lệ." };
   const urlError = videoUrlError(value);
   return urlError ? { error: urlError } : { value };
 }
@@ -126,9 +131,10 @@ async function getTeacherForLessonAssignment(lessonId: string, classId?: string)
   if (!user) return { supabase, user: null, error: "Bạn cần đăng nhập để gắn lớp cho bài học." };
   const { data: profile } = await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle();
   if (profile?.role !== "teacher") return { supabase, user, error: "Bạn không có quyền gắn lớp cho bài học." };
-  const { data: lesson } = await supabase.from("lessons").select("id, curriculum_code").eq("id", lessonId).eq("teacher_id", user.id).maybeSingle();
+  const { data: lesson } = await supabase.from("lessons").select("id, topic_id").eq("id", lessonId).eq("teacher_id", user.id).maybeSingle();
   if (!lesson) return { supabase, user, error: "Không tìm thấy bài học hoặc bạn không có quyền quản lý bài học này." };
-  if (lesson.curriculum_code) return { supabase, user, error: "Bài học cố định luôn thuộc lớp đã được tạo và không thể chuyển lớp." };
+  // Lessons attached to a topic (curriculum-linked) cannot be moved between classes.
+  if (lesson.topic_id) return { supabase, user, error: "Bài học cố định luôn thuộc lớp đã được tạo và không thể chuyển lớp." };
   if (classId) {
     const { data: classItem } = await supabase.from("classes").select("id").eq("id", classId).eq("teacher_id", user.id).maybeSingle();
     if (!classItem) return { supabase, user, error: "Lớp học không tồn tại hoặc không thuộc quyền quản lý của bạn." };
@@ -359,8 +365,9 @@ export async function updateHomeworkAction(_previousState: LessonMaterialState, 
   }
   const { supabase, error } = await getOwnedLesson(lessonId);
   if (error) return { error };
-  const { data: fixedLesson } = await supabase.from("lessons").select("curriculum_code").eq("id", lessonId).maybeSingle();
-  if (!fixedLesson?.curriculum_code) return { error: "Bài học này chưa thuộc chương trình cố định." };
+  // homework_* fields are absent from the actual DB schema.
+  // Return an error to prevent the action from firing.
+  if (true) return { error: "Quản lý bài tập chưa được hỗ trợ trong phiên bản hiện tại." };
   const { error: updateError } = await supabase.from("lessons").update({ homework_title: title, homework_description: description, homework_instructions: instructions, homework_due_date: dueDate, homework_status: status }).eq("id", lessonId);
   if (updateError) return { error: "Không thể lưu bài tập. Vui lòng thử lại." };
   revalidatePath(`/teacher/lessons/${lessonId}`);
@@ -424,6 +431,95 @@ export async function createClassAction(
   return { error: "Không thể tạo mã tham gia duy nhất. Vui lòng thử lại." };
 }
 
+/**
+ * Create exactly one lessons row for a fixed curriculum lesson.
+ * Idempotent: if a matching row already exists, returns its id.
+ *
+ * FormData fields:
+ *   class_id     — UUID of the selected class
+ *   topic_title  — canonical topic title (e.g. "Vật lí hạt nhân")
+ *   lesson_title — fixed catalog lesson title  (e.g. "Cấu trúc hạt nhân")
+ */
+export async function setupLessonAction(
+  _previousState: SetupLessonState,
+  formData: FormData,
+): Promise<SetupLessonState> {
+  const classId     = readText(formData, "class_id");
+  const topicTitle  = readText(formData, "topic_title");
+  const lessonTitle = readText(formData, "lesson_title");
+
+  if (!classId || !topicTitle || !lessonTitle) {
+    return { error: "Thiếu thông tin: class_id, topic_title, lesson_title là bắt buộc." };
+  }
+
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập." };
+
+  const { data: profile } = await supabase
+    .from("profiles").select("role").eq("id", user.id).maybeSingle();
+  if (profile?.role !== "teacher") return { error: "Bạn không có quyền thực hiện thao tác này." };
+
+  // Verify the teacher owns this class.
+  const { data: classItem } = await supabase
+    .from("classes").select("id").eq("id", classId).eq("teacher_id", user.id).maybeSingle();
+  if (!classItem) return { error: "Lớp học không tồn tại hoặc không thuộc quyền quản lý của bạn." };
+
+  // Resolve the canonical topic by teacher_id + title.
+  const { data: topic, error: topicErr } = await supabase
+    .from("topics")
+    .select("id")
+    .eq("teacher_id", user.id)
+    .eq("title", topicTitle)
+    .maybeSingle();
+
+  if (topicErr) {
+    console.error("setupLessonAction topic lookup error:", topicErr);
+    return { error: `Lỗi tra cứu chủ đề: ${topicErr.message}` };
+  }
+  if (!topic) {
+    return {
+      error: `Chủ đề "​${topicTitle}"​ chưa tồn tại trong dữ liệu của bạn. Hãy tạo chủ đề này trước.`,
+    };
+  }
+
+  // Idempotency check — return existing lesson if already created.
+  const { data: existing } = await supabase
+    .from("lessons")
+    .select("id")
+    .eq("teacher_id", user.id)
+    .eq("class_id",   classId)
+    .eq("topic_id",   topic.id)
+    .eq("title",      lessonTitle)
+    .maybeSingle();
+
+  if (existing) {
+    revalidatePath("/teacher/curriculum");
+    return { lessonId: existing.id };
+  }
+
+  // Create the lesson row.
+  const { data: created, error: insertErr } = await supabase
+    .from("lessons")
+    .insert({
+      teacher_id: user.id,
+      class_id:   classId,
+      topic_id:   topic.id,
+      title:      lessonTitle,
+      status:     "draft",
+    })
+    .select("id")
+    .single();
+
+  if (insertErr || !created) {
+    console.error("setupLessonAction insert error:", insertErr);
+    return { error: `Không thể tạo bài học: ${insertErr?.message ?? "Lỗi không xác định."}` };
+  }
+
+  revalidatePath("/teacher/curriculum");
+  return { lessonId: created.id };
+}
+
 export async function createLessonAction(
   _previousState: CreateLessonState,
   _formData: FormData
@@ -459,7 +555,7 @@ export async function deleteLessonAction(
 
   const { data: lesson, error: lessonLookupError } = await supabase
     .from("lessons")
-    .select("id, curriculum_code")
+    .select("id, topic_id")
     .eq("id", lessonId)
     .eq("teacher_id", user.id)
     .maybeSingle();
@@ -467,7 +563,8 @@ export async function deleteLessonAction(
   if (lessonLookupError || !lesson) {
     return { error: "Không tìm thấy bài học hoặc bạn không có quyền xóa bài học này." };
   }
-  if (lesson.curriculum_code) {
+  // Lessons attached to a topic (curriculum-linked) cannot be deleted.
+  if (lesson.topic_id) {
     return { error: "Bài học cố định không thể bị xóa." };
   }
 

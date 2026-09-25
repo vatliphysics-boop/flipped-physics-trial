@@ -162,3 +162,44 @@ export function getCurriculumChapter(code: string | null | undefined) {
 export function getLessonLabel(lesson: Pick<FixedCurriculumLesson, "number" | "title">) {
   return `Bài ${lesson.number} — ${lesson.title}`;
 }
+
+/**
+ * Canonical mapping: chapter code → canonical topic title in the `topics` table.
+ * Used to resolve a chapter's lessons via: topics WHERE teacher_id = X AND title = Y.
+ *
+ * ACTUAL DB SCHEMA: public.topics { id, teacher_id, title, description, created_at }
+ * ACTUAL DB SCHEMA: public.lessons { id, topic_id, class_id, teacher_id, title, description, status, created_at, learning_objectives }
+ */
+export const CHAPTER_TOPIC_TITLES: Record<CurriculumChapterCode, string> = {
+  I: "Vật lí nhiệt",
+  II: "Khí lí tưởng",
+  III: "Từ trường",
+  IV: "Vật lí hạt nhân",
+} as const;
+
+/**
+ * Given a topic title (from the `topics` table), return the matching chapter.
+ * Comparison is case-insensitive and trim-normalized.
+ */
+export function getChapterByTopicTitle(topicTitle: string | null | undefined): FixedCurriculumChapter | undefined {
+  if (!topicTitle) return undefined;
+  const normalized = topicTitle.trim().toLowerCase();
+  return GRADE_12_CURRICULUM.find(
+    (chapter) => CHAPTER_TOPIC_TITLES[chapter.code].toLowerCase() === normalized,
+  );
+}
+
+/**
+ * Given a lesson's topic_id, look up the matching chapter by resolving the topic title.
+ * Returns null if no match (e.g. topic not in curriculum).
+ */
+export function getCurriculumLessonByTitle(
+  lessonTitle: string | null | undefined,
+  chapterCode: CurriculumChapterCode | null | undefined,
+): FixedCurriculumLesson | undefined {
+  if (!lessonTitle || !chapterCode) return undefined;
+  const chapter = getCurriculumChapter(chapterCode);
+  if (!chapter) return undefined;
+  const normalized = lessonTitle.trim().toLowerCase();
+  return chapter.lessons.find((l) => l.title.trim().toLowerCase() === normalized);
+}

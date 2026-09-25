@@ -15,7 +15,7 @@ export default async function StudentInClassPage({ params }: { params: Promise<{
       <StudentLessonHeader 
         lessonId={lessonId}
         lessonTitle={cleanTitle}
-        chapterCode={lesson.curriculum_code?.match(/B\d+/) ? null : lesson.curriculum_code?.split('.')[0]}
+        chapterCode={curriculum.chapterCode}
         description="Thực hiện thí nghiệm ảo, xử lí dữ liệu và thảo luận kết quả."
         activePhase="in_class"
       />

@@ -57,7 +57,7 @@ export default async function TeacherBeforeClassPage({ params }: { params: Promi
         ]} 
       />
       <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
-        <VideoMaterialManager lessonId={lessonId} materials={materials} hideHeader={true} />
+        <VideoMaterialManager lessonId={lessonId} materials={materials} hideHeader={true} emptyState="Chưa có học liệu trước giờ học" />
         <ColabMaterialManager lessonId={lessonId} phase="before_class" materials={colabs ?? []} hideHeader={true} />
       </div>
     </section>

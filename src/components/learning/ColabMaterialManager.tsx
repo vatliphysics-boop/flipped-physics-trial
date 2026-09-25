@@ -30,8 +30,15 @@ export function ColabMaterialManager({ lessonId, phase, materials, hideHeader }:
     e.preventDefault();
     if (!title || !url) return;
     setSaving(true);
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) {
+      alert("Vui lòng đăng nhập lại.");
+      setSaving(false);
+      return;
+    }
     const { error } = await supabase.from("lesson_materials").insert({
       lesson_id: lessonId,
+      teacher_id: user.id,
       phase,
       material_type: "worksheet", // use worksheet for colab
       title,
@@ -43,6 +50,8 @@ export function ColabMaterialManager({ lessonId, phase, materials, hideHeader }:
     if (!error) {
       setIsAdding(false);
       window.location.reload();
+    } else {
+      alert("Không thể thêm Colab: " + error.message);
     }
   }
 

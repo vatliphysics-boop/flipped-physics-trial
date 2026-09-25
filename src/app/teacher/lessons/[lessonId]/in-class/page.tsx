@@ -32,7 +32,7 @@ export default async function TeacherSimulationPage({ params }: { params: Promis
         ]} 
       />
       <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
-        <VideoMaterialManager lessonId={lessonId} materials={videoMaterials} hideHeader={true} />
+        <VideoMaterialManager lessonId={lessonId} materials={videoMaterials} hideHeader={true} emptyState="Chưa có học liệu bổ sung cho giai đoạn trong giờ học" />
         <ColabMaterialManager lessonId={lessonId} phase="in_class" materials={colabs ?? []} hideHeader={true} />
       </div>
     </section>

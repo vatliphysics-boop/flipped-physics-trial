@@ -32,18 +32,19 @@ export function PdfMaterialManager({ lessonId, materials }: { lessonId: string; 
       if (!user) throw new Error("Vui lòng đăng nhập lại.");
 
       // Upload file
-      const path = `${user.id}/${lessonId}/pdf-${crypto.randomUUID()}-${file.name.replace(/[^a-zA-Z0-9.\-_]/g, '')}`;
-      const { error: uploadError } = await supabase.storage.from("lesson-videos").upload(path, file, { contentType: file.type });
+      const path = `pdfs/${user.id}/${lessonId}/pdf-${crypto.randomUUID()}-${file.name.replace(/[^a-zA-Z0-9.\-_]/g, '')}`;
+      const { error: uploadError } = await supabase.storage.from("lesson-materials").upload(path, file, { contentType: file.type });
       
       if (uploadError) throw uploadError;
 
       // Create record
       const { error: insertError } = await supabase.from("lesson_materials").insert({
         lesson_id: lessonId,
+        teacher_id: user.id,
         phase: "after_class",
         material_type: "worksheet", // use worksheet since pdf might not be in constraint yet, though we added it in migration, worksheet is safer
         title,
-        content_url: `storage:lesson-videos/${path}`,
+        content_url: `storage:lesson-materials/${path}`,
         description,
         is_published: false
       });
@@ -85,7 +86,7 @@ export function PdfMaterialManager({ lessonId, materials }: { lessonId: string; 
       )}
 
       {materials.length === 0 && !isAdding ? (
-        <p style={{ color: "var(--text-muted)" }}>Chưa có file PDF nào.</p>
+        <p style={{ color: "var(--text-muted)" }}>Chưa có tài liệu bài tập.</p>
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
           {materials.map((m) => (

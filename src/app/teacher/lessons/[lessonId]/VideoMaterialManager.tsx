@@ -33,9 +33,9 @@ function VideoForm({ lessonId, material, onCancel }: { lessonId: string; materia
     { id: "checkpoint-75", prompt: "Kiến thức nào vừa được củng cố?", options: ["Lựa chọn A", "Lựa chọn B", "Lựa chọn C", "Lựa chọn D"], correctIndex: 0, atPercent: 75 },
   ];
   const [checkpoints, setCheckpoints] = useState(initial);
-  const [sourceType, setSourceType] = useState(material?.content_url?.startsWith("storage:lesson-videos/") ? "upload" : "direct");
+  const [sourceType, setSourceType] = useState(material?.content_url?.startsWith("storage:lesson-") ? "upload" : "direct");
   const [fileName, setFileName] = useState("");
-  const [uploadedContentUrl] = useState(material?.content_url?.startsWith("storage:lesson-videos/") ? material.content_url : "");
+  const [uploadedContentUrl] = useState(material?.content_url?.startsWith("storage:lesson-") ? material.content_url : "");
   const [uploadError, setUploadError] = useState("");
   const [uploading, setUploading] = useState(false);
   const updateCheckpoint = (index: number, field: string, value: string | number) => setCheckpoints((current) => current.map((item, itemIndex) => itemIndex === index ? { ...item, [field]: value } : item));
@@ -52,10 +52,10 @@ function VideoForm({ lessonId, material, onCancel }: { lessonId: string; materia
     const supabase = createClient();
     const { data: { user }, error: userError } = await supabase.auth.getUser();
     if (userError || !user) throw new Error("Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.");
-    const path = `${user.id}/${lessonId}/${crypto.randomUUID()}-${sanitizeFilename(file.name)}`;
-    const { error } = await supabase.storage.from("lesson-videos").upload(path, file, { contentType: file.type, upsert: false });
+    const path = `videos/${user.id}/${lessonId}/${crypto.randomUUID()}-${sanitizeFilename(file.name)}`;
+    const { error } = await supabase.storage.from("lesson-materials").upload(path, file, { contentType: file.type, upsert: false });
     if (error) throw new Error(`Không thể tải video lên: ${error.message}`);
-    return `storage:lesson-videos/${path}`;
+    return `storage:lesson-materials/${path}`;
   };
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -100,7 +100,7 @@ function VideoForm({ lessonId, material, onCancel }: { lessonId: string; materia
   );
 }
 
-export function VideoMaterialManager({ lessonId, materials, hideHeader }: { lessonId: string; materials: VideoMaterial[]; hideHeader?: boolean }) {
+export function VideoMaterialManager({ lessonId, materials, hideHeader, emptyState }: { lessonId: string; materials: VideoMaterial[]; hideHeader?: boolean; emptyState?: string }) {
   const [adding, setAdding] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
 
@@ -114,7 +114,7 @@ export function VideoMaterialManager({ lessonId, materials, hideHeader }: { less
     <div className="video-material-manager">
       {!hideHeader && <div className="video-section-heading"><div><span className="teacher-panel-kicker">HỌC LIỆU THỰC TẾ</span><h3>Video bài học</h3></div><button className="btn primary" type="button" onClick={() => { setAdding((value) => !value); setEditingId(null); }}>{adding ? "Đóng biểu mẫu" : "+ Thêm video"}</button></div>}
       {adding && <VideoForm lessonId={lessonId} onCancel={() => setAdding(false)} />}
-      {!materials.length && !adding && <p className="video-empty">Chưa có video bài học.</p>}
+      {!materials.length && !adding && <p className="video-empty">{emptyState || "Chưa có video bài học."}</p>}
       <div className="video-material-list">
         {materials.map((material) => editingId === material.id ? <VideoForm key={material.id} lessonId={lessonId} material={material} onCancel={() => setEditingId(null)} /> : <article className="video-material-card" key={material.id}>
           <div className="video-card-top"><span className="video-card-icon">▶</span><span className={`video-status ${material.is_published ? "video-status-published" : "video-status-draft"}`}>{material.is_published ? "Đã xuất bản" : "Bản nháp"}</span></div>

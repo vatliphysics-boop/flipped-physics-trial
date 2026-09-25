@@ -96,7 +96,7 @@ export function QuestionBankManager({ lessonId, questions }: { lessonId: string;
       )}
 
       {questions.length === 0 && !isAdding ? (
-        <p style={{ color: "var(--text-muted)" }}>Chưa có câu hỏi nào trong ngân hàng.</p>
+        <p style={{ color: "var(--text-muted)" }}>Chưa có câu hỏi trong ngân hàng.</p>
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
           {questions.map((q, i) => (

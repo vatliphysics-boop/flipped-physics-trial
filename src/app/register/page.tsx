@@ -1,144 +1,115 @@
 "use client";
 
 import Link from "next/link";
-import { useActionState, useState } from "react";
+import { useActionState } from "react";
 import { registerAction, type AuthState } from "@/app/auth/actions";
+import { NuclearScienceIllustration } from "@/components/learning/NuclearScienceIllustration";
 
 const initialState: AuthState = {};
 
 export default function RegisterPage() {
-  const [state, formAction, pending] = useActionState(
-    registerAction,
-    initialState
-  );
-  const [role, setRole] = useState<"teacher" | "student">("student");
+  const [state, formAction, pending] = useActionState(registerAction, initialState);
 
   return (
-    <main className="auth-wrap">
-      <section className="auth-card">
-        <span className="eyebrow">Tạo tài khoản</span>
-        <h1>Tham gia không gian học tập</h1>
-        <p className="muted">
-          Chọn vai trò và điền thông tin cơ bản để bắt đầu.
-        </p>
+    <div className="auth-page">
+      <div className="auth-visual">
+        <div className="auth-visual-content">
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <NuclearScienceIllustration className="auth-hero-svg" style={{ width: "220px", color: "var(--color-primary)" }} />
+          </div>
+          <h2>Học liệu số Vật lí 12</h2>
+          <p>Tham gia nền tảng hỗ trợ giáo viên tổ chức lớp học đảo ngược khoa học, hiệu quả và chủ động.</p>
+        </div>
+      </div>
+      
+      <div className="auth-form-container">
+        <div className="auth-form-header">
+          <h1>Đăng ký tài khoản</h1>
+          <p>Tạo không gian làm việc mới</p>
+        </div>
 
-        <form action={formAction} className="form">
-          <div className="field">
-            <label htmlFor="full_name">Họ và tên</label>
-            <input
-              className="input"
-              id="full_name"
-              name="full_name"
-              required
-              placeholder="Nguyễn Văn A"
+        <form className="auth-form" action={formAction}>
+          <div className="role-selector">
+            <label>
+              <input type="radio" name="role" value="teacher" defaultChecked />
+              <span>Giáo viên</span>
+            </label>
+            <label>
+              <input type="radio" name="role" value="student" />
+              <span>Học sinh</span>
+            </label>
+          </div>
+
+          <div className="form-group" style={{ marginBottom: "20px" }}>
+            <label htmlFor="full_name" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Họ và tên</label>
+            <input 
+              id="full_name" 
+              name="full_name" 
+              type="text" 
+              required 
+              style={{ width: "100%", padding: "12px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-md)", fontSize: "15px" }} 
             />
           </div>
 
-          <div className="field">
-            <label htmlFor="email">Email</label>
-            <input
-              className="input"
-              id="email"
-              name="email"
-              type="email"
-              autoComplete="email"
-              required
-              placeholder="email@example.com"
+          <div className="form-group" style={{ marginBottom: "20px" }}>
+            <label htmlFor="email" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Email</label>
+            <input 
+              id="email" 
+              name="email" 
+              type="email" 
+              required 
+              style={{ width: "100%", padding: "12px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-md)", fontSize: "15px" }} 
             />
           </div>
 
-          <div className="field">
-            <label htmlFor="password">Mật khẩu</label>
-            <input
-              className="input"
-              id="password"
-              name="password"
+          <div className="form-group" style={{ marginBottom: "20px" }}>
+            <label htmlFor="password" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Mật khẩu</label>
+            <input 
+              id="password" 
+              name="password" 
               type="password"
-              autoComplete="new-password"
-              minLength={6}
-              required
-              placeholder="••••••••"
+              minLength={6} 
+              required 
+              style={{ width: "100%", padding: "12px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-md)", fontSize: "15px" }} 
             />
           </div>
-
-          <div className="field">
-            <label htmlFor="confirm_password">Xác nhận mật khẩu</label>
-            <input
-              className="input"
-              id="confirm_password"
-              name="confirm_password"
+          
+          <div className="form-group" style={{ marginBottom: "32px" }}>
+            <label htmlFor="confirm_password" style={{ display: "block", marginBottom: "8px", fontWeight: 500, color: "#172033" }}>Xác nhận mật khẩu</label>
+            <input 
+              id="confirm_password" 
+              name="confirm_password" 
               type="password"
-              autoComplete="new-password"
-              minLength={6}
-              required
-              placeholder="••••••••"
+              minLength={6} 
+              required 
+              style={{ width: "100%", padding: "12px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-md)", fontSize: "15px" }} 
             />
           </div>
 
-          <div className="field">
-            <label>Vai trò</label>
-            <input type="hidden" name="role" value={role} />
-            <div className="role-grid">
-              <button
-                type="button"
-                className="role-card"
-                onClick={() => setRole("teacher")}
-                style={{
-                  textAlign: "left",
-                  background: role === "teacher" ? "#eef4ff" : "#fff",
-                  borderColor: role === "teacher" ? "#2357d9" : undefined,
-                }}
-              >
-                <b>Giáo viên</b>
-                <br />
-                <small className="muted">
-                  Thiết kế học liệu và quản lý lớp
-                </small>
-              </button>
-
-              <button
-                type="button"
-                className="role-card"
-                onClick={() => setRole("student")}
-                style={{
-                  textAlign: "left",
-                  background: role === "student" ? "#eef4ff" : "#fff",
-                  borderColor: role === "student" ? "#2357d9" : undefined,
-                }}
-              >
-                <b>Học sinh</b>
-                <br />
-                <small className="muted">
-                  Tham gia lớp và hoàn thành nhiệm vụ
-                </small>
-              </button>
-            </div>
-          </div>
-
-          {state.error ? (
-            <p role="alert" style={{ color: "#b42318", margin: 0 }}>
+          {state.error && (
+            <p role="alert" style={{ color: "#b42318", marginBottom: "16px", fontSize: "14px", fontWeight: 500 }}>
               {state.error}
             </p>
-          ) : null}
+          )}
 
-          {state.message ? (
-            <p role="status" style={{ color: "#1d7a56", margin: 0 }}>
+          {state.message && (
+            <p role="status" style={{ color: "#1d7a56", marginBottom: "16px", fontSize: "14px", fontWeight: 500 }}>
               {state.message}
             </p>
-          ) : null}
+          )}
 
-          <button className="btn primary" type="submit" disabled={pending}>
-            {pending ? "Đang đăng ký..." : "Đăng ký"}
+          <button className="btn primary" type="submit" disabled={pending} style={{ width: "100%", padding: "14px", fontSize: "16px", fontWeight: 600, borderRadius: "var(--radius-md)" }}>
+            {pending ? "Đang đăng ký..." : "Tạo tài khoản"}
           </button>
         </form>
 
-        <p className="muted" style={{ marginTop: 16 }}>
-          Đã có tài khoản?{" "}
-          <Link href="/login" style={{ color: "#2357d9", fontWeight: 700 }}>
-            Đăng nhập
-          </Link>
+        <p style={{ marginTop: "32px", textAlign: "center", color: "#667085", fontSize: "14px" }}>
+          Đã có tài khoản? <Link href="/login" style={{ color: "var(--color-primary)", fontWeight: 600, textDecoration: "none" }}>Đăng nhập</Link>
         </p>
-      </section>
-    </main>
+        <div style={{ marginTop: "32px", textAlign: "center" }}>
+          <Link href="/" style={{ color: "#667085", fontSize: "14px", textDecoration: "none" }}>← Quay lại trang chủ</Link>
+        </div>
+      </div>
+    </div>
   );
 }

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { StudentShell } from "../../StudentShell";
 import { createClient } from "@/lib/supabase/server";
-import { getCurriculumChapter } from "@/lib/curriculum";
+import { getCurriculumChapter, CHAPTER_TOPIC_TITLES, type CurriculumChapterCode } from "@/lib/curriculum";
 
 export default async function StudentChapterPage({ params }: { params: Promise<{ chapterCode: string }> }) {
   const { chapterCode } = await params;
@@ -12,8 +12,34 @@ export default async function StudentChapterPage({ params }: { params: Promise<{
   const { data: { user } } = await supabase.auth.getUser();
   const { data: memberships } = user ? await supabase.from("class_members").select("class_id").eq("student_id", user.id) : { data: [] };
   const classIds = memberships?.map((item) => item.class_id) ?? [];
-  const { data: publishedLessons } = classIds.length ? await supabase.from("lessons").select("id, curriculum_code, status").in("class_id", classIds).eq("status", "published").not("curriculum_code", "is", null) : { data: [] };
-  const lessonByCode = new Map((publishedLessons ?? []).map((lesson) => [lesson.curriculum_code, lesson]));
+
+  // SCHEMA: topics { id, teacher_id, title, ... }
+  //         lessons { id, topic_id, class_id, teacher_id, title, status, ... }
+  //
+  // Resolve published lessons for this chapter via topic title → topic.id → lessons.topic_id.
+  // We look for topics whose title matches the canonical topic title for this chapter.
+  const topicTitle = CHAPTER_TOPIC_TITLES[chapter.code as CurriculumChapterCode];
+  const { data: matchingTopics } = await supabase
+    .from("topics")
+    .select("id")
+    .eq("title", topicTitle);
+
+  const topicIds = (matchingTopics ?? []).map((t) => t.id);
+
+  const { data: publishedLessons } = classIds.length && topicIds.length
+    ? await supabase
+        .from("lessons")
+        .select("id, title, status")
+        .in("class_id", classIds)
+        .in("topic_id", topicIds)
+        .eq("status", "published")
+    : { data: [] };
+
+  // Map published DB lessons by normalized title so fixed-catalog rows can match them.
+  const lessonByTitle = new Map(
+    (publishedLessons ?? []).map((lesson) => [lesson.title.trim().toLowerCase(), lesson]),
+  );
+
   const lessonIds = (publishedLessons ?? []).map((lesson) => lesson.id);
   const { data: materials } = lessonIds.length ? await supabase.from("lesson_materials").select("id, lesson_id").in("lesson_id", lessonIds) : { data: [] };
   const materialIds = (materials ?? []).map((material) => material.id);
@@ -49,7 +75,7 @@ export default async function StudentChapterPage({ params }: { params: Promise<{
         {/* Lesson List */}
         <div className="lesson-list" style={{ display: "flex", flexDirection: "column" }}>
           {chapter.lessons.map((fixedLesson) => {
-            const lesson = lessonByCode.get(fixedLesson.code);
+            const lesson = lessonByTitle.get(fixedLesson.title.trim().toLowerCase());
             const state = lesson ? progressByLesson.get(lesson.id) : undefined;
             const status = !lesson ? "Chưa mở" : state?.complete ? "Đã hoàn thành" : state?.started ? "Đang học" : "Chưa bắt đầu";
             
