@@ -226,3 +226,90 @@ export async function leaveClassAction(
   revalidatePath("/student");
   return { message: "Đã rời lớp học thành công." };
 }
+
+export type PhaseSubmissionState = {
+  error?: string;
+  message?: string;
+  success?: boolean;
+};
+
+export async function submitPhaseFinalQuestionsAction(input: {
+  lessonId: string;
+  phase: "before_class" | "in_class";
+  answers: Record<string, string>; // questionId -> answer
+}): Promise<PhaseSubmissionState> {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập." };
+
+  // Fetch the actual questions to validate
+  const { data: questions } = await supabase
+    .from("phase_final_questions")
+    .select("id, correct_answer")
+    .eq("lesson_id", input.lessonId)
+    .eq("phase", input.phase);
+
+  if (!questions || questions.length !== 2) {
+    return { error: "Không tìm thấy đủ câu hỏi cho pha này." };
+  }
+
+  // Validate answers
+  let allCorrect = true;
+  for (const q of questions) {
+    if (input.answers[q.id]?.trim().toLowerCase() !== q.correct_answer.trim().toLowerCase()) {
+      allCorrect = false;
+      break;
+    }
+  }
+
+  if (!allCorrect) {
+    return { success: false, error: "Có câu trả lời chưa đúng. Em hãy xem lại bài nhé." };
+  }
+
+  // Mark phase complete
+  const { error } = await supabase.from("student_phase_progress").upsert({
+    lesson_id: input.lessonId,
+    student_id: user.id,
+    phase: input.phase,
+    is_completed: true,
+    completed_at: new Date().toISOString(),
+  }, { onConflict: "lesson_id,student_id,phase" });
+
+  if (error) return { error: "Không thể lưu tiến độ. Vui lòng thử lại." };
+
+  revalidatePath(`/student/lessons/${input.lessonId}`);
+  return { success: true, message: "Hoàn thành pha học tập!" };
+}
+
+export async function submitPhaseAssessmentAction(input: {
+  lessonId: string;
+  answers: Record<string, unknown>;
+}): Promise<PhaseSubmissionState> {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập." };
+
+  // For Phase 3, we don't automatically grade all of them (some might be short answer)
+  // For now, we just mark the phase and lesson as complete upon submission.
+  
+  // 1. Mark phase complete
+  await supabase.from("student_phase_progress").upsert({
+    lesson_id: input.lessonId,
+    student_id: user.id,
+    phase: "after_class",
+    is_completed: true,
+    completed_at: new Date().toISOString(),
+  }, { onConflict: "lesson_id,student_id,phase" });
+
+  // 2. Mark lesson complete
+  await supabase.from("student_lesson_progress").upsert({
+    lesson_id: input.lessonId,
+    student_id: user.id,
+    is_completed: true,
+    completed_at: new Date().toISOString(),
+  }, { onConflict: "lesson_id,student_id" });
+
+  revalidatePath(`/student/lessons/${input.lessonId}`);
+  revalidatePath(`/student`);
+  return { success: true, message: "Chúc mừng em đã hoàn thành bài học!" };
+}

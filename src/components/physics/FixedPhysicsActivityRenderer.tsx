@@ -47,7 +47,7 @@ export function FixedPhysicsActivityRenderer({ activityKey }: PhysicsActivityPro
   }
 }
 
-export function PhysicsActivityList({ lessonCode }: { lessonCode: NuclearPhysicsLessonCode }) {
+export function PhysicsActivityList({ lessonCode, onCompleteAll }: { lessonCode: NuclearPhysicsLessonCode, onCompleteAll?: () => void }) {
   const activities = getCanonicalPhysicsActivities(lessonCode);
   return (
     <div className="physics-activity-list">
@@ -63,6 +63,11 @@ export function PhysicsActivityList({ lessonCode }: { lessonCode: NuclearPhysics
           <FixedPhysicsActivityRenderer activityKey={activity.key} />
         </article>
       ))}
+      {onCompleteAll && (
+        <div style={{ textAlign: "center", marginTop: "32px" }}>
+          <button className="btn primary" onClick={onCompleteAll}>Đánh dấu đã hoàn thành các mô phỏng</button>
+        </div>
+      )}
     </div>
   );
 }
