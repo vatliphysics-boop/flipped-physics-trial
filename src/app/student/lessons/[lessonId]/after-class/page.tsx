@@ -3,6 +3,7 @@ import { LogoutButton } from "@/components/LogoutButton";
 import { StudentLessonHeader } from "../../StudentLessonHeader";
 import { getStudentLesson } from "@/lib/student-lesson";
 import { StudentPhase3Assessment, type AssessmentQuestion } from "@/components/learning/StudentPhase3Assessment";
+import { StudentLessonReflection } from "@/components/learning/StudentLessonReflection";
 import { checkPhaseAccess } from "@/lib/phase-guard";
 
 export default async function StudentAssessmentPage({ params }: { params: Promise<{ lessonId: string }> }) {
@@ -11,11 +12,51 @@ export default async function StudentAssessmentPage({ params }: { params: Promis
   
   const phaseProgressObj = await checkPhaseAccess(lessonId, "after_class");
 
-  const [{ data: pdfs }, { data: questions }, { data: phaseProgress }] = await Promise.all([
+  const [{ data: pdfs }, qResult, { data: phaseProgress }, { data: reflection }] = await Promise.all([
     supabase.from("lesson_materials").select("*").eq("lesson_id", lessonId).eq("phase", "after_class").in("material_type", ["worksheet", "pdf"]).order("created_at"),
-    supabase.from("phase_assessment_questions").select("*").eq("lesson_id", lessonId).eq("is_published", true).order("sort_order"),
+    supabase.rpc("get_student_assessment_questions", { p_lesson_id: lessonId }),
     supabase.from("student_phase_progress").select("is_completed").eq("lesson_id", lessonId).eq("student_id", user.id).eq("phase", "after_class").maybeSingle(),
+    supabase.from("lesson_reflections").select("*").eq("lesson_id", lessonId).eq("student_id", user.id).maybeSingle(),
   ]);
+
+  // Deep-sanitize assessment question content to remove all answer-bearing keys.
+  // This is defense-in-depth; the RPC in migration 018 already returns whitelist-only JSON.
+  function sanitizeQuestionContent(raw: Record<string, unknown>): Record<string, unknown> {
+    const c = { ...raw };
+    // Top-level answer keys
+    delete c.correctAnswer;
+    delete c.correct_answer;
+    delete c.correctAnswers;
+    delete c.sampleAnswer;
+    delete c.keywords;
+    // Deep-sanitize statements array (true_false questions)
+    if (Array.isArray(c.statements)) {
+      c.statements = (c.statements as Record<string, unknown>[]).map((stmt) => {
+        const s = { ...(stmt || {}) };
+        delete s.correctValue;
+        delete s.explanation;
+        return s;
+      });
+    }
+    return c;
+  }
+
+  let resolvedQuestions = qResult.data
+    ? (qResult.data as { id: string; question_type: "single_choice" | "true_false" | "short_answer"; difficulty: "nhan_biet" | "thong_hieu" | "van_dung" | "van_dung_cao"; content: Record<string, unknown>; sort_order: number }[]).map((q) => ({
+          id: q.id,
+          question_type: q.question_type,
+          difficulty: q.difficulty,
+          content: sanitizeQuestionContent((q.content as Record<string, unknown>) || {}),
+          sort_order: q.sort_order,
+      }))
+    : null;
+
+  if (qResult.error || !resolvedQuestions || (Array.isArray(resolvedQuestions) && resolvedQuestions.length === 0)) {
+    // RPC unavailable (migration 017 not applied) — do NOT fall back to direct table read.
+    // Direct reads bypass phase gate and send raw JSONB (with answers) over the network.
+    console.error("[after-class] get_student_assessment_questions RPC failed, not falling back to direct read.", qResult.error?.message);
+    resolvedQuestions = null;
+  }
 
   const cleanTitle = lesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "");
 
@@ -51,10 +92,10 @@ export default async function StudentAssessmentPage({ params }: { params: Promis
           </section>
         )}
 
-        {questions && questions.length > 0 ? (
+        {resolvedQuestions && resolvedQuestions.length > 0 ? (
           <StudentPhase3Assessment
             lessonId={lessonId}
-            questions={questions as AssessmentQuestion[]}
+            questions={resolvedQuestions as AssessmentQuestion[]}
             isCompleted={phaseProgress?.is_completed ?? false}
           />
         ) : (
@@ -63,6 +104,11 @@ export default async function StudentAssessmentPage({ params }: { params: Promis
             <p style={{ marginBottom: "24px" }}>Giáo viên chưa mở bài tập cuối bài này.</p>
           </section>
         )}
+
+        <StudentLessonReflection 
+          lessonId={lessonId} 
+          existingReflection={reflection} 
+        />
       </div>
     </PortalShell>
   );

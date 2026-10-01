@@ -466,7 +466,7 @@ export async function setupLessonAction(
   if (!classItem) return { error: "Lớp học không tồn tại hoặc không thuộc quyền quản lý của bạn." };
 
   // Resolve the canonical topic by teacher_id + title.
-  const { data: topic, error: topicErr } = await supabase
+  const { data: initialTopic, error: topicErr } = await supabase
     .from("topics")
     .select("id")
     .eq("teacher_id", user.id)
@@ -477,10 +477,43 @@ export async function setupLessonAction(
     console.error("setupLessonAction topic lookup error:", topicErr);
     return { error: `Lỗi tra cứu chủ đề: ${topicErr.message}` };
   }
+  
+  let topic = initialTopic;
+  
   if (!topic) {
-    return {
-      error: `Chủ đề "​${topicTitle}"​ chưa tồn tại trong dữ liệu của bạn. Hãy tạo chủ đề này trước.`,
-    };
+    const { data: newTopic, error: insertTopicErr } = await supabase
+      .from("topics")
+      .insert({
+        teacher_id: user.id,
+        title: topicTitle,
+        description: `Chủ đề theo chương trình cố định: ${topicTitle}`
+      })
+      .select("id")
+      .single();
+
+    if (insertTopicErr) {
+      if (insertTopicErr.code === "23505") {
+        const { data: existingTopic } = await supabase
+          .from("topics")
+          .select("id")
+          .eq("teacher_id", user.id)
+          .eq("title", topicTitle)
+          .single();
+        if (existingTopic) {
+          topic = existingTopic;
+        } else {
+          return { error: `Không thể tạo chủ đề: ${insertTopicErr.message}` };
+        }
+      } else {
+        return { error: `Không thể tạo chủ đề tự động: ${insertTopicErr.message}` };
+      }
+    } else {
+      topic = newTopic;
+    }
+  }
+
+  if (!topic) {
+    return { error: `Lỗi không xác định khi tải chủ đề.` };
   }
 
   // Idempotency check — return existing lesson if already created.
@@ -514,6 +547,27 @@ export async function setupLessonAction(
   if (insertErr || !created) {
     console.error("setupLessonAction insert error:", insertErr);
     return { error: `Không thể tạo bài học: ${insertErr?.message ?? "Lỗi không xác định."}` };
+  }
+
+  // Seed catalog content automatically on first creation.
+  // lessonTitle here is the short title from curriculum.ts ("Cấu trúc hạt nhân"),
+  // NOT the DB-stored title forced by migration 011's trigger ("Bài 21. Cấu trúc hạt nhân").
+  // The seed functions have idempotency guards so double-calling is safe.
+  if (lessonTitle === "Cấu trúc hạt nhân") {
+    const { seedB21Catalog } = await import("@/lib/catalog-b21");
+    await seedB21Catalog(supabase, created.id, user.id);
+  } else if (lessonTitle === "Phản ứng hạt nhân và năng lượng liên kết") {
+    const { seedB22Catalog } = await import("@/lib/catalog-b22");
+    await seedB22Catalog(supabase, created.id, user.id);
+  } else if (lessonTitle === "Hiện tượng phóng xạ") {
+    const { seedB23Catalog } = await import("@/lib/catalog-b23");
+    await seedB23Catalog(supabase, created.id, user.id);
+  } else if (lessonTitle === "Công nghiệp hạt nhân") {
+    const { seedB24Catalog } = await import("@/lib/catalog-b24");
+    await seedB24Catalog(supabase, created.id, user.id);
+  } else if (lessonTitle === "Bài tập về vật lí hạt nhân") {
+    const { seedB25Catalog } = await import("@/lib/catalog-b25");
+    await seedB25Catalog(supabase, created.id, user.id);
   }
 
   revalidatePath("/teacher/curriculum");

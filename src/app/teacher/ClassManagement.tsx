@@ -65,27 +65,33 @@ export function ClassManagement({
           </div>
         </form>
       ) : (
-        <div className="class-management-actions">
-          <button className="btn" type="button" onClick={() => setEditing(true)}>Chỉnh sửa</button>
-          <button className="btn member-management-toggle" type="button" onClick={() => {
-            setMembersOpen((open) => !open);
-            if (!membersOpen) void loadMembers();
-          }}>
-            {membersOpen ? "Ẩn học sinh" : "Quản lý học sinh"} <span className="member-count">{members.length}</span>
-          </button>
-          <form action={codeFormAction} onSubmit={(event) => {
-            if (!window.confirm("Mã lớp cũ sẽ ngừng hoạt động. Bạn có chắc muốn tạo mã mới không?")) event.preventDefault();
-          }}>
-            <input type="hidden" name="class_id" value={classId} />
-            <button className="btn" type="submit" disabled={codePending}>{codePending ? "Đang tạo..." : "Tạo mã mới"}</button>
-          </form>
-          <form action={deleteFormAction} onSubmit={(event) => {
-            if (!window.confirm("Bạn có chắc muốn xóa lớp này? Học sinh sẽ không còn truy cập được lớp.")) event.preventDefault();
-          }}>
-            <input type="hidden" name="class_id" value={classId} />
-            <button className="btn danger" type="submit" disabled={deletePending}>{deletePending ? "Đang xóa..." : "Xóa lớp"}</button>
-          </form>
-        </div>
+        <>
+          <div className="class-management-actions">
+            <button className="btn" type="button" onClick={() => setEditing(true)}>Chỉnh sửa</button>
+            <button className="btn member-management-toggle" type="button" onClick={() => {
+              setMembersOpen((open) => !open);
+              if (!membersOpen) void loadMembers();
+            }}>
+              {membersOpen ? "Ẩn học sinh" : "Quản lý học sinh"} <span className="member-count">{members.length}</span>
+            </button>
+            <form action={codeFormAction} onSubmit={(event) => {
+              if (!window.confirm("Mã lớp cũ sẽ ngừng hoạt động. Bạn có chắc muốn tạo mã mới không?")) event.preventDefault();
+            }}>
+              <input type="hidden" name="class_id" value={classId} />
+              <button className="btn" type="submit" disabled={codePending}>{codePending ? "Đang tạo..." : "Tạo mã mới"}</button>
+            </form>
+          </div>
+          <div style={{ marginTop: "32px", paddingTop: "16px", borderTop: "1px dashed var(--border-light)" }}>
+            <form action={deleteFormAction} onSubmit={(event) => {
+              if (!window.confirm("⚠️ Bạn có chắc muốn XÓA LỚP này?\n\nHành động này không thể hoàn tác. Tất cả học sinh sẽ mất quyền truy cập lớp.")) event.preventDefault();
+            }}>
+              <input type="hidden" name="class_id" value={classId} />
+              <button className="btn danger" type="submit" disabled={deletePending}>
+                {deletePending ? "Đang xóa..." : "🗑️ Xóa lớp"}
+              </button>
+            </form>
+          </div>
+        </>
       )}
       {membersOpen && (
         <section className="member-management-panel" aria-label="Quản lý học sinh">

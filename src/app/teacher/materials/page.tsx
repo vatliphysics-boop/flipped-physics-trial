@@ -1,11 +1,40 @@
-import Link from "next/link";
 import { TeacherShell } from "../TeacherShell";
 import { getTeacherContext } from "../data";
+import { getCombinedMaterialBank } from "@/lib/material-bank";
+import { MaterialBankViewer } from "@/components/learning/MaterialBankViewer";
 
-export default async function TeacherMaterialsPage() {
+import type { MaterialType } from "@/lib/material-bank";
+
+export default async function TeacherMaterialsPage({
+  searchParams,
+}: {
+  searchParams?: Promise<{ type?: string; q?: string }>;
+}) {
   const { supabase, user } = await getTeacherContext();
-  const { data: materials, error } = await supabase.from("lesson_materials").select("id, title, material_type, is_published, lesson_id, lessons!inner(title, class_id, classes!inner(name))").eq("teacher_id", user.id).order("created_at", { ascending: false });
-  return <TeacherShell active="materials" title="Học liệu" description="Theo dõi video và học liệu đã tạo cho các bài học của lớp.">
-    <section className="section"><h2>Học liệu của tôi</h2>{error ? <p role="alert" className="form-alert form-alert-error">Không thể tải học liệu. Vui lòng thử lại.</p> : materials?.length ? <div className="content-list">{materials.map((item) => { const lesson = item.lessons as unknown as { title: string; class_id: string; classes: { name: string } | null }; return <article className="card lesson-row" key={item.id}><div className="outline-copy"><p className="page-kicker">{item.is_published ? "Đã xuất bản" : "Bản nháp"}</p><h3>{item.title}</h3><p>{lesson.classes?.name || "Lớp không xác định"} · {lesson.title} · {item.material_type}</p></div><Link className="btn" href={`/teacher/lessons/${item.lesson_id}/before-class`}>Mở bài học</Link></article>; })}</div> : <div className="empty-state"><h2>Chưa có học liệu</h2><p>Học liệu xuất hiện ở đây sau khi được tạo trong Pha 1 của một bài học.</p><Link className="btn primary" href="/teacher/curriculum">Mở chương trình</Link></div>}</section>
-  </TeacherShell>;
+  const resolvedSearchParams = searchParams ? await searchParams : {};
+  const currentType = (resolvedSearchParams.type || "all") as MaterialType | "all";
+  const currentQuery = resolvedSearchParams.q || "";
+
+  const materials = await getCombinedMaterialBank(
+    supabase,
+    user.id,
+    currentType,
+    currentQuery
+  );
+
+  return (
+    <TeacherShell
+      active="materials"
+      title="Kho học liệu"
+      description="Quản lí, xem trước và tái sử dụng học liệu số cho các bài học đảo ngược."
+    >
+      <section className="section" style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
+        <MaterialBankViewer
+          initialMaterials={materials}
+          initialType={currentType}
+          teacherId={user.id}
+        />
+      </section>
+    </TeacherShell>
+  );
 }

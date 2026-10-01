@@ -103,12 +103,26 @@ function VideoForm({ lessonId, material, onCancel }: { lessonId: string; materia
 export function VideoMaterialManager({ lessonId, materials, hideHeader, emptyState }: { lessonId: string; materials: VideoMaterial[]; hideHeader?: boolean; emptyState?: string }) {
   const [adding, setAdding] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
 
   useEffect(() => {
     const handleOpen = () => { setAdding(true); setEditingId(null); };
     window.addEventListener("open-video-form", handleOpen);
     return () => window.removeEventListener("open-video-form", handleOpen);
   }, []);
+
+  const handleDelete = async (id: string) => {
+    if (!window.confirm("Xóa video này sẽ xóa toàn bộ nội dung và lịch sử làm bài của học sinh (nếu có). Bạn có chắc chắn muốn xóa?")) return;
+    setDeletingId(id);
+    const formData = new FormData();
+    formData.append("id", id);
+    formData.append("lesson_id", lessonId);
+    const res = await deleteVideoMaterialAction({}, formData);
+    if (res.error) {
+      alert("Lỗi khi xóa video: " + res.error);
+    }
+    setDeletingId(null);
+  };
 
   return (
     <div className="video-material-manager">
@@ -130,7 +144,7 @@ export function VideoMaterialManager({ lessonId, materials, hideHeader, emptySta
           <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
             <button className="btn" type="button" onClick={() => { setEditingId(material.id); setAdding(false); }}>Sửa</button>
             <form action={async (formData) => { await toggleVideoMaterialAction(formData); }}><input type="hidden" name="id" value={material.id} /><input type="hidden" name="lesson_id" value={lessonId} /><input type="hidden" name="is_published" value={String(!material.is_published)} /><button className="btn" type="submit">{material.is_published ? "Ẩn" : "Xuất bản"}</button></form>
-            <form action={async (formData) => { await deleteVideoMaterialAction({}, formData); }} onSubmit={(event) => { if (!window.confirm("Bạn có chắc muốn xóa video này không?")) event.preventDefault(); }}><input type="hidden" name="id" value={material.id} /><input type="hidden" name="lesson_id" value={lessonId} /><button className="btn danger" type="submit">Xóa</button></form>
+            <button className="btn danger" type="button" onClick={() => void handleDelete(material.id)} disabled={deletingId === material.id}>{deletingId === material.id ? "Đang xóa..." : "Xóa"}</button>
           </div>
         </article>)}
       </div>

@@ -101,16 +101,17 @@ export function StudentPhase3Assessment({
     }
 
     if (q.question_type === "true_false") {
-      const parts = (q.content.parts as string[]) || [];
+      // RPC returns content.statements as [{text: "..."}, ...] (whitelist-only, no correctValue/explanation)
+      const statements = (q.content.statements as { text?: string }[]) || [];
       return (
         <div key={q.id} style={{ marginBottom: "24px" }}>
           <p style={{ fontWeight: 500, marginBottom: "12px" }}>{title}</p>
           <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-            {parts.map((part: string, i: number) => {
+            {statements.map((stmt, i: number) => {
               const qAnswers = (answers[q.id] as Record<string, string>) || {};
               return (
                 <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)" }}>
-                  <span>{part}</span>
+                  <span>{stmt.text || `Phát biểu ${i + 1}`}</span>
                   <div style={{ display: "flex", gap: "12px" }}>
                     <label><input type="radio" name={`q-${q.id}-part-${i}`} value="true" checked={qAnswers[i] === "true"} onChange={(e) => setAnswers({ ...answers, [q.id]: { ...qAnswers, [i]: e.target.value } })} required /> Đúng</label>
                     <label><input type="radio" name={`q-${q.id}-part-${i}`} value="false" checked={qAnswers[i] === "false"} onChange={(e) => setAnswers({ ...answers, [q.id]: { ...qAnswers, [i]: e.target.value } })} required /> Sai</label>

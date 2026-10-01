@@ -14,14 +14,44 @@ export type ColabMaterial = {
 
 export function ColabMaterialManager({ lessonId, phase, materials, hideHeader }: { lessonId: string; phase: "before_class" | "in_class"; materials: ColabMaterial[]; hideHeader?: boolean }) {
   const [isAdding, setIsAdding] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
   const [title, setTitle] = useState("");
   const [url, setUrl] = useState("");
   const [description, setDescription] = useState("");
   const [saving, setSaving] = useState(false);
   const supabase = createClient();
 
+  function resetForm() {
+    setTitle("");
+    setUrl("");
+    setDescription("");
+    setIsAdding(false);
+    setEditingId(null);
+  }
+
+  function openEdit(m: ColabMaterial) {
+    setTitle(m.title);
+    setUrl(m.content_url);
+    setDescription(m.description || "");
+    setEditingId(m.id);
+    setIsAdding(false);
+  }
+
+  async function handleDelete(id: string) {
+    if (!confirm("Bạn có chắc chắn muốn xóa tài liệu Colab này không?")) return;
+    setDeletingId(id);
+    const { error } = await supabase.from("lesson_materials").delete().eq("id", id).eq("lesson_id", lessonId);
+    if (error) {
+      alert("Không thể xóa Colab: " + error.message);
+      setDeletingId(null);
+    } else {
+      window.location.reload();
+    }
+  }
+
   useEffect(() => {
-    const handleOpen = () => setIsAdding(true);
+    const handleOpen = () => { resetForm(); setIsAdding(true); };
     window.addEventListener("open-colab-form", handleOpen);
     return () => window.removeEventListener("open-colab-form", handleOpen);
   }, []);
@@ -36,22 +66,38 @@ export function ColabMaterialManager({ lessonId, phase, materials, hideHeader }:
       setSaving(false);
       return;
     }
-    const { error } = await supabase.from("lesson_materials").insert({
-      lesson_id: lessonId,
-      teacher_id: user.id,
-      phase,
-      material_type: "worksheet", // use worksheet for colab
-      title,
-      content_url: url,
-      description,
-      is_published: false
-    });
-    setSaving(false);
-    if (!error) {
-      setIsAdding(false);
-      window.location.reload();
+    if (editingId) {
+      const { error } = await supabase.from("lesson_materials").update({
+        title,
+        content_url: url,
+        description,
+      }).eq("id", editingId).eq("lesson_id", lessonId).eq("teacher_id", user.id);
+      
+      setSaving(false);
+      if (!error) {
+        resetForm();
+        window.location.reload();
+      } else {
+        alert("Không thể sửa Colab: " + error.message);
+      }
     } else {
-      alert("Không thể thêm Colab: " + error.message);
+      const { error } = await supabase.from("lesson_materials").insert({
+        lesson_id: lessonId,
+        teacher_id: user.id,
+        phase,
+        material_type: "worksheet", // use worksheet for colab
+        title,
+        content_url: url,
+        description,
+        is_published: false
+      });
+      setSaving(false);
+      if (!error) {
+        resetForm();
+        window.location.reload();
+      } else {
+        alert("Không thể thêm Colab: " + error.message);
+      }
     }
   }
 
@@ -68,7 +114,7 @@ export function ColabMaterialManager({ lessonId, phase, materials, hideHeader }:
           <div><label>Link Colab</label><input className="form-input" required type="url" value={url} onChange={(e) => setUrl(e.target.value)} /></div>
           <div><label>Mô tả / Hướng dẫn</label><textarea className="form-input" value={description} onChange={(e) => setDescription(e.target.value)} /></div>
           <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
-            <button type="button" className="btn" onClick={() => setIsAdding(false)}>Hủy</button>
+            <button type="button" className="btn" onClick={resetForm}>Hủy</button>
             <button type="submit" className="btn primary" disabled={saving}>Lưu nháp</button>
           </div>
         </form>
@@ -79,20 +125,34 @@ export function ColabMaterialManager({ lessonId, phase, materials, hideHeader }:
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
           {materials.map((m) => (
-            <article className="material-item-row" key={m.id} style={{ display: "flex", alignItems: "flex-start", padding: "16px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", backgroundColor: "var(--bg-surface)", gap: "16px", marginBottom: "12px" }}>
-              <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", backgroundColor: "var(--color-primary-soft)", color: "var(--color-primary)", borderRadius: "var(--radius-sm)", flexShrink: 0, fontSize: "18px", fontWeight: 700 }}>C</div>
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
-                  <h4 style={{ margin: 0, fontSize: "15px", color: "var(--text-primary)" }}>{m.title}</h4>
-                  <span style={{ fontSize: "11px", fontWeight: 600, padding: "2px 8px", borderRadius: "100px", backgroundColor: m.is_published ? "var(--bg-surface-elevated)" : "rgba(239, 68, 68, 0.1)", color: m.is_published ? "var(--text-secondary)" : "var(--semantic-danger)" }}>{m.is_published ? "Đã xuất bản" : "Bản nháp"}</span>
+            editingId === m.id ? (
+              <form key={m.id} onSubmit={handleAdd} style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "12px", padding: "16px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-md)" }}>
+                <div><label>Tiêu đề</label><input className="form-input" required value={title} onChange={(e) => setTitle(e.target.value)} /></div>
+                <div><label>Link Colab</label><input className="form-input" required type="url" value={url} onChange={(e) => setUrl(e.target.value)} /></div>
+                <div><label>Mô tả / Hướng dẫn</label><textarea className="form-input" value={description} onChange={(e) => setDescription(e.target.value)} /></div>
+                <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
+                  <button type="button" className="btn" onClick={resetForm}>Hủy</button>
+                  <button type="submit" className="btn primary" disabled={saving}>{saving ? "Đang lưu..." : "Lưu thay đổi"}</button>
                 </div>
-                <p style={{ margin: "0 0 8px", fontSize: "13px", color: "var(--text-secondary)" }}>{m.description || "Chưa có mô tả."}</p>
-                <div style={{ fontSize: "13px", backgroundColor: "var(--bg-page)", padding: "8px 12px", borderRadius: "var(--radius-sm)", color: "var(--text-secondary)" }}><strong>Link:</strong> <a href={m.content_url} target="_blank" rel="noopener noreferrer" style={{ color: "var(--color-primary)" }}>{m.content_url}</a></div>
-              </div>
-              <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
-                <a href={m.content_url} target="_blank" rel="noopener noreferrer" className="btn">Mở Colab ↗</a>
-              </div>
-            </article>
+              </form>
+            ) : (
+              <article className="material-item-row" key={m.id} style={{ display: "flex", alignItems: "flex-start", padding: "16px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", backgroundColor: "var(--bg-surface)", gap: "16px", marginBottom: "12px" }}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "40px", height: "40px", backgroundColor: "var(--color-primary-soft)", color: "var(--color-primary)", borderRadius: "var(--radius-sm)", flexShrink: 0, fontSize: "18px", fontWeight: 700 }}>C</div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
+                    <h4 style={{ margin: 0, fontSize: "15px", color: "var(--text-primary)" }}>{m.title}</h4>
+                    <span style={{ fontSize: "11px", fontWeight: 600, padding: "2px 8px", borderRadius: "100px", backgroundColor: m.is_published ? "var(--bg-surface-elevated)" : "rgba(239, 68, 68, 0.1)", color: m.is_published ? "var(--text-secondary)" : "var(--semantic-danger)" }}>{m.is_published ? "Đã xuất bản" : "Bản nháp"}</span>
+                  </div>
+                  <p style={{ margin: "0 0 8px", fontSize: "13px", color: "var(--text-secondary)" }}>{m.description || "Chưa có mô tả."}</p>
+                  <div style={{ fontSize: "13px", backgroundColor: "var(--bg-page)", padding: "8px 12px", borderRadius: "var(--radius-sm)", color: "var(--text-secondary)" }}><strong>Link:</strong> <a href={m.content_url} target="_blank" rel="noopener noreferrer" style={{ color: "var(--color-primary)" }}>{m.content_url}</a></div>
+                </div>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
+                  <a href={m.content_url} target="_blank" rel="noopener noreferrer" className="btn">Mở Colab ↗</a>
+                  <button type="button" className="btn" onClick={() => openEdit(m)}>Sửa</button>
+                  <button type="button" className="btn danger" disabled={deletingId === m.id} onClick={() => void handleDelete(m.id)}>{deletingId === m.id ? "Đang xóa..." : "Xóa"}</button>
+                </div>
+              </article>
+            )
           ))}
         </div>
       )}

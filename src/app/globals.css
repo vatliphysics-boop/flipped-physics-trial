@@ -2,8 +2,8 @@
 
 :root {
   /* Color System */
-  --bg-page: var(--bg-page);
-  --bg-surface: var(--bg-surface);
+  --bg-page: #F8FAFC;
+  --bg-surface: #FFFFFF;
   --bg-surface-elevated: #F1F5F9;
   
   --color-primary: #16A6B6; /* Scientific Teal */
@@ -217,6 +217,37 @@ p {
   border-radius: 0 4px 4px 0;
 }
 
+.portal-nav-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.portal-subnav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  padding-left: 12px;
+  border-left: 2px solid var(--border-light);
+  margin-left: 8px;
+}
+
+.portal-subnav a.portal-subnav-link {
+  display: block;
+  padding: 6px 10px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.portal-subnav a.portal-subnav-link:hover {
+  background-color: var(--bg-surface-elevated);
+  color: var(--text-primary);
+}
+
 .portal-topbar {
   height: var(--topbar-height);
   background-color: var(--bg-surface);
@@ -304,6 +335,109 @@ p {
 .breadcrumbs strong {
   color: var(--text-primary);
   font-weight: 500;
+}
+
+/* ── Phase navigation bar (01 Trước giờ học / 02 Trong giờ học / 03 Sau giờ học) ── */
+.phase-navigation {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 24px;
+}
+
+.phase-navigation a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.phase-navigation a span {
+  font-weight: 600;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.phase-navigation a strong {
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.phase-navigation a:hover {
+  color: var(--text-primary);
+}
+
+.phase-navigation a.is-active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+.phase-navigation a.is-active span,
+.phase-navigation a.is-active strong {
+  color: var(--color-primary);
+}
+
+/* ── Lesson page header (compact, academic style) ── */
+.lesson-header {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.lesson-header .lesson-kicker {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 6px;
+}
+
+.lesson-header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 4px;
+  line-height: 1.2;
+}
+
+.lesson-header .lesson-phase-label {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .phase-navigation {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .phase-navigation a {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .phase-navigation a strong {
+    font-size: 12px;
+  }
+
+  .breadcrumbs {
+    flex-wrap: wrap;
+  }
+
+  .lesson-header h1 {
+    font-size: 24px;
+  }
 }
 
 /* Teacher Curriculum Classes */
@@ -1089,7 +1223,396 @@ textarea:focus {
   border-color: var(--color-primary);
 }
 
+.physics-button:hover {
+  opacity: 0.85;
+}
+
+.physics-button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Physics SVG canvas */
+.physics-svg {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 16px 0;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+}
+
+.physics-svg text {
+  font-family: inherit;
+  font-size: 12px;
+  fill: var(--text-primary);
+}
+
+/* Physics field (slider / select wrapper) */
+.physics-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.physics-field span {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.physics-field span strong {
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.physics-field input[type="range"] {
+  width: 100%;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.physics-field select {
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-dark);
+  background-color: var(--bg-surface);
+  font-size: 14px;
+}
+
+/* Physics split layout (diagram + formula) */
+.physics-split {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+
+.physics-split > svg {
+  flex: 0 0 260px;
+}
+
+/* Physics formula display */
+.physics-formula {
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 16px 0;
+  color: var(--text-primary);
+}
+
+.physics-formula small {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Nuclear symbol notation */
+.physics-nuclide {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.physics-nuclide span {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 13px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.physics-nuclide b {
+  font-size: 24px;
+}
+
+/* Nucleus SVG */
+.physics-nucleus {
+  max-width: 260px;
+}
+
+/* Metrics display (data readout) */
+.physics-metrics {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  padding: 12px 16px;
+  background: var(--bg-surface-elevated);
+  border-radius: var(--radius-md);
+}
+
+.physics-metrics > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.physics-metrics dt {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.physics-metrics dd {
+  font-size: 18px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* Choice-check question blocks */
+.physics-check {
+  margin-top: 24px;
+  padding: 20px;
+  background: var(--bg-surface-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+}
+
+.physics-check fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.physics-check legend {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.physics-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.physics-options label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+
+.physics-options label:hover {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+}
+
+.physics-options label.is-selected {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+}
+
+.physics-options label input[type="radio"] {
+  flex-shrink: 0;
+  margin-top: 3px;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--color-primary);
+}
+
+.physics-options label span {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Feedback banner */
+.physics-feedback {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  line-height: 1.6;
+  border: 1px solid var(--border-light);
+  background: var(--bg-surface);
+}
+
+.physics-feedback.is-correct {
+  border-color: var(--semantic-success);
+  background: rgba(16, 185, 129, 0.08);
+  color: #065f46;
+}
+
+.physics-feedback.is-retry {
+  border-color: #f59e0b;
+  background: #fffbeb;
+  color: #92400e;
+}
+
+/* Isotope cards row */
+.physics-isotopes {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+
+.physics-isotope-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 20px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  min-width: 100px;
+}
+
+.physics-isotope-card p {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.physics-isotope-conclusion {
+  padding: 12px 16px;
+  background: var(--color-primary-soft);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Sources / references */
+.physics-sources {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.physics-sources summary {
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.physics-sources ul {
+  margin-top: 8px;
+  padding-left: 20px;
+}
+
+.physics-sources a {
+  color: var(--color-accent);
+}
+
+/* Chart / graph */
+.physics-chart {
+  margin: 16px 0;
+}
+
+.physics-chart figcaption {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  margin-top: 8px;
+  color: var(--text-secondary);
+}
+
+.physics-chart figcaption i {
+  display: inline-block;
+  width: 14px;
+  height: 3px;
+  border-radius: 1px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* Exploration guide */
+.physics-guide {
+  margin: 12px 0 20px;
+  padding: 14px 18px;
+  background: var(--color-primary-soft);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.physics-guide ol {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.physics-guide li {
+  margin-bottom: 4px;
+}
+
+/* Completion checklist */
+.physics-checklist {
+  margin: 20px 0;
+  padding: 14px 18px;
+  background: var(--bg-surface-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  font-size: 14px;
+}
+
+.physics-checklist ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.physics-checklist li {
+  padding: 6px 0;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.physics-checklist li:last-child {
+  border-bottom: none;
+}
+
+.physics-checklist li.is-done {
+  color: var(--semantic-success);
+  font-weight: 500;
+}
+
+/* Responsive physics */
+@media (max-width: 600px) {
+  .physics-split {
+    flex-direction: column;
+  }
+  .physics-split > svg {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  .physics-isotopes {
+    flex-direction: column;
+  }
+  .physics-metrics {
+    gap: 12px;
+  }
+  .physics-field {
+    min-width: 100%;
+  }
+  .physics-svg {
+    max-width: 100%;
+  }
+}
+
 /* PUBLIC SHELL & LANDING */
+
 .public-shell {
   display: flex;
   flex-direction: column;
@@ -1522,5 +2045,107 @@ textarea:focus {
     flex-wrap: wrap;
     height: auto;
     padding: 16px 0;
+  }
+}
+/* Class Detail Page */
+.class-detail-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1000px;
+}
+
+.class-detail-back {
+  font-size: 14px;
+}
+
+.class-detail-summary {
+  display: flex;
+  gap: 48px;
+  padding: 24px 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.class-detail-summary > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.class-detail-summary span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.class-detail-summary strong {
+  font-size: 24px;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.class-detail-navigation {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.class-detail-navigation article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.class-detail-navigation article div {
+  flex: 1;
+  padding-right: 24px;
+}
+
+.class-detail-navigation article h2 {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: var(--text-primary);
+}
+
+.class-detail-navigation article p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.class-detail-admin {
+  margin-top: 16px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-light);
+}
+
+.class-detail-admin h2 {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.class-management-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .class-detail-navigation article {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .class-detail-navigation article div {
+    padding-right: 0;
   }
 }

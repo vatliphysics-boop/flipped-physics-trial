@@ -5,10 +5,12 @@ import { VideoMaterialManager, type VideoMaterial } from "../VideoMaterialManage
 import { ColabMaterialManager } from "@/components/learning/ColabMaterialManager";
 import { PhaseFinalQuestionsManager } from "@/components/learning/PhaseFinalQuestionsManager";
 import { PhaseActionHeader } from "@/components/learning/PhaseActionHeader";
+import { PathwayStepManager } from "@/components/learning/PathwayStepManager";
+import { getLessonPathway, getCombinedMaterialBank } from "@/lib/material-bank";
 
 export default async function TeacherBeforeClassPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
-  const { supabase, lesson, classItem } = await getTeacherLesson(lessonId);
+  const { supabase, user, lesson, classItem, curriculum } = await getTeacherLesson(lessonId);
   const { data: videos } = await supabase
     .from("lesson_materials")
     .select("id, title, description, content_url, duration_minutes, instructions, is_published")
@@ -44,10 +46,32 @@ export default async function TeacherBeforeClassPage({ params }: { params: Promi
 
   const { data: colabs } = await supabase.from("lesson_materials").select("*").eq("lesson_id", lessonId).eq("phase", "before_class").eq("material_type", "worksheet").order("created_at");
   const { data: finalQs } = await supabase.from("phase_final_questions").select("*").eq("lesson_id", lessonId).eq("phase", "before_class").order("sort_order");
+  const pathwaySteps = await getLessonPathway(supabase, lessonId, "before_class");
+  const bankMaterials = await getCombinedMaterialBank(supabase, user.id, "all");
 
-  return <TeacherShell active="curriculum" title={`${lesson.title} — Bài giảng và chuẩn bị`} description="Tải, chỉnh sửa và xuất bản video cho học sinh trong lớp.">
-    <LessonNavigation role="teacher" lessonId={lessonId} className={classItem.name} lessonTitle={lesson.title} active="before_class" />
+  return <TeacherShell
+    active="curriculum"
+    title={lesson.title}
+    description="Tải, chỉnh sửa và xuất bản video cho học sinh trong lớp."
+    lessonMeta={{
+      chapterLabel: `Chương ${curriculum.chapterCode}`,
+      lessonLabel: `Bài ${curriculum.number}`,
+      className: classItem.name,
+      lessonTitle: lesson.title,
+      phaseLabel: "Pha 1 · Trước giờ học",
+      phaseDescription: "Bài giảng và chuẩn bị kiến thức nền",
+    }}
+  >
+    <LessonNavigation role="teacher" lessonId={lessonId} className={classItem.name} lessonTitle={lesson.title} active="before_class" classId={classItem.id} chapterCode={curriculum.chapterCode} />
     
+    <PathwayStepManager
+      lessonId={lessonId}
+      phase="before_class"
+      steps={pathwaySteps}
+      availableMaterials={bankMaterials}
+      lessonCode={curriculum.code}
+    />
+
     <section className="card" style={{ padding: "24px", marginBottom: "24px" }}>
       <PhaseActionHeader 
         title="HỌC LIỆU TRƯỚC GIỜ HỌC" 

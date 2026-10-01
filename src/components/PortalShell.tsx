@@ -25,9 +25,76 @@ const navigation: Record<PortalRole, NavigationItem[]> = {
   ],
 };
 
+const teacherMaterialSubItems = [
+  { label: "Tất cả học liệu", href: "/teacher/materials" },
+  { label: "Ảnh tĩnh & Sơ đồ", href: "/teacher/materials?type=image" },
+  { label: "Ảnh động (GIF)", href: "/teacher/materials?type=animation" },
+  { label: "Video thực tế / Thí nghiệm", href: "/teacher/materials?type=real_video" },
+  { label: "Video bài giảng", href: "/teacher/materials?type=lecture_video" },
+  { label: "Mô phỏng tương tác", href: "/teacher/materials?type=simulation" },
+  { label: "PDF / Phiếu học tập", href: "/teacher/materials?type=document" },
+  { label: "Câu hỏi & Nhiệm vụ", href: "/teacher/curriculum" },
+];
+
 function Navigation({ role, active, onNavigate }: { role: PortalRole; active: PortalSection; onNavigate?: () => void }) {
+  const [materialsExpanded, setMaterialsExpanded] = useState(active === "materials");
+
   return <nav className="portal-nav" aria-label="Điều hướng chính">
-    {navigation[role].map((item) => <Link key={item.href} href={item.href} onClick={onNavigate} aria-current={item.section === active ? "page" : undefined} className={item.section === active ? "is-active" : ""}>{item.label}</Link>)}
+    {navigation[role].map((item) => {
+      const isMaterials = role === "teacher" && item.section === "materials";
+      if (isMaterials) {
+        return (
+          <div key={item.href} className="portal-nav-group">
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+              <Link
+                href={item.href}
+                onClick={onNavigate}
+                aria-current={item.section === active ? "page" : undefined}
+                className={item.section === active ? "is-active" : ""}
+                style={{ flex: 1 }}
+              >
+                {item.label}
+              </Link>
+              <button
+                type="button"
+                className="icon-button"
+                style={{ padding: "4px 8px", fontSize: "11px", color: "var(--text-muted)" }}
+                aria-label={materialsExpanded ? "Thu gọn menu học liệu" : "Mở rộng menu học liệu"}
+                onClick={() => setMaterialsExpanded(!materialsExpanded)}
+              >
+                {materialsExpanded ? "▲" : "▼"}
+              </button>
+            </div>
+            {materialsExpanded && (
+              <div className="portal-subnav" aria-label="Danh mục học liệu">
+                {teacherMaterialSubItems.map((sub) => (
+                  <Link
+                    key={sub.href}
+                    href={sub.href}
+                    onClick={onNavigate}
+                    className="portal-subnav-link"
+                  >
+                    {sub.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        );
+      }
+
+      return (
+        <Link
+          key={item.href}
+          href={item.href}
+          onClick={onNavigate}
+          aria-current={item.section === active ? "page" : undefined}
+          className={item.section === active ? "is-active" : ""}
+        >
+          {item.label}
+        </Link>
+      );
+    })}
   </nav>;
 }
 

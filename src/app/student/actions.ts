@@ -233,6 +233,27 @@ export type PhaseSubmissionState = {
   success?: boolean;
 };
 
+export async function declareSimulationCompletedAction(input: { lessonId: string }): Promise<PhaseSubmissionState> {
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Bạn cần đăng nhập." };
+
+  const { data, error } = await supabase.rpc("declare_simulation_completed", {
+    p_lesson_id: input.lessonId
+  });
+
+  if (error || !data) {
+    console.error("[declareSimulationCompleted] RPC declare_simulation_completed failed — migration 017 may not be applied.", error?.message);
+    return {
+      success: false,
+      error: "Bài học chưa sẵn sàng, em hãy báo giáo viên.",
+    };
+  }
+
+  revalidatePath(`/student/lessons/${input.lessonId}`);
+  return { success: true, message: "Đã lưu tiến độ mô phỏng." };
+}
+
 export async function submitPhaseFinalQuestionsAction(input: {
   lessonId: string;
   phase: "before_class" | "in_class";
@@ -242,43 +263,27 @@ export async function submitPhaseFinalQuestionsAction(input: {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập." };
 
-  // Fetch the actual questions to validate
-  const { data: questions } = await supabase
-    .from("phase_final_questions")
-    .select("id, correct_answer")
-    .eq("lesson_id", input.lessonId)
-    .eq("phase", input.phase);
+  const { data, error } = await supabase.rpc("submit_phase_final_questions", {
+    p_lesson_id: input.lessonId,
+    p_phase: input.phase,
+    p_answers: input.answers
+  });
 
-  if (!questions || questions.length !== 2) {
-    return { error: "Không tìm thấy đủ câu hỏi cho pha này." };
+  if (error) {
+    console.error("[submitPhaseFinalQuestions] RPC submit_phase_final_questions failed — migration 017 may not be applied.", error?.message);
+    return {
+      success: false,
+      error: "Bài học chưa sẵn sàng, em hãy báo giáo viên.",
+    };
   }
 
-  // Validate answers
-  let allCorrect = true;
-  for (const q of questions) {
-    if (input.answers[q.id]?.trim().toLowerCase() !== q.correct_answer.trim().toLowerCase()) {
-      allCorrect = false;
-      break;
-    }
+  const result = data as { success?: boolean; error?: string; message?: string };
+  if (!result || !result.success) {
+    return { success: false, error: result?.error || "Không thành công." };
   }
-
-  if (!allCorrect) {
-    return { success: false, error: "Có câu trả lời chưa đúng. Em hãy xem lại bài nhé." };
-  }
-
-  // Mark phase complete
-  const { error } = await supabase.from("student_phase_progress").upsert({
-    lesson_id: input.lessonId,
-    student_id: user.id,
-    phase: input.phase,
-    is_completed: true,
-    completed_at: new Date().toISOString(),
-  }, { onConflict: "lesson_id,student_id,phase" });
-
-  if (error) return { error: "Không thể lưu tiến độ. Vui lòng thử lại." };
 
   revalidatePath(`/student/lessons/${input.lessonId}`);
-  return { success: true, message: "Hoàn thành pha học tập!" };
+  return { success: true, message: result.message || "Hoàn thành pha học tập!" };
 }
 
 export async function submitPhaseAssessmentAction(input: {
@@ -289,27 +294,25 @@ export async function submitPhaseAssessmentAction(input: {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập." };
 
-  // For Phase 3, we don't automatically grade all of them (some might be short answer)
-  // For now, we just mark the phase and lesson as complete upon submission.
-  
-  // 1. Mark phase complete
-  await supabase.from("student_phase_progress").upsert({
-    lesson_id: input.lessonId,
-    student_id: user.id,
-    phase: "after_class",
-    is_completed: true,
-    completed_at: new Date().toISOString(),
-  }, { onConflict: "lesson_id,student_id,phase" });
+  const { data, error } = await supabase.rpc("submit_phase_assessment", {
+    p_lesson_id: input.lessonId,
+    p_answers: input.answers
+  });
 
-  // 2. Mark lesson complete
-  await supabase.from("student_lesson_progress").upsert({
-    lesson_id: input.lessonId,
-    student_id: user.id,
-    is_completed: true,
-    completed_at: new Date().toISOString(),
-  }, { onConflict: "lesson_id,student_id" });
+  if (error) {
+    console.error("[submitPhaseAssessment] RPC submit_phase_assessment failed — migration 017 may not be applied.", error?.message);
+    return {
+      success: false,
+      error: "Bài học chưa sẵn sàng, em hãy báo giáo viên.",
+    };
+  }
+
+  const result = data as { success?: boolean; error?: string; message?: string };
+  if (!result || !result.success) {
+    return { success: false, error: result?.error || "Không thành công." };
+  }
 
   revalidatePath(`/student/lessons/${input.lessonId}`);
   revalidatePath(`/student`);
-  return { success: true, message: "Chúc mừng em đã hoàn thành bài học!" };
+  return { success: true, message: result.message || "Chúc mừng em đã hoàn thành bài học!" };
 }

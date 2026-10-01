@@ -7,12 +7,13 @@ import { createSignedVideoUrl, classifyVideoSource, isMovVideoSource } from "@/l
 import { StudentColabViewer } from "@/components/learning/StudentColabViewer";
 import { StudentPhaseFinalQuestions } from "@/components/learning/StudentPhaseFinalQuestions";
 import { checkPhaseAccess } from "@/lib/phase-guard";
+import { FixedPhysicsActivityRenderer } from "@/components/physics/FixedPhysicsActivityRenderer";
 
 export default async function StudentBeforeClassPage({ params }: { params: Promise<{ lessonId: string }> }) {
   const { lessonId } = await params;
   const { supabase, user, lesson, curriculum } = await getStudentLesson(lessonId);
   const { data: videos } = await supabase.from("lesson_materials").select("id, title, description, content_url, duration_minutes, instructions").eq("lesson_id", lessonId).eq("phase", "before_class").eq("material_type", "video").eq("is_published", true).order("sort_order").order("created_at");
-  const { data: colabs } = await supabase.from("lesson_materials").select("id, title, description, content_url").eq("lesson_id", lessonId).eq("phase", "before_class").eq("material_type", "worksheet").eq("is_published", true).order("created_at");
+  const { data: colabs } = await supabase.from("lesson_materials").select("id, title, description, content_url").eq("lesson_id", lessonId).eq("phase", "before_class").in("material_type", ["worksheet", "colab", "quiz"]).eq("is_published", true).order("created_at");
   
   const phaseProgressObj = await checkPhaseAccess(lessonId, "before_class");
 
@@ -31,14 +32,27 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
   // Determine if all required materials are completed
   // For videos, checking if is_complete is true (set by db triggers when checkpoints are done and video ends).
   // Alternatively, just checking progressByMaterial.get(id)?.isComplete
-  const allMaterialsCompleted = ids.length > 0 && ids.every(id => progressByMaterial.get(id)?.isComplete);
+  const allMaterialsCompleted = ids.length === 0 || ids.every(id => progressByMaterial.get(id)?.isComplete);
 
-  const { data: finalQs } = await (allMaterialsCompleted 
-    ? supabase.from("phase_final_questions").select("id, question_text").eq("lesson_id", lessonId).eq("phase", "before_class").order("sort_order")
-    : Promise.resolve({ data: null }));
+  let finalQs: { id: string; question_text: string }[] | null = null;
+  if (allMaterialsCompleted) {
+    const { data: rpcQs, error: rpcErr } = await supabase.rpc("get_student_final_questions", {
+      p_lesson_id: lessonId,
+      p_phase: "before_class",
+    });
+    if (!rpcErr && rpcQs) {
+      finalQs = rpcQs;
+    } else {
+      // RPC unavailable (migration 017 not applied) — do NOT fall back to direct table read.
+      // Direct reads could bypass phase/material gates once RPC is the authoritative source.
+      console.error("[before-class] get_student_final_questions RPC failed, not falling back to direct read.", rpcErr?.message);
+      finalQs = null;
+    }
+  }
 
   // Clean title for header
   const cleanTitle = lesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "");
+  const hasMaterials = (videos?.length ?? 0) > 0 || (colabs?.length ?? 0) > 0;
 
   return (
     <PortalShell role="student" active="lessons" account={<LogoutButton />}>
@@ -52,14 +66,24 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
       />
       
       <div style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 24px" }}>
-        {!videos?.length ? (
+        {curriculum.code === "B21" && (
+          <section className="physics-lab-container" style={{ padding: "0 0 48px" }}>
+            <h2 style={{ fontSize: "24px", marginBottom: "16px" }}>Mô phỏng khám phá</h2>
+            <p style={{ color: "var(--text-secondary)", marginBottom: "24px" }}>Em hãy tương tác với mô phỏng dưới đây để hình dung sơ bộ về nội dung bài học.</p>
+            <div style={{ pointerEvents: "auto" }}>
+              <FixedPhysicsActivityRenderer activityKey="rutherford_alpha_scattering" />
+            </div>
+          </section>
+        )}
+
+        {!hasMaterials ? (
           <section className="empty-state" style={{ padding: "64px 0", textAlign: "center", color: "var(--text-muted)" }}>
-            <h2 style={{ fontSize: "20px", color: "var(--text-primary)", marginBottom: "8px" }}>Chưa có video được xuất bản</h2>
+            <h2 style={{ fontSize: "20px", color: "var(--text-primary)", marginBottom: "8px" }}>Chưa có học liệu được xuất bản</h2>
             <p style={{ marginBottom: "24px" }}>Giáo viên chưa mở học liệu cho pha này.</p>
           </section>
         ) : (
-          <section className="content-list" aria-label="Video chuẩn bị">
-            {await Promise.all(videos.map(async (video) => {
+          <section className="content-list" aria-label="Học liệu chuẩn bị">
+            {videos && videos.length > 0 && await Promise.all(videos.map(async (video) => {
               const source = classifyVideoSource(video.content_url ?? "");
               const url = source.kind === "storage" ? await createSignedVideoUrl(video.content_url ?? "", supabase) : source.kind === "direct" ? source.url : null;
               const materialCheckpoints = (checkpoints ?? []).filter((item) => item.material_id === video.id).map((item) => ({

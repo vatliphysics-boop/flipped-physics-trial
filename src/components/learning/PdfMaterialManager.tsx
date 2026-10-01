@@ -17,8 +17,27 @@ export function PdfMaterialManager({ lessonId, materials }: { lessonId: string; 
   const [description, setDescription] = useState("");
   const [file, setFile] = useState<File | null>(null);
   const [saving, setSaving] = useState(false);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
   const [error, setError] = useState("");
   const supabase = createClient();
+
+  async function handleDelete(id: string, url: string) {
+    if (!confirm("Bạn có chắc chắn muốn xóa tài liệu PDF này không?")) return;
+    setDeletingId(id);
+    
+    if (url.startsWith("storage:")) {
+      const path = url.replace("storage:lesson-materials/", "");
+      await supabase.storage.from("lesson-materials").remove([path]);
+    }
+    
+    const { error: deleteError } = await supabase.from("lesson_materials").delete().eq("id", id).eq("lesson_id", lessonId);
+    if (deleteError) {
+      alert("Lỗi khi xóa: " + deleteError.message);
+      setDeletingId(null);
+    } else {
+      window.location.reload();
+    }
+  }
 
   async function handleAdd(e: React.FormEvent) {
     e.preventDefault();
@@ -100,7 +119,7 @@ export function PdfMaterialManager({ lessonId, materials }: { lessonId: string; 
                 {m.description && <p style={{ margin: "0 0 8px", fontSize: "13px", color: "var(--text-secondary)" }}>{m.description}</p>}
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
-                {/* PDF actions can be added here if needed */}
+                <button type="button" className="btn danger" disabled={deletingId === m.id} onClick={() => void handleDelete(m.id, m.content_url)}>{deletingId === m.id ? "Đang xóa..." : "Xóa"}</button>
               </div>
             </article>
           ))}

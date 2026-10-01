@@ -23,7 +23,7 @@ export default async function StudentInClassPage({ params }: { params: Promise<{
     ids.length ? supabase.from("lesson_material_progress").select("material_id, watched_seconds, is_complete").eq("student_id", user.id).in("material_id", ids) : Promise.resolve({ data: [] }),
     ids.length ? supabase.from("student_video_checkpoints").select("id, material_id, checkpoint_percent, question, option_a, option_b, option_c, option_d").in("material_id", ids).order("checkpoint_percent") : Promise.resolve({ data: [] }),
     ids.length ? supabase.from("video_checkpoint_attempts").select("checkpoint_id").eq("student_id", user.id).eq("is_correct", true) : Promise.resolve({ data: [] }),
-    supabase.from("student_phase_progress").select("is_completed").eq("lesson_id", lessonId).eq("student_id", user.id).eq("phase", "in_class").maybeSingle(),
+    supabase.from("student_phase_progress").select("is_completed, simulation_completed").eq("lesson_id", lessonId).eq("student_id", user.id).eq("phase", "in_class").maybeSingle(),
   ]);
   
   const progressByMaterial = new Map((progress ?? []).map((item) => [item.material_id, { seconds: Number(item.watched_seconds) || 0, isComplete: item.is_complete }]));
@@ -31,7 +31,15 @@ export default async function StudentInClassPage({ params }: { params: Promise<{
 
   const allVideosCompleted = videos?.every(v => progressByMaterial.get(v.id)?.isComplete) ?? true;
 
-  const { data: finalQs } = await supabase.from("phase_final_questions").select("id, question_text").eq("lesson_id", lessonId).eq("phase", "in_class").order("sort_order");
+  let finalQs = null;
+  const { data: rpcQs, error: rpcErr } = await supabase.rpc("get_student_final_questions", { p_lesson_id: lessonId, p_phase: "in_class" });
+  if (!rpcErr && rpcQs) {
+    finalQs = rpcQs;
+  } else {
+    // RPC unavailable (migration 017 not applied) — do NOT fall back to direct table read.
+    console.error("[in-class] get_student_final_questions RPC failed, not falling back to direct read.", rpcErr?.message);
+    finalQs = null;
+  }
 
   const cleanTitle = lesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "");
 
@@ -73,6 +81,7 @@ export default async function StudentInClassPage({ params }: { params: Promise<{
           finalQs={finalQs ?? []}
           allVideosCompleted={allVideosCompleted}
           phaseCompleted={phaseProgress?.is_completed ?? false}
+          simulationCompleted={phaseProgress?.simulation_completed ?? false}
         />
       </div>
     </PortalShell>

@@ -77,7 +77,12 @@ export function StudentPhaseFinalQuestions({
           </div>
         ))}
 
-        {error && <p style={{ color: "var(--semantic-error)" }}>{error}</p>}
+        {error && (
+          <div style={{ padding: "16px", backgroundColor: error.includes("chưa đúng") ? "#fffbeb" : "var(--bg-surface-elevated)", border: `1px solid ${error.includes("chưa đúng") ? "#f59e0b" : "var(--semantic-error)"}`, borderRadius: "var(--radius-md)", color: error.includes("chưa đúng") ? "#92400e" : "var(--semantic-error)" }}>
+            {error.includes("chưa đúng") ? <strong>Phản hồi học tập: </strong> : null}
+            {error}
+          </div>
+        )}
 
         <div>
           <button type="submit" className="btn primary" disabled={isPending}>

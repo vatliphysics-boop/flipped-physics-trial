@@ -10,50 +10,123 @@ export type FinalQuestion = {
 };
 
 export function PhaseFinalQuestionsManager({ lessonId, phase, questions }: { lessonId: string; phase: "before_class" | "in_class"; questions: FinalQuestion[] }) {
-  const [q1, setQ1] = useState(questions[0]?.question_text || "");
-  const [a1, setA1] = useState(questions[0]?.correct_answer || "");
-  const [q2, setQ2] = useState(questions[1]?.question_text || "");
-  const [a2, setA2] = useState(questions[1]?.correct_answer || "");
+  const [isAdding, setIsAdding] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+  
+  const [qText, setQText] = useState("");
+  const [qAns, setQAns] = useState("");
   const [saving, setSaving] = useState(false);
   const supabase = createClient();
 
-  async function handleSave() {
-    if (!q1 || !a1 || !q2 || !a2) return alert("Phải nhập đầy đủ 2 câu hỏi và đáp án.");
+  function openEdit(q: FinalQuestion) {
+    setQText(q.question_text);
+    setQAns(q.correct_answer);
+    setEditingId(q.id);
+    setIsAdding(false);
+  }
+
+  function resetForm() {
+    setQText("");
+    setQAns("");
+    setEditingId(null);
+    setIsAdding(false);
+  }
+
+  async function handleSave(e: React.FormEvent) {
+    e.preventDefault();
+    if (!qText || !qAns) return alert("Phải nhập đầy đủ câu hỏi và đáp án.");
     setSaving(true);
-    // Delete existing
-    await supabase.from("phase_final_questions").delete().eq("lesson_id", lessonId).eq("phase", phase);
-    // Insert new
-    await supabase.from("phase_final_questions").insert([
-      { lesson_id: lessonId, phase, question_text: q1, correct_answer: a1, sort_order: 1 },
-      { lesson_id: lessonId, phase, question_text: q2, correct_answer: a2, sort_order: 2 }
-    ]);
+    
+    if (editingId) {
+      const { error } = await supabase.from("phase_final_questions").update({
+        question_text: qText,
+        correct_answer: qAns
+      }).eq("id", editingId).eq("lesson_id", lessonId);
+      if (error) alert("Lỗi khi sửa: " + error.message);
+      else window.location.reload();
+    } else {
+      const { error } = await supabase.from("phase_final_questions").insert({
+        lesson_id: lessonId,
+        phase,
+        question_text: qText,
+        correct_answer: qAns,
+        sort_order: questions.length + 1
+      });
+      if (error) alert("Lỗi khi thêm: " + error.message);
+      else window.location.reload();
+    }
     setSaving(false);
-    alert("Đã lưu 2 câu hỏi cuối giai đoạn.");
-    window.location.reload();
+  }
+
+  async function handleDelete(id: string) {
+    if (!confirm("Bạn có chắc chắn muốn xóa câu hỏi này không?")) return;
+    setDeletingId(id);
+    const { error } = await supabase.from("phase_final_questions").delete().eq("id", id).eq("lesson_id", lessonId);
+    if (error) {
+      alert("Lỗi khi xóa: " + error.message);
+      setDeletingId(null);
+    } else {
+      window.location.reload();
+    }
   }
 
   return (
     <section className="card" style={{ marginTop: "24px", padding: "24px", border: "1px solid var(--border-light)" }}>
-      <header style={{ marginBottom: "16px" }}>
-        <h2>Câu hỏi cuối giai đoạn</h2>
-        <p style={{ color: "var(--text-secondary)", fontSize: "14px" }}>Cấu hình chính xác 2 câu hỏi để học sinh làm sau khi hoàn thành học liệu.</p>
+      <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
+        <div>
+          <h2>Câu hỏi cuối giai đoạn</h2>
+          <p style={{ color: "var(--text-secondary)", fontSize: "14px", margin: 0 }}>Cấu hình chính xác 2 câu hỏi để học sinh làm sau khi hoàn thành học liệu.</p>
+        </div>
+        {questions.length < 2 && !isAdding && (
+          <button className="btn primary" onClick={() => setIsAdding(true)}>+ Thêm câu hỏi</button>
+        )}
       </header>
 
-      <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
-        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-          <label style={{ fontWeight: 600 }}>Câu 1</label>
-          <input className="form-input" placeholder="Nội dung câu hỏi" value={q1} onChange={(e) => setQ1(e.target.value)} />
-          <input className="form-input" placeholder="Đáp án đúng" value={a1} onChange={(e) => setA1(e.target.value)} />
+      {questions.length < 2 && (
+        <div style={{ backgroundColor: "#FEF2F2", color: "var(--semantic-danger)", padding: "12px", borderRadius: "var(--radius-sm)", marginBottom: "16px", fontSize: "14px", fontWeight: 500 }}>
+          ⚠️ Còn {questions.length}/2 câu – cần bổ sung trước khi học sinh làm.
         </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-          <label style={{ fontWeight: 600 }}>Câu 2</label>
-          <input className="form-input" placeholder="Nội dung câu hỏi" value={q2} onChange={(e) => setQ2(e.target.value)} />
-          <input className="form-input" placeholder="Đáp án đúng" value={a2} onChange={(e) => setA2(e.target.value)} />
-        </div>
-      </div>
+      )}
 
-      <div style={{ marginTop: "24px", display: "flex", justifyContent: "flex-end" }}>
-        <button className="btn primary" onClick={handleSave} disabled={saving}>{saving ? "Đang lưu..." : "Lưu cấu hình 2 câu"}</button>
+      {isAdding && (
+        <form onSubmit={handleSave} style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "24px", padding: "16px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-md)" }}>
+          <div><label>Nội dung câu hỏi</label><input className="form-input" required value={qText} onChange={(e) => setQText(e.target.value)} /></div>
+          <div><label>Đáp án đúng</label><input className="form-input" required value={qAns} onChange={(e) => setQAns(e.target.value)} /></div>
+          <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
+            <button type="button" className="btn" onClick={resetForm}>Hủy</button>
+            <button type="submit" className="btn primary" disabled={saving}>{saving ? "Đang lưu..." : "Lưu"}</button>
+          </div>
+        </form>
+      )}
+
+      <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+        {questions.map((q, i) => (
+          editingId === q.id ? (
+            <form key={q.id} onSubmit={handleSave} style={{ display: "flex", flexDirection: "column", gap: "12px", padding: "16px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-md)" }}>
+              <div><label>Nội dung câu hỏi</label><input className="form-input" required value={qText} onChange={(e) => setQText(e.target.value)} /></div>
+              <div><label>Đáp án đúng</label><input className="form-input" required value={qAns} onChange={(e) => setQAns(e.target.value)} /></div>
+              <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
+                <button type="button" className="btn" onClick={resetForm}>Hủy</button>
+                <button type="submit" className="btn primary" disabled={saving}>{saving ? "Đang lưu..." : "Lưu thay đổi"}</button>
+              </div>
+            </form>
+          ) : (
+            <div key={q.id} style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", padding: "16px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", backgroundColor: "var(--bg-surface)" }}>
+              <div style={{ flex: 1, paddingRight: "16px" }}>
+                <strong style={{ display: "block", marginBottom: "8px", color: "var(--text-primary)" }}>Câu {i + 1}</strong>
+                <p style={{ margin: "0 0 8px", fontSize: "14px" }}>{q.question_text}</p>
+                <div style={{ fontSize: "13px", color: "var(--text-secondary)" }}>
+                  <span style={{ color: "var(--semantic-success)", fontWeight: 500 }}>ĐÁP ÁN:</span> {q.correct_answer}
+                </div>
+              </div>
+              <div style={{ display: "flex", gap: "8px" }}>
+                <button type="button" className="btn" onClick={() => openEdit(q)}>Sửa</button>
+                <button type="button" className="btn danger" disabled={deletingId === q.id} onClick={() => void handleDelete(q.id)}>{deletingId === q.id ? "Đang xóa..." : "Xóa"}</button>
+              </div>
+            </div>
+          )
+        ))}
       </div>
     </section>
   );
