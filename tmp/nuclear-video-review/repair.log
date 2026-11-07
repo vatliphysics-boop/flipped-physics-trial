@@ -1,0 +1,29 @@
+Repair bundle 6
+Repair bundle 21
+Repair bundle 32
+Repair bundle 43
+Repair bundle 54
+Repair bundle 65
+Repair bundle 70.64
+Repair bundle 75.77
+Repair bundle 80.9
+Repair bundle 87.31
+Repair bundle 92.44
+Repair bundle 98
+Repair bundle 100
+B21 captured frame 779
+B21 captured frame 780
+[AVFilterGraph @ 0x858800000] No such filter: 'overlay'
+Failed to set value '[0:v][1:v]overlay=eof_action=repeat:enable='between(t,25.955000000,25.978333333)+between(t,25.988333333,26.011666667)'[v]' for option 'filter_complex': Filter not found
+Error parsing global options: Filter not found
+file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-video-review/repair-frames.mjs:20
+  child.on("close", code => code === 0 ? resolve(output) : reject(Error(`${file} exited ${code}`)));
+                                                                  ^
+
+Error: /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/compositor-darwin-arm64/ffmpeg exited 8
+    at ChildProcess.<anonymous> (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-video-review/repair-frames.mjs:20:67)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1141:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+Node.js v24.21.0

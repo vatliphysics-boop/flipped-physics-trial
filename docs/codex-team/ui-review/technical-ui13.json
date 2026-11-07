@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-10-05T14:29:31.134705+00:00",
+  "version": "898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2",
+  "tests": {
+    "command": "node --import ./scripts/test-resolver.mjs --experimental-strip-types --test tests/*.test.ts",
+    "exit_code": 0,
+    "passed": 62,
+    "failed": 0,
+    "log": "tests-ui13-candidate.log"
+  },
+  "typecheck": {
+    "command": "npx tsc --noEmit",
+    "exit_code": 0,
+    "log": "tsc-ui13-candidate.log"
+  },
+  "lint": {
+    "command": "npm run lint",
+    "exit_code": 0,
+    "errors": 0,
+    "warnings": 2,
+    "warning_files": [
+      "src/components/PortalShell.tsx:139 ref cleanup",
+      "src/components/learning/StudentPhase3Assessment.tsx:43 existing unused disable"
+    ],
+    "log": "lint-ui13-candidate.log"
+  },
+  "build": {
+    "status": "CHƯA KIỂM bản UI13; chờ browser worker xong để không phá dev"
+  },
+  "test_launch_failure": {
+    "exit_code": 1,
+    "reason": "root chọn --import tsx nhưng package không có; đã dùng resolver thực tế chạy lại đạt, không cài thêm",
+    "log": "tests-ui13-launch-failed.log"
+  },
+  "browser": "Kết quả kỹ thuật không là nghiệm thu giao diện; W2/W3 UI13 đang chạy."
+}

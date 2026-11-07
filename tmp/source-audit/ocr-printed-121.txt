@@ -1,0 +1,55 @@
+CHƯƠNG IV - VẬT LÍ HẠT NHÂN VÀ PHONG XẠ
+Gọi tm là chu kì thay mới nguồn phóng xạ, đó chính là khoảng thời gian khi độ phóng xạ giảm
+đi 50%. Ta có:
+*tm
+Ho-Hum =
+Ho-H,2 T
+, → m = Tlog, (~0
+50
+- = —
+)= I = 5,3 nam
+100
+Vậy lịch bảo dưỡng của máy xạ trị là sau mỗi 6 tháng và lịch thay thế nguồn phóng xạ là sau
+mỗi 5,3 năm.
+III. BÀI TẬP VẬN DỤNG
+1. Lực nào đã làm thay đổi phương của hạt alpha (¿He ) khi được bắn vào lá vàng mỏng?
+A. Lực hạt nhân giúp hạt nhân 79 Au đấy (He.
+B. Lực hạt nhân giúp hạt nhân 19 Au hút He.
+C. Lực đẩy tĩnh điện giữa hạt nhân 19 Au và {He.
+D. Lực hút tĩnh điện giữa các electron của phân tử vàng và He.
+2. Người ta đo độ phóng xạ H của một đồng vị theo thời gian t và điền kết quả vào Bảng 25.1.
+a) Vẽ đồ thị độ phóng xạ theo thời gian.
+b) Ước lượng chu kì bán rã của đồng vị này.
+Bảng 25.1. Độ phóng xạ theo thời gian
+120
+30
+60
+t(s)
+0
+55
+85
+31
+151
+H (Bq)
+240
+300
+360
+t(s)
+180
+9
+15
+11
+H (Bq)
+22
+3. Dùng máy đo phóng xạ của một mẫu gỗ của một cổ vật phát hiện được 240 phóng xạ mỗi
+phút. Biết rằng thành phần của mẫu gỗ có chứa 25 g !'C và !? C, chu kì bán rã của !! C
+là 5 730 năm và tỉ lệ nguyên tử C và , C khi một sinh vật còn sống 1012:1.
+a) Xác định số nguyên tử ! C có trong mẫu gỗ.
+b) Xác định độ tuổi của mẫu gỗ này.
+4. Một nhà máy điện hạt nhân sử dụng nguyên liệu hạt nhân là 23 U. Biết rằng mỗi phân hạch
+sẽ toả năng lượng 200 MeV. Hiệu suất phát điện của nhà máy là 36%. Công suất phát điện
+của nhà máy là 1 400 MW.
+a) Hãy tính khối lượng của nguyên liệu 235U nhà máy tiêu thụ trong 1 năm.
+b) Tính lượng than đá tiêu thụ để sản xuất ra năng lượng điện tương đương, biết rằng
+năng suất tỏả nhiệt của than đá là 30 MJ/kg.
+121

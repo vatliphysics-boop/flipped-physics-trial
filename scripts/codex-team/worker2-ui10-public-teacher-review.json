@@ -1,0 +1,18 @@
+{
+  "timeout_seconds": 1200,
+  "browser_mcp": true,
+  "previous_runs": [
+    "worker2-ui9-smoke-b25"
+  ],
+  "context_files": [
+    "docs/codex-team/ui-review/TEAM_HANDOFF.md",
+    "docs/codex-team/ui-review/coverage.md",
+    "docs/codex-team/USER_GUIDE.md",
+    "docs/codex-team/ui-review/coverage.json"
+  ],
+  "id": "worker2-ui10-public-teacher-review",
+  "worker": 2,
+  "mode": "review",
+  "allowed_files": [],
+  "task": "Ràsoát thực tế góc nhìnGV/HS lần đầu 6 nhóm route: / (home), /demo-lesson, /login,/register (chỉvalidationnative, khôngsubmitvaliddata/DB), /hoc-lieu/lop-hoc-dao-nguoc (4 cách tổ chức, chuyểnbài, soạnkếhoạch link), /hoc-lieu/ai-giao-vien (các tab thực tế: tìmchọn họcliệu, soạnphiếu/đề/ma trận/chuẩn bị nếuhỗtrợ). Khôngtựcho toàn websiteđạt. Root/UI-0002 đã sửahomeB21mislabel→B23 khớpđích; UI-0003 đãsửaSVGsaiZ=N+P→N=A−Z; xemảnhrootbeforevàafter mới, đốichiếu thực tế. W3 đangsửaUI0001/0004 filekháckhôngdùnglượtnàyđóngpin/authchođếnbảnsau. Mởtừngrouteở1440x900 và390x844, chụpảnhbaoquát vàMỞẢNHxem; mỗi ảnhroute/state/size/version. Viewport768x1024 cho côngcụphức tạp;360 kiểmheader/nút/bảng. Tab/focus vàmenuEsc; nộidung dài/phieutrống/errors khiđãcó chức năng. Dùng dữliệu giảvàbảnnháp browser, ghiđúng; khônglogin/crearuser/DB/env hayaccesssecrets. Giáoviênphảichỉnh/hướngdẫnvàtổchức được, khôngxóakhả năngtạo/chỉnh/bổsung. MỗiissueUI-xxxx (bắtđầutừUI-0100 tránhrootids) severityroute/role/state/size/steps/before/effect/source/expected/acceptance. Nếunohub/wizard/tab chưađủ thời gian ghiCHƯAKIỂM; viếtreportdraft sau mỗi nhóm vàfinal trước20phút; khôngtrôi sang17sim/videos/AIrequestsfull. Báocáobảngcoveragecathậtphânbiệtbaseline/liveHMR; đây làreviewmở rộng chưalượt nghiệmthu cuối. Không đọc code thayảnh; ĐÃMỞẢNH cầnfilelist rõ."
+}

@@ -1,0 +1,41 @@
+
+> flipped-physics@0.1.0 build
+> next build
+
+▲ Next.js 16.3.5 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 133ms
+
+  Creating an optimized production build ...
+node(34972) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+✓ Compiled successfully in 7.6s
+  Running TypeScript ...
+docs/codex-team/runs/worker3-round7-video-retest-fix/backup/src/lib/visual-learning.ts(1,43): error TS2307: Cannot find module './curriculum' or its corresponding type declarations.
+Failed to type check.
+
+Turbopack build encountered 1 warning:
+./src/lib/book-bank-server.ts:6:31
+Warning: Dynamic filesystem access causes tracing of the whole project
+  [90m4 |[0m ...acher } [36mfrom[0m [32m"./ai-teacher-auth"[0m;
+  [90m5 |[0m ...[33mookBankIndex[0m } [36mfrom[0m [32m"./book-bank"[0m;
+[33m[1m>[0m [90m6 |[0m ...[33mOK_BANK_ROOT[0m = path.resolve(process.env.[33mBOOK_BANK_DIR[0m || [32m"data/book-bank"[0m);
+  [90m  |[0m                   [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m ...[36mnction[0m canReadBookBank(request: [33mRequest[0m) {
+  [90m8 |[0m ...[36mnew[0m [33mURL[0m(request.url).hostname;
+  [90m9 |[0m ...nv.[33mNODE_ENV[0m === [32m"development"[0m && [[32m"localhost"[0m, [32m"127.0.0.1"[0m, [32m"[::1]"[0m].includes(host)) [36mret...[0m
+
+Static analysis determined that this filesystem access causes the whole project to be traced and included in the output.
+This is usually unintentional and leads to all source files (including the public folder) to be deployed as part of the server code.
+This can slow down deployments or lead to failures when size limits are exceeded.
+To resolve this, you can
+- make sure the path is statically scoped to some subfolder, for example path.join(process.cwd(), 'data', bar), or
+- only use them in development, or
+- opt out by adding an ignore comment to the highlighted call: path.resolve(/*turbopackIgnore: true*/ ...), or
+- remove them.
+
+Import trace:
+  App Route:
+    ./src/lib/book-bank-server.ts
+    ./src/app/api/word-download/route.ts
+
+

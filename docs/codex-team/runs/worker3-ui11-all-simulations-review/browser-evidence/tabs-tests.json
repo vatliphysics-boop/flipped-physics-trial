@@ -1,0 +1,529 @@
+[
+  {
+    "id": "system-sim-nuclear-fission",
+    "w": 1440,
+    "states": [
+      {
+        "action": "k = 0,6",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1\nk = 1,4\nThế hệ 0\n1.00\nThế hệ 1\n0.60\nThế hệ 2\n0.36\nThế hệ 3\n0.22\nThế hệ 4\n0.13\nThế hệ 5\n0.08\n\nk < 1: phản ứng giảm theo thế hệ. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "k = 1",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1 ✓\nk = 1,4\nThế hệ 0\n1.00\nThế hệ 1\n1.00\nThế hệ 2\n1.00\nThế hệ 3\n1.00\nThế hệ 4\n1.00\nThế hệ 5\n1.00\n\nk = 1: phản ứng duy trì trong mô hình. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "k = 1,4",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1 ✓\nk = 1,4 ✓\nThế hệ 0\n1.00\nThế hệ 1\n1.40\nThế hệ 2\n1.96\nThế hệ 3\n2.74\nThế hệ 4\n3.84\nThế hệ 5\n5.38\n\nk > 1: phản ứng tăng theo thế hệ. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "prediction3 feedback",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1 ✓\nk = 1,4 ✓\nThế hệ 0\n1.00\nThế hệ 1\n1.40\nThế hệ 2\n1.96\nThế hệ 3\n2.74\nThế hệ 4\n3.84\nThế hệ 5\n5.38\n\nk > 1: phản ứng tăng theo thế hệ. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nĐã chọn một nhận định. Nhấn Kiểm tra nhận định để xem giải thích; có thể đổi lựa chọn và thử lại.\n\nKiểm tra nhận định\nChính xác. Phản ứng tiếp theo phụ thuộc neutron gặp hạt nhân phù hợp và không bị mất do thoát ra/hấp thụ. Số neutron sinh ra khác số neutron thực sự duy trì dây chuyền.\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      }
+    ]
+  },
+  {
+    "id": "system-sim-nuclear-fission",
+    "w": 390,
+    "states": [
+      {
+        "action": "k = 0,6",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1\nk = 1,4\nThế hệ 0\n1.00\nThế hệ 1\n0.60\nThế hệ 2\n0.36\nThế hệ 3\n0.22\nThế hệ 4\n0.13\nThế hệ 5\n0.08\n\nk < 1: phản ứng giảm theo thế hệ. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "k = 1",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1 ✓\nk = 1,4\nThế hệ 0\n1.00\nThế hệ 1\n1.00\nThế hệ 2\n1.00\nThế hệ 3\n1.00\nThế hệ 4\n1.00\nThế hệ 5\n1.00\n\nk = 1: phản ứng duy trì trong mô hình. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "k = 1,4",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1 ✓\nk = 1,4 ✓\nThế hệ 0\n1.00\nThế hệ 1\n1.40\nThế hệ 2\n1.96\nThế hệ 3\n2.74\nThế hệ 4\n3.84\nThế hệ 5\n5.38\n\nk > 1: phản ứng tăng theo thế hệ. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "prediction3 feedback",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\n¹n + ²³⁵U\n\nMột phản ứng, bốn bước quan sát.\nMỗi quả cầu biểu diễn một nucleon.\n\nBắt đầu thí nghiệm 3D\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\n\nĐúng: 3 neutron. Tổng số neutron ở sản phẩm là 56 + 85 + 3 = 144.\n\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\n\nChọn cả ba điều kiện và đối chiếu số phản ứng kì vọng theo thế hệ. k ở đây là hệ số nhân hiệu dụng; khác số neutron sinh ra trong một phân hạch.\n\nk = 0,6 ✓\nk = 1 ✓\nk = 1,4 ✓\nThế hệ 0\n1.00\nThế hệ 1\n1.40\nThế hệ 2\n1.96\nThế hệ 3\n2.74\nThế hệ 4\n3.84\nThế hệ 5\n5.38\n\nk > 1: phản ứng tăng theo thế hệ. Đây là mô hình k không đổi; riêng k > 1 không đủ để kết luận có vụ nổ.\n\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nĐã chọn một nhận định. Nhấn Kiểm tra nhận định để xem giải thích; có thể đổi lựa chọn và thử lại.\n\nKiểm tra nhận định\nChính xác. Phản ứng tiếp theo phụ thuộc neutron gặp hạt nhân phù hợp và không bị mất do thoát ra/hấp thụ. Số neutron sinh ra khác số neutron thực sự duy trì dây chuyền.\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "0",
+            "placeholder": "",
+            "label": "Xem lại thời điểm · 0.0 / 8 s mô hình"
+          },
+          {
+            "type": "number",
+            "value": "3",
+            "placeholder": "Nhập số neutron",
+            "label": "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Mọi neutron đều bắt buộc gây phân hạch ngay."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Neutron biến thành electron ngay sau phản ứng."
+          }
+        ],
+        "scroll": []
+      }
+    ]
+  },
+  {
+    "id": "system-sim-practice-lab",
+    "w": 1440,
+    "states": [
+      {
+        "action": "📊 Đồ thị H(t) – Bảng 25.1",
+        "text": "Không gian thí nghiệm 3D\nSẵn sàng · 0.0 s mô hình\n\nNhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.\n\nBắt đầu thí nghiệm 3D\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nN₀ = 64 · t/T = 0.00 · N kì vọng ≈ 64\n\nT giả thuyết (giây mô hình): 5\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Quan sát nguồn và đầu thu; đối chiếu số hạt chưa phân rã với đồ thị H(t) ở bảng phân tích bên dưới. Dữ liệu 3D là minh họa, tách biệt bảng SGK. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nPhòng thí nghiệm luyện tập vật lí hạt nhân – Bài 25 (SGK trang 119–122). Ba hoạt động: phân tích đồ thị Bảng 25.1, cân bằng phương trình, tính năng lượng liên kết.\n\n📝 Chu trình thực hành:\n\nĐồ thị: Khớp đường lí thuyết với Bảng 25.1 để ước lượng T.\nPhương trình: Giải đúng ít nhất 2 bài cân bằng phản ứng.\nNăng lượng: Tính Elk cho ít nhất 3 hạt nhân và trả lời câu hỏi.\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTiêu chí hoàn thành tổng:\n\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nPhân tích đồ thị H(t) từ Bảng 25.1 SGK (trang 121). Vẽ đường cong lí thuyết H = H₀ × 2^(−t/T) và điều chỉnh T để khớp với dữ liệu.\n\nT ước lượng của em 62 s\nHiện đường lí thuyết H = 151 × 2^(−t/T)\n0\n0\n40\n90\n80\n180\n120\n270\n160\n360\nĐộ phóng xạ H (Bq)\nThời gian t (giây)\nDữ liệu Bảng 25.1 SGK (điểm thực nghiệm) (điểm, nét đứt)\nt (s)\t0\t30\t60\t120\t180\t240\t300\t360\nH (Bq) – SGK\t151\t85\t55\t31\t22\t15\t11\t9\nT EM CHỌN\n62 s\nΛ = LN2/T\n0.0112 s⁻¹\nH₀/2 = 75,5 BQ → T NẰM TRONG KHOẢNG\n30–60 giây (từ bảng SGK)\nKhi T = 52s, H(30s) lí thuyết ≈ 88 Bq. Giá trị thực tế trong Bảng 25.1 SGK là 85 Bq. Sai số này nói lên điều gì?\nBảng 25.1 SGK có số liệu sai.\nSai khác có thể liên quan đến sai số đo, tính ngẫu nhiên của phân rã và giới hạn của mô hình; cần xem xét cách đo.\nChu kì bán rã thay đổi theo thời gian.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nH₀ = 151 Bq → H₀/2 ≈ 75,5 Bq. Nhìn bảng: H(30s) = 85 > 75,5 và H(60s) = 55 < 75,5, nên T nằm trong khoảng 30–60 giây.\n\nBảng H(t) được trích từ Bảng 25.1 SGK. Khối lượng nguyên tử dùng bảng OpenStax; các giá trị tính và đường cong được tạo từ công thức ghi trong từng hoạt động. Em tính trước rồi kiểm tra kết quả.\n\nHỏi AI về bài B25 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "5",
+            "placeholder": "",
+            "label": "T giả thuyết (giây mô hình): 5"
+          },
+          {
+            "type": "range",
+            "value": "62",
+            "placeholder": "",
+            "label": "T ước lượng của em 62 s"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Bảng 25.1 SGK có số liệu sai."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Sai khác có thể liên quan đến sai số đo, tính ngẫu nhiên của phân rã và giới hạn của mô hình; cần xem xét cách đo."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Chu kì bán rã thay đổi theo thời gian."
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "⚗️ Cân bằng phương trình",
+        "text": "Không gian thí nghiệm 3D\nSẵn sàng · 0.0 s mô hình\n\nNhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.\n\nBắt đầu thí nghiệm 3D\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nN₀ = 64 · t/T = 0.00 · N kì vọng ≈ 64\n\nT giả thuyết (giây mô hình): 6\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Quan sát nguồn và đầu thu; đối chiếu số hạt chưa phân rã với đồ thị H(t) ở bảng phân tích bên dưới. Dữ liệu 3D là minh họa, tách biệt bảng SGK. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nPhòng thí nghiệm luyện tập vật lí hạt nhân – Bài 25 (SGK trang 119–122). Ba hoạt động: phân tích đồ thị Bảng 25.1, cân bằng phương trình, tính năng lượng liên kết.\n\n📝 Chu trình thực hành:\n\nĐồ thị: Khớp đường lí thuyết với Bảng 25.1 để ước lượng T.\nPhương trình: Giải đúng ít nhất 2 bài cân bằng phản ứng.\nNăng lượng: Tính Elk cho ít nhất 3 hạt nhân và trả lời câu hỏi.\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTiêu chí hoàn thành tổng:\n\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nLuyện tập viết và cân bằng phương trình phân rã phóng xạ theo định luật bảo toàn A và Z. Điền A và Z của hạt nhân con.\n\nPhân rã α\nPhân rã β⁻\nPhân rã β⁺\nHạt nhân mẹ A\nHạt nhân mẹ Z\n1\n1\nH\n→\n1\n1\nH\n+\n⁴₂He\nKiểm tra\nXem đáp án\n\nBảo toàn: Tổng A trước = Tổng A sau. Tổng Z trước = Tổng Z sau. Giải đúng ít nhất 2 bài để hoàn thành.\n\nBảng H(t) được trích từ Bảng 25.1 SGK. Khối lượng nguyên tử dùng bảng OpenStax; các giá trị tính và đường cong được tạo từ công thức ghi trong từng hoạt động. Em tính trước rồi kiểm tra kết quả.\n\nHỏi AI về bài B25 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "6",
+            "placeholder": "",
+            "label": "T giả thuyết (giây mô hình): 6"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "",
+            "label": "Hạt nhân mẹ A"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "",
+            "label": "Hạt nhân mẹ Z"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "A"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "Z"
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "⚡ Tính Δm và Elk",
+        "text": "Không gian thí nghiệm 3D\nSẵn sàng · 0.0 s mô hình\n\nNhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.\n\nBắt đầu thí nghiệm 3D\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nN₀ = 64 · t/T = 0.00 · N kì vọng ≈ 64\n\nT giả thuyết (giây mô hình): 7\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Quan sát nguồn và đầu thu; đối chiếu số hạt chưa phân rã với đồ thị H(t) ở bảng phân tích bên dưới. Dữ liệu 3D là minh họa, tách biệt bảng SGK. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nPhòng thí nghiệm luyện tập vật lí hạt nhân – Bài 25 (SGK trang 119–122). Ba hoạt động: phân tích đồ thị Bảng 25.1, cân bằng phương trình, tính năng lượng liên kết.\n\n📝 Chu trình thực hành:\n\nĐồ thị: Khớp đường lí thuyết với Bảng 25.1 để ước lượng T.\nPhương trình: Giải đúng ít nhất 2 bài cân bằng phản ứng.\nNăng lượng: Tính Elk cho ít nhất 3 hạt nhân và trả lời câu hỏi.\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTiêu chí hoàn thành tổng:\n\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTính độ hụt khối Δm và năng lượng liên kết Elk từng bước theo công thức SGK. Xem ít nhất 3 hạt nhân.\n\n⁴He ✓\n¹²C\n¹⁶O\n⁵⁶Fe\n²³⁵U\n\nTính từng bước – Helium-4 (⁴He):\n\nZ = 2; N = A − Z = 2; A = 4\n\nKhối lượng các nguyên tử ¹H và neutron tự do: Z·m(¹H) + N·mn = 2×1.007825 + 2×1.008665\n\n= 4.032980 u\n\nKhối lượng nguyên tử trung hòa m = 4.002603 u\n\nĐộ hụt khối: Δm = 4.032980 − 4.002603 = 0.030377 u\n\nNăng lượng liên kết: Elk = 0.030377 × 931.5 ≈ 28.3 MeV\n\nNăng lượng liên kết riêng: Elkr = 28.3 / 4 ≈ 7.07 MeV/nucleon\n\nCác bước khối lượng hiển thị 6 chữ số thập phân. Phép tính giữ đủ độ chính xác trong bộ nhớ; chỉ làm tròn kết quả hiển thị.\n\nΔM (ĐỘ HỤT KHỐI)\n0.030377 u\nELK (NĂNG LƯỢNG LIÊN KẾT)\n28.3 MeV\nELKR (LIÊN KẾT RIÊNG)\n7.07 MeV/nucleon\n\nNguồn khối lượng và quy ước tính: OpenStax, bảng khối lượng nguyên tử ↗ · Công thức năng lượng liên kết ↗.\n\nHạt nhân ⁵⁶Fe có Elkr ≈ 8,79 MeV/nu và ²³⁵U có Elkr ≈ 7,59 MeV/nu. Khi U phân hạch tạo mảnh A ~100–140, năng lượng được tỏa ra hay hấp thụ?\nHấp thụ, vì U-235 nặng hơn các mảnh.\nTỏa ra, vì các mảnh có Elkr cao hơn U-235 – hệ chuyển đến trạng thái bền hơn.\nKhông thay đổi vì bảo toàn năng lượng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nDùng khối lượng nguyên tử trung hòa: Δm = Z·m(¹H) + N·mn − m(nguyên tử). m(¹H) = 1,007825 u; mn = 1,008665 u; 1u = 931,5 MeV/c². Bỏ qua năng lượng liên kết electron.\n\nBảng H(t) được trích từ Bảng 25.1 SGK. Khối lượng nguyên tử dùng bảng OpenStax; các giá trị tính và đường cong được tạo từ công thức ghi trong từng hoạt động. Em tính trước rồi kiểm tra kết quả.\n\nHỏi AI về bài B25 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "7",
+            "placeholder": "",
+            "label": "T giả thuyết (giây mô hình): 7"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Hấp thụ, vì U-235 nặng hơn các mảnh."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Tỏa ra, vì các mảnh có Elkr cao hơn U-235 – hệ chuyển đến trạng thái bền hơn."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Không thay đổi vì bảo toàn năng lượng."
+          }
+        ],
+        "scroll": []
+      }
+    ]
+  },
+  {
+    "id": "system-sim-practice-lab",
+    "w": 390,
+    "states": [
+      {
+        "action": "📊 Đồ thị H(t) – Bảng 25.1",
+        "text": "Đang tải không gian 3D…\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nPhòng thí nghiệm luyện tập vật lí hạt nhân – Bài 25 (SGK trang 119–122). Ba hoạt động: phân tích đồ thị Bảng 25.1, cân bằng phương trình, tính năng lượng liên kết.\n\n📝 Chu trình thực hành:\n\nĐồ thị: Khớp đường lí thuyết với Bảng 25.1 để ước lượng T.\nPhương trình: Giải đúng ít nhất 2 bài cân bằng phản ứng.\nNăng lượng: Tính Elk cho ít nhất 3 hạt nhân và trả lời câu hỏi.\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTiêu chí hoàn thành tổng:\n\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nPhân tích đồ thị H(t) từ Bảng 25.1 SGK (trang 121). Vẽ đường cong lí thuyết H = H₀ × 2^(−t/T) và điều chỉnh T để khớp với dữ liệu.\n\nT ước lượng của em 62 s\nHiện đường lí thuyết H = 151 × 2^(−t/T)\n0\n0\n40\n90\n80\n180\n120\n270\n160\n360\nĐộ phóng xạ H (Bq)\nThời gian t (giây)\nDữ liệu Bảng 25.1 SGK (điểm thực nghiệm) (điểm, nét đứt)\nt (s)\t0\t30\t60\t120\t180\t240\t300\t360\nH (Bq) – SGK\t151\t85\t55\t31\t22\t15\t11\t9\nT EM CHỌN\n62 s\nΛ = LN2/T\n0.0112 s⁻¹\nH₀/2 = 75,5 BQ → T NẰM TRONG KHOẢNG\n30–60 giây (từ bảng SGK)\nKhi T = 52s, H(30s) lí thuyết ≈ 88 Bq. Giá trị thực tế trong Bảng 25.1 SGK là 85 Bq. Sai số này nói lên điều gì?\nBảng 25.1 SGK có số liệu sai.\nSai khác có thể liên quan đến sai số đo, tính ngẫu nhiên của phân rã và giới hạn của mô hình; cần xem xét cách đo.\nChu kì bán rã thay đổi theo thời gian.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nH₀ = 151 Bq → H₀/2 ≈ 75,5 Bq. Nhìn bảng: H(30s) = 85 > 75,5 và H(60s) = 55 < 75,5, nên T nằm trong khoảng 30–60 giây.\n\nBảng H(t) được trích từ Bảng 25.1 SGK. Khối lượng nguyên tử dùng bảng OpenStax; các giá trị tính và đường cong được tạo từ công thức ghi trong từng hoạt động. Em tính trước rồi kiểm tra kết quả.\n\nHỏi AI về bài B25 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "62",
+            "placeholder": "",
+            "label": "T ước lượng của em 62 s"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Bảng 25.1 SGK có số liệu sai."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Sai khác có thể liên quan đến sai số đo, tính ngẫu nhiên của phân rã và giới hạn của mô hình; cần xem xét cách đo."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Chu kì bán rã thay đổi theo thời gian."
+          }
+        ],
+        "scroll": [
+          {
+            "cls": "",
+            "w": 300,
+            "sw": 378,
+            "overflow": "auto"
+          }
+        ]
+      },
+      {
+        "action": "⚗️ Cân bằng phương trình",
+        "text": "Không gian thí nghiệm 3D\nSẵn sàng · 0.0 s mô hình\n\nNhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.\n\nBắt đầu thí nghiệm 3D\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nN₀ = 64 · t/T = 0.00 · N kì vọng ≈ 64\n\nT giả thuyết (giây mô hình): 5\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Quan sát nguồn và đầu thu; đối chiếu số hạt chưa phân rã với đồ thị H(t) ở bảng phân tích bên dưới. Dữ liệu 3D là minh họa, tách biệt bảng SGK. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nPhòng thí nghiệm luyện tập vật lí hạt nhân – Bài 25 (SGK trang 119–122). Ba hoạt động: phân tích đồ thị Bảng 25.1, cân bằng phương trình, tính năng lượng liên kết.\n\n📝 Chu trình thực hành:\n\nĐồ thị: Khớp đường lí thuyết với Bảng 25.1 để ước lượng T.\nPhương trình: Giải đúng ít nhất 2 bài cân bằng phản ứng.\nNăng lượng: Tính Elk cho ít nhất 3 hạt nhân và trả lời câu hỏi.\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTiêu chí hoàn thành tổng:\n\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nLuyện tập viết và cân bằng phương trình phân rã phóng xạ theo định luật bảo toàn A và Z. Điền A và Z của hạt nhân con.\n\nPhân rã α\nPhân rã β⁻\nPhân rã β⁺\nHạt nhân mẹ A\nHạt nhân mẹ Z\n1\n1\nH\n→\n1\n1\nH\n+\n⁴₂He\nKiểm tra\nXem đáp án\n\nBảo toàn: Tổng A trước = Tổng A sau. Tổng Z trước = Tổng Z sau. Giải đúng ít nhất 2 bài để hoàn thành.\n\nBảng H(t) được trích từ Bảng 25.1 SGK. Khối lượng nguyên tử dùng bảng OpenStax; các giá trị tính và đường cong được tạo từ công thức ghi trong từng hoạt động. Em tính trước rồi kiểm tra kết quả.\n\nHỏi AI về bài B25 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "5",
+            "placeholder": "",
+            "label": "T giả thuyết (giây mô hình): 5"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "",
+            "label": "Hạt nhân mẹ A"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "",
+            "label": "Hạt nhân mẹ Z"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "A"
+          },
+          {
+            "type": "number",
+            "value": "1",
+            "placeholder": "Z"
+          }
+        ],
+        "scroll": []
+      },
+      {
+        "action": "⚡ Tính Δm và Elk",
+        "text": "Không gian thí nghiệm 3D\nSẵn sàng · 0.0 s mô hình\n\nNhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.\n\nBắt đầu thí nghiệm 3D\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nN₀ = 64 · t/T = 0.00 · N kì vọng ≈ 64\n\nT giả thuyết (giây mô hình): 6\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Quan sát nguồn và đầu thu; đối chiếu số hạt chưa phân rã với đồ thị H(t) ở bảng phân tích bên dưới. Dữ liệu 3D là minh họa, tách biệt bảng SGK. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nPhòng thí nghiệm luyện tập vật lí hạt nhân – Bài 25 (SGK trang 119–122). Ba hoạt động: phân tích đồ thị Bảng 25.1, cân bằng phương trình, tính năng lượng liên kết.\n\n📝 Chu trình thực hành:\n\nĐồ thị: Khớp đường lí thuyết với Bảng 25.1 để ước lượng T.\nPhương trình: Giải đúng ít nhất 2 bài cân bằng phản ứng.\nNăng lượng: Tính Elk cho ít nhất 3 hạt nhân và trả lời câu hỏi.\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTiêu chí hoàn thành tổng:\n\n📊 Đồ thị H(t) – Bảng 25.1\n⚗️ Cân bằng phương trình\n⚡ Tính Δm và Elk\n\nTính độ hụt khối Δm và năng lượng liên kết Elk từng bước theo công thức SGK. Xem ít nhất 3 hạt nhân.\n\n⁴He ✓\n¹²C\n¹⁶O\n⁵⁶Fe\n²³⁵U\n\nTính từng bước – Helium-4 (⁴He):\n\nZ = 2; N = A − Z = 2; A = 4\n\nKhối lượng các nguyên tử ¹H và neutron tự do: Z·m(¹H) + N·mn = 2×1.007825 + 2×1.008665\n\n= 4.032980 u\n\nKhối lượng nguyên tử trung hòa m = 4.002603 u\n\nĐộ hụt khối: Δm = 4.032980 − 4.002603 = 0.030377 u\n\nNăng lượng liên kết: Elk = 0.030377 × 931.5 ≈ 28.3 MeV\n\nNăng lượng liên kết riêng: Elkr = 28.3 / 4 ≈ 7.07 MeV/nucleon\n\nCác bước khối lượng hiển thị 6 chữ số thập phân. Phép tính giữ đủ độ chính xác trong bộ nhớ; chỉ làm tròn kết quả hiển thị.\n\nΔM (ĐỘ HỤT KHỐI)\n0.030377 u\nELK (NĂNG LƯỢNG LIÊN KẾT)\n28.3 MeV\nELKR (LIÊN KẾT RIÊNG)\n7.07 MeV/nucleon\n\nNguồn khối lượng và quy ước tính: OpenStax, bảng khối lượng nguyên tử ↗ · Công thức năng lượng liên kết ↗.\n\nHạt nhân ⁵⁶Fe có Elkr ≈ 8,79 MeV/nu và ²³⁵U có Elkr ≈ 7,59 MeV/nu. Khi U phân hạch tạo mảnh A ~100–140, năng lượng được tỏa ra hay hấp thụ?\nHấp thụ, vì U-235 nặng hơn các mảnh.\nTỏa ra, vì các mảnh có Elkr cao hơn U-235 – hệ chuyển đến trạng thái bền hơn.\nKhông thay đổi vì bảo toàn năng lượng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nDùng khối lượng nguyên tử trung hòa: Δm = Z·m(¹H) + N·mn − m(nguyên tử). m(¹H) = 1,007825 u; mn = 1,008665 u; 1u = 931,5 MeV/c². Bỏ qua năng lượng liên kết electron.\n\nBảng H(t) được trích từ Bảng 25.1 SGK. Khối lượng nguyên tử dùng bảng OpenStax; các giá trị tính và đường cong được tạo từ công thức ghi trong từng hoạt động. Em tính trước rồi kiểm tra kết quả.\n\nHỏi AI về bài B25 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "inputs": [
+          {
+            "type": "range",
+            "value": "6",
+            "placeholder": "",
+            "label": "T giả thuyết (giây mô hình): 6"
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Hấp thụ, vì U-235 nặng hơn các mảnh."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Tỏa ra, vì các mảnh có Elkr cao hơn U-235 – hệ chuyển đến trạng thái bền hơn."
+          },
+          {
+            "type": "radio",
+            "value": "on",
+            "placeholder": "",
+            "label": "Không thay đổi vì bảo toàn năng lượng."
+          }
+        ],
+        "scroll": []
+      }
+    ]
+  }
+]

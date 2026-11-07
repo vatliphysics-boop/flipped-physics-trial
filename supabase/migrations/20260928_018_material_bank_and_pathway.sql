@@ -52,6 +52,30 @@ with check (
   and not is_system
 );
 
+-- ============================================================
+-- 2. Lesson Pathway Steps
+-- ============================================================
+create table if not exists public.lesson_pathway_steps (
+  id uuid primary key default gen_random_uuid(),
+  lesson_id uuid not null references public.lessons(id) on delete cascade,
+  phase text not null check (phase in ('before_class', 'in_class', 'after_class')),
+  material_id uuid references public.material_bank(id) on delete set null,
+  title text not null,
+  instructions text default '',
+  step_order integer not null default 0,
+  is_required boolean not null default true,
+  is_published boolean not null default false,  -- ← mới: trạng thái nháp/xuất bản
+  step_type text not null check (
+    step_type in ('image', 'animation', 'real_video', 'lecture_video', 'simulation',
+                  'document', 'colab', 'checkpoint', 'exercise', 'reflection')
+  ),
+  config jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+alter table public.lesson_pathway_steps enable row level security;
+
 -- Students can read ONLY:
 --   a) system materials (is_system = true), OR
 --   b) published materials that are referenced by a PUBLISHED step in a PUBLISHED lesson
@@ -77,29 +101,6 @@ using (
   )
 );
 
--- ============================================================
--- 2. Lesson Pathway Steps
--- ============================================================
-create table if not exists public.lesson_pathway_steps (
-  id uuid primary key default gen_random_uuid(),
-  lesson_id uuid not null references public.lessons(id) on delete cascade,
-  phase text not null check (phase in ('before_class', 'in_class', 'after_class')),
-  material_id uuid references public.material_bank(id) on delete set null,
-  title text not null,
-  instructions text default '',
-  step_order integer not null default 0,
-  is_required boolean not null default true,
-  is_published boolean not null default false,  -- ← mới: trạng thái nháp/xuất bản
-  step_type text not null check (
-    step_type in ('image', 'animation', 'real_video', 'lecture_video', 'simulation',
-                  'document', 'colab', 'checkpoint', 'exercise', 'reflection')
-  ),
-  config jsonb not null default '{}'::jsonb,
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
-);
-
-alter table public.lesson_pathway_steps enable row level security;
 
 -- Teachers manage steps for their own lessons.
 create policy "steps_teacher_manage" on public.lesson_pathway_steps

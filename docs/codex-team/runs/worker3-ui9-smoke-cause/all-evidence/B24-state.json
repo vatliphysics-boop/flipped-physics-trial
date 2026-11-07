@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-05T11:56:20.020Z",
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+  "viewport": [
+    1440,
+    900
+  ],
+  "image": {
+    "x": 325,
+    "y": 293.078125,
+    "width": 1040,
+    "height": 606.65625,
+    "top": 293.078125,
+    "right": 1365,
+    "bottom": 899.734375,
+    "left": 325
+  },
+  "pins": [
+    {
+      "label": "Điểm 1: Phân hạch → nhiệt",
+      "pressed": "true",
+      "rect": {
+        "x": 484.796875,
+        "y": 512.671875,
+        "width": 34,
+        "height": 34,
+        "top": 512.671875,
+        "right": 518.796875,
+        "bottom": 546.671875,
+        "left": 484.796875
+      }
+    },
+    {
+      "label": "Điểm 2: Trao đổi nhiệt",
+      "pressed": "false",
+      "rect": {
+        "x": 776,
+        "y": 470.203125,
+        "width": 34,
+        "height": 34,
+        "top": 470.203125,
+        "right": 810,
+        "bottom": 504.203125,
+        "left": 776
+      }
+    },
+    {
+      "label": "Điểm 3: Cơ năng → điện",
+      "pressed": "false",
+      "rect": {
+        "x": 1108.796875,
+        "y": 494.46875,
+        "width": 34,
+        "height": 34,
+        "top": 494.46875,
+        "right": 1142.796875,
+        "bottom": 528.46875,
+        "left": 1108.796875
+      }
+    }
+  ]
+}

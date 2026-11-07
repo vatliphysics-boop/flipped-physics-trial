@@ -1,0 +1,1 @@
+Chỉnh bản bài báo hiện có, giữ cấu trúc và kiểu chữ. Bổ sung mục AI cục bộ, Hình 11 là ảnh web thật, nguồn Ollama vào APA/RIS/BibTeX/CSL. Phạm vi vẫn là nghiên cứu thiết kế trước sử dụng; không báo cáo thực nghiệm, độ chính xác tổng thể hoặc khả năng phục vụ cả lớp.

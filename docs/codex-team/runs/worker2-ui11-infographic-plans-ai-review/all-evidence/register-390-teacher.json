@@ -1,0 +1,20 @@
+{
+  "route": "http://localhost:3001/register",
+  "size": [
+    390,
+    844
+  ],
+  "focus": "teacher",
+  "roles": [
+    {
+      "value": "teacher",
+      "checked": true,
+      "focus": true
+    },
+    {
+      "value": "student",
+      "checked": false,
+      "focus": false
+    }
+  ]
+}

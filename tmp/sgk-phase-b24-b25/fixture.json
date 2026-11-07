@@ -1,0 +1,17 @@
+{
+  "lessons": {
+    "B24": "3d58d5d5-119f-4454-b982-a092255e8786",
+    "B25": "91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+  },
+  "done": [
+    "B24",
+    "B25"
+  ],
+  "classId": "98bada8f-4191-409a-97d2-d486892dba39",
+  "joinCode": "VEJQ4L",
+  "joined": true,
+  "progress": {
+    "B24": "after-class",
+    "B25": "after-class"
+  }
+}

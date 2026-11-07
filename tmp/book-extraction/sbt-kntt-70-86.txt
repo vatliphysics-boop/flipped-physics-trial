@@ -1,0 +1,735 @@
+
+PAGE PDF 70
+CHƯƠNG IV
+VẬT LÍ HẠT NHÂN
+- BÀI 21
+CẤU TRÚC HẠT NHÂN
+21.1. Đánh dấu (x) vào các cột (đúng) hoặc (sai) tương ứng với các nội dung tron
+bảng dưới đây.
+Đúng
+Sai
+Nội dung
+Hạt nhân mang điện tích dương, có khối lượng gần bằng
+khối lượng nguyên tử chứa nó nhưng kích thước nhỏ hơn
+kích thước nguyên tử cỡ 104 lần.
+Hạt nhân mang điện tích dương, có khối lượng nhỏ hơn
+khối lượng nguyên tử chứa nó rất nhiều và kích thước nhỏ
+hơn kích thước nguyên tử cỡ 10' lần.
+Đơn vị khối lượng nguyên tử kí hiệu là amu; 1 amu có
+giá trị bằng 12
+khối lượng nguyên tử của đồng vị ?c;
+1 amu = 1,66054.10-27 kg.
+Hạt nhân nguyên tử được tạo thành bởi các hạt nucleon và
+electron.
+Hạt nhân nguyên tử được tạo thành bởi các hạt nucleon.
+Có hai loại nucleon là proton mang điện tích +le và
+neutron trung hòa về điện. Các nucleon có khối lượng xấp
+xỉ bằng lamu.
+70
+
+PAGE PDF 71
+Kí hiệu hạt nhân ấX, trong đó X, A, Z lần lượt là kí hiệu
+hóa học nguyên tố, số khối và số hiệu nguyên tử
+Các nucleon nằm sát nhau và không chồng lấn vào nhau
+Có thể coi hạt nhân nguyên tử như một quả cầu bán kính
+R; R phụ thuộc vào tổng số hạt nucleon A theo công thức
+gần đúng: R = 1,2.10-15
+.A3 (m).
+21.2. Hạt nhân nguyên tử gồm
+A. electron và proton.
+B. neutron và proton.
+C. neutron và electron.
+D. electron và pozitron.
+21.3. Các nguyên tử là nguyên tử đồng vị khi hạt nhân của chúng nó
+A. cùng số proton.
+B. cùng số neutron.
+C. cùng số neutron.
+D. cùng khối lượng.
+21.4. Hạt nhân 3, P có
+A. 31 proton và 15 neutron.
+B. 16 proton và 15 neutron.
+D. 31 neutron và 15 proton.
+C. 15 proton và 16 neutron.
+21.5. Hạt nhân nguyên tử 1,K gồm
+B. 19 proton và 22 neutron.
+A. 19 proton va 41 notron.
+D. 22 proton và 19 neutron.
+C. 41 proton và 19 neutron.
+21.6. Có 22 neutron trong đồng vị 4 Ca. Số proton trong đồng vị *° Ca là
+D. 20.
+B. 26.
+C. 24.
+A. 28.
+1. Số neutron có trong 3,5 g carbon "C
+21.7. Cho số Avogadro N, = 6,02.10? mol.
+có giá trị bằng
+B. 6,02.102 C. 9,03.102 D. 12,04.1023
+A. 3,01.1023
+21.8. Cho khối lượng các nguyên tử oxygen và hydrogen lần lượt là 15,999 amu;
+1,0078 amu. Số nguyên tử oxygen có trong 5 g nước xấp xỉ bằng
+.S1.13
+3. D. 3,34.10"
+•. C. 6,02.1023
+B. 1,51.1023
+A. 1,67.103.
+21.9. Xác định giá trị gần đúng bán kính của hạt nhân 32 U. Hạt nhân 2 U có thể
+tích lớn gắp thể tích của hạt nhân "He khoảng mấy lần?
+71
+
+PAGE PDF 72
+21.10. Đánh giá kích thước hạt nhân bằng thí nghiệm tưởng tượng sau:
+Khi cho một quả bóng lăn theo hướng ngẫu nhiên
+vào một dãy các quả bóng có đường kính a = 25 cm
+được gắn chặt cách đều nhau một khoảng cách không
+đổi là b = 50 cm (Hình 21.1) thì có thể tính được xác
+suất xảy ra va chạm giữa qủa bóng chuyển động với
+một trong những quả bóng đứng yên rồi bật trở lại
+gần đúng là: Pu = * = 50%. Còn xác suất quả bóng
+chuyển động đi xuyên qua dãy các quả bóng đứng yên
+là xuyên = 1 - Pbi = 50%. Nếu đường kính a của tất cả
+các quả bóng bằng 5 cm thì hai xác suất trên sẽ lần
+Hình 21.1. Thí nghiệm
+tưởng tượng về tương tác
+Lượt là oạt = 5% và Pxuyên = 95%, và nếu a = 5 mm thì
+hai xác suất này sẽ chỉ còn lần lượt là Poạt = 0,5% và
+Pxuyên = 99,5%.
+Hãy dựa vào sự tượng tự của thí nghiệm tưởng tượng trên với thí nghiệm của
+Rutherford bằng cách coi a là kích thước của hạt nhân nguyên tử vàng, coi b là
+kích thước của nguyên tử vàng, coi Pật là tần suất đốm sáng ở vị trí 3 và xuyên là
+tần suất đốm sáng ở trị trí 1, để chứng tỏ rằng thí nghiệm của Rutherford cho
+thấy kích thước hạt nhân nguyên tử chỉ bằng khoảng
+1
+kích thước của
+nguyên tử, và điều này phù hợp với sự so sách kích thước đã nêu trong thí
+10 000
+nghiệm của Rutherford được nêu trong SGK.
+21.11. Người ta gọi khối lượng nguyên tử của một nguyên tố hoá học là khối lượng
+trung bình của một nguyên tử chất đó (tính theo đơn vị amu). Vì trong một
+khối chất hóá học trong thiên nhiên bao giờ cũng chứa một số đồng vị của chắt
+đó với những tỉ lệ xác định, nên khối lượng nguyên tử của một nguyên tố hóa
+học không bao giờ là một số nguyên, trong khi đó số A của một hạt nhân bao
+giờ cũng là một số nguyên. Neon thiên nhiên có ba thành phần là 19 Ne; "' Ne
+và 1 Ne; trong đó thành phần "!Ne chỉ chiếm 0,26%, còn lại chủ yếu là hai
+thành phần kia. Khối lượng nguyên tử của neon là 20,179 amu. Tính tỉ lệ phần
+trăm của các thành phần 30 Ne và 22 Ne.
+21.12. Khí chlorine là hỗn hợp của hai đồng vị bền là 3 CI có khối lượng nguyên tử
+34,969 amu, hàm lượng 75,4% và" CI có khối lượng nguyên tử 36,966 amu,
+hàm lượng 24,6%. Tính khối lượng nguyên tử của nguyên tố hóá học chlorine.
+72
+
+PAGE PDF 73
+- BÀI 22 ,
+PHẢN ỨNG HẠT NHÂN VÀ NĂNG LƯỢNG
+LIÊN KẾT
+22.1. Đánh dấu (x) vào các cột (đúng) hoặc (sai) tương ứng với các nội dung trong
+bảng dưới đây.
+Nội dung
+Sai
+Đung
+Phản ứng hạt nhân là quá trình biến đổi từ hạt nhân này
+thành hạt nhân khác, bao gồm phản ứng hạt nhân kích thích
+và phản ứng hạt nhân tự phát:
+Trong một phản ứng hạt nhân, luôn cần từ hai hạt tham gia
+phản ứng trở lên.
+Trong phản ứng hạt nhân, số khối và điện tích của hệ được
+bảo toàn.
+Trong phản ứng hạt nhân, số khối, điện tích và khối lượng của
+hệ được bảo toàn.
+Phản ứng phân hạch là phản ứng hạt nhân trong đó một hạt
+nhân nặng vỡ thành hai mảnh nhẹ hơn.
+Phản ứng tổng hợp hạt nhân là phản ứng trong đó hai hay
+nhiều hạt nhân nhẹ tổng hợp lại thành một hạt nhân nặng hơn.
+Phản ứng tổng hợp hạt nhân là phản ứng trong đó hai hay nhiều
+hạt nhân trung bình tổng hợp lại thành một hạt nhân nặng.
+Độ hụt khối (Am) của hạt nhân là độ chênh lệch tổng khối
+lượng của các nucleon tạo thành hạt nhân và khối lượng của
+hạt nhân. Am = [Zm, + (A - Z)m,. - mx.
+Năng lượng E và khối lượng m tương ứng của cùng một vật
+được liên hệ với nhau thông qua hệ thức Einstein: E = mc?
+trong đó, c là tốc độ của ánh sáng trong chân không.
+73
+
+PAGE PDF 74
+Năng lượng liên kết riêng Elu của một hạt nhân có số khối A
+bằng: Bau = Ex, trong đó, En là năng lượng tối thiểu dùng để
+tách toàn bộ số nucleon ra khỏi hạt nhân, gọi là năng lượng
+liên kết hạt nhân. Hạt nhân càng bền vững khi En Càng lớn.
+Hạt nhân càng bền vừng khi năng lượng liên kết En càng lớn.
+Phản ứng hạt nhân kích thích: là quá trình các hạt nhân tương
+tác với các hạt khác (ví dụ: hạt nhân, neutron,...) tạo ra các
+hạt nhân mới. Ví dụ: phản ứng phân hạch, phản ứng tổng hợp
+hạt nhân.
+Phản ứng hạt nhân tự phát: là quá trình tự phân rã của một
+hạt nhân không bền vững thành các hạt nhân mới.
+22.2. Một hạt nhân có độ hụt khối càng lớn thì hạt nhân đó
+A. có năng lượng liên kết càng lớn. B. có năng lượng liên kết không đổi.
+C. có năng lượng liên kết càng nhỏ. D. càng bên vững.
+22.3. Năng lượng liên kết của hạt nhân bằng
+A. năng lượng trung bình liên kết mỗi nucleon trong hạt nhân.
+B. năng lượng cần thiết để tách một nucleon khỏi hạt nhân.
+C. năng lượng cần thiết để tách rời tất cả các nucleon trong hạt nhân.
+D. tích của khối lượng hạt nhân với bình phương của tốc độ ánh sáng trong
+chân không.
+22.4. Năng lượng liên kết riêng của hạt nhân có giá trị
+A. lớn nhất đối với các hạt nhân nhẹ.
+B. lớn nhất đối với các hạt nhân nặng.
+C. lớn nhất đối với các hạt nhân trung bình.
+D. như nhau với mọi hạt nhân.
+22.5. Độ hụt khối của hạt nhân {X là
+A. Am = (Zmp + Nm,) - m.
+C. Am = Zm, - Zmp.
+B.Am = m - Nm.- Zm,
+D. Am = Zm, + Nm,.
+74
+
+PAGE PDF 75
+22.6. Năng lượng liên kết riêng của hạt nhân
+A. càng lớn thì hạt nhân càng bên vững.
+indian nod
+B. có thể bằng 0 đối với các hạt nhân đặc biệt.
+7974
+C. càng nhỏ thì hạt nhân càng bền vững.
+31.35
+5C.0 =
+D. có thể dương hoặc âm.
+3A
+22.7. Đại lượng nào sau đầy đặc trưng cho mức độ bền vững của hạt nhân?
+A. Số neutron.
+B. Năng lượng liên kết riêng.
+C. Số hạt proton.
+D. Năng lượng liên kết.
+800
+22.8. Hạt a có độ hụt khối 0,0308 amu. Năng lượng liên kết của hạt này bằng...
+A. 23,52 MeV. B. 25,72 MeV.
+: C. 24,72 MeV.
+: D. 28,70 MeV.
+22.9. Nếu năng lượng liên kết của hạt nhân helium {He là 28,8 MeV thì năng lượng
+liên kết riêng của nó là
+22001 201
+EuD B. 14,1 MeV/nucleon.o.! gasn .A
+A. 7,20 MeV/nucleon.
+Tổn giộb &
+D. 1,4 MeV/nucleon
+C. 0,72 MeV/nucleon.
+5 grán goob
+22.10. Độ bền vững của hạt nhân càng cao khi
+so noiodgai gpbi prón C
+A. số nucleon của hạt nhân càng nhỏ.
+do. nops 5d gapnv: ise u6
+SvUr
+B. số nucleon của hạt nhân càng lớn.
+Tông nửi
+U2 A
+C. năng lượng liên kết của nó càng lớn.
+D. năng lượng liên kết riêng của nó càng lớn.
+22.11. Một hạt nhân có 8 proton và 9 neutron. Năng lượng liên kết riêng của hạt
+nhân này bằng 7,75 MeV/nucleon. Biết m, = 1,0073 amu, m, = 1,0087 amu.
+Khối lượng của hạt nhân đó bằng bao nhiêu amu?
+D. 17,243 amu.
+C. 16,995 amu.
+A. 16,545 amu. B. 17,138 amu.
+22.12. Cho khối lượng nguyên tử helium là mHc = 4,003 amu; khối lượng electron là
+m, = 0,000549 amu. Khối lượng của hạt a là
+B. 4,000921 amu.
+A. 4,001902 amu.
+D. 4,002654 amu.
+C. 4,000975 amu.
+grü ii
+75
+
+PAGE PDF 76
+22.13. Hạt nhân 3H có khối lượng 2,0136 amu. Năng lượng liền kết của nó bằng
+D. 2,23 MeV.
+C. 3,45 MeV.
+B. 4,6 MeV.
+A. 1,15 MeV.
+22.14. Cho ba hạt nhân X, Y và Z có số nuleleon tương ứng là Ax. Ay Và Az với
+Ax = 2Ay = 0,5Az. Biết năng lượng liên kết riêng của từng hạt nhân tương ứng
+là AE„ AE, và AE_ với AE, < 4Ey < AEy. Các hạt nhân này được xắp xếp theo
+thứ tự tính bền vững giảm dần như:
+D. Z, X, Y.
+C. X, Y, Z.
+A. Y, X, Z.
+B. Y, Z, X.
+22.15. Cho khối lượng của proton, neutron; 19 Ar; Li lần lượt là 1,0073 amu;
+1,0087 amu; 39,9525 amu; 6,0145 amu và 1 amu = 931,5 MeV/c. So với năng
+lượng liên kết riêng của hạt nhân Li thì năng lượng liên kết riêng của hạt
+nhân 18 Ar
+A. Lớn hơn một lượng là 5,20 MeV.
+B. lớn hơn một lượng là 3,42 MeV.
+C. nhỏ hơn một lượng là 3,42 MeV. D. nhỏ hơn một lượng là 5,20 MeV.
+22.16. Phần lớn năng lượng giải phóng trong phản ứng phân hạch là
+A. năng lượng toả ra do phóng xạ của các mảnh.
+B. động năng các neutron phát ra.
+C. động năng của các mảnh.
+D. năng lượng các photon của tia y.
+22.17. Tìm câu sai. Những điều kiện cần phải có để tạo ra phản ứng hạt nhân dây
+chuyền là
+A. sau mỗi lần phân hạch, số n giải phóng phải lớn hơn hoặc bằng 1.
+B. lượng nhiên liệu (uranium, ptutonium) phải đủ lớn để tạo nên phản ứng dây chuyền.
+C. nhiệt độ phải được đưa lên cao.
+D. phải có nguồn tạo ra neutron.
+22.18. Phản ứng nhiệt hạch là
+A. phản ứng hạt nhân tự phát.
+B. phản ứng tổng hợp hạt nhân.
+C. phản ứng phân hạch.
+D. phản ứng tổng hợp hai hạt nhân nặng.
+22.19. Nguồn gốc năng lượng của Mặt Trời là do
+A. các phản ứng nhiệt hạch xảy ra trong lòng nó.
+B. các phản ứng phân hạch xảy ra trong lòng nó.
+C. các phản ứng hóa học xảy ra trong lòng nó.
+D. các phản ứng hạt nhân tự phát dây chuyền trong lòng nó.
+76
+
+PAGE PDF 77
+22.20. Phản ứng hạt nhân nào sau đây không phải là phản ứng nhiệt hạch?
+A.{H+ 3H → ;He.
+B. }H + gLi →2%He.
+In Jen
+"N → !O+|H.
+c. {He + 14
+.85
+D. H + {H → ¿He.
+005
+22.21. Tìm phát biểu sai.
+A. Phản ứng nhiệt hạch là sự tổng hợp hai hạt nhân nhẹ thành hai hạt nhân
+nặng hơn, còn phản ứng phân hạch là sự phá vỡ một hạt nhân nặng thành
+hai hạt nhân nhẹ hơn.
+B. Năng lượng toả ra trong phản ứng nhiệt hạch lớn hơn năng lượng toả ra
+trong phản ứng phân hạch.
+C. Phản ứng phân hạch và phản ứng nhiệt hạch đều là phản ứng hạt nhân toa
+năng lượng.
+D. Hiện nay con người đã kiểm soát được phản ứng phân hạch và phản ứng
+nhiệt hạch.
+22.22. Quan sát Hình 22.1 cho biết: Các hạt nhân 130 và ,H được tạo ra từ các
+nucleon của hạt nhân nào?
+000• • •• °
+0•• • • • • °
++
++
+→
+17
+14 Ne
+4 He
+8
+2
+Neutron °
+Proton•
+Hình 22.1. Minh họạ về sự kết hợp giữa các nucleon của hạt nhân
+khi tương tác với nhau và biến thành những hạt nhân khác
+22.23. Biết năng lượng liên kết của hạt nhân 23 U là 1 809,5 MeV, của14°Ce là 1 180,2 MeV,
+của SFe là 494,8 Me V. Hãy so sánh độ bền vững của các hạt nhân này.
+22.24. Khối lượng hạt nhân a là m. = 4,0015 amu. Năng lượng liên kết riêng của
+hạt nhân a là W/r = 7,1 MeV. Tính năng lượng được toả ra khi có 1 mol các hạt
+a được tạo thành từ các hạt nhân proton và neutron.
+22.25. Biết khối lượng hạt nhân {He là mHc = 4,0015 amu. Hãy so sánh khối lượng
+này với tổng khối lượng của các nucleon tạo thành nó.
+22.26. Năng lượng liên kết của hạt nhân nguyên tử "N bằng bao nhiêu? Biết rằng
+hạt nhân nguyên tử 1'N có khối lượng băng 14,003242 amu.
+77
+
+PAGE PDF 78
+22.27. Trong hai hạt nhân ¿Be và }] A1, hạt nhân nào bền vững hơn? Biết khối lượng
+235 U là 26,98146 amu.
+hạt nhân ,Be là 9,00122 amu và khối lượng hạt nhân 22
+22.28. Biết phân hạch một hạt nhân 23 U trong là phản ứng sẽ toả ra năng lượng
+200 MeV/1 hạt nhân.
+a) Tính năng lượng toa ra khi phân hạch 1 kg iU.
+b) Tính lượng than cần phải đốt đề có một nhiệt lượng tương đương. Cho năng
+suất toả nhiệt của than bằng 2,93.10° J/kg.
+22.29. Khi tổng hợp hạt nhân (He từ phản ứng hạt nhân }H + }Li → He + X,
+mỗi phản ứng trên toả năng lượng 17,3 MeV. Tính năng lượng toả ra khi tổng
+hợp được 0,5 mol helium.
+22.30. Cho phản ứng nhiệt hạch: ;H + 3H → He + 'n + 17,5 MeV. Tinh
+năng lượng toả ra trong phản ứng trên khi 1 kg helium được tạo thành. Hãy so
+sánh với năng lượng toa ra khi 1 kg 23 U phân hạch.
+BÀI 23
+HIỆN TƯỢNG PHÓNG XẠ
+23.1. Đánh dấu (x) vào các cột (đúng) hoặc (sai) tương ứng với các nội dung trong
+bảng dưới đây.
+Nội dung
+Sai
+Đúng
+Phân rã phóng xạ có tính tự phát và ngẫu nhiên.
+Phân rã phóng xạ cần có kích thích để xảy ra.
+Tia phóng xạ là tia không nhìn thấy được, nhưng có các tính
+chất như: ion hóa, gây ra các hiệu ứng quang điện, phát xạ
+thứ cấp, làm đển kính ảnh, xuyên thấu lớp vật chất mỏng,
+phá huy tế bào, kích thích một số phản ứng hoa học,...
+Tia phóng xạ có thể nhìn thấy được và có các tính chất như:
+ion hoá, gây ra các hiệu ứng quang điện, phát xạ thứ cấp,
+làm đen kính ảnh, xuyên thấu lớp vật chất mỏng, phá huy
+tế bào, kích thích một số phản ứng hoá học,...
+78
+
+PAGE PDF 79
+Các loại tia phóng xạ chính:
+- Tia phóng xạ a là các hạt nhân He được phóng ra từ hạt
+nhân bị phân rã, chuyển động với tốc độ khoảng 2.10 m/s.
+- Tia phóng xạ B (hoặc Bt) là dòng các hạt !
+-e (hoặc ,e)
+phóng ra từ hạt nhân bị phân rã, chuyển động với tốc độ
+xấp xỉ tốc độ ánh sáng.
+- Tia phóng xạ y là sóng điện từ có bước sóng rất ngắn cỡ
+nhỏ hơn 10-'m.
+- Tia phóng xạ y là chùm hạt mang điện dương và có khả
+năng đâm xuyên rất lớn.
+Số hạt chưa phân rã của chất phóng xạ N, tại thời điểm t và
+số hạt ban đầu N, của chất phóng xạ được liên hệ với nhau
+In 2
+theo công thức: N, = N,2 T = N,e^ trong đó N=
+được
+gọi là hằng số phóng xạ, T là chu kì bán rã.
+Độ phóng xạ H đặc trưng cho tính phóng xạ mạnh hay yếu
+của một lượng chất phóng xạ, có giá trị bằng số hạt nhân
+phân rã trong một giây. Độ phóng xạ H, của một mẫu chất
+phóng xạ tại thời điểm t được xác định theo công thức:
+H, = 2N, = H,e-x
+Nguyên tắc an toàn khi làm việc với nguồn phóng xạ: giữ
+khoảng cách đủ xa đối với nguồn phóng xạ, cần sử dụng
+các tấm chắn nguồn phóng xạ đủ tốt và cần giảm hiểu thời
+gian phơi nhiễm phóng xạ.
+Các nguồn phóng xạ luôn có hại, nên không để chúng
+xuất hiện.
+A. Khi đi qua điện trường giữa hai bản tụ điện, tia a bị lệch về phía bản mang
+23.2. Tìm phát biểu sai.
+điện âm của tụ điện.
+B. Hạt a là hạt nhân nguyên tử helium.
+79
+
+PAGE PDF 80
+D. Tia a đi qua điện trường giữa hai bản tụ điện sẽ bị lệch về phía bản mang điện
+C. Tía a làm ion hóa môi trường.
+dương của tụ điện.
+23.3. Tìm phát biểu sai.
+A. Hạt B- là hạt electron.
+B. Tia ß- có khả năng ion hóá môi trường.
+C. Trong điện trường giữa hai bản tụ điện, tia (- bị lệch về phía bản mang điện
+dương của tụ điện.
+D. Tia ß- có tầm bay ngắn hơn tía a.
+23.4. Tìm phát biểu sai.
+A. Tia ß* có tầm bay xa hơn tia a.
+B. Hạt ß* có cùng khối lượng với electron nhưng mang điện tích nguyên tố dương
+C. Tia ß* cũng làm ion hoá môi trường nhưng yếu hơn tia a.
+D. Tia ß* bị lệch về phía bản mang điện dương của tụ điện khi đi qua điện
+trường giữa hai bản tụ điện.
+23.5. Công thức nào dưới đây đúng với nội dung của định luật phóng xạ?
+C.m = m,e ẫ.
+A. m = m,el!
+D. m = m,et,
+B. m = m,e-t
+23.6. Một mẫu phóng xạ có chu kì bán rã là 3 ngày. Sau 9 ngày, khối lượng của mầu
+phóng xạ này còn lại là 2 kg. Khối lượng ban đầu của mẫu là bao nhiêu?
+A. 15 kg.
+B. 16 kg.
+C. 17 kg.
+D. 14 kg.
+23.7. Chu kì bán rã của một mẫu phóng xạ là 6 giờ. Lúc đầu mẫu có khối lượn
+2,4.10-2 kg. Hỏi sau một ngày đêm, khối lượng của mẫu còn lại bằng bao nhiều
+A. 3.10-3 kg.
+B. 1,5,10-3 kg.
+C. 2,5.10-3 kg.
+D. 2,10- kg.
+23.8. Sau 3 giờ phóng xạ, số hạt nhân của một mẫu đồng vị phóng xạ chỉ còn 25k
+số hạt nhân ban đầu. Chu kì bán rã của đồng vị này là
+A. 1 giờ.
+B. 2 giờ.
+C. 2,5 giờ.
+D. 1,5 giờ.
+23.9. Một chất phóng xạ lúc đầu có 40 mg; chu kì bán rã là 10 giờ. Hỏi sau bao lấ
+thì khối phóng xạ trên còn 10 mg?
+A. 10 giờ.
+B. 5 giờ.
+C. 20 giờ.
+D. 40 giờ.
+80
+
+PAGE PDF 81
+23-10. Dưa vào đồ thị đâm xuyên của tia
+R(cm)
+R (cm)
+beta (Hình 23.1) hãy so sánh khả năng
+500
+- (đổi với
+5 (đổi với
+đâm xuyên của tia beta trong không
+cơ thể người,
+300 - không khi)
+200
+2 nhồm, chi)
+Không
+khí, cơ thể người, nhôm và chì?
+100
+khi
+50
+0,5
+. Co thể
+30
+ngưỚi
+- 0,2
+20
+10
+E 0,1
+* Chi
+5
+10,05
++0,03
+10,02
+- Nhôm
+2
+0,01
+→ Wmar (MeV)
+0,1 0,2 0,5 1,0 2 3 5
+10
+Hình 23.1. Khả năng đâm xuyên của tia
+beta theo năng lượng
+23.11. Hình 23.2 là ảnh chụp hai vết của tia alpha
+xuất phát từ một mẫu phóng xạ kích thước
+rất nhỏ được đặt trong buồng sương. Nhận
+xét đặc điểm hai vết này? Biết rằng buồng
+sương được đặt trong một từ trường có
+đường sức từ vuông góc với mặt phẳng ảnh
+chụp, hãy xác định chiều của từ trường?
+Hình 23.2. Vết của tia anpha trong
+bưồng suờng đ ặt trong từ trường
+23.12. Chứng minh rằng, sau thời gian t = xT, T là chu kì bán rã, thì số hạt nhân
+N
+phóng xạ còn lại là N =
+2*
+23.13. Sau 1 năm trong 1 miligam 'Ce có 2,5.10 hạt bị phân rã. Hỏi chu kì bán rã
+của 'Ce bằng bao nhiêu?
+23.14. Một tượng cổ bằng gỗ có độ phóng xạ H. Một mảnh gỗ của cây vừa mới chặt,
+nếu có khối lượng tương đương sẽ có độ phóng xạ là 1,5H. Chu kì bán rã của
+14 Clà 5 600 năm. Tính tuổi của tượng gỗ cổ này.
+23.15. Để xác định lượng máu trong bệnh nhân, người ta tiêm vào máu một người
+một lượng nhỏ dung dịch chứa đồng vị phóng xạ * Na (chu kì bán rã 15 giờ) có
+độ phóng xạ 2 uCi. Sau 7,5 giờ người ta lấy ra 1 cm' máu người đó thì thấy có
+độ phóng xạ 502 phân rã/phút. Tính thể tích máu của người đó.
+81
+
+PAGE PDF 82
+BÀI 24
+CÔNG NGHIỆP HẠT NHÂN
+24.1. Đánh dấu (x) vào các cột (đúng) hoặc (sai) tương ứng với các nội dung trong
+bảng dưới đây.
+Sai
+Đúng
+Nội dung
+Công nghệ năng lượng hạt nhân hay năng lượng nguyên tử
+là một loại công nghệ được thiết kế để tách năng lượng hữu
+ích từ hạt nhân nguyên tử thông qua các lò phản ứng hạt
+nhân có kiểm soát.
+Phương pháp duy nhất được sử dụng trong lò phản ứng hạt
+nhân hiện nay là phân hạch hạt nhân, mặc dù các phương pháp
+khác có thể bao gồm tổng hợp hạt nhân và phân rã phóng xạ.
+Tất cả các lò phản ứng với nhiều kích thước và mục đích sử
+dụng khác nhau đều dùng nước được đun nóng để tạo ra
+hơi nước và sau đó được chuyển thành cơ năng để phát điện
+hoặc tạo lực đẩy.
+Sử dụng năng lượng hạt nhân giúp giảm khí thải nhà kính,
+mang lại nguồn cung cấp điện ổn định, đảm bảo năng lượng
+bền vững, đem lại lợi ích kinh tế lâu dài.
+24.2. Máy cán vật liệu thô thành lá vật liệu có độ dày được điều chỉnh tự động là một
+sản phẩm ứng dụng tính chất đâm xuyên của tia phóng xạ (Hình 24.1). Biết rằng
+với một nguồn phóng xạ
+Con quay được điều
+mới, chùm tia phóng xạ sẽ
+chỉnh dựa theo cường
+độ tín hiệu ở đầu thu
+giảm độ phóng xạ n, =8 lần
+Đầu thu
+khi đi qua lá thép có độ dày
+tiêu chuẩn đ, =6 mm. Nếu
+người ta cài đặt máy để cán
+được lá thép có độ dày d,
+thì độ phóng xạ khi qua lá
+do lần.
+Lá vật liệu đã
+vật liệu sẽ giảm n, = no
+Con quay cán
+Nguồn
+được cán
+vật liệu
+phóng xạ ß-
+Hình 24 1 M.
+
+PAGE PDF 83
+a) Dựa vào Hình 24.1 hãy mô tả nguyên lí hoạt động của máy cán vât liệu tự
+động.
+b) Độ phóng xạ tới đầu thu sẽ thay đổi như nào khi độ dày lá thép thay đổi từ đo
+sang ay
+c) Thay nguồn phóng xạ mới bằng một nguồn đã sử dụng một khoảng thời gian
+bằng chu kì bán rã của nguồn phóng xạ. Nếu các thông số cài đặt vẫn giữ nguyên thì
+độ độ dày của lá vật liệu sản xuất ra sẽ bằng bao nhiêu? Để độ dày của lá vật liệu sản
+xuất ra vấn là giá trị đo = 6 mm thì người ta cần
+hiệu chỉnh máy cán tới độ dày nào?
+24.3. Các tính chất của phân rã phóng xạ được
+ứng dụng để chế tạo Pin nguyên tử. Pin nguyên
+tử có độ tin cậy cao, dung lượng pin có thể duy
+trì được ở mức cao trong thời gian dài khi sử
+dụng khi sử dụng nguồn phóng xạ có chu kì
+bán rã lớn. Pin thường được sử dụng cho các
+Hình 24.2. Vỏ thiết bị điều hòa
+nhiệm vụ đòi hỏi yêu cầu cao như thiết bị y tế
+điện tim sẽ được đặt bên trong cơ
+đặc biệt hoặc các chuyến du hành vũ trụ dài
+thể người
+ngày,... Dựa vào các thông tin được ghi trên
+Hình 24.2 em hãy:
+orin dbit
+a) Xác định khối lượng tối thiểu của đồng vị phóng xạ được cho vào pin nguyên
+tử, biết rằng đồng vị 28Pu có chu kì bán rã là 87,7 năm.
+b) Suất điện động của pin tỉ lệ thuận với độ phóng xạ. Người ta sẽ thay pin khi
+công suất pin giảm 50% so với giá trị công suất ban đầu. Sau bao lâu người bệnh
+mới cần mổ để thay pin nguyên tử cho thiết bị điều hoa điện tim?
+24.4. Vì sao các nhà máy điện hạt nhân thường được xây dựng cạnh hồ, sông và bờ biển?
+24.5. Liệt kê các nguy cơ ảnh hưởng tới sức khoẻ con người và môi trường nếu
+không may xảy ra sự cố tại lò phản ứng hạt nhân.
+24.6. Nêu vai trò của các nhà máy điện hạt nhân trong đời sống.
+24.7. Đánh giá các ựu điểm, nhược điểm và cơ hội phát triển của các nhà máy điện
+hạt nhân.
+24.8. Tại sao người ta sử dụng tia gamma trong chụp ảnh phóng xạ cắt lớp bên trong
+cơ thể?
+24.9. Nêu vai trò của y học hạt nhân trong đời sống.
+24.10. Đánh giá các ưu điểm, nhược điểm và cơ hội phát triển của y học hạt nhân.
+83
+
+PAGE PDF 84
+BÀI TẬP CUỐI CHƯƠNG IV Q 0))
+IV.1. Trong hạt nhân
+A. có ba loại hạt là nucleon, proton và neutron.
+B. có ba loại hạt là neutron, proton và electron.
+C. có proton và neutron.
+D. chỉ có neutron.
+IV.2. Tìm câu sai. Kí hiệu n là neutron, và p là proton. Trong hạt nhân có thể có
+trường hợp:
+B. số p > số n.
+A. số n > số p.
+D. khi số p = 1 thì số n = 0.
+C. khi số n = 1 thì số p = 0.
+IV.3. Trong hạt nhân C có
+A. 6 proton và 8 electron.
+B. 6 proton và 8 neutron.
+C. 6 proton và 14 electron.
+D. 6 electron và 8 neutron.
+IV.4. Hai hạt nhân có tỉ số số khối là 8 và 27. Tỉ số hại bán kính của chúng là:
+2
+8
+4
+4
+A.
+B
+C.
+D
+3
+27
+15
+9
+IV.5. Thể tích nhỏ nhất có thể có của các hạt nhân là
+A. 1,72.10-30 m3
+B. 7,23.10-15 m3
+•
+C. 1, 23.10-30 m'.
+D. 7,23.10-45 m3
+IV.6. Năng lượng liên kết riêng của một hạt nhân là năng lượng liên kết
+A. tính riêng cho hạt nhân so với hạt nhân khác.
+B. tính cho một nucleon trong hạt nhân.
+C. của hai nucleon khác loại trong hạt nhân.
+D. của hai nucleon cùng loại trong hạt nhân.
+IV.7. Phóng xạ là quá trình:
+A. hạt nhân phóng ra ra các hạt a, B°, B* khi bị bắn phá bằng các hạt nhân khác
+B. hạt nhân tự phát ra các hạt a, B', B* và không biến đổi gì.
+C. hạt nhân tự phát ra các hạt a, B, B* và biến đổi thành một hạt nhân khác
+D. hạt nhân phát ra các bức xạ điện từ.
+IV.8. Trong một phản ứng phóng xạ, khi có tia a thì cũng có thể có:
+A. tia B-.
+B. tia B+
+C. tia y (gamma).
+D. các tia y, B-,B+
+84
+
+PAGE PDF 85
+IV.9. Khảo sát một bình ion hóa có
+Buởng lon hoa
+cấu tạo là bình khí đơn phân tử
+11
+và hai điện cực kim loại được
+pA
+Bình làm tứ
+đặt hiệu điện thế 2 kV. Khi khối
+thorlum phòng xe
+khí này bị ion hóa nhờ tác dụng
+Miếng cách điện
+của tia phóng xạ thì sẽ có dòng
+điện chạy qua khối khí. Để đo
+30,0
+-Ampe ké
+U = 2 KV
+dòng điện rất nhỏ này người ta
+22,5
+dùng một ampe kế rất nhạy
+15,0
+(Hình IV.1).
+7,5
+a) Vẽ đồ thì biểu diễn độ phóng
+xạ mẫu 220Rn trong bình theo thời
+0 55 110 165 220 275
+gian, biết rằng độ phóng xạ tài
+Hình IV.1. Bố trí thí nghiệm và kết quả thí
+thời điểm ban đầu là Họ.
+nghiệm khảo sát quy luật phóng xạ
+b) Xác định chu kì bán rã của 20 Rn.
+c) Để dòng điện đủ lớn như trong thí nghiệm cần tối thiểu 1 mL lượng khí 220Rn
+ở điều kiện tiêu chuẩn. Hãy ước tính khối lượng tối thiểu của bình từ chất
+phóng xạ 2 Th để duy trì độ phóng xạ khổng đổi của 22°Rn trước khi làm thí
+nghiệm. Biết rằng:
+228Th phân rã a với chu kì bán rã 1,9 năm thành 224Ra.
+224 Ra phân rã a với chu kì bán rã 3,6 ngày thành 220Rn.
+IV.10. Hoàn thành các phương trình phản ứng hạt nhân sau:
+b) {Be + {He → 1?C+?
+a) [N + {He → }0+?
+d) }н → }H+?
+c) 29Cu → {e +?
+V.11. Cho các hạt nhân: 73 AI; 285 Pb. Biết mai = 26,98153 amu; mp6 = 205,9745 amu;
+m, = 1,00728 amu; m, = 1,00866 amu; 1 amu = 931,5 MeV/c.
+a) Tính độ hụt khối của mỗi hạt nhân.
+b) Tính năng lượng liên kết riêng của mỗi hạt nhân và cho biết hạt nhân nào
+bền vững hơn.
+IV.12. Một phòng thí nghiệm ban đầu mua về một mẫu phóng xạ nguyên chất có
+khối lượng mọ. Chu kì bán rã của mẫu chất đó là 3 465 giây.
+a) Tính hằng số phóng xạ của mẫu chất phóng xạ đó.
+b) Sau bao lâu (tính từ lúc mua) thì 75% chất đó đã biến thành chất khác.
+85
+
+PAGE PDF 86
+IV.13. Một mẫu chất phóng xạ, có chu kì bán rã 2 ngày, gồm 6,4.10' hạt nhân
+nguyên tử. Một mẫu chất phóng xạ khác, có chu kì bán rã 3 ngày, gồm 8.1020 hạt
+nhân nguyên tử. Sau bao nhiêu ngày số hạt nhân nguyên tử chưa phong xạ của
+hai mẫu đó bằng nhau?
+238 U phân rã thành 206 pb với chu kì bán rã 4,47.10° năm. Một khối đá được
+IV.14.
+206 pb. Giả sử khối đá khi mới hình
+238 U và 23,15 mg
+phát hiện chứa 46,97 mg
+thành không chứa nguyên tố chì và tất cả lượng chì có mặt trong đó đều là sản
+phẩm phân rã của 238 U. Tuổi của khối đá đó hiện nay là bao nhiêu?
+IV.15. Khi cây còn sống, tỉ lệ hai đồng vị 'C và 14C trong nó và trong khí quyển
+là như nhau. Khi chết, 14 C có trong cây bị phần rã. Chu kì bán rã của 14c là
+5 730 năm. So sánh sự phóng xạ ß- của một mẫu gỗ cổ với một mẫu gỗ tương
+tự còn sống, cả hai cùng chứa một lượng 14C người ta thấy số hạt 14C có
+trong mẫu gỗ cổ ít hơn 3 lần so với mẫu gỗ tương đương còn đang sống. Xác
+định tuổi của mẫu gỗ cổ.
+IV.16. Tiêm 10 cm' dung dịch chứa đồng vị phóng xạ 4 Na với nồng độ 10-3 mo/1L
+vào tĩnh mạch của người. Sau 6 giờ lấy 10 cm máu của người đó thì thấy có
+1,5.10-8 mol 24 Na trong đó. Tính thể tích V của máu có trong người. Cho chu
+kì bán rã của 24 Na là 15 h.
+IV.17. Giả sử quả bom nguyên tử thả xuống Hiroshima có chứa 100 kg quặng uranium
+trong đó 292 U chiếm 25%. Nếu trung bình mỗi phân hạch của 92 U giải phóng
+200 MeV thì năng lượng giải phóng của vụ nổ tương đương bao nhiêu số điện?
+Lấy khối lượng 1 mol 23½ U bằng 235 g.
+IV.18. Một nhà máy điện nguyên tử tiều thụ trung bình 58,75 g 292 U mỗi ngày. Biết hiệu
+suất của nhà máy là 25%; mỗi hạt nhân nguyên tử phân hạch giải phóng 200 MeV.
+a) Hãy tính công suất phát điện của nhà máy.
+b) Giả thiết sau mỗi phân hạch trung bình có 2,5 neutron được giải phóng thì
+sau một ngày số neutron thu được trong lò phản ứng là bao nhiêu?
+Cho: NA = 6,023.102 hạt/mol ; 1 MeV = 1,6.10-13 J.

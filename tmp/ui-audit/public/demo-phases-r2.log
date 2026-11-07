@@ -1,0 +1,13 @@
+phase 2 320 { document: 344, inner: 344 }
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+344 !== 320
+
+    at /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/ui-audit/public/demo-phases.cjs:2:815 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 344,
+  expected: 320,
+  operator: 'strictEqual',
+  diff: 'simple'
+}

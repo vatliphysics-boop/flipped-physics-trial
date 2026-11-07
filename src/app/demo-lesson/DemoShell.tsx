@@ -16,6 +16,7 @@ export function DemoShell({ children }: { children: ReactNode }) {
             <span className="public-brand-text">Bài học minh họa</span>
           </div>
           <nav className="public-links">
+            <Link href="/hoc-lieu" className="public-link">Học liệu & Thí nghiệm 3D</Link>
             <Link href="/" className="public-link">Về trang chủ</Link>
           </nav>
         </div>

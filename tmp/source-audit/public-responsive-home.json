@@ -1,0 +1,104 @@
+{
+  "metrics": [
+    {
+      "width": 1366,
+      "code": "home",
+      "pageWidth": 1366,
+      "scrollWidth": 1366,
+      "formulaCount": 13,
+      "formulaClips": [],
+      "overflowElements": [
+        [
+          "semantics",
+          "",
+          1395
+        ],
+        [
+          "mrow",
+          "",
+          1395
+        ],
+        [
+          "mtext",
+          "",
+          1389
+        ],
+        [
+          "mo",
+          "",
+          1395
+        ],
+        [
+          "semantics",
+          "",
+          1521
+        ],
+        [
+          "mrow",
+          "",
+          1521
+        ],
+        [
+          "mi",
+          "",
+          1370
+        ],
+        [
+          "mo",
+          "",
+          1379
+        ]
+      ],
+      "errors": [],
+      "diagnostics": []
+    }
+  ],
+  "internal": [
+    {
+      "href": "http://localhost:3471/hoc-lieu/phong-hat-nhan",
+      "label": "Mô hình và video",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu/truc-quan",
+      "label": "Phòng mô phỏng",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu",
+      "label": "Kho học liệu",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu/lop-hoc-dao-nguoc",
+      "label": "Tiến trình ba pha",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu/phong-hat-nhan?bai=B21",
+      "label": "B21 · Cấu trúc hạt nhân",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu/phong-hat-nhan?bai=B22",
+      "label": "B22 · Phản ứng hạt nhân và năng lượng liên kết",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu/phong-hat-nhan?bai=B23",
+      "label": "B23 · Hiện tượng phóng xạ",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu/phong-hat-nhan?bai=B24",
+      "label": "B24 · Công nghiệp hạt nhân",
+      "status": 200
+    },
+    {
+      "href": "http://localhost:3471/hoc-lieu/phong-hat-nhan?bai=B25",
+      "label": "B25 · Bài tập về vật lí hạt nhân",
+      "status": 200
+    }
+  ],
+  "external": []
+}

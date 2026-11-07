@@ -1,0 +1,820 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Hướng dẫn" [ref=e9] [cursor=pointer]
+        - generic [ref=e13]:
+          - link "Trang chủ YouTube" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]: VN
+        - button "Bỏ qua điều hướng" [ref=e24] [cursor=pointer]
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Tìm kiếm" [expanded] [ref=e34]
+              - button [ref=e37] [cursor=pointer]
+            - button "Search" [ref=e38] [cursor=pointer]
+        - generic [ref=e43]:
+          - button "Tìm kiếm bằng giọng nói" [ref=e45] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "Cài đặt" [ref=e55] [cursor=pointer]
+        - link "Đăng nhập" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DgDpyBifg6-s&hl=vi&ec=65620
+  - main [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e72]:
+          - generic [ref=e75] [cursor=pointer]
+          - complementary [ref=e76]:
+            - generic "Trình phát video YouTube" [active] [ref=e79]:
+              - button "Phát" [ref=e83] [cursor=pointer]
+              - generic [ref=e84]:
+                - generic [ref=e85] [cursor=pointer]:
+                  - slider "Thanh trượt tìm kiếm" [ref=e86]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "Nhấp vào hoặc cuộn bảng điều khiển để tua chính xác"
+                - generic [ref=e118]:
+                  - generic [ref=e119]:
+                    - button "Phát (k)" [ref=e120] [cursor=pointer]
+                    - generic [ref=e121]:
+                      - button "Tắt tiếng (m)" [ref=e123] [cursor=pointer]
+                      - slider "Âm lượng":
+                        - generic [ref=e124] [cursor=pointer]
+                    - button "0 Phút 0 Giây / 10 Phút 56 Giây" [ref=e127] [cursor=pointer]: 0:00 / 10:56
+                    - button "Intro" [ref=e129] [cursor=pointer]
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - button "Chế độ tự động phát đang bật" [ref=e134] [cursor=pointer]
+                      - button "Không có phụ đề" [ref=e137] [cursor=pointer]
+                      - button "Cài đặt" [ref=e139] [cursor=pointer]
+                    - generic [ref=e140]:
+                      - button "Chế độ rạp chiếu phim (t)" [ref=e141] [cursor=pointer]
+                      - button "Toàn màn hình (f)" [ref=e142] [cursor=pointer]
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e146]:
+              - generic [ref=e148]:
+                - heading "Half-life | Physics | Khan Academy" [level=1] [ref=e149]
+                - img "Hoạt động gây quỹ" [ref=e154]
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - generic [ref=e158]:
+                    - link [ref=e159] [cursor=pointer]:
+                      - /url: /@khanacademy
+                      - img "Khan Academy" [ref=e161]
+                    - generic [ref=e162]:
+                      - generic [ref=e163]:
+                        - generic "Khan Academy" [ref=e166]:
+                          - link "Khan Academy" [ref=e167] [cursor=pointer]:
+                            - /url: /@khanacademy
+                        - img "Đã xác minh" [ref=e172]
+                      - generic "9,48 triệu người đăng ký" [ref=e176]: 9,48 Tr người đăng ký
+                  - button "Đăng ký Khan Academy." [ref=e182] [cursor=pointer]:
+                    - generic: Đăng ký
+                - generic [ref=e189]:
+                  - generic [ref=e190]:
+                    - generic [ref=e194]:
+                      - button "cùng 1.228 người khác thích video này" [ref=e198] [cursor=pointer]:
+                        - generic: 1,2 N
+                      - button "Không thích video này" [ref=e205] [cursor=pointer]
+                    - button "Chia sẻ" [ref=e211] [cursor=pointer]
+                  - generic [ref=e215]:
+                    - generic [ref=e217]:
+                      - button "Tải xuống" [ref=e219] [cursor=pointer]
+                      - tooltip "tooltip"
+                    - button "Lưu vào danh sách phát" [ref=e225] [cursor=pointer]:
+                      - generic: Lưu
+                  - button "Thao tác khác" [ref=e230] [cursor=pointer]
+              - generic [ref=e236] [cursor=pointer]:
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic "76.004 lượt xem" [ref=e239]:
+                      - generic [ref=e240]:
+                        - generic [ref=e241]:
+                          - generic [ref=e243]: "1"
+                          - generic [ref=e244]: "2"
+                          - generic [ref=e245]: "3"
+                          - generic [ref=e246]: "4"
+                          - generic [ref=e247]: "5"
+                          - generic [ref=e248]: "6"
+                          - generic [ref=e249]: "7"
+                          - generic [ref=e250]: "8"
+                          - generic [ref=e251]: "9"
+                          - generic [ref=e252]: "0"
+                          - generic [ref=e253]: "1"
+                          - generic [ref=e254]: "2"
+                          - generic [ref=e255]: "3"
+                          - generic [ref=e256]: "4"
+                          - generic [ref=e257]: "5"
+                          - generic [ref=e258]: "6"
+                          - generic [ref=e259]: "7"
+                          - generic [ref=e260]: "8"
+                          - generic [ref=e261]: "9"
+                          - generic [ref=e262]: "0"
+                          - generic [ref=e263]: "1"
+                          - generic [ref=e264]: "2"
+                          - generic [ref=e265]: "3"
+                          - generic [ref=e266]: "4"
+                          - generic [ref=e267]: "5"
+                          - generic [ref=e268]: "6"
+                          - generic [ref=e269]: "7"
+                          - generic [ref=e270]: "8"
+                          - generic [ref=e271]: "9"
+                        - generic [ref=e273]:
+                          - generic [ref=e275]: "1"
+                          - generic [ref=e276]: "2"
+                          - generic [ref=e277]: "3"
+                          - generic [ref=e278]: "4"
+                          - generic [ref=e279]: "5"
+                          - generic [ref=e280]: "6"
+                          - generic [ref=e281]: "7"
+                          - generic [ref=e282]: "8"
+                          - generic [ref=e283]: "9"
+                          - generic [ref=e284]: "0"
+                          - generic [ref=e285]: "1"
+                          - generic [ref=e286]: "2"
+                          - generic [ref=e287]: "3"
+                          - generic [ref=e288]: "4"
+                          - generic [ref=e289]: "5"
+                          - generic [ref=e290]: "6"
+                          - generic [ref=e291]: "7"
+                          - generic [ref=e292]: "8"
+                          - generic [ref=e293]: "9"
+                          - generic [ref=e294]: "0"
+                          - generic [ref=e295]: "1"
+                          - generic [ref=e296]: "2"
+                          - generic [ref=e297]: "3"
+                          - generic [ref=e298]: "4"
+                          - generic [ref=e299]: "5"
+                          - generic [ref=e300]: "6"
+                          - generic [ref=e301]: "7"
+                          - generic [ref=e302]: "8"
+                          - generic [ref=e303]: "9"
+                        - generic [ref=e305]: .
+                        - generic [ref=e309]:
+                          - generic [ref=e311]: "1"
+                          - generic [ref=e312]: "2"
+                          - generic [ref=e313]: "3"
+                          - generic [ref=e314]: "4"
+                          - generic [ref=e315]: "5"
+                          - generic [ref=e316]: "6"
+                          - generic [ref=e317]: "7"
+                          - generic [ref=e318]: "8"
+                          - generic [ref=e319]: "9"
+                          - generic [ref=e320]: "0"
+                          - generic [ref=e321]: "1"
+                          - generic [ref=e322]: "2"
+                          - generic [ref=e323]: "3"
+                          - generic [ref=e324]: "4"
+                          - generic [ref=e325]: "5"
+                          - generic [ref=e326]: "6"
+                          - generic [ref=e327]: "7"
+                          - generic [ref=e328]: "8"
+                          - generic [ref=e329]: "9"
+                          - generic [ref=e330]: "0"
+                          - generic [ref=e331]: "1"
+                          - generic [ref=e332]: "2"
+                          - generic [ref=e333]: "3"
+                          - generic [ref=e334]: "4"
+                          - generic [ref=e335]: "5"
+                          - generic [ref=e336]: "6"
+                          - generic [ref=e337]: "7"
+                          - generic [ref=e338]: "8"
+                          - generic [ref=e339]: "9"
+                        - generic [ref=e341]:
+                          - generic [ref=e343]: "1"
+                          - generic [ref=e344]: "2"
+                          - generic [ref=e345]: "3"
+                          - generic [ref=e346]: "4"
+                          - generic [ref=e347]: "5"
+                          - generic [ref=e348]: "6"
+                          - generic [ref=e349]: "7"
+                          - generic [ref=e350]: "8"
+                          - generic [ref=e351]: "9"
+                          - generic [ref=e352]: "0"
+                          - generic [ref=e353]: "1"
+                          - generic [ref=e354]: "2"
+                          - generic [ref=e355]: "3"
+                          - generic [ref=e356]: "4"
+                          - generic [ref=e357]: "5"
+                          - generic [ref=e358]: "6"
+                          - generic [ref=e359]: "7"
+                          - generic [ref=e360]: "8"
+                          - generic [ref=e361]: "9"
+                          - generic [ref=e362]: "0"
+                          - generic [ref=e363]: "1"
+                          - generic [ref=e364]: "2"
+                          - generic [ref=e365]: "3"
+                          - generic [ref=e366]: "4"
+                          - generic [ref=e367]: "5"
+                          - generic [ref=e368]: "6"
+                          - generic [ref=e369]: "7"
+                          - generic [ref=e370]: "8"
+                          - generic [ref=e371]: "9"
+                        - generic [ref=e373]:
+                          - generic [ref=e375]: "1"
+                          - generic [ref=e376]: "2"
+                          - generic [ref=e377]: "3"
+                          - generic [ref=e378]: "4"
+                          - generic [ref=e379]: "5"
+                          - generic [ref=e380]: "6"
+                          - generic [ref=e381]: "7"
+                          - generic [ref=e382]: "8"
+                          - generic [ref=e383]: "9"
+                          - generic [ref=e384]: "0"
+                          - generic [ref=e385]: "1"
+                          - generic [ref=e386]: "2"
+                          - generic [ref=e387]: "3"
+                          - generic [ref=e388]: "4"
+                          - generic [ref=e389]: "5"
+                          - generic [ref=e390]: "6"
+                          - generic [ref=e391]: "7"
+                          - generic [ref=e392]: "8"
+                          - generic [ref=e393]: "9"
+                          - generic [ref=e394]: "0"
+                          - generic [ref=e395]: "1"
+                          - generic [ref=e396]: "2"
+                          - generic [ref=e397]: "3"
+                          - generic [ref=e398]: "4"
+                          - generic [ref=e399]: "5"
+                          - generic [ref=e400]: "6"
+                          - generic [ref=e401]: "7"
+                          - generic [ref=e402]: "8"
+                          - generic [ref=e403]: "9"
+                      - generic [ref=e405]: lượt xem
+                    - generic "9 thg" [ref=e406]:
+                      - generic [ref=e408]:
+                        - generic [ref=e410]: "1"
+                        - generic [ref=e411]: "2"
+                        - generic [ref=e412]: "3"
+                        - generic [ref=e413]: "4"
+                        - generic [ref=e414]: "5"
+                        - generic [ref=e415]: "6"
+                        - generic [ref=e416]: "7"
+                        - generic [ref=e417]: "8"
+                        - generic [ref=e418]: "9"
+                        - generic [ref=e419]: "0"
+                        - generic [ref=e420]: "1"
+                        - generic [ref=e421]: "2"
+                        - generic [ref=e422]: "3"
+                        - generic [ref=e423]: "4"
+                        - generic [ref=e424]: "5"
+                        - generic [ref=e425]: "6"
+                        - generic [ref=e426]: "7"
+                        - generic [ref=e427]: "8"
+                        - generic [ref=e428]: "9"
+                        - generic [ref=e429]: "0"
+                        - generic [ref=e430]: "1"
+                        - generic [ref=e431]: "2"
+                        - generic [ref=e432]: "3"
+                        - generic [ref=e433]: "4"
+                        - generic [ref=e434]: "5"
+                        - generic [ref=e435]: "6"
+                        - generic [ref=e436]: "7"
+                        - generic [ref=e437]: "8"
+                        - generic [ref=e438]: "9"
+                      - generic [ref=e440]: thg
+                    - link "Nuclear physics | Physics | Khan Academy" [ref=e442]:
+                      - /url: /playlist?list=PLSQl0a2vh4HCBNsg2hoAn0ZpFrmNbX4XO
+                  - tooltip "tooltip"
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - generic [ref=e447]:
+                      - text: Courses on Khan Academy are always 100% free. Start practicing—and saving your progress—now!
+                      - link "https://www.khanacademy.org/science/h..." [ref=e449]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSEp2cUV1UVdIVEt1OElGdlF1TWEzZ3xBTl9pYzRmWi1hVFY0TlZRYVJMQ2lBUVpwT0ZZbzJyZ3c5RVdEZktJM1Y5S1JfZDR1VldZbHpvTExyVUs2dC1TbzZYTFBQb1RPaFFCMVN4Q2Z1MHVwMmFoVGY2NmlLeWxHT0h4&q=https%3A%2F%2Fwww.khanacademy.org%2Fscience%2Fhighschool-physics%2Fx6679aa2c65c01e53%3Anuclear-physics%2Fx6679aa2c65c01e53%3Ahalf-life%2Fv%2Fhalf-life-radiometric-dating&v=gDpyBifg6-s
+                    - generic: …
+                  - button "...thêm" [ref=e450]
+            - text: •
+            - generic [ref=e452]:
+              - generic [ref=e453]:
+                - button [ref=e456] [cursor=pointer]:
+                  - generic [ref=e458]:
+                    - heading [level=2] [ref=e460]:
+                      - generic [ref=e461]:
+                        - text: Mua sắm tại cửa hàng của Khan Academy
+                        - img "Xem cửa hàng của Khan Academy" [ref=e463]
+                    - generic [ref=e466]: Từ Khan Academy Store
+                - button "Trình đơn thao tác" [ref=e470] [cursor=pointer]
+              - generic [ref=e474]:
+                - generic [ref=e476]:
+                  - generic "Give to Khan Academy $5, 133.000 ₫ , trên Khan Academy Store" [ref=e478] [cursor=pointer]: Give to Khan Academy $5
+                  - generic "Khan Academy Kids- Toddler T-Shirt 4T, 344.000 ₫ , trên Khan Academy Store" [ref=e490] [cursor=pointer]: Khan Academy Kids- Toddler T-Shirt 4T
+                  - generic "Khan Academy Die Cut Laptop Sticker, 53.000 ₫ , trên Khan Academy Store" [ref=e502] [cursor=pointer]: Khan Academy Die Cut Laptop Sticker
+                  - generic "Khan Academy Organic Cotton French Terry Zip Hoodie X-Large / Navy, 1.057.000 ₫ , trên Khan Academy Store" [ref=e514] [cursor=pointer]: Khan Academy Organic Cotton French Terry Zip Hoodie X-Large / Navy
+                  - generic "Khan Academy Logo Beanie, 264.000 ₫ , trên Khan Academy Store" [ref=e526] [cursor=pointer]: Khan Academy Logo Beanie
+                  - generic "Khan Academy Left Chest Logo Tee 2XL / White, 476.000 ₫ , trên Khan Academy Store" [ref=e538] [cursor=pointer]: Khan Academy Left Chest Logo Tee 2XL / White
+                - generic [ref=e550] [cursor=pointer]
+          - heading "Bình luận" [level=2] [ref=e560]
+      - generic [ref=e634]:
+        - generic [ref=e635]: Rất tiếc, bạn chưa thể quyên góp ở quốc gia hoặc khu vực này.
+        - generic [ref=e642]:
+          - generic [ref=e644] [cursor=pointer]:
+            - link [ref=e645]:
+              - /url: /watch?v=b9qxAFLpz9U&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e651]:
+                - generic [ref=e652]: 13:45
+            - generic [ref=e654]:
+              - generic [ref=e655]:
+                - heading "Nuclear fusion | Physics | Khan Academy" [level=3] [ref=e656]:
+                  - link "Nuclear fusion | Physics | Khan Academy 13 phút, 45 giây" [ref=e657]:
+                    - /url: /watch?v=b9qxAFLpz9U&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: Nuclear fusion | Physics | Khan Academy
+                - generic [ref=e659]:
+                  - group [ref=e660]:
+                    - generic [ref=e661]: Khan Academy
+                    - generic "Đã xác minh" [ref=e662]
+                  - group [ref=e665]:
+                    - generic "119 nghìn lượt xem" [ref=e669]: 119 N
+                    - generic "2 năm trước" [ref=e670]
+                  - group [ref=e671]:
+                    - generic [ref=e672]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e678]
+          - generic [ref=e683] [cursor=pointer]:
+            - link [ref=e684]:
+              - /url: /watch?v=P_SD5Rt6XMk&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e690]:
+                - generic [ref=e691]: 8:02
+            - generic [ref=e693]:
+              - generic [ref=e694]:
+                - heading "Intro to radioactive decay | Physics | Khan Academy" [level=3] [ref=e695]:
+                  - link "Intro to radioactive decay | Physics | Khan Academy 8 phút, 2 giây" [ref=e696]:
+                    - /url: /watch?v=P_SD5Rt6XMk&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: Intro to radioactive decay | Physics | Khan Academy
+                - generic [ref=e698]:
+                  - group [ref=e699]:
+                    - generic [ref=e700]: Khan Academy
+                    - generic "Đã xác minh" [ref=e701]
+                  - group [ref=e704]:
+                    - generic "264 nghìn lượt xem" [ref=e708]: 264 N
+                    - generic "2 năm trước" [ref=e709]
+                  - group [ref=e710]:
+                    - generic [ref=e711]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e717]
+          - generic [ref=e722] [cursor=pointer]:
+            - link [ref=e723]:
+              - /url: /watch?v=ksLNmLQbNT4
+              - img [ref=e729]:
+                - generic [ref=e730]: 11:49
+            - generic [ref=e732]:
+              - generic [ref=e733]:
+                - heading "Gamma decay | Physics | Khan Academy" [level=3] [ref=e734]:
+                  - link "Gamma decay | Physics | Khan Academy 11 phút, 49 giây" [ref=e735]:
+                    - /url: /watch?v=ksLNmLQbNT4
+                    - text: Gamma decay | Physics | Khan Academy
+                - generic [ref=e737]:
+                  - group [ref=e738]:
+                    - generic [ref=e739]: Khan Academy
+                    - generic "Đã xác minh" [ref=e740]
+                  - group [ref=e743]:
+                    - generic "97 nghìn lượt xem" [ref=e747]: 97 N
+                    - generic "2 năm trước" [ref=e748]
+                  - group [ref=e749]:
+                    - generic [ref=e750]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e756]
+          - generic [ref=e761] [cursor=pointer]:
+            - link [ref=e762]:
+              - /url: /watch?v=IDkNlU7zKYU&pp=ugUHEgVlbi1HQg%3D%3D
+              - img [ref=e768]:
+                - generic [ref=e769]: 4:54
+            - generic [ref=e771]:
+              - generic [ref=e772]:
+                - heading "Half life | Radioactivity | Physics | FuseSchool" [level=3] [ref=e773]:
+                  - link "Half life | Radioactivity | Physics | FuseSchool 4 phút, 54 giây" [ref=e774]:
+                    - /url: /watch?v=IDkNlU7zKYU&pp=ugUHEgVlbi1HQg%3D%3D
+                    - text: Half life | Radioactivity | Physics | FuseSchool
+                - generic [ref=e776]:
+                  - group [ref=e777]:
+                    - generic [ref=e778]: FuseSchool - Global Education
+                    - generic "Đã xác minh" [ref=e779]
+                  - group [ref=e782]:
+                    - generic "506 nghìn lượt xem" [ref=e786]: 506 N
+                    - generic "5 năm trước" [ref=e787]
+              - button "Thao tác khác" [ref=e790]
+          - generic [ref=e795] [cursor=pointer]:
+            - link [ref=e796]:
+              - /url: /watch?v=AtmD-qogkXg&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e802]:
+                - generic [ref=e803]: 10:08
+            - generic [ref=e805]:
+              - generic [ref=e806]:
+                - heading "Everything You Need to Know About Isotopes" [level=3] [ref=e807]:
+                  - link "Everything You Need to Know About Isotopes 10 phút, 8 giây" [ref=e808]:
+                    - /url: /watch?v=AtmD-qogkXg&pp=ugUEEgJlbg%3D%3D
+                    - text: Everything You Need to Know About Isotopes
+                - generic [ref=e810]:
+                  - group [ref=e811]:
+                    - generic [ref=e812]: StarTalk
+                    - generic "Đã xác minh" [ref=e813]
+                  - group [ref=e816]:
+                    - generic "581 nghìn lượt xem" [ref=e820]: 581 N
+                    - generic "2 năm trước" [ref=e821]
+              - button "Thao tác khác" [ref=e824]
+          - generic [ref=e829] [cursor=pointer]:
+            - link [ref=e830]:
+              - /url: /watch?v=88bMVbx1dzM&pp=ugUEEgJ2aQ%3D%3D
+              - img [ref=e836]:
+                - generic [ref=e837]: 21:29
+            - generic [ref=e839]:
+              - generic [ref=e840]:
+                - heading "Điều gì sẽ xảy ra nếu bạn cứ tiếp tục phóng to?" [level=3] [ref=e841]:
+                  - link "Điều gì sẽ xảy ra nếu bạn cứ tiếp tục phóng to? 21 phút" [ref=e842]:
+                    - /url: /watch?v=88bMVbx1dzM&pp=ugUEEgJ2aQ%3D%3D
+                    - text: Điều gì sẽ xảy ra nếu bạn cứ tiếp tục phóng to?
+                - generic [ref=e844]:
+                  - group [ref=e845]:
+                    - generic [ref=e846]: Veritasium
+                    - generic "Đã xác minh" [ref=e847]
+                  - group [ref=e850]:
+                    - generic "31 triệu lượt xem" [ref=e854]: 31 Tr
+                    - generic "1 năm trước" [ref=e855]
+                  - group [ref=e856]:
+                    - generic [ref=e857]: Bản lồng tiếng
+              - button "Thao tác khác" [ref=e866]
+          - generic [ref=e871] [cursor=pointer]:
+            - link [ref=e872]:
+              - /url: /watch?v=wvgT52mwM3Y&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e878]:
+                - generic [ref=e879]: 6:48
+            - generic [ref=e881]:
+              - generic [ref=e882]:
+                - heading "GCSE Physics - Radioactive Decay & Half-life | How to Calculate Activity & Half-life (2027/28 exams)" [level=3] [ref=e883]:
+                  - link "GCSE Physics - Radioactive Decay & Half-life | How to Calculate Activity & Half-life (2027/28 exams) 6 phút, 48 giây" [ref=e884]:
+                    - /url: /watch?v=wvgT52mwM3Y&pp=ugUEEgJlbg%3D%3D
+                    - text: GCSE Physics - Radioactive Decay & Half-life | How to Calculate Activity & Half-life (2027/28 exams)
+                - generic [ref=e886]:
+                  - group [ref=e887]:
+                    - generic [ref=e888]: Cognito
+                    - generic "Đã xác minh" [ref=e889]
+                  - group [ref=e892]:
+                    - generic "123 nghìn lượt xem" [ref=e896]: 123 N
+                    - generic "8 tháng trước" [ref=e897]
+              - button "Thao tác khác" [ref=e900]
+          - generic [ref=e905] [cursor=pointer]:
+            - link [ref=e906]:
+              - /url: /watch?v=u-umbBkZNC0
+              - img [ref=e912]:
+                - generic [ref=e913]: 7:26
+            - generic [ref=e915]:
+              - generic [ref=e916]:
+                - heading "Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021" [level=3] [ref=e917]:
+                  - link "Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021 7 phút, 26 giây" [ref=e918]:
+                    - /url: /watch?v=u-umbBkZNC0
+                    - text: Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021
+                - generic [ref=e920]:
+                  - group [ref=e921]:
+                    - generic [ref=e922]: Hoạt Hình Khám Phá Khoa Học Cùng Dr.Binocs
+                    - generic "Đã xác minh" [ref=e923]
+                  - group [ref=e926]:
+                    - generic "322 nghìn lượt xem" [ref=e930]: 322 N
+                    - generic "5 năm trước" [ref=e931]
+              - button "Thao tác khác" [ref=e934]
+          - generic [ref=e939] [cursor=pointer]:
+            - link [ref=e940]:
+              - /url: /watch?v=6RTvAIZXUMc&pp=ugUHEgVlbi1HQg%3D%3D
+              - img [ref=e946]:
+                - generic [ref=e947]: 4:39
+            - generic [ref=e949]:
+              - generic [ref=e950]:
+                - heading "understand radioactive half life in under 5 minutes" [level=3] [ref=e951]:
+                  - link "understand radioactive half life in under 5 minutes 4 phút, 39 giây" [ref=e952]:
+                    - /url: /watch?v=6RTvAIZXUMc&pp=ugUHEgVlbi1HQg%3D%3D
+                    - text: understand radioactive half life in under 5 minutes
+                - generic [ref=e954]:
+                  - group [ref=e955]:
+                    - generic [ref=e956]: PhysicsHigh
+                  - group [ref=e957]:
+                    - generic "5,7 nghìn lượt xem" [ref=e961]: 5,7 N
+                    - generic "2 năm trước" [ref=e962]
+              - button "Thao tác khác" [ref=e965]
+          - generic [ref=e970] [cursor=pointer]:
+            - link [ref=e971]:
+              - /url: /watch?v=5jDFqpoTgDo&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e977]:
+                - generic [ref=e978]: 10:27
+            - generic [ref=e980]:
+              - generic [ref=e981]:
+                - heading "Nuclear fission | Physics | Khan Academy" [level=3] [ref=e982]:
+                  - link "Nuclear fission | Physics | Khan Academy 10 phút, 27 giây" [ref=e983]:
+                    - /url: /watch?v=5jDFqpoTgDo&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: Nuclear fission | Physics | Khan Academy
+                - generic [ref=e985]:
+                  - group [ref=e986]:
+                    - generic [ref=e987]: Khan Academy
+                    - generic "Đã xác minh" [ref=e988]
+                  - group [ref=e991]:
+                    - generic "171 nghìn lượt xem" [ref=e995]: 171 N
+                    - generic "2 năm trước" [ref=e996]
+                  - group [ref=e997]:
+                    - generic [ref=e998]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e1004]
+          - generic [ref=e1009] [cursor=pointer]:
+            - link [ref=e1010]:
+              - /url: /watch?v=M0uw4ZNpqcI&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e1016]:
+                - generic [ref=e1017]: 8:08
+            - generic [ref=e1019]:
+              - generic [ref=e1020]:
+                - 'heading "What is Radioactivity and Is It Always Harmful: Explained in Really Simple Words" [level=3] [ref=e1021]':
+                  - 'link "What is Radioactivity and Is It Always Harmful: Explained in Really Simple Words 8 phút, 8 giây" [ref=e1022]':
+                    - /url: /watch?v=M0uw4ZNpqcI&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: "What is Radioactivity and Is It Always Harmful: Explained in Really Simple Words"
+                - generic [ref=e1024]:
+                  - group [ref=e1025]:
+                    - generic [ref=e1026]: Science ABC
+                    - generic "Đã xác minh" [ref=e1027]
+                  - group [ref=e1030]:
+                    - generic "642 nghìn lượt xem" [ref=e1034]: 642 N
+                    - generic "5 năm trước" [ref=e1035]
+              - button "Thao tác khác" [ref=e1038]
+          - generic [ref=e1043] [cursor=pointer]:
+            - link [ref=e1044]:
+              - /url: /watch?v=iGr6atucsBw
+              - img [ref=e1050]:
+                - generic [ref=e1051]: 11:48
+            - generic [ref=e1053]:
+              - generic [ref=e1054]:
+                - heading "Beta decay | Physics | Khan Academy" [level=3] [ref=e1055]:
+                  - link "Beta decay | Physics | Khan Academy 11 phút, 48 giây" [ref=e1056]:
+                    - /url: /watch?v=iGr6atucsBw
+                    - text: Beta decay | Physics | Khan Academy
+                - generic [ref=e1058]:
+                  - group [ref=e1059]:
+                    - generic [ref=e1060]: Khan Academy
+                    - generic "Đã xác minh" [ref=e1061]
+                  - group [ref=e1064]:
+                    - generic "140 nghìn lượt xem" [ref=e1068]: 140 N
+                    - generic "2 năm trước" [ref=e1069]
+                  - group [ref=e1070]:
+                    - generic [ref=e1071]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e1077]
+          - generic [ref=e1082] [cursor=pointer]:
+            - link [ref=e1083]:
+              - /url: /watch?v=qJZ1Ez28C-A&pp=ugUEEgJ2aQ%3D%3D
+              - img [ref=e1089]:
+                - generic [ref=e1090]: 33:01
+            - generic [ref=e1092]:
+              - generic [ref=e1093]:
+                - heading "Điều kỳ lạ xảy ra khi bạn tin vào Cơ học lượng tử" [level=3] [ref=e1094]:
+                  - link "Điều kỳ lạ xảy ra khi bạn tin vào Cơ học lượng tử 33 phút" [ref=e1095]:
+                    - /url: /watch?v=qJZ1Ez28C-A&pp=ugUEEgJ2aQ%3D%3D
+                    - text: Điều kỳ lạ xảy ra khi bạn tin vào Cơ học lượng tử
+                - generic [ref=e1097]:
+                  - group [ref=e1098]:
+                    - generic [ref=e1099]: Veritasium
+                    - generic "Đã xác minh" [ref=e1100]
+                  - group [ref=e1103]:
+                    - generic "20 triệu lượt xem" [ref=e1107]: 20 Tr
+                    - generic "1 năm trước" [ref=e1108]
+                  - group [ref=e1109]:
+                    - generic [ref=e1110]: Bản lồng tiếng
+              - button "Thao tác khác" [ref=e1119]
+          - generic [ref=e1124] [cursor=pointer]:
+            - link [ref=e1125]:
+              - /url: /watch?v=dyM8zPMWe2E&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1131]:
+                - generic [ref=e1132]: 10:39
+            - generic [ref=e1134]:
+              - generic [ref=e1135]:
+                - heading "Activity and Mean life | Nuclei | Physics | Khan Academy" [level=3] [ref=e1136]:
+                  - link "Activity and Mean life | Nuclei | Physics | Khan Academy 10 phút, 39 giây" [ref=e1137]:
+                    - /url: /watch?v=dyM8zPMWe2E&pp=ugUEEgJlbg%3D%3D
+                    - text: Activity and Mean life | Nuclei | Physics | Khan Academy
+                - generic [ref=e1139]:
+                  - group [ref=e1140]:
+                    - generic [ref=e1141]: Khan Academy India - English
+                  - group [ref=e1142]:
+                    - generic "8,3 nghìn lượt xem" [ref=e1146]: 8,3 N
+                    - generic "3 năm trước" [ref=e1147]
+              - button "Thao tác khác" [ref=e1150]
+          - generic [ref=e1155] [cursor=pointer]:
+            - link [ref=e1156]:
+              - /url: /watch?v=Xz-x43ZvE-Y
+              - img [ref=e1162]:
+                - generic [ref=e1163]: 14:25
+            - generic [ref=e1165]:
+              - generic [ref=e1166]:
+                - heading "Why Fusion Is More Powerful Than Fission | Neil deGrasse Tyson Explains..." [level=3] [ref=e1167]:
+                  - link "Why Fusion Is More Powerful Than Fission | Neil deGrasse Tyson Explains... 14 phút, 25 giây" [ref=e1168]:
+                    - /url: /watch?v=Xz-x43ZvE-Y
+                    - text: Why Fusion Is More Powerful Than Fission | Neil deGrasse Tyson Explains...
+                - generic [ref=e1170]:
+                  - group [ref=e1171]:
+                    - generic [ref=e1172]: StarTalk
+                    - generic "Đã xác minh" [ref=e1173]
+                  - group [ref=e1176]:
+                    - generic "970 nghìn lượt xem" [ref=e1180]: 970 N
+                    - generic "3 năm trước" [ref=e1181]
+              - button "Thao tác khác" [ref=e1184]
+          - generic [ref=e1189] [cursor=pointer]:
+            - link [ref=e1190]:
+              - /url: /watch?v=UtZw9jfIxXM&pp=ugUHEgVlbi1HQg%3D%3D
+              - img [ref=e1196]:
+                - generic [ref=e1197]: 4:54
+            - generic [ref=e1199]:
+              - generic [ref=e1200]:
+                - heading "Stable and Unstable Nuclei | Radioactivity | Physics | FuseSchool" [level=3] [ref=e1201]:
+                  - link "Stable and Unstable Nuclei | Radioactivity | Physics | FuseSchool 4 phút, 54 giây" [ref=e1202]:
+                    - /url: /watch?v=UtZw9jfIxXM&pp=ugUHEgVlbi1HQg%3D%3D
+                    - text: Stable and Unstable Nuclei | Radioactivity | Physics | FuseSchool
+                - generic [ref=e1204]:
+                  - group [ref=e1205]:
+                    - generic [ref=e1206]: FuseSchool - Global Education
+                    - generic "Đã xác minh" [ref=e1207]
+                  - group [ref=e1210]:
+                    - generic "1 triệu lượt xem" [ref=e1214]: 1 Tr
+                    - generic "7 năm trước" [ref=e1215]
+              - button "Thao tác khác" [ref=e1218]
+          - generic [ref=e1223] [cursor=pointer]:
+            - link [ref=e1224]:
+              - /url: /watch?v=3nvkHjn1ETU
+              - img [ref=e1230]:
+                - generic [ref=e1231]: 4:47
+            - generic [ref=e1233]:
+              - generic [ref=e1234]:
+                - 'heading "Nuclear Fission v Nuclear Fusion: Differences and Similarities Explained" [level=3] [ref=e1235]':
+                  - 'link "Nuclear Fission v Nuclear Fusion: Differences and Similarities Explained 4 phút, 47 giây" [ref=e1236]':
+                    - /url: /watch?v=3nvkHjn1ETU
+                    - text: "Nuclear Fission v Nuclear Fusion: Differences and Similarities Explained"
+                - generic [ref=e1238]:
+                  - group [ref=e1239]:
+                    - generic [ref=e1240]: Science ABC
+                    - generic "Đã xác minh" [ref=e1241]
+                  - group [ref=e1244]:
+                    - generic "250 nghìn lượt xem" [ref=e1248]: 250 N
+                    - generic "2 năm trước" [ref=e1249]
+              - button "Thao tác khác" [ref=e1252]
+          - generic [ref=e1257] [cursor=pointer]:
+            - link [ref=e1258]:
+              - /url: /watch?v=V4PFQpCCqzk
+              - img [ref=e1264]:
+                - generic [ref=e1265]: 4:42
+            - generic [ref=e1267]:
+              - generic [ref=e1268]:
+                - heading "What is radioactivity and half-life? | Nuclear Physics | Visual Explanation" [level=3] [ref=e1269]:
+                  - link "What is radioactivity and half-life? | Nuclear Physics | Visual Explanation 4 phút, 42 giây" [ref=e1270]:
+                    - /url: /watch?v=V4PFQpCCqzk
+                    - text: What is radioactivity and half-life? | Nuclear Physics | Visual Explanation
+                - generic [ref=e1272]:
+                  - group [ref=e1273]:
+                    - generic [ref=e1274]: Dr. Paulien Moyaert
+                  - group [ref=e1275]:
+                    - generic "54 nghìn lượt xem" [ref=e1279]: 54 N
+                    - generic "4 năm trước" [ref=e1280]
+              - button "Thao tác khác" [ref=e1283]
+          - generic [ref=e1288] [cursor=pointer]:
+            - link [ref=e1289]:
+              - /url: /watch?v=m3dpUk1emms&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e1295]:
+                - generic [ref=e1296]: 12:28
+            - generic [ref=e1298]:
+              - generic [ref=e1299]:
+                - heading "ALL Nuclear Physics Explained SIMPLY" [level=3] [ref=e1300]:
+                  - link "ALL Nuclear Physics Explained SIMPLY 12 phút, 28 giây" [ref=e1301]:
+                    - /url: /watch?v=m3dpUk1emms&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: ALL Nuclear Physics Explained SIMPLY
+                - generic [ref=e1303]:
+                  - group [ref=e1304]:
+                    - generic [ref=e1305]: Arvin Ash
+                    - generic "Đã xác minh" [ref=e1306]
+                  - group [ref=e1309]:
+                    - generic "249 nghìn lượt xem" [ref=e1313]: 249 N
+                    - generic "3 năm trước" [ref=e1314]
+              - button "Thao tác khác" [ref=e1317]
+          - generic [ref=e1322] [cursor=pointer]:
+            - link [ref=e1323]:
+              - /url: /watch?v=QCZQCi_uKpM
+              - img [ref=e1329]:
+                - generic [ref=e1330]: 11:06
+            - generic [ref=e1332]:
+              - generic [ref=e1333]:
+                - heading "Alpha decay | Physics | Khan Academy" [level=3] [ref=e1334]:
+                  - link "Alpha decay | Physics | Khan Academy 11 phút, 6 giây" [ref=e1335]:
+                    - /url: /watch?v=QCZQCi_uKpM
+                    - text: Alpha decay | Physics | Khan Academy
+                - generic [ref=e1337]:
+                  - group [ref=e1338]:
+                    - generic [ref=e1339]: Khan Academy
+                    - generic "Đã xác minh" [ref=e1340]
+                  - group [ref=e1343]:
+                    - generic "132 nghìn lượt xem" [ref=e1347]: 132 N
+                    - generic "2 năm trước" [ref=e1348]
+              - button "Thao tác khác" [ref=e1351]
+          - generic [ref=e1356] [cursor=pointer]:
+            - link [ref=e1357]:
+              - /url: /watch?v=kVqCLiRmom4&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1363]:
+                - generic [ref=e1364]: 11:50
+            - generic [ref=e1366]:
+              - generic [ref=e1367]:
+                - heading "Binding energy graph | Nuclei | Physics | Khan Academy" [level=3] [ref=e1368]:
+                  - link "Binding energy graph | Nuclei | Physics | Khan Academy 11 phút, 50 giây" [ref=e1369]:
+                    - /url: /watch?v=kVqCLiRmom4&pp=ugUEEgJlbg%3D%3D
+                    - text: Binding energy graph | Nuclei | Physics | Khan Academy
+                - generic [ref=e1371]:
+                  - group [ref=e1372]:
+                    - generic [ref=e1373]: Khan Academy India - English
+                  - group [ref=e1374]:
+                    - generic "130 nghìn lượt xem" [ref=e1378]: 130 N
+                    - generic "5 năm trước" [ref=e1379]
+              - button "Thao tác khác" [ref=e1382]
+          - generic [ref=e1387] [cursor=pointer]:
+            - link [ref=e1388]:
+              - /url: /watch?v=HVZbChlRiOU&pp=ugUEEgJ2aQ%3D%3D
+              - img [ref=e1394]:
+                - generic [ref=e1395]: 9:33
+            - generic [ref=e1397]:
+              - generic [ref=e1398]:
+                - heading "Lịch sử Năng lượng Hạt Nhân - EZ Sử" [level=3] [ref=e1399]:
+                  - link "Lịch sử Năng lượng Hạt Nhân - EZ Sử 9 phút, 33 giây" [ref=e1400]:
+                    - /url: /watch?v=HVZbChlRiOU&pp=ugUEEgJ2aQ%3D%3D
+                    - text: Lịch sử Năng lượng Hạt Nhân - EZ Sử
+                - generic [ref=e1402]:
+                  - group [ref=e1403]:
+                    - generic [ref=e1404]: EZ Sử
+                  - group [ref=e1405]:
+                    - generic "865 nghìn lượt xem" [ref=e1409]: 865 N
+                    - generic "2 năm trước" [ref=e1410]
+              - button "Thao tác khác" [ref=e1413]
+          - generic [ref=e1418] [cursor=pointer]:
+            - link [ref=e1419]:
+              - /url: /watch?v=1ui5YnYkYpc&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1425]:
+                - generic [ref=e1426]: 4:58
+            - generic [ref=e1428]:
+              - generic [ref=e1429]:
+                - heading "GCSE Physics - Alpha, Beta & Gamma Radiation | How Ionising & Penetrating They Are (2027/28 exams)" [level=3] [ref=e1430]:
+                  - link "GCSE Physics - Alpha, Beta & Gamma Radiation | How Ionising & Penetrating They Are (2027/28 exams) 4 phút, 58 giây" [ref=e1431]:
+                    - /url: /watch?v=1ui5YnYkYpc&pp=ugUEEgJlbg%3D%3D
+                    - text: GCSE Physics - Alpha, Beta & Gamma Radiation | How Ionising & Penetrating They Are (2027/28 exams)
+                - generic [ref=e1433]:
+                  - group [ref=e1434]:
+                    - generic [ref=e1435]: Cognito
+                    - generic "Đã xác minh" [ref=e1436]
+                  - group [ref=e1439]:
+                    - generic "111 nghìn lượt xem" [ref=e1443]: 111 N
+                    - generic "8 tháng trước" [ref=e1444]
+              - button "Thao tác khác" [ref=e1447]
+          - generic [ref=e1452] [cursor=pointer]:
+            - link [ref=e1453]:
+              - /url: /watch?v=opjJ-3Tkfyg&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1459]:
+                - generic [ref=e1460]: 5:53
+            - generic [ref=e1462]:
+              - generic [ref=e1463]:
+                - 'heading "Nuclear Half Life: Intro and Explanation" [level=3] [ref=e1464]':
+                  - 'link "Nuclear Half Life: Intro and Explanation 5 phút, 53 giây" [ref=e1465]':
+                    - /url: /watch?v=opjJ-3Tkfyg&pp=ugUEEgJlbg%3D%3D
+                    - text: "Nuclear Half Life: Intro and Explanation"
+                - generic [ref=e1467]:
+                  - group [ref=e1468]:
+                    - generic [ref=e1469]: Tyler DeWitt
+                    - generic "Đã xác minh" [ref=e1470]
+                  - group [ref=e1473]:
+                    - generic "757 nghìn lượt xem" [ref=e1477]: 757 N
+                    - generic "14 năm trước" [ref=e1478]
+              - button "Thao tác khác" [ref=e1481]
+          - generic [ref=e1486] [cursor=pointer]:
+            - link [ref=e1487]:
+              - /url: /watch?v=ZHWi_Ds4rOM
+              - img [ref=e1493]:
+                - generic [ref=e1494]: 11:06
+            - generic [ref=e1496]:
+              - generic [ref=e1497]:
+                - heading "Sức Mạnh Của Uranium Nguyên Tố Mạnh Nhất Vũ Trụ | Thư Viện Thiên Văn" [level=3] [ref=e1498]:
+                  - link "Sức Mạnh Của Uranium Nguyên Tố Mạnh Nhất Vũ Trụ | Thư Viện Thiên Văn 11 phút, 6 giây" [ref=e1499]:
+                    - /url: /watch?v=ZHWi_Ds4rOM
+                    - text: Sức Mạnh Của Uranium Nguyên Tố Mạnh Nhất Vũ Trụ | Thư Viện Thiên Văn
+                - generic [ref=e1501]:
+                  - group [ref=e1502]:
+                    - generic [ref=e1503]: Thư Viện Thiên Văn
+                    - generic "Đã xác minh" [ref=e1504]
+                  - group [ref=e1507]:
+                    - generic "1,6 triệu lượt xem" [ref=e1511]: 1,6 Tr
+                    - generic "5 năm trước" [ref=e1512]
+              - button "Thao tác khác" [ref=e1515]
+          - generic [ref=e1520] [cursor=pointer]:
+            - link [ref=e1521]:
+              - /url: /watch?v=N0lBsW3ZzN8&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e1527]:
+                - generic [ref=e1528]: 14:43
+            - generic [ref=e1530]:
+              - generic [ref=e1531]:
+                - heading "Atomic spectra | Physics | Khan Academy" [level=3] [ref=e1532]:
+                  - link "Atomic spectra | Physics | Khan Academy 14 phút, 43 giây" [ref=e1533]:
+                    - /url: /watch?v=N0lBsW3ZzN8&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: Atomic spectra | Physics | Khan Academy
+                - generic [ref=e1535]:
+                  - group [ref=e1536]:
+                    - generic [ref=e1537]: Khan Academy
+                    - generic "Đã xác minh" [ref=e1538]
+                  - group [ref=e1541]:
+                    - generic "302 nghìn lượt xem" [ref=e1545]: 302 N
+                    - generic "2 năm trước" [ref=e1546]
+                  - group [ref=e1547]:
+                    - generic [ref=e1548]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e1554]

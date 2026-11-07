@@ -1,0 +1,19 @@
+{
+  "outline_pages": 60,
+  "article_pages": 25,
+  "outline_headings": 147,
+  "toc_entries": 39,
+  "source_files_unchanged": 351,
+  "article_changed_parts": [
+    "[Content_Types].xml",
+    "word/document.xml"
+  ],
+  "article_media": 24,
+  "article_tables": 3,
+  "article_OMML": 5,
+  "outline_tables": 7,
+  "outline_OMML": 8,
+  "article_changed_paragraphs": 47,
+  "outline_sha256": "01e78d991bf1f36fe3f0f00a644a281359fb09dc2e10ed93e60fc2ab53645474",
+  "article_sha256": "82f83173c61d015ed6e7a2950b4c6dfdb57c9a599230193e8f2c1e248ec6a9cc"
+}

@@ -1,0 +1,651 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Hướng dẫn" [ref=e9] [cursor=pointer]
+        - generic [ref=e13]:
+          - link "Trang chủ YouTube" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]: VN
+        - button "Bỏ qua điều hướng" [ref=e24] [cursor=pointer]
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Tìm kiếm" [expanded] [ref=e34]
+              - button [ref=e37] [cursor=pointer]
+            - button "Search" [ref=e38] [cursor=pointer]
+        - generic [ref=e43]:
+          - button "Tìm kiếm bằng giọng nói" [ref=e45] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "Cài đặt" [ref=e55] [cursor=pointer]
+        - link "Đăng nhập" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DR7WPEYGr1Vs&hl=vi&ec=65620
+  - main [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e72]:
+          - generic [ref=e75] [cursor=pointer]
+          - complementary [ref=e76]:
+            - generic "Trình phát video YouTube" [active] [ref=e79]:
+              - button "Phát" [ref=e83] [cursor=pointer]
+              - generic:
+                - button "Hiển thị thẻ" [ref=e85] [cursor=pointer]
+                - button [ref=e90] [cursor=pointer]:
+                  - img "Hình mờ của kênh" [ref=e91]
+              - generic [ref=e92]:
+                - generic [ref=e93] [cursor=pointer]:
+                  - slider "Thanh trượt tìm kiếm" [ref=e94]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "Nhấp vào hoặc cuộn bảng điều khiển để tua chính xác"
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - button "Phát (k)" [ref=e105] [cursor=pointer]
+                    - generic [ref=e106]:
+                      - button "Tắt tiếng (m)" [ref=e108] [cursor=pointer]
+                      - slider "Âm lượng":
+                        - generic [ref=e109] [cursor=pointer]
+                    - button "0 Phút 0 Giây / 8 Phút 6 Giây" [ref=e112] [cursor=pointer]: 0:00 / 8:06
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - button "Chế độ tự động phát đang bật" [ref=e115] [cursor=pointer]
+                      - button "Không có phụ đề" [ref=e118] [cursor=pointer]
+                      - button "Cài đặt" [ref=e120] [cursor=pointer]
+                    - generic [ref=e121]:
+                      - button "Chế độ rạp chiếu phim (t)" [ref=e122] [cursor=pointer]
+                      - button "Toàn màn hình (f)" [ref=e123] [cursor=pointer]
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - heading "Những vấn đề của năng lượng hạt nhân - M. V. Ramana và Sajan Saini" [level=1] [ref=e130]
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]:
+                    - link [ref=e134] [cursor=pointer]:
+                      - /url: /@TEDEd
+                      - img "TED-Ed" [ref=e136]
+                    - generic [ref=e137]:
+                      - generic [ref=e138]:
+                        - generic "TED-Ed" [ref=e141]:
+                          - link "TED-Ed" [ref=e142] [cursor=pointer]:
+                            - /url: /@TEDEd
+                        - img "Đã xác minh" [ref=e147]
+                      - generic "22,9 triệu người đăng ký" [ref=e151]: 22,9 Tr người đăng ký
+                  - button "Đăng ký TED-Ed." [ref=e157] [cursor=pointer]:
+                    - generic: Đăng ký
+                - generic [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic [ref=e169]:
+                      - button "cùng 43.110 người khác thích video này" [ref=e173] [cursor=pointer]:
+                        - generic: 43 N
+                      - button "Không thích video này" [ref=e180] [cursor=pointer]
+                    - button "Chia sẻ" [ref=e186] [cursor=pointer]
+                  - generic [ref=e190]:
+                    - generic [ref=e192]:
+                      - button "Tải xuống" [ref=e194] [cursor=pointer]
+                      - tooltip "tooltip"
+                    - button "Lưu vào danh sách phát" [ref=e200] [cursor=pointer]:
+                      - generic: Lưu
+                  - button "Thao tác khác" [ref=e205] [cursor=pointer]
+              - generic [ref=e211] [cursor=pointer]:
+                - generic [ref=e212]:
+                  - generic [ref=e213]: 3,3 Tr lượt xem 9 năm trước
+                  - tooltip "tooltip"
+                - generic [ref=e215]:
+                  - generic [ref=e216]:
+                    - generic [ref=e219]:
+                      - text: Xem bài giảng đầy đủ tại địa chỉ
+                      - link "http://ed.ted.com/lessons/what-are-th..." [ref=e221]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljRmcyc25qZ09YS2t0Z21pbXJWOTlaR3xBSTVJdTVzdWRQQmhmaUpnYnBoRTZXc2JwUDJZbVBLb19XV3VoelF4UjJzc1E5b2xIc0NVNWFTeENWLVVPQXZaUzNVRmFucDF1UGJaQ29PYjZlOG15OUVKNXhuemFsYVpqanJ0&q=http%3A%2F%2Fed.ted.com%2Flessons%2Fwhat-are-the-challenges-of-nuclear-power-m-v-ramana-and-sajan-saini&v=R7WPEYGr1Vs
+                      - text: Khả năng chúng ta khai thác nguồn năng lượng khổng lồ từ hạt nhân uranium đã khiến nhiều người ca tụng năng lượng hạt nhân
+                    - generic: …
+                  - button "...thêm" [ref=e222]
+            - text: •
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - button [ref=e228] [cursor=pointer]:
+                  - generic [ref=e230]:
+                    - heading [level=2] [ref=e232]:
+                      - generic [ref=e233]:
+                        - text: Mua sắm tại cửa hàng của TED-Ed
+                        - img "Xem cửa hàng của TED-Ed" [ref=e235]
+                    - generic [ref=e238]: Từ TED-Ed Shop
+                - button "Trình đơn thao tác" [ref=e242] [cursor=pointer]
+              - generic [ref=e246]:
+                - generic [ref=e248]:
+                  - generic "Stay Curious Black / M, Có hạn chế về khu vực vận chuyển , trên TED-Ed Shop" [ref=e250] [cursor=pointer]:
+                    - generic [ref=e255]:
+                      - generic [ref=e256]: Stay Curious Black / M
+                      - generic [ref=e261]: Có hạn chế về khu vực vận chuyển
+                  - generic "Left hand, best hand Heather Midnight Navy / M, Có hạn chế về khu vực vận chuyển , trên TED-Ed Shop" [ref=e264] [cursor=pointer]:
+                    - generic [ref=e269]:
+                      - generic [ref=e270]: Left hand, best hand Heather Midnight Navy / M
+                      - generic [ref=e275]: Có hạn chế về khu vực vận chuyển
+                  - generic "Oh Beehive! Heather True Royal / M, Có hạn chế về khu vực vận chuyển , trên TED-Ed Shop" [ref=e278] [cursor=pointer]:
+                    - generic [ref=e283]:
+                      - generic [ref=e284]: Oh Beehive! Heather True Royal / M
+                      - generic [ref=e289]: Có hạn chế về khu vực vận chuyển
+                  - generic "TED-Ed Loves You Tote Cream, Có hạn chế về khu vực vận chuyển , trên TED-Ed Shop" [ref=e292] [cursor=pointer]:
+                    - generic [ref=e297]:
+                      - generic [ref=e298]: TED-Ed Loves You Tote Cream
+                      - generic [ref=e303]: Có hạn chế về khu vực vận chuyển
+                  - generic "TED-Ed Loves You Tote Black, Có hạn chế về khu vực vận chuyển , trên TED-Ed Shop" [ref=e306] [cursor=pointer]:
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: TED-Ed Loves You Tote Black
+                      - generic [ref=e317]: Có hạn chế về khu vực vận chuyển
+                  - generic "Stay Curious Notebook, Có hạn chế về khu vực vận chuyển , trên TED-Ed Shop" [ref=e320] [cursor=pointer]:
+                    - generic [ref=e325]:
+                      - generic [ref=e326]: Stay Curious Notebook
+                      - generic [ref=e331]: Có hạn chế về khu vực vận chuyển
+                - generic [ref=e334] [cursor=pointer]
+          - heading "Bình luận" [level=2] [ref=e344]
+      - generic [ref=e423]:
+        - generic [ref=e425] [cursor=pointer]:
+          - link [ref=e426]:
+            - /url: /watch?v=HVZbChlRiOU&pp=ugUEEgJ2aQ%3D%3D
+            - img [ref=e432]:
+              - generic [ref=e433]: 9:33
+          - generic [ref=e435]:
+            - generic [ref=e436]:
+              - heading "Lịch sử Năng lượng Hạt Nhân - EZ Sử" [level=3] [ref=e437]:
+                - link "Lịch sử Năng lượng Hạt Nhân - EZ Sử 9 phút, 33 giây" [ref=e438]:
+                  - /url: /watch?v=HVZbChlRiOU&pp=ugUEEgJ2aQ%3D%3D
+                  - text: Lịch sử Năng lượng Hạt Nhân - EZ Sử
+              - generic [ref=e440]:
+                - group [ref=e441]:
+                  - generic [ref=e442]: EZ Sử
+                - group [ref=e443]:
+                  - generic "865 nghìn lượt xem" [ref=e447]: 865 N
+                  - generic "2 năm trước" [ref=e448]
+            - button "Thao tác khác" [ref=e451]
+        - generic [ref=e456] [cursor=pointer]:
+          - link [ref=e457]:
+            - /url: /watch?v=boUqlyYfUuo&pp=0gcJCS0MAYcqIYzv
+            - img [ref=e463]:
+              - generic [ref=e464]: 9:38
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - heading "Why Uranium Enrichment is a Big Deal" [level=3] [ref=e468]:
+                - link "Why Uranium Enrichment is a Big Deal 9 phút, 38 giây" [ref=e469]:
+                  - /url: /watch?v=boUqlyYfUuo&pp=0gcJCS0MAYcqIYzv
+                  - text: Why Uranium Enrichment is a Big Deal
+              - generic [ref=e471]:
+                - group [ref=e472]:
+                  - generic [ref=e473]: StarTalk
+                  - generic "Đã xác minh" [ref=e474]
+                - group [ref=e477]:
+                  - generic "5,4 triệu lượt xem" [ref=e481]: 5,4 Tr
+                  - generic "1 năm trước" [ref=e482]
+            - button "Thao tác khác" [ref=e485]
+        - generic [ref=e490] [cursor=pointer]:
+          - link [ref=e491]:
+            - /url: /watch?v=_Js4R-kBtpY&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e497]:
+              - generic [ref=e498]: 12:50
+          - generic [ref=e500]:
+            - generic [ref=e501]:
+              - heading "Why It’s So Hard To Build Nuclear Power Plants In The U.S." [level=3] [ref=e502]:
+                - link "Why It’s So Hard To Build Nuclear Power Plants In The U.S. 12 phút, 50 giây" [ref=e503]:
+                  - /url: /watch?v=_Js4R-kBtpY&pp=ugUEEgJlbg%3D%3D
+                  - text: Why It’s So Hard To Build Nuclear Power Plants In The U.S.
+              - generic [ref=e505]:
+                - group [ref=e506]:
+                  - generic [ref=e507]: CNBC
+                  - generic "Đã xác minh" [ref=e508]
+                - group [ref=e511]:
+                  - generic "493 nghìn lượt xem" [ref=e515]: 493 N
+                  - generic "2 năm trước" [ref=e516]
+            - button "Thao tác khác" [ref=e519]
+        - generic [ref=e524] [cursor=pointer]:
+          - link [ref=e525]:
+            - /url: /watch?v=0pF6ZLCxceM
+            - img [ref=e531]:
+              - generic [ref=e532]: 6:05
+          - generic [ref=e534]:
+            - generic [ref=e535]:
+              - heading "Can you survive a Komodo dragon bite? - Achmad Ariefiandy" [level=3] [ref=e536]:
+                - link "Can you survive a Komodo dragon bite? - Achmad Ariefiandy 6 phút, 5 giây" [ref=e537]:
+                  - /url: /watch?v=0pF6ZLCxceM
+                  - text: Can you survive a Komodo dragon bite? - Achmad Ariefiandy
+              - generic [ref=e539]:
+                - group [ref=e540]:
+                  - generic [ref=e541]: TED-Ed
+                  - generic "Đã xác minh" [ref=e542]
+                - group [ref=e545]:
+                  - generic "1 triệu lượt xem" [ref=e549]: 1 Tr
+                  - generic "1 năm trước" [ref=e550]
+            - button "Thao tác khác" [ref=e553]
+        - generic [ref=e558] [cursor=pointer]:
+          - link [ref=e559]:
+            - /url: /watch?v=u-umbBkZNC0
+            - img [ref=e565]:
+              - generic [ref=e566]: 7:26
+          - generic [ref=e568]:
+            - generic [ref=e569]:
+              - heading "Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021" [level=3] [ref=e570]:
+                - link "Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021 7 phút, 26 giây" [ref=e571]:
+                  - /url: /watch?v=u-umbBkZNC0
+                  - text: Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021
+              - generic [ref=e573]:
+                - group [ref=e574]:
+                  - generic [ref=e575]: Hoạt Hình Khám Phá Khoa Học Cùng Dr.Binocs
+                  - generic "Đã xác minh" [ref=e576]
+                - group [ref=e579]:
+                  - generic "322 nghìn lượt xem" [ref=e583]: 322 N
+                  - generic "5 năm trước" [ref=e584]
+            - button "Thao tác khác" [ref=e587]
+        - generic [ref=e592] [cursor=pointer]:
+          - link [ref=e593]:
+            - /url: /watch?v=h5Zwg3Ag-bE&pp=ugUEEgJ2aQ%3D%3D
+            - img [ref=e599]:
+              - generic [ref=e600]: 28:18
+          - generic [ref=e602]:
+            - generic [ref=e603]:
+              - heading "Laze và Sấm sét - Cái nào có công lực khủng hơn?" [level=3] [ref=e604]:
+                - link "Laze và Sấm sét - Cái nào có công lực khủng hơn? 28 phút" [ref=e605]:
+                  - /url: /watch?v=h5Zwg3Ag-bE&pp=ugUEEgJ2aQ%3D%3D
+                  - text: Laze và Sấm sét - Cái nào có công lực khủng hơn?
+              - generic [ref=e607]:
+                - group [ref=e608]:
+                  - generic [ref=e609]: Mark Rober
+                  - generic "Đã xác minh" [ref=e610]
+                - group [ref=e613]:
+                  - generic "64 triệu lượt xem" [ref=e617]: 64 Tr
+                  - generic "1 năm trước" [ref=e618]
+                - group [ref=e619]:
+                  - generic [ref=e620]: Bản lồng tiếng
+            - button "Thao tác khác" [ref=e629]
+        - generic [ref=e634] [cursor=pointer]:
+          - link [ref=e635]:
+            - /url: /watch?v=JMdO5KyjwAw&pp=0gcJCS0MAYcqIYzv
+            - img [ref=e641]:
+              - generic [ref=e642]: 5:38
+          - generic [ref=e644]:
+            - generic [ref=e645]:
+              - heading "Dịch chuyển tức thời liệu có khả thi? - Sajan Saini" [level=3] [ref=e646]:
+                - link "Dịch chuyển tức thời liệu có khả thi? - Sajan Saini 5 phút, 38 giây" [ref=e647]:
+                  - /url: /watch?v=JMdO5KyjwAw&pp=0gcJCS0MAYcqIYzv
+                  - text: Dịch chuyển tức thời liệu có khả thi? - Sajan Saini
+              - generic [ref=e649]:
+                - group [ref=e650]:
+                  - generic [ref=e651]: TED-Ed
+                  - generic "Đã xác minh" [ref=e652]
+                - group [ref=e655]:
+                  - generic "3,2 triệu lượt xem" [ref=e659]: 3,2 Tr
+                  - generic "9 năm trước" [ref=e660]
+            - button "Thao tác khác" [ref=e663]
+        - generic [ref=e668] [cursor=pointer]:
+          - link [ref=e669]:
+            - /url: /watch?v=jG7ULeWUfDw
+            - img [ref=e675]:
+              - generic [ref=e676]: 5:47
+          - generic [ref=e678]:
+            - generic [ref=e679]:
+              - heading "Why magnets stumped scientists for so long - Rachel Yang" [level=3] [ref=e680]:
+                - link "Why magnets stumped scientists for so long - Rachel Yang 5 phút, 47 giây" [ref=e681]:
+                  - /url: /watch?v=jG7ULeWUfDw
+                  - text: Why magnets stumped scientists for so long - Rachel Yang
+              - generic [ref=e683]:
+                - group [ref=e684]:
+                  - generic [ref=e685]: TED-Ed
+                  - generic "Đã xác minh" [ref=e686]
+                  - generic [ref=e689]: và Nobel Prize
+                  - generic "Đã xác minh" [ref=e690]
+                - group [ref=e693]:
+                  - generic "428 nghìn lượt xem" [ref=e697]: 428 N
+                  - generic "10 ngày trước" [ref=e698]
+            - button "Thao tác khác" [ref=e701]
+        - generic [ref=e706] [cursor=pointer]:
+          - link [ref=e707]:
+            - /url: /watch?v=PRWwXeRIvoI&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e713]:
+              - generic [ref=e714]: 46:47
+          - generic [ref=e716]:
+            - generic [ref=e717]:
+              - heading "How Nuclear Power Works" [level=3] [ref=e718]:
+                - link "How Nuclear Power Works 46 phút" [ref=e719]:
+                  - /url: /watch?v=PRWwXeRIvoI&pp=ugUEEgJlbg%3D%3D
+                  - text: How Nuclear Power Works
+              - generic [ref=e721]:
+                - group [ref=e722]:
+                  - generic [ref=e723]: Animagraffs
+                  - generic "Đã xác minh" [ref=e724]
+                - group [ref=e727]:
+                  - generic "720 nghìn lượt xem" [ref=e731]: 720 N
+                  - generic "3 tháng trước" [ref=e732]
+            - button "Thao tác khác" [ref=e735]
+        - generic [ref=e740] [cursor=pointer]:
+          - link [ref=e741]:
+            - /url: /watch?v=ekUbBot8tDA&pp=ugUEEgJ2aQ%3D%3D
+            - img [ref=e747]:
+              - generic [ref=e748]: 12:15
+          - generic [ref=e750]:
+            - generic [ref=e751]:
+              - heading "5 thí nghiệm khoa học dễ làm tại nhà cùng Mark Rober" [level=3] [ref=e752]:
+                - link "5 thí nghiệm khoa học dễ làm tại nhà cùng Mark Rober 12 phút, 15 giây" [ref=e753]:
+                  - /url: /watch?v=ekUbBot8tDA&pp=ugUEEgJ2aQ%3D%3D
+                  - text: 5 thí nghiệm khoa học dễ làm tại nhà cùng Mark Rober
+              - generic [ref=e755]:
+                - group [ref=e756]:
+                  - generic [ref=e757]: CrunchLabs
+                  - generic "Đã xác minh" [ref=e758]
+                  - generic: và Mark Rober
+                  - generic "Đã xác minh" [ref=e761]
+                - group [ref=e764]:
+                  - generic "18 triệu lượt xem" [ref=e768]: 18 Tr
+                  - generic "1 năm trước" [ref=e769]
+                - group [ref=e770]:
+                  - generic [ref=e771]: Bản lồng tiếng
+            - button "Thao tác khác" [ref=e780]
+        - generic [ref=e785] [cursor=pointer]:
+          - link [ref=e786]:
+            - /url: /watch?v=h2MlS09KJP4
+            - img [ref=e792]:
+              - generic [ref=e793]: 5:49
+          - generic [ref=e795]:
+            - generic [ref=e796]:
+              - heading "Liệu chúng ta có thể tạo ra vật chất tối? - Rolf Landua" [level=3] [ref=e797]:
+                - link "Liệu chúng ta có thể tạo ra vật chất tối? - Rolf Landua 5 phút, 49 giây" [ref=e798]:
+                  - /url: /watch?v=h2MlS09KJP4
+                  - text: Liệu chúng ta có thể tạo ra vật chất tối? - Rolf Landua
+              - generic [ref=e800]:
+                - group [ref=e801]:
+                  - generic [ref=e802]: TED-Ed
+                  - generic "Đã xác minh" [ref=e803]
+                - group [ref=e806]:
+                  - generic "1,4 triệu lượt xem" [ref=e810]: 1,4 Tr
+                  - generic "9 năm trước" [ref=e811]
+            - button "Thao tác khác" [ref=e814]
+        - generic [ref=e819] [cursor=pointer]:
+          - link [ref=e820]:
+            - /url: /watch?v=hiAsmUjSmdI
+            - img [ref=e826]:
+              - generic [ref=e827]: 15:25
+          - generic [ref=e829]:
+            - generic [ref=e830]:
+              - heading "Nuclear waste is reusable. Why aren’t we doing it?" [level=3] [ref=e831]:
+                - link "Nuclear waste is reusable. Why aren’t we doing it? 15 phút" [ref=e832]:
+                  - /url: /watch?v=hiAsmUjSmdI
+                  - text: Nuclear waste is reusable. Why aren’t we doing it?
+              - generic [ref=e834]:
+                - group [ref=e835]:
+                  - generic [ref=e836]: DW Planet A
+                  - generic "Đã xác minh" [ref=e837]
+                - group [ref=e840]:
+                  - generic "3,9 triệu lượt xem" [ref=e844]: 3,9 Tr
+                  - generic "2 năm trước" [ref=e845]
+            - button "Thao tác khác" [ref=e848]
+        - generic [ref=e853] [cursor=pointer]:
+          - link [ref=e854]:
+            - /url: /watch?v=ydX2R29FU7g
+            - img [ref=e860]:
+              - generic [ref=e861]: 19:18
+          - generic [ref=e863]:
+            - generic [ref=e864]:
+              - heading "Giải Thích Chernobyl! Tại Sao Phát Nổ và Trở Thành Thảm Họa Hạt Nhân Tồi Tệ Nhất Lịch Sử" [level=3] [ref=e865]:
+                - link "Giải Thích Chernobyl! Tại Sao Phát Nổ và Trở Thành Thảm Họa Hạt Nhân Tồi Tệ Nhất Lịch Sử 19 phút" [ref=e866]:
+                  - /url: /watch?v=ydX2R29FU7g
+                  - text: Giải Thích Chernobyl! Tại Sao Phát Nổ và Trở Thành Thảm Họa Hạt Nhân Tồi Tệ Nhất Lịch Sử
+              - generic [ref=e868]:
+                - group [ref=e869]:
+                  - generic [ref=e870]: Trạm Cuối
+                  - generic "Đã xác minh" [ref=e871]
+                - group [ref=e874]:
+                  - generic "1 triệu lượt xem" [ref=e878]: 1 Tr
+                  - generic "2 năm trước" [ref=e879]
+            - button "Thao tác khác" [ref=e882]
+        - generic [ref=e887] [cursor=pointer]:
+          - link [ref=e888]:
+            - /url: /watch?v=Sqr-PdVYhY4&pp=ugUEEgJ2aQ%3D%3D
+            - img [ref=e894]:
+              - generic [ref=e895]: 21:21
+          - generic [ref=e897]:
+            - generic [ref=e898]:
+              - heading "Robot ghép hình nhanh gấp 200 lần người thường" [level=3] [ref=e899]:
+                - link "Robot ghép hình nhanh gấp 200 lần người thường 21 phút" [ref=e900]:
+                  - /url: /watch?v=Sqr-PdVYhY4&pp=ugUEEgJ2aQ%3D%3D
+                  - text: Robot ghép hình nhanh gấp 200 lần người thường
+              - generic [ref=e902]:
+                - group [ref=e903]:
+                  - generic [ref=e904]: Mark Rober
+                  - generic "Đã xác minh" [ref=e905]
+                - group [ref=e908]:
+                  - generic "41 triệu lượt xem" [ref=e912]: 41 Tr
+                  - generic "2 năm trước" [ref=e913]
+                - group [ref=e914]:
+                  - generic [ref=e915]: Bản lồng tiếng
+            - button "Thao tác khác" [ref=e924]
+        - generic [ref=e929] [cursor=pointer]:
+          - link [ref=e930]:
+            - /url: /watch?v=X49o8x0WM4w&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e936]:
+              - generic [ref=e937]: 10:09
+          - generic [ref=e939]:
+            - generic [ref=e940]:
+              - heading "Going Nuclear with Neil deGrasse Tyson" [level=3] [ref=e941]:
+                - link "Going Nuclear with Neil deGrasse Tyson 10 phút, 9 giây" [ref=e942]:
+                  - /url: /watch?v=X49o8x0WM4w&pp=ugUEEgJlbg%3D%3D
+                  - text: Going Nuclear with Neil deGrasse Tyson
+              - generic [ref=e944]:
+                - group [ref=e945]:
+                  - generic [ref=e946]: StarTalk
+                  - generic "Đã xác minh" [ref=e947]
+                - group [ref=e950]:
+                  - generic "1,2 triệu lượt xem" [ref=e954]: 1,2 Tr
+                  - generic "8 năm trước" [ref=e955]
+            - button "Thao tác khác" [ref=e958]
+        - generic [ref=e963] [cursor=pointer]:
+          - link [ref=e964]:
+            - /url: /watch?v=88EFH1pnXQ0
+            - img [ref=e970]:
+              - generic [ref=e971]: 7:39
+          - generic [ref=e973]:
+            - generic [ref=e974]:
+              - heading "How Nuclear Power Plant Works | 3D Animation" [level=3] [ref=e975]:
+                - link "How Nuclear Power Plant Works | 3D Animation 7 phút, 39 giây" [ref=e976]:
+                  - /url: /watch?v=88EFH1pnXQ0
+                  - text: How Nuclear Power Plant Works | 3D Animation
+              - generic [ref=e978]:
+                - group [ref=e979]:
+                  - generic [ref=e980]: Literacy Corner Global
+                - group [ref=e981]:
+                  - generic "114 nghìn lượt xem" [ref=e985]: 114 N
+                  - generic "3 năm trước" [ref=e986]
+            - button "Thao tác khác" [ref=e989]
+        - generic [ref=e994] [cursor=pointer]:
+          - link [ref=e995]:
+            - /url: /watch?v=VUE93QAcxnU
+            - img [ref=e1001]:
+              - generic [ref=e1002]: 16:50
+          - generic [ref=e1004]:
+            - generic [ref=e1005]:
+              - heading "Những cơn bão nguy hiểm nhất lịch sử thế giới" [level=3] [ref=e1006]:
+                - link "Những cơn bão nguy hiểm nhất lịch sử thế giới 16 phút" [ref=e1007]:
+                  - /url: /watch?v=VUE93QAcxnU
+                  - text: Những cơn bão nguy hiểm nhất lịch sử thế giới
+              - generic [ref=e1009]:
+                - group [ref=e1010]:
+                  - generic [ref=e1011]: Vui Vẻ
+                  - generic "Đã xác minh" [ref=e1012]
+                - group [ref=e1015]:
+                  - generic "1,8 triệu lượt xem" [ref=e1019]: 1,8 Tr
+                  - generic "11 tháng trước" [ref=e1020]
+            - button "Thao tác khác" [ref=e1023]
+        - generic [ref=e1028] [cursor=pointer]:
+          - link [ref=e1029]:
+            - /url: /watch?v=AF8d72mA41M&pp=ugUEEgJ2aQ%3D%3D
+            - img [ref=e1035]:
+              - generic [ref=e1036]: 33:45
+          - generic [ref=e1038]:
+            - generic [ref=e1039]:
+              - heading "Tại sao việc chế tạo đèn LED xanh gần như bất khả thi" [level=3] [ref=e1040]:
+                - link "Tại sao việc chế tạo đèn LED xanh gần như bất khả thi 33 phút" [ref=e1041]:
+                  - /url: /watch?v=AF8d72mA41M&pp=ugUEEgJ2aQ%3D%3D
+                  - text: Tại sao việc chế tạo đèn LED xanh gần như bất khả thi
+              - generic [ref=e1043]:
+                - group [ref=e1044]:
+                  - generic [ref=e1045]: Veritasium
+                  - generic "Đã xác minh" [ref=e1046]
+                - group [ref=e1049]:
+                  - generic "55 triệu lượt xem" [ref=e1053]: 55 Tr
+                  - generic "2 năm trước" [ref=e1054]
+                - group [ref=e1055]:
+                  - generic [ref=e1056]: Bản lồng tiếng
+            - button "Thao tác khác" [ref=e1065]
+        - generic [ref=e1070] [cursor=pointer]:
+          - link [ref=e1071]:
+            - /url: /watch?v=ZHWi_Ds4rOM
+            - img [ref=e1077]:
+              - generic [ref=e1078]: 11:06
+          - generic [ref=e1080]:
+            - generic [ref=e1081]:
+              - heading "Sức Mạnh Của Uranium Nguyên Tố Mạnh Nhất Vũ Trụ | Thư Viện Thiên Văn" [level=3] [ref=e1082]:
+                - link "Sức Mạnh Của Uranium Nguyên Tố Mạnh Nhất Vũ Trụ | Thư Viện Thiên Văn 11 phút, 6 giây" [ref=e1083]:
+                  - /url: /watch?v=ZHWi_Ds4rOM
+                  - text: Sức Mạnh Của Uranium Nguyên Tố Mạnh Nhất Vũ Trụ | Thư Viện Thiên Văn
+              - generic [ref=e1085]:
+                - group [ref=e1086]:
+                  - generic [ref=e1087]: Thư Viện Thiên Văn
+                  - generic "Đã xác minh" [ref=e1088]
+                - group [ref=e1091]:
+                  - generic "1,6 triệu lượt xem" [ref=e1095]: 1,6 Tr
+                  - generic "5 năm trước" [ref=e1096]
+            - button "Thao tác khác" [ref=e1099]
+        - generic [ref=e1104] [cursor=pointer]:
+          - link [ref=e1105]:
+            - /url: /watch?v=f5ptI6Pi3GA
+            - img [ref=e1111]:
+              - generic [ref=e1112]: 3:26
+          - generic [ref=e1114]:
+            - generic [ref=e1115]:
+              - 'heading "The Chernobyl Disaster: How It Happened" [level=3] [ref=e1116]':
+                - 'link "The Chernobyl Disaster: How It Happened 3 phút, 26 giây" [ref=e1117]':
+                  - /url: /watch?v=f5ptI6Pi3GA
+                  - text: "The Chernobyl Disaster: How It Happened"
+              - generic [ref=e1119]:
+                - group [ref=e1120]:
+                  - generic [ref=e1121]: Radio Free Europe/Radio Liberty
+                  - generic "Đã xác minh" [ref=e1122]
+                - group [ref=e1125]:
+                  - generic "6,7 triệu lượt xem" [ref=e1129]: 6,7 Tr
+                  - generic "10 năm trước" [ref=e1130]
+            - button "Thao tác khác" [ref=e1133]
+        - generic [ref=e1138] [cursor=pointer]:
+          - link [ref=e1139]:
+            - /url: /watch?v=mZsaaturR6E
+            - img [ref=e1145]:
+              - generic [ref=e1146]: 6:16
+          - generic [ref=e1148]:
+            - generic [ref=e1149]:
+              - heading "Giải thích Năng lượng Hợp hạch - Tương lai hay Thất bại" [level=3] [ref=e1150]:
+                - link "Giải thích Năng lượng Hợp hạch - Tương lai hay Thất bại 6 phút, 16 giây" [ref=e1151]:
+                  - /url: /watch?v=mZsaaturR6E
+                  - text: Giải thích Năng lượng Hợp hạch - Tương lai hay Thất bại
+              - generic [ref=e1153]:
+                - group [ref=e1154]:
+                  - generic [ref=e1155]: Kurzgesagt – In a Nutshell
+                  - generic "Đã xác minh" [ref=e1156]
+                - group [ref=e1159]:
+                  - generic "15 triệu lượt xem" [ref=e1163]: 15 Tr
+                  - generic "9 năm trước" [ref=e1164]
+            - button "Thao tác khác" [ref=e1167]
+        - generic [ref=e1172] [cursor=pointer]:
+          - link [ref=e1173]:
+            - /url: /watch?v=m3dpUk1emms&pp=ugUHEgVlbi1VUw%3D%3D
+            - img [ref=e1179]:
+              - generic [ref=e1180]: 12:28
+          - generic [ref=e1182]:
+            - generic [ref=e1183]:
+              - heading "ALL Nuclear Physics Explained SIMPLY" [level=3] [ref=e1184]:
+                - link "ALL Nuclear Physics Explained SIMPLY 12 phút, 28 giây" [ref=e1185]:
+                  - /url: /watch?v=m3dpUk1emms&pp=ugUHEgVlbi1VUw%3D%3D
+                  - text: ALL Nuclear Physics Explained SIMPLY
+              - generic [ref=e1187]:
+                - group [ref=e1188]:
+                  - generic [ref=e1189]: Arvin Ash
+                  - generic "Đã xác minh" [ref=e1190]
+                - group [ref=e1193]:
+                  - generic "249 nghìn lượt xem" [ref=e1197]: 249 N
+                  - generic "3 năm trước" [ref=e1198]
+            - button "Thao tác khác" [ref=e1201]
+        - generic [ref=e1206] [cursor=pointer]:
+          - link [ref=e1207]:
+            - /url: /watch?v=IzQ3gFRj0Bc&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e1213]:
+              - generic [ref=e1214]: 13:04
+          - generic [ref=e1216]:
+            - generic [ref=e1217]:
+              - heading "The Big Lie About Nuclear Waste" [level=3] [ref=e1218]:
+                - link "The Big Lie About Nuclear Waste 13 phút, 4 giây" [ref=e1219]:
+                  - /url: /watch?v=IzQ3gFRj0Bc&pp=ugUEEgJlbg%3D%3D
+                  - text: The Big Lie About Nuclear Waste
+              - generic [ref=e1221]:
+                - group [ref=e1222]:
+                  - generic [ref=e1223]: Cleo Abram
+                  - generic "Đã xác minh" [ref=e1224]
+                - group [ref=e1227]:
+                  - generic "4,7 triệu lượt xem" [ref=e1231]: 4,7 Tr
+                  - generic "3 năm trước" [ref=e1232]
+            - button "Thao tác khác" [ref=e1235]
+        - generic [ref=e1240] [cursor=pointer]:
+          - link [ref=e1241]:
+            - /url: /watch?v=2uJhjqBz5Tk&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e1247]:
+              - generic [ref=e1248]: 29:26
+          - generic [ref=e1250]:
+            - generic [ref=e1251]:
+              - heading "Chernobyl Nuclear Explosion Disaster Explained (Hour by Hour)" [level=3] [ref=e1252]:
+                - link "Chernobyl Nuclear Explosion Disaster Explained (Hour by Hour) 29 phút" [ref=e1253]:
+                  - /url: /watch?v=2uJhjqBz5Tk&pp=ugUEEgJlbg%3D%3D
+                  - text: Chernobyl Nuclear Explosion Disaster Explained (Hour by Hour)
+              - generic [ref=e1255]:
+                - group [ref=e1256]:
+                  - generic [ref=e1257]: The Infographics Show
+                  - generic "Đã xác minh" [ref=e1258]
+                - group [ref=e1261]:
+                  - generic "6,1 triệu lượt xem" [ref=e1265]: 6,1 Tr
+                  - generic "4 năm trước" [ref=e1266]
+            - button "Thao tác khác" [ref=e1269]
+        - generic [ref=e1274] [cursor=pointer]:
+          - link [ref=e1275]:
+            - /url: /watch?v=JdFRjsEZrmU&pp=ugUEEgJ2aQ%3D%3D
+            - img [ref=e1281]:
+              - generic [ref=e1282]: 20:37
+          - generic [ref=e1284]:
+            - generic [ref=e1285]:
+              - heading "Axit vs Dung nham - Thử nghiệm những chất lỏng có thể làm tan chảy mọi thứ" [level=3] [ref=e1286]:
+                - link "Axit vs Dung nham - Thử nghiệm những chất lỏng có thể làm tan chảy mọi thứ 20 phút" [ref=e1287]:
+                  - /url: /watch?v=JdFRjsEZrmU&pp=ugUEEgJ2aQ%3D%3D
+                  - text: Axit vs Dung nham - Thử nghiệm những chất lỏng có thể làm tan chảy mọi thứ
+              - generic [ref=e1289]:
+                - group [ref=e1290]:
+                  - generic [ref=e1291]: Mark Rober
+                  - generic "Đã xác minh" [ref=e1292]
+                - group [ref=e1295]:
+                  - generic "99 triệu lượt xem" [ref=e1299]: 99 Tr
+                  - generic "2 năm trước" [ref=e1300]
+                - group [ref=e1301]:
+                  - generic [ref=e1302]: Bản lồng tiếng
+            - button "Thao tác khác" [ref=e1311]
+        - generic [ref=e1316] [cursor=pointer]:
+          - link [ref=e1317]:
+            - /url: /watch?v=2W85Dwxx218
+            - img [ref=e1323]:
+              - generic [ref=e1324]: 5:38
+          - generic [ref=e1326]:
+            - generic [ref=e1327]:
+              - heading "Why do we dream? - Amy Adkins" [level=3] [ref=e1328]:
+                - link "Why do we dream? - Amy Adkins 5 phút, 38 giây" [ref=e1329]:
+                  - /url: /watch?v=2W85Dwxx218
+                  - text: Why do we dream? - Amy Adkins
+              - generic [ref=e1331]:
+                - group [ref=e1332]:
+                  - generic [ref=e1333]: TED-Ed
+                  - generic "Đã xác minh" [ref=e1334]
+                - group [ref=e1337]:
+                  - generic "9,1 triệu lượt xem" [ref=e1341]: 9,1 Tr
+                  - generic "10 năm trước" [ref=e1342]
+            - button "Thao tác khác" [ref=e1345]

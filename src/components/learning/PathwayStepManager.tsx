@@ -2,13 +2,15 @@
 
 import { useState, useTransition } from "react";
 import type { MaterialItem, PathwayStep } from "@/lib/material-bank";
-import { CANONICAL_SYSTEM_MATERIALS } from "@/lib/material-bank";
-import { FixedPhysicsActivityRenderer } from "@/components/physics/FixedPhysicsActivityRenderer";
-import type { CanonicalActivityKey } from "@/lib/curriculum";
+import { CANONICAL_SYSTEM_MATERIALS, resolvePathwayStepMaterial } from "@/lib/material-bank";
+import { LearningResourcePreview } from "./LearningResourcePreview";
+import { PathwayStepEditorModal } from "./PathwayStepEditorModal";
+import { RichPhysicsText, getVietnameseStepTypeLabel } from "./RichPhysicsText";
 import {
   addPathwayStepAction,
   deletePathwayStepAction,
   reorderPathwayStepsAction,
+  setPathwayStepPublishedAction,
 } from "@/app/teacher/pathway-actions";
 
 export function PathwayStepManager({
@@ -32,7 +34,12 @@ export function PathwayStepManager({
   const [isRequired, setIsRequired] = useState(true);
   const [pickerFilterType, setPickerFilterType] = useState<string>("all");
   const [pickerSearch, setPickerSearch] = useState("");
-  const [previewItem, setPreviewItem] = useState<MaterialItem | null>(null);
+  const [previewTarget, setPreviewTarget] = useState<{ material: MaterialItem; step?: PathwayStep } | null>(null);
+  const [isPreviewExpanded, setIsPreviewExpanded] = useState(false);
+  const [editingStep, setEditingStep] = useState<PathwayStep | null>(null);
+  const [previewInteracted, setPreviewInteracted] = useState(false);
+  const [trialResponse, setTrialResponse] = useState("");
+  const [trialChecked, setTrialChecked] = useState(false);
   const [isPending, startTransition] = useTransition();
   const [actionError, setActionError] = useState("");
 
@@ -41,6 +48,39 @@ export function PathwayStepManager({
   for (const m of CANONICAL_SYSTEM_MATERIALS) allChoicesMap.set(m.id, m);
   for (const m of availableMaterials) allChoicesMap.set(m.id, m);
   const allChoices = Array.from(allChoicesMap.values());
+
+  function resolveStepMaterial(step: PathwayStep): MaterialItem {
+    const cfg = (step.config && typeof step.config === "object" ? step.config : {}) as Record<string, unknown>;
+    const canonicalId = typeof cfg.canonical_material_id === "string" ? cfg.canonical_material_id : null;
+    const fromMap =
+      (canonicalId ? allChoicesMap.get(canonicalId) : undefined) ??
+      (step.material_id ? allChoicesMap.get(step.material_id) : undefined);
+    const resolved = step.material ?? fromMap ?? resolvePathwayStepMaterial({
+      id: step.id,
+      material_id: step.material_id,
+      title: step.title,
+      instructions: step.instructions,
+      step_type: step.step_type,
+      is_published: step.is_published,
+      config: step.config,
+      material_bank: step.material,
+    });
+    return {
+      ...resolved,
+      lesson_tag: resolved.lesson_tag || fromMap?.lesson_tag || lessonCode,
+      metadata: {
+        ...(fromMap?.metadata ?? {}),
+        ...(resolved.metadata ?? {}),
+      },
+    };
+  }
+
+  function openPreview(target: { material: MaterialItem; step?: PathwayStep }) {
+    setPreviewInteracted(false);
+    setTrialResponse("");
+    setTrialChecked(false);
+    setPreviewTarget(target);
+  }
 
   const filteredChoices = allChoices.filter((m) => {
     const matchesType = pickerFilterType === "all" || m.material_type === pickerFilterType;
@@ -78,7 +118,8 @@ export function PathwayStepManager({
 
   function handleAddStep(e: React.FormEvent) {
     e.preventDefault();
-    if (!selectedMaterial || !stepTitle.trim()) return;
+    if (isPending || !selectedMaterial || !stepTitle.trim()) return;
+    const published = (e.nativeEvent as SubmitEvent).submitter?.getAttribute("value") === "publish";
 
     startTransition(async () => {
       const fd = new FormData();
@@ -89,9 +130,13 @@ export function PathwayStepManager({
       fd.append("instructions", stepInstructions.trim());
       fd.append("step_type", selectedMaterial.material_type);
       fd.append("is_required", isRequired ? "true" : "false");
+      fd.append("is_published", published ? "true" : "false");
       fd.append("content_url", selectedMaterial.content_url);
 
-      const res = await addPathwayStepAction({}, fd);
+      const res = await addPathwayStepAction({}, fd).catch(() => ({
+        error: "Chưa lưu được bước học. Hãy kiểm tra kết nối và thử lại.",
+        stepId: undefined,
+      }));
       if (res.error) {
         setActionError(res.error);
       } else {
@@ -104,6 +149,7 @@ export function PathwayStepManager({
           instructions: stepInstructions.trim(),
           step_order: currentSteps.length + 1,
           is_required: isRequired,
+          is_published: published,
           step_type: selectedMaterial.material_type,
           material: selectedMaterial,
         };
@@ -169,7 +215,7 @@ export function PathwayStepManager({
         <div>
           <h3 style={{ fontSize: "18px", margin: "0 0 4px" }}>Tiến trình học tập: {phaseTitle}</h3>
           <p style={{ margin: 0, color: "var(--text-secondary)", fontSize: "14px" }}>
-            Các bước nhiệm vụ học sinh sẽ thực hiện tuần tự trong pha này.
+            Các bước được giao ngay cho học sinh khi bài học được xuất bản. Học sinh thực hiện theo thứ tự và nộp kết quả từng bước.
           </p>
         </div>
         <button type="button" className="btn primary small" onClick={handleOpenPicker}>
@@ -177,7 +223,7 @@ export function PathwayStepManager({
         </button>
       </div>
 
-      {actionError && (
+      {actionError && !isPickerOpen && (
         <div role="alert" className="form-alert form-alert-error" style={{ marginBottom: "16px" }}>
           {actionError}
         </div>
@@ -197,6 +243,7 @@ export function PathwayStepManager({
             {currentSteps.map((step, idx) => (
               <div
                 key={step.id}
+                className="pathway-step-row"
                 style={{
                   display: "flex",
                   justifyContent: "space-between",
@@ -205,6 +252,7 @@ export function PathwayStepManager({
                   borderBottom: idx < currentSteps.length - 1 ? "1px solid var(--border-light)" : "none",
                   backgroundColor: idx % 2 === 0 ? "transparent" : "var(--bg-surface-elevated)",
                   gap: "16px",
+                  flexWrap: "wrap",
                 }}
               >
                 <div style={{ display: "flex", gap: "14px", alignItems: "flex-start", flex: 1 }}>
@@ -226,24 +274,35 @@ export function PathwayStepManager({
                     {idx + 1}
                   </span>
                   <div style={{ flex: 1 }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "6px", flexWrap: "wrap" }}>
                       <strong style={{ fontSize: "15px" }}>{step.title}</strong>
-                      <span className="badge small">{step.step_type}</span>
+                      <span className="badge small badge-natural">{step.is_published ? "Đã giao" : "Bản nháp"}</span>
+                      {step.is_published !== undefined && <button type="button" className="btn small" disabled={isPending} onClick={() => {
+                        setActionError("");
+                        startTransition(async () => {
+                          const fd = new FormData();
+                          fd.set("lesson_id", lessonId); fd.set("step_id", step.id); fd.set("is_published", String(!step.is_published));
+                          const result = await setPathwayStepPublishedAction({}, fd);
+                          if (result.error) setActionError(result.error);
+                          else setCurrentSteps(previous => previous.map(item => item.id === step.id ? { ...item, is_published: !step.is_published } : item));
+                        });
+                      }}>{step.is_published ? "Chuyển về nháp" : "Giao cho học sinh"}</button>}
+                      <span className="badge small badge-natural">{getVietnameseStepTypeLabel(step.step_type)}</span>
                       {step.is_required ? (
-                        <span className="badge small badge-blue">Bắt buộc</span>
+                        <span className="badge small badge-blue badge-natural">Bắt buộc</span>
                       ) : (
-                        <span className="badge small" style={{ color: "var(--text-muted)" }}>Tự chọn</span>
+                        <span className="badge small badge-natural" style={{ color: "var(--text-muted)" }}>Tự chọn</span>
                       )}
                     </div>
                     {step.instructions && (
-                      <p style={{ margin: 0, fontSize: "13px", color: "var(--text-secondary)", lineHeight: "1.4" }}>
-                        {step.instructions}
-                      </p>
+                      <div className="pathway-step-instructions-preview">
+                        <RichPhysicsText content={step.instructions} compact />
+                      </div>
                     )}
                   </div>
                 </div>
 
-                <div style={{ display: "flex", gap: "6px", alignItems: "center", flexShrink: 0 }}>
+                <div style={{ display: "flex", gap: "6px", alignItems: "center", flexShrink: 0, flexWrap: "wrap" }}>
                   <button
                     type="button"
                     className="btn small"
@@ -264,16 +323,22 @@ export function PathwayStepManager({
                   >
                     ▼
                   </button>
-                  {step.material && (
-                    <button
-                      type="button"
-                      className="btn small"
-                      onClick={() => setPreviewItem(step.material!)}
-                      style={{ padding: "4px 10px", fontSize: "13px" }}
-                    >
-                      Xem
-                    </button>
-                  )}
+                  <button
+                    type="button"
+                    className="btn small pathway-edit-btn"
+                    onClick={() => setEditingStep(step)}
+                    style={{ padding: "4px 10px", fontSize: "13px", fontWeight: 600 }}
+                  >
+                    ✎ Chỉnh sửa
+                  </button>
+                  <button
+                    type="button"
+                    className="btn small pathway-preview-btn"
+                    onClick={() => openPreview({ material: resolveStepMaterial(step), step })}
+                    style={{ padding: "4px 10px", fontSize: "13px", fontWeight: 600 }}
+                  >
+                    👁 Xem trước
+                  </button>
                   <button
                     type="button"
                     className="btn small danger"
@@ -291,10 +356,11 @@ export function PathwayStepManager({
       </div>
 
       {/* Modal: Pick Material From Bank */}
-      {isPickerOpen && (
+      {isPickerOpen && !previewTarget && (
         <div
           role="dialog"
           aria-modal="true"
+          aria-label="Chọn học liệu cho bước học"
           style={{
             position: "fixed",
             top: 0,
@@ -302,7 +368,7 @@ export function PathwayStepManager({
             right: 0,
             bottom: 0,
             backgroundColor: "rgba(0,0,0,0.6)",
-            zIndex: 100,
+            zIndex: 1000,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -333,6 +399,7 @@ export function PathwayStepManager({
               <button type="button" className="icon-button" onClick={() => setIsPickerOpen(false)}>✕</button>
             </div>
 
+            {actionError && <p role="alert" className="form-alert form-alert-error">{actionError}</p>}
             {!selectedMaterial ? (
               <>
                 {/* Search & Filter */}
@@ -362,7 +429,8 @@ export function PathwayStepManager({
                     <option value="image">Ảnh tĩnh & Sơ đồ</option>
                     <option value="animation">Ảnh động (GIF)</option>
                     <option value="document">PDF / Phiếu học tập</option>
-                    <option value="colab">Google Colab</option>
+                    <option value="colab">Câu hỏi và hoạt động</option>
+                    <option value="assessment">Đề giữa kỳ / Cuối kỳ</option>
                   </select>
                 </div>
 
@@ -378,25 +446,26 @@ export function PathwayStepManager({
                         justifyContent: "space-between",
                         alignItems: "center",
                         gap: "12px",
+                        flexWrap: "wrap",
                       }}
                     >
-                      <div style={{ flex: 1 }}>
-                        <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "2px" }}>
+                      <div style={{ flex: 1, minWidth: "220px" }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "2px", flexWrap: "wrap" }}>
                           <strong>{item.title}</strong>
-                          <span className="badge small">{item.material_type}</span>
-                          {item.lesson_tag && <span className="badge small">{item.lesson_tag}</span>}
+                          <span className="badge small badge-natural">{getVietnameseStepTypeLabel(item.material_type)}</span>
+                          {item.lesson_tag && <span className="badge small badge-natural">{item.lesson_tag}</span>}
                         </div>
                         <p style={{ margin: 0, fontSize: "13px", color: "var(--text-secondary)" }}>
                           {item.description}
                         </p>
                       </div>
-                      <div style={{ display: "flex", gap: "8px" }}>
+                      <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
                         <button
                           type="button"
-                          className="btn small"
-                          onClick={() => setPreviewItem(item)}
+                          className="btn small pathway-preview-btn"
+                          onClick={() => openPreview({ material: item })}
                         >
-                          Xem
+                          👁 Xem trước
                         </button>
                         <button
                           type="button"
@@ -413,17 +482,44 @@ export function PathwayStepManager({
             ) : (
               /* Step Configuration Form */
               <form onSubmit={handleAddStep}>
-                <div style={{ padding: "12px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-sm)", marginBottom: "16px" }}>
-                  <span style={{ fontSize: "12px", color: "var(--text-muted)" }}>Học liệu đã chọn:</span>
-                  <p style={{ margin: "4px 0 0", fontWeight: 600 }}>{selectedMaterial.title}</p>
-                  <button
-                    type="button"
-                    className="btn small"
-                    style={{ marginTop: "8px", fontSize: "12px" }}
-                    onClick={() => setSelectedMaterial(null)}
-                  >
-                    ← Chọn học liệu khác
-                  </button>
+                <div style={{ padding: "12px", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-sm)", marginBottom: "16px", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "12px", flexWrap: "wrap" }}>
+                  <div>
+                    <span style={{ fontSize: "12px", color: "var(--text-muted)" }}>Học liệu đã chọn:</span>
+                    <p style={{ margin: "4px 0 0", fontWeight: 600 }}>{selectedMaterial.title}</p>
+                  </div>
+                  <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                    <button
+                      type="button"
+                      className="btn small pathway-preview-btn"
+                      onClick={() =>
+                        openPreview({
+                          material: selectedMaterial,
+                          step: {
+                            id: "draft-preview",
+                            lesson_id: lessonId,
+                            phase,
+                            material_id: selectedMaterial.id,
+                            title: stepTitle.trim() || selectedMaterial.title,
+                            instructions: stepInstructions.trim() || selectedMaterial.description,
+                            step_order: currentSteps.length + 1,
+                            is_required: isRequired,
+                            is_published: false,
+                            step_type: selectedMaterial.material_type,
+                            material: selectedMaterial,
+                          },
+                        })
+                      }
+                    >
+                      👁 Xem trước bước học
+                    </button>
+                    <button
+                      type="button"
+                      className="btn small"
+                      onClick={() => setSelectedMaterial(null)}
+                    >
+                      ← Chọn học liệu khác
+                    </button>
+                  </div>
                 </div>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -466,12 +562,15 @@ export function PathwayStepManager({
                     </label>
                   </div>
 
-                  <div style={{ display: "flex", justifyContent: "flex-end", gap: "10px", marginTop: "12px" }}>
+                  <div style={{ display: "flex", justifyContent: "flex-end", gap: "10px", marginTop: "12px", flexWrap: "wrap" }}>
                     <button type="button" className="btn" onClick={() => setSelectedMaterial(null)}>
                       Quay lại
                     </button>
-                    <button type="submit" className="btn primary" disabled={isPending}>
-                      {isPending ? "Đang lưu..." : "Xác nhận thêm vào tiến trình"}
+                    <button type="submit" className="btn" disabled={isPending}>
+                      {isPending ? "Đang lưu…" : "Lưu bản nháp"}
+                    </button>
+                    <button type="submit" value="publish" className="btn primary" disabled={isPending}>
+                      Giao bước học
                     </button>
                   </div>
                 </div>
@@ -481,53 +580,232 @@ export function PathwayStepManager({
         </div>
       )}
 
-      {/* Modal: Preview */}
-      {previewItem && (
+      {/* Modal: Redesigned Preview */}
+      {previewTarget && (
         <div
           role="dialog"
           aria-modal="true"
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundColor: "rgba(0,0,0,0.6)",
-            zIndex: 110,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "20px",
-          }}
-          onClick={() => setPreviewItem(null)}
+          aria-label={`Xem trước: ${previewTarget.step ? previewTarget.step.title : previewTarget.material.title}`}
+          className="pathway-modal-backdrop"
+          onClick={() => setPreviewTarget(null)}
         >
           <div
-            className="card"
-            style={{
-              maxWidth: "850px",
-              width: "100%",
-              maxHeight: "90vh",
-              overflowY: "auto",
-              padding: "24px",
-              backgroundColor: "var(--bg-surface)",
-            }}
+            className={`card pathway-preview-modal ${isPreviewExpanded ? "is-expanded" : ""}`}
             onClick={(e) => e.stopPropagation()}
           >
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
-              <h3 style={{ margin: 0, fontSize: "18px" }}>Xem trước: {previewItem.title}</h3>
-              <button type="button" className="icon-button" onClick={() => setPreviewItem(null)}>✕</button>
+            {/* Header */}
+            <div className="pathway-preview-header">
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div className="pathway-preview-badges">
+                  {previewTarget.step && (
+                    <span className={`badge small badge-natural ${previewTarget.step.is_published ? "badge-blue" : ""}`}>
+                      {previewTarget.step.is_published ? "Đã giao" : "Bản nháp"}
+                    </span>
+                  )}
+                  {previewTarget.step && (
+                    <span className="badge small badge-natural">
+                      {previewTarget.step.is_required ? "Bắt buộc" : "Tự chọn"}
+                    </span>
+                  )}
+                  <span className="badge small badge-natural">
+                    {getVietnameseStepTypeLabel(previewTarget.step?.step_type ?? previewTarget.material.material_type)}
+                  </span>
+                  {previewTarget.material.lesson_tag && (
+                    <span className="badge small badge-natural">Bài {previewTarget.material.lesson_tag}</span>
+                  )}
+                </div>
+                <h3 className="pathway-preview-title">
+                  {previewTarget.step ? previewTarget.step.title : previewTarget.material.title}
+                </h3>
+              </div>
+
+              <div className="pathway-preview-header-actions">
+                {previewTarget.step && previewTarget.step.id !== "draft-preview" && (
+                  <button
+                    type="button"
+                    className="btn small pathway-edit-btn"
+                    onClick={() => {
+                      const targetStep = previewTarget.step!;
+                      setPreviewTarget(null);
+                      setEditingStep(targetStep);
+                    }}
+                  >
+                    ✎ Chỉnh sửa
+                  </button>
+                )}
+                <button
+                  type="button"
+                  className="btn small pathway-expand-btn"
+                  onClick={() => setIsPreviewExpanded((prev) => !prev)}
+                  title={isPreviewExpanded ? "Thu gọn khung xem trước" : "Mở rộng khung xem trước"}
+                >
+                  {isPreviewExpanded ? "🗗 Thu gọn" : "⛶ Mở rộng"}
+                </button>
+                <button
+                  type="button"
+                  className="icon-button"
+                  aria-label="Đóng hộp xem trước"
+                  onClick={() => setPreviewTarget(null)}
+                >
+                  ✕
+                </button>
+              </div>
             </div>
-            <div style={{ minHeight: "220px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", padding: "16px" }}>
-              {previewItem.material_type === "simulation" && previewItem.metadata?.activityKey ? (
-                <FixedPhysicsActivityRenderer activityKey={previewItem.metadata.activityKey as CanonicalActivityKey} />
-              ) : (
-                <p style={{ textAlign: "center", color: "var(--text-muted)" }}>Học liệu: {previewItem.content_url}</p>
+
+            {/* Subtle single-line preview notice */}
+            <div role="note" className="preview-subtle-notice">
+              <span>ℹ️ <strong>Chế độ xem trước của giáo viên:</strong> Thao tác thử thoải mái trên nội dung thật — không ghi bài nộp, điểm số hay tiến độ và không tự động giao bài.</span>
+            </div>
+
+            <div className="pathway-preview-body">
+              {/* Section 1: Nhiệm vụ của học sinh */}
+              <section className="preview-section preview-section-task" aria-label="Nhiệm vụ của học sinh">
+                <div className="preview-section-header">
+                  <span className="preview-section-kicker">1. Nhiệm vụ của học sinh</span>
+                  {previewTarget.step && previewTarget.step.id !== "draft-preview" && (
+                    <button
+                      type="button"
+                      className="preview-inline-edit-link"
+                      onClick={() => {
+                        const targetStep = previewTarget.step!;
+                        setPreviewTarget(null);
+                        setEditingStep(targetStep);
+                      }}
+                    >
+                      Chỉnh sửa nhiệm vụ & công thức →
+                    </button>
+                  )}
+                </div>
+                <div className="preview-task-content">
+                  <RichPhysicsText
+                    content={
+                      previewTarget.step?.instructions
+                        ? previewTarget.step.instructions
+                        : previewTarget.material.description || "Chưa có hướng dẫn chi tiết cho bước này."
+                    }
+                  />
+                </div>
+              </section>
+
+              {/* Section 2: Học liệu tương tác */}
+              <section className="preview-section preview-section-resource" aria-label="Học liệu tương tác">
+                <div className="preview-section-header">
+                  <span className="preview-section-kicker">2. Học liệu tương tác</span>
+                  {previewInteracted && (
+                    <span className="badge small badge-blue badge-natural" role="status">
+                      ✓ Đã tương tác thử (lưu tạm trên phiên xem trước)
+                    </span>
+                  )}
+                </div>
+                <div className="preview-resource-frame">
+                  {previewTarget.step && ["exercise", "reflection", "checkpoint"].includes(previewTarget.step.step_type) && !previewTarget.material.content_url
+                    ? <p>Học sinh đọc nhiệm vụ ở trên và viết lời giải vào ô bài nộp.</p>
+                    : <LearningResourcePreview
+                    material={previewTarget.material}
+                    onProgress={(done) => {
+                      if (done) setPreviewInteracted(true);
+                    }}
+                  />}
+                </div>
+
+                {/* Compact trial student response bar inside interactive section */}
+                <div className="preview-trial-bar">
+                  <div className="preview-trial-row">
+                    <input
+                      type="text"
+                      value={trialResponse}
+                      onChange={(e) => {
+                        setTrialResponse(e.target.value);
+                        setTrialChecked(false);
+                      }}
+                      placeholder="Nhập thử câu trả lời hoặc liên kết sản phẩm của học sinh để kiểm tra..."
+                      aria-label="Nhập thử câu trả lời của học sinh"
+                      className="preview-trial-input"
+                    />
+                    <button
+                      type="button"
+                      className="btn small"
+                      onClick={() => setTrialChecked(true)}
+                    >
+                      Thử kiểm tra phản hồi (Không lưu)
+                    </button>
+                  </div>
+                  {trialChecked && (
+                    <p role="status" className="preview-trial-feedback">
+                      ✓ Đã thử nghiệm thao tác nộp phản hồi ({trialResponse.trim() ? `"${trialResponse.trim()}"` : "mẫu thử"}). Không có bài nộp, điểm hay tiến độ nào được ghi vào cơ sở dữ liệu.
+                    </p>
+                  )}
+                </div>
+              </section>
+
+              {/* Section 3: Nguồn tham khảo */}
+              <section className="preview-section preview-section-reference" aria-label="Nguồn tham khảo">
+                <div className="preview-section-header">
+                  <span className="preview-section-kicker">3. Nguồn tham khảo & Học liệu gốc</span>
+                </div>
+                <div className="preview-reference-meta">
+                  <div>
+                    <span className="preview-reference-label">Tên học liệu gốc:</span>{" "}
+                    <strong>{previewTarget.material.title}</strong>
+                  </div>
+                  <div>
+                    <span className="preview-reference-label">Phân loại:</span>{" "}
+                    <span>{getVietnameseStepTypeLabel(previewTarget.material.material_type)}</span>
+                  </div>
+                  {previewTarget.material.content_url && (
+                    <div>
+                      <span className="preview-reference-label">Định danh / Đường dẫn:</span>{" "}
+                      <code className="preview-reference-code">{previewTarget.material.content_url}</code>
+                    </div>
+                  )}
+                </div>
+              </section>
+            </div>
+
+            <div className="pathway-preview-footer">
+              {previewTarget.step && previewTarget.step.id !== "draft-preview" && (
+                <button
+                  type="button"
+                  className="btn pathway-edit-btn"
+                  onClick={() => {
+                    const targetStep = previewTarget.step!;
+                    setPreviewTarget(null);
+                    setEditingStep(targetStep);
+                  }}
+                >
+                  ✎ Chỉnh sửa bước học này
+                </button>
               )}
-            </div>
-            <div style={{ marginTop: "16px", textAlign: "right" }}>
-              <button type="button" className="btn" onClick={() => setPreviewItem(null)}>Đóng</button>
+              <button type="button" className="btn" onClick={() => setPreviewTarget(null)}>
+                Đóng xem trước
+              </button>
             </div>
           </div>
+        </div>
+      )}
+
+      {/* Modal: Step Editor with Formula Inserter & Live Preview */}
+      {editingStep && (
+        <div hidden={Boolean(previewTarget)}>
+          <PathwayStepEditorModal
+            key={editingStep.id}
+            lessonId={lessonId}
+            step={editingStep}
+            material={resolveStepMaterial(editingStep)}
+            onClose={() => setEditingStep(null)}
+            onSaved={(updated) => {
+              setCurrentSteps((prev) =>
+                prev.map((item) => (item.id === editingStep.id ? { ...item, ...updated } : item))
+              );
+              setEditingStep((prev) => (prev ? { ...prev, ...updated } : null));
+            }}
+            onOpenFullPreview={(draftStep) => {
+              openPreview({
+                material: resolveStepMaterial(draftStep),
+                step: draftStep,
+              });
+            }}
+          />
         </div>
       )}
     </div>

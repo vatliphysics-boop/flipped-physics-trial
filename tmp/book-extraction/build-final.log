@@ -1,0 +1,103 @@
+
+> flipped-physics@0.1.0 build
+> next build
+
+▲ Next.js 16.3.5 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 53ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 5.3s
+  Running TypeScript ...
+  Finished TypeScript in 5.1s ...
+  Collecting page data using 5 workers ...
+  Generating static pages using 5 workers (0/40) ...
+  Generating static pages using 5 workers (10/40) 
+  Generating static pages using 5 workers (20/40) 
+  Generating static pages using 5 workers (30/40) 
+✓ Generating static pages using 5 workers (40/40) in 253ms
+Turbopack build encountered 1 warning:
+./src/lib/book-bank-server.ts:6:31
+Warning: Dynamic filesystem access causes tracing of the whole project
+  [90m4 |[0m ...acher } [36mfrom[0m [32m"./ai-teacher-auth"[0m;
+  [90m5 |[0m ...[33mookBankIndex[0m } [36mfrom[0m [32m"./book-bank"[0m;
+[33m[1m>[0m [90m6 |[0m ...[33mOK_BANK_ROOT[0m = path.resolve(process.env.[33mBOOK_BANK_DIR[0m || [32m"data/book-bank"[0m);
+  [90m  |[0m                   [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m ...[36mnction[0m canReadBookBank(request: [33mRequest[0m) {
+  [90m8 |[0m ...[36mnew[0m [33mURL[0m(request.url).hostname;
+  [90m9 |[0m ...nv.[33mNODE_ENV[0m === [32m"development"[0m && [[32m"localhost"[0m, [32m"127.0.0.1"[0m, [32m"[::1]"[0m].includes(host)) [36mret...[0m
+
+Static analysis determined that this filesystem access causes the whole project to be traced and included in the output.
+This is usually unintentional and leads to all source files (including the public folder) to be deployed as part of the server code.
+This can slow down deployments or lead to failures when size limits are exceeded.
+To resolve this, you can
+- make sure the path is statically scoped to some subfolder, for example path.join(process.cwd(), 'data', bar), or
+- only use them in development, or
+- opt out by adding an ignore comment to the highlighted call: path.resolve(/*turbopackIgnore: true*/ ...), or
+- remove them.
+
+Import trace:
+  App Route:
+    ./src/lib/book-bank-server.ts
+    ./src/app/api/question-bank/route.ts
+
+
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/ai/document
+├ ƒ /api/ai/preparation
+├ ƒ /api/ai/status
+├ ƒ /api/ai/student
+├ ƒ /api/ai/teacher
+├ ƒ /api/ai/teacher-demo
+├ ƒ /api/book-bank
+├ ƒ /api/book-bank/asset
+├ ƒ /api/question-bank
+├ ƒ /auth/confirm
+├ ○ /demo-lesson
+├ ƒ /hoc-lieu
+├ ƒ /hoc-lieu/ai
+├ ○ /hoc-lieu/ai-giao-vien
+├ ƒ /hoc-lieu/chuong-trinh
+├ ○ /hoc-lieu/lop-hoc-dao-nguoc
+├ ƒ /hoc-lieu/soan-ke-hoach
+├ ƒ /hoc-lieu/truc-quan
+├ ○ /login
+├ ○ /register
+├ ƒ /student
+├ ƒ /student/ai
+├ ƒ /student/assignments
+├ ƒ /student/classes
+├ ○ /student/curriculum
+├ ƒ /student/curriculum/[chapterCode]
+├ ƒ /student/journal
+├ ƒ /student/lessons/[lessonId]
+├ ƒ /student/lessons/[lessonId]/after-class
+├ ƒ /student/lessons/[lessonId]/before-class
+├ ƒ /student/lessons/[lessonId]/in-class
+├ ƒ /student/materials
+├ ƒ /teacher
+├ ƒ /teacher/ai
+├ ƒ /teacher/classes
+├ ƒ /teacher/classes/[classId]
+├ ƒ /teacher/classes/[classId]/curriculum
+├ ○ /teacher/classes/new
+├ ƒ /teacher/curriculum
+├ ƒ /teacher/curriculum/[chapterCode]
+├ ƒ /teacher/lessons
+├ ƒ /teacher/lessons/[lessonId]
+├ ƒ /teacher/lessons/[lessonId]/after-class
+├ ƒ /teacher/lessons/[lessonId]/before-class
+├ ƒ /teacher/lessons/[lessonId]/in-class
+├ ƒ /teacher/lessons/[lessonId]/ket-qua
+├ ƒ /teacher/materials
+├ ƒ /teacher/plans
+└ ƒ /teacher/students
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

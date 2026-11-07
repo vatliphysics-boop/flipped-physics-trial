@@ -1,7 +1,10 @@
 "use client";
 
+import { LatexMath } from "@/components/learning/LatexMath";
+
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { ChoiceCheck, Lab, LineGraph, Metrics, Sources } from './shared';
+import { poissonCount } from "@/lib/physics";
+import { ChoiceCheck, Lab, Sources } from './shared';
 
 export type ActivityProps = {
   onProgress?: (done: boolean) => void;
@@ -32,7 +35,7 @@ export function GeigerRandomDecay({ onProgress }: ActivityProps) {
       return;
     }
     const id = setInterval(() => {
-      const newDecays = Math.max(0, Math.round(2 + (Math.random() - 0.5) * 4));
+      const newDecays = poissonCount(0.4);
       currentCountRef.current += newDecays;
       setCurrentCount(currentCountRef.current);
       setTimeLeft(prev => prev - 1);
@@ -54,9 +57,9 @@ export function GeigerRandomDecay({ onProgress }: ActivityProps) {
   ];
   const avg = counts.length > 0 ? (counts.reduce((a, b) => a + b, 0) / counts.length).toFixed(1) : '—';
 
-  function handleAnswered() {
-    setHasAnswered(true);
-    checkDone(counts.length, true);
+  function handleAnswered(correct: boolean) {
+    setHasAnswered(correct);
+    checkDone(counts.length, correct);
   }
 
   return (
@@ -140,8 +143,8 @@ export function GeigerRandomDecay({ onProgress }: ActivityProps) {
         </ul>
       </div>
 
-      <div onClickCapture={handleAnswered}>
-        <ChoiceCheck
+      <div>
+        <ChoiceCheck onResult={handleAnswered}
           question="Tại sao khoảng 15–20s trong Bảng 23.1 SGK đếm được 0 tia, mặc dù nguồn phóng xạ vẫn đang hoạt động?"
           options={[
             'Vì nguồn phóng xạ đã hết sau 15 giây.',
@@ -186,9 +189,9 @@ export function RadiationProperties({ onProgress }: ActivityProps) {
     });
   };
 
-  function handleAnswered() {
-    setHasAnswered(true);
-    checkDone(viewedRays, true);
+  function handleAnswered(correct: boolean) {
+    setHasAnswered(correct);
+    checkDone(viewedRays, correct);
   }
 
   const getDeflectionY = (ray: RayType) => {
@@ -299,8 +302,8 @@ export function RadiationProperties({ onProgress }: ActivityProps) {
         </ul>
       </div>
 
-      <div onClickCapture={handleAnswered}>
-        <ChoiceCheck
+      <div>
+        <ChoiceCheck onResult={handleAnswered}
           question="Trong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?"
           options={['Tia alpha (α)', 'Tia beta trừ (β⁻)', 'Tia gamma (γ)']}
           correctIndex={1}
@@ -312,125 +315,7 @@ export function RadiationProperties({ onProgress }: ActivityProps) {
 }
 
 // ─── 3. Radioactive Decay Half-Life – Đồ thị bán rã tương tác ───────────────
-export function RadioactiveDecayHalfLife({ onProgress }: ActivityProps) {
-  const [t12, setT12] = useState(30);
-  const [n0, setN0] = useState(1000);
-  const [hasChanged, setHasChanged] = useState(false);
-  const [hasAnswered, setHasAnswered] = useState(false);
-
-  const checkDone = useCallback((changed: boolean, ans: boolean) => {
-    onProgress?.(changed && ans);
-  }, [onProgress]);
-
-  const maxT = t12 * 6;
-  const points = Array.from({ length: 61 }, (_, i) => {
-    const t = (maxT * i) / 60;
-    return { x: t, y: n0 * Math.pow(2, -t / t12) };
-  });
-
-  const halfPoints = [0, 1, 2, 3, 4, 5].map(k => ({
-    x: k * t12,
-    y: n0 / Math.pow(2, k),
-  }));
-
-  function handleSliderChange(setter: (v: number) => void, val: number) {
-    setter(val);
-    if (!hasChanged) {
-      setHasChanged(true);
-      checkDone(true, hasAnswered);
-    }
-  }
-
-  function handleAnswered() {
-    setHasAnswered(true);
-    checkDone(hasChanged, true);
-  }
-
-  return (
-    <Lab
-      intro="Khảo sát định luật phóng xạ: N_t = N₀ × 2^(−t/T). Thay đổi chu kì bán rã T và số hạt ban đầu N₀ để xem đường cong thay đổi."
-      note="Mô phỏng tuân theo N_t = N₀ × 2^(−t/T) = N₀ × e^(−λt), với λ = ln2/T. Độ phóng xạ H = λ × N cũng giảm theo cùng quy luật hàm mũ (Hình 23.5, SGK trang 107)."
-    >
-      <div className="physics-guide">
-        <p><strong>📈 Chu trình khám phá:</strong></p>
-        <ol>
-          <li><strong>Thay đổi T:</strong> Kéo thanh trượt để xem đường cong phân rã thay đổi.</li>
-          <li><strong>Quan sát:</strong> Sau mỗi chu kì T, số hạt giảm bao nhiêu phần trăm?</li>
-          <li><strong>Giải thích:</strong> Khi T tăng gấp đôi thì đường cong như thế nào?</li>
-        </ol>
-      </div>
-
-      <div className="physics-controls">
-        <label className="physics-field">
-          <span>Chu kì bán rã T <strong>{t12} s</strong></span>
-          <input type="range" min={5} max={120} step={5} value={t12} onChange={e => handleSliderChange(setT12, Number(e.target.value))} />
-        </label>
-        <label className="physics-field">
-          <span>Số hạt ban đầu N₀ <strong>{n0}</strong></span>
-          <input type="range" min={100} max={10000} step={100} value={n0} onChange={e => handleSliderChange(setN0, Number(e.target.value))} />
-        </label>
-      </div>
-
-      <LineGraph
-        series={[{ label: `N(t) = ${n0} × 2^(−t/${t12})`, color: '#2357a5', points, dots: false }]}
-        maxX={maxT}
-        maxY={n0}
-        xLabel={`Thời gian t (s), T = ${t12}s`}
-        yLabel="Số hạt nhân N"
-      />
-
-      <div style={{ marginTop: '16px', overflowX: 'auto' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px' }}>
-          <thead>
-            <tr style={{ backgroundColor: 'var(--bg-surface-elevated)' }}>
-              <th style={{ padding: '8px', border: '1px solid var(--border-light)', textAlign: 'left' }}>Sau k chu kì (t = kT)</th>
-              <th style={{ padding: '8px', border: '1px solid var(--border-light)', textAlign: 'right' }}>t (s)</th>
-              <th style={{ padding: '8px', border: '1px solid var(--border-light)', textAlign: 'right' }}>N còn lại</th>
-              <th style={{ padding: '8px', border: '1px solid var(--border-light)', textAlign: 'right' }}>% N₀</th>
-            </tr>
-          </thead>
-          <tbody>
-            {halfPoints.map((pt, k) => (
-              <tr key={k}>
-                <td style={{ padding: '8px', border: '1px solid var(--border-light)' }}>k = {k}</td>
-                <td style={{ padding: '8px', border: '1px solid var(--border-light)', textAlign: 'right' }}>{pt.x.toFixed(0)}</td>
-                <td style={{ padding: '8px', border: '1px solid var(--border-light)', textAlign: 'right' }}>{pt.y.toFixed(1)}</td>
-                <td style={{ padding: '8px', border: '1px solid var(--border-light)', textAlign: 'right' }}>{(100 / Math.pow(2, k)).toFixed(1)}%</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <Metrics items={[
-        { label: 'Chu kì bán rã T', value: `${t12} s` },
-        { label: 'Hằng số phóng xạ λ = ln2/T', value: `${(0.693 / t12).toFixed(4)} s⁻¹` },
-        { label: 'Sau 3T còn lại', value: `${(n0 / 8).toFixed(1)} hạt (12,5%)` },
-      ]} />
-
-      <div className="physics-checklist">
-        <p><strong>Tiêu chí hoàn thành:</strong></p>
-        <ul>
-          <li className={hasChanged ? 'is-done' : ''}>Thay đổi T hoặc N₀ để quan sát đường cong {hasChanged ? '✓' : ''}</li>
-          <li className={hasAnswered ? 'is-done' : ''}>Trả lời câu hỏi kiểm tra {hasAnswered ? '✓' : ''}</li>
-        </ul>
-      </div>
-
-      <div onClickCapture={handleAnswered}>
-        <ChoiceCheck
-          question="Nếu chu kì bán rã T tăng gấp đôi (với cùng N₀), đường cong phân rã thay đổi thế nào?"
-          options={[
-            'Dốc hơn – phân rã nhanh hơn.',
-            'Thoải hơn – phân rã chậm hơn, hạt nhân bền vững hơn.',
-            'Hình dạng không đổi, chỉ thay đổi màu.',
-          ]}
-          correctIndex={1}
-          explanation="T lớn hơn → hằng số phóng xạ λ = ln2/T nhỏ hơn → tốc độ phân rã chậm hơn → đường cong thoải hơn. Ví dụ: ²³⁵U (T = 7×10⁸ năm) phân rã chậm hơn nhiều so với ²¹⁰Po (T = 140 ngày)."
-        />
-      </div>
-    </Lab>
-  );
-}
+export { DecayProcessLab as RadioactiveDecayHalfLife } from "./DecayProcessLab";
 
 // ─── 4. Carbon-14 Dating – Tính tuổi bằng C-14 ─────────────────────────────
 const T14C = 5730; // năm
@@ -461,9 +346,9 @@ export function Carbon14Dating({ onProgress }: ActivityProps) {
     checkDone(true, hasAnswered);
   }
 
-  function handleAnswered() {
-    setHasAnswered(true);
-    checkDone(hasUsedExample, true);
+  function handleAnswered(correct: boolean) {
+    setHasAnswered(correct);
+    checkDone(hasUsedExample, correct);
   }
 
   return (
@@ -488,9 +373,7 @@ export function Carbon14Dating({ onProgress }: ActivityProps) {
       </div>
 
       <div style={{ padding: '20px', backgroundColor: 'var(--bg-surface-elevated)', borderRadius: '8px', textAlign: 'center', marginBottom: '16px' }}>
-        <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
-          t = T × log₂(100/{ratio}) = {T14C} × log₂({(100 / ratio).toFixed(2)}) ≈
-        </p>
+        <LatexMath block math={String.raw`t=T\log_2\!\left(\frac{100}{${ratio}}\right)`} />
         <p style={{ fontSize: '2.5rem', fontWeight: 700, color: 'var(--color-primary)' }}>
           {Number(age).toLocaleString('vi-VN')} năm
         </p>
@@ -545,8 +428,8 @@ export function Carbon14Dating({ onProgress }: ActivityProps) {
         </ul>
       </div>
 
-      <div onClickCapture={handleAnswered}>
-        <ChoiceCheck
+      <div>
+        <ChoiceCheck onResult={handleAnswered}
           question="Mẫu gỗ cổ có tỉ lệ ¹⁴C còn lại bằng 25% (= 1/4) so với gỗ tươi. Tuổi của mẫu gỗ là?"
           options={['5730 năm (1 chu kì).', '11460 năm (2 chu kì).', '17190 năm (3 chu kì).']}
           correctIndex={1}
@@ -612,9 +495,9 @@ export function RadiationSafety({ onProgress }: ActivityProps) {
     });
   };
 
-  function handleAnswered() {
-    setHasAnswered(true);
-    checkDone(triedScenarios, true);
+  function handleAnswered(correct: boolean) {
+    setHasAnswered(correct);
+    checkDone(triedScenarios, correct);
   }
 
   const safetyScore = Math.round((checkedItems.size / info.recommendations.length) * 100);
@@ -688,8 +571,8 @@ export function RadiationSafety({ onProgress }: ActivityProps) {
         </ul>
       </div>
 
-      <div onClickCapture={handleAnswered}>
-        <ChoiceCheck
+      <div>
+        <ChoiceCheck onResult={handleAnswered}
           question="Theo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?"
           options={[
             'Che chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.',

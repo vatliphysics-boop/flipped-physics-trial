@@ -200,6 +200,10 @@ export function getCurriculumLessonByTitle(
   if (!lessonTitle || !chapterCode) return undefined;
   const chapter = getCurriculumChapter(chapterCode);
   if (!chapter) return undefined;
-  const normalized = lessonTitle.trim().toLowerCase();
-  return chapter.lessons.find((l) => l.title.trim().toLowerCase() === normalized);
+  const normalized = lessonTitle.trim().normalize("NFC").toLowerCase();
+  const numbered = normalized.match(/^bài\s+(\d+)[.:–-]\s*(.+)$/u);
+  return chapter.lessons.find(lesson => {
+    const expected = lesson.title.toLowerCase();
+    return numbered ? Number(numbered[1]) === lesson.number && numbered[2] === expected : normalized === expected;
+  });
 }

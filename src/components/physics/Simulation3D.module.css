@@ -1,0 +1,51 @@
+.shell {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: clamp(8px, 2vw, 20px);
+  margin-bottom: 20px;
+  min-width: 0;
+}
+.canvas {
+  width: 100%;
+  height: clamp(205px, 42vw, 360px);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: grab;
+  background: #0b1120;
+}
+.canvas canvas { display: block; }
+.inspection {
+  min-height: 2.5em;
+  margin: .6rem 0 .1rem;
+  font-size: .84rem;
+  color: #475569;
+  overflow-wrap: anywhere;
+}
+.metrics, .controls {
+  display: grid;
+  gap: .7rem;
+  margin-top: .85rem;
+}
+.metrics { grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); }
+.controls {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: clamp(.55rem, 2vw, .95rem);
+}
+.controls > label, .controls :is(input,select) { min-width: 0; max-width: 100%; }
+.formula {
+  display: grid;
+  min-width: 0;
+  gap: .55rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: clamp(.55rem, 2vw, .95rem);
+  margin-top: .8rem;
+}
+.formula > div { min-width: 0; }
+.formula :global(.katex-display) { margin: .35em 0; }
+.formulaActions { display: flex; flex-wrap: wrap; gap: .5rem; }
+.formulaActions button { white-space: normal; }

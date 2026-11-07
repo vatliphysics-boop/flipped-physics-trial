@@ -3,6 +3,9 @@
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import type { MaterialType, MaterialCategory } from "@/lib/material-bank";
+import { safeLearningUrl } from "@/lib/pathway-progress";
+import { normalizeActivityKey } from "@/lib/curriculum";
+import { PLAN_MATERIAL_TYPES, PLAN_UUID } from "@/lib/teaching-plan";
 
 export type MaterialActionState = {
   error?: string;
@@ -36,6 +39,8 @@ export async function createMaterialItemAction(
   if (!contentUrl) {
     return { error: "Vui lòng cung cấp đường dẫn tệp hoặc liên kết học liệu." };
   }
+  if (title.length > 300 || description.length > 8000 || contentUrl.length > 2000 || !PLAN_MATERIAL_TYPES.includes(materialType) || !["nuclear_physics", "thermal_physics", "ideal_gas", "magnetic_field", "general"].includes(category)) return { error: "Thông tin học liệu vượt giới hạn hoặc sai loại." };
+  if (!safeLearningUrl(contentUrl) && !(materialType === "simulation" && contentUrl.startsWith("activity:") && normalizeActivityKey(contentUrl.slice(9)))) return { error: "Hãy dùng liên kết http/https, tệp trong kho hoặc khóa mô phỏng hợp lệ." };
 
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
@@ -69,7 +74,7 @@ export async function createMaterialItemAction(
 
     if (error) {
       // If table doesn't exist yet, we notify gracefully
-      return { error: `Không thể lưu vào cơ sở dữ liệu: ${error.message}. (Gợi ý: cần áp dụng migration 018).` };
+      return { error: "Chưa lưu được học liệu. Kiểm tra quyền và migration 018–019 rồi thử lại." };
     }
 
     revalidatePath("/teacher/materials");
@@ -88,16 +93,18 @@ export async function updateMaterialItemAction(
   const description = readText(formData, "description");
   const isPublished = formData.get("is_published") === "true";
 
-  if (!id || !title) {
+  if (!PLAN_UUID.test(id) || !title || title.length > 300 || description.length > 8000) {
     return { error: "Thiếu mã học liệu hoặc tiêu đề." };
   }
 
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập." };
+  const { data: profile } = await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle();
+  if (profile?.role !== "teacher") return { error: "Chỉ giáo viên được sửa học liệu." };
 
   try {
-    const { error } = await supabase
+    const { data, error } = await supabase
       .from("material_bank")
       .update({
         title,
@@ -106,10 +113,10 @@ export async function updateMaterialItemAction(
         updated_at: new Date().toISOString(),
       })
       .eq("id", id)
-      .eq("teacher_id", user.id);
+      .eq("teacher_id", user.id).eq("is_system", false).select("id").maybeSingle();
 
-    if (error) {
-      return { error: `Lỗi cập nhật: ${error.message}` };
+    if (error || !data) {
+      return { error: "Chưa cập nhật được học liệu hoặc học liệu không thuộc kho của bạn." };
     }
 
     revalidatePath("/teacher/materials");
@@ -124,21 +131,23 @@ export async function deleteMaterialItemAction(
   formData: FormData
 ): Promise<MaterialActionState> {
   const id = readText(formData, "id");
-  if (!id) return { error: "Thiếu mã học liệu cần xóa." };
+  if (!PLAN_UUID.test(id)) return { error: "Thiếu mã học liệu cần xóa." };
 
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập." };
+  const { data: profile } = await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle();
+  if (profile?.role !== "teacher") return { error: "Chỉ giáo viên được xóa học liệu." };
 
   try {
-    const { error } = await supabase
+    const { data, error } = await supabase
       .from("material_bank")
       .delete()
       .eq("id", id)
-      .eq("teacher_id", user.id);
+      .eq("teacher_id", user.id).eq("is_system", false).select("id").maybeSingle();
 
-    if (error) {
-      return { error: `Không thể xóa học liệu: ${error.message}` };
+    if (error || !data) {
+      return { error: "Chưa xóa được học liệu hoặc học liệu không thuộc kho của bạn." };
     }
 
     revalidatePath("/teacher/materials");

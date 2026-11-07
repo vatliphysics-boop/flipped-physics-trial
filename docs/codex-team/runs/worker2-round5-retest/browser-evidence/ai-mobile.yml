@@ -1,0 +1,43 @@
+- complementary "AI hỗ trợ học tập" [ref=e463]:
+  - region [ref=e492]:
+    - generic [ref=e493]:
+      - generic [ref=e494]:
+        - heading "Hỏi AI về bài học" [level=2] [ref=e495]
+        - generic [ref=e496]: AI cục bộ · Sẵn sàng
+      - button "Đóng khung AI" [ref=e497] [cursor=pointer]: ×
+    - generic [ref=e498]:
+      - generic [ref=e499]:
+        - text: Bài học
+        - combobox "Bài học" [ref=e500]:
+          - option "B21 · Cấu trúc hạt nhân"
+          - option "B22 · Phản ứng hạt nhân và năng lượng liên kết"
+          - option "B23 · Hiện tượng phóng xạ" [selected]
+          - option "B24 · Công nghiệp hạt nhân"
+          - option "B25 · Ôn tập và phân tích số liệu hạt nhân"
+      - generic [ref=e501]:
+        - text: Cách hỗ trợ
+        - combobox "Cách hỗ trợ" [ref=e502]:
+          - option "Gợi ý từng bước" [selected]
+          - option "Giải thích"
+    - log "Cuộc trao đổi với AI" [ref=e503]:
+      - generic [ref=e520]:
+        - strong [ref=e521]: Em
+        - paragraph [ref=e522]: Em muốn biết cách làm bánh.
+      - generic [ref=e523]:
+        - strong [ref=e524]: AI cục bộ
+        - paragraph [ref=e525]: Câu hỏi này chưa có liên hệ rõ với Vật lí hạt nhân B21–B25. Em hãy hỏi giáo viên phụ trách hoặc nêu rõ phần kiến thức hạt nhân em cần hỗ trợ. Thầy/cô có thể giúp em chọn nguồn phù hợp.
+      - group [ref=e526]:
+        - generic "Đoạn học liệu AI được cung cấp" [ref=e527] [cursor=pointer]
+      - group [ref=e507]:
+        - generic "Liên kết Gemini / ChatGPT" [ref=e508] [cursor=pointer]
+      - link "Ghi lại câu hỏi và điều em hiểu →" [ref=e509] [cursor=pointer]:
+        - /url: /hoc-lieu/ai?bai=B23
+    - generic [ref=e510]:
+      - text: Câu hỏi của em
+      - textbox "Câu hỏi của em" [ref=e511]:
+        - /placeholder: Nhập câu hỏi về bài học…
+      - generic [ref=e512]:
+        - button "Trao đổi mới" [ref=e528] [cursor=pointer]
+        - button "Gửi" [disabled] [ref=e529]
+      - generic [ref=e515]: Không nhập thông tin cá nhân. AI có thể trả lời sai.
+  - button "Thu gọn khung AI học tập" [expanded] [ref=e516] [cursor=pointer]: AI

@@ -1,0 +1,17 @@
+{
+  "id": "worker3-round5-dev-overlay-fix",
+  "worker": 3,
+  "mode": "fix",
+  "timeout_seconds": 900,
+  "allowed_files": [
+    "next.config.ts"
+  ],
+  "browser_mcp": true,
+  "previous_runs": [
+    "worker3-round4-ux-review"
+  ],
+  "context_files": [
+    "docs/codex-team/lead-round5-plan.md"
+  ],
+  "task": "Root đang sửa chatbot scope và học liệu B23; không sửa các file đó. Worker 2 vòng4 thao tác chuột AI bị nút Next Dev Tools che; keyboard mở được. Việc UI: đọc hướng dẫn devIndicators tại node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/devIndicators.md, trước sửa code. Chỉ sửa next.config.ts để đặt devIndicators false trong môi trường dev (Next vẫn hiện lỗi compile/runtime), giữ toàn bộ config khác. Đây là cấu hình phục vụ dùng thử phát triển, không thay logic AI/science. Sau hot reload thử click nút AI bằng chuột trên /hoc-lieu ở1280 và390, đóng bằng Escape, Tab focus, ảnh chụp thật lưu tuyệt đối trong evidence. Nếu cần khởi động lại dev thì báo root, không tự kill server. Không chờ tài khoản DB và không sửa file khác. Báo exact diff kiểm tra và giới hạn. Trưởng nhóm sẽ tích hợp config dùng chung sau review."
+}

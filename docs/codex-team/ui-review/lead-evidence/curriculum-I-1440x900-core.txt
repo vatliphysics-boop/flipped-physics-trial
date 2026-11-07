@@ -1,0 +1,66 @@
+Browser tab: 5, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=I".
+0 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/hoc-lieu/chuong-trinh?chuong=I
+	1 link Description: Đi đến nội dung chính, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=I#main-content
+	2 container
+		84 button (expanded) Description: Ẩn menu, Secondary Actions: Collapse
+		4 link Description: Học liệu Vật lí 12, Value: localhost:3001/hoc-lieu
+		5 link Description: Đăng nhập lớp học, Value: localhost:3001/login
+	85 container Description: Thanh điều hướng, ID: portal-sidebar
+		86 container Điều hướng chính
+			87 button (collapsed) Học liệu, Secondary Actions: Expand
+			88 link Description: Học với AI, Value: localhost:3001/hoc-lieu/ai
+			89 link Description: Tổng quan, Value: localhost:3001/student
+			90 link Description: Lớp học của em, Value: localhost:3001/student/classes
+			91 button (expanded) Chương trình Vật lí 12, Secondary Actions: Collapse
+			92 container Bốn chương Vật lí 12
+				93 link Description: Chương 1: Vật lí nhiệt, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=I
+				94 link Description: Chương 2: Khí lí tưởng, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=II
+				95 link Description: Chương 3: Từ trường, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=III
+				96 link Description: Chương 4: Vật lí hạt nhân, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=IV
+			97 link Description: Bài tập và kiểm tra, Value: localhost:3001/student/assignments
+			98 link Description: Nhật kí học tập, Value: localhost:3001/student/journal
+	20 container main-content
+		21 container
+			22 text CHƯƠNG TRÌNH VẬT LÍ 12
+			23 heading Chương 1: Vật lí nhiệt, Value: 1
+				24 text Chương 1: Vật lí nhiệt
+			25 text Học liệu của đề tài tập trung Chương 4: Vật lí hạt nhân, B21–B25.
+		26 container Chọn chương
+			27 link Description: Chương 1: Vật lí nhiệt, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=I
+			28 link Description: Chương 2: Khí lí tưởng, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=II
+			29 link Description: Chương 3: Từ trường, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=III
+			30 link Description: Chương 4: Vật lí hạt nhân, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=IV
+		31 container Bài học trong chương
+			99 container
+				100 heading B01 · Cấu trúc của chất. Sự chuyển thể, Value: 2
+					101 text B01  ·  Cấu trúc của chất. Sự chuyển thể
+				102 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			103 container
+				104 heading B02 · Nội năng. Định luật I của nhiệt động lực học, Value: 2
+					105 text B02  ·  Nội năng. Định luật I của nhiệt động lực học
+				106 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			107 container
+				108 heading B03 · Nhiệt độ. Thang nhiệt độ – nhiệt kế, Value: 2
+					109 text B03  ·  Nhiệt độ. Thang nhiệt độ – nhiệt kế
+				110 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			111 container
+				112 heading B04 · Nhiệt dung riêng, Value: 2
+					113 text B04  ·  Nhiệt dung riêng
+				114 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			115 container
+				116 heading B05 · Nhiệt nóng chảy riêng, Value: 2
+					117 text B05  ·  Nhiệt nóng chảy riêng
+				118 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			119 container
+				120 heading B06 · Nhiệt hoá hơi riêng, Value: 2
+					121 text B06  ·  Nhiệt hoá hơi riêng
+				122 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			123 container
+				124 heading B07 · Bài tập về vật lí nhiệt, Value: 2
+					125 text B07  ·  Bài tập về vật lí nhiệt
+				126 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+	52 container AI hỗ trợ học tập
+		53 button (collapsed) Description: Mở khung AI học tập, Secondary Actions: Expand
+	83 text Chương 1: Vật lí nhiệt
+
+The focused UI element is 27 link Description: Chương 1: Vật lí nhiệt, URL: localhost:3001/hoc-lieu/chuong-trinh?chuong=I

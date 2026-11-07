@@ -1,3 +1,5 @@
+import { getStudentPathway } from "@/lib/student-pathway";
+import { StudentPathwayStepViewer } from "@/components/learning/StudentPathwayStepViewer";
 import { PortalShell } from "@/components/PortalShell";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StudentLessonHeader } from "../../StudentLessonHeader";
@@ -6,6 +8,7 @@ import { StudentInClassProgression } from "@/components/learning/StudentInClassP
 import { createSignedVideoUrl, classifyVideoSource, isMovVideoSource } from "@/lib/video-source";
 import { VideoCheckpointPlayer } from "../../../VideoCheckpointPlayer";
 import type { NuclearPhysicsLessonCode } from "@/lib/curriculum";
+import { getNuclearSequence } from "@/lib/nuclear-learning-sequence";
 import { checkPhaseAccess } from "@/lib/phase-guard";
 
 export default async function StudentInClassPage({ params }: { params: Promise<{ lessonId: string }> }) {
@@ -13,9 +16,11 @@ export default async function StudentInClassPage({ params }: { params: Promise<{
   const { supabase, user, lesson, curriculum } = await getStudentLesson(lessonId);
   
   const { data: videos } = await supabase.from("lesson_materials").select("id, title, description, content_url, duration_minutes, instructions").eq("lesson_id", lessonId).eq("phase", "in_class").eq("material_type", "video").eq("is_published", true).order("sort_order").order("created_at");
-  const { data: colabs } = await supabase.from("lesson_materials").select("id, title, description, content_url").eq("lesson_id", lessonId).eq("phase", "in_class").eq("material_type", "worksheet").eq("is_published", true).order("created_at");
+  const { data: colabs } = await supabase.from("lesson_materials").select("id, title, description, content_url, instructions, material_type").eq("lesson_id", lessonId).eq("phase", "in_class").eq("material_type", "worksheet").eq("is_published", true).order("created_at");
   
   const phaseProgressObj = await checkPhaseAccess(lessonId, "in_class");
+  const pathway = await getStudentPathway(supabase, lessonId, user.id, "in_class");
+  const pathwayCompleted = !pathway.error && pathway.steps.every(step => !step.required || step.completed);
 
   const ids = [...(videos ?? []).map(v => v.id), ...(colabs ?? []).map(c => c.id)];
   
@@ -62,29 +67,31 @@ export default async function StudentInClassPage({ params }: { params: Promise<{
   const resolvedVideos = await Promise.all(videosNode);
 
   return (
-    <PortalShell role="student" active="lessons" account={<LogoutButton />}>
+    <PortalShell role="student" aiLessonCode={curriculum.code} active="lessons" account={<LogoutButton />}>
       <StudentLessonHeader 
         lessonId={lessonId}
         lessonTitle={cleanTitle}
         chapterCode={curriculum.chapterCode}
+        lessonCode={curriculum.code}
         description="Thực hiện thí nghiệm ảo, xử lí dữ liệu và thảo luận kết quả."
         activePhase="in_class"
         phaseProgress={phaseProgressObj}
       />
       
       <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
+        <StudentPathwayStepViewer phase="in_class" {...pathway} />
         <StudentInClassProgression 
           lessonCode={curriculum.code as NuclearPhysicsLessonCode}
           lessonId={lessonId}
           videosNode={resolvedVideos}
-          colabs={(colabs ?? []).map(c => ({ id: c.id, title: c.title, content_url: c.content_url ?? "", description: c.description, is_complete: progressByMaterial.get(c.id)?.isComplete ?? false }))}
+          colabs={(colabs ?? []).map(c => ({ id: c.id, title: c.title, content_url: c.content_url ?? "", description: c.description, instructions: c.instructions, material_type: c.material_type, is_complete: progressByMaterial.get(c.id)?.isComplete ?? false }))}
           finalQs={finalQs ?? []}
-          allVideosCompleted={allVideosCompleted}
+          allVideosCompleted={allVideosCompleted && pathwayCompleted}
           phaseCompleted={phaseProgress?.is_completed ?? false}
           simulationCompleted={phaseProgress?.simulation_completed ?? false}
+          assignedMainActivity={pathway.steps.some(step => step.required && step.activityKey === getNuclearSequence(curriculum.code)?.activity)}
         />
       </div>
     </PortalShell>
   );
 }
-

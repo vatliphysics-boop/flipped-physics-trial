@@ -1,0 +1,171 @@
+.lab {
+  --bg-page: #f3f7fa;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #edf4f7;
+  --text-primary: #173244;
+  --text-secondary: #425e70;
+  --text-muted: #597080;
+  --border-light: #d5e1e8;
+  --border-dark: #a6bdc9;
+  --border: #d5e1e8;
+  --color-primary: #116b70;
+  --color-primary-hover: #0c5559;
+  color: var(--text-primary);
+  background: var(--bg-page);
+}
+.hero {
+  --text-primary: #eef9fb;
+  --text-secondary: #bed0d7;
+  --text-muted: #9eb8c2;
+  --border-light: #29424d;
+  --bg-surface: #0d202b;
+  --bg-surface-elevated: #112b36;
+  color: var(--text-primary);
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #27424e;
+  background:
+    radial-gradient(ellipse at 83% 0%, #22675d75, transparent 58%),
+    radial-gradient(ellipse at 0% 70%, #15394c99, transparent 70%), #08151e;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(#96efdf13 1px, transparent 1px), linear-gradient(90deg, #96efdf13 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(ellipse at 70% 35%, #000 10%, transparent 85%);
+}
+.heroInner, .wrap {
+  width: min(100%, 1200px);
+  margin-inline: auto;
+  padding-inline: clamp(16px, 4vw, 40px);
+}
+.heroInner {
+  display: grid;
+  grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 55px);
+  padding-block: clamp(36px, 6vw, 76px);
+}
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  margin: 0 0 .9rem;
+  color: #116b70;
+  font-size: .78rem;
+  font-weight: 750;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+.eyebrow::before { content: ""; width: 1.5rem; height: 1px; background: currentColor; }
+.hero .eyebrow { color: #a7f4de; }
+.hero h1, .gallery h1 {
+  max-width: 15ch;
+  margin: 0;
+  font-size: clamp(2.55rem, 6vw, 5.6rem);
+  font-weight: 770;
+  line-height: 1.02;
+  letter-spacing: -.06em;
+  text-wrap: balance;
+}
+.hero h1 span { color: #91e9d3; display: block; }
+.lead { max-width: 56ch; margin: 1.3rem 0; color: var(--text-secondary); line-height: 1.65; font-size: clamp(1rem, 1.7vw, 1.15rem); }
+.links, .galleryNav { display: flex; align-items: center; flex-wrap: wrap; gap: .7rem; }
+.links a, .galleryNav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: .55rem .9rem;
+  border: 1px solid var(--border-dark);
+  border-radius: 9px;
+  color: var(--text-primary);
+  background: var(--bg-surface);
+  text-decoration: none;
+  font-size: .91rem;
+  font-weight: 650;
+  transition: background-color .18s ease, transform .18s ease;
+}
+.links .primary, .galleryNav a[aria-current="page"] { background: #116b70; border-color: #116b70; color: #ffffff; }
+.links a:hover, .galleryNav a:hover { transform: translateY(-2px); }
+.links a:focus-visible, .galleryNav a:focus-visible, .lessonRail a:focus-visible { outline: 3px solid #cd802e; outline-offset: 3px; }
+.ledger {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.35rem;
+  gap: .5rem 1.1rem;
+  color: #bed5de;
+  font-size: .81rem;
+}
+.ledger strong { color: #ffd09b; }
+.stage { min-width: 0; scroll-margin-top: 16px; }
+.stageLabel { margin: 0 0 .55rem; color: #c1e8e6; font-size: .82rem; font-weight: 650; letter-spacing: .035em; }
+.lessonRail { padding-block: 1.5rem 1.75rem; }
+.lessonRail > p { margin: 0 0 .75rem; font-weight: 650; color: #aac7d2; font-size: .86rem; }
+.lessonRail > div { display: grid; grid-template-columns: repeat(5, 1fr); gap: .6rem; }
+.lessonRail a {
+  display: grid;
+  gap: .25rem;
+  min-width: 0;
+  padding: .8rem .85rem;
+  border: 1px solid #2e4a58;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #183a44, #102530);
+  color: #eaf8ff;
+  text-decoration: none;
+  box-shadow: 0 10px 30px #0003;
+  transition: background-color .18s, border-color .18s;
+}
+.lessonRail a:hover { border-color: #81d7c2; }
+.lessonRail strong { color: #a8f0dc; font-size: .8rem; letter-spacing: .07em; }
+.lessonRail span { font-size: .83rem; line-height: 1.35; }
+.gallery { padding-block: clamp(28px, 4vw, 48px); background: var(--bg-page); }
+.gallery h1 { font-size: clamp(2rem, 4.5vw, 3.5rem); max-width: 24ch; letter-spacing: -.045em; }
+.galleryNav { margin-block: 1.4rem 2rem; }
+.galleryGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(18px, 3vw, 30px); align-items: start; }
+.galleryPane {
+  min-width: 0;
+  padding: clamp(12px, 2vw, 22px);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  background: var(--bg-surface);
+  box-shadow: 0 5px 18px #17324408;
+  scroll-margin-top: 7.5rem;
+}
+.galleryPane h2 { margin: .2rem 0 .65rem; font-size: 1.32rem; }
+.galleryPane > p { color: var(--text-secondary); }
+.galleryPane > .eyebrow { color: #116b70; }
+.question { border-left: 3px solid #c78337; padding-left: .9rem; color: #614624; }
+.gallery :global(.physics-note) { color: var(--text-secondary); }
+.sources {
+  margin-top: 1.3rem;
+  padding: .95rem 1.15rem;
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+}
+.sources h2 { color: var(--text-primary); }
+.sources summary { color: var(--text-primary); font-weight: 650; cursor: pointer; }
+.sources a { color: #116b70; text-decoration: underline; }
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .lessonRail a, .galleryPane {
+      animation: arrive linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 46%;
+    }
+    @keyframes arrive { from { opacity: .65; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  }
+}
+@media (max-width: 800px) {
+  .heroInner, .galleryGrid { grid-template-columns: minmax(0, 1fr); }
+  .lessonRail > div { grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)); }
+}
+@media (prefers-reduced-motion: reduce) { .links a, .galleryNav a, .lessonRail a { transition: none; transform: none; } }
+.phaseSample { padding: .8rem 0; border-top: 1px solid var(--border-light); }
+.phaseSample:last-child { padding-bottom: 0; }
+.phaseSample :global(.physics-math-block) { color: var(--text-primary); background: var(--bg-surface); }

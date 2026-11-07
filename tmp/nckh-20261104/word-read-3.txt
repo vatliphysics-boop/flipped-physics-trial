@@ -1,0 +1,113 @@
+0015 D. 20
+P0017 Xét mẫu phóng xạ có chu kì bán rã T không đổi.
+P0018 a) Sau mỗi T, số hạt nhân mẹ kì vọng còn lại giảm một nửa.   □ Đúng   □ Sai
+P0019 b) Có thể biết chính xác thời điểm phân rã của từng hạt.   □ Đúng   □ Sai
+P0020 c) H và N giảm theo cùng quy luật mũ với λ không đổi.   □ Đúng   □ Sai
+P0021 d) Sau 3T tất cả các hạt nhân mẹ đã phân rã.   □ Đúng   □ Sai
+P0023 Sau 120 s, một mẫu còn 1/8 số hạt nhân mẹ ban đầu. Tính T.
+P0026 Mẫu hữu cơ đã ngừng trao đổi carbon, tuổi 17190 năm; giả sử hoạt tính C-14 ban đầu như mẫu sống, T = 5730 năm. Hoạt tính còn bao nhiêu phần trăm?
+P0029 Thiết kế cách xác định T từ bảng số hạt nhân mẹ theo thời gian. Nêu cách kiểm tra sai sót và một điều em sẽ điều chỉnh nếu câu trả lời ban đầu sai.
+
+FILE tmp/book-extraction/word-qa/equation.docx
+P0000 Bài tập nhiệt nóng chảy riêng
+P0001 Vật lí 12   Thời gian 15 phút   Mã đề 101   10 điểm
+P0003 Câu 1 (10 điểm)
+P0004 Khi được cung cấp một nhiệt lượng Q=5,13×105 J thì toàn bộ 1,5 kg băng (nước đá) ở 0°C hóa lỏng và không thay đổi nhiệt độ. Tính nhiệt nóng chảy riêng của nước đá ở 0°C.
+
+FILE tmp/report-template/superseded/BÀI BÁO KHOA HỌC.docx
+P0000  DIFF XÂY DỰNG [OLD VÀ SỬ DỤNG → ] HỌC LIỆU SỐ | TUỆ NHÂN TẠO [OLD TRONG TỔ CHỨC DẠY HỌC → VÀ ĐỀ XUẤT SỬ DỤNG] THEO MÔ HÌNH | LỰC TỰ HỌC [OLD CỦA HỌC SINH → ] QUA CHỦ ĐỀ | QUA CHỦ ĐỀ [OLD “VẬT → VẬT] LÍ HẠT NHÂN” | “VẬT LÍ HẠT [OLD NHÂN” MÔN VẬT LÍ → NHÂN] LỚP 12 Ở | LÍ LỚP 12 [OLD Ở TRƯỜNG THPT → ] 
+P0001 Developing AI-Assisted Digital Learning Materials and Proposing Their Use in a Flipped Classroom to Develop Self-Learning Competence in Grade 12 Nuclear Physics
+P0002 [TÊN]
+P0003 Trường Đại học Sài Gòn Việt Nam
+P0005 Nghiên cứu trình bày quy trình xây dựng học liệu số có hỗ trợ trí tuệ nhân tạo tạo sinh và đề xuất sử dụng trong dạy học chủ đề Vật lí hạt nhân lớp 12 theo mô hình lớp học đảo ngược, hướng tới phát triển năng lực tự học. Bài báo báo cáo phần phân tích nội dung, thiết kế học liệu và tiến trình của đề tài; sử dụng phân tích chương trình, sách giáo khoa, thuyết minh và đối chiếu bản mẫu website với nhiệm vụ học tập. Kết quả gồm quy trình thiết kế sáu bước có giáo viên kiểm duyệt; ma trận liên kết học liệu, hoạt động và biểu hiện tự học; bộ hoạt động cho B21–B25; phương án tổ chức trước, trong và sau giờ học; cùng định hướng đánh giá qua sản phẩm học tập, quan sát và nhật kí. Website hỗ trợ giao học liệu, mô phỏng tương tác, câu hỏi và lưu tiến độ. AI được sử dụng ở khâu xây dựng; các chức năng hỗ trợ trực tiếp học sinh mới được nêu theo mức bằng chứng hiện có. Chưa thu thập dữ liệu thực nghiệm sư phạm, nên kết quả phản ánh sản phẩm thiết kế và phương án sử dụng, chưa khẳng định tác động đến năng lực tự học.
+P0006  DIFF  [OLD 1. Hệ thống hóa cơ sở lí luận về → Từ khóa:] học liệu số, | về học liệu [OLD số, → số;] trí tuệ nhân | tuệ nhân tạo [OLD trong giáo dục, → tạo sinh;] lớp học đảo | lớp học đảo [OLD ngược và → ngược;] năng lực tự | năng lực tự [OLD học. → học; Vật lí hạt nhân.] 
+P0008 This study presents a process for developing digital learning materials with generative artificial intelligence and proposes their use in a flipped classroom to develop self-learning competence in Grade 12 nuclear physics. This article reports the content analysis, material design, and instructional planning components of the project. Methods include analysis of the curriculum, textbook, and research proposal, together with a review of the website prototype against learning tasks. The outputs comprise a six-step design process with teacher review; a matrix linking materials, activities, and observable self-learning behaviours; activities for lessons B21–B25; a three-phase instructional sequence; and an assessment framework using learning products, observation, and reflection. The website supports material delivery, interactive simulations, questions, and progress recording. AI was used during development; direct AI support for students is described according to the available evidence. No classroom experiment has yet been conducted, so the article reports design outputs and proposed use rather than measured effects on self-learning competence.
+P0009 Keywords: digital learning materials; generative artificial intelligence; flipped classroom; self-learning competence; nuclear physics.
+P0010 1 Mở đầu
+P0011 Chương trình giáo dục phổ thông môn Vật lí đặt việc hình thành năng lực vật lí trong mối liên hệ với năng lực tự chủ và tự học [1]. Với chủ đề Vật lí hạt nhân lớp 12, học sinh phải tìm hiểu những đối tượng vi mô và quá trình khó quan sát trực tiếp, đồng thời sử dụng kí hiệu, phương trình và đồ thị để giải thích hiện tượng. Nghiên cứu của Morales López và Tuzón Marco ghi nhận những quan niệm sai về phóng xạ, kiến thức và thái độ của người học [2]. Điều này đặt ra yêu cầu xây dựng học liệu giúp học sinh quan sát có định hướng, kiểm tra cách hiểu và lập luận bằng kiến thức khoa học.
+P0012 Mô hình lớp học đảo ngược chuyển một phần tiếp nhận kiến thức nền sang hoạt động chuẩn bị, dành thời gian gặp giáo viên cho trao đổi, giải quyết vấn đề và vận dụng. Các phân tích tổng hợp của van Alten và cộng sự [3], Strelan và cộng sự [4] cho thấy tiềm năng đối với kết quả học tập, nhưng hiệu quả phụ thuộc vào cách tổ chức. Tổng quan của Tunggyshbay, Balta và Admiraal trong giáo dục Vật lí cũng ghi nhận sự đa dạng của nhiệm vụ và công cụ [5]. Vì vậy, học liệu trước lớp cần nối với vấn đề học sinh sẽ giải quyết trong lớp và nhiệm vụ tiếp nối sau lớp.
+P0013 Trong nước, Mai Xuân Đào và Phan Đồng Châu Thủy đã nghiên cứu xây dựng học liệu điện tử theo lớp học đảo ngược và công cụ đánh giá năng lực tự học ở bậc THPT [6]. Mai Hoàng Phương và cộng sự xây dựng học liệu số cho mạch Động lượng ở Vật lí 10 [7]. Những công trình này cung cấp điểm tựa để thiết kế học liệu theo hoạt động học, song đối tượng nội dung và phạm vi công nghệ khác với chủ đề Vật lí hạt nhân lớp 12 có hỗ trợ AI trong nghiên cứu này.
+P0014 Việc giao học liệu cho học sinh tự học cần đi cùng hỗ trợ xác định mục tiêu, theo dõi tiến độ, tự kiểm tra và điều chỉnh. Liu, Hew và Du tổng quan các biện pháp hỗ trợ học tập tự điều chỉnh trong lớp học đảo ngược và nhận thấy kết quả chưa đồng nhất [8]. Khái niệm self-regulated learning trong tài liệu quốc tế có những thành tố giao với năng lực tự học, nhưng không thay thế hoàn toàn khái niệm của chương trình Việt Nam. Bài báo sử dụng các thành tố đó làm cơ sở thiết kế nhiệm vụ; các chỉ báo đánh giá phải được cụ thể hóa theo yêu cầu của môn học.
+P0015 AI có thể hỗ trợ tạo học liệu, gợi ý câu hỏi và phản hồi, như được tổng hợp trong nghiên cứu của Almasri [9]. Banihashem và cộng sự chỉ ra nhiều hình thức ứng dụng AI trong học tập tự điều chỉnh [10]; Xia và cộng sự bàn về thiết kế hoạt động tự điều chỉnh với AI tạo sinh [11]. Các tổng quan này cung cấp gợi ý chức năng, không chứng minh hiệu quả của bản mẫu đang xây dựng. Theo định hướng của UNESCO, việc sử dụng AI cần giữ quyền chủ động của con người, kiểm tra nội dung và bảo vệ dữ liệu [12].
+P0016 Nghiên cứu hướng tới xây dựng và sử dụng bộ học liệu số được thiết kế với sự hỗ trợ của AI theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học qua chủ đề Vật lí hạt nhân lớp 12. Trong phạm vi bài báo này, hai vấn đề được giải quyết là quy trình thiết kế học liệu có giáo viên kiểm duyệt và cách kết nối học liệu với hoạt động tự học trong ba pha. Đóng góp được báo cáo gồm quy trình, ma trận thiết kế, bản mẫu học liệu và phương án tổ chức sử dụng. Tác động sư phạm thuộc giai đoạn thực nghiệm tiếp theo.
+P0017 2 Phương pháp nghiên cứu
+P0018 2.1 Cách tiếp cận và phạm vi báo cáo
+P0019 Đề tài được định hướng theo phương pháp nghiên cứu hỗn hợp, trong đó định lượng giữ vai trò chính và định tính dùng để giải thích kết quả. Các nội dung trong thuyết minh gồm nghiên cứu cơ sở lí luận và thực tiễn; xây dựng và sử dụng bộ học liệu; thực nghiệm sư phạm; hoàn thiện sản phẩm và báo cáo. Bài báo này trình bày phần nghiên cứu lí luận, phân tích nội dung và thiết kế sản phẩm chuẩn bị cho can thiệp. Chưa có dữ liệu khảo sát giáo viên, học sinh hoặc tiền kiểm và hậu kiểm để báo cáo kết quả định lượng.
+P0020 Đối tượng thiết kế là học liệu và tiến trình dạy học chủ đề Vật lí hạt nhân lớp 12, gồm cấu trúc hạt nhân, độ hụt khối và năng lượng liên kết, phản ứng hạt nhân, phóng xạ, ứng dụng và an toàn. Phạm vi xây dựng trên bản mẫu tương ứng B21–B25 trong sách Vật lí 12 Kết nối tri thức với cuộc sống [13]. Website là môi trường tổ chức tài nguyên và nhiệm vụ. Đơn vị phân tích là quan hệ giữa mục tiêu học tập, nội dung, học liệu, thao tác của học sinh và bằng chứng thể hiện tự học.
+P0021 2.2 Tư liệu và phương pháp phân tích
+P0022 Tư liệu gồm chương trình môn Vật lí [1], sách giáo khoa [13], thuyết minh đề tài, hướng dẫn tổ chức ba pha, bản lưu website ngày 28/9/2026 và hồ sơ trao đổi phát triển. Tài liệu nghiên cứu được phân tích để xác định vai trò của học liệu, lớp học đảo ngược và AI đối với tự học. Nội dung chủ đề được đối chiếu để lựa chọn hiện tượng cần trực quan hóa, bài toán cần xử lí và những điểm dễ nhầm. Hồ sơ phát triển được sử dụng để truy lại việc điều chỉnh học liệu, không được xem là dữ liệu thực nghiệm trên học sinh.
+P0023 Mỗi học liệu được rà soát theo mục tiêu, sự đúng đắn khoa học, hướng dẫn thao tác, cơ hội tự kiểm tra và khả năng lưu sản phẩm. Việc có thành phần tương tác trong bản mã được phân biệt với việc đã chạy ổn định bằng tài khoản thật; kịch bản video được phân biệt với video đã xuất bản; hoạt động nhóm được phân biệt với chức năng cộng tác trực tuyến. Cách đối chiếu này bảo đảm những kết quả về thiết kế được báo cáo đúng mức.
+P0024 2.3 Định hướng khảo sát và thực nghiệm
+P0025 Theo thuyết minh, khảo sát thực trạng dự kiến gồm 20–30 giáo viên Vật lí và 150–250 học sinh lớp 12, sử dụng bảng hỏi, phỏng vấn bán cấu trúc và sản phẩm học tập. Thực nghiệm được định hướng theo thiết kế bán thực nghiệm tiền kiểm và hậu kiểm có nhóm đối chứng, tại trường THPT được lựa chọn ở Thành phố Hồ Chí Minh, trong 6–8 tuần của chủ đề. Các nhóm cần cùng yêu cầu cần đạt, thời lượng và ma trận kiểm tra. Đây là kế hoạch thu thập dữ liệu; số trường, số lớp và phân nhóm phải được thống nhất trước khi triển khai.
+P0026 Đánh giá dự kiến kết hợp rubric biểu hiện tự học, bài kiểm tra kiến thức, quan sát thực hiện nhiệm vụ, nhật kí và dữ liệu tiến độ. Phân tích định lượng sử dụng thống kê mô tả, kiểm tra độ tin cậy và so sánh phù hợp với thiết kế bằng SPSS; dữ liệu định tính giúp giải thích cách học sinh thực hiện và điều chỉnh việc học. Công cụ phải được góp ý và thử trước khi dùng chính thức. Người tham gia được thông báo mục đích, quyền rút lui; dữ liệu được mã hóa và công bố ở dạng tổng hợp.
+P0027 3 Kết quả thiết kế và phương án sử dụng
+P0028 3.1 Nguyên tắc thiết kế và biểu hiện năng lực tự học
+P0029 Học liệu được lựa chọn từ yêu cầu cần đạt và nhiệm vụ học sinh phải thực hiện. Đối với hiện tượng vi mô, hình ảnh và mô phỏng cần nêu rõ giới hạn biểu diễn, tránh để kích thước phóng đại hoặc hoạt ảnh tạo cách hiểu sai. Mỗi tài nguyên phải đi cùng mục tiêu, câu hỏi định hướng hoặc yêu cầu sản phẩm. Phản hồi cần giúp học sinh nhận ra chỗ sai trong lập luận và thực hiện bước sửa, thay vì chỉ thông báo hoàn thành.
+P0030 Quy trình giữ nguyên tắc “AI hỗ trợ – giáo viên kiểm duyệt – học sinh chịu trách nhiệm”. Giáo viên kiểm tra nội dung do AI gợi ý, lựa chọn nhiệm vụ và quyết định đánh giá chính thức; học sinh phải tự quan sát, giải thích và sửa câu trả lời. Không đưa thông tin nhận dạng hoặc hồ sơ nhạy cảm của học sinh vào công cụ AI công cộng. Quyền kiểm duyệt và giới hạn AI này phù hợp với thuyết minh và định hướng của UNESCO [12].
+P0031 Các biểu hiện tự học trong Bảng 1 là khung thiết kế đề xuất, được cụ thể hóa từ định hướng của chương trình [1] và các gợi ý hỗ trợ tự điều chỉnh [8]. Đây chưa phải thang đo đã được kiểm định. Trước giờ học, nhiệm vụ tập trung vào xác định mục tiêu và chuẩn bị; trong giờ học, học sinh kiểm tra cách hiểu khi thao tác, trao đổi; sau giờ học, học sinh tự đánh giá và lập hành động điều chỉnh.
+P0032 Bảng 1 Ma trận học liệu, hoạt động và bằng chứng tự học
+P0033 Biểu hiện tự học
+P0034 Học liệu và nhiệm vụ
+P0035 Bằng chứng cần thu
+P0036 Xác định mục tiêu và lập kế hoạch
+P0037 Mục tiêu bài, phiếu tự học; chọn nội dung cần chuẩn bị và dự kiến thời gian.
+P0038 Kế hoạch cá nhân và câu hỏi cần tìm hiểu.
+P0039 Tiếp nhận và xử lí thông tin
+P0040 Video, hình, mô phỏng; ghi chú, lập bảng quan sát, đọc kí hiệu hoặc đồ thị.
+P0041 Phiếu ghi chép, bảng số liệu và giải thích bằng kiến thức vật lí.
+P0042 Thực hiện và theo dõi nhiệm vụ
+P0043 Thao tác có mục đích, ghi kết quả; đối chiếu tiến độ với kế hoạch.
+P0044 Sản phẩm nhiệm vụ kết hợp dấu vết tiến độ và quan sát của giáo viên.
+P0045 Tự kiểm tra và đánh giá
+P0046 Câu hỏi định hướng, câu hỏi chốt; so sánh đáp án với lập luận của mình.
+P0047 Câu trả lời, lí do chọn hoặc sửa và mức hiểu tự nhận xét.
+P0048 Điều chỉnh việc học
+P0049 Phản hồi, bài tập tiếp nối và nhật kí; xác định lỗi, chọn việc cần làm lại.
+P0050 Bản sửa, lí do sửa, kế hoạch tiếp theo và việc thực hiện kế hoạch.
+P0051 3.2 Quy trình xây dựng học liệu với sự hỗ trợ của AI
+P0052 Quy trình thiết kế gồm sáu bước. Bước một là phân tích yêu cầu cần đạt, nội dung và khó khăn dự kiến để lập ma trận mục tiêu – nội dung – hoạt động – đánh giá. Chẳng hạn, mục tiêu phân biệt đồng vị phải dẫn đến nhiệm vụ so sánh số proton và neutron; mục tiêu hiểu định luật phóng xạ cần nhiệm vụ đọc số liệu và đồ thị. Những khó khăn này được xác định từ phân tích tài liệu, chưa phải kết quả khảo sát mẫu học sinh của đề tài.
+P0053 Bước hai là xác định vai trò học liệu trong tiến trình ba pha. Video hoặc bài đọc cung cấp nội dung nền; mô phỏng tạo điều kiện quan sát và thay đổi biến; phiếu hướng dẫn tổ chức thao tác và ghi bằng chứng; câu hỏi và nhật kí giúp tự kiểm tra, điều chỉnh. Một tài nguyên có thể dùng ở nhiều thời điểm nếu nhiệm vụ đi kèm khác nhau, nhưng phải chỉ rõ mục đích của từng lần sử dụng.
+P0054 Bước ba là dùng AI hỗ trợ bản nháp kịch bản, lời dẫn, câu hỏi, gợi ý phản hồi và mã mô phỏng. Yêu cầu đầu vào phải nêu lớp học, mục tiêu, nội dung sách giáo khoa, kiến thức học sinh đã học và sản phẩm cần tạo. Có thể yêu cầu AI diễn đạt lại câu hỏi hoặc đề xuất mức hỗ trợ khác nhau, nhưng giáo viên phải kiểm tra các phiên bản. Đây là cách vận dụng gợi ý về AI hỗ trợ thiết kế [9], [11]; không đồng nghĩa đã có hệ thống AI tự cá nhân hóa trên website.
+P0055 Bước bốn là kiểm duyệt. Giáo viên đối chiếu thuật ngữ, kí hiệu, đơn vị, bảo toàn trong phản ứng và số liệu với chương trình, sách giáo khoa; xem khả năng tạo quan niệm sai của hình ảnh và câu chữ. Kịch bản, câu hỏi hoặc mã chưa đạt phải được sửa trước khi đưa vào học liệu. Các phần do AI gợi ý cần được ghi trong hồ sơ kiểm duyệt, cùng phiên bản và người kiểm tra, để truy lại quyết định thiết kế.
+P0056 Bước năm là hoàn thiện và tích hợp vào tiến trình sử dụng. Học liệu phải có hướng dẫn, câu hỏi và đầu ra; video thật cần kiểm tra khả năng phát, mô phỏng cần kiểm tra thao tác, còn câu hỏi cần kiểm tra đáp án và phản hồi. Trạng thái bản nháp tách với trạng thái công bố cho học sinh. Bước sáu là rà soát, thu góp ý và điều chỉnh: thử khả năng truy cập, độ rõ nhiệm vụ, lưu kết quả và chuyển pha, sau đó dùng quan sát và sản phẩm học sinh ở giai đoạn thực nghiệm để hoàn thiện.
+P0057 3.3 Bộ học liệu cho chủ đề Vật lí hạt nhân
+P0058 Bộ học liệu được tổ chức theo B21–B25, bao phủ các mạch nội dung trong thuyết minh. Bản mẫu khai báo 17 khóa hoạt động tương tác với phân bố 3, 4, 5, 4 và 1 theo năm bài. Đây là số thành phần được nối với bộ hiển thị, không phải số thí nghiệm đã được kiểm định. Phiếu, câu hỏi và kịch bản video bổ trợ cho các hoạt động; những video mới có kịch bản hoặc vị trí chờ chưa được tính là video học liệu đã hoàn thành.
+P0059 Bảng 2 Nội dung học liệu và nhiệm vụ học tập theo bài
+P0060 Bài và nội dung
+P0061 Học liệu chủ yếu
+P0062 Nhiệm vụ và sản phẩm học sinh
+P0063 B21 Cấu trúc hạt nhân
+P0064 Tán xạ alpha Rutherford; dựng hạt nhân; so sánh đồng vị và kích thước.
+P0065 Dự đoán đường đi, phát hạt, ghi quan sát; giải thích cấu trúc; đọc Z, N, A và phân biệt đồng vị.
+P0066 B22 Phản ứng và năng lượng liên kết
+P0067 Vết buồng sương Blackett, cân bằng phản ứng; năng lượng liên kết riêng; phân hạch U-235; tổng hợp D–T.
+P0068 Đọc vết hạt, kiểm tra bảo toàn; khảo sát đồ thị; giải thích sự biến đổi hạt nhân và năng lượng.
+P0069 B23 Phóng xạ
+P0070 Đếm Geiger; tính chất bức xạ; bán rã; định tuổi C-14; tình huống an toàn.
+P0071 Lập bảng, đọc đồ thị; giải thích tính ngẫu nhiên và quy luật tập hợp; giải bài toán và tình huống.
+P0072 B24 Công nghiệp hạt nhân
+P0073 Dòng năng lượng phát điện; điều khiển phản ứng; ứng dụng y học và công nghiệp.
+P0074 Mô tả chuyển hóa năng lượng; phân tích điều khiển; thảo luận ứng dụng và an toàn có dẫn chứng.
+P0075 B25 Bài tập về vật lí hạt nhân
+P0076 Nhiệm vụ tổng hợp với phương trình, đồ thị và tính năng lượng.
+P0077 Lựa chọn kiến thức, trình bày lời giải, kiểm tra kết quả và ghi cách khắc phục lỗi.
+P0078 Ở B21, mô phỏng Rutherford được điều chỉnh để hạt chỉ xuất hiện sau thao tác phát, có chuyển động và thống kê sau khi kết thúc đường đi. Học sinh có thể thay đổi độ lệch tâm, so sánh trường hợp và giải thích quan sát. Mô hình dựng hạt nhân cập nhật số proton, neutron và số khối. Giáo viên cần nhắc rõ hình vẽ được phóng đại và quỹ đạo là biểu diễn sư phạm, không sử dụng tỉ lệ hoạt ảnh như số đo thực nghiệm.
+P0079 B22 được giữ thành nhóm bốn hoạt động riêng, tránh bỏ qua thí nghiệm buồng sương khi chỉ tập trung vào công thức năng lượng. Vết hạt trong nhiệm vụ Blackett nối với việc xác định sản phẩm và cân bằng phản ứng; đồ thị năng lượng liên kết riêng nối với giải thích độ bền; phân hạch và tổng hợp nối với biến đổi năng lượng. B23 và B24 tiếp tục nối mô hình với xử lí dữ liệu và vấn đề thực tiễn. Giá trị học liệu nằm ở câu hỏi và bằng chứng học sinh sử dụng, không chỉ ở việc có hình động.
+P0080 3.4 Phương án sử dụng theo tiến trình ba pha
+P0081 Tiến trình sử dụng được thiết kế để sản phẩm của pha trước trở thành căn cứ cho pha tiếp theo. Những câu hỏi còn vướng ở nhà được đưa vào thảo luận trên lớp; các lỗi phát hiện khi thao tác và giải thích được chuyển thành nhiệm vụ củng cố sau giờ học. Giáo viên lựa chọn học liệu, mức hỗ trợ và thời lượng theo điều kiện lớp; tiến độ trên website là dấu vết hỗ trợ theo dõi, không thay thế đánh giá chất lượng lập luận.
+P0082 Bảng 3 Tổ chức sử dụng học liệu trong ba pha
+P0083 Pha học
+P0084 Hoạt động của học sinh
+P0085 Vai trò giáo viên và bằng chứng
+P0086 Trước giờ học
+P0087 Đọc mục tiêu, lập kế hoạch; xem hoặc đọc học liệu; ghi ý chính, câu hỏi và làm nhiệm vụ định hướng.
+P0088 Giao nhiệm vụ và hạn hoàn thành; xem câu trả lời, phiếu chuẩn bị và khó khăn để chọn vấn đề trên lớp.
+P0089 Trong giờ học
+P0090 Dự đoán, thao tác mô phỏng, ghi dữ liệu; thảo luận, giải thích và trả lời câu hỏi chốt.
+P0091 Tổ chức nhóm, yêu cầu bằng chứng; quan sát và phản hồi; thu bảng số liệu, lập luận và bản sửa.
+P0092 Sau giờ học
+P0093 Làm bài tập phù hợp; tự kiểm tra; ghi nhật kí và thực hiện việc cần bổ sung.
+P0094 Phản hồi sản phẩm, giao nhiệm vụ tiếp nối; đối chiếu bài làm, nhật kí và sự thay đổi sau sửa.
+P0095 Ví dụ, với nhiệm vụ Rutherford, trước giờ học học sinh dự đoán đường đi của hạt alpha và nêu điều muốn kiểm tra. Trong giờ học, học sinh phát hạt ở các vị trí khác nhau, ghi quan sát rồi giải thích vì sao có các đường đi khác nhau và điều đó gợi ý gì về nguyên tử. Sau giờ học, học sinh giải bài về cấu trúc, đồng vị, ghi chỗ nhầm và việc cần làm lại. Chuỗi này là phương án sử dụng đề xuất cho học liệu hiện có, chưa phải biên bản một tiết dạy đã thực hiện.
+P0096 Các nhiệm vụ nhóm được cụ thể hóa theo nội dung: B23 xử lí dữ liệu bán rã và đồ thị; B24 đóng vai để thảo luận về nhà máy điện hạt nhân và ứng dụng; B25 ôn tập, giải quyết bài toán liên bài. Hoạt động cộng tác do giáo viên tổ chức, có thể dùng bảng tính hoặc công cụ ngoài. Bản mẫu chưa cung cấp đầy đủ cơ chế nhóm cùng chỉnh sửa trực tuyến. Cần phân biệt hướng dẫn học sinh làm nhóm với việc hệ thống đã có chức năng cộng tác.
+P0097 Thuyết

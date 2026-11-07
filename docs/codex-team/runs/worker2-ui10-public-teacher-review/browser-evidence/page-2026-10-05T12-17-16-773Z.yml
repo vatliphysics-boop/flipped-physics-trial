@@ -1,0 +1,457 @@
+- generic [ref=f19e1]:
+  - generic [ref=f19e2]:
+    - link "Đi đến nội dung chính" [ref=f19e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f19e4]:
+      - generic [ref=f19e5]:
+        - button "Mở menu" [ref=f19e6] [cursor=pointer]:
+          - generic [ref=f19e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f19e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f19e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f19e12]:
+      - generic [ref=f19e14]:
+        - paragraph [ref=f19e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f19e16]
+        - paragraph [ref=f19e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f19e18]:
+        - group "Công việc của giáo viên" [ref=f19e19]:
+          - button "Ngân hàng đề" [pressed] [ref=f19e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f19e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f19e22] [cursor=pointer]
+        - generic [ref=f19e24]:
+          - heading "Ngân hàng đề Chương 4 Vật lí hạt nhân" [level=2] [ref=f19e25]
+          - paragraph [ref=f19e26]: Câu hỏi được biên soạn từ ba sách đã cung cấp, giữ yêu cầu và dữ kiện của bài gốc. Nhãn Bloom thể hiện thao tác nhận thức cần thực hiện. Các câu hỏi dùng chung một ngân hàng. Nội dung dạng chữ, công thức LaTeX. Khi xuất Word, công thức chuyển thành Equation có thể chỉnh sửa.
+          - navigation "Năm mục ngân hàng đề" [ref=f19e27]:
+            - button "Ngân hàng đề trắc nghiệm" [active] [pressed] [ref=f19e28] [cursor=pointer]
+            - button "Ngân hàng đề đúng sai" [ref=f19e29] [cursor=pointer]
+            - button "Ngân hàng đề trả lời ngắn" [ref=f19e30] [cursor=pointer]
+            - button "Ngân hàng đề tự luận" [ref=f19e31] [cursor=pointer]
+            - button "Up ma trận đề và xuất ra đề file Word" [ref=f19e32] [cursor=pointer]
+          - status
+          - generic [ref=f19e742]:
+            - generic [ref=f19e743]:
+              - text: Chương
+              - combobox "Chương" [ref=f19e744]:
+                - option "Tất cả câu đã nhập"
+                - option "Vật lí nhiệt"
+                - option "Khí lí tưởng"
+                - option "Từ trường"
+                - option "Vật lí hạt nhân" [selected]
+            - generic [ref=f19e745]:
+              - text: Bài/chủ đề
+              - combobox "Bài/chủ đề" [ref=f19e746]:
+                - option "Tất cả" [selected]
+                - option "B21"
+                - option "B22"
+                - option "B23"
+                - option "B24"
+                - option "B25"
+                - option "Vật lí hạt nhân"
+            - generic [ref=f19e747]:
+              - text: Tình trạng
+              - combobox "Tình trạng" [ref=f19e748]:
+                - option "Tất cả" [selected]
+                - option "Đã biên soạn"
+                - option "Chờ kiểm tra"
+            - generic [ref=f19e749]:
+              - text: Tìm câu hỏi
+              - textbox "Tìm câu hỏi" [ref=f19e750]:
+                - /placeholder: Nội dung câu hỏi
+          - paragraph [ref=f19e751]: 73 câu · 73 đã biên soạn
+          - generic [ref=f19e752]:
+            - article [ref=f19e753]:
+              - generic [ref=f19e754]:
+                - strong [ref=f19e755]: Câu 1
+                - generic [ref=f19e756]: "B25 · Bloom: Hiểu"
+              - generic [ref=f19e758]:
+                - text: Lực nào làm thay đổi phương của hạt alpha (
+                - generic [ref=f19e760]:
+                  - math [ref=f19e762]:
+                    - generic [ref=f19e764]:
+                      - generic [ref=f19e765]:
+                        - generic [ref=f19e766]: "2"
+                        - generic [ref=f19e767]: "4"
+                      - generic [ref=f19e768]:
+                        - generic [ref=f19e769]: H
+                        - generic [ref=f19e770]: e
+                  - generic [ref=f19e772]:
+                    - generic [ref=f19e777]:
+                      - generic [ref=f19e778]: "2"
+                      - generic [ref=f19e780]: "4"
+                    - generic [ref=f19e785]: He
+                - text: ) khi bắn vào lá vàng mỏng?
+              - figure "Hình minh họa của bài" [ref=f19e786]:
+                - img "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha" [ref=f19e787]
+              - generic [ref=f19e789]:
+                - paragraph [ref=f19e790]:
+                  - strong [ref=f19e791]: A.
+                  - generic [ref=f19e792]:
+                    - text: Lực hạt nhân giúp hạt nhân
+                    - generic [ref=f19e794]:
+                      - math [ref=f19e796]:
+                        - generic [ref=f19e798]:
+                          - generic [ref=f19e799]:
+                            - generic [ref=f19e800]: "79"
+                            - generic [ref=f19e801]: "197"
+                          - generic [ref=f19e802]:
+                            - generic [ref=f19e803]: A
+                            - generic [ref=f19e804]: u
+                      - generic [ref=f19e806]:
+                        - generic [ref=f19e811]:
+                          - generic [ref=f19e812]: "79"
+                          - generic [ref=f19e814]: "197"
+                        - generic [ref=f19e819]: Au
+                    - text: đẩy
+                    - generic [ref=f19e821]:
+                      - math [ref=f19e823]:
+                        - generic [ref=f19e825]:
+                          - generic [ref=f19e826]:
+                            - generic [ref=f19e827]: "2"
+                            - generic [ref=f19e828]: "4"
+                          - generic [ref=f19e829]:
+                            - generic [ref=f19e830]: H
+                            - generic [ref=f19e831]: e
+                      - generic [ref=f19e833]:
+                        - generic [ref=f19e838]:
+                          - generic [ref=f19e839]: "2"
+                          - generic [ref=f19e841]: "4"
+                        - generic [ref=f19e846]: He
+                    - text: .
+                - paragraph [ref=f19e847]:
+                  - strong [ref=f19e848]: B.
+                  - generic [ref=f19e849]:
+                    - text: Lực hạt nhân giúp hạt nhân
+                    - generic [ref=f19e851]:
+                      - math [ref=f19e853]:
+                        - generic [ref=f19e855]:
+                          - generic [ref=f19e856]:
+                            - generic [ref=f19e857]: "79"
+                            - generic [ref=f19e858]: "197"
+                          - generic [ref=f19e859]:
+                            - generic [ref=f19e860]: A
+                            - generic [ref=f19e861]: u
+                      - generic [ref=f19e863]:
+                        - generic [ref=f19e868]:
+                          - generic [ref=f19e869]: "79"
+                          - generic [ref=f19e871]: "197"
+                        - generic [ref=f19e876]: Au
+                    - text: hút
+                    - generic [ref=f19e878]:
+                      - math [ref=f19e880]:
+                        - generic [ref=f19e882]:
+                          - generic [ref=f19e883]:
+                            - generic [ref=f19e884]: "2"
+                            - generic [ref=f19e885]: "4"
+                          - generic [ref=f19e886]:
+                            - generic [ref=f19e887]: H
+                            - generic [ref=f19e888]: e
+                      - generic [ref=f19e890]:
+                        - generic [ref=f19e895]:
+                          - generic [ref=f19e896]: "2"
+                          - generic [ref=f19e898]: "4"
+                        - generic [ref=f19e903]: He
+                    - text: .
+                - paragraph [ref=f19e904]:
+                  - strong [ref=f19e905]: C.
+                  - generic [ref=f19e906]:
+                    - text: Lực đẩy tĩnh điện giữa hạt nhân
+                    - generic [ref=f19e908]:
+                      - math [ref=f19e910]:
+                        - generic [ref=f19e912]:
+                          - generic [ref=f19e913]:
+                            - generic [ref=f19e914]: "79"
+                            - generic [ref=f19e915]: "197"
+                          - generic [ref=f19e916]:
+                            - generic [ref=f19e917]: A
+                            - generic [ref=f19e918]: u
+                      - generic [ref=f19e920]:
+                        - generic [ref=f19e925]:
+                          - generic [ref=f19e926]: "79"
+                          - generic [ref=f19e928]: "197"
+                        - generic [ref=f19e933]: Au
+                    - text: và
+                    - generic [ref=f19e935]:
+                      - math [ref=f19e937]:
+                        - generic [ref=f19e939]:
+                          - generic [ref=f19e940]:
+                            - generic [ref=f19e941]: "2"
+                            - generic [ref=f19e942]: "4"
+                          - generic [ref=f19e943]:
+                            - generic [ref=f19e944]: H
+                            - generic [ref=f19e945]: e
+                      - generic [ref=f19e947]:
+                        - generic [ref=f19e952]:
+                          - generic [ref=f19e953]: "2"
+                          - generic [ref=f19e955]: "4"
+                        - generic [ref=f19e960]: He
+                    - text: .
+                - paragraph [ref=f19e961]:
+                  - strong [ref=f19e962]: D.
+                  - generic [ref=f19e963]:
+                    - text: Lực hút tĩnh điện giữa electron của nguyên tử vàng và
+                    - generic [ref=f19e965]:
+                      - math [ref=f19e967]:
+                        - generic [ref=f19e969]:
+                          - generic [ref=f19e970]:
+                            - generic [ref=f19e971]: "2"
+                            - generic [ref=f19e972]: "4"
+                          - generic [ref=f19e973]:
+                            - generic [ref=f19e974]: H
+                            - generic [ref=f19e975]: e
+                      - generic [ref=f19e977]:
+                        - generic [ref=f19e982]:
+                          - generic [ref=f19e983]: "2"
+                          - generic [ref=f19e985]: "4"
+                        - generic [ref=f19e990]: He
+                    - text: .
+              - generic [ref=f19e991]:
+                - button "Chỉnh sửa câu hỏi" [ref=f19e992] [cursor=pointer]
+                - group [ref=f19e993]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f19e994]
+              - status
+            - article [ref=f19e995]:
+              - generic [ref=f19e996]:
+                - strong [ref=f19e997]: Câu 2
+                - generic [ref=f19e998]: "B21 · Bloom: Hiểu"
+              - generic [ref=f19e999]: Cặp nguyên tử của các hạt nhân nào sau đây không được gọi là đồng vị?
+              - generic [ref=f19e1001]:
+                - paragraph [ref=f19e1002]:
+                  - strong [ref=f19e1003]: A.
+                  - generic [ref=f19e1006]:
+                    - math [ref=f19e1008]:
+                      - generic [ref=f19e1010]:
+                        - generic [ref=f19e1011]:
+                          - generic [ref=f19e1012]: "17"
+                          - generic [ref=f19e1013]: "35"
+                        - generic [ref=f19e1014]:
+                          - generic [ref=f19e1015]: C
+                          - generic [ref=f19e1016]: l
+                        - generic [ref=f19e1017]: ","
+                        - generic [ref=f19e1018]:
+                          - generic [ref=f19e1019]: "17"
+                          - generic [ref=f19e1020]: "37"
+                        - generic [ref=f19e1021]:
+                          - generic [ref=f19e1022]: C
+                          - generic [ref=f19e1023]: l
+                    - generic [ref=f19e1025]:
+                      - generic [ref=f19e1030]:
+                        - generic [ref=f19e1031]: "17"
+                        - generic [ref=f19e1033]: "35"
+                      - generic [ref=f19e1038]: Cl
+                      - text: ","
+                      - generic [ref=f19e1043]:
+                        - generic [ref=f19e1044]: "17"
+                        - generic [ref=f19e1046]: "37"
+                      - generic [ref=f19e1051]: Cl
+                - paragraph [ref=f19e1052]:
+                  - strong [ref=f19e1053]: B.
+                  - generic [ref=f19e1056]:
+                    - math [ref=f19e1058]:
+                      - generic [ref=f19e1060]:
+                        - generic [ref=f19e1061]:
+                          - generic [ref=f19e1062]: "1"
+                          - generic [ref=f19e1063]: "1"
+                        - generic [ref=f19e1064]: H
+                        - generic [ref=f19e1065]: ","
+                        - generic [ref=f19e1066]:
+                          - generic [ref=f19e1067]: "1"
+                          - generic [ref=f19e1068]: "2"
+                        - generic [ref=f19e1069]: D
+                    - generic [ref=f19e1071]:
+                      - generic [ref=f19e1076]:
+                        - generic [ref=f19e1077]: "1"
+                        - generic [ref=f19e1079]: "1"
+                      - text: H,
+                      - generic [ref=f19e1088]:
+                        - generic [ref=f19e1089]: "1"
+                        - generic [ref=f19e1091]: "2"
+                      - text: D
+                - paragraph [ref=f19e1096]:
+                  - strong [ref=f19e1097]: C.
+                  - generic [ref=f19e1100]:
+                    - math [ref=f19e1102]:
+                      - generic [ref=f19e1104]:
+                        - generic [ref=f19e1105]:
+                          - generic [ref=f19e1106]: "29"
+                          - generic [ref=f19e1107]: "63"
+                        - generic [ref=f19e1108]:
+                          - generic [ref=f19e1109]: C
+                          - generic [ref=f19e1110]: u
+                        - generic [ref=f19e1111]: ","
+                        - generic [ref=f19e1112]:
+                          - generic [ref=f19e1113]: "29"
+                          - generic [ref=f19e1114]: "65"
+                        - generic [ref=f19e1115]:
+                          - generic [ref=f19e1116]: C
+                          - generic [ref=f19e1117]: u
+                    - generic [ref=f19e1119]:
+                      - generic [ref=f19e1124]:
+                        - generic [ref=f19e1125]: "29"
+                        - generic [ref=f19e1127]: "63"
+                      - generic [ref=f19e1132]: Cu
+                      - text: ","
+                      - generic [ref=f19e1137]:
+                        - generic [ref=f19e1138]: "29"
+                        - generic [ref=f19e1140]: "65"
+                      - generic [ref=f19e1145]: Cu
+                - paragraph [ref=f19e1146]:
+                  - strong [ref=f19e1147]: D.
+                  - generic [ref=f19e1150]:
+                    - math [ref=f19e1152]:
+                      - generic [ref=f19e1154]:
+                        - generic [ref=f19e1155]:
+                          - generic [ref=f19e1156]: "1"
+                          - generic [ref=f19e1157]: "3"
+                        - generic [ref=f19e1158]: H
+                        - generic [ref=f19e1159]: ","
+                        - generic [ref=f19e1160]:
+                          - generic [ref=f19e1161]: "2"
+                          - generic [ref=f19e1162]: "3"
+                        - generic [ref=f19e1163]:
+                          - generic [ref=f19e1164]: H
+                          - generic [ref=f19e1165]: e
+                    - generic [ref=f19e1167]:
+                      - generic [ref=f19e1172]:
+                        - generic [ref=f19e1173]: "1"
+                        - generic [ref=f19e1175]: "3"
+                      - text: H,
+                      - generic [ref=f19e1184]:
+                        - generic [ref=f19e1185]: "2"
+                        - generic [ref=f19e1187]: "3"
+                      - generic [ref=f19e1192]: He
+              - generic [ref=f19e1193]:
+                - button "Chỉnh sửa câu hỏi" [ref=f19e1194] [cursor=pointer]
+                - group [ref=f19e1195]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f19e1196]
+              - status
+            - article [ref=f19e1197]:
+              - generic [ref=f19e1198]:
+                - strong [ref=f19e1199]: Câu 3
+                - generic [ref=f19e1200]: "B21 · Bloom: Nhớ"
+              - generic [ref=f19e1201]: Các nguyên tử được gọi là đồng vị khi hạt nhân của chúng có cùng
+              - generic [ref=f19e1203]:
+                - paragraph [ref=f19e1204]:
+                  - strong [ref=f19e1205]: A.
+                  - generic [ref=f19e1206]: khối lượng.
+                - paragraph [ref=f19e1207]:
+                  - strong [ref=f19e1208]: B.
+                  - generic [ref=f19e1209]: số neutron.
+                - paragraph [ref=f19e1210]:
+                  - strong [ref=f19e1211]: C.
+                  - generic [ref=f19e1212]: số nucleon.
+                - paragraph [ref=f19e1213]:
+                  - strong [ref=f19e1214]: D.
+                  - generic [ref=f19e1215]: số proton.
+              - generic [ref=f19e1216]:
+                - button "Chỉnh sửa câu hỏi" [ref=f19e1217] [cursor=pointer]
+                - group [ref=f19e1218]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f19e1219]
+              - status
+            - article [ref=f19e1220]:
+              - generic [ref=f19e1221]:
+                - strong [ref=f19e1222]: Câu 4
+                - generic [ref=f19e1223]: "B21 · Bloom: Vận dụng"
+              - generic [ref=f19e1225]:
+                - text: Sử dụng công thức về bán kính hạt nhân, hãy cho biết bán kính hạt nhân
+                - generic [ref=f19e1227]:
+                  - math [ref=f19e1229]:
+                    - generic [ref=f19e1231]:
+                      - generic [ref=f19e1232]:
+                        - generic [ref=f19e1233]: "82"
+                        - generic [ref=f19e1234]: "207"
+                      - generic [ref=f19e1235]:
+                        - generic [ref=f19e1236]: P
+                        - generic [ref=f19e1237]: b
+                  - generic [ref=f19e1239]:
+                    - generic [ref=f19e1244]:
+                      - generic [ref=f19e1245]: "82"
+                      - generic [ref=f19e1247]: "207"
+                    - generic [ref=f19e1252]: Pb
+                - text: lớn hơn bán kính hạt nhân
+                - generic [ref=f19e1254]:
+                  - math [ref=f19e1256]:
+                    - generic [ref=f19e1258]:
+                      - generic [ref=f19e1259]:
+                        - generic [ref=f19e1260]: "13"
+                        - generic [ref=f19e1261]: "27"
+                      - generic [ref=f19e1262]:
+                        - generic [ref=f19e1263]: A
+                        - generic [ref=f19e1264]: l
+                  - generic [ref=f19e1266]:
+                    - generic [ref=f19e1271]:
+                      - generic [ref=f19e1272]: "13"
+                      - generic [ref=f19e1274]: "27"
+                    - generic [ref=f19e1279]: Al
+                - text: bao nhiêu lần.
+              - generic [ref=f19e1280]:
+                - paragraph [ref=f19e1281]:
+                  - strong [ref=f19e1282]: A.
+                  - generic [ref=f19e1283]: hơn 2,5 lần.
+                - paragraph [ref=f19e1284]:
+                  - strong [ref=f19e1285]: B.
+                  - generic [ref=f19e1286]: hơn 2 lần.
+                - paragraph [ref=f19e1287]:
+                  - strong [ref=f19e1288]: C.
+                  - generic [ref=f19e1289]: gần 2 lần.
+                - paragraph [ref=f19e1290]:
+                  - strong [ref=f19e1291]: D.
+                  - generic [ref=f19e1292]: 1,5 lần.
+              - generic [ref=f19e1293]:
+                - button "Chỉnh sửa câu hỏi" [ref=f19e1294] [cursor=pointer]
+                - group [ref=f19e1295]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f19e1296]
+              - status
+            - article [ref=f19e1297]:
+              - generic [ref=f19e1298]:
+                - strong [ref=f19e1299]: Câu 5
+                - generic [ref=f19e1300]: "B21 · Bloom: Hiểu"
+              - generic [ref=f19e1301]: Phát biểu nào sau đây sai?
+              - generic [ref=f19e1303]:
+                - paragraph [ref=f19e1304]:
+                  - strong [ref=f19e1305]: A.
+                  - generic [ref=f19e1306]: Đồng vị bền chỉ có nguồn gốc tự nhiên, đồng vị không bền chỉ có nguồn gốc nhân tạo.
+                - paragraph [ref=f19e1307]:
+                  - strong [ref=f19e1308]: B.
+                  - generic [ref=f19e1309]: Các nguyên tử mà hạt nhân có cùng số proton nhưng có số neutron khác nhau gọi là đồng vị.
+                - paragraph [ref=f19e1310]:
+                  - strong [ref=f19e1311]: C.
+                  - generic [ref=f19e1312]: Các đồng vị của cùng một nguyên tố có số neutron khác nhau nhưng tính chất hóa học giống nhau.
+                - paragraph [ref=f19e1313]:
+                  - strong [ref=f19e1314]: D.
+                  - generic [ref=f19e1315]: Các đồng vị của cùng một nguyên tố có cùng vị trí trong bảng hệ thống tuần hoàn.
+              - generic [ref=f19e1316]:
+                - button "Chỉnh sửa câu hỏi" [ref=f19e1317] [cursor=pointer]
+                - group [ref=f19e1318]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f19e1319]
+              - status
+            - article [ref=f19e1320]:
+              - generic [ref=f19e1321]:
+                - strong [ref=f19e1322]: Câu 6
+                - generic [ref=f19e1323]: "B21 · Bloom: Hiểu"
+              - generic [ref=f19e1324]: Trong các nhận định sau đây về kết quả thí nghiệm tán xạ của hạt alpha lên lá vàng mỏng, có bao nhiêu nhận định đúng? (1) Phần lớn các hạt alpha xuyên thẳng qua lá vàng mỏng. (2) Một tỉ lệ khá lớn các hạt alpha bị lệch khỏi hướng ban đầu với góc lệch lớn hơn 90°. (3) Một tỉ lệ rất nhỏ các hạt alpha bị lệch khỏi hướng ban đầu với góc lệch lớn hơn 90°. (4) Một số ít hạt alpha bị lệch khỏi phương ban đầu với những góc lệch khác nhau.
+              - generic [ref=f19e1326]:
+                - paragraph [ref=f19e1327]:
+                  - strong [ref=f19e1328]: A.
+                  - generic [ref=f19e1329]: "1."
+                - paragraph [ref=f19e1330]:
+                  - strong [ref=f19e1331]: B.
+                  - generic [ref=f19e1332]: "2."
+                - paragraph [ref=f19e1333]:
+                  - strong [ref=f19e1334]: C.
+                  - generic [ref=f19e1335]: "3."
+                - paragraph [ref=f19e1336]:
+                  - strong [ref=f19e1337]: D.
+                  - generic [ref=f19e1338]: "4."
+              - generic [ref=f19e1339]:
+                - button "Chỉnh sửa câu hỏi" [ref=f19e1340] [cursor=pointer]
+                - group [ref=f19e1341]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f19e1342]
+              - status
+          - generic [ref=f19e1343]:
+            - button "Trang trước" [disabled] [ref=f19e1344] [cursor=pointer]
+            - generic [ref=f19e1345]: Trang 1/13
+            - button "Trang sau" [ref=f19e1346] [cursor=pointer]
+            - button "Tải bản biên soạn" [ref=f19e1347] [cursor=pointer]
+  - alert [ref=f19e49]

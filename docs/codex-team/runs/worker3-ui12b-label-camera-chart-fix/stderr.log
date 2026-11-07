@@ -1,0 +1,2 @@
+2026-10-05T12:55:24.723645Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=seatbelt reason=operation_not_permitted path=unknown
+2026-10-05T13:30:05.294814Z  WARN codex_core::responses_retry: stream disconnected - retrying sampling request (1/5 in 184ms)... turn_id=01a10c1f-3af9-7f80-b02c-73b4c8da5e7c retries=1 max_retries=5 sampling_error=stream disconnected before completion: IO error: Connection reset by peer (os error 54)

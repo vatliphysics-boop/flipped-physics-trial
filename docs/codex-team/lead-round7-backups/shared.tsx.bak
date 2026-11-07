@@ -1,0 +1,52 @@
+"use client";
+
+
+import { useId, useState, type ReactNode } from 'react';
+
+export function Lab({ intro, children, note }: { intro: string; children: ReactNode; note?: string }) {
+  return <div className="physics-lab"><p className="physics-intro">{intro}</p>{children}{note && <p className="physics-note">{note}</p>}</div>;
+}
+
+export function Range({ label, value, min, max, step = 1, unit = '', onChange }: { label: string; value: number; min: number; max: number; step?: number; unit?: string; onChange: (value: number) => void }) {
+  const id = useId();
+  return <label className="physics-field" htmlFor={id}><span>{label} <strong>{value} {unit}</strong></span><input id={id} type="range" min={min} max={max} step={step} value={value} onChange={(event) => onChange(Number(event.target.value))} /></label>;
+}
+
+export function Metrics({ items }: { items: readonly { label: string; value: ReactNode }[] }) {
+  return <dl className="physics-metrics">{items.map((item) => <div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>;
+}
+
+export function Feedback({ correct, children }: { correct?: boolean; children: ReactNode }) {
+  return <div role="status" className={`physics-feedback ${correct === true ? 'is-correct' : correct === false ? 'is-retry' : ''}`}>{children}</div>;
+}
+
+export function ChoiceCheck({ question, options, correctIndex, explanation, onResult }: { question: string; options: readonly string[]; correctIndex: number; explanation: string; onResult?: (correct: boolean) => void }) {
+  const id = useId();
+  const [selected, setSelected] = useState<number | null>(null);
+  const [checked, setChecked] = useState(false);
+  return <div className="physics-check"><fieldset><legend>{question}</legend><div className="physics-options">{options.map((option, i) => <label key={option} className={selected === i ? 'is-selected' : ''}><input type="radio" name={id} checked={selected === i} onChange={() => { setSelected(i); setChecked(false); onResult?.(false); }} /> <span>{option}</span></label>)}</div></fieldset><button type="button" className="physics-button primary" disabled={selected === null} onClick={() => { setChecked(true); onResult?.(selected === correctIndex); }}>Kiểm tra nhận định</button>{checked && <Feedback correct={selected === correctIndex}><strong>{selected === correctIndex ? 'Chính xác. ' : 'Chưa chính xác. '}</strong>{explanation}</Feedback>}</div>;
+}
+
+export function NuclearSymbol({ a, z, symbol }: { a: number | string; z: number | string; symbol: string }) {
+  return <span className="physics-nuclide" aria-label={`${symbol}, số khối ${a}, số proton ${z}`}><span><sup>{a}</sup><sub>{z}</sub></span><b>{symbol}</b></span>;
+}
+
+export function Nucleus({ z, n }: { z: number; n: number }) {
+  const a = z + n;
+  return <svg className="physics-svg physics-nucleus" viewBox="0 0 260 210" role="img" aria-label={`Mô hình hạt nhân gồm ${z} proton và ${n} neutron. Hình không theo tỉ lệ thực.`}><title>Cấu tạo hạt nhân</title>{Array.from({ length: a }, (_, i) => {
+    const r = Math.sqrt((i + 0.5) / a) * 76;
+    const angle = i * 2.399963;
+    const proton = i < z;
+    return <g key={i}><circle cx={130 + r * Math.cos(angle)} cy={97 + r * Math.sin(angle)} r={Math.min(13, 66 / Math.sqrt(a))} fill={proton ? '#b84040' : '#2357a5'} stroke="white" strokeWidth="1" /><text x={130 + r * Math.cos(angle)} y={101 + r * Math.sin(angle)} textAnchor="middle" fill="white" fontSize="10">{proton ? '+' : 'n'}</text></g>;
+  })}<text x="130" y="198" textAnchor="middle">Đỏ: proton (+) · Xanh: neutron (n)</text></svg>;
+}
+
+export function LineGraph({ series, maxX, maxY, xLabel, yLabel }: { series: readonly { label: string; color: string; points: readonly { x: number; y: number }[]; dots?: boolean }[]; maxX: number; maxY: number; xLabel: string; yLabel: string }) {
+  const x = (value: number) => 54 + value / Math.max(maxX, 1) * 426;
+  const y = (value: number) => 205 - value / Math.max(maxY, 1) * 162;
+  return <figure className="physics-chart"><svg viewBox="0 0 530 262" className="physics-svg" role="img" aria-label={`${yLabel} theo ${xLabel}. ${series.map((s) => s.label).join('; ')}`}><title>{`${yLabel} theo ${xLabel}`}</title>{[0, 0.25, 0.5, 0.75, 1].map((ratio) => <g key={ratio}><line x1="54" y1={y(maxY * ratio)} x2="480" y2={y(maxY * ratio)} stroke="#dfe6ef" /><text x="46" y={y(maxY * ratio) + 4} textAnchor="end" fontSize="12">{Number((maxY * ratio).toFixed(1))}</text><text x={x(maxX * ratio)} y="224" textAnchor="middle" fontSize="12">{Number((maxX * ratio).toFixed(1))}</text></g>)}<path d="M54 32V205H490" fill="none" stroke="#526680" /><text x="54" y="22" fontSize="13">{yLabel}</text><text x="268" y="252" textAnchor="middle" fontSize="13">{xLabel}</text>{series.map((s) => <g key={s.label}><polyline points={s.points.map((p) => `${x(p.x)},${y(p.y)}`).join(' ')} fill="none" stroke={s.color} strokeWidth="3" strokeDasharray={s.dots ? '4 4' : undefined} />{s.dots && s.points.map((p, i) => <circle key={i} cx={x(p.x)} cy={y(p.y)} r="4" fill={s.color} />)}</g>)}</svg><figcaption>{series.map((s) => <span key={s.label}><i style={{ background: s.color }} aria-hidden="true" />{s.label}{s.dots ? ' (điểm, nét đứt)' : ' (nét liền)'}</span>)}</figcaption></figure>;
+}
+
+export function Sources({ links }: { links: readonly { label: string; url: string }[] }) {
+  return <details className="physics-sources"><summary>Nguồn khoa học tham khảo</summary><ul>{links.map((link) => <li key={link.url}><a href={link.url} target="_blank" rel="noreferrer">{link.label} ↗</a></li>)}</ul></details>;
+}

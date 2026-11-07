@@ -1,0 +1,60 @@
+.studio:global(.visual-studio) { min-width: 0; width: 100%; max-width: 1200px; padding: 0; }
+.studio :global(.btn) { white-space: normal; }
+.studio :global(.latex-math-block) { max-width: 100%; }
+.studio .header { display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 300px); align-items: start; gap: 24px; margin-bottom: 24px; }
+.studio .header h1 { font-size: clamp(1.8rem, 3.2vw, 2.5rem); letter-spacing: -.035em; line-height: 1.2; color: var(--text-primary); }
+.studio .header p { margin: 0 0 12px; }
+.studio .actions { justify-content: flex-end; align-content: start; }
+.studio .lessons { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; overflow: visible; padding: 0; margin-bottom: 24px; }
+.studio .lessonCard { min-width: 0; border-radius: 12px; border-color: var(--border-light); padding: 14px; }
+.studio .lessonCard > span { color: var(--color-primary); }
+.studio .lessonCard[aria-current="page"] { border: 2px solid var(--color-primary); padding: 13px; background: var(--color-primary-soft); color: var(--text-primary); }
+.studio:global(.projection-mode) .lessons { display: none; }
+.studio:global(.projection-mode) .header h1 { font-size: 24px; }
+.introCard { background: var(--bg-surface); border: 1px solid var(--border-light); border-radius: 12px; padding: clamp(16px, 2vw, 22px); margin-bottom: 18px; }
+.introHeading { margin: 0 0 4px; font-size: 20px; color: var(--text-primary); }
+.introGoal { margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--text-secondary); }
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: .85rem;
+  margin-bottom: .7rem;
+}
+.intro div { min-width: 0; }
+.formulas {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  gap: .25rem 1rem;
+  padding: .45rem .75rem;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-light);
+  border-radius: 9px;
+}
+.formulas :global(.latex-math-block) { min-width: 0; }
+.formulas :global(.katex-display) { margin: .4em 0; }
+@media (max-width: 500px) {
+  .formulas { display: grid; }
+}
+.module { padding: clamp(12px, 3vw, 22px); min-width: 0; }
+.formulaPanel {
+  padding: clamp(8px, 2vw, 16px);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  background: var(--bg-surface-elevated);
+  color: var(--text-primary);
+  min-width: 0;
+}
+.studio :global(.katex-display > .katex) { white-space: normal; }
+@media (max-width: 850px) {
+  .studio .header { grid-template-columns: minmax(0, 1fr); }
+  .studio .actions { justify-content: flex-start; }
+  .studio .lessons { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 500px) {
+  .studio .lessons { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .studio .actions { display: grid; grid-template-columns: 1fr; width: 100%; }
+  .studio .actions :global(.btn) { justify-content: center; text-align: center; }
+  .studio :global(.latex-math-block .katex) { font-size: 1em; }
+  .studio :global(.experiment-controls) { flex-wrap: wrap; }
+}

@@ -1,9 +1,10 @@
 import "server-only";
+import { cache } from "react";
 import { notFound } from "next/navigation";
-import { getChapterByTopicTitle, getCurriculumLessonByTitle, type CurriculumChapterCode } from "@/lib/curriculum";
+import { GRADE_12_CURRICULUM, getChapterByTopicTitle, getCurriculumLessonByTitle, type CurriculumChapterCode } from "@/lib/curriculum";
 import { createClient } from "@/lib/supabase/server";
 
-export async function getStudentLesson(lessonId: string) {
+export const getStudentLesson = cache(async (lessonId: string) => {
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) notFound();
@@ -28,9 +29,13 @@ export async function getStudentLesson(lessonId: string) {
     : { data: null };
 
   const chapter = getChapterByTopicTitle(topic?.title);
-  const curriculum = chapter
-    ? getCurriculumLessonByTitle(lesson.title, chapter.code as CurriculumChapterCode)
-    : undefined;
+  const curriculum =
+    (chapter
+      ? getCurriculumLessonByTitle(lesson.title, chapter.code as CurriculumChapterCode)
+      : undefined) ??
+    GRADE_12_CURRICULUM.flatMap((c) => c.lessons).find(
+      (l) => l.title.trim().toLowerCase() === lesson.title.trim().toLowerCase(),
+    );
 
   if (!curriculum) notFound();
 
@@ -48,4 +53,4 @@ export async function getStudentLesson(lessonId: string) {
   if (!membership || !classItem) notFound();
 
   return { supabase, user, lesson, classItem, curriculum };
-}
+});

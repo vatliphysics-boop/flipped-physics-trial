@@ -1,0 +1,43 @@
+{
+  "base": "http://127.0.0.1:3476",
+  "results": [
+    {
+      "code": "B22",
+      "width": 320,
+      "absentNeutron": true,
+      "paused": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 320,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "reset": true,
+      "separateCircuits": true
+    },
+    {
+      "code": "B22",
+      "width": 768,
+      "absentNeutron": true,
+      "paused": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 768,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "reset": true,
+      "separateCircuits": true
+    }
+  ]
+}

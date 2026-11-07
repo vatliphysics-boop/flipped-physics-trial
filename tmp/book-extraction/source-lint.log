@@ -1,0 +1,25 @@
+
+> flipped-physics@0.1.0 lint
+> eslint
+
+
+/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/src/components/learning/QuestionMathText.tsx
+  7:12  error  Error: Avoid constructing JSX within try/catch
+
+React does not immediately render components when JSX is rendered, so any errors from this component will not be caught by the try/catch. To catch errors in rendering a given component, wrap that component in an error boundary. (https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary).
+
+/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/src/components/learning/QuestionMathText.tsx:7:12
+   5 |   try {
+   6 |     const segments = mathSegments(text).map(s => ({ ...s, html: s.math ? katex.renderToString(s.text, { throwOnError: true, displayMode: !!s.display, trust: false }) : undefined }));
+>  7 |     return <span className="question-latex-text">{segments.map((s, i) => s.math ? <span key={i} dangerouslySetInnerHTML={{ __html: s.html! }} /> : <span key={i}>{s.text}</span>)}</span>;
+     |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Avoid constructing JSX within try/catch
+   8 |   } catch {
+   9 |     return <span className="error-text">Công thức cần kiểm tra: {text}</span>;
+  10 |   }  react-hooks/error-boundaries
+
+/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/src/components/learning/StudentPhase3Assessment.tsx
+  43:7  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/set-state-in-effect')
+
+✖ 2 problems (1 error, 1 warning)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

@@ -1,0 +1,79 @@
+{
+  "base": "http://127.0.0.1:3477",
+  "results": [
+    {
+      "case": "login-role-and-next-route",
+      "pass": true
+    },
+    {
+      "case": "responsive-join-field-and-real-metadata",
+      "pass": true
+    },
+    {
+      "case": "phase-before-class-navigation-persisted-evidence",
+      "pass": true,
+      "fields": 3
+    },
+    {
+      "case": "phase-in-class-navigation-persisted-evidence",
+      "pass": true,
+      "fields": 3
+    },
+    {
+      "case": "phase-after-class-navigation-persisted-evidence",
+      "pass": true,
+      "fields": 6
+    },
+    {
+      "case": "mobile-menu-navigation-escape-and-focus-restore",
+      "pass": true
+    },
+    {
+      "case": "student-screens-read-only-navigation",
+      "pass": true
+    },
+    {
+      "case": "register-role-toggle-and-empty-validation-no-submit",
+      "pass": true
+    },
+    {
+      "case": "verified-expired-state-and-recovery-links",
+      "pass": true
+    },
+    {
+      "case": "qa-progress-hashes-unchanged-no-write-requests",
+      "pass": true
+    }
+  ],
+  "before": {
+    "student_phase_progress": {
+      "count": 3,
+      "sha256": "9e3c96a46aa8d28e6577aef2cbcf4987a35e071f6681cac78dbcced7125b609a"
+    },
+    "student_step_progress": {
+      "count": 3,
+      "sha256": "c104d29142325c1b18eab1724a31083785a0f78d5f21355fc52b5ca7456d9986"
+    },
+    "lesson_reflections": {
+      "count": 1,
+      "sha256": "2984937dc39d3ba6769e973100979923cfbe63f72a1d8346de521f17402f5fdf"
+    }
+  },
+  "after": {
+    "student_phase_progress": {
+      "count": 3,
+      "sha256": "9e3c96a46aa8d28e6577aef2cbcf4987a35e071f6681cac78dbcced7125b609a"
+    },
+    "student_step_progress": {
+      "count": 3,
+      "sha256": "c104d29142325c1b18eab1724a31083785a0f78d5f21355fc52b5ca7456d9986"
+    },
+    "lesson_reflections": {
+      "count": 1,
+      "sha256": "2984937dc39d3ba6769e973100979923cfbe63f72a1d8346de521f17402f5fdf"
+    }
+  },
+  "writes": [],
+  "buildId": "_qCMTm54W73ozUdyJZK9u",
+  "revision": "R3"
+}

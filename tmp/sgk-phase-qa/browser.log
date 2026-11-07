@@ -1,0 +1,16 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.goto: Timeout 90000ms exceeded.
+Call log:
+[2m  - navigating to "http://localhost:3000/teacher/classes/new", waiting until "domcontentloaded"[22m
+
+    at /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/sgk-phase-browser.mjs:136:19 {
+  log: [
+    '  - navigating to "http://localhost:3000/teacher/classes/new", waiting until "domcontentloaded"'
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

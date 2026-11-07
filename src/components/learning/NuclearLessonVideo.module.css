@@ -1,0 +1,40 @@
+.frame {
+  overflow: hidden;
+  border: 1px solid #2b4e58;
+  border-radius: 18px;
+  background: #0a1b25;
+  color: #f2fcff;
+}
+.frame video { width: 100%; display: block; aspect-ratio: 16 / 9; background: #07151e; }
+.cover {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  width: 100%;
+  min-height: 205px;
+  gap: .7rem;
+  padding: 1.5rem;
+  color: inherit;
+  font: inherit;
+  font-weight: 720;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 10%, #20545a, transparent 75%), #0a1b25;
+  cursor: pointer;
+}
+.cover small { color: #b6d0d7; font-weight: 500; }
+.cover:disabled { opacity: .7; cursor: wait; }
+.play {
+  display: grid;
+  width: 3.2rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 100%;
+  background: #8be8cc;
+  color: #0a2629;
+  box-shadow: 0 0 35px #68d6b953;
+}
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1.1rem; padding: .75rem 1rem; font-size: .85rem; }
+.actions p { flex-basis: 100%; margin: 0; color: #ffd096; }
+.actions a, .actions button { color: #b5f5e2; }
+.actions button { background: transparent; border: 0; text-decoration: underline; cursor: pointer; }
+.cover:focus-visible, .actions :is(button, a):focus-visible { outline: 2px solid #fff; outline-offset: -3px; }

@@ -1,0 +1,133 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - link "Đi đến nội dung chính" [ref=f2e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - button "Mở menu" [active] [ref=f2e6] [cursor=pointer]:
+          - generic [ref=f2e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f2e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=f2e10] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f2e12]:
+      - generic [ref=f2e13]:
+        - generic [ref=f2e14]:
+          - generic [ref=f2e15]:
+            - paragraph [ref=f2e16]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=f2e17]
+            - paragraph [ref=f2e18]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=f2e19]:
+            - button "Chế độ trình chiếu" [ref=f2e20] [cursor=pointer]
+            - link "Toàn bộ kho học liệu" [ref=f2e21] [cursor=pointer]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=f2e22]:
+          - link "B21 Cấu trúc hạt nhân" [ref=f2e23] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=f2e24]: B21
+            - strong [ref=f2e25]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=f2e26] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=f2e27]: B22
+            - strong [ref=f2e28]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=f2e29] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=f2e30]: B23
+            - strong [ref=f2e31]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=f2e32] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=f2e33]: B24
+            - strong [ref=f2e34]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=f2e35] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=f2e36]: B25
+            - strong [ref=f2e37]: Thực hành bán rã
+        - generic [ref=f2e38]:
+          - generic [ref=f2e39]: B21
+          - generic [ref=f2e40]:
+            - heading "Cấu trúc hạt nhân" [level=2] [ref=f2e41]
+            - paragraph [ref=f2e42]: Dùng tán xạ α để giải thích mô hình hạt nhân; đọc A, Z và xác định số neutron.
+        - paragraph [ref=f2e43]:
+          - link "Hỏi AI về bài B21 ↗" [ref=f2e44] [cursor=pointer]:
+            - /url: /hoc-lieu/ai?bai=B21
+          - generic [ref=f2e45]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=f2e46]:
+          - button "01 Đọc hình Chạm để khám phá" [pressed] [ref=f2e47] [cursor=pointer]:
+            - generic [ref=f2e48]: "01"
+            - strong [ref=f2e49]: Đọc hình
+            - generic [ref=f2e50]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=f2e51] [cursor=pointer]:
+            - generic [ref=f2e52]: "02"
+            - strong [ref=f2e53]: Thao tác 3D
+            - generic [ref=f2e54]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=f2e55] [cursor=pointer]:
+            - generic [ref=f2e56]: "03"
+            - strong [ref=f2e57]: Xem video
+            - generic [ref=f2e58]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=f2e59] [cursor=pointer]:
+            - generic [ref=f2e60]: "04"
+            - strong [ref=f2e61]: Ghi & giải thích
+            - generic [ref=f2e62]: Chuẩn bị cho giờ học
+        - generic [ref=f2e63]:
+          - region "Infographic Cấu trúc hạt nhân" [ref=f2e64]:
+            - generic [ref=f2e65]:
+              - generic [ref=f2e66]: Chạm số trên hình hoặc chọn điểm bên dưới để đọc.
+              - button "Phóng to hình" [ref=f2e67] [cursor=pointer]
+            - region "Hình tổng quan" [ref=f2e68]:
+              - generic [ref=f2e69]:
+                - 'img "Cấu trúc hạt nhân. Phần lớn đi thẳng: Nhiều hạt α qua lá vàng gần như không đổi hướng. Một số lệch mạnh: Hạt tới gần tâm bị lệch, một số rất ít bật ngược. Đọc số nucleon: Hạt nhân C-12 gồm 6 proton và 6 neutron." [ref=f2e70]'
+                - 'button "Điểm 1: Phần lớn đi thẳng" [pressed] [ref=f2e71] [cursor=pointer]': "1"
+                - 'button "Điểm 2: Một số lệch mạnh" [ref=f2e72] [cursor=pointer]': "2"
+                - 'button "Điểm 3: Đọc số nucleon" [ref=f2e73] [cursor=pointer]': "3"
+            - generic "Đọc từng điểm trên hình" [ref=f2e74]:
+              - button "1. Phần lớn đi thẳng" [pressed] [ref=f2e75] [cursor=pointer]
+              - button "2. Một số lệch mạnh" [ref=f2e76] [cursor=pointer]
+              - button "3. Đọc số nucleon" [ref=f2e77] [cursor=pointer]
+            - generic [ref=f2e78]:
+              - generic [ref=f2e79]:
+                - text: Quan sát
+                - paragraph [ref=f2e80]: Nhiều hạt α qua lá vàng gần như không đổi hướng.
+              - generic [ref=f2e81]:
+                - text: Giải thích
+                - paragraph [ref=f2e82]: Phần lớn thể tích nguyên tử không chứa vùng tập trung điện tích dương và khối lượng.
+            - group [ref=f2e83]:
+              - generic "Điểm dễ nhầm và giới hạn của hình" [ref=f2e84] [cursor=pointer]
+            - generic [ref=f2e85]:
+              - group "C-12 và C-14 có đại lượng nào giống nhau?" [ref=f2e86]:
+                - generic [ref=f2e88]:
+                  - generic [ref=f2e89] [cursor=pointer]:
+                    - radio "Số neutron" [ref=f2e90]
+                    - generic [ref=f2e91]: Số neutron
+                  - generic [ref=f2e92] [cursor=pointer]:
+                    - radio "Số proton" [ref=f2e93]
+                    - generic [ref=f2e94]: Số proton
+                  - generic [ref=f2e95] [cursor=pointer]:
+                    - radio "Số khối" [ref=f2e96]
+                    - generic [ref=f2e97]: Số khối
+              - status [ref=f2e98]: Chưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.
+              - button "Kiểm tra nhận định" [disabled] [ref=f2e99] [cursor=pointer]
+            - group "Tải và xem hình minh họa" [ref=f2e100]:
+              - generic [ref=f2e101]:
+                - link "Tải hình dùng trong bài giảng" [ref=f2e102] [cursor=pointer]:
+                  - /url: /illustrations/B21-diagram.png
+                - paragraph [ref=f2e103]: Ảnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.
+              - generic [ref=f2e104]:
+                - link "Tải hình để chỉnh sửa" [ref=f2e105] [cursor=pointer]:
+                  - /url: /illustrations/B21-diagram.svg
+                - paragraph [ref=f2e106]: Hình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.
+              - generic [ref=f2e107]:
+                - link "Xem hình lớn ↗" [ref=f2e108] [cursor=pointer]:
+                  - /url: /illustrations/B21-diagram.svg
+                - paragraph [ref=f2e109]: Mở hình trong tab mới để đọc rõ chữ và xem các chi tiết.
+          - generic [ref=f2e110]:
+            - generic [ref=f2e111]: Chạm để khám phá
+            - 'button "Tiếp: Thao tác 3D" [ref=f2e112] [cursor=pointer]'
+        - group [ref=f2e113]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=f2e114] [cursor=pointer]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=f2e115]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=f2e116]:
+          - generic "Nguồn học liệu" [ref=f2e117] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=f2e118]:
+      - button "Mở khung AI học tập" [ref=f2e119] [cursor=pointer]: AI
+  - alert [ref=f2e120]

@@ -1,0 +1,18 @@
+[
+ {
+  "id":"ctst-q0012",
+  "kind":"numeric",
+  "topic":"CTST B1",
+  "chapter":"Vật lí nhiệt",
+  "level":"Nhận biết",
+  "prompt":"Khi được cung cấp một nhiệt lượng $Q=5{,}13\\times10^5\\,\\mathrm{J}$ thì toàn bộ $1{,}5\\,\\mathrm{kg}$ băng (nước đá) ở $0^\\circ\\mathrm{C}$ hóa lỏng và không thay đổi nhiệt độ. Tính nhiệt nóng chảy riêng của nước đá ở $0^\\circ\\mathrm{C}$.",
+  "answer":342000,
+  "answerText":"$3{,}42\\times10^5\\,\\mathrm{J/kg}$",
+  "unit":"J/kg",
+  "explanation":"Áp dụng $Q=\\lambda m$, suy ra $\\lambda=\\frac{Q}{m}=\\frac{5{,}13\\times10^5}{1{,}5}=3{,}42\\times10^5\\,\\mathrm{J/kg}$.",
+  "points":1,
+  "source":{"book":"Sách bài tập Vật lí 12 · Chân trời sáng tạo","label":"Bài 1.3","pages":[6]},
+  "status":"ready",
+  "notes":["Bản chữ và công thức đã kiểm tra với vùng ảnh nguồn; xếp trả lời ngắn theo yêu cầu tính một đại lượng."]
+ }
+]

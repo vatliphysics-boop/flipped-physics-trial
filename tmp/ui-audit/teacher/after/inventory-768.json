@@ -1,0 +1,1176 @@
+[
+  {
+    "name": "overview",
+    "route": "/teacher",
+    "group": "Tổng quan",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher",
+    "headings": [
+      "Tổng quan giảng dạy",
+      "Tiếp tục công việc giảng dạy",
+      "Lớp học của tôi",
+      "Thao tác nhanh"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "classes",
+    "route": "/teacher/classes",
+    "group": "Danh sách lớp",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/classes",
+    "headings": [
+      "Lớp học của tôi",
+      "Danh sách lớp học"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "class-new",
+    "route": "/teacher/classes/new",
+    "group": "Tạo lớp",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/classes/new",
+    "headings": [
+      "Tạo lớp học"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "class-detail",
+    "route": "/teacher/classes/98bada8f-4191-409a-97d2-d486892dba39",
+    "group": "Quản trị lớp",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/classes/98bada8f-4191-409a-97d2-d486892dba39",
+    "headings": [
+      "[QA] SGK B21–B25 1793890153017",
+      "[QA] SGK B21–B25 1793890153017",
+      "Không gian dạy học của lớp",
+      "Quản trị lớp & Danh sách học sinh"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "class-curriculum-redirect",
+    "route": "/teacher/classes/98bada8f-4191-409a-97d2-d486892dba39/curriculum",
+    "group": "Tuyến cũ chuyển chương trình",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/curriculum?classId=98bada8f-4191-409a-97d2-d486892dba39",
+    "headings": [
+      "Chương trình Vật lí 12",
+      "Đang thiết lập cho lớp [QA] SGK B21–B25 1793890153017",
+      "Vật lí nhiệt",
+      "Khí lí tưởng",
+      "Từ trường",
+      "Vật lí hạt nhân"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": null,
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "curriculum",
+    "route": "/teacher/curriculum",
+    "group": "Chương trình",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/curriculum",
+    "headings": [
+      "Chương trình Vật lí 12",
+      "Chọn lớp học"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": null,
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "curriculum-selected",
+    "route": "/teacher/curriculum?classId=98bada8f-4191-409a-97d2-d486892dba39",
+    "group": "Chương trình theo lớp",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/curriculum?classId=98bada8f-4191-409a-97d2-d486892dba39",
+    "headings": [
+      "Chương trình Vật lí 12",
+      "Đang thiết lập cho lớp [QA] SGK B21–B25 1793890153017",
+      "Vật lí nhiệt",
+      "Khí lí tưởng",
+      "Từ trường",
+      "Vật lí hạt nhân"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": null,
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "curriculum-chapter",
+    "route": "/teacher/curriculum/IV?classId=98bada8f-4191-409a-97d2-d486892dba39",
+    "group": "Chương IV",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/curriculum/IV?classId=98bada8f-4191-409a-97d2-d486892dba39",
+    "headings": [
+      "VẬT LÍ HẠT NHÂN",
+      "Vật lí hạt nhân",
+      "Bài học trong chương",
+      "Cấu trúc hạt nhân",
+      "Phản ứng hạt nhân và năng lượng liên kết",
+      "Hiện tượng phóng xạ",
+      "Công nghiệp hạt nhân",
+      "Bài tập về vật lí hạt nhân"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": null,
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lessons",
+    "route": "/teacher/lessons?classId=98bada8f-4191-409a-97d2-d486892dba39",
+    "group": "Năm bài",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/lessons?classId=98bada8f-4191-409a-97d2-d486892dba39",
+    "headings": [
+      "Bài học hạt nhân",
+      "Chọn lớp",
+      "Bài 21 — Cấu trúc hạt nhân",
+      "Bài 22 — Phản ứng hạt nhân và năng lượng liên kết",
+      "Bài 23 — Hiện tượng phóng xạ",
+      "Bài 24 — Công nghiệp hạt nhân",
+      "Bài 25 — Bài tập về vật lí hạt nhân"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lesson-overview",
+    "route": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc",
+    "group": "Tổng quan bài",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc",
+    "headings": [
+      "Cấu trúc hạt nhân",
+      "Cấu trúc hạt nhân",
+      "Mẫu nhiệm vụ ba pha",
+      "Bài giảng và chuẩn bị",
+      "Mô phỏng và khám phá",
+      "Bài tập và kiểm tra cuối bài"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": null,
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lesson-before",
+    "route": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/before-class",
+    "group": "Trước giờ học",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/before-class",
+    "headings": [
+      "Cấu trúc hạt nhân",
+      "HỌC LIỆU TRƯỚC GIỜ HỌC",
+      "Câu hỏi cuối giai đoạn"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "13px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "8px 12px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lesson-during",
+    "route": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/in-class",
+    "group": "Trong giờ học",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/in-class",
+    "headings": [
+      "Cấu trúc hạt nhân",
+      "Mô phỏng và khám phá",
+      "HỌC LIỆU BỔ SUNG",
+      "Câu hỏi cuối giai đoạn"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "13px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "8px 12px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lesson-after",
+    "route": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/after-class",
+    "group": "Sau giờ học",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/after-class",
+    "headings": [
+      "Cấu trúc hạt nhân",
+      "Bài tập / Nhiệm vụ",
+      "Ngân hàng câu hỏi"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "13px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "8px 12px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lesson-results",
+    "route": "/teacher/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/ket-qua?phase=after_class",
+    "group": "Minh chứng theo học sinh",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/ket-qua?phase=after_class",
+    "headings": [
+      "Bài nộp · Bài tập về vật lí hạt nhân",
+      "Học Sinh 1 B23 · Sau giờ học"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "materials",
+    "route": "/teacher/materials",
+    "group": "Kho học liệu",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/materials",
+    "headings": [
+      "Kho học liệu",
+      "Kho học liệu số dùng chung"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "materials-assessment",
+    "route": "/teacher/materials?type=assessment",
+    "group": "Đề kiểm tra trong kho",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/materials?type=assessment",
+    "headings": [
+      "Kho học liệu",
+      "Kho học liệu số dùng chung"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "plans",
+    "route": "/teacher/plans",
+    "group": "Bàn soạn kế hoạch",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/plans",
+    "headings": [
+      "Kế hoạch dạy học của tôi",
+      "Chọn và phối hợp học liệu",
+      "Trước giờ học 20 phút",
+      "Trong giờ học 35 phút",
+      "Sau giờ học 25 phút"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "workroom",
+    "route": "/teacher/ai",
+    "group": "Ngân hàng đề và công cụ giáo viên",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/ai",
+    "headings": [
+      "Không gian hỗ trợ giáo viên",
+      "Ngân hàng đề Chương 4 Vật lí hạt nhân",
+      "Tạo phiếu học tập ba pha",
+      "Chuẩn bị kế hoạch bài dạy"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "students",
+    "route": "/teacher/students",
+    "group": "Học sinh và kết quả",
+    "width": 768,
+    "status": 200,
+    "actualRoute": "/teacher/students",
+    "headings": [
+      "Học sinh và kết quả",
+      "Lớp học cần theo dõi"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "workroom-worksheet",
+    "route": null,
+    "group": "Phiếu học tập ba pha",
+    "width": 768,
+    "actualRoute": "/teacher/ai",
+    "headings": [
+      "Không gian hỗ trợ giáo viên",
+      "Ngân hàng đề Chương 4 Vật lí hạt nhân",
+      "Tạo phiếu học tập ba pha",
+      "Chuẩn bị kế hoạch bài dạy"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 85, 91)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "workroom-preparation",
+    "route": null,
+    "group": "Chuẩn bị giờ học",
+    "width": 768,
+    "actualRoute": "/teacher/ai",
+    "headings": [
+      "Không gian hỗ trợ giáo viên",
+      "Ngân hàng đề Chương 4 Vật lí hạt nhân",
+      "Tạo phiếu học tập ba pha",
+      "Chuẩn bị kế hoạch bài dạy"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 85, 91)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "workroom-bank",
+    "route": null,
+    "group": "Ngân hàng đề",
+    "width": 768,
+    "actualRoute": "/teacher/ai",
+    "headings": [
+      "Không gian hỗ trợ giáo viên",
+      "Ngân hàng đề Chương 4 Vật lí hạt nhân",
+      "Tạo phiếu học tập ba pha",
+      "Chuẩn bị kế hoạch bài dạy"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(11, 85, 91)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "workroom-matrix",
+    "route": null,
+    "group": "Ma trận đề",
+    "width": 768,
+    "actualRoute": "/teacher/ai",
+    "headings": [
+      "Không gian hỗ trợ giáo viên",
+      "Ngân hàng đề Chương 4 Vật lí hạt nhân",
+      "Tạo phiếu học tập ba pha",
+      "Chuẩn bị kế hoạch bài dạy"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "14px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "10px 16px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lesson-editor",
+    "route": null,
+    "group": "Soạn bước và công thức",
+    "width": 768,
+    "actualRoute": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/before-class",
+    "headings": [
+      "Cấu trúc hạt nhân",
+      "HỌC LIỆU TRƯỚC GIỜ HỌC",
+      "Câu hỏi cuối giai đoạn"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "13px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "8px 12px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  },
+  {
+    "name": "lesson-preview",
+    "route": null,
+    "group": "Xem trước bước đã giao",
+    "width": 768,
+    "actualRoute": "/teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/before-class",
+    "headings": [
+      "Cấu trúc hạt nhân",
+      "HỌC LIỆU TRƯỚC GIỜ HỌC",
+      "Câu hỏi cuối giai đoạn"
+    ],
+    "alerts": [],
+    "layout": {
+      "viewport": 768,
+      "scrollWidth": 768,
+      "mainWidth": 768,
+      "body": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "16px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgb(243, 247, 250)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "h1": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "24px",
+        "color": "rgb(23, 50, 68)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(23, 50, 68)",
+        "radius": "0px",
+        "padding": "0px"
+      },
+      "primary": {
+        "font": "\"Be Vietnam Pro\", \"Be Vietnam Pro Fallback\", system-ui, -apple-system, \"system-ui\", sans-serif",
+        "size": "13px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(17, 107, 112)",
+        "border": "rgb(17, 107, 112)",
+        "radius": "9px",
+        "padding": "8px 12px"
+      },
+      "overflows": []
+    },
+    "errors": []
+  }
+]

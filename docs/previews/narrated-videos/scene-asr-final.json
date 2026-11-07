@@ -1,0 +1,460 @@
+[
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b21/scene-01.wav",
+    "seconds": 18.7666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 8.5,
+        "text": "Hai hạt an pha, cũng có động năng xa tâm tám mega-electrum vôn, tà chỉ đổi tham số và chạm."
+      },
+      {
+        "start": 8.5,
+        "end": 18.0,
+        "text": "Đường tới A cách tâm vàng 90 femtm, đường tới B cách 10 femtm, em dự đoán hạt nào lệch nhiều hơn."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "95441436115405d705b568ddc20e56410b92b136caad36cbf9ec3e14a3c8aed8"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b21/scene-02.wav",
+    "seconds": 12.3,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.0,
+        "text": "Theo giỏi lực A, lực đẩy điện làm đường đi của hạt an pha công dần."
+      },
+      {
+        "start": 6.0,
+        "end": 11.0,
+        "text": "Rút lệt là gốc giữa hướng tới và hướng đi khi hạt ở xa tâm."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "390bda1e31f7b0d5edcb411952fdb7ed210d7e0b4a091c59a47e75ba320ea103"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b21/scene-03.wav",
+    "seconds": 13.5666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 13.0,
+        "text": "Giữ cùng đóng năng và cùng đồng hồ, hạc ở lực B đi gần tâm phạng hơn và lệch mạnh hơn, gốc lệch của A khoảng 18 độ, của B khoảng 110 độ."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "84d2a85464f0189a2e9c365c390a4b97822a8cb4c5ff0270eb9100349f2a3cb7"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b21/scene-04.wav",
+    "sha256": "117bfcb98efa7b3207b83869eaa156f2f2aad1b49f53e812ebc08c06d173424f",
+    "seconds": 14.0666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.5,
+        "text": "Tán xạ góc lớn cho thấy điện tích dương tập trung trong một phùng nhỏ."
+      },
+      {
+        "start": 5.5,
+        "end": 13.0,
+        "text": "A đếm nucleon zét đếm proton, số neutron ký hiệu N, bằng A trừ zét."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "117bfcb98efa7b3207b83869eaa156f2f2aad1b49f53e812ebc08c06d173424f"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b21/scene-05.wav",
+    "sha256": "7ee9db0f454bac1e20b4b3c3120eeac5d3588b5404d3a12e12f6caddb1a0454c",
+    "seconds": 14.6333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.76,
+        "text": "Các bòn 12 và các bòn 13 đều có 6 proton, các bòn 13 có thêm 1 neutron."
+      },
+      {
+        "start": 7.76,
+        "end": 13.56,
+        "text": "Mầu và vị trí của các quả cầu chỉ là quy ước để quan sát cấu tạo."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "7ee9db0f454bac1e20b4b3c3120eeac5d3588b5404d3a12e12f6caddb1a0454c"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b21/scene-06.wav",
+    "sha256": "97a35cdb716bd899a905779d5895cbd445cf195f8bb712203d9e0f5d827df4c9",
+    "seconds": 16.4666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "text": "Hai lực minh họa không cho biết từng xuất táng xả, trong thi nghiệm lá vàng, rất ít hạt lệch gốc lớn."
+      },
+      {
+        "start": 8.0,
+        "end": 16.0,
+        "text": "Tự kiểm tra, các bòn 14 có 6 protein, lấy 14 trừ 6 được 8 N."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "97a35cdb716bd899a905779d5895cbd445cf195f8bb712203d9e0f5d827df4c9"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b22/scene-01.wav",
+    "sha256": "68ef67ac87d316921c7c759d4778e0e0900b8c381f992545c8ee419a8014af7f",
+    "seconds": 14.6333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 14.0,
+        "text": "Hạt nhân liên kết nhẹ hơn tổng khối lượng các nucleon tự do. Lấy độ hục khối nhân bình phương tốc độ ánh sáng. Chì tiếp cho số nucleon để tính năng lượng liên kết riêng."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "68ef67ac87d316921c7c759d4778e0e0900b8c381f992545c8ee419a8014af7f"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b22/scene-02.wav",
+    "sha256": "67f8cfb0366a7167188bf952752d4dafc5404c28fbcb3204091f26be295d990d",
+    "seconds": 14.9333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 14.0,
+        "text": "Một Neutron tới bị Urani-235 hấp thủ, hạt nhân kích khích biến dạng rồi tắt, kênh minh họa cho IG-95, IOC-138 và 3 Neutron."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "67f8cfb0366a7167188bf952752d4dafc5404c28fbcb3204091f26be295d990d"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b22/scene-03.wav",
+    "sha256": "5a610bed880e6922f36c52b18a2f3dc9a32555c24150f71b062cf219dc0f6c2c",
+    "seconds": 12.8666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.0,
+        "text": "Bây giờ giữ nguyên U Rani 235 nhưng bỏ Neutron tới."
+      },
+      {
+        "start": 6.0,
+        "end": 12.0,
+        "text": "Không có tác nhân kích phát, kênh phần hạch cảm ứng vừa xét chưa khởi phát."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "5a610bed880e6922f36c52b18a2f3dc9a32555c24150f71b062cf219dc0f6c2c"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b22/scene-04.wav",
+    "sha256": "8c3880d65cb93ffea4e6baf4557c4a413f200ca465945b174b1cabe582519932",
+    "seconds": 17.2666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.6,
+        "text": "Mỗi vế có 236 nucleon và tổng điện tích bằng 92 lần điện tích nguyên tố."
+      },
+      {
+        "start": 7.6,
+        "end": 16.24,
+        "text": "Khối lượng giảm, từ trên lợt khối lượng, kênh này tỏa sắp sĩ 178 MHz trông vôn."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "8c3880d65cb93ffea4e6baf4557c4a413f200ca465945b174b1cabe582519932"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b22/scene-05.wav",
+    "sha256": "2b5ced7aea7bd9b66a056b20fcef2bad6a9e207ae25adf815d15fcbee279244e",
+    "seconds": 15.5,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 15.0,
+        "text": "Trong phản ứng tổng hợp, Deteri và GT tạo hê Li 4 và 1 Neutron, em hãy kiểm tra mỗi vế có 5 Neucleon và tổng điện tích bằng 2 lần điện tích nguyên tố."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "2b5ced7aea7bd9b66a056b20fcef2bad6a9e207ae25adf815d15fcbee279244e"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b23/scene-01.wav",
+    "seconds": 17.9,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "text": "N0 là số hạt ban đầu, N của tê là số hạt mẹ còn lại theo kỳ vọng ở thời điểm tê nhỏ."
+      },
+      {
+        "start": 8.0,
+        "end": 17.0,
+        "text": "Tê lớn là chú kỳ bán rả, 2 lực dùng cùng 64 hạt và cùng bộ số ngẫu nhiên chỉ đổi tê lớn."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "153ca2caa034c344f8460ced6bfc45092b8feef8f0316e71c657df7d0214c365"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b23/scene-02.wav",
+    "seconds": 15.2,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 14.0,
+        "text": "Lực A có chú kỳ 20 giây, mỗi chấm mờ đi khi một hạt nhân mẹ phân rả, thời điểm phân rả của từng hạt là ngủ nhiên, ta theo dõi số hạt còn lại của cả mũ."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "366a4f6a2f13dbc62957dd9254ef03d83c4ded392253910b9d8852ac6117f485"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b23/scene-03.wav",
+    "seconds": 15.3333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.5,
+        "text": "Lược B có chú kỷ 40 giây, ta đọc 2 mẫu ở cùng móc 40 giây."
+      },
+      {
+        "start": 6.5,
+        "end": 14.5,
+        "text": "Lược A còn 20 hạt, Lược B còn 35 hạt, đây là 2 kết quả mô phỏng cụ thể."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "1878acf21734cb4bd61de1573d0ae03932f0d9bf03d4e68c885245567852fcd6"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b23/scene-04.wav",
+    "seconds": 29.5333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 10.0,
+        "text": "Ở 1 40 giây, hai giá trị kỳ vọng là 16 và 32 hạt, kết quả mục lượt có thể lịch khỏi kỳ vọng."
+      },
+      {
+        "start": 10.0,
+        "end": 17.0,
+        "text": "Hàng số phóng xả lambda bằng loga, rất tự nhiên của hai chia chú kỳ tê lớn."
+      },
+      {
+        "start": 17.0,
+        "end": 21.0,
+        "text": "Đồ phóng xả bằng lam đa nhân số hạt mẹ còn lại."
+      },
+      {
+        "start": 21.0,
+        "end": 25.0,
+        "text": "Hát của tê là đồ phóng xả ở thời điểm tê nhỏ."
+      },
+      {
+        "start": 25.0,
+        "end": 28.2,
+        "text": "Một bé cơ ren tương ứng một phần rã mỗi giây."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "4c17b307ca88c06ff5a18f468b08783ccb10526c2ed3edab423db25d35ead6fe"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b23/scene-05.wav",
+    "seconds": 15.7666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 15.0,
+        "text": "Sau hai chú kỳ, em giữ đoán còn bao nhiêu phần số hạt ban đầu theo kỳ vỏng, còn một phần tư, để giảm nguy cơ chiếu xạ, giảm thời gian, tăng khoảng cách và dùng chê chắn phù hợp."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "3e66ec94000fde0235ba019421fc3e232a01f2d94bf3a137151d1dd5dd6b499f"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b24/scene-01.wav",
+    "sha256": "6bdfb19b8b706ff5e6fe3d5be06ac87163607697bdd4be48b04eb05d346c2ef0",
+    "seconds": 13.1333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.0,
+        "text": "Thanh điều khiến hấp thủ Newton. Ta chọn ba mức cảm khác nhau trong mô hình."
+      },
+      {
+        "start": 6.0,
+        "end": 12.0,
+        "text": "Thàng phần trăm là quý ước, không suy vị trí vẫn hành lò thật từ tháng này."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "6bdfb19b8b706ff5e6fe3d5be06ac87163607697bdd4be48b04eb05d346c2ef0"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b24/scene-02.wav",
+    "seconds": 12.2333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.0,
+        "text": "Rút thành ở mức quý ước bằng không, chỉ số bắt đầu ở một và tăng theo các thế hệ."
+      },
+      {
+        "start": 7.0,
+        "end": 11.0,
+        "text": "Trong lực này, hệ số nhân ca lớn hơn một."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "2765beca640649726fc94d7f351b15c30e457a0cc3bfa1eddad28314750308a2"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b24/scene-03.wav",
+    "seconds": 16.1333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 13.0,
+        "text": "So sánh 3 mức cấm, hệ số nhân lần lượt là 1,4, 1 và 0,6, chỉ số ở thế hệ thứ 4 cho thấy su hướng tăng giữ nguyên và giảm."
+      },
+      {
+        "start": 13.0,
+        "end": 15.0,
+        "text": "Đây là mô hình định tính."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "677bcce31be966253a99cdc4be29729891fba3f464aab095aad6b57b10217d72"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b24/scene-04.wav",
+    "seconds": 15.1,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.52,
+        "text": "Trong lo nước áp lực, vòng sơ cấp truyền nhiệt ở Bộ Sinh Hơi, hai dòng nước không trộn lẫn."
+      },
+      {
+        "start": 7.52,
+        "end": 14.24,
+        "text": "Hơi thứ cấp quay tuô binh kéo máy phát, hơi sau tuô binh được làm ngụi ở Bình Ngưng."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "c390eb3d733f442173758af03ca7212d55b45e0444100f63348d92b1ed9f393c"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b24/scene-05.wav",
+    "sha256": "a9c6e288f3efecade2757e1e860793d068c78d39cb80b8005e66a6b298c6c47b",
+    "seconds": 15.3666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 14.0,
+        "text": "Hãy phân biệt hai chức năng, thành điều khiến hấp thụ neutron bộ sinh hơi trao đổi nhiệt trong ứng dụng khác bước xạ cộng hỗ trợ y học, sinh học và báo quản thực phẩm."
+      }
+    ],
+    "asrSource": "process-asr-canonical.jsonl",
+    "currentSceneWavSha256": "a9c6e288f3efecade2757e1e860793d068c78d39cb80b8005e66a6b298c6c47b"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b25/scene-01.wav",
+    "seconds": 15.8,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 10.0,
+        "text": "Bạn 25.1 cho đồ phóng xả ban đầu 151 béc cơ ren, 1 nửa là 75.5 béc cơ ren."
+      },
+      {
+        "start": 10.0,
+        "end": 15.0,
+        "text": "Em hãy tìm 2 móc đo, nằm 2 bên mức nửa ban đầu."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "27a5ddbe2d1466a581d369c83fb2f72929ddc72ba61e6ffaa66fae36e92ee513"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b25/scene-02.wav",
+    "seconds": 14.4666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.0,
+        "text": "Giữ đồ phóng xã ban đầu, thử tru kỳ 40 giây và theo dõi đường lý thuyết."
+      },
+      {
+        "start": 7.0,
+        "end": 14.0,
+        "text": "Các chấm đánh dấu số liệu sách giáo khoa được giữ nguyên khi ta đổi tru kỳ thử."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "c842a9dadadd62ab84ba8f347541517cdb43e489fd44ff43efeb8c38176bed8b"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b25/scene-03.wav",
+    "seconds": 12.8666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 12.0,
+        "text": "Thử tiếp chua kỳ 60 giây. Đường này giảm chậm hơn đường ứng với chua kỳ 40 giây. Đặt 2 đường cùng chục để so sánh tại cùng 1 thời điểm."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "23f53c004c130f11f92dc41ff9377cb1f310b53d02a2634d4ec011d4731329b5"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b25/scene-04.wav",
+    "seconds": 19.3333125,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 8.0,
+        "text": "Tại 30 dây, 2 dự báo khoảng 89,8 và 106,8 bét cơ ren."
+      },
+      {
+        "start": 8.0,
+        "end": 12.0,
+        "text": "Số liệu sắt giáo khoa tại đó là 85 bét cơ ren."
+      },
+      {
+        "start": 12.0,
+        "end": 18.0,
+        "text": "Nội suy tuyến tính giữa 2 điểm kẹp mức nữa cho khoảng 39,5 dây."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "ef4f1e70870c4635d31a43833ad8806aadfde0de1fbeb86647fbfa05307c4fdb"
+  },
+  {
+    "file": "scripts/nuclear-videos/voice/generated/b25/scene-05.wav",
+    "seconds": 13.7666875,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "text": "Em hãy giải thích vì sao đường lý thuyết có thể lệch khỏi số liệu trong bản."
+      },
+      {
+        "start": 5.0,
+        "end": 13.0,
+        "text": "Khi Note-Buy, ghi rõ cách ước lượng Chucky và tắt kết quả ấy khỏi hai giả thuyết đã thử."
+      }
+    ],
+    "asrSource": "process-asr-scenes.jsonl",
+    "currentSceneWavSha256": "94c01d918f18e366931bcacb49b5a5b6c6f5f97b38f670102fcdca3c52198c79"
+  }
+]

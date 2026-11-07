@@ -1,6 +1,8 @@
 "use client";
 
-import { useState, useTransition, useEffect } from "react";
+import { useState, useTransition } from "react";
+import { RichPhysicsText } from "./RichPhysicsText";
+import { legacyNuclearMath } from "@/lib/legacy-nuclear-math";
 import { submitPhaseAssessmentAction } from "@/app/student/actions";
 
 export type AssessmentQuestion = {
@@ -21,31 +23,9 @@ export function StudentPhase3Assessment({
 }) {
   const [answers, setAnswers] = useState<Record<string, unknown>>({});
   const [error, setError] = useState<string | null>(null);
+  const [localCompleted, setLocalCompleted] = useState(false);
   const [isPending, startTransition] = useTransition();
-  const [shuffledQuestions, setShuffledQuestions] = useState<AssessmentQuestion[]>([]);
-
-  useEffect(() => {
-    const storageKey = `phase3_order_${lessonId}`;
-    const storedOrder = sessionStorage.getItem(storageKey);
-    let order: string[];
-    if (storedOrder) {
-      order = JSON.parse(storedOrder);
-    } else {
-      order = [...questions].map(q => q.id).sort(() => Math.random() - 0.5);
-      sessionStorage.setItem(storageKey, JSON.stringify(order));
-    }
-    const shuffled = order.map(id => questions.find(q => q.id === id)).filter(Boolean) as AssessmentQuestion[];
-    // If questions change from props and we missed some, just use questions
-    if (shuffled.length !== questions.length) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setShuffledQuestions(questions);
-    } else {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setShuffledQuestions(shuffled);
-    }
-  }, [questions, lessonId]);
-
-  if (isCompleted) {
+  if (isCompleted || localCompleted) {
     return (
       <section style={{ marginTop: "48px", padding: "24px", borderRadius: "var(--radius-lg)", border: "1px solid var(--semantic-success)", backgroundColor: "rgba(16, 185, 129, 0.1)" }}>
         <h3 style={{ color: "var(--semantic-success)", fontSize: "18px", fontWeight: 600, display: "flex", alignItems: "center", gap: "8px" }}>
@@ -66,21 +46,24 @@ export function StudentPhase3Assessment({
       const res = await submitPhaseAssessmentAction({
         lessonId,
         answers,
-      });
+      }).catch(() => ({ error: "Chưa nộp được. Câu trả lời vẫn còn trên trang; em hãy thử lại.", success: false }));
       if (res.error) {
         setError(res.error);
+      } else if (res.success) {
+        setLocalCompleted(true);
       }
     });
   }
 
   function renderQuestionContent(q: AssessmentQuestion, index: number) {
-    const title = `Câu ${index + 1} (${q.difficulty === "nhan_biet" ? "Nhận biết" : q.difficulty === "thong_hieu" ? "Thông hiểu" : q.difficulty === "van_dung" ? "Vận dụng" : "Vận dụng cao"}): ${q.content.prompt || "Câu hỏi"}`;
+    const title = `Câu ${index + 1} (${q.difficulty === "nhan_biet" ? "Nhận biết" : q.difficulty === "thong_hieu" ? "Thông hiểu" : q.difficulty === "van_dung" ? "Vận dụng" : "Vận dụng cao"})`;
+    const prompt = <RichPhysicsText content={legacyNuclearMath(String(q.content.prompt || "Câu hỏi"))} />;
 
     if (q.question_type === "single_choice") {
       const options = (q.content.options as string[]) || [];
       return (
         <div key={q.id} style={{ marginBottom: "24px" }}>
-          <p style={{ fontWeight: 500, marginBottom: "12px" }}>{title}</p>
+          <p style={{ fontWeight: 500, marginBottom: "12px" }}>{title}</p>{prompt}
           <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
             {options.map((opt: string, i: number) => (
               <label key={i} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
@@ -92,7 +75,7 @@ export function StudentPhase3Assessment({
                   onChange={(e) => setAnswers({ ...answers, [q.id]: e.target.value })}
                   required
                 />
-                {opt}
+                <RichPhysicsText compact content={legacyNuclearMath(opt)} />
               </label>
             ))}
           </div>
@@ -105,13 +88,13 @@ export function StudentPhase3Assessment({
       const statements = (q.content.statements as { text?: string }[]) || [];
       return (
         <div key={q.id} style={{ marginBottom: "24px" }}>
-          <p style={{ fontWeight: 500, marginBottom: "12px" }}>{title}</p>
+          <p style={{ fontWeight: 500, marginBottom: "12px" }}>{title}</p>{prompt}
           <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
             {statements.map((stmt, i: number) => {
               const qAnswers = (answers[q.id] as Record<string, string>) || {};
               return (
-                <div key={i} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "8px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)" }}>
-                  <span>{stmt.text || `Phát biểu ${i + 1}`}</span>
+                <div key={i} style={{ display: "flex", flexWrap: "wrap", gap: "8px", justifyContent: "space-between", alignItems: "center", padding: "8px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)" }}>
+                  <RichPhysicsText content={legacyNuclearMath(stmt.text || `Phát biểu ${i + 1}`)} />
                   <div style={{ display: "flex", gap: "12px" }}>
                     <label><input type="radio" name={`q-${q.id}-part-${i}`} value="true" checked={qAnswers[i] === "true"} onChange={(e) => setAnswers({ ...answers, [q.id]: { ...qAnswers, [i]: e.target.value } })} required /> Đúng</label>
                     <label><input type="radio" name={`q-${q.id}-part-${i}`} value="false" checked={qAnswers[i] === "false"} onChange={(e) => setAnswers({ ...answers, [q.id]: { ...qAnswers, [i]: e.target.value } })} required /> Sai</label>
@@ -127,8 +110,9 @@ export function StudentPhase3Assessment({
     if (q.question_type === "short_answer") {
       return (
         <div key={q.id} style={{ marginBottom: "24px" }}>
-          <p style={{ fontWeight: 500, marginBottom: "12px" }}>{title}</p>
+          <p style={{ fontWeight: 500, marginBottom: "12px" }}>{title}</p>{prompt}
           <input
+            aria-label={title}
             type="text"
             className="form-input"
             value={(answers[q.id] as string) || ""}
@@ -151,9 +135,9 @@ export function StudentPhase3Assessment({
       </p>
 
       <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column" }}>
-        {(shuffledQuestions.length > 0 ? shuffledQuestions : questions).map((q, i) => renderQuestionContent(q, i))}
+        {questions.map((q, i) => renderQuestionContent(q, i))}
 
-        {error && <p style={{ color: "var(--semantic-error)", marginBottom: "16px" }}>{error}</p>}
+        {error && <p role="alert" style={{ color: "var(--semantic-danger)", marginBottom: "16px" }}>{error}</p>}
 
         <div>
           <button type="submit" className="btn primary" disabled={isPending}>

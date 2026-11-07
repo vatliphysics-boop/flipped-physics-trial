@@ -1,0 +1,166 @@
+{
+  "time_utc": "2026-10-05T10:05:57.738836+00:00",
+  "article_sha256": "cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826",
+  "reviewer": "Trưởng nhóm Codex trong ứng dụng; kiểm tra hình từng trang, không chỉnh DOCX",
+  "resolution": "original",
+  "result": "PASS bố cục 25 trang đã xem; không xác nhận thực nghiệm người thật",
+  "checks": [
+    "Chữ/công thức đọc được",
+    "Hình/caption không chồng lấn",
+    "Bảng tiếp trang có tiêu đề lặp",
+    "Không mất phần nội dung ở mép trang",
+    "Không có trang trắng thừa"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-1.png",
+      "sha256": "6fac0470f45e80d6223a60d534bf3f5ef20050f5b681331fc61042fac1b8e912",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 2,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-2.png",
+      "sha256": "eaaef7addc74a095acc73ed55e2a5d0ef8f0904927c642a909b9b37b1fb2844f",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 3,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-3.png",
+      "sha256": "d6dcf89b1cffb2355edbe358132380b6598a6b86c6568868d7debb71048ecbd8",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 4,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-4.png",
+      "sha256": "cc9618574e32bc8011352ed4f66b6e38c5536e945994e490ac4b2760ca1c7354",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 5,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-5.png",
+      "sha256": "ae17566010598322137b9326212c274252517acc1ebba57f89c13d4ef7c14da0",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 6,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-6.png",
+      "sha256": "2fa3959001e42e6478781be49c2102e7be62b2f8c785db849ede7a38c3d1cae8",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 7,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-7.png",
+      "sha256": "e1a8b885209bc1912ec2bbb33bbeacdc8e45b5bc7896948619d54f5c68743130",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 8,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-8.png",
+      "sha256": "6251265db34e9b9e5f81c0a4b2c76a3a9f48878d14108515597e3634cdb25232",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 9,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-9.png",
+      "sha256": "989a1ed6138defa62cbc8db9cbfe06b227141fd8ad90b808bcf5ed53cb8bdc4d",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 10,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-10.png",
+      "sha256": "26b87e166b7e30b653e2761bf7cf1678e3e6e2d3b2319586e9b59ffb9b2e154f",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 11,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-11.png",
+      "sha256": "4325f7a99af59922c59d4fe654397999a4ffaa5974b296fe3cda8ccdeac877fd",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 12,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-12.png",
+      "sha256": "3d7cccc8505ac470c54522a2472da11190177f967291f2385cb067ed5453e522",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 13,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-13.png",
+      "sha256": "3674a425d5703562fe3c6956b776005c525748268a0f6daca537187988fd029e",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 14,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-14.png",
+      "sha256": "8328b9381de7474b2a8b90aebd33bf64d618e5971fec46e7ab49399c812cf9df",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 15,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-15.png",
+      "sha256": "7fe2ab583c29e762e14fc7461f3bd488f2954180e70c6c8a5159ec30a4243d46",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 16,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-16.png",
+      "sha256": "e9438bc7059dabe004bddf00c796349029d5a23f4290c8b6a71e04d2aa0f41f9",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 17,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-17.png",
+      "sha256": "f23af43cd0aa7333dec2b5f96cf96b1cb817a4ff0cda9054114009cab6352d3c",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 18,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-18.png",
+      "sha256": "9796d8c4fc9f83ae2d90a09b93072bd5eaf5c67514978f013ed03d9ec37e6ca8",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 19,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-19.png",
+      "sha256": "93acb5b65705949a35a252224b51d6c01801700b282c7d54238123681e2f0127",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 20,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-20.png",
+      "sha256": "3632bc950ddefda831f3564a9d5aedc659a078fe22584e33d959662788fa2db6",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 21,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-21.png",
+      "sha256": "e36f376cdeb6a871c50d97a43fda0f79880e2aad294aab4d617693673125a489",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 22,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-22.png",
+      "sha256": "0dcbd1d3dbb45573aa26f4ceb1e24203ee617ae758cf55854c97ec3433a8d394",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 23,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-23.png",
+      "sha256": "b42c96bb96a0cf8e36e8ebc06207e5401040d2ac52538c95ecff7562e53ea785",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 24,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-24.png",
+      "sha256": "71bd19d71ad7b4f500ef5c8084bb69be983101f9eae9587efd152c9016fb4171",
+      "lead_visual_inspection": "PASS"
+    },
+    {
+      "page": 25,
+      "file": "docs/codex-team/runs/worker2-round8-article-update/qa/page-25.png",
+      "sha256": "1c140405c3341d31aa647373867ab106569eff27e1a96417ea421c4815b9d9a4",
+      "lead_visual_inspection": "PASS"
+    }
+  ]
+}

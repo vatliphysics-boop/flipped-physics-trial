@@ -1,0 +1,383 @@
+{
+  "method": "Signal analysis of decoded MP4, not listening/ASR",
+  "lessons": {
+    "B21": {
+      "sha256": "03d5033a08c06003b9e58801fdd778d797dd2dcdb75dc0517cb52ce651e58a82",
+      "durationSeconds": 89.8,
+      "masterCorrelation": 0.9997202113110161,
+      "decodedSamples": 4311040,
+      "peakAmplitude": 0.7983325719833374,
+      "lufs": -18.04,
+      "truePeakDb": -1.95,
+      "longestQuietSeconds": 2.0,
+      "cues": [
+        {
+          "fromSeconds": 0.5,
+          "toSeconds": 8.866666666666667,
+          "rms": 0.12848810851573944,
+          "text": "Hai hạt alpha cùng có động năng xa tâm 8 MeV. Ta chỉ đổi tham số va chạm."
+        },
+        {
+          "fromSeconds": 8.966666666666667,
+          "toSeconds": 17.966666666666665,
+          "rms": 0.14303405582904816,
+          "text": "Đường tới A cách tâm vàng 90 fm. Đường tới B cách 10 fm. Em dự đoán hạt nào lệch nhiều hơn?"
+        },
+        {
+          "fromSeconds": 19.266666666666666,
+          "toSeconds": 25.066666666666666,
+          "rms": 0.12830066680908203,
+          "text": "Theo dõi lượt A. Lực đẩy điện làm đường đi của hạt alpha cong dần."
+        },
+        {
+          "fromSeconds": 25.166666666666668,
+          "toSeconds": 30.266666666666666,
+          "rms": 0.12510810792446136,
+          "text": "Góc lệch là góc giữa hướng tới và hướng đi khi hạt ở xa tâm."
+        },
+        {
+          "fromSeconds": 31.566666666666666,
+          "toSeconds": 38.733333333333334,
+          "rms": 0.13278840482234955,
+          "text": "Giữ cùng động năng và cùng đồng hồ. Hạt ở lượt B đi gần tâm vàng hơn và lệch mạnh hơn."
+        },
+        {
+          "fromSeconds": 38.833333333333336,
+          "toSeconds": 43.833333333333336,
+          "rms": 0.12599192559719086,
+          "text": "Góc lệch của A khoảng 18 độ, của B khoảng 110 độ."
+        },
+        {
+          "fromSeconds": 45.13333333333333,
+          "toSeconds": 50.4,
+          "rms": 0.13313469290733337,
+          "text": "Tán xạ góc lớn cho thấy điện tích dương tập trung trong một vùng nhỏ."
+        },
+        {
+          "fromSeconds": 50.5,
+          "toSeconds": 57.9,
+          "rms": 0.11756450682878494,
+          "text": "A đếm nucleon, Z đếm proton. Số neutron N bằng A trừ Z."
+        },
+        {
+          "fromSeconds": 59.2,
+          "toSeconds": 66.76666666666667,
+          "rms": 0.12075692415237427,
+          "text": "Carbon-12 và carbon-13 đều có 6 proton. Carbon-13 có thêm 1 neutron."
+        },
+        {
+          "fromSeconds": 66.86666666666666,
+          "toSeconds": 72.53333333333333,
+          "rms": 0.13122206926345825,
+          "text": "Màu và vị trí của các quả cầu chỉ là quy ước để quan sát cấu tạo."
+        },
+        {
+          "fromSeconds": 73.83333333333333,
+          "toSeconds": 81.8,
+          "rms": 0.11023218184709549,
+          "text": "Hai lượt minh họa không cho biết tần suất tán xạ. Trong thí nghiệm lá vàng, rất ít hạt lệch góc lớn."
+        },
+        {
+          "fromSeconds": 81.9,
+          "toSeconds": 89.0,
+          "rms": 0.11524417996406555,
+          "text": "Tự kiểm tra. Carbon-14 có 6 proton. Lấy 14 trừ 6 được 8 neutron."
+        }
+      ]
+    },
+    "B22": {
+      "sha256": "3e76c5e71595a710b562298f2a500f80cc3b6075fb896bae641d1af06c5b5e66",
+      "durationSeconds": 75.2,
+      "masterCorrelation": 0.9997014552584534,
+      "decodedSamples": 3609600,
+      "peakAmplitude": 0.8060367703437805,
+      "lufs": -18.04,
+      "truePeakDb": -1.84,
+      "longestQuietSeconds": 2.02,
+      "cues": [
+        {
+          "fromSeconds": 0.5,
+          "toSeconds": 5.366666666666666,
+          "rms": 0.13003455102443695,
+          "text": "Hạt nhân liên kết nhẹ hơn tổng khối lượng các nucleon tự do."
+        },
+        {
+          "fromSeconds": 5.466666666666667,
+          "toSeconds": 13.833333333333334,
+          "rms": 0.12108596414327621,
+          "text": "Lấy độ hụt khối nhân bình phương tốc độ ánh sáng. Chia tiếp cho số nucleon để tính năng lượng liên kết riêng."
+        },
+        {
+          "fromSeconds": 15.133333333333333,
+          "toSeconds": 22.133333333333333,
+          "rms": 0.12076219171285629,
+          "text": "Một neutron tới bị uranium-235 hấp thụ. Hạt nhân kích thích biến dạng rồi tách."
+        },
+        {
+          "fromSeconds": 22.233333333333334,
+          "toSeconds": 28.766666666666666,
+          "rms": 0.11233559995889664,
+          "text": "Kênh minh họa cho yttri-95, iốt-138 và 3 neutron."
+        },
+        {
+          "fromSeconds": 30.066666666666666,
+          "toSeconds": 35.8,
+          "rms": 0.1301085650920868,
+          "text": "Bây giờ giữ nguyên uranium-235, nhưng bỏ neutron tới."
+        },
+        {
+          "fromSeconds": 35.9,
+          "toSeconds": 41.63333333333333,
+          "rms": 0.12208444625139236,
+          "text": "Không có tác nhân kích phát, kênh phân hạch cảm ứng vừa xét chưa khởi phát."
+        },
+        {
+          "fromSeconds": 42.93333333333333,
+          "toSeconds": 50.266666666666666,
+          "rms": 0.1334659606218338,
+          "text": "Mỗi vế có 236 nucleon và tổng điện tích bằng 92 lần điện tích nguyên tố."
+        },
+        {
+          "fromSeconds": 50.36666666666667,
+          "toSeconds": 58.9,
+          "rms": 0.13389241695404053,
+          "text": "Khối lượng giảm. Từ chênh lệch khối lượng, kênh này tỏa xấp xỉ 178 MeV."
+        },
+        {
+          "fromSeconds": 60.2,
+          "toSeconds": 66.8,
+          "rms": 0.13231369853019714,
+          "text": "Trong phản ứng tổng hợp, đơteri và triti tạo helium-4 và một neutron."
+        },
+        {
+          "fromSeconds": 66.9,
+          "toSeconds": 74.4,
+          "rms": 0.13112348318099976,
+          "text": "Em hãy kiểm tra: mỗi vế có 5 nucleon và tổng điện tích bằng 2 lần điện tích nguyên tố."
+        }
+      ]
+    },
+    "B23": {
+      "sha256": "c1ab2dd25af0ca762e5dd779daee32634727250119dc2e38af195cae1604cb71",
+      "durationSeconds": 93.73333333333333,
+      "masterCorrelation": 0.9996806934650825,
+      "decodedSamples": 4499456,
+      "peakAmplitude": 0.8009272813796997,
+      "lufs": -18.05,
+      "truePeakDb": -1.92,
+      "longestQuietSeconds": 1.98,
+      "cues": [
+        {
+          "fromSeconds": 0.5,
+          "toSeconds": 8.633333333333333,
+          "rms": 0.12377295643091202,
+          "text": "N₀ là số hạt ban đầu. N(t) là số hạt mẹ còn lại theo kì vọng ở thời điểm t."
+        },
+        {
+          "fromSeconds": 8.733333333333333,
+          "toSeconds": 17.1,
+          "rms": 0.12235449999570847,
+          "text": "T là chu kì bán rã. Hai lượt dùng cùng 64 hạt và cùng bộ số ngẫu nhiên, chỉ đổi T."
+        },
+        {
+          "fromSeconds": 18.4,
+          "toSeconds": 24.933333333333334,
+          "rms": 0.13081581890583038,
+          "text": "Lượt A có chu kì 20 giây. Mỗi chấm mờ đi khi một hạt nhân mẹ phân rã."
+        },
+        {
+          "fromSeconds": 25.033333333333335,
+          "toSeconds": 32.3,
+          "rms": 0.11561090499162674,
+          "text": "Thời điểm phân rã của từng hạt là ngẫu nhiên. Ta theo dõi số hạt còn lại của cả mẫu."
+        },
+        {
+          "fromSeconds": 33.6,
+          "toSeconds": 39.96666666666667,
+          "rms": 0.13700571656227112,
+          "text": "Lượt B có chu kì 40 giây. Ta đọc hai mẫu ở cùng mốc 40 giây."
+        },
+        {
+          "fromSeconds": 40.06666666666667,
+          "toSeconds": 47.63333333333333,
+          "rms": 0.11800072342157364,
+          "text": "Lượt A còn 20 hạt, lượt B còn 35 hạt. Đây là hai kết quả mô phỏng cụ thể."
+        },
+        {
+          "fromSeconds": 48.93333333333333,
+          "toSeconds": 58.6,
+          "rms": 0.12905314564704895,
+          "text": "Ở mốc 40 giây, hai giá trị kì vọng là 16 và 32 hạt. Kết quả một lượt có thể lệch khỏi kì vọng."
+        },
+        {
+          "fromSeconds": 58.7,
+          "toSeconds": 69.56666666666666,
+          "rms": 0.12429919093847275,
+          "text": "Hằng số phóng xạ λ bằng ln 2 chia chu kì T. Độ phóng xạ bằng λ nhân số hạt mẹ còn lại."
+        },
+        {
+          "fromSeconds": 69.66666666666667,
+          "toSeconds": 77.16666666666667,
+          "rms": 0.12406807392835617,
+          "text": "H(t) là độ phóng xạ ở thời điểm t. Một becquerel tương ứng một phân rã mỗi giây."
+        },
+        {
+          "fromSeconds": 78.46666666666667,
+          "toSeconds": 84.53333333333333,
+          "rms": 0.13218237459659576,
+          "text": "Sau hai chu kì, em dự đoán còn bao nhiêu phần số hạt ban đầu theo kì vọng?"
+        },
+        {
+          "fromSeconds": 84.63333333333334,
+          "toSeconds": 92.93333333333334,
+          "rms": 0.11764717102050781,
+          "text": "Còn một phần tư. Để giảm nguy cơ chiếu xạ, giảm thời gian, tăng khoảng cách và dùng che chắn phù hợp."
+        }
+      ]
+    },
+    "B24": {
+      "sha256": "ac60f3904431fda14c25f3fdef0afd4702613f2d74236e4ee7e882f3d3c7c3f4",
+      "durationSeconds": 71.96666666666667,
+      "masterCorrelation": 0.9996990774798127,
+      "decodedSamples": 3454976,
+      "peakAmplitude": 0.7990344762802124,
+      "lufs": -18.05,
+      "truePeakDb": -1.95,
+      "longestQuietSeconds": 1.96,
+      "cues": [
+        {
+          "fromSeconds": 0.5,
+          "toSeconds": 6.566666666666666,
+          "rms": 0.1258806735277176,
+          "text": "Thanh điều khiển hấp thụ neutron. Ta chọn ba mức cắm khác nhau trong mô hình."
+        },
+        {
+          "fromSeconds": 6.666666666666667,
+          "toSeconds": 12.333333333333334,
+          "rms": 0.13199375569820404,
+          "text": "Thang phần trăm là quy ước. Không suy vị trí vận hành lò thật từ thang này."
+        },
+        {
+          "fromSeconds": 13.633333333333333,
+          "toSeconds": 20.4,
+          "rms": 0.11293867975473404,
+          "text": "Rút thanh ở mức quy ước bằng không. Chỉ số bắt đầu ở 1 và tăng theo các thế hệ."
+        },
+        {
+          "fromSeconds": 20.5,
+          "toSeconds": 24.566666666666666,
+          "rms": 0.1252717673778534,
+          "text": "Trong lượt này, hệ số nhân k lớn hơn 1."
+        },
+        {
+          "fromSeconds": 25.866666666666667,
+          "toSeconds": 33.03333333333333,
+          "rms": 0.1230694055557251,
+          "text": "So sánh ba mức cắm. Hệ số nhân lần lượt là 1,4; 1 và 0,6."
+        },
+        {
+          "fromSeconds": 33.13333333333333,
+          "toSeconds": 40.7,
+          "rms": 0.1278330385684967,
+          "text": "Chỉ số ở thế hệ thứ tư cho thấy xu hướng tăng, giữ nguyên và giảm. Đây là mô hình định tính."
+        },
+        {
+          "fromSeconds": 42.0,
+          "toSeconds": 49.333333333333336,
+          "rms": 0.11916017532348633,
+          "text": "Trong lò nước áp lực, vòng sơ cấp truyền nhiệt ở bộ sinh hơi. Hai dòng nước không trộn lẫn."
+        },
+        {
+          "fromSeconds": 49.43333333333333,
+          "toSeconds": 55.8,
+          "rms": 0.13409917056560516,
+          "text": "Hơi thứ cấp quay tua-bin kéo máy phát. Hơi sau tua-bin được làm nguội ở bình ngưng."
+        },
+        {
+          "fromSeconds": 57.1,
+          "toSeconds": 64.2,
+          "rms": 0.12061353027820587,
+          "text": "Hãy phân biệt hai chức năng. Thanh điều khiển hấp thụ neutron. Bộ sinh hơi trao đổi nhiệt."
+        },
+        {
+          "fromSeconds": 64.3,
+          "toSeconds": 71.16666666666667,
+          "rms": 0.11813437193632126,
+          "text": "Trong ứng dụng khác, bức xạ còn hỗ trợ y học, sinh học và bảo quản thực phẩm."
+        }
+      ]
+    },
+    "B25": {
+      "sha256": "6417f6608f08c65d9edc0ca30bd943991001ebe55bf6e9175405421a438eccd1",
+      "durationSeconds": 76.23333333333333,
+      "masterCorrelation": 0.9997587936390686,
+      "decodedSamples": 3659776,
+      "peakAmplitude": 0.7987468838691711,
+      "lufs": -18.06,
+      "truePeakDb": -1.94,
+      "longestQuietSeconds": 1.92,
+      "cues": [
+        {
+          "fromSeconds": 0.5,
+          "toSeconds": 10.3,
+          "rms": 0.12620651721954346,
+          "text": "Bảng 25.1 cho độ phóng xạ ban đầu 151 Bq. Một nửa là 75,5 Bq."
+        },
+        {
+          "fromSeconds": 10.4,
+          "toSeconds": 15.0,
+          "rms": 0.13608267903327942,
+          "text": "Em hãy tìm hai mốc đo nằm hai bên mức nửa ban đầu."
+        },
+        {
+          "fromSeconds": 16.3,
+          "toSeconds": 23.066666666666666,
+          "rms": 0.13392136991024017,
+          "text": "Giữ độ phóng xạ ban đầu. Thử chu kì 40 giây và theo dõi đường lí thuyết."
+        },
+        {
+          "fromSeconds": 23.166666666666668,
+          "toSeconds": 29.466666666666665,
+          "rms": 0.12749935686588287,
+          "text": "Các chấm đánh dấu số liệu SGK, được giữ nguyên khi ta đổi chu kì thử."
+        },
+        {
+          "fromSeconds": 30.766666666666666,
+          "toSeconds": 37.7,
+          "rms": 0.13085776567459106,
+          "text": "Thử tiếp chu kì 60 giây. Đường này giảm chậm hơn đường ứng với chu kì 40 giây."
+        },
+        {
+          "fromSeconds": 37.8,
+          "toSeconds": 42.333333333333336,
+          "rms": 0.11954319477081299,
+          "text": "Đặt hai đường cùng trục để so sánh tại cùng một thời điểm."
+        },
+        {
+          "fromSeconds": 43.63333333333333,
+          "toSeconds": 55.6,
+          "rms": 0.11893893033266068,
+          "text": "Tại 30 giây, hai dự báo khoảng 89,8 và 106,8 Bq. Số liệu SGK tại đó là 85 Bq."
+        },
+        {
+          "fromSeconds": 55.7,
+          "toSeconds": 61.666666666666664,
+          "rms": 0.1286032348871231,
+          "text": "Nội suy tuyến tính giữa hai điểm kẹp mức nửa cho khoảng 39,5 giây."
+        },
+        {
+          "fromSeconds": 62.96666666666667,
+          "toSeconds": 68.06666666666666,
+          "rms": 0.1346767246723175,
+          "text": "Em hãy giải thích vì sao đường lí thuyết có thể lệch khỏi số liệu trong bảng."
+        },
+        {
+          "fromSeconds": 68.16666666666667,
+          "toSeconds": 75.43333333333334,
+          "rms": 0.12143389880657196,
+          "text": "Khi nộp bài, ghi rõ cách ước lượng chu kì và tách kết quả ấy khỏi hai giả thuyết đã thử."
+        }
+      ]
+    }
+  }
+}

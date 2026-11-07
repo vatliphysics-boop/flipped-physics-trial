@@ -1,0 +1,651 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - link "Đi đến nội dung chính" [ref=f14e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f14e4]:
+      - generic [ref=f14e5]:
+        - button "Mở menu" [ref=f14e6] [cursor=pointer]:
+          - generic [ref=f14e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f14e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f14e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f14e12]:
+      - generic [ref=f14e14]:
+        - paragraph [ref=f14e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f14e16]
+        - paragraph [ref=f14e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f14e18]:
+        - group "Công việc của giáo viên" [ref=f14e19]:
+          - button "Ngân hàng đề" [pressed] [ref=f14e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f14e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f14e22] [cursor=pointer]
+        - generic [ref=f14e24]:
+          - heading "Ngân hàng đề Chương 4 Vật lí hạt nhân" [level=2] [ref=f14e25]
+          - paragraph [ref=f14e26]: Câu hỏi được biên soạn từ ba sách đã cung cấp, giữ yêu cầu và dữ kiện của bài gốc. Nhãn Bloom thể hiện thao tác nhận thức cần thực hiện. Các câu hỏi dùng chung một ngân hàng. Nội dung dạng chữ, công thức LaTeX. Khi xuất Word, công thức chuyển thành Equation có thể chỉnh sửa.
+          - navigation "Năm mục ngân hàng đề" [ref=f14e27]:
+            - button "Ngân hàng đề trắc nghiệm" [ref=f14e28] [cursor=pointer]
+            - button "Ngân hàng đề đúng sai" [active] [pressed] [ref=f14e29] [cursor=pointer]
+            - button "Ngân hàng đề trả lời ngắn" [ref=f14e30] [cursor=pointer]
+            - button "Ngân hàng đề tự luận" [ref=f14e31] [cursor=pointer]
+            - button "Up ma trận đề và xuất ra đề file Word" [ref=f14e32] [cursor=pointer]
+          - status
+          - generic [ref=f14e1918]:
+            - generic [ref=f14e1919]:
+              - text: Chương
+              - combobox "Chương" [ref=f14e1920]:
+                - option "Tất cả câu đã nhập"
+                - option "Vật lí nhiệt"
+                - option "Khí lí tưởng"
+                - option "Từ trường"
+                - option "Vật lí hạt nhân" [selected]
+            - generic [ref=f14e1921]:
+              - text: Bài/chủ đề
+              - combobox "Bài/chủ đề" [ref=f14e1922]:
+                - option "Tất cả" [selected]
+                - option "B21"
+                - option "B22"
+                - option "B23"
+                - option "B24"
+                - option "B25"
+                - option "Vật lí hạt nhân"
+            - generic [ref=f14e1923]:
+              - text: Tình trạng
+              - combobox "Tình trạng" [ref=f14e1924]:
+                - option "Tất cả" [selected]
+                - option "Đã biên soạn"
+                - option "Chờ kiểm tra"
+            - generic [ref=f14e1925]:
+              - text: Tìm câu hỏi
+              - textbox "Tìm câu hỏi" [ref=f14e1926]:
+                - /placeholder: Nội dung câu hỏi
+          - paragraph [ref=f14e1927]: 12 câu · 12 đã biên soạn
+          - generic [ref=f14e1928]:
+            - article [ref=f14e1929]:
+              - generic [ref=f14e1930]:
+                - strong [ref=f14e1931]: Câu 1
+                - generic [ref=f14e1932]: "B21 · Bloom: Hiểu"
+              - generic [ref=f14e1933]: Trong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.
+              - paragraph [ref=f14e1935]:
+                - strong [ref=f14e1936]: a)
+                - generic [ref=f14e1937]: Hạt nhân nguyên tử trung hòa về điện.
+              - paragraph [ref=f14e1938]:
+                - strong [ref=f14e1939]: b)
+                - generic [ref=f14e1940]: Một hệ quả của mẫu nguyên tử Rutherford là tính không bền của nguyên tử do electron mất năng lượng khi chuyển động có gia tốc.
+              - paragraph [ref=f14e1941]:
+                - strong [ref=f14e1942]: c)
+                - generic [ref=f14e1943]: Hạt nhân nguyên tử được cấu tạo từ proton, neutron và electron.
+              - paragraph [ref=f14e1944]:
+                - strong [ref=f14e1945]: d)
+                - generic [ref=f14e1946]: Điện tích dương trong nguyên tử phân bố đều, xen kẽ với các electron nên nguyên tử trung hòa về điện.
+              - generic [ref=f14e1947]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e1948] [cursor=pointer]
+                - group [ref=f14e1949]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e1950]
+              - status
+            - article [ref=f14e1951]:
+              - generic [ref=f14e1952]:
+                - strong [ref=f14e1953]: Câu 2
+                - generic [ref=f14e1954]: "B21 · Bloom: Hiểu"
+              - generic [ref=f14e1955]: Trong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.
+              - paragraph [ref=f14e1957]:
+                - strong [ref=f14e1958]: a)
+                - generic [ref=f14e1959]: Có thể xem khối lượng hạt nhân xấp xỉ bằng khối lượng nguyên tử.
+              - paragraph [ref=f14e1960]:
+                - strong [ref=f14e1961]: b)
+                - generic [ref=f14e1962]:
+                  - text: Nguyên tử của đồng vị
+                  - generic [ref=f14e1964]:
+                    - math [ref=f14e1966]:
+                      - generic [ref=f14e1968]:
+                        - generic [ref=f14e1969]:
+                          - generic [ref=f14e1970]: "27"
+                          - generic [ref=f14e1971]: "60"
+                        - generic [ref=f14e1972]:
+                          - generic [ref=f14e1973]: C
+                          - generic [ref=f14e1974]: o
+                    - generic [ref=f14e1976]:
+                      - generic [ref=f14e1981]:
+                        - generic [ref=f14e1982]: "27"
+                        - generic [ref=f14e1984]: "60"
+                      - generic [ref=f14e1989]: Co
+                  - text: có 27 proton, 33 neutron và 27 electron.
+              - paragraph [ref=f14e1990]:
+                - strong [ref=f14e1991]: c)
+                - generic [ref=f14e1992]: Khi nguyên tử trung hòa về điện, tổng số electron và neutron bằng số khối của hạt nhân nguyên tử.
+              - paragraph [ref=f14e1993]:
+                - strong [ref=f14e1994]: d)
+                - generic [ref=f14e1995]: Nguyên tử chỉ tồn tại trong các trạng thái có năng lượng xác định, gọi là các trạng thái dừng. Khi ở trạng thái dừng, nguyên tử không phát xạ.
+              - generic [ref=f14e1996]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e1997] [cursor=pointer]
+                - group [ref=f14e1998]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e1999]
+              - status
+            - article [ref=f14e2000]:
+              - generic [ref=f14e2001]:
+                - strong [ref=f14e2002]: Câu 3
+                - generic [ref=f14e2003]: "B22 · Bloom: Vận dụng"
+              - generic [ref=f14e2005]:
+                - text: Cho khối lượng của proton, neutron, hạt nhân
+                - generic [ref=f14e2007]:
+                  - math [ref=f14e2009]:
+                    - generic [ref=f14e2011]:
+                      - generic [ref=f14e2012]:
+                        - generic [ref=f14e2013]: "20"
+                        - generic [ref=f14e2014]: "42"
+                      - generic [ref=f14e2015]:
+                        - generic [ref=f14e2016]: C
+                        - generic [ref=f14e2017]: a
+                  - generic [ref=f14e2019]:
+                    - generic [ref=f14e2024]:
+                      - generic [ref=f14e2025]: "20"
+                      - generic [ref=f14e2027]: "42"
+                    - generic [ref=f14e2032]: Ca
+                - text: ", hạt nhân"
+                - generic [ref=f14e2034]:
+                  - math [ref=f14e2036]:
+                    - generic [ref=f14e2038]:
+                      - generic [ref=f14e2039]:
+                        - generic [ref=f14e2040]: "20"
+                        - generic [ref=f14e2041]: "43"
+                      - generic [ref=f14e2042]:
+                        - generic [ref=f14e2043]: C
+                        - generic [ref=f14e2044]: a
+                  - generic [ref=f14e2046]:
+                    - generic [ref=f14e2051]:
+                      - generic [ref=f14e2052]: "20"
+                      - generic [ref=f14e2054]: "43"
+                    - generic [ref=f14e2059]: Ca
+                - text: lần lượt là
+                - generic [ref=f14e2061]:
+                  - math [ref=f14e2063]:
+                    - generic [ref=f14e2065]:
+                      - generic [ref=f14e2066]:
+                        - generic [ref=f14e2067]: m
+                        - generic [ref=f14e2068]: p
+                      - generic [ref=f14e2069]: =
+                      - generic [ref=f14e2070]: 1,007276
+                  - generic [ref=f14e2071]:
+                    - generic [ref=f14e2072]:
+                      - generic [ref=f14e2073]:
+                        - text: m
+                        - generic [ref=f14e2074]: p
+                      - text: =
+                    - generic [ref=f14e2082]:
+                      - text: "1"
+                      - generic [ref=f14e2083]: ","
+                      - text: "007276"
+                - text: amu,
+                - generic [ref=f14e2085]:
+                  - math [ref=f14e2087]:
+                    - generic [ref=f14e2089]:
+                      - generic [ref=f14e2090]:
+                        - generic [ref=f14e2091]: m
+                        - generic [ref=f14e2092]: "n"
+                      - generic [ref=f14e2093]: =
+                      - generic [ref=f14e2094]: 1,008665
+                  - generic [ref=f14e2095]:
+                    - generic [ref=f14e2096]:
+                      - generic [ref=f14e2097]:
+                        - text: m
+                        - generic [ref=f14e2098]: "n"
+                      - text: =
+                    - generic [ref=f14e2106]:
+                      - text: "1"
+                      - generic [ref=f14e2107]: ","
+                      - text: "008665"
+                - text: amu,
+                - generic [ref=f14e2109]:
+                  - math [ref=f14e2111]:
+                    - generic [ref=f14e2113]:
+                      - generic [ref=f14e2114]:
+                        - generic [ref=f14e2115]: m
+                        - generic [ref=f14e2116]:
+                          - generic [ref=f14e2117]: C
+                          - generic [ref=f14e2118]: a
+                          - generic [ref=f14e2119]: "42"
+                      - generic [ref=f14e2120]: =
+                      - generic [ref=f14e2121]: 41,958622
+                  - generic [ref=f14e2122]:
+                    - generic [ref=f14e2123]:
+                      - generic [ref=f14e2124]:
+                        - text: m
+                        - generic [ref=f14e2125]: Ca42
+                      - text: =
+                    - generic [ref=f14e2134]:
+                      - text: "41"
+                      - generic [ref=f14e2135]: ","
+                      - text: "958622"
+                - text: amu,
+                - generic [ref=f14e2137]:
+                  - math [ref=f14e2139]:
+                    - generic [ref=f14e2141]:
+                      - generic [ref=f14e2142]:
+                        - generic [ref=f14e2143]: m
+                        - generic [ref=f14e2144]:
+                          - generic [ref=f14e2145]: C
+                          - generic [ref=f14e2146]: a
+                          - generic [ref=f14e2147]: "43"
+                      - generic [ref=f14e2148]: =
+                      - generic [ref=f14e2149]: 42,958770
+                  - generic [ref=f14e2150]:
+                    - generic [ref=f14e2151]:
+                      - generic [ref=f14e2152]:
+                        - text: m
+                        - generic [ref=f14e2153]: Ca43
+                      - text: =
+                    - generic [ref=f14e2162]:
+                      - text: "42"
+                      - generic [ref=f14e2163]: ","
+                      - text: "958770"
+                - text: amu. Trong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.
+              - paragraph [ref=f14e2164]:
+                - strong [ref=f14e2165]: a)
+                - generic [ref=f14e2166]:
+                  - generic [ref=f14e2168]:
+                    - math [ref=f14e2170]:
+                      - generic [ref=f14e2172]:
+                        - generic [ref=f14e2173]:
+                          - generic [ref=f14e2174]: "20"
+                          - generic [ref=f14e2175]: "43"
+                        - generic [ref=f14e2176]:
+                          - generic [ref=f14e2177]: C
+                          - generic [ref=f14e2178]: a
+                    - generic [ref=f14e2180]:
+                      - generic [ref=f14e2185]:
+                        - generic [ref=f14e2186]: "20"
+                        - generic [ref=f14e2188]: "43"
+                      - generic [ref=f14e2193]: Ca
+                  - text: và
+                  - generic [ref=f14e2195]:
+                    - math [ref=f14e2197]:
+                      - generic [ref=f14e2199]:
+                        - generic [ref=f14e2200]:
+                          - generic [ref=f14e2201]: "20"
+                          - generic [ref=f14e2202]: "42"
+                        - generic [ref=f14e2203]:
+                          - generic [ref=f14e2204]: C
+                          - generic [ref=f14e2205]: a
+                    - generic [ref=f14e2207]:
+                      - generic [ref=f14e2212]:
+                        - generic [ref=f14e2213]: "20"
+                        - generic [ref=f14e2215]: "42"
+                      - generic [ref=f14e2220]: Ca
+                  - text: đều là đồng vị của
+                  - generic [ref=f14e2222]:
+                    - math [ref=f14e2224]:
+                      - generic [ref=f14e2226]:
+                        - generic [ref=f14e2227]:
+                          - generic [ref=f14e2228]: "20"
+                          - generic [ref=f14e2229]: "40"
+                        - generic [ref=f14e2230]:
+                          - generic [ref=f14e2231]: C
+                          - generic [ref=f14e2232]: a
+                    - generic [ref=f14e2234]:
+                      - generic [ref=f14e2239]:
+                        - generic [ref=f14e2240]: "20"
+                        - generic [ref=f14e2242]: "40"
+                      - generic [ref=f14e2247]: Ca
+                  - text: .
+              - paragraph [ref=f14e2248]:
+                - strong [ref=f14e2249]: b)
+                - generic [ref=f14e2250]:
+                  - text: Độ hụt khối của
+                  - generic [ref=f14e2252]:
+                    - math [ref=f14e2254]:
+                      - generic [ref=f14e2256]:
+                        - generic [ref=f14e2257]:
+                          - generic [ref=f14e2258]: "20"
+                          - generic [ref=f14e2259]: "43"
+                        - generic [ref=f14e2260]:
+                          - generic [ref=f14e2261]: C
+                          - generic [ref=f14e2262]: a
+                    - generic [ref=f14e2264]:
+                      - generic [ref=f14e2269]:
+                        - generic [ref=f14e2270]: "20"
+                        - generic [ref=f14e2272]: "43"
+                      - generic [ref=f14e2277]: Ca
+                  - text: lớn hơn độ hụt khối của
+                  - generic [ref=f14e2279]:
+                    - math [ref=f14e2281]:
+                      - generic [ref=f14e2283]:
+                        - generic [ref=f14e2284]:
+                          - generic [ref=f14e2285]: "20"
+                          - generic [ref=f14e2286]: "42"
+                        - generic [ref=f14e2287]:
+                          - generic [ref=f14e2288]: C
+                          - generic [ref=f14e2289]: a
+                    - generic [ref=f14e2291]:
+                      - generic [ref=f14e2296]:
+                        - generic [ref=f14e2297]: "20"
+                        - generic [ref=f14e2299]: "42"
+                      - generic [ref=f14e2304]: Ca
+                  - text: .
+              - paragraph [ref=f14e2305]:
+                - strong [ref=f14e2306]: c)
+                - generic [ref=f14e2307]:
+                  - text: Năng lượng liên kết của
+                  - generic [ref=f14e2309]:
+                    - math [ref=f14e2311]:
+                      - generic [ref=f14e2313]:
+                        - generic [ref=f14e2314]:
+                          - generic [ref=f14e2315]: "20"
+                          - generic [ref=f14e2316]: "43"
+                        - generic [ref=f14e2317]:
+                          - generic [ref=f14e2318]: C
+                          - generic [ref=f14e2319]: a
+                    - generic [ref=f14e2321]:
+                      - generic [ref=f14e2326]:
+                        - generic [ref=f14e2327]: "20"
+                        - generic [ref=f14e2329]: "43"
+                      - generic [ref=f14e2334]: Ca
+                  - text: lớn hơn năng lượng liên kết của
+                  - generic [ref=f14e2336]:
+                    - math [ref=f14e2338]:
+                      - generic [ref=f14e2340]:
+                        - generic [ref=f14e2341]:
+                          - generic [ref=f14e2342]: "20"
+                          - generic [ref=f14e2343]: "42"
+                        - generic [ref=f14e2344]:
+                          - generic [ref=f14e2345]: C
+                          - generic [ref=f14e2346]: a
+                    - generic [ref=f14e2348]:
+                      - generic [ref=f14e2353]:
+                        - generic [ref=f14e2354]: "20"
+                        - generic [ref=f14e2356]: "42"
+                      - generic [ref=f14e2361]: Ca
+                  - text: một lượng 9,73 MeV.
+              - paragraph [ref=f14e2362]:
+                - strong [ref=f14e2363]: d)
+                - generic [ref=f14e2364]:
+                  - text: Hạt nhân
+                  - generic [ref=f14e2366]:
+                    - math [ref=f14e2368]:
+                      - generic [ref=f14e2370]:
+                        - generic [ref=f14e2371]:
+                          - generic [ref=f14e2372]: "20"
+                          - generic [ref=f14e2373]: "43"
+                        - generic [ref=f14e2374]:
+                          - generic [ref=f14e2375]: C
+                          - generic [ref=f14e2376]: a
+                    - generic [ref=f14e2378]:
+                      - generic [ref=f14e2383]:
+                        - generic [ref=f14e2384]: "20"
+                        - generic [ref=f14e2386]: "43"
+                      - generic [ref=f14e2391]: Ca
+                  - text: kém bền vững hơn hạt nhân
+                  - generic [ref=f14e2393]:
+                    - math [ref=f14e2395]:
+                      - generic [ref=f14e2397]:
+                        - generic [ref=f14e2398]:
+                          - generic [ref=f14e2399]: "20"
+                          - generic [ref=f14e2400]: "42"
+                        - generic [ref=f14e2401]:
+                          - generic [ref=f14e2402]: C
+                          - generic [ref=f14e2403]: a
+                    - generic [ref=f14e2405]:
+                      - generic [ref=f14e2410]:
+                        - generic [ref=f14e2411]: "20"
+                        - generic [ref=f14e2413]: "42"
+                      - generic [ref=f14e2418]: Ca
+                  - text: .
+              - generic [ref=f14e2419]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e2420] [cursor=pointer]
+                - group [ref=f14e2421]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e2422]
+              - status
+            - article [ref=f14e2423]:
+              - generic [ref=f14e2424]:
+                - strong [ref=f14e2425]: Câu 4
+                - generic [ref=f14e2426]: "B22 · Bloom: Hiểu"
+              - generic [ref=f14e2427]: Trong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.
+              - paragraph [ref=f14e2429]:
+                - strong [ref=f14e2430]: a)
+                - generic [ref=f14e2431]: Trong các phản ứng hạt nhân, điện tích và số khối được bảo toàn nên số neutron cũng được bảo toàn.
+              - paragraph [ref=f14e2432]:
+                - strong [ref=f14e2433]: b)
+                - generic [ref=f14e2434]:
+                  - text: Cho phản ứng
+                  - generic [ref=f14e2436]:
+                    - math [ref=f14e2438]:
+                      - generic [ref=f14e2440]:
+                        - generic [ref=f14e2441]:
+                          - generic [ref=f14e2442]: "0"
+                          - generic [ref=f14e2443]: "1"
+                        - generic [ref=f14e2444]: "n"
+                        - generic [ref=f14e2445]: +
+                        - generic [ref=f14e2446]:
+                          - generic [ref=f14e2447]: "92"
+                          - generic [ref=f14e2448]: "235"
+                        - generic [ref=f14e2449]: U
+                        - generic [ref=f14e2450]: →
+                        - generic [ref=f14e2451]:
+                          - generic [ref=f14e2452]: "38"
+                          - generic [ref=f14e2453]: "94"
+                        - generic [ref=f14e2454]:
+                          - generic [ref=f14e2455]: S
+                          - generic [ref=f14e2456]: r
+                        - generic [ref=f14e2457]: +
+                        - generic [ref=f14e2458]: X
+                        - generic [ref=f14e2459]: +
+                        - generic [ref=f14e2460]: "2"
+                        - generic [ref=f14e2461]:
+                          - generic [ref=f14e2462]: "0"
+                          - generic [ref=f14e2463]: "1"
+                        - generic [ref=f14e2464]: "n"
+                    - generic [ref=f14e2465]:
+                      - generic [ref=f14e2466]:
+                        - generic [ref=f14e2471]:
+                          - generic [ref=f14e2472]: "0"
+                          - generic [ref=f14e2474]: "1"
+                        - text: n +
+                      - generic [ref=f14e2479]:
+                        - generic [ref=f14e2484]:
+                          - generic [ref=f14e2485]: "92"
+                          - generic [ref=f14e2487]: "235"
+                        - text: U →
+                      - generic [ref=f14e2492]:
+                        - generic [ref=f14e2497]:
+                          - generic [ref=f14e2498]: "38"
+                          - generic [ref=f14e2500]: "94"
+                        - generic [ref=f14e2505]: Sr
+                        - text: +
+                      - generic [ref=f14e2506]: X +
+                      - generic [ref=f14e2507]:
+                        - text: "2"
+                        - generic [ref=f14e2512]:
+                          - generic [ref=f14e2513]: "0"
+                          - generic [ref=f14e2515]: "1"
+                        - text: "n"
+                  - text: . Hạt nhân X có 54 proton và 86 neutron.
+              - paragraph [ref=f14e2520]:
+                - strong [ref=f14e2521]: c)
+                - generic [ref=f14e2522]:
+                  - text: Trong phản ứng nhiệt hạch
+                  - generic [ref=f14e2524]:
+                    - math [ref=f14e2526]:
+                      - generic [ref=f14e2528]:
+                        - generic [ref=f14e2529]:
+                          - generic [ref=f14e2530]: "1"
+                          - generic [ref=f14e2531]: "2"
+                        - generic [ref=f14e2532]: H
+                        - generic [ref=f14e2533]: +
+                        - generic [ref=f14e2534]:
+                          - generic [ref=f14e2535]: "1"
+                          - generic [ref=f14e2536]: "3"
+                        - generic [ref=f14e2537]: H
+                        - generic [ref=f14e2538]: →
+                        - generic [ref=f14e2539]:
+                          - generic [ref=f14e2540]: "2"
+                          - generic [ref=f14e2541]: "4"
+                        - generic [ref=f14e2542]:
+                          - generic [ref=f14e2543]: H
+                          - generic [ref=f14e2544]: e
+                        - generic [ref=f14e2545]: +
+                        - generic [ref=f14e2546]:
+                          - generic [ref=f14e2547]: "0"
+                          - generic [ref=f14e2548]: "1"
+                        - generic [ref=f14e2549]: "n"
+                        - generic [ref=f14e2550]: +
+                        - generic [ref=f14e2551]: 17,6
+                    - generic [ref=f14e2552]:
+                      - generic [ref=f14e2553]:
+                        - generic [ref=f14e2558]:
+                          - generic [ref=f14e2559]: "1"
+                          - generic [ref=f14e2561]: "2"
+                        - text: H +
+                      - generic [ref=f14e2566]:
+                        - generic [ref=f14e2571]:
+                          - generic [ref=f14e2572]: "1"
+                          - generic [ref=f14e2574]: "3"
+                        - text: H →
+                      - generic [ref=f14e2579]:
+                        - generic [ref=f14e2584]:
+                          - generic [ref=f14e2585]: "2"
+                          - generic [ref=f14e2587]: "4"
+                        - generic [ref=f14e2592]: He
+                        - text: +
+                      - generic [ref=f14e2593]:
+                        - generic [ref=f14e2598]:
+                          - generic [ref=f14e2599]: "0"
+                          - generic [ref=f14e2601]: "1"
+                        - text: n +
+                      - generic [ref=f14e2606]:
+                        - text: "17"
+                        - generic [ref=f14e2607]: ","
+                        - text: "6"
+                  - text: MeV, năng lượng cần cung cấp cho phản ứng là 17,6 MeV.
+              - paragraph [ref=f14e2608]:
+                - strong [ref=f14e2609]: d)
+                - generic [ref=f14e2610]: Công nghệ hạt nhân đang được ứng dụng nhiều trong y học, công nghiệp, nông nghiệp, khảo cổ học, thực phẩm.
+              - generic [ref=f14e2611]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e2612] [cursor=pointer]
+                - group [ref=f14e2613]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e2614]
+              - status
+            - article [ref=f14e2615]:
+              - generic [ref=f14e2616]:
+                - strong [ref=f14e2617]: Câu 5
+                - generic [ref=f14e2618]: "B22 · Bloom: Hiểu"
+              - generic [ref=f14e2619]: Trong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.
+              - paragraph [ref=f14e2621]:
+                - strong [ref=f14e2622]: a)
+                - generic [ref=f14e2623]: Trong phản ứng hạt nhân chỉ có sự bảo toàn điện tích và bảo toàn số khối.
+              - paragraph [ref=f14e2624]:
+                - strong [ref=f14e2625]: b)
+                - generic [ref=f14e2626]: Phản ứng nhiệt hạch là nguồn năng lượng của Mặt Trời và các sao.
+              - paragraph [ref=f14e2627]:
+                - strong [ref=f14e2628]: c)
+                - generic [ref=f14e2629]: Phản ứng hạt nhân là quá trình biến đổi từ hạt nhân này thành hạt nhân khác, bao gồm phản ứng hạt nhân kích thích và phản ứng hạt nhân tự phát.
+              - paragraph [ref=f14e2630]:
+                - strong [ref=f14e2631]: d)
+                - generic [ref=f14e2632]: Trong một phản ứng hạt nhân, luôn cần từ hai hạt tham gia phản ứng trở lên.
+              - generic [ref=f14e2633]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e2634] [cursor=pointer]
+                - group [ref=f14e2635]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e2636]
+              - status
+            - article [ref=f14e2637]:
+              - generic [ref=f14e2638]:
+                - strong [ref=f14e2639]: Câu 6
+                - generic [ref=f14e2640]: "B23 · Bloom: Vận dụng"
+              - generic [ref=f14e2642]:
+                - generic [ref=f14e2644]:
+                  - math [ref=f14e2646]:
+                    - generic [ref=f14e2648]:
+                      - generic [ref=f14e2649]:
+                        - generic [ref=f14e2650]: "92"
+                        - generic [ref=f14e2651]: "238"
+                      - generic [ref=f14e2652]: U
+                  - generic [ref=f14e2654]:
+                    - generic [ref=f14e2659]:
+                      - generic [ref=f14e2660]: "92"
+                      - generic [ref=f14e2662]: "238"
+                    - text: U
+                - text: có hằng số phóng xạ
+                - generic [ref=f14e2668]:
+                  - math [ref=f14e2670]:
+                    - generic [ref=f14e2672]:
+                      - generic [ref=f14e2673]: 4,916
+                      - generic [ref=f14e2674]: ×
+                      - generic [ref=f14e2675]:
+                        - generic [ref=f14e2676]: "10"
+                        - generic [ref=f14e2677]:
+                          - generic [ref=f14e2678]: −
+                          - generic [ref=f14e2679]: "18"
+                      - generic [ref=f14e2680]:
+                        - generic [ref=f14e2681]: s
+                        - generic [ref=f14e2682]:
+                          - generic [ref=f14e2683]: −
+                          - generic [ref=f14e2684]: "1"
+                  - generic [ref=f14e2685]:
+                    - generic [ref=f14e2686]:
+                      - text: "4"
+                      - generic [ref=f14e2687]: ","
+                      - text: 916 ×
+                    - generic [ref=f14e2688]:
+                      - text: "1"
+                      - generic [ref=f14e2689]:
+                        - text: "0"
+                        - generic [ref=f14e2690]: −18
+                      - generic [ref=f14e2697]:
+                        - text: s
+                        - generic [ref=f14e2698]: −1
+                - text: ", phân rã alpha thành X. Trong mỗi phát biểu sau, chọn đúng hoặc sai."
+              - paragraph [ref=f14e2704]:
+                - strong [ref=f14e2705]: a)
+                - generic [ref=f14e2706]: Quá trình phóng xạ của U-238 là một phản ứng hạt nhân tỏa năng lượng.
+              - paragraph [ref=f14e2707]:
+                - strong [ref=f14e2708]: b)
+                - generic [ref=f14e2709]:
+                  - text: Hạt nhân con X là
+                  - generic [ref=f14e2711]:
+                    - math [ref=f14e2713]:
+                      - generic [ref=f14e2715]:
+                        - generic [ref=f14e2716]:
+                          - generic [ref=f14e2717]: "92"
+                          - generic [ref=f14e2718]: "234"
+                        - generic [ref=f14e2719]: U
+                    - generic [ref=f14e2721]:
+                      - generic [ref=f14e2726]:
+                        - generic [ref=f14e2727]: "92"
+                        - generic [ref=f14e2729]: "234"
+                      - text: U
+                  - text: .
+              - paragraph [ref=f14e2734]:
+                - strong [ref=f14e2735]: c)
+                - generic [ref=f14e2736]:
+                  - text: Chu kì bán rã U-238 là
+                  - generic [ref=f14e2738]:
+                    - math [ref=f14e2740]:
+                      - generic [ref=f14e2742]:
+                        - generic [ref=f14e2743]: 1,41
+                        - generic [ref=f14e2744]: ×
+                        - generic [ref=f14e2745]:
+                          - generic [ref=f14e2746]: "10"
+                          - generic [ref=f14e2747]: "17"
+                    - generic [ref=f14e2748]:
+                      - generic [ref=f14e2749]:
+                        - text: "1"
+                        - generic [ref=f14e2750]: ","
+                        - text: 41 ×
+                      - generic [ref=f14e2751]:
+                        - text: "1"
+                        - generic [ref=f14e2752]:
+                          - text: "0"
+                          - generic [ref=f14e2753]: "17"
+                  - text: s (làm tròn đến 2 chữ số thập phân sau dấu phẩy).
+              - paragraph [ref=f14e2759]:
+                - strong [ref=f14e2760]: d)
+                - generic [ref=f14e2761]: Mẫu ban đầu chứa 0,1 g U-238. Sau 100 triệu năm (365 ngày/năm), khối lượng U-238 còn khoảng 0,089 g.
+              - generic [ref=f14e2762]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e2763] [cursor=pointer]
+                - group [ref=f14e2764]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e2765]
+              - status
+          - generic [ref=f14e2766]:
+            - button "Trang trước" [disabled] [ref=f14e2767] [cursor=pointer]
+            - generic [ref=f14e2768]: Trang 1/2
+            - button "Trang sau" [ref=f14e2769] [cursor=pointer]
+            - button "Tải bản biên soạn" [ref=f14e2770] [cursor=pointer]
+  - alert [ref=f14e49]

@@ -1,0 +1,58 @@
+PART word/document.xml
+P0000 Đáp án và hướng dẫn chấm
+P0001 Vật lí 12   Thời gian 45 phút   Mã đề 101   10 điểm
+P0002 Câu 1 (0,5 điểm)
+P0003 Đáp án: B
+P0004 N = A − Z = 12.
+P0005 Nguồn: Câu hỏi đã biên soạn B21–B25, midterm-a-1
+P0006 Câu 2 (0,5 điểm)
+P0007 Đáp án: C
+P0008 Hạt nhân II có 6 proton và 8 neutron, nên A = 14.
+P0009 Nguồn: Câu hỏi đã biên soạn B21–B25, img-B21-extra-0
+P0010 Câu 3 (2 điểm)
+P0011 Đáp án: a Đúng, b Sai, c Đúng, d Sai
+P0013 Nguồn: Câu hỏi đã biên soạn B21–B25, midterm-a-12
+P0014 Câu 4 (1 điểm)
+P0015 Đáp án: 40 s
+P0016 N/N0 = 1/8 = 2^(−3), nên t = 3T.
+P0017 Nguồn: Câu hỏi đã biên soạn B21–B25, midterm-a-16
+P0018 Câu 5 (1 điểm)
+P0019 Đáp án: 12.5 %
+P0020 t/T = 3; H/H0 = 2^(−t/T), tức 12.5%.
+P0021 Nguồn: Câu hỏi đã biên soạn B21–B25, final-b-16
+P0022 Câu 6 (5 điểm)
+P0023 Đáp án: Theo hướng dẫn chấm
+P0024 Xác định N0 và thời điểm N ≈ N0/2, hoặc dùng T = t/log2(N0/N).; Ghi đúng đơn vị; đối chiếu thêm điểm tại 2T hoặc 3T và xét sai số.; Nêu một lỗi cụ thể như nhầm số hạt còn lại với đã phân rã và hành động sửa.
+P0025 Xác định N₀ và thời điểm N ≈ N₀/2, hoặc dùng T = t/log₂(N₀/N). (2 điểm)
+P0026 Ghi đúng đơn vị; đối chiếu thêm điểm tại 2T hoặc 3T và xét sai số. (1,5 điểm)
+P0027 Nêu một lỗi cụ thể như nhầm số hạt còn lại với đã phân rã và hành động sửa. (1,5 điểm)
+P0028 Nguồn: Câu hỏi đã biên soạn B21–B25, midterm-a-18
+P0029 Phân bố câu theo ma trận
+P0030 Bài/chủ đề
+P0031 Loại câu
+P0032 Mức độ
+P0033 Số câu
+P0034 Điểm mỗi câu
+P0035 B21
+P0036 trắc nghiệm
+P0037 Biết
+P0038 2
+P0039 0.5
+P0040 B23
+P0041 đúng sai
+P0042 Hiểu
+P0043 1
+P0044 2
+P0045 B23
+P0046 trả lời ngắn
+P0047 Vận dụng
+P0048 2
+P0049 1
+P0050 B23
+P0051 tự luận
+P0052 Vận dụng
+P0053 1
+P0054 5
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

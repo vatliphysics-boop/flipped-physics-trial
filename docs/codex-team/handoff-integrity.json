@@ -1,0 +1,58 @@
+{
+  "time_utc": "2026-10-05T10:05:57.738836+00:00",
+  "web_sha256": "b1e5369bc393ec547e4441c6d28eec3baefe570c5ef8c235af40718727c6fec8",
+  "web_mismatches": [],
+  "source_manifest_checks": [
+    {
+      "file": "hd.docx",
+      "sha256": "fed08c644e78bc4121dc662e163c49dd05594b0b4ad05ab2a636a91de0b9980e",
+      "matches_manifest": true
+    },
+    {
+      "file": "ĐÃ SỬA - NCKH.docx",
+      "sha256": "706cc7065b146da7d90d582168439ebb61c3dc6f078b58e84adf5c1e9a3f4907",
+      "matches_manifest": true
+    },
+    {
+      "file": "BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx",
+      "sha256": "cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826",
+      "matches_manifest": true
+    }
+  ],
+  "article_sha256": "cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826",
+  "article_zip_valid": true,
+  "article_zip_part_names_preserved": true,
+  "article_changed_zip_parts": [
+    "word/document.xml"
+  ],
+  "article_media_count": 24,
+  "article_pages_reviewed_original_resolution_by_lead": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "active_lock_files": [],
+  "running_jobs_in_saved_index": []
+}

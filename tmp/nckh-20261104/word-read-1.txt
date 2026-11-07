@@ -1,0 +1,278 @@
+FILE output/book-bank/CONG_THUC_EQUATION_DOT_1.docx
+P0000 Công thức Vật lí 12 biên soạn bằng Equation
+P0001 20 công thức được biên soạn từ ảnh SGK Vật lí 12 Kết nối tri thức. Mỗi công thức kèm vùng ảnh và số trang để kiểm tra. Công thức Equation có thể chỉnh sửa trong Word và sao chép sang PowerPoint hoặc Excel bản máy tính. Đây là phần đã biên soạn, chưa bao gồm toàn bộ công thức của ba sách.
+P0002 Công thức 1   Trang sách 20   Trang PDF 22
+P0004 Q=mcΔ T
+P0005 Công thức 2   Trang sách 24   Trang PDF 26
+P0007 Q=λ m
+P0008 Công thức 3   Trang sách 27   Trang PDF 29
+P0010 Q=Lm
+P0011 Công thức 4   Trang sách 39   Trang PDF 41
+P0013 pV=hằng số
+P0014 Công thức 5   Trang sách 39   Trang PDF 41
+P0016 p1 V1=p2 V2
+P0017 Công thức 6   Trang sách 46   Trang PDF 48
+P0019 pV=nRT
+P0020 Công thức 7   Trang sách 47   Trang PDF 49
+P0023 Công thức 8   Trang sách 63   Trang PDF 65
+P0025 F=BILsinα
+P0026 Công thức 9   Trang sách 66   Trang PDF 68
+P0028 Φ=BScosα
+P0029 Công thức 10   Trang sách 72   Trang PDF 74
+P0031 e=E0cos(ω t+φ0)
+P0032 Công thức 11   Trang sách 72   Trang PDF 74
+P0034 Φ=BScosα=BScosω t
+P0035 Công thức 12   Trang sách 73   Trang PDF 75
+P0037 u=U0cos(ω t+φu) (V)
+P0038 Công thức 13   Trang sách 74   Trang PDF 76
+P0040 i=I0cos(ω t+φi) (A)
+P0041 Công thức 14   Trang sách 99   Trang PDF 101
+P0043 E=mc2
+P0044 Công thức 15   Trang sách 99   Trang PDF 101
+P0046 Elk=E2-E1=[Zmp+(A-Z)mn-mX]c2=Δ mc2
+P0047 Công thức 16   Trang sách 107   Trang PDF 109
+P0049 Nt=N0 2-tT
+P0050 Công thức 17   Trang sách 109   Trang PDF 111
+P0052 Nt=N0 e-λ t
+P0053 Công thức 18   Trang sách 109   Trang PDF 111
+P0055 Ht=H0 e-λ t
+P0056 Công thức 19   Trang sách 113   Trang PDF 115
+P0058 Nt=N0 2-tT=N0 e-λ t
+P0059 Công thức 20   Trang sách 113   Trang PDF 115
+P0061 Ht=λ Nt=H0 e-λ t
+
+FILE docs/worksheets/B23-ke-hoach-bai-day.docx
+P0000 KẾ HOẠCH BÀI DẠY
+P0001 Phóng xạ · Chu kì bán rã
+P0002 Môn Vật lí · Lớp 12
+P0003 Thời gian trên lớp: 45 phút. Thời gian tự học trước và sau giờ được ghi riêng.
+P0004 I. Mục tiêu
+P0005 1. Kiến thức và yêu cầu cần đạt
+P0006 Định nghĩa chu kì bán rã.
+P0007 Vận dụng công thức x = x₀e⁻λᵗ với độ phóng xạ, số hạt chưa phân rã hoặc tốc độ số hạt đếm được.
+P0008 2. Năng lực
+P0009 Nhận thức vật lí: giải thích khái niệm và quan hệ bằng kí hiệu, sơ đồ. Tìm hiểu thế giới tự nhiên dưới góc độ vật lí: nêu dự đoán, thu thập dữ liệu mô phỏng và đối chiếu với dự đoán. Tự chủ và tự học: lập mục tiêu, ghi điều chưa hiểu và điều chỉnh cách học sau phản hồi.
+P0010 3. Phẩm chất
+P0011 Trung thực khi ghi dữ liệu mô phỏng và nguồn tài liệu; chịu trách nhiệm về phần việc cá nhân; tôn trọng ý kiến của bạn trong thảo luận.
+P0012 II. Thiết bị dạy học và học liệu
+P0013 Học liệu của bài; phiếu học tập “Chu kì bán rã” có ba phần hướng dẫn, nhiệm vụ và rubrics, xuất từ công cụ Phiếu học tập ba pha. Chuẩn bị bản học sinh và đáp án riêng cho giáo viên; thiết bị có trình duyệt để mở học liệu và mô phỏng.
+P0014 Điều kiện lớp: Nhóm dùng chung thiết bị
+P0015 B23 · Kiến thức và phiếu học tập ba giai đoạn
+P0016 Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T
+P0017 B23 · Sửa ba lỗi thường gặp
+P0018 III. Tiến trình dạy học
+P0019 1. Chuẩn bị câu 1 trong phiếu
+P0020 Trước giờ học · 15 phút · Mở đầu
+P0021 a) Mục tiêu
+P0022 Chuẩn bị kiến thức và xác định điều chưa hiểu trước khi đến lớp.
+P0023 b) Nội dung
+P0024 1. Đọc mục chu kì bán rã trong học liệu Phóng xạ.
+P0025 2. Trả lời câu hỏi: nêu rõ đại lượng giảm còn một nửa và ý nghĩa của chu kì T.
+P0026 3. Ghi một điều chưa hiểu để mang đến lớp.
+P0027 Việc giáo viên: Giao phiếu và đường dẫn học liệu, thông báo thời hạn phần chuẩn bị. Xem câu trả lời để chọn vấn đề cần trao đổi trên lớp.
+P0028 c) Sản phẩm
+P0029 Câu trả lời cá nhân và một nội dung cần trao đổi trên lớp.
+P0030 d) Tổ chức thực hiện
+P0031 Giao nhiệm vụ
+P0032 Giáo viên giao nhiệm vụ nêu ở phần nội dung, chỉ rõ học liệu, sản phẩm và tiêu chí đánh giá.
+P0033 Thực hiện nhiệm vụ
+P0034 Học sinh tự đọc học liệu và làm nhiệm vụ trong phiếu. Ghi điều chưa hiểu hoặc cách kiểm tra lời giải.
+P0035 Báo cáo và thảo luận
+P0036 Giáo viên tổng hợp phần chuẩn bị và chọn một số câu trả lời để trao đổi khi đến lớp.
+P0037 Kết luận và nhận định
+P0038 Học sinh hoàn thiện sản phẩm sau phản hồi của giáo viên và ghi việc cần học tiếp.
+P0039 Tiêu chí đánh giá: Trả lời đúng yêu cầu; ghi điều chưa hiểu hoặc căn cứ của cách trả lời.
+P0040 Hỗ trợ học sinh: Học sinh cần hỗ trợ đọc lại dữ kiện và mục kiến thức tương ứng; giáo viên gợi ý từng bước. Học sinh hoàn thành sớm giải thích cách kiểm tra kết quả cho nhóm.
+P0041 Học liệu của hoạt động: B23 · Kiến thức và phiếu học tập ba giai đoạn
+P0042 2. Xác định vấn đề từ phần tự học
+P0043 Trong giờ học · 5 phút · Mở đầu
+P0045 Xác định nội dung cần giải thích từ phần chuẩn bị.
+P0047 Mỗi học sinh nêu điều chưa hiểu hoặc căn cứ trả lời câu 1. Giáo viên chọn một vấn đề gắn với mục tiêu để lớp giải quyết.
+P0048 Việc giáo viên: Giao nhiệm vụ trong phiếu, quan sát cách làm, hỏi về căn cứ; tổ chức báo cáo và chốt kiến thức.
+P0050 Câu hỏi cần giải quyết và cách hiểu ban đầu.
+P0055 Học sinh trao đổi nhóm theo hướng dẫn; mỗi bạn ghi lời giải riêng. Giáo viên theo dõi, yêu cầu nêu dữ kiện và hỗ trợ chỗ chưa hiểu.
+P0057 Nhóm trình bày sản phẩm; các bạn đối chiếu dữ kiện, giải thích cách làm và phản hồi.
+P0059 Giáo viên nhận xét theo tiêu chí; học sinh ghi kết luận đúng và điều đã điều chỉnh.
+P0060 Tiêu chí đánh giá: Nêu cụ thể chỗ chưa hiểu hoặc căn cứ của cách trả lời.
+P0062 Học liệu của hoạt động: Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T
+P0063 3. Thực hiện câu 2 và trao đổi bằng chứng
+P0064 Trong giờ học · 30 phút · Hình thành kiến thức
+P0066 Kiểm tra và giải thích kết quả bằng dữ kiện, hình và học liệu của bài.
+P0068 1. Đọc dữ kiện bài tập; phân biệt tỉ lệ đã phân rã và tỉ lệ còn lại.
+P0069 2. Mở mô phỏng bán rã; so sánh phần còn lại sau 1T và 2T để kiểm tra cách hiểu.
+P0070 3. Lập biểu thức liên hệ thời gian, phần còn lại và T rồi giải bài. Nhóm đối chiếu phép tính, mỗi bạn ghi kết luận riêng.
+P0073 Lời giải có các bước và căn cứ; kết luận của nhóm sau trao đổi.
+P0083 Tiêu chí đánh giá: Sử dụng đúng dữ kiện, kí hiệu và đơn vị; giải thích được cách làm và điều đã sửa.
+P0086 4. Hoàn thiện lời giải cá nhân sau trao đổi
+P0087 Trong giờ học · 10 phút · Luyện tập
+P0089 Củng cố kiến thức qua lời giải và cách kiểm tra.
+P0091 Mỗi học sinh hoàn thiện lời giải câu 2 trong phiếu. Chỉ ra dữ kiện, hình hoặc công thức làm căn cứ; kiểm tra đơn vị và kết luận. Giáo viên hỏi một số học sinh giải thích cách làm, phản hồi chỗ còn thiếu.
+P0094 Lời giải riêng của từng học sinh và điều chỉnh sau trao đổi.
+P0104 Tiêu chí đánh giá: Lời giải phù hợp yêu cầu; có căn cứ và tự kiểm tra kết quả.
+P0107 5. Làm câu 3 và tự đánh giá theo rubrics
+P0108 Sau giờ học · 15 phút · Vận dụng
+P0110 Vận dụng kiến thức và tự kiểm tra lời giải.
+P0112 1. Tự làm bài: lập tỉ số lượng đồng vị còn lại so với ban đầu cho từng trường hợp.
+P0113 2. Dùng công thức bán rã tìm thời gian; trình bày phép tính và đơn vị.
+P0114 3. Kiểm tra trường hợp nào cần nhiều thời gian hơn; ghi điều đã sửa hoặc cách kiểm tra kết quả.
+P0115 Việc giáo viên: Giao phần sau giờ học và thời hạn nộp. Đối chiếu đáp án, nhận xét bài làm và cách tự kiểm tra theo rubrics.
+P0117 Bài làm cá nhân có giải thích, một điều tự sửa và cách kiểm tra lại.
+P0124 Giáo viên nhận phiếu, chọn cách giải và lỗi tiêu biểu để phản hồi ở lần học tiếp theo.
+P0127 Tiêu chí đánh giá: Lời giải đúng yêu cầu; kết quả có đơn vị nếu cần; nêu được cách tự kiểm tra.
+P0129 Học liệu của hoạt động: B23 · Sửa ba lỗi thường gặp
+P0130 IV. Điều chỉnh sau bài dạy
+P0131 Giáo viên bổ sung sau khi tổ chức dạy học.
+P0132 Căn cứ thiết kế
+P0133 Khung kế hoạch bài dạy: Phụ lục IV Công văn 5512/BGDĐT-GDTrH ngày 18/12/2020.
+P0134 Yêu cầu cần đạt: chủ đề Vật lí hạt nhân và phóng xạ, chương trình môn Vật lí ban hành kèm Thông tư 32/2018/TT-BGDĐT, trang 27–28 (diễn giải).
+P0135 Đánh giá trong hoạt động bằng nhận xét theo sản phẩm và tiêu chí đã nêu. Nếu tổ chức kiểm tra định kì, giáo viên xây dựng thêm ma trận, bản đặc tả, đề và hướng dẫn chấm theo Công văn 7991/BGDĐT-GDTrH.
+P0000 Trang 
+
+FILE docs/worksheets/B23-huong-dan-giao-vien.docx
+P0000 Hướng dẫn giáo viên cho phiếu học tập
+P0001 Chu kì bán rã
+P0002 Vật lí 12 · Chương 4 Vật lí hạt nhân · B23
+P0003 1 Hướng dẫn sử dụng phiếu học tập
+P0004 Phiếu gồm nhiệm vụ trước giờ học, trong giờ học và sau giờ học. Hoàn thành phần chuẩn bị trước khi đến lớp; giữ phiếu để tiếp tục trao đổi và tự làm phần vận dụng.
+P0005 Mục tiêu
+P0008 Thời gian và cách thực hiện
+P0009 Trước giờ học: 15 phút. Câu trả lời cá nhân và một nội dung cần trao đổi trên lớp.
+P0010 Trong giờ học: 40 phút. Lời giải có các bước và căn cứ; kết luận của nhóm sau trao đổi.
+P0011 Sau giờ học: 15 phút. Bài làm cá nhân có giải thích, một điều tự sửa và cách kiểm tra lại.
+P0012 Đọc nhiệm vụ của từng pha rồi làm các câu hỏi ngay bên dưới. Ghi cách làm và căn cứ vào khung trả lời. Khi chưa hiểu, ghi cụ thể chỗ cần hỗ trợ; khi đã hiểu, ghi cách kiểm tra kết quả.
+P0013 Trước khi làm, xem rubrics ở phần 3 để biết tiêu chí. Trong giờ học, mỗi bạn vẫn ghi bài làm riêng sau khi trao đổi nhóm. Sau giờ học, hoàn thành phần vận dụng và nộp phiếu theo thời hạn giáo viên giao.
+P0014 Học liệu sử dụng
+P0015 Trước giờ học: B23 · Kiến thức và phiếu học tập ba giai đoạn
+P0016 Trong giờ học: Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T
+P0017 Sau giờ học: B23 · Sửa ba lỗi thường gặp
+P0018 Giáo viên giao phần trước giờ học kèm đường dẫn học liệu; trong giờ học kiểm tra phần chuẩn bị, tổ chức trao đổi và yêu cầu từng học sinh hoàn thiện lời giải. Sau giờ học nhận phiếu, đối chiếu đáp án và nhận xét theo rubrics.
+P0020 2 Phiếu học tập cho học sinh
+P0021 Pha 1 Trước giờ học
+P0022 Thời gian dự kiến: 15 phút
+P0023 Mục tiêu của pha: Chuẩn bị kiến thức và xác định điều chưa hiểu trước khi đến lớp.
+P0024 Việc cần làm
+P0028 Câu 1
+P0029 Phát biểu định nghĩa chu kì bán rã.
+P0030 Đáp án và hướng dẫn
+P0031 Khoảng thời gian để số hạt nhân chưa phân rã của mẫu giảm còn một nửa giá trị ban đầu theo mô hình thống kê.
+P0032 Sản phẩm cần hoàn thành
+P0034 Tự kiểm tra: Trả lời đúng yêu cầu; ghi điều chưa hiểu hoặc căn cứ của cách trả lời.
+P0035 Giáo viên đối chiếu sản phẩm với tiêu chí của pha, hỏi học sinh về căn cứ của lời giải và ghi nhận xét theo phần 3.
+P0037 Pha 2 Trong giờ học
+P0038 Thời gian dự kiến: 40 phút
+P0039 Mục tiêu của pha: Kiểm tra và giải thích kết quả bằng dữ kiện, hình và học liệu của bài.
+P0044 Câu 2
+P0045 Đồng vị 815O sau 244 s có 75% số hạt nhân ban đầu đã phân rã. Tính chu kì bán rã.
+P0047 Còn 25% nên 244=2T, do đó T=122 s.
+P0050 Tự kiểm tra: Sử dụng đúng dữ kiện, kí hiệu và đơn vị; giải thích được cách làm và điều đã sửa.
+P0053 Pha 3 Sau giờ học
+P0055 Mục tiêu của pha: Vận dụng kiến thức và tự kiểm tra lời giải.
+P0060 Câu 3
+P0061 Dược chất Flortaucipir chứa 918F có chu kì bán rã khoảng 110 phút. Sau bao lâu lượng đồng vị giảm còn 10% và 1% lúc đầu?
+P0063 t=Tlog2(N0/N); khoảng 365,4 phút (10%) và 730,8 phút (1%).
+P0066 Tự kiểm tra: Lời giải đúng yêu cầu; kết quả có đơn vị nếu cần; nêu được cách tự kiểm tra.
+P0069 3 Rubrics đánh giá
+P0070 Chọn một mức cho mỗi tiêu chí dựa trên bài làm và phần tự kiểm tra. Học sinh tự đánh giá trước; giáo viên đối chiếu sản phẩm và ghi nhận xét, hướng dẫn sửa.
+P0071 Tiêu chí
+P0072 Hoàn thành tốt
+P0073 Đạt yêu cầu
+P0074 Cần bổ sung
+P0075 Chưa có sản phẩm
+P0076 Chuẩn bị trước giờ học
+P0077 Trả lời có căn cứ; nêu rõ điều chưa hiểu hoặc giải thích vì sao đã hiểu.
+P0078 Có câu trả lời và nội dung cần trao đổi; còn thiếu căn cứ.
+P0079 Câu trả lời thiếu ý; chưa xác định được điều cần trao đổi.
+P0080 Chưa có phần chuẩn bị.
+P0081 Giải thích và sử dụng dữ kiện
+P0082 Lời giải đúng; chỉ rõ dữ kiện, hình hoặc công thức làm căn cứ.
+P0083 Cách làm phù hợp; còn một thiếu sót nhỏ về diễn giải hoặc đơn vị.
+P0084 Có hướng giải nhưng dùng dữ kiện, kiến thức hoặc đơn vị chưa đúng.
+P0085 Chưa có lời giải hoặc chưa nêu được cách làm.
+P0086 Vận dụng sau giờ học
+P0087 Bài làm đúng, đủ các bước và kiểm tra được kết quả.
+P0088 Giải quyết yêu cầu chính; còn thiếu một bước hoặc cách kiểm tra.
+P0089 Mới làm được một phần; còn lỗi kiến thức hoặc phép tính.
+P0090 Chưa thực hiện bài vận dụng.
+P0091 Tự kiểm tra và điều chỉnh
+P0092 Nêu rõ điều đã sửa hoặc căn cứ xác nhận lời giải; có cách kiểm tra lại.
+P0093 Có tự kiểm tra và điều chỉnh nhưng giải thích còn ngắn.
+P0094 Chỉ ghi đã sửa/đã hiểu, chưa chỉ ra nội dung và cách kiểm tra.
+P0095 Chưa có phần tự kiểm tra.
+P0097 Chuẩn bị trước giờ học: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0098 Giải thích và sử dụng dữ kiện: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0099 Vận dụng sau giờ học: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0100 Tự kiểm tra và điều chỉnh: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0101 Nhận xét và việc cần làm tiếp
+P0102 Điểm đã làm được: ............................................................................
+P0103 Nội dung cần sửa: ..............................................................................
+P0104 Cách sửa và thời hạn hoàn thành: ......................................................
+P0105 Yêu cầu cần đạt được sử dụng
+P0108 Yêu cầu được diễn giải từ chương trình môn Vật lí ban hành kèm Thông tư 32/2018. Phiếu dùng để học tập và đánh giá thường xuyên theo sản phẩm; khi dùng cho kiểm tra định kì, giáo viên lập thêm ma trận, bản đặc tả, đề và hướng dẫn chấm theo Công văn 7991.
+
+FILE docs/worksheets/B21-phieu-hoc-sinh.docx
+P0000 Phiếu học tập ba pha
+P0001 Thí nghiệm tán xạ hạt alpha
+P0002 Vật lí 12 · Chương 4 Vật lí hạt nhân · B21
+P0003 Họ và tên ........................................................ Lớp .......... Nhóm ..........
+P0007 Rút ra sự tồn tại và đánh giá kích thước hạt nhân từ kết quả thí nghiệm tán xạ hạt alpha.
+P0008 Mô tả mô hình đơn giản của nguyên tử gồm proton, neutron và electron.
+P0016 Trước giờ học: B21 · Kiến thức và phiếu học tập ba giai đoạn
+P0017 Trong giờ học: Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford
+P0018 Sau giờ học: B21 · Sửa ba lỗi thường gặp
+P0025 1. Đọc học liệu Cấu trúc hạt nhân, xem cách bố trí nguồn alpha, lá vàng và màn quan sát.
+P0026 2. Đọc câu hỏi và hình trong phần này; mô tả cách các nhà khoa học thu được bằng chứng về hạt nhân.
+P0027 3. Ghi một chi tiết về thí nghiệm mà em chưa giải thích được.
+P0029 Các nhà khoa học đã làm thế nào để phát hiện hạt nhân có kích thước nhỏ hơn nhiều so với nguyên tử, dù không thể quan sát bằng kính hiển vi quang học?
+P0031 Bài làm của em
+P0032 ................................................................................................
+P0041 Điều em chưa hiểu hoặc căn cứ của câu trả lời:
+P0049 1. Quan sát hình và mô phỏng tán xạ: xác định vị trí nguồn, lá vàng và màn quan sát.
+P0050 2. Trao đổi câu hỏi trong phần này: liên hệ tần suất đốm sáng với đường đi của hạt alpha.
+P0051 3. Mỗi bạn viết kết luận riêng; nhóm kiểm tra căn cứ từ hình và dữ kiện.
+P0053 Dựa vào thí nghiệm tán xạ hạt alpha: tần suất đốm sáng lớn nhất tại vị trí (1), đối diện nguồn phát trong Hình 21.2b, chứng tỏ điều gì?
+P0065 Kết luận của em sau trao đổi và điều đã sửa:
+P0073 1. Tự làm câu hỏi trong phần này, dùng tương tác điện và cấu trúc nguyên tử để giải thích.
+P0074 2. Đối chiếu với kết luận đã ghi trong giờ học; sửa chỗ chưa đúng.
+P0075 3. Ghi điều đã sửa và bằng chứng dùng để kiểm tra cách giải thích mới.
+P0077 Tại sao có một số hạt alpha đổi hướng chuyển động khi đi qua lá vàng?
+P0089 Điều em đã sửa hoặc cách em kiểm tra kết quả:
+
+FILE docs/worksheets/DE_KIEM_TRA_THEO_MA_TRAN-thu.docx
+P0000 Đề kiểm tra Chương 4 Vật lí hạt nhân
+P0001 Vật lí 12   Thời gian 45 phút   Mã đề 101   10 điểm
+P0002 Họ và tên .......................................................... Lớp ................
+P0003 Câu 1 (0,5 điểm)
+P0004 Các nguyên tử là nguyên tử đồng vị khi hạt nhân của chúng có
+P0005 A. cùng số proton.
+P0006 B. cùng số neutron.
+P0007 C. cùng số neutron.
+P0008 D. cùng khối lượng.
+P0009 Câu 2 (0,5 điểm)
+P0010 Hạt nhân nguyên tử gồm
+P0011 A. electron và proton.
+P0012 B. neutron và proton.
+P0013 C. neutron và electron.
+P0014 D. electron và pozitron.
+P0015 Câu 3 (2 điểm)
+P0016 Đánh dấu (x) vào các cột đúng hoặc sai tương ứng với các nội dung trong bảng dưới đây.
+P0017 a) Các loại tia phóng xạ chính: tia alpha là hạt nhân 24He phóng ra từ hạt nhân phân rã, tốc độ khoảng 2×107 m/s; tia beta− (hoặc beta+) là dòng các hạt -10e (hoặc 10e), tốc độ xấp xỉ ánh sáng; tia gamma là sóng điện từ có bước sóng rất ngắn, cỡ nhỏ hơn 10-11 m.   □ Đúng   □ Sai
+P0018 b) Tia gamma là chùm hạt mang điện dương và có khả năng đâm xuyên rất lớn.   □ Đúng   □ Sai
+P0019 c) Số hạt chưa phân rã Nt tại t và số hạt ban đầu N0 liên hệ theo Nt=N0 2-t/T=N0e-λ t; λ=ln2/T là hằng số phóng xạ, T là chu kì bán rã.   □ Đúng   □ Sai
+P0020 d) Độ phóng xạ H đặc trưng tính phóng xạ mạnh hay yếu của một lượng chất phóng xạ, bằng số hạt nhân phân rã trong một giây; Ht=λ Nt=H0e-λ t.   □ Đúng   □ Sai
+P0021 Câu 4 (1 điểm)
+P0022 Po-210 là nguồn năng lượng được nêu trong bài về máy phát nhiệt điện đồng vị RTG. T=138 ngày, phân rã alpha tạo 82206Pb. Mẫu polonium ban đầu nguyên chất; tại t1, tỉ số số hạt Pb tạo thành với số hạt Po còn lại bằng 15. Tại t2=t1+966 ngày, tỉ số này bằng bao nhiêu?
+P0023 Trả lời ...........................................
+P0024 Câu 5 (1 điểm)
+P0025 Sau 1 năm, trong 1 miligam ​144Ce có 2,5×1018 hạt bị phân rã. Chu kì bán rã Ce-144 bằng bao nhiêu?
+P0027 Câu 6 (4 điểm)
+P0028 Bình ion hóa gồm bình khí đơn phân tử và hai điện cực kim loại đặt hiệu điện thế 2 kV. Khí bị ion hóa nhờ phóng xạ thì có dòng điện; đo bằng ampe kế rất nhạy (Hình IV.1). a) Vẽ đồ thị độ phóng xạ mẫu ​220Rn theo thời gian, ban đầu H0. b) Xác định T của Rn-220. c) Cần tối thiểu 1 mL khí Rn-220 ở điều kiện tiêu chuẩn. Ước tính khối lượng tối thiểu bình từ chất ​228Th để duy trì hoạt độ không đổi của Rn-220 trước thí nghiệm. Th-228 phân rã alpha, T=1,9 năm thành Ra-224; Ra-224 phân rã alpha, T=3,6 ngày thành Rn-220.
+P0031 Câu 7 (1 điểm)
+P0032 Mô tả mô hình hành tinh nguyên tử của Rutherford trong Hình 21.5a.
+
+FILE docs/templates/BAO_KHOA_HOC_DANG_KHOI.docx
+P0000  DIFF  [OLD XÂY DỰNG VÀ SỬ DỤNG BỘ → QUY TRÌNH THIẾT KẾ] HỌC LIỆU SỐ | HỌC LIỆU SỐ [OLD VỚI SỰ → TÍCH HỢP TRÍ TUỆ NHÂN TẠO] HỖ TRỢ CỦA | SỰ HỖ TRỢ [OLD CỦA AI → NĂNG LỰC TỰ HỌC] TRONG DẠY HỌC | TRONG DẠY HỌC [OLD CHƯƠNG “VẬT LÝ → CHỦ ĐỀ VẬT LÍ] HẠT NHÂN” VẬT | “VẬT LÝ HẠT [OLD NHÂN” VẬT LÝ → NHÂN] LỚP 12 Ở | LÝ LỚP 12 [OLD Ở TRƯỜNG THPT → ] THEO MÔ HÌNH
+P0001 A process for designing AI-supported digital learning resources to support self-study competence in Grade 12 nuclear physics through the flipped classroom model
+P0024  DIFF that cannot be [OLD  → directly] observed directly at | cannot be observed [OLD directly at → in] school. This study | school. This study [OLD describes → presents a] theory-informed analysis, design | study describes theory-informed [OLD analysis, design and construction of → process for designing] AI-supported resources for | construction of AI-supported [OLD  → digital] resources for lessons | AI-supported resources for [OLD  → Grade 12] lessons B21–B25 in | internal checks before [OLD  → classroom] use.
+P0025 Result: The prototype comprises 78 resource entries, 17 interactive 3D simulations, five interactive infographics, four practice papers and a lesson planning workspace. Tasks connect observation, explanation and reflection across three learning phases. Checks address fission conservation, radioactive decay and mass conventions in binding energy calculations; 23 software tests passed.
+P0026 Discussion: The findings document design products and internal verification. Account-based assignment and submission workflows need completion. Independent expert appraisal and classroom research are required before conclusions can be drawn about teaching effectiveness or students’ self-study competence.
+P0029  DIFF hạt nhân cần [OLD  → học liệu] biểu diễn các | bày quy trình [OLD phân tích, → ] thiết kế, kiến | phâ

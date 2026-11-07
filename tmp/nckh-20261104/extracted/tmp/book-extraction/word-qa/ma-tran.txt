@@ -1,0 +1,136 @@
+PART word/document.xml
+P0000 Ma trận đề kiểm tra
+P0001 Đề kiểm tra Chương 4 Vật lí hạt nhân
+P0002 Vật lí 12 · 45 phút · 10 điểm · Mã đề 101
+P0003 TT
+P0004 Chủ đề/Chương
+P0005 Nội dung/đơn vị kiến thức
+P0006 trắc nghiệm
+P0007 đúng sai
+P0008 trả lời ngắn
+P0009 tự luận
+P0010 Tổng
+P0011 Tỉ lệ % điểm
+P0015 Biết
+P0016 Hiểu
+P0017 Vận dụng
+P0018 Biết
+P0019 Hiểu
+P0020 Vận dụng
+P0021 Biết
+P0022 Hiểu
+P0023 Vận dụng
+P0024 Biết
+P0025 Hiểu
+P0026 Vận dụng
+P0027 Biết
+P0028 Hiểu
+P0029 Vận dụng
+P0031 1
+P0032 Chương 4 Vật lí hạt nhân
+P0033 B21: Cấu trúc hạt nhân
+P0034 2
+P0046 2
+P0049 10
+P0050 2
+P0051 Chương 4 Vật lí hạt nhân
+P0052 B23: Sự phóng xạ và chu kì bán rã
+P0057 1
+P0066 1
+P0068 20
+P0069 3
+P0070 Chương 4 Vật lí hạt nhân
+P0071 B23: Sự phóng xạ và chu kì bán rã
+P0080 2
+P0086 2
+P0087 20
+P0088 4
+P0089 Chương 4 Vật lí hạt nhân
+P0090 B23: Sự phóng xạ và chu kì bán rã
+P0102 1
+P0105 1
+P0106 50
+P0107 Tổng số câu
+P0108 2
+P0109 0
+P0110 0
+P0111 0
+P0112 1
+P0113 0
+P0114 0
+P0115 0
+P0116 2
+P0117 0
+P0118 0
+P0119 1
+P0120 2
+P0121 1
+P0122 3
+P0123 100
+P0124 Điểm theo loại câu: trắc nghiệm 1 điểm (10%); đúng sai 2 điểm (20%); trả lời ngắn 2 điểm (20%); tự luận 5 điểm (50%)
+P0125 Điểm theo mức độ: Biết 1 điểm (10%); Hiểu 2 điểm (20%); Vận dụng 7 điểm (70%)
+P0126 Cấu trúc tham khảo Phụ lục Công văn 7991/BGDĐT-GDTrH ngày 17/12/2024. Giáo viên đối chiếu với kế hoạch kiểm tra của đơn vị; phân bố trên là phân bố thực tế của đề.
+P0128 Bản đặc tả đề kiểm tra
+P0129 Đề kiểm tra Chương 4 Vật lí hạt nhân
+P0130 Vật lí 12 · 45 phút · 10 điểm · Mã đề 101
+P0131 TT
+P0132 Chủ đề/Chương
+P0133 Nội dung/đơn vị kiến thức
+P0134 Yêu cầu cần đạt và năng lực
+P0135 trắc nghiệm
+P0136 đúng sai
+P0137 trả lời ngắn
+P0138 tự luận
+P0143 Biết
+P0144 Hiểu
+P0145 Vận dụng
+P0146 Biết
+P0147 Hiểu
+P0148 Vận dụng
+P0149 Biết
+P0150 Hiểu
+P0151 Vận dụng
+P0152 Biết
+P0153 Hiểu
+P0154 Vận dụng
+P0155 1
+P0156 Chương 4 Vật lí hạt nhân
+P0157 B21: Cấu trúc hạt nhân
+P0158 Biểu diễn được kí hiệu hạt nhân của nguyên tử bằng số nucleon và số proton
+Năng lực: Nhận thức vật lí
+P0159 1, 2
+P0171 2
+P0172 Chương 4 Vật lí hạt nhân
+P0173 B23: Sự phóng xạ và chu kì bán rã
+P0174 Nêu được bản chất tự phát và ngẫu nhiên của sự phân rã phóng xạ
+Năng lực: Nhận thức vật lí
+P0179 3
+P0187 3
+P0188 Chương 4 Vật lí hạt nhân
+P0189 B23: Sự phóng xạ và chu kì bán rã
+P0190 Vận dụng được công thức phân rã phóng xạ
+Năng lực: Vận dụng kiến thức kĩ năng đã học
+P0199 4, 5
+P0203 4
+P0204 Chương 4 Vật lí hạt nhân
+P0205 B23: Sự phóng xạ và chu kì bán rã
+P0206 Vận dụng được công thức phân rã phóng xạ
+Năng lực: Vận dụng kiến thức kĩ năng đã học
+P0218 6
+P0219 Tổng số câu
+P0220 2
+P0221 0
+P0222 0
+P0223 0
+P0224 1
+P0225 0
+P0226 0
+P0227 0
+P0228 2
+P0229 0
+P0230 0
+P0231 1
+P0232 Các số trong ô là số câu của mã đề 101. Yêu cầu cần đạt và năng lực do giáo viên lựa chọn, rà soát cùng nội dung từng câu trước khi sử dụng.
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

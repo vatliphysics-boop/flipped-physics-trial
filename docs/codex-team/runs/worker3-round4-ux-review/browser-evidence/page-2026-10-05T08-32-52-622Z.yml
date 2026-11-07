@@ -1,0 +1,88 @@
+- generic [active] [ref=f6e1]:
+  - button "Open Next.js Dev Tools" [ref=f6e131] [cursor=pointer]
+  - alert [ref=f6e135]: Không gian hỗ trợ giáo viên
+  - generic [ref=f6e1936]:
+    - link "Đi đến nội dung chính" [ref=f6e1937] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f6e1938]:
+      - generic [ref=f6e1939]:
+        - button "Mở menu" [ref=f6e2588] [cursor=pointer]:
+          - generic [ref=f6e2589]: ☰
+        - link "Học liệu Vật lí 12" [ref=f6e1942] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f6e1944] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f6e1959]:
+      - generic [ref=f6e1961]:
+        - paragraph [ref=f6e1962]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f6e1963]
+        - paragraph [ref=f6e1964]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f6e1965]:
+        - group "Công việc của giáo viên" [ref=f6e1966]:
+          - button "Ngân hàng đề" [ref=f6e1967] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f6e1968] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [pressed] [ref=f6e1969] [cursor=pointer]
+        - generic [ref=f6e2727]:
+          - generic [ref=f6e2728]:
+            - heading "Chuẩn bị kế hoạch bài dạy" [level=2] [ref=f6e2729]
+            - paragraph [ref=f6e2730]: Chọn bài và thời gian, xem việc của giáo viên và học sinh ở từng hoạt động rồi xuất kế hoạch Word.
+            - text: "Mẫu ban đầu: Bài 23, 45 phút trên lớp. Tự học trước và sau giờ được tính riêng."
+          - navigation "Các bước biên soạn" [ref=f6e2731]:
+            - button "1 Chọn bài và điều kiện lớp" [ref=f6e2732] [cursor=pointer]:
+              - generic [ref=f6e2733]: "1"
+              - strong [ref=f6e2734]: Chọn bài và điều kiện lớp
+            - button "2 Chỉnh hoạt động" [ref=f6e2735] [cursor=pointer]:
+              - generic [ref=f6e2736]: "2"
+              - strong [ref=f6e2737]: Chỉnh hoạt động
+            - button "3 Kiểm tra và xuất kế hoạch" [ref=f6e2738] [cursor=pointer]:
+              - generic [ref=f6e2739]: "3"
+              - strong [ref=f6e2740]: Kiểm tra và xuất kế hoạch
+          - generic [ref=f6e2894]:
+            - heading "3. Kiểm tra và xuất kế hoạch" [level=3] [ref=f6e2895]
+            - generic [ref=f6e2896]:
+              - strong [ref=f6e2897]: Đủ các trường cấu trúc đã kiểm tra
+              - paragraph [ref=f6e2898]: Có mục tiêu kiến thức, năng lực, phẩm chất; bốn loại hoạt động và các bước tổ chức thực hiện; đủ ba pha; thời gian trên lớp 45 phút. Giáo viên rà soát độ chính xác và sự phù hợp với lớp trước khi sử dụng.
+            - generic [ref=f6e2899]:
+              - heading "Kế hoạch bài dạy Phóng xạ · Chu kì bán rã" [level=4] [ref=f6e2900]
+              - paragraph [ref=f6e2901]: Vật lí 12 · Lớp 12 · 45 phút trên lớp
+              - heading "I. Mục tiêu" [level=4] [ref=f6e2902]
+              - generic [ref=f6e2903]:
+                - strong [ref=f6e2904]: Kiến thức
+                - paragraph [ref=f6e2905]:
+                  - generic [ref=f6e2906]: Định nghĩa chu kì bán rã. Vận dụng công thức x = x₀e⁻λᵗ với độ phóng xạ, số hạt chưa phân rã hoặc tốc độ số hạt đếm được.
+              - generic [ref=f6e2907]:
+                - strong [ref=f6e2908]: Năng lực
+                - paragraph [ref=f6e2909]:
+                  - generic [ref=f6e2910]: "Nhận thức vật lí: giải thích khái niệm và quan hệ bằng kí hiệu, sơ đồ. Tìm hiểu thế giới tự nhiên dưới góc độ vật lí: nêu dự đoán, thu thập dữ liệu mô phỏng và đối chiếu với dự đoán. Tự chủ và tự học: lập mục tiêu, ghi điều chưa hiểu và điều chỉnh cách học sau phản hồi."
+              - generic [ref=f6e2911]:
+                - strong [ref=f6e2912]: Phẩm chất
+                - paragraph [ref=f6e2913]:
+                  - generic [ref=f6e2914]: Trung thực khi ghi dữ liệu mô phỏng và nguồn tài liệu; chịu trách nhiệm về phần việc cá nhân; tôn trọng ý kiến của bạn trong thảo luận.
+              - heading "II. Thiết bị dạy học và học liệu" [level=4] [ref=f6e2915]
+              - paragraph [ref=f6e2916]: Học liệu của bài; phiếu học tập “Chu kì bán rã” có ba phần hướng dẫn, nhiệm vụ và rubrics, xuất từ công cụ Phiếu học tập ba pha. Chuẩn bị bản học sinh và đáp án riêng cho giáo viên; thiết bị có trình duyệt để mở học liệu và mô phỏng.
+              - paragraph [ref=f6e2917]: Nhóm dùng chung thiết bị
+              - heading "III. Tiến trình dạy học" [level=4] [ref=f6e2918]
+              - group [ref=f6e2919]:
+                - generic "1. Chuẩn bị câu 1 trong phiếu · Trước giờ học · 15 phút" [ref=f6e2920] [cursor=pointer]
+              - group [ref=f6e2921]:
+                - generic "2. Xác định vấn đề từ phần tự học · Trong giờ học · 5 phút" [ref=f6e2922] [cursor=pointer]
+              - group [ref=f6e2923]:
+                - generic "3. Thực hiện câu 2 và trao đổi bằng chứng · Trong giờ học · 30 phút" [ref=f6e2924] [cursor=pointer]
+              - group [ref=f6e2925]:
+                - generic "4. Hoàn thiện lời giải cá nhân sau trao đổi · Trong giờ học · 10 phút" [ref=f6e2926] [cursor=pointer]
+              - group [ref=f6e2927]:
+                - generic "5. Làm câu 3 và tự đánh giá theo rubrics · Sau giờ học · 15 phút" [ref=f6e2928] [cursor=pointer]
+              - heading "IV. Điều chỉnh sau bài dạy" [level=4] [ref=f6e2929]
+              - generic [ref=f6e2930]:
+                - text: Ghi nhận sau khi tổ chức dạy học
+                - textbox "Ghi nhận sau khi tổ chức dạy học" [ref=f6e2931]
+            - paragraph [ref=f6e2932]: Khung kế hoạch tham chiếu Phụ lục IV Công văn 5512; yêu cầu cần đạt tham chiếu chương trình môn Vật lí theo Thông tư 32/2018. Kiểm tra định kì cần thêm ma trận, bản đặc tả, đề và hướng dẫn chấm theo Công văn 7991.
+            - generic [ref=f6e2933]:
+              - button "Quay lại chỉnh hoạt động" [ref=f6e2934] [cursor=pointer]
+              - button "Tải kế hoạch Word" [ref=f6e2935] [cursor=pointer]
+              - button "Lưu vào danh sách kế hoạch trên thiết bị" [ref=f6e2936] [cursor=pointer]
+              - button "Tải bản soạn để lưu trữ" [ref=f6e2937] [cursor=pointer]
+            - group [ref=f6e2938]:
+              - generic "Bàn soạn chi tiết và các kế hoạch đã lưu" [ref=f6e2939] [cursor=pointer]
+        - group [ref=f6e2586]:
+          - generic "Đọc tài liệu với AI cục bộ" [ref=f6e2587]

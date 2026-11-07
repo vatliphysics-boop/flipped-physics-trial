@@ -1,0 +1,101 @@
+[
+  {
+    "id": "isotopes",
+    "lesson": "B21",
+    "title": "Hai mô hình hạt nhân",
+    "description": "Đếm proton và neutron của hai mô hình; màu đỏ là proton, xanh là neutron.",
+    "url": "/learning/question-images/isotopes.png",
+    "svgUrl": "/learning/question-images/isotopes.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "rutherford",
+    "lesson": "B21",
+    "title": "Tán xạ hạt alpha qua lá vàng",
+    "description": "Ba đường đi minh họa; không biểu diễn tỉ lệ xác suất các đường đi.",
+    "url": "/learning/question-images/rutherford.png",
+    "svgUrl": "/learning/question-images/rutherford.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "binding",
+    "lesson": "B22",
+    "title": "So sánh mức liên kết trung bình",
+    "description": "Giá trị gần đúng E/A của ba hạt nhân, dữ kiện phục vụ câu hỏi so sánh.",
+    "url": "/learning/question-images/binding.png",
+    "svgUrl": "/learning/question-images/binding.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "fission",
+    "lesson": "B22",
+    "title": "Một nhánh phân hạch uranium",
+    "description": "Nhánh U-235 + n cho Ba-141, Kr-92 và ba neutron; dùng kiểm tra bảo toàn A, Z.",
+    "url": "/learning/question-images/fission.png",
+    "svgUrl": "/learning/question-images/fission.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "decay-curve",
+    "lesson": "B23",
+    "title": "Số hạt nhân mẹ còn lại theo thời gian",
+    "description": "Đường N(t) lí thuyết, giá trị trung bình; không phải dữ liệu đo thực tế.",
+    "url": "/learning/question-images/decay-curve.png",
+    "svgUrl": "/learning/question-images/decay-curve.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "counting",
+    "lesson": "B23",
+    "title": "Ba lượt đếm trong cùng điều kiện",
+    "description": "Dữ liệu mô phỏng cố định 18, 22, 20 số đếm trong 10 giây; không phải phép đo thật.",
+    "url": "/learning/question-images/counting.png",
+    "svgUrl": "/learning/question-images/counting.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "power-flow",
+    "lesson": "B24",
+    "title": "Các bộ phận chính của nhà máy điện hạt nhân",
+    "description": "Sơ đồ đơn giản để học sinh tự điền dòng chuyển hóa năng lượng.",
+    "url": "/learning/question-images/power-flow.png",
+    "svgUrl": "/learning/question-images/power-flow.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "shielding",
+    "lesson": "B24",
+    "title": "Minh họa khả năng đâm xuyên",
+    "description": "Khả năng chắn phụ thuộc năng lượng và vật liệu; tia gamma bị suy giảm, không chắn tuyệt đối.",
+    "url": "/learning/question-images/shielding.png",
+    "svgUrl": "/learning/question-images/shielding.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "distance",
+    "lesson": "B25",
+    "title": "So sánh hai khoảng cách tới nguồn",
+    "description": "Sơ đồ nguồn điểm để xét tỉ số cường độ ở r và 2r dưới các giả thiết được ghi.",
+    "url": "/learning/question-images/distance.png",
+    "svgUrl": "/learning/question-images/distance.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "background",
+    "lesson": "B25",
+    "title": "Số đếm mô phỏng và bức xạ nền",
+    "description": "Bốn lượt mô phỏng 44,48,40,52; nền 4 trong20s; dùng luyện đọc dữ liệu, không suy liều.",
+    "url": "/learning/question-images/background.png",
+    "svgUrl": "/learning/question-images/background.svg",
+    "source": "Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi."
+  },
+  {
+    "id": "pet",
+    "lesson": "B24",
+    "title": "Nguyên lí ghi nhận tín hiệu PET",
+    "description": "Positron gặp electron, cặp photon gamma được ghi nhận; sơ đồ nguyên lí chẩn đoán, không phải mô hình liều.",
+    "url": "/learning/question-images/pet.png",
+    "svgUrl": "/learning/question-images/pet.svg",
+    "source": "Nhóm thiết kế học liệu; mô hình nguyên lí PET, cần giáo viên rà soát trước sử dụng."
+  }
+]

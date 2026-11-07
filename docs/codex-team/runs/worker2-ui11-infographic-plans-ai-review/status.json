@@ -1,0 +1,65 @@
+{
+  "id": "worker2-ui11-infographic-plans-ai-review",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T12:27:10.185Z",
+  "status": "TIMED_OUT",
+  "session_ids": [
+    "01a10c08-4a09-74b1-832b-b0f9a836a70f"
+  ],
+  "exit_code": null,
+  "allowed_files": [],
+  "timeout_seconds": 1500,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-7yWh9v": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-ui11-infographic-plans-ai-review/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-7yWh9v",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-7yWh9v/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-7yWh9v/evidence"
+  },
+  "pid": 42626,
+  "signal": "SIGTERM",
+  "end": "2026-10-05T12:52:12.023Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-7yWh9v",
+  "changed_files": [
+    "scripts/codex-team/run.mjs",
+    "src/components/PortalShell.tsx",
+    "src/components/learning/InteractiveInfographic.tsx",
+    "src/data/nuclear-learning.json",
+    "src/lib/local-ai.ts",
+    "scripts/codex-team/worker3-ui12-label-camera-chart-fix.json",
+    "scripts/codex-team/worker3-ui12b-label-camera-chart-fix.json",
+    "src/components/learning/B25ModelData.tsx"
+  ],
+  "unexpected_changes": [
+    "scripts/codex-team/run.mjs",
+    "src/components/PortalShell.tsx",
+    "src/components/learning/InteractiveInfographic.tsx",
+    "src/data/nuclear-learning.json",
+    "src/lib/local-ai.ts",
+    "scripts/codex-team/worker3-ui12-label-camera-chart-fix.json",
+    "scripts/codex-team/worker3-ui12b-label-camera-chart-fix.json",
+    "src/components/learning/B25ModelData.tsx"
+  ],
+  "protected_sources_unchanged": true
+}

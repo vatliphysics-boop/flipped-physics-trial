@@ -1,0 +1,10 @@
+PASS B21 1366px: Tham số va chạm A = 0 fm, thời gian 0,5 zs; 0 yêu cầu ghi
+PASS B22 1366px: Y-95, I-138 và 3 neutron; xoay 3D; 0 yêu cầu ghi
+PASS B23 1366px: T = 60 s, tiến tới 1 giây; 0 yêu cầu ghi
+PASS B24 1366px: Cắm sâu 100%, chỉ số 0,6; bộ sinh hơi và hai vòng nước; 0 yêu cầu ghi
+PASS B25 1366px: T = 40 s tại 30 s cho 89,79 Bq; giữ tám dòng SGK; 0 yêu cầu ghi
+PASS B21 390px: Tham số va chạm A = 0 fm, thời gian 0,5 zs; 0 yêu cầu ghi
+PASS B22 390px: Y-95, I-138 và 3 neutron; xoay 3D; 0 yêu cầu ghi
+PASS B23 390px: T = 60 s, tiến tới 1 giây; 0 yêu cầu ghi
+PASS B24 390px: Cắm sâu 100%, chỉ số 0,6; bộ sinh hơi và hai vòng nước; 0 yêu cầu ghi
+PASS B25 390px: T = 40 s tại 30 s cho 89,79 Bq; giữ tám dòng SGK; 0 yêu cầu ghi

@@ -1,0 +1,73 @@
+.page {
+  min-height: 100svh;
+  padding: clamp(16px, 4vw, 48px);
+  display: grid;
+  place-items: center;
+  background: var(--bg-page, #f3f7fa);
+  color: var(--text-primary, #173244);
+}
+.frame {
+  width: min(100%, 1080px);
+  display: grid;
+  grid-template-columns: minmax(280px, .85fr) minmax(0, 1fr);
+  border: 1px solid var(--border-light, #d9e4eb);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 36px rgb(23 50 68 / 5%);
+}
+.introduction {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background: #edf5f6;
+  border-radius: 12px 0 0 12px;
+  border-right: 1px solid var(--border-light, #d9e4eb);
+}
+.overview { margin-block: auto; }
+.illustration { display: block; width: 144px; height: 144px; margin: 12px 0 24px; color: var(--color-primary, #116b70); }
+.eyebrow { margin: 0 0 8px; font-size: 12px; letter-spacing: .06em; font-weight: 700; color: #476775; }
+.overview h2 { font-size: clamp(25px, 2.7vw, 32px); line-height: 1.2; margin: 0 0 16px; letter-spacing: -.025em; }
+.overview p:not(.eyebrow) { color: #506777; font-size: 15px; line-height: 1.65; margin: 0; }
+.phases { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 14px; font-size: 14px; }
+.phases li { display: flex; align-items: center; gap: 10px; }
+.phases span { display: grid; place-items: center; flex: 0 0 28px; height: 28px; border: 1px solid #bfd9db; border-radius: 8px; font-size: 12px; color: #116b70; background: #fff; }
+.explore { font-size: 13px; color: #116b70; font-weight: 650; text-underline-offset: 4px; }
+.content { min-width: 0; padding: clamp(24px, 3.5vw, 48px); display: flex; align-items: center; }
+.content :global(.auth-form-container) { width: 100%; min-width: 0; padding: 0; }
+.content :global(.auth-form-header) { margin-bottom: 28px; }
+.content :global(.auth-form-header h1) { font-size: 27px; font-weight: 700; line-height: 1.25; margin: 0 0 12px; letter-spacing: -.02em; }
+.content :global(.auth-form-header p) { font-size: 14px; line-height: 1.65; margin: 0; }
+.content :global(.auth-form input:not([type="radio"]):not([type="hidden"])) { min-height: 46px; background: #fff; color: #173244; }
+.content :global(.auth-form input:not([type="radio"]):not([type="hidden"]):focus-visible) { outline: 3px solid #afd9da; outline-offset: 2px; border-color: #116b70; }
+.content :global(.role-selector) { margin-bottom: 24px; border: 1px solid var(--border-light, #d9e4eb); background: #f3f7fa; }
+.content :global(.role-selector label) { padding-inline: 10px; }
+.content :global(.auth-form-container strong) { overflow-wrap: anywhere; }
+.verification { width: 100%; min-width: 0; }
+.verification h1 { margin: 0 0 12px; font-size: 27px; line-height: 1.25; letter-spacing: -.02em; }
+.verification p { margin: 0 0 24px; color: var(--text-secondary, #506777); font-size: 14px; line-height: 1.65; }
+.statusIcon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 10px; margin-bottom: 20px; background: #e5f2ed; color: #25684b; border: 1px solid #c9e2d6; font-size: 22px; }
+.statusError { background: #fff1f0; color: #a93432; border-color: #efcccc; }
+.details { padding: 16px; margin: 0 0 24px; display: grid; gap: 12px; border: 1px solid var(--border-light, #d9e4eb); border-radius: 9px; background: #f3f7fa; font-size: 14px; }
+.details div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.details dt { flex-shrink: 0; color: var(--text-secondary, #506777); }
+.details dd { margin: 0; text-align: right; overflow-wrap: anywhere; min-width: 0; font-weight: 600; }
+.actions { display: grid; gap: 10px; }
+.actions :global(.btn) { width: 100%; text-align: center; }
+.countdown { font-size: 13px !important; }
+@media (max-width: 760px) {
+  .page { padding: 16px; align-items: start; }
+  .frame { max-width: 520px; grid-template-columns: minmax(0, 1fr); }
+  .introduction { padding: 20px 24px; gap: 10px; border-right: 0; border-bottom: 1px solid var(--border-light, #d9e4eb); border-radius: 12px 12px 0 0; }
+  .overview { display: none; }
+  .content { padding: 28px 24px; }
+  .explore { font-size: 13px; }
+  .content :global(.auth-form-header h1), .verification h1 { font-size: 25px; }
+}
+@media (max-width: 380px) {
+  .page { padding: 12px; }
+  .introduction { padding: 18px; }
+  .content { padding: 24px 18px; }
+  .details div { flex-wrap: wrap; gap: 4px 10px; }
+  .details dd { text-align: left; }
+}

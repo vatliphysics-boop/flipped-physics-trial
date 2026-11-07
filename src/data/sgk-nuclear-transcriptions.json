@@ -1,0 +1,2393 @@
+[
+  {
+    "id": "sgk-kntt-nuclear-001",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Các nhà khoa học đã làm thế nào để phát hiện hạt nhân có kích thước nhỏ hơn nhiều so với nguyên tử, dù không thể quan sát bằng kính hiển vi quang học?",
+    "explanation": "Dùng thí nghiệm tán xạ hạt alpha qua lá vàng; kết hợp đa số hạt đi gần thẳng và số ít lệch mạnh để suy ra vùng điện tích dương tập trung rất nhỏ.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 1,
+      "label": "Câu 1 · Khởi động tr. 91",
+      "pages": [
+        93
+      ],
+      "printedPages": [
+        91
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-21-2.png",
+      "description": "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-002",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Dựa vào thí nghiệm tán xạ hạt alpha: tần suất đốm sáng lớn nhất tại vị trí (1), đối diện nguồn phát trong Hình 21.2b, chứng tỏ điều gì?",
+    "explanation": "Đa số hạt alpha đi qua lá vàng gần như thẳng; phần lớn thể tích nguyên tử là khoảng trống.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 2,
+      "label": "Câu 2 · Hoạt động 1a tr. 92",
+      "pages": [
+        94
+      ],
+      "printedPages": [
+        92
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-21-2.png",
+      "description": "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-003",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Tại sao có một số hạt alpha đổi hướng chuyển động khi đi qua lá vàng?",
+    "explanation": "Hạt alpha mang điện dương chịu lực đẩy tĩnh điện khi đi gần hạt nhân vàng mang điện dương.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 3,
+      "label": "Câu 3 · Hoạt động 1b tr. 92",
+      "pages": [
+        94
+      ],
+      "printedPages": [
+        92
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-21-2.png",
+      "description": "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-004",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Tần suất hạt alpha bật lại tới vị trí (2) chỉ bằng $10^{-4}$ lần tần suất hạt đi qua tới vị trí (1). Kết quả đó chứng tỏ điều gì?",
+    "explanation": "Điện tích dương và phần lớn khối lượng nguyên tử tập trung trong hạt nhân rất nhỏ; chỉ rất ít hạt đi đủ gần hạt nhân để bị lệch góc lớn.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 4,
+      "label": "Câu 4 · Hoạt động 1c tr. 92",
+      "pages": [
+        94
+      ],
+      "printedPages": [
+        92
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-21-2.png",
+      "description": "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-005",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Nhận biết",
+    "prompt": "Mô tả mô hình hành tinh nguyên tử của Rutherford trong Hình 21.5a.",
+    "explanation": "Hạt nhân rất nhỏ, mang điện dương ở tâm; electron chuyển động xung quanh, phần lớn thể tích nguyên tử là khoảng trống.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 5,
+      "label": "Câu 5 · Hoạt động 2a tr. 92",
+      "pages": [
+        94
+      ],
+      "printedPages": [
+        92
+      ]
+    },
+    "bloom": {
+      "level": "remember",
+      "rationale": "Nhắc lại các thành phần của mô hình đã giới thiệu.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-21-5.png",
+      "description": "Hình 21.5. Một số mô hình nguyên tử",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-006",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Giải thích mô hình cấu tạo nguyên tử của Rutherford dựa vào kết quả tán xạ ở các ý 1a, 1b, 1c.",
+    "explanation": "Liên hệ hạt đi thẳng với khoảng trống; hạt lệch mạnh với lực đẩy của vùng điện tích dương tập trung; hạt bật ngược hiếm với kích thước hạt nhân rất nhỏ.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 6,
+      "label": "Câu 6 · Hoạt động 2b tr. 92",
+      "pages": [
+        94
+      ],
+      "printedPages": [
+        92
+      ]
+    },
+    "bloom": {
+      "level": "analyze",
+      "rationale": "Phân tách ba bằng chứng và nối mỗi bằng chứng với một đặc điểm cấu trúc.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-21-2.png",
+      "description": "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-007",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Xác định khối lượng proton và neutron theo đơn vị amu. Dữ kiện cùng trang: $m_p=1{,}67262\\times10^{-27}$ kg; $m_n=1{,}67493\\times10^{-27}$ kg; $1\\ \\mathrm{amu}=1{,}66054\\times10^{-27}$ kg.",
+    "explanation": "$m_p\\approx1{,}00728$ amu; $m_n\\approx1{,}00866$ amu. Chia mỗi khối lượng theo kg cho khối lượng ứng với 1 amu.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 7,
+      "label": "Câu 7 · Câu hỏi tr. 93",
+      "pages": [
+        95
+      ],
+      "printedPages": [
+        93
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Thực hiện phép đổi đơn vị bằng số liệu đã cho.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-008",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Công thức $R=1{,}2\\times10^{-15}A^{\\frac{1}{3}}$ (m) cho kết quả tốt hơn với $A>12$. Nghiệm lại cho các hạt nhân trong Bảng 21.1. Số khối A và bán kính hạt nhân (fm): H (1; 0,9), He (4; 1,7), O (16; 2,7), Si (28; 3,1), Fe (56; 3,7), Cd (114; 4,6), Au (197; 5,4), U (238; 5,9).",
+    "explanation": "Tính R dự đoán lần lượt khoảng 1,20; 1,90; 3,02; 3,64; 4,59; 5,82; 6,98; 7,44 fm, rồi so sánh với bảng. Bảng trong bản mẫu này không khớp tốt công thức ở nhiều hạt nhân A>12; không tự thay số liệu bảng để ép kết luận. Giáo viên cần đối chiếu bản SGK đang dùng.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 8,
+      "label": "Câu 8 · Câu hỏi tr. 94",
+      "pages": [
+        96
+      ],
+      "printedPages": [
+        94
+      ]
+    },
+    "bloom": {
+      "level": "evaluate",
+      "rationale": "Tính kết quả rồi kiểm tra mức phù hợp của công thức với dữ liệu, nhận diện chênh lệch.",
+      "review": "reviewed"
+    },
+    "status": "draft",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập.",
+      "Dữ kiện trong bản mẫu có chênh lệch cần xác minh trước khi giao kiểm tra."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-009",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Trong kí hiệu hạt nhân, đại lượng $N=A-Z$ cho biết số lượng loại hạt nào? Vì sao?",
+    "explanation": "N là số neutron, vì A là tổng proton và neutron còn Z là số proton.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 9,
+      "label": "Câu 9 · Câu hỏi 1 tr. 95",
+      "pages": [
+        97
+      ],
+      "printedPages": [
+        95
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-010",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Bằng cách nào có thể tìm số Z và số N của hạt nhân có kí hiệu dạng ${}^{A}\\mathrm{X}$?",
+    "explanation": "Tra số hiệu nguyên tử Z của nguyên tố X trong bảng tuần hoàn; lấy N=A−Z.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 10,
+      "label": "Câu 10 · Câu hỏi 2 tr. 95",
+      "pages": [
+        97
+      ],
+      "printedPages": [
+        95
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-011",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Viết kí hiệu hạt nhân vàng (Au), helium (He), nitrogen (N), biết số nucleon lần lượt là 197; 4; 14.",
+    "explanation": "${}^{197}_{79}\\mathrm{Au}$; ${}^{4}_{2}\\mathrm{He}$; ${}^{14}_{7}\\mathrm{N}$. Dùng bảng tuần hoàn để xác định Z.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 11,
+      "label": "Câu 11 · Câu hỏi 3 tr. 95",
+      "pages": [
+        97
+      ],
+      "printedPages": [
+        95
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Sử dụng số khối đã cho và bảng tuần hoàn để lập kí hiệu hạt nhân.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-012",
+    "kind": "written",
+    "topic": "B21",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Giải thích tại sao các chất cấu tạo từ cùng một loại nguyên tố nhưng khối lượng riêng vẫn có thể khác nhau.",
+    "explanation": "Các đồng vị cùng Z nhưng khác N nên khối lượng nguyên tử khác nhau. Ngoài thành phần đồng vị, khối lượng riêng còn phụ thuộc cấu trúc và trạng thái vật chất; chỉ so sánh do đồng vị khi các điều kiện khác tương đương.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 12,
+      "label": "Câu 12 · Câu hỏi đồng vị tr. 95",
+      "pages": [
+        97
+      ],
+      "printedPages": [
+        95
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-013",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Người ta đã thực hiện thí nghiệm phát hiện phản ứng hạt nhân như thế nào? Các hạt nhân có thể biến đổi thành các hạt nhân khác không?",
+    "explanation": "Bắn hạt alpha vào nitrogen; vết tương tác trong buồng sương cho bằng chứng tạo oxygen và proton. Phản ứng minh họa: ${}^{4}_{2}\\mathrm{He}+{}^{14}_{7}\\mathrm{N}\\to{}^{17}_{8}\\mathrm{O}+{}^{1}_{1}\\mathrm{H}$.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 13,
+      "label": "Câu 13 · Khởi động tr. 96",
+      "pages": [
+        98
+      ],
+      "printedPages": [
+        96
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-22-2.png",
+      "description": "Hình 22.2. Ảnh kết quả thí nghiệm của Blackett",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-014",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "So sánh tổng điện tích và tổng số nucleon của các hạt nhân trước và sau tương tác trong Hình 22.2.",
+    "explanation": "Trước: Z=2+7=9, A=4+14=18. Sau: Z=8+1=9, A=17+1=18. Hai tổng được bảo toàn.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 14,
+      "label": "Câu 14 · Hoạt động tr. 97",
+      "pages": [
+        99
+      ],
+      "printedPages": [
+        97
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Đọc kí hiệu trong hình và tính hai tổng ở mỗi vế.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-22-2.png",
+      "description": "Hình 22.2. Ảnh kết quả thí nghiệm của Blackett",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-015",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Trình bày sự khác nhau giữa phản ứng hạt nhân và phản ứng hóa học.",
+    "explanation": "Phản ứng hạt nhân thay đổi cấu tạo hạt nhân và có thể biến đổi nguyên tố; phản ứng hóa học chủ yếu sắp xếp electron/liên kết, hạt nhân nguyên tử giữ nguyên.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 15,
+      "label": "Câu 15 · Câu hỏi tr. 97",
+      "pages": [
+        99
+      ],
+      "printedPages": [
+        97
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-016",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Viết biểu thức liên hệ số khối và điện tích trong phản ứng ${}^{A_1}_{Z_1}\\mathrm{X}_1+{}^{A_2}_{Z_2}\\mathrm{X}_2\\to{}^{A_3}_{Z_3}\\mathrm{X}_3+{}^{A_4}_{Z_4}\\mathrm{X}_4$.",
+    "explanation": "$A_1+A_2=A_3+A_4$; $Z_1+Z_2=Z_3+Z_4$.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 16,
+      "label": "Câu 16 · Hoạt động 1 tr. 97",
+      "pages": [
+        99
+      ],
+      "printedPages": [
+        97
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Áp dụng hai định luật bảo toàn vào phản ứng được cho.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-017",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Khi ${}^{235}_{92}\\mathrm{U}$ hấp thụ neutron, tạo hạt nhân X rồi phân rã thành ${}^{99}_{42}\\mathrm{Mo}$, ba neutron và hạt nhân Y. a) Viết các phương trình. b) Dùng bảng tuần hoàn xác định X, Y.",
+    "explanation": "${}^{235}_{92}\\mathrm{U}+{}^{1}_{0}\\mathrm{n}\\to{}^{236}_{92}\\mathrm{U}^{*}$; ${}^{236}_{92}\\mathrm{U}^{*}\\to{}^{99}_{42}\\mathrm{Mo}+{}^{134}_{50}\\mathrm{Sn}+3{}^{1}_{0}\\mathrm{n}$. X là uranium-236 kích thích, Y là tin-134.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 17,
+      "label": "Câu 17 · Hoạt động 2 tr. 97",
+      "pages": [
+        99
+      ],
+      "printedPages": [
+        97
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Tính A, Z chưa biết theo bảo toàn, rồi tra tên nguyên tố.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-018",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Vì sao tách các nucleon ra khỏi hạt nhân cần một năng lượng lớn?",
+    "explanation": "Phải cung cấp năng lượng để thắng liên kết do tương tác hạt nhân mạnh giữa các nucleon.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 18,
+      "label": "Câu 18 · Câu hỏi tr. 98",
+      "pages": [
+        100
+      ],
+      "printedPages": [
+        98
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-019",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Nêu mối liên hệ giữa độ bền vững của hạt nhân và năng lượng liên kết riêng.",
+    "explanation": "Năng lượng liên kết riêng lớn biểu thị nucleon được liên kết chặt hơn theo cách so sánh ở SGK. Độ bền đối với từng kênh phân rã còn phụ thuộc cấu trúc và điều kiện năng lượng, không chỉ một đại lượng E/A.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 19,
+      "label": "Câu 19 · Hoạt động 1 tr. 98",
+      "pages": [
+        100
+      ],
+      "printedPages": [
+        98
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-020",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Từ Hình 22.3, chỉ ra hai hạt nhân bền vững nhất và ước lượng năng lượng liên kết riêng của chúng.",
+    "explanation": "Trong các điểm được gắn nhãn trên hình, ${}^{56}\\mathrm{Fe}$ và ${}^{89}\\mathrm{Y}$ gần đỉnh; khoảng 8,8 MeV/nuclon. Đây là ước lượng từ đồ thị SGK, không phải khẳng định hai đồng vị bền nhất trong toàn bộ bảng nuclide.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 20,
+      "label": "Câu 20 · Hoạt động 2a tr. 98",
+      "pages": [
+        100
+      ],
+      "printedPages": [
+        98
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Diễn giải điểm cực đại của đồ thị trong phạm vi các điểm được biểu diễn.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-22-3.png",
+      "description": "Hình 22.3. Năng lượng liên kết riêng theo số khối",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-021",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Từ Hình 22.3, xác định năm hạt nhân nhẹ ($A\\le30$) và bốn hạt nhân nặng ($A\\ge160$) có năng lượng liên kết riêng nhỏ hơn 8,2 MeV.",
+    "explanation": "Nhẹ: ${}^{2}\\mathrm{H}$, ${}^{4}\\mathrm{He}$, ${}^{6}\\mathrm{Li}$, ${}^{9}\\mathrm{Be}$, ${}^{11}\\mathrm{B}$. Nặng: ${}^{160}\\mathrm{Dy}$, ${}^{197}\\mathrm{Au}$, ${}^{209}\\mathrm{Bi}$, ${}^{238}\\mathrm{U}$. Đọc theo các điểm được gắn nhãn, có sai số ước lượng.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 21,
+      "label": "Câu 21 · Hoạt động 2b tr. 98",
+      "pages": [
+        100
+      ],
+      "printedPages": [
+        98
+      ]
+    },
+    "bloom": {
+      "level": "analyze",
+      "rationale": "Lọc các điểm theo đồng thời miền số khối và ngưỡng năng lượng.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-22-3.png",
+      "description": "Hình 22.3. Năng lượng liên kết riêng theo số khối",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-022",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Tính độ hụt khối hạt nhân ${}^{16}_{8}\\mathrm{O}$, biết khối lượng hạt nhân là 15,99492 amu. Dùng $m_p=1{,}00728$ amu, $m_n=1{,}00866$ amu từ bài.",
+    "explanation": "$\\Delta m=8m_p+8m_n-m_O=0{,}13260$ amu. Giá trị khối lượng ở bản mẫu cần đối chiếu cách dùng khối lượng hạt nhân/nguyên tử; đáp số này theo đúng dữ kiện đã cho.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 22,
+      "label": "Câu 22 · Câu hỏi tr. 99",
+      "pages": [
+        101
+      ],
+      "printedPages": [
+        99
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Thay Z, N và khối lượng vào công thức độ hụt khối.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-023",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Tính năng lượng liên kết và năng lượng liên kết riêng của ${}^{4}_{2}\\mathrm{He}$. Dữ kiện cùng bài: khối lượng hạt nhân 4,00015 amu, $m_p=1{,}00728$ amu, $m_n=1{,}00866$ amu; $1\\ \\mathrm{amu}\\,c^2=931{,}5$ MeV.",
+    "explanation": "$\\Delta m=0{,}03173$ amu; $E_{lk}\\approx29{,}557$ MeV; $\\frac{E_{lk}}{A}\\approx7{,}389$ MeV/nuclon, theo số liệu đã cho.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 23,
+      "label": "Câu 23 · Hoạt động a tr. 100",
+      "pages": [
+        102
+      ],
+      "printedPages": [
+        100
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Dùng độ hụt khối, rồi đổi sang năng lượng và chia cho số nucleon.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-024",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Tìm hệ số chuyển đổi giữa amu và $\\mathrm{MeV}/c^2$. Dùng $1\\ \\mathrm{amu}=1{,}66054\\times10^{-27}$ kg, $c\\approx3{,}00\\times10^8$ m/s và $1\\ \\mathrm{MeV}=1{,}60218\\times10^{-13}$ J.",
+    "explanation": "$1\\ \\mathrm{amu}\\approx932{,}8\\ \\mathrm{MeV}/c^2$ với c làm tròn như đề. Dùng c chính xác hơn cho hệ số chuẩn khoảng 931,5. Ghi rõ mức làm tròn sử dụng.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 24,
+      "label": "Câu 24 · Hoạt động b tr. 100",
+      "pages": [
+        102
+      ],
+      "printedPages": [
+        100
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Đổi khối lượng sang năng lượng bằng E=mc² rồi đổi J sang MeV.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-025",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Phân hạch hạt nhân là gì? Nêu đặc điểm phản ứng phân hạch uranium.",
+    "explanation": "Một hạt nhân nặng bị tách thành các mảnh nhẹ hơn; uranium-235 hấp thụ neutron tạo uranium-236 kích thích rồi phân hạch, giải phóng neutron và năng lượng. Các nhánh sản phẩm có thể khác nhau.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 25,
+      "label": "Câu 25 · Hoạt động tr. 101",
+      "pages": [
+        103
+      ],
+      "printedPages": [
+        101
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-22-6.png",
+      "description": "Hình 22.6. Tiến trình phân hạch uranium-235",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-026",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Nêu đặc điểm phản ứng phân hạch dây chuyền.",
+    "explanation": "Neutron từ một lần phân hạch kích thích các lần phân hạch tiếp theo. Phản ứng duy trì khi trung bình đủ neutron gây phân hạch mới; có thể tắt, ổn định hoặc tăng tùy điều kiện.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 26,
+      "label": "Câu 26 · Câu hỏi 1 tr. 101",
+      "pages": [
+        103
+      ],
+      "printedPages": [
+        101
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-22-7.png",
+      "description": "Hình 22.7. Minh họa phản ứng phân hạch dây chuyền",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-027",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Tính năng lượng tỏa khi phân hạch hoàn toàn 1 kg ${}^{235}_{92}\\mathrm{U}$; mỗi phân hạch tỏa 200 MeV. Dùng $N_A=6{,}022\\times10^{23}\\ \\mathrm{mol}^{-1}$, $1\\ \\mathrm{MeV}=1{,}602\\times10^{-13}$ J.",
+    "explanation": "$Q=\\frac{1000}{235}N_A\\times200\\times1{,}602\\times10^{-13}\\approx8{,}21\\times10^{13}$ J.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 27,
+      "label": "Câu 27 · Câu hỏi 2 tr. 101",
+      "pages": [
+        103
+      ],
+      "printedPages": [
+        101
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Tính số hạt từ khối lượng và nhân năng lượng mỗi phân hạch.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-028",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Nhận biết",
+    "prompt": "Tổng hợp hạt nhân là gì? Nêu điều kiện xảy ra phản ứng tổng hợp hạt nhân.",
+    "explanation": "Các hạt nhân nhẹ kết hợp thành hạt nhân nặng hơn. Cần đủ năng lượng để vượt rào đẩy Coulomb; trong nhiệt hạch cần nhiệt độ, mật độ và thời gian duy trì phù hợp.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 28,
+      "label": "Câu 28 · Câu hỏi 1 tr. 103",
+      "pages": [
+        105
+      ],
+      "printedPages": [
+        103
+      ]
+    },
+    "bloom": {
+      "level": "remember",
+      "rationale": "Nhắc lại định nghĩa và các điều kiện đã giới thiệu.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-029",
+    "kind": "written",
+    "topic": "B22",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "So sánh định tính tổng hợp hạt nhân và phân hạch về nhiên liệu và điều kiện xảy ra phản ứng.",
+    "explanation": "Tổng hợp dùng các hạt nhân nhẹ, cần điều kiện đưa chúng đến đủ gần nhau; phân hạch dùng hạt nhân nặng, có thể được kích thích bằng neutron thích hợp. So sánh theo cùng hai tiêu chí.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 29,
+      "label": "Câu 29 · Câu hỏi 2 tr. 103",
+      "pages": [
+        105
+      ],
+      "printedPages": [
+        103
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-030",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Trong thí nghiệm Becquerel, tấm phim có vết sáng dù mẫu uranium được để trong bóng tối. Nguyên nhân nào gây tác dụng lên phim?",
+    "explanation": "Bức xạ phát ra tự phát từ chất chứa uranium tác động lên phim; hiện tượng không đòi hỏi mẫu được chiếu sáng trước.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 30,
+      "label": "Câu 30 · Khởi động tr. 104",
+      "pages": [
+        106
+      ],
+      "printedPages": [
+        104
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-031",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Hiện tượng phóng xạ có tính tự phát hay phụ thuộc nhiệt độ, áp suất của môi trường?",
+    "explanation": "Theo mô hình SGK, phân rã phóng xạ có tính tự phát, không bị điều khiển bởi thay đổi nhiệt độ, áp suất thông thường.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 31,
+      "label": "Câu 31 · Hoạt động 1 tr. 104",
+      "pages": [
+        106
+      ],
+      "printedPages": [
+        104
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-032",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Có thể điều khiển hiện tượng phóng xạ không? Tại sao?",
+    "explanation": "Không điều khiển thời điểm phân rã từng hạt nhân bằng điều kiện môi trường thông thường; có thể kiểm soát phơi nhiễm bằng che chắn, khoảng cách và thời gian.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 32,
+      "label": "Câu 32 · Hoạt động 2 tr. 104",
+      "pages": [
+        106
+      ],
+      "printedPages": [
+        104
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-033",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Bảng 23.1: các khoảng 0–5; 5–10; 10–15; 15–20; 20–25; 25–30 s có số tia ghi nhận lần lượt 1; 3; 2; 0; 3; 1. a) Nhận xét số lượng phân rã trong những khoảng bằng nhau. b) Có dự đoán chính xác thời điểm và số lượng phân rã từng khoảng được không?",
+    "explanation": "Số đếm dao động, không bằng nhau dù khoảng thời gian bằng nhau. Không dự đoán chính xác thời điểm phân rã từng hạt hay từng số đếm; chỉ dự đoán thống kê khi xét nhiều hạt/lượt. Số đếm còn phụ thuộc hiệu suất ghi nhận.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 33,
+      "label": "Câu 33 · Hoạt động tr. 105",
+      "pages": [
+        107
+      ],
+      "printedPages": [
+        105
+      ]
+    },
+    "bloom": {
+      "level": "analyze",
+      "rationale": "So sánh các khoảng đo và phân biệt kết quả ngẫu nhiên với dự đoán thống kê.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-034",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Nhận biết",
+    "prompt": "Nêu các tính chất tia phóng xạ $\\alpha$.",
+    "explanation": "Là hạt nhân ${}^{4}_{2}\\mathrm{He}$, điện tích +2e, ion hóa mạnh và đâm xuyên kém; bị lệch trong điện/từ trường.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 34,
+      "label": "Câu 34 · Câu hỏi alpha 1 tr. 106",
+      "pages": [
+        108
+      ],
+      "printedPages": [
+        106
+      ]
+    },
+    "bloom": {
+      "level": "remember",
+      "rationale": "Nhắc lại bản chất và tính chất của loại bức xạ.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-23-4.png",
+      "description": "Hình 23.4. Khả năng đâm xuyên của các tia phóng xạ",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-035",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Viết phương trình phân rã $\\alpha$ của ${}^{235}_{92}\\mathrm{U}$.",
+    "explanation": "${}^{235}_{92}\\mathrm{U}\\to{}^{231}_{90}\\mathrm{Th}+{}^{4}_{2}\\mathrm{He}$.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 35,
+      "label": "Câu 35 · Câu hỏi alpha 2 tr. 106",
+      "pages": [
+        108
+      ],
+      "printedPages": [
+        106
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Áp dụng bảo toàn A và điện tích cho phân rã alpha.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-036",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Nhận biết",
+    "prompt": "Nêu các tính chất phóng xạ $\\beta$.",
+    "explanation": "$\\beta^-$ là electron, $\\beta^+$ là positron, vận tốc lớn; mức ion hóa và đâm xuyên khác alpha; chịu lực trong điện/từ trường.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 36,
+      "label": "Câu 36 · Câu hỏi beta 1 tr. 106",
+      "pages": [
+        108
+      ],
+      "printedPages": [
+        106
+      ]
+    },
+    "bloom": {
+      "level": "remember",
+      "rationale": "Nhắc lại bản chất hai loại tia beta.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-037",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Viết phương trình phân rã $\\beta^-$ của ${}^{90}_{38}\\mathrm{Sr}$ và $\\beta^+$ của ${}^{18}_{9}\\mathrm{F}$.",
+    "explanation": "${}^{90}_{38}\\mathrm{Sr}\\to{}^{90}_{39}\\mathrm{Y}+{}^{0}_{-1}\\mathrm{e}+\\mathrm{antineutrino}$; ${}^{18}_{9}\\mathrm{F}\\to{}^{18}_{8}\\mathrm{O}+{}^{0}_{1}\\mathrm{e}+\\nu$.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 37,
+      "label": "Câu 37 · Câu hỏi beta 2 tr. 106",
+      "pages": [
+        108
+      ],
+      "printedPages": [
+        106
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Áp dụng quy tắc giữ A, thay Z đúng chiều và bảo toàn điện tích.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-038",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Nhận biết",
+    "prompt": "Nêu các tính chất phóng xạ $\\gamma$.",
+    "explanation": "Là photon năng lượng cao, không mang điện, không lệch trong điện/từ trường, đâm xuyên mạnh; phát khi hạt nhân chuyển về mức năng lượng thấp hơn.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 38,
+      "label": "Câu 38 · Câu hỏi gamma 1 tr. 107",
+      "pages": [
+        109
+      ],
+      "printedPages": [
+        107
+      ]
+    },
+    "bloom": {
+      "level": "remember",
+      "rationale": "Nhắc lại bản chất và tính chất gamma.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-039",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Technetium ${}^{99}_{43}\\mathrm{Tc}^{*}$ là đồng vị phát gamma dùng trong chụp ảnh y học hạt nhân. Viết phương trình phân rã này.",
+    "explanation": "${}^{99}_{43}\\mathrm{Tc}^{*}\\to{}^{99}_{43}\\mathrm{Tc}+\\gamma$. Số A và Z không đổi.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 39,
+      "label": "Câu 39 · Câu hỏi gamma 2 tr. 107",
+      "pages": [
+        109
+      ],
+      "printedPages": [
+        107
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Áp dụng đặc điểm chuyển mức năng lượng không thay đổi A, Z.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-040",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Giải thích hướng lệch của các tia phóng xạ trong điện trường và từ trường ở Hình 23.3.",
+    "explanation": "$\\alpha,\\beta^+$ mang điện dương và $\\beta^-$ mang điện âm nên lực điện có chiều ngược nhau; gamma trung hòa nên không lệch. Trong từ trường dùng lực Lorentz theo hướng vận tốc, từ trường và dấu điện tích.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 40,
+      "label": "Câu 40 · Hoạt động 1 tr. 107",
+      "pages": [
+        109
+      ],
+      "printedPages": [
+        107
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích đường đi từ điện tích và lực tương ứng.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-23-3.png",
+      "description": "Hình 23.3. Sự lệch các tia phóng xạ trong điện trường và từ trường",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-041",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Giải thích vì sao tia alpha, beta và gamma có khả năng đâm xuyên khác nhau.",
+    "explanation": "Bản chất, khối lượng, điện tích và cơ chế tương tác với vật chất khác nhau. Alpha mất năng lượng nhanh do ion hóa mạnh; beta thường xuyên sâu hơn; photon gamma tương tác theo cơ chế khác và xuyên sâu hơn trong mô tả định tính SGK.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 41,
+      "label": "Câu 41 · Hoạt động 2 tr. 107",
+      "pages": [
+        109
+      ],
+      "printedPages": [
+        107
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-23-4.png",
+      "description": "Hình 23.4. Khả năng đâm xuyên của các tia phóng xạ",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-042",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Nhận biết",
+    "prompt": "Phát biểu định nghĩa chu kì bán rã.",
+    "explanation": "Khoảng thời gian để số hạt nhân chưa phân rã của mẫu giảm còn một nửa giá trị ban đầu theo mô hình thống kê.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 42,
+      "label": "Câu 42 · Câu hỏi 1 tr. 108",
+      "pages": [
+        110
+      ],
+      "printedPages": [
+        108
+      ]
+    },
+    "bloom": {
+      "level": "remember",
+      "rationale": "Nhắc lại định nghĩa chu kì bán rã.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-043",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Đồng vị ${}^{15}_{8}\\mathrm{O}$ sau 244 s có 75% số hạt nhân ban đầu đã phân rã. Tính chu kì bán rã.",
+    "explanation": "Còn 25% nên $244=2T$, do đó $T=122$ s.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 43,
+      "label": "Câu 43 · Câu hỏi 2 tr. 108",
+      "pages": [
+        110
+      ],
+      "printedPages": [
+        108
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Chuyển phần đã phân rã sang phần còn lại và áp dụng định luật bán rã.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-044",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Nêu ý nghĩa của hằng số phóng xạ.",
+    "explanation": "$\\lambda=\\frac{\\ln 2}{T}$ đặc trưng tốc độ phân rã của đồng vị; với nhiều hạt, độ phóng xạ trung bình $H=\\lambda N$.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 44,
+      "label": "Câu 44 · Câu hỏi 1 tr. 109",
+      "pages": [
+        111
+      ],
+      "printedPages": [
+        109
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-045",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Dược chất Flortaucipir chứa ${}^{18}_{9}\\mathrm{F}$ có chu kì bán rã khoảng 110 phút. Sau bao lâu lượng đồng vị giảm còn 10% và 1% lúc đầu?",
+    "explanation": "$t=T\\log_2\\!\\left(\\frac{N_0}{N}\\right)$; khoảng 365,4 phút (10%) và 730,8 phút (1%).",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 45,
+      "label": "Câu 45 · Câu hỏi 2a tr. 109",
+      "pages": [
+        111
+      ],
+      "printedPages": [
+        109
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Giải phương trình suy giảm mũ cho hai tỉ lệ đã cho.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-046",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Mỗi mL Flortaucipir có độ phóng xạ ban đầu $10^9$ Bq, đồng vị ${}^{18}_{9}\\mathrm{F}$ có T=110 phút. Tính số hạt đồng vị trong mỗi mL lúc đầu và sau một ngày.",
+    "explanation": "$N_0=\\frac{H_0T}{\\ln 2}\\approx9{,}52\\times10^{12}$ hạt, với T=6600 s. Sau 1440 phút: $N\\approx1{,}09\\times10^9$ hạt.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 46,
+      "label": "Câu 46 · Câu hỏi 2b tr. 109",
+      "pages": [
+        111
+      ],
+      "printedPages": [
+        109
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Đổi thời gian thống nhất, dùng H=λN rồi suy giảm theo thời gian.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-047",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Tìm hiểu tác hại của phóng xạ đến sức khỏe: a) các loại phơi nhiễm; b) biểu hiện; c) cách phòng tránh.",
+    "explanation": "Phân biệt chiếu xạ ngoài với chất phóng xạ vào cơ thể; tác động phụ thuộc loại bức xạ, mức và thời gian phơi nhiễm. Phòng tránh theo kiểm soát nguồn, thời gian, khoảng cách, che chắn và hướng dẫn chuyên môn. Khi trình bày biểu hiện phải dùng nguồn y tế có tác giả/cơ quan; không suy chẩn đoán cho cá nhân.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 47,
+      "label": "Câu 47 · Hoạt động 1 tr. 111",
+      "pages": [
+        113
+      ],
+      "printedPages": [
+        111
+      ]
+    },
+    "bloom": {
+      "level": "analyze",
+      "rationale": "Phân loại con đường phơi nhiễm và liên hệ với biện pháp bảo vệ; cần bằng chứng nguồn.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-048",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Nêu tên các địa điểm/vật có nguy cơ phóng xạ ở Hình 23.9. Nếu gặp các biển cảnh báo đó, em sẽ làm gì?",
+    "explanation": "Nhà máy/khu vực hạt nhân, thiết bị chứa nguồn, phòng đặt máy gia tốc, phòng PET/CT. Không tự tiếp cận hoặc mở vật chứa; làm theo biển và hướng dẫn của người phụ trách.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 48,
+      "label": "Câu 48 · Hoạt động 2 tr. 111",
+      "pages": [
+        113
+      ],
+      "printedPages": [
+        111
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Áp dụng ý nghĩa biển cảnh báo vào tình huống cụ thể.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-23-9.png",
+      "description": "Hình 23.9. Biển cảnh báo phóng xạ trong nhiều trường hợp",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-049",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Tìm hiểu và nêu thêm nguyên tắc an toàn phóng xạ. Việc tuân thủ quy tắc có vai trò gì?",
+    "explanation": "Kiểm soát nguồn và tiếp cận, dùng thiết bị bảo vệ/giám sát phù hợp, đào tạo và làm theo quy trình đơn vị. Vai trò: giảm phơi nhiễm không cần thiết và nguy cơ nhiễm bẩn; không tự thực hành với nguồn thật.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 49,
+      "label": "Câu 49 · Hoạt động 1 tr. 112",
+      "pages": [
+        114
+      ],
+      "printedPages": [
+        112
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-050",
+    "kind": "written",
+    "topic": "B23",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Nguồn và chất thải phóng xạ được bảo quản trong thiết bị lưu trữ (Hình 23.12) hoặc hầm cách li nguồn nước (Hình 24.2). Người ta áp dụng nguyên tắc an toàn nào?",
+    "explanation": "Che chắn bằng vật liệu thích hợp, lưu giữ/kiểm soát nguồn, cách li tránh chất phóng xạ phát tán vào môi trường và nguồn nước. Nêu cả che chắn bức xạ và ngăn nhiễm bẩn.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 50,
+      "label": "Câu 50 · Hoạt động 2 tr. 112",
+      "pages": [
+        114
+      ],
+      "printedPages": [
+        112
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-23-12.png",
+      "description": "Hình 23.12. Thiết bị bảo quản dược chất phóng xạ",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-051",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Nhà máy điện hạt nhân có những ưu điểm và nhược điểm gì?",
+    "explanation": "Nêu khả năng phát điện ổn định, nhiên liệu có mật độ năng lượng cao và phát thải trực tiếp thấp; cân nhắc chi phí đầu tư, chất thải, an toàn, thời gian xây dựng và tháo dỡ. Kết luận cần tiêu chí so sánh, không chỉ liệt kê.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 51,
+      "label": "Câu 51 · Khởi động tr. 114",
+      "pages": [
+        116
+      ],
+      "printedPages": [
+        114
+      ]
+    },
+    "bloom": {
+      "level": "evaluate",
+      "rationale": "Cân nhắc lợi ích và hạn chế theo các tiêu chí năng lượng, môi trường và kinh tế.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-052",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Vì sao nhà máy điện hạt nhân thường được xây cạnh hồ, sông hoặc bờ biển?",
+    "explanation": "Cần nguồn nước để làm mát/ngưng tụ và thải nhiệt; vị trí còn phải đáp ứng điều kiện an toàn, địa chất, môi trường.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 52,
+      "label": "Câu 52 · Câu hỏi 1 tr. 116",
+      "pages": [
+        118
+      ],
+      "printedPages": [
+        116
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-053",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Liệt kê các nguy cơ ảnh hưởng sức khỏe con người và môi trường nếu xảy ra sự cố tại lò phản ứng hạt nhân.",
+    "explanation": "Có thể phát tán chất phóng xạ, gây chiếu xạ/nhiễm bẩn, ảnh hưởng nước, đất và hệ sinh thái. Mức nguy cơ tùy kịch bản sự cố và biện pháp kiểm soát; không khẳng định mọi sự cố có hậu quả như nhau.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 53,
+      "label": "Câu 53 · Câu hỏi 2 tr. 116",
+      "pages": [
+        118
+      ],
+      "printedPages": [
+        116
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-054",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Nêu vai trò nhà máy điện hạt nhân trong đời sống.",
+    "explanation": "Cung cấp điện năng, góp phần bảo đảm nguồn điện ổn định; liên hệ điều kiện của hệ thống điện và quản lí an toàn.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 54,
+      "label": "Câu 54 · Thảo luận 1 tr. 116",
+      "pages": [
+        118
+      ],
+      "printedPages": [
+        116
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-055",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Đánh giá ưu điểm, nhược điểm và cơ hội phát triển của nhà máy điện hạt nhân.",
+    "explanation": "So sánh theo phát điện ổn định, phát thải vòng đời, chi phí, thời gian xây dựng, chất thải và an toàn; dẫn nguồn cho nhận định cơ hội, tránh chỉ khẳng định ưu/nhược điểm.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 55,
+      "label": "Câu 55 · Thảo luận 2 tr. 116",
+      "pages": [
+        118
+      ],
+      "printedPages": [
+        116
+      ]
+    },
+    "bloom": {
+      "level": "evaluate",
+      "rationale": "Đưa ra nhận định có tiêu chí và bằng chứng, cân nhắc các phương án.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-056",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Tại sao sử dụng tia gamma trong chụp ảnh phóng xạ cắt lớp bên trong cơ thể?",
+    "explanation": "Photon phát ra từ đồng vị trong cơ thể có thể tới máy dò bên ngoài; hệ ghi nhận và xử lí tái tạo phân bố chất đánh dấu. Phân biệt SPECT với PET: PET ghi cặp photon do hủy positron–electron, không phải tia X từ máy CT.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 56,
+      "label": "Câu 56 · Thảo luận 1 tr. 117",
+      "pages": [
+        119
+      ],
+      "printedPages": [
+        117
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-057",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Nêu vai trò y học hạt nhân trong đời sống.",
+    "explanation": "Chẩn đoán qua theo dõi chất đánh dấu và điều trị bằng bức xạ phù hợp; thực hiện bởi cơ sở và nhân viên chuyên môn, có quy trình an toàn.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 57,
+      "label": "Câu 57 · Thảo luận 2 tr. 117",
+      "pages": [
+        119
+      ],
+      "printedPages": [
+        117
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-058",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Đánh giá ưu điểm, nhược điểm và cơ hội phát triển y học hạt nhân.",
+    "explanation": "Cân nhắc thông tin chức năng, khả năng chẩn đoán/điều trị với phơi nhiễm, chi phí, thiết bị, nhân lực và cung ứng đồng vị; dùng nguồn y tế có cơ quan/tác giả.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 58,
+      "label": "Câu 58 · Thảo luận 3 tr. 117",
+      "pages": [
+        119
+      ],
+      "printedPages": [
+        117
+      ]
+    },
+    "bloom": {
+      "level": "evaluate",
+      "rationale": "Đánh giá công nghệ bằng tiêu chí lợi ích, hạn chế và điều kiện triển khai.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-059",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Khi dùng máy xạ trị, tia phóng xạ có tác động lên tế bào khỏe mạnh không? Tìm thông tin về triệu chứng có thể xuất hiện sau xạ trị.",
+    "explanation": "Có thể ảnh hưởng mô khỏe; vị trí và mức tác động tùy kế hoạch điều trị. Khi tìm triệu chứng cần ghi nguồn y tế và điều kiện, không suy chẩn đoán hoặc tự hướng dẫn điều trị từ bài học.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 59,
+      "label": "Câu 59 · Câu hỏi xạ trị tr. 117",
+      "pages": [
+        119
+      ],
+      "printedPages": [
+        117
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-060",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Nêu vai trò ứng dụng phóng xạ hạt nhân trong công nghệ sinh học và bảo quản thực phẩm.",
+    "explanation": "Gây đột biến có chọn lọc trong nghiên cứu/chọn giống, theo dõi chất đánh dấu; chiếu xạ giảm vi sinh vật hoặc ức chế mọc mầm để bảo quản trong điều kiện phù hợp.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 60,
+      "label": "Câu 60 · Thảo luận 1 tr. 118",
+      "pages": [
+        120
+      ],
+      "printedPages": [
+        118
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-061",
+    "kind": "written",
+    "topic": "B24",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Đánh giá ưu điểm, nhược điểm và cơ hội phát triển các ứng dụng phóng xạ trong công nghệ sinh học và bảo quản thực phẩm.",
+    "explanation": "Đánh giá theo hiệu quả, chất lượng sản phẩm, chi phí thiết bị, kiểm soát quy trình và nhu cầu thực tiễn. Dẫn nguồn cho điều kiện chiếu xạ; không đồng nhất thực phẩm chiếu xạ với thực phẩm nhiễm chất phóng xạ.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 61,
+      "label": "Câu 61 · Thảo luận 2 tr. 118",
+      "pages": [
+        120
+      ],
+      "printedPages": [
+        118
+      ]
+    },
+    "bloom": {
+      "level": "evaluate",
+      "rationale": "Cân nhắc các tiêu chí và dùng bằng chứng cho kết luận.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-062",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Nhận biết",
+    "prompt": "Cần vận dụng những kiến thức cơ bản nào để giải bài tập về vật lí hạt nhân?",
+    "explanation": "Cấu trúc/kí hiệu hạt nhân, bảo toàn trong phản ứng, năng lượng liên kết, định luật phóng xạ và ứng dụng; chọn công thức phù hợp dữ kiện.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 62,
+      "label": "Câu 62 · Khởi động tr. 119",
+      "pages": [
+        121
+      ],
+      "printedPages": [
+        119
+      ]
+    },
+    "bloom": {
+      "level": "remember",
+      "rationale": "Nhắc lại các nhóm kiến thức chính của chủ đề.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-063",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Vì sao khi đưa mẫu phóng xạ (1) lại gần đầu thu điện (2) của tĩnh điện kế đã tích điện (Hình 25.1), độ lệch kim (3) giảm rất nhanh?",
+    "explanation": "Bức xạ ion hóa không khí, làm không khí dẫn điện hơn; điện tích của tĩnh điện kế thất thoát nên kim nhanh về 0. Khác với chỉ đưa điện tích trái dấu đến gây tích điện ngược.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 63,
+      "label": "Câu 63 · Bài tập ví dụ 1 tr. 119",
+      "pages": [
+        121
+      ],
+      "printedPages": [
+        119
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Giải thích hoặc diễn giải mối quan hệ vật lí từ kiến thức đã học.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-25-1.png",
+      "description": "Hình 25.1. Đưa mẫu phóng xạ lại gần tĩnh điện kế",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-064",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Viết phương trình phân hạch ${}^{235}_{92}\\mathrm{U}$ khi hấp thụ một neutron; sản phẩm gồm ${}^{140}_{58}\\mathrm{Ce}$, ${}^{94}_{40}\\mathrm{Zr}$, neutron và các tia $\\beta^-$.",
+    "explanation": "Theo bài toán bảo toàn của SGK: ${}^{235}_{92}\\mathrm{U}+{}^{1}_{0}\\mathrm{n}\\to{}^{140}_{58}\\mathrm{Ce}+{}^{94}_{40}\\mathrm{Zr}+2{}^{1}_{0}\\mathrm{n}+6{}^{0}_{-1}\\mathrm{e}$. Đây là biểu diễn gộp; beta thường được phát trong các phân rã sau phân hạch, không khẳng định sáu electron đồng thời sinh ra ở bước phân hạch tức thời.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 64,
+      "label": "Câu 64 · Bài tập ví dụ 2 tr. 120",
+      "pages": [
+        122
+      ],
+      "printedPages": [
+        120
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Dùng đồng thời bảo toàn A và điện tích để tìm hệ số.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-065",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Máy xạ trị dùng ${}^{60}_{27}\\mathrm{Co}$, T=5,3 năm. Theo điều kiện bài toán, cần bảo dưỡng trước khi độ phóng xạ giảm 7% và thay nguồn khi giảm 50%. Thiết lập lịch bảo dưỡng và thay nguồn.",
+    "explanation": "Ngưỡng 7% ứng với $t=5{,}3\\,\\frac{\\ln(1/0{,}93)}{\\ln 2}\\approx0{,}555$ năm, tức khoảng $6{,}66$ tháng; chọn chu kì 6 tháng để trước ngưỡng. Ngưỡng 50% ứng với 5,3 năm. Đây là điều kiện bài toán SGK, không phải quy định bảo dưỡng máy xạ trị thực tế.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 65,
+      "label": "Câu 65 · Bài tập ví dụ 3 tr. 120",
+      "pages": [
+        122
+      ],
+      "printedPages": [
+        120
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Dùng suy giảm mũ và chọn mốc thời gian đáp ứng điều kiện cho trước.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-25-2.png",
+      "description": "Hình 25.2. Máy xạ trị trong bệnh viện",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-066",
+    "kind": "choice",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Thông hiểu",
+    "prompt": "Lực nào làm thay đổi phương của hạt alpha (${}^{4}_{2}\\mathrm{He}$) khi bắn vào lá vàng mỏng?",
+    "explanation": "C. Lực đẩy tĩnh điện giữa hai hạt nhân mang điện dương.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 66,
+      "label": "Câu 66 · Bài tập vận dụng 1 tr. 121",
+      "pages": [
+        123
+      ],
+      "printedPages": [
+        121
+      ]
+    },
+    "bloom": {
+      "level": "understand",
+      "rationale": "Nhận diện cơ chế gây lệch từ bản chất điện tích của hai hạt.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-21-2.png",
+      "description": "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha",
+      "origin": "source_crop"
+    },
+    "options": [
+      "Lực hạt nhân giúp hạt nhân ${}^{197}_{79}\\mathrm{Au}$ đẩy ${}^{4}_{2}\\mathrm{He}$.",
+      "Lực hạt nhân giúp hạt nhân ${}^{197}_{79}\\mathrm{Au}$ hút ${}^{4}_{2}\\mathrm{He}$.",
+      "Lực đẩy tĩnh điện giữa hạt nhân ${}^{197}_{79}\\mathrm{Au}$ và ${}^{4}_{2}\\mathrm{He}$.",
+      "Lực hút tĩnh điện giữa electron của nguyên tử vàng và ${}^{4}_{2}\\mathrm{He}$."
+    ],
+    "answer": 2
+  },
+  {
+    "id": "sgk-kntt-nuclear-067",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Bảng 25.1: t (s)=0; 30; 60; 120; 180; 240; 300; 360. H (Bq)=151; 85; 55; 31; 22; 15; 11; 9. a) Vẽ đồ thị H theo t. b) Ước lượng chu kì bán rã.",
+    "explanation": "Vẽ đúng tám điểm, ghi trục/đơn vị và xu hướng. H₀/2=75,5 Bq nằm giữa t=30 và 60 s; nội suy đoạn đầu cho khoảng 39,5 s. Bảng không khớp một đường mũ đơn nhất qua mọi điểm (có thể có nền hoặc sai số); nêu cách ước lượng và giới hạn thay vì ép T=30 s.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 67,
+      "label": "Câu 67 · Bài tập vận dụng 2 tr. 121",
+      "pages": [
+        123
+      ],
+      "printedPages": [
+        121
+      ]
+    },
+    "bloom": {
+      "level": "analyze",
+      "rationale": "Biểu diễn số liệu, xác định mức nửa ban đầu và nhận diện độ không khớp mô hình.",
+      "review": "reviewed"
+    },
+    "status": "draft",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập.",
+      "Dữ kiện trong bản mẫu có chênh lệch cần xác minh trước khi giao kiểm tra."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-068",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Mẫu gỗ cổ ghi nhận 240 phân rã mỗi phút, chứa 25 g carbon gồm ${}^{14}_{6}\\mathrm{C}$ và ${}^{12}_{6}\\mathrm{C}$. T của C-14 là 5730 năm; tỉ lệ C-12:C-14 ở sinh vật sống là $10^{12}:1$. a) Tính số nguyên tử C-14 hiện có. b) Tính tuổi mẫu. Dùng $N_A=6{,}022\\times10^{23}\\ \\mathrm{mol}^{-1}$, một năm 365 ngày.",
+    "explanation": "Giả sử hiệu suất đếm 100%, không có nền và mẫu kín: $H=4\\,\\mathrm{Bq}$, $N=\\frac{HT}{\\ln 2}\\approx1{,}043\\times10^{12}$ hạt. $N_0\\approx\\frac{25N_A}{12\\times10^{12}}\\approx1{,}255\\times10^{12}$ hạt. Tuổi≈1529 năm. Nêu các giả thiết khi chuyển số đếm thành H.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 68,
+      "label": "Câu 68 · Bài tập vận dụng 3 tr. 121",
+      "pages": [
+        123
+      ],
+      "printedPages": [
+        121
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Chuyển tốc độ đếm, tính N và giải suy giảm từ tỉ lệ đồng vị ban đầu.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-069",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Nhà máy điện dùng ${}^{235}\\mathrm{U}$; mỗi phân hạch tỏa 200 MeV, hiệu suất 36%, công suất điện 1400 MW. a) Tính khối lượng U-235 tiêu thụ một năm. b) Tính lượng than cần để tạo điện năng tương đương; năng suất tỏa nhiệt than 30 MJ/kg. Dùng năm 365 ngày, $N_A=6{,}022\\times10^{23}\\ \\mathrm{mol}^{-1}$, $1\\ \\mathrm{MeV}=1{,}602\\times10^{-13}$ J.",
+    "explanation": "$Q=\\frac{P_{\\mathrm{e}}t}{0{,}36}\\approx1{,}2264\\times10^{17}\\,\\mathrm{J}$; khối lượng uranium-235 khoảng $1{,}494\\times10^3\\,\\mathrm{kg}$. Với than, đề không cho hiệu suất nhà máy than: $m_{\\text{than}}=\\frac{P_{\\mathrm{e}}t}{\\eta_{\\text{than}}\\times30\\times10^6}$. Nếu giả sử $\\eta_{\\text{than}}=0{,}36$ thì $m_{\\text{than}}\\approx4{,}088\\times10^9\\,\\mathrm{kg}$; không mặc nhiên lấy cùng hiệu suất nếu chưa nêu giả thiết.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 69,
+      "label": "Câu 69 · Bài tập vận dụng 4 tr. 121",
+      "pages": [
+        123
+      ],
+      "printedPages": [
+        121
+      ]
+    },
+    "bloom": {
+      "level": "analyze",
+      "rationale": "Lập chuỗi chuyển hóa và kiểm tra dữ kiện còn thiếu để so sánh hai loại nhiên liệu.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ]
+  },
+  {
+    "id": "sgk-kntt-nuclear-070",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "Tháng 6/2024, người lái xe cần chờ bao lâu để chiếu xạ cùng lượng thuốc đông y tại Trung tâm chiếu xạ Hà Nội (Hình 25.3), nếu tháng 1/2022 mất 150 phút? Trung tâm vẫn dùng nguồn ${}^{60}_{27}\\mathrm{Co}$ có T=5,3 năm.",
+    "explanation": "Giả sử cùng liều cần thiết, hình học và hiệu suất, tốc độ chiếu tỉ lệ H nên thời gian xử lí tỉ lệ $\\frac{1}{H}$. Lấy khoảng cách tháng 1/2022→6/2024 là 29 tháng: thời gian khoảng $150\\times2^{\\frac{29}{12\\times5{,}3}}\\approx205{,}8$ phút. Không có ngày cụ thể nên đây là ước lượng theo tháng.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 70,
+      "label": "Câu 70 · Bài tập vận dụng 5 tr. 122",
+      "pages": [
+        124
+      ],
+      "printedPages": [
+        122
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Áp dụng suy giảm nguồn để giữ cùng lượng năng lượng hấp thụ theo giả thiết.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-25-3.png",
+      "description": "Hình 25.3. Khu nạp nguyên liệu tại Trung tâm chiếu xạ Hà Nội",
+      "origin": "source_crop"
+    }
+  },
+  {
+    "id": "sgk-kntt-nuclear-071",
+    "kind": "written",
+    "topic": "B25",
+    "chapter": "Vật lí hạt nhân",
+    "level": "Vận dụng",
+    "prompt": "FDG chứa ${}^{18}_{9}\\mathrm{F}$ có T=110 phút, sản xuất bằng bắn phá ${}^{18}_{8}\\mathrm{O}$ trong máy gia tốc (Hình 25.4). a) Xác định hạt tới khi sản phẩm còn có neutron và gamma. b) Hai bệnh nhân cùng cân nặng, dùng cùng đợt FDG ở thời điểm cách nhau 60 phút để đạt cùng độ phóng xạ mỗi kg. Người nào cần lượng FDG nhiều hơn và nhiều hơn bao nhiêu phần trăm?",
+    "explanation": "a) Hạt tới là proton: ${}^{18}_{8}\\mathrm{O}+{}^{1}_{1}\\mathrm{p}\\to{}^{18}_{9}\\mathrm{F}+{}^{1}_{0}\\mathrm{n}+\\gamma$. b) Người tiêm sau cần lượng nhiều hơn, tỉ số $2^{\\frac{60}{110}}\\approx1{,}4595$, tăng khoảng 45,95%. Chỉ là bài toán tỉ lệ SGK, không dùng để quyết định liều người thật.",
+    "points": 1,
+    "source": {
+      "book": "Sách giáo khoa Vật lí 12 · Kết nối tri thức",
+      "bookId": "sgk-kntt",
+      "sequence": 71,
+      "label": "Câu 71 · Bài tập vận dụng 6 tr. 122",
+      "pages": [
+        124
+      ],
+      "printedPages": [
+        122
+      ]
+    },
+    "bloom": {
+      "level": "apply",
+      "rationale": "Dùng bảo toàn A, Z và suy giảm hoạt tính để lập hai kết quả.",
+      "review": "reviewed"
+    },
+    "status": "ready",
+    "notes": [
+      "Phần dẫn đối chiếu trực quan bản mẫu SGK tháng 1/2024; lời giải do người biên soạn xây dựng, không phải đáp án chính thức của nhà xuất bản.",
+      "Nhãn Bloom là phân loại nội bộ theo yêu cầu trả lời; chưa thẩm định độc lập."
+    ],
+    "figure": {
+      "url": "/api/book-bank/asset?file=sgk-kntt%2Fverified-figures%2Fhinh-25-4.png",
+      "description": "Hình 25.4. Máy gia tốc tại Trung tâm chiếu xạ Hà Nội",
+      "origin": "source_crop"
+    }
+  }
+]

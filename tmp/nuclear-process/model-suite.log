@@ -1,0 +1,45 @@
+(node:92518) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/decay-data.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ decay data preserves the fixed time axis and half-life populations (2.27625ms)
+✔ CSV records current parameters and explicitly identifies model data (44.485125ms)
+(node:92519) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/fission-model.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ The actual particles used by the 3D scene conserve A and Z in the SGK Y/I channel (23.44325ms)
+✔ Timeline shows absorption before deformation, then products, and stops at its end (0.2085ms)
+✔ Qualitative generations compare decreasing, steady and growing chains (0.388917ms)
+✔ Incident-neutron control and shared coordinates give a stationary comparison and moving products (0.394417ms)
+✔ AME2020 channel release is computed from rest masses, not the nominal fission average (0.12025ms)
+(node:92520) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/nuclear-science.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ carbon isotopes keep the same Z but have distinct neutron counts (2.168167ms)
+✔ illustrated fission, fusion and alpha channels conserve total A and charge (0.344083ms)
+✔ the normalized half-life illustration halves the expected parent population (0.130917ms)
+(node:92521) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/nuclear-sequence.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ the lab titles and legacy numbered lesson names resolve to the same five modules (6.277709ms)
+✔ each phase has distinct evidence requirements and the main simulation belongs to its own lesson (57.6495ms)
+✔ legacy assessment presentation renders key formulae without changing marked-up content (1.624041ms)
+(node:92522) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/process-models.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ seeded lifetimes reproduce and half-life scales the same realization (10.328167ms)
+✔ each event is counted once, counts conserve initial sample and do not force half at T (208.3115ms)
+✔ invalid decay and observation conditions are rejected (0.707083ms)
+✔ B25 keeps all source points independent of theory and brackets half activity (0.326708ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 955.811125

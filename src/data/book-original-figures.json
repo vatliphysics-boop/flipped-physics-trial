@@ -1,0 +1,317 @@
+[
+  {
+    "id": "sgk-original-hinh-21-2",
+    "book": "sgk-kntt",
+    "page": 93,
+    "label": "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-21-2.png",
+      "page": 93,
+      "rect": [
+        274,
+        1917,
+        2059,
+        2676
+      ],
+      "width": 1785,
+      "height": 759
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "df8d67f1e5c2cd35784e6105b238a41fb5a153c168fea7e64bcdfd1c96fd33d0"
+  },
+  {
+    "id": "sgk-original-hinh-21-5",
+    "book": "sgk-kntt",
+    "page": 94,
+    "label": "Hình 21.5. Một số mô hình nguyên tử",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-21-5.png",
+      "page": 94,
+      "rect": [
+        312,
+        2106,
+        1961,
+        2961
+      ],
+      "width": 1649,
+      "height": 855
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "549cd104f0f178744f6c7b50e65770cbc9cfa2cc36dc5215d94dd875ea381caa"
+  },
+  {
+    "id": "sgk-original-hinh-22-2",
+    "book": "sgk-kntt",
+    "page": 98,
+    "label": "Hình 22.2. Ảnh kết quả thí nghiệm của Blackett",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-22-2.png",
+      "page": 98,
+      "rect": [
+        1140,
+        2039,
+        2057,
+        2849
+      ],
+      "width": 917,
+      "height": 810
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "0b4fbab7e5d0eb751d633e1f54d3947abdce54f555648120da32f08f3b79bf64"
+  },
+  {
+    "id": "sgk-original-hinh-22-3",
+    "book": "sgk-kntt",
+    "page": 100,
+    "label": "Hình 22.3. Năng lượng liên kết riêng theo số khối",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-22-3.png",
+      "page": 100,
+      "rect": [
+        433,
+        1940,
+        1847,
+        2907
+      ],
+      "width": 1414,
+      "height": 967
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "c8691627dd1f0c328a6d9b495fafd74f4520e140e8430288f62ecb12ce8acfac"
+  },
+  {
+    "id": "sgk-original-hinh-22-6",
+    "book": "sgk-kntt",
+    "page": 103,
+    "label": "Hình 22.6. Tiến trình phân hạch uranium-235",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-22-6.png",
+      "page": 103,
+      "rect": [
+        440,
+        413,
+        1920,
+        1136
+      ],
+      "width": 1480,
+      "height": 723
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "34dffddd7fe44b77b78da27667950fc17bb96cd42bd42aac4164803e2940b548"
+  },
+  {
+    "id": "sgk-original-hinh-22-7",
+    "book": "sgk-kntt",
+    "page": 104,
+    "label": "Hình 22.7. Minh họa phản ứng phân hạch dây chuyền",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-22-7.png",
+      "page": 104,
+      "rect": [
+        964,
+        624,
+        2025,
+        1674
+      ],
+      "width": 1061,
+      "height": 1050
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "8a5766adbc5153f055326a1208679798d6365e85e0762aa4793ea142ce2c9990"
+  },
+  {
+    "id": "sgk-original-hinh-23-3",
+    "book": "sgk-kntt",
+    "page": 107,
+    "label": "Hình 23.3. Sự lệch các tia phóng xạ trong điện trường và từ trường",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-23-3.png",
+      "page": 107,
+      "rect": [
+        451,
+        2228,
+        1947,
+        2942
+      ],
+      "width": 1496,
+      "height": 714
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "7af6b872755e710a144f90f500ee4ed6f80677605356b7c77c2440ca9d4d0614"
+  },
+  {
+    "id": "sgk-original-hinh-23-4",
+    "book": "sgk-kntt",
+    "page": 108,
+    "label": "Hình 23.4. Khả năng đâm xuyên của các tia phóng xạ",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-23-4.png",
+      "page": 108,
+      "rect": [
+        1047,
+        253,
+        1986,
+        736
+      ],
+      "width": 939,
+      "height": 483
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "c034be5fda62028c764f6b40276a16a150f16ff4cb54ecd1ce5662a684a64d5d"
+  },
+  {
+    "id": "sgk-original-hinh-23-9",
+    "book": "sgk-kntt",
+    "page": 113,
+    "label": "Hình 23.9. Biển cảnh báo phóng xạ trong nhiều trường hợp",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-23-9.png",
+      "page": 113,
+      "rect": [
+        1170,
+        851,
+        2073,
+        1713
+      ],
+      "width": 903,
+      "height": 862
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "624ab45a3319777068a68ad1906dd583f427814beff918869ece14fd33e28b7d"
+  },
+  {
+    "id": "sgk-original-hinh-23-12",
+    "book": "sgk-kntt",
+    "page": 114,
+    "label": "Hình 23.12. Thiết bị bảo quản dược chất phóng xạ",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-23-12.png",
+      "page": 114,
+      "rect": [
+        1530,
+        1012,
+        2045,
+        1703
+      ],
+      "width": 515,
+      "height": 691
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "6ce39ff168361cd615e8c1a629f28f6e5e90251991fb6f2b27c668c0949893f2"
+  },
+  {
+    "id": "sgk-original-hinh-24-2",
+    "book": "sgk-kntt",
+    "page": 117,
+    "label": "Hình 24.2. Thiết bị lưu trữ nhiên liệu hạt nhân đã qua sử dụng",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-24-2.png",
+      "page": 117,
+      "rect": [
+        1373,
+        310,
+        2098,
+        1360
+      ],
+      "width": 725,
+      "height": 1050
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "4ba7496dfa3b6bd134e1feb6223a20632f655aabec481a8917cdb312224b8ab1"
+  },
+  {
+    "id": "sgk-original-hinh-25-1",
+    "book": "sgk-kntt",
+    "page": 121,
+    "label": "Hình 25.1. Đưa mẫu phóng xạ lại gần tĩnh điện kế",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-25-1.png",
+      "page": 121,
+      "rect": [
+        1222,
+        2033,
+        2063,
+        2798
+      ],
+      "width": 841,
+      "height": 765
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "a5a87788a22f18e1f26baf6a77c091b328031a2396f43a3f7ec61b885974bf93"
+  },
+  {
+    "id": "sgk-original-hinh-25-2",
+    "book": "sgk-kntt",
+    "page": 122,
+    "label": "Hình 25.2. Máy xạ trị trong bệnh viện",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-25-2.png",
+      "page": 122,
+      "rect": [
+        1357,
+        1578,
+        2054,
+        2148
+      ],
+      "width": 697,
+      "height": 570
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "e657dbf0216583c33d11c8fd5c8223ac8cc1594b6e4cbb8b658ce5bec2a82bd6"
+  },
+  {
+    "id": "sgk-original-hinh-25-3",
+    "book": "sgk-kntt",
+    "page": 124,
+    "label": "Hình 25.3. Khu nạp nguyên liệu tại Trung tâm chiếu xạ Hà Nội",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-25-3.png",
+      "page": 124,
+      "rect": [
+        1204,
+        285,
+        2054,
+        935
+      ],
+      "width": 850,
+      "height": 650
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "f957b920dd36e77f8c1031ee35439b4baf20c8e33b9035e0fe8a2883539f89c0"
+  },
+  {
+    "id": "sgk-original-hinh-25-4",
+    "book": "sgk-kntt",
+    "page": 124,
+    "label": "Hình 25.4. Máy gia tốc tại Trung tâm chiếu xạ Hà Nội",
+    "image": {
+      "file": "sgk-kntt/verified-figures/hinh-25-4.png",
+      "page": 124,
+      "rect": [
+        1204,
+        964,
+        2054,
+        1617
+      ],
+      "width": 850,
+      "height": 653
+    },
+    "status": "isolated_visual_check",
+    "colorStatus": "original",
+    "sourceSha256": "f957b920dd36e77f8c1031ee35439b4baf20c8e33b9035e0fe8a2883539f89c0"
+  }
+]

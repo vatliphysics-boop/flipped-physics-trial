@@ -1,0 +1,36 @@
+PART word/document.xml
+P0000 Đề kiểm tra Chương 4 Vật lí hạt nhân
+P0001 Vật lí 12   Thời gian 45 phút   Mã đề 101   10 điểm
+P0002 Họ và tên .......................................................... Lớp ................
+P0003 Câu 1 (0,5 điểm)
+P0004 Các nguyên tử là nguyên tử đồng vị khi hạt nhân của chúng có
+P0005 A. cùng số proton.
+P0006 B. cùng số neutron.
+P0007 C. cùng số neutron.
+P0008 D. cùng khối lượng.
+P0009 Câu 2 (0,5 điểm)
+P0010 Hạt nhân nguyên tử gồm
+P0011 A. electron và proton.
+P0012 B. neutron và proton.
+P0013 C. neutron và electron.
+P0014 D. electron và pozitron.
+P0015 Câu 3 (2 điểm)
+P0016 Đánh dấu (x) vào các cột đúng hoặc sai tương ứng với các nội dung trong bảng dưới đây.
+P0017 a) Các loại tia phóng xạ chính: tia alpha là hạt nhân 24He phóng ra từ hạt nhân phân rã, tốc độ khoảng 2×107 m/s; tia beta− (hoặc beta+) là dòng các hạt -10e (hoặc 10e), tốc độ xấp xỉ ánh sáng; tia gamma là sóng điện từ có bước sóng rất ngắn, cỡ nhỏ hơn 10-11 m.   □ Đúng   □ Sai
+P0018 b) Tia gamma là chùm hạt mang điện dương và có khả năng đâm xuyên rất lớn.   □ Đúng   □ Sai
+P0019 c) Số hạt chưa phân rã Nt tại t và số hạt ban đầu N0 liên hệ theo Nt=N0 2-t/T=N0e-λ t; λ=ln2/T là hằng số phóng xạ, T là chu kì bán rã.   □ Đúng   □ Sai
+P0020 d) Độ phóng xạ H đặc trưng tính phóng xạ mạnh hay yếu của một lượng chất phóng xạ, bằng số hạt nhân phân rã trong một giây; Ht=λ Nt=H0e-λ t.   □ Đúng   □ Sai
+P0021 Câu 4 (1 điểm)
+P0022 Po-210 là nguồn năng lượng được nêu trong bài về máy phát nhiệt điện đồng vị RTG. T=138 ngày, phân rã alpha tạo 82206Pb. Mẫu polonium ban đầu nguyên chất; tại t1, tỉ số số hạt Pb tạo thành với số hạt Po còn lại bằng 15. Tại t2=t1+966 ngày, tỉ số này bằng bao nhiêu?
+P0023 Trả lời ...........................................
+P0024 Câu 5 (1 điểm)
+P0025 Sau 1 năm, trong 1 miligam ​144Ce có 2,5×1018 hạt bị phân rã. Chu kì bán rã Ce-144 bằng bao nhiêu?
+P0026 Trả lời ...........................................
+P0027 Câu 6 (4 điểm)
+P0028 Bình ion hóa gồm bình khí đơn phân tử và hai điện cực kim loại đặt hiệu điện thế 2 kV. Khí bị ion hóa nhờ phóng xạ thì có dòng điện; đo bằng ampe kế rất nhạy (Hình IV.1). a) Vẽ đồ thị độ phóng xạ mẫu ​220Rn theo thời gian, ban đầu H0. b) Xác định T của Rn-220. c) Cần tối thiểu 1 mL khí Rn-220 ở điều kiện tiêu chuẩn. Ước tính khối lượng tối thiểu bình từ chất ​228Th để duy trì hoạt độ không đổi của Rn-220 trước thí nghiệm. Th-228 phân rã alpha, T=1,9 năm thành Ra-224; Ra-224 phân rã alpha, T=3,6 ngày thành Rn-220.
+P0030 ................................................................................................
+P0031 Câu 7 (1 điểm)
+P0032 Mô tả mô hình hành tinh nguyên tử của Rutherford trong Hình 21.5a.
+P0034 ................................................................................................
+PART word/footnotes.xml
+PART word/endnotes.xml

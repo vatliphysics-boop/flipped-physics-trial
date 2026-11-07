@@ -1,0 +1,103 @@
+{
+  "base": "http://127.0.0.1:3477",
+  "build": {
+    "buildId": "_qCMTm54W73ozUdyJZK9u",
+    "buildDirectory": ".next-ui",
+    "base": "http://127.0.0.1:3477",
+    "builtAt": "2026-11-06T10:15:25.987231",
+    "log": "tmp/ui-audit/build-r3.log",
+    "revision": "R3"
+  },
+  "results": [
+    {
+      "group": "public-menu-chat-footer-focus",
+      "width": 320,
+      "pass": true,
+      "triggerBounds": {
+        "x": 177.75,
+        "y": 890,
+        "width": 126.25,
+        "height": 44
+      },
+      "panelBounds": {
+        "x": 12,
+        "y": 246.84375,
+        "width": 292,
+        "height": 631.15625
+      }
+    },
+    {
+      "group": "public-menu-chat-footer-focus",
+      "width": 390,
+      "pass": true,
+      "triggerBounds": {
+        "x": 247.75,
+        "y": 890,
+        "width": 126.25,
+        "height": 44
+      },
+      "panelBounds": {
+        "x": 12,
+        "y": 339.78125,
+        "width": 362,
+        "height": 538.21875
+      }
+    },
+    {
+      "group": "public-menu-chat-footer-focus",
+      "width": 768,
+      "pass": true,
+      "triggerBounds": {
+        "x": 625.75,
+        "y": 890,
+        "width": 126.25,
+        "height": 44
+      },
+      "panelBounds": {
+        "x": 322,
+        "y": 339.78125,
+        "width": 430,
+        "height": 538.21875
+      }
+    },
+    {
+      "group": "public-menu-chat-footer-focus",
+      "width": 1366,
+      "pass": true,
+      "triggerBounds": {
+        "x": 1223.75,
+        "y": 890,
+        "width": 126.25,
+        "height": 44
+      },
+      "panelBounds": {
+        "x": 920,
+        "y": 339.78125,
+        "width": 430,
+        "height": 538.21875
+      }
+    },
+    {
+      "group": "teacher-sidebar-focus-active-navigation",
+      "width": 320,
+      "pass": true
+    },
+    {
+      "group": "teacher-sidebar-focus-active-navigation",
+      "width": 390,
+      "pass": true
+    },
+    {
+      "group": "teacher-sidebar-focus-active-navigation",
+      "width": 768,
+      "pass": true
+    },
+    {
+      "group": "teacher-sidebar-focus-active-navigation",
+      "width": 1366,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "writes": []
+}

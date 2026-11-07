@@ -1,0 +1,14 @@
+PART word/document.xml
+P0000 Bài/chủ đề
+P0001 Loại câu
+P0002 Mức độ
+P0003 Số câu
+P0004 Điểm mỗi câu
+P0005 CTST B1
+P0006 Trả lời ngắn
+P0007 Nhận biết
+P0008 1
+P0009 10
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

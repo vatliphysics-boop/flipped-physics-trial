@@ -1,0 +1,19 @@
+B24 · Nhà khoa học
+
+Tiêu chí nhận xét
+1. Lập luận đúng khoa học: giải thích cơ chế hoặc tác động liên quan đến vai, không khẳng định lợi ích/rủi ro tuyệt đối.
+2. Bằng chứng truy nguyên được: ghi tên nguồn, đường dẫn và dữ kiện hỗ trợ từng nhận định; phân biệt giả định với dữ liệu thực tế.
+3. Giới hạn rõ: nêu điều kiện để lợi ích đạt được, rủi ro cần kiểm soát và điều chưa có dữ liệu; không tự dựng số liệu cho dự án giả định.
+4. Phản biện và tự điều chỉnh: ghi câu hỏi của vai khác, trả lời bằng căn cứ và sửa kết luận hoặc nêu điều cần kiểm chứng tiếp.
+
+Lập luận và bằng chứng
+MẪU GIẢ ĐỊNH DO AI: Nhà khoa học. Phân hạch tạo nhiệt, cần kiểm soát neutron; nguồn đối chiếu SGK B24, chưa phải dữ liệu dự án.
+
+Lợi ích dự kiến
+MẪU GIẢ ĐỊNH DO AI: Có thể cung cấp điện; chưa lượng hóa lợi ích khi thiếu dữ liệu địa phương.
+
+Giới hạn và điều chưa có dữ liệu
+MẪU GIẢ ĐỊNH DO AI: Cần phương án chất thải và an toàn; chưa có dữ liệu chi phí hay địa điểm.
+
+Phản biện của nhóm khác và câu trả lời
+MẪU GIẢ ĐỊNH DO AI: Vai người dân hỏi về chất thải. Trả lời cần hồ sơ kiểm chứng; sửa kết luận thành chỉ xem xét khi có đánh giá đầy đủ.

@@ -6,11 +6,18 @@ type Role = "teacher" | "student";
 function redirectWithCookies(
   request: NextRequest,
   sourceResponse: NextResponse,
-  pathname: string
+  pathname: string,
+  searchParams?: Record<string, string>
 ) {
   const url = request.nextUrl.clone();
   url.pathname = pathname;
   url.search = "";
+
+  if (searchParams) {
+    Object.entries(searchParams).forEach(([k, v]) => {
+      url.searchParams.set(k, v);
+    });
+  }
 
   const redirectResponse = NextResponse.redirect(url);
   sourceResponse.cookies.getAll().forEach((cookie) => {
@@ -50,13 +57,14 @@ export async function updateSession(request: NextRequest) {
   });
 
   const pathname = request.nextUrl.pathname;
+  const isAuthPage = pathname === "/login" || pathname === "/register";
   const requiredRole: Role | null = pathname.startsWith("/teacher")
     ? "teacher"
     : pathname.startsWith("/student")
       ? "student"
       : null;
 
-  if (!requiredRole) {
+  if (!requiredRole && !isAuthPage) {
     return supabaseResponse;
   }
 
@@ -65,7 +73,12 @@ export async function updateSession(request: NextRequest) {
   } = await supabase.auth.getUser();
 
   if (!user) {
-    return redirectWithCookies(request, supabaseResponse, "/login");
+    if (requiredRole) {
+      return redirectWithCookies(request, supabaseResponse, "/login", {
+        next: pathname,
+      });
+    }
+    return supabaseResponse;
   }
 
   const { data: profile } = await supabase
@@ -74,15 +87,27 @@ export async function updateSession(request: NextRequest) {
     .eq("id", user.id)
     .maybeSingle();
 
-  if (!profile?.role) {
-    return redirectWithCookies(request, supabaseResponse, "/login");
-  }
+  const resolvedRole: Role =
+    profile?.role === "teacher" || profile?.role === "student"
+      ? profile.role
+      : user.user_metadata?.role === "teacher"
+        ? "teacher"
+        : "student";
 
-  if (profile.role !== requiredRole) {
+  // If already logged in and visiting /login or /register, redirect to workspace
+  if (isAuthPage) {
     return redirectWithCookies(
       request,
       supabaseResponse,
-      profile.role === "teacher" ? "/teacher" : "/student"
+      resolvedRole === "teacher" ? "/teacher" : "/student"
+    );
+  }
+
+  if (requiredRole && resolvedRole !== requiredRole) {
+    return redirectWithCookies(
+      request,
+      supabaseResponse,
+      resolvedRole === "teacher" ? "/teacher" : "/student"
     );
   }
 

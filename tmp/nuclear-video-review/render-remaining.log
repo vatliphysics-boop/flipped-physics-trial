@@ -1,0 +1,28 @@
+
+> nuclear-lesson-video-renderer@1.0.0 render
+> node render.mjs B23 B24 B25
+
+Remotion bundle · 6%
+Remotion bundle · 21%
+Remotion bundle · 43%
+Remotion bundle · 65%
+Remotion bundle · 81%
+Remotion bundle · 100%
+B23 · render 320 khung chuyển động qua Remotion
+B23 · 120/320
+B23 · 240/320
+B23 · 1920×1080, 30 fps, 60.000000 s · b23.mp4
+B24 · render 320 khung chuyển động qua Remotion
+B24 · 120/320
+B24 · 240/320
+B24 · 1920×1080, 30 fps, 60.000000 s · b24.mp4
+file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:4221
+      reject(new TimeoutError(`Timed out after ${timeout} ms while trying to connect to the browser! Chrome logged the following: ${stdioString}`));
+             ^
+
+TimeoutError: Timed out after 25000 ms while trying to connect to the browser! Chrome logged the following: 
+    at Timeout.onTimeout (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:4221:14)
+    at listOnTimeout (node:internal/timers:685:17)
+    at process.processTimers (node:internal/timers:618:7)
+
+Node.js v24.21.0

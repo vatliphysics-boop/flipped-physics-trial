@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-05T11:56:03.976Z",
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+  "viewport": [
+    1440,
+    900
+  ],
+  "image": {
+    "x": 325,
+    "y": 293.078125,
+    "width": 1040,
+    "height": 606.65625,
+    "top": 293.078125,
+    "right": 1365,
+    "bottom": 899.734375,
+    "left": 325
+  },
+  "pins": [
+    {
+      "label": "Điểm 1: Phần lớn đi thẳng",
+      "pressed": "true",
+      "rect": {
+        "x": 474.390625,
+        "y": 470.203125,
+        "width": 34,
+        "height": 34,
+        "top": 470.203125,
+        "right": 508.390625,
+        "bottom": 504.203125,
+        "left": 474.390625
+      }
+    },
+    {
+      "label": "Điểm 2: Một số lệch mạnh",
+      "pressed": "false",
+      "rect": {
+        "x": 786.390625,
+        "y": 439.875,
+        "width": 34,
+        "height": 34,
+        "top": 439.875,
+        "right": 820.390625,
+        "bottom": 473.875,
+        "left": 786.390625
+      }
+    },
+    {
+      "label": "Điểm 3: Đọc số nucleon",
+      "pressed": "false",
+      "rect": {
+        "x": 1088,
+        "y": 482.328125,
+        "width": 34,
+        "height": 34,
+        "top": 482.328125,
+        "right": 1122,
+        "bottom": 516.328125,
+        "left": 1088
+      }
+    }
+  ]
+}

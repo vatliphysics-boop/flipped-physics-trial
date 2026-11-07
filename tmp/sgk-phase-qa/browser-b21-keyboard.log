@@ -1,0 +1,130 @@
+START B21
+b23-gv /teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/in-class CHƯƠNG IV · BÀI 21 · [QA] SGK B21–B25 1793890153017
+
+Cấu trúc hạt nhân
+
+Pha 2 · Trong giờ học — Mô phỏng, quan sát và thảo luận trên lớp
+
+Về lớp [QA] SGK B21–B25 1793890153017
+›
+Chương trình Vật lí 12
+›
+Chương IV
+›
+Tổng quan bài
+›
+Trong giờ học
+01
+Trước giờ học
+02
+Trong giờ học
+03
+Sau giờ học
+
+Xem nhiệm vụ và bài nộp của học sinh
+
+Tiến trình học tập: Pha 2 · Trong giờ học (Khám phá & Thảo luận)
+
+Các bước được giao ngay cho học sinh khi bài học được xuất bản. Học sinh thực hiện theo thứ tự và nộp kết quả từng bước.
+
++ Chọn từ kho học liệu
+1
+Dựng hai đồng vị carbon và kiểm tra dự đoán
+Bản nháp
+Giao cho học sinh
+Mô phỏng tương tác
+Bắt buộc
+
+Mục tiêu: Dùng bằng chứng trên mô hình để giải thích 
+𝐴
+=
+𝑍
++
+𝑁
+A=Z+N.
+
+Nhiệm vụ: Chọn Si-28 và thử thay đổi neutron theo hướng dẫn của bộ dựng. Sau đó giữ 6 proton, so carbon-12 và carbon-13 để đối chiếu dự đoán. Trao đổi với bạn và phân biệt số hạt với vị trí quả cầu minh họa.
+
+Sản phẩm cần nộp: Hai dòng ghi Z, N, A và một lời giải thích cá nhân sau trao đổi.
+
+Tiêu chí hoàn thành: Nêu biến giữ nguyên, biến thay đổi và lí do nguyên tố vẫn là carbon.
+
+▲
+▼
+✎ Chỉnh sửa
+👁 Xem trước
+Xóa
+Mô phỏng và khám phá
+
+Thực hiện từng hoạt động theo đúng bài học để tổ chức thảo luận trên lớp.
+
+B21-A01
+
+Tán xạ alpha Rutherford
+−
+
+Khám phá thí nghiệm tán xạ alpha và bằng chứng về hạt nhân nguyên tử.
+
+Đang tải không gian 3D…
+
+Mở Phiếu bài tập định lượng & Câu hỏi kiểm tra nhận định ▾
+
+B21-A02
+
+Mô hình cấu trúc hạt nhân
++
+
+Xây dựng hạt nhân từ proton và neutron để liên hệ Z, N và A.
+
+B21-A03
+
+Đồng vị và kích thước hạt nhân
++
+
+So sánh các đồng vị và khảo sát sự phụ thuộc của kích thước hạt nhân.
+
+HỌC LIỆU
+HỌC LIỆU BỔ SUNG
++ Upload video
++ Thêm Google Colab
+
+Chưa có học liệu bổ sung cho giai đoạn trong giờ học
+
+Chưa có hoạt động Colab nào.
+
+Câu hỏi cuối giai đoạn
+
+Cấu hình chính xác 2 câu hỏi để học sinh làm sau khi hoàn thành học liệu.
+
+Câu 1
+
+Khi thêm một neutron vào carbon-12, số proton mới là bao nhiêu? Chỉ nhập số.
+
+ĐÁP ÁN: 6
+Sửa
+Xóa
+Câu 2
+
+Hạt nhân carbon-13 có bao nhiêu neutron? Chỉ nhập số.
+
+ĐÁP ÁN: 7
+Sửa
+Xóa
+b23-hs2 blank 
+b23-hs1 blank 
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.waitFor: Timeout 24000ms exceeded.
+Call log:
+[2m  - waiting for locator('.pathway-step-row').first().getByText('Đã giao', { exact: true }) to be visible[22m
+
+    at /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/sgk-phase-browser.mjs:217:57 {
+  log: [
+    "  - waiting for locator('.pathway-step-row').first().getByText('Đã giao', { exact: true }) to be visible"
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

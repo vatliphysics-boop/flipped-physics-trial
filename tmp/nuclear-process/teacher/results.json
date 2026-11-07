@@ -1,0 +1,67 @@
+{
+  "base": "http://127.0.0.1:3475",
+  "results": [
+    {
+      "code": "b21",
+      "width": 1366,
+      "proof": "Tham số va chạm A = 0 fm, thời gian 0,5 zs",
+      "writes": 0
+    },
+    {
+      "code": "b22",
+      "width": 1366,
+      "proof": "Y-95, I-138 và 3 neutron; xoay 3D",
+      "writes": 0
+    },
+    {
+      "code": "b23",
+      "width": 1366,
+      "proof": "T = 60 s, tiến tới 1 giây",
+      "writes": 0
+    },
+    {
+      "code": "b24",
+      "width": 1366,
+      "proof": "Cắm sâu 100%, chỉ số 0,6; bộ sinh hơi và hai vòng nước",
+      "writes": 0
+    },
+    {
+      "code": "b25",
+      "width": 1366,
+      "proof": "T = 40 s tại 30 s cho 89,79 Bq; giữ tám dòng SGK",
+      "writes": 0
+    },
+    {
+      "code": "b21",
+      "width": 390,
+      "proof": "Tham số va chạm A = 0 fm, thời gian 0,5 zs",
+      "writes": 0
+    },
+    {
+      "code": "b22",
+      "width": 390,
+      "proof": "Y-95, I-138 và 3 neutron; xoay 3D",
+      "writes": 0
+    },
+    {
+      "code": "b23",
+      "width": 390,
+      "proof": "T = 60 s, tiến tới 1 giây",
+      "writes": 0
+    },
+    {
+      "code": "b24",
+      "width": 390,
+      "proof": "Cắm sâu 100%, chỉ số 0,6; bộ sinh hơi và hai vòng nước",
+      "writes": 0
+    },
+    {
+      "code": "b25",
+      "width": 390,
+      "proof": "T = 40 s tại 30 s cho 89,79 Bq; giữ tám dòng SGK",
+      "writes": 0
+    }
+  ],
+  "writes": [],
+  "errors": []
+}

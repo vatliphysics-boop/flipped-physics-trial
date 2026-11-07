@@ -1,0 +1,48 @@
+Browser tab: 5, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=II".
+0 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/hoc-lieu/chuong-trinh?chuong=II
+	1 link Description: Đi đến nội dung chính, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=II#main-content
+	2 container
+		54 button (collapsed) Description: Mở menu, Secondary Actions: Expand
+		4 link Description: Học liệu Vật lí 12, Value: localhost:3001/hoc-lieu
+		5 link Description: Đăng nhập lớp học, Value: localhost:3001/login
+	20 container main-content
+		21 container
+			22 text CHƯƠNG TRÌNH VẬT LÍ 12
+			23 heading Chương 2: Khí lí tưởng, Value: 1
+				24 text Chương 2: Khí lí tưởng
+			25 text Học liệu của đề tài tập trung Chương 4: Vật lí hạt nhân, B21–B25.
+		26 container Chọn chương
+			27 link Description: Chương 1: Vật lí nhiệt, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=I
+			28 link Description: Chương 2: Khí lí tưởng, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=II
+			29 link Description: Chương 3: Từ trường, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=III
+			30 link Description: Chương 4: Vật lí hạt nhân, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=IV
+		31 container Bài học trong chương
+			84 container
+				85 heading B08 · Mô hình động học phân tử chất khí, Value: 2
+					86 text B08  ·  Mô hình động học phân tử chất khí
+				87 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			88 container
+				89 heading B09 · Định luật Boyle, Value: 2
+					90 text B09  ·  Định luật Boyle
+				91 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			92 container
+				93 heading B10 · Định luật Charles, Value: 2
+					94 text B10  ·  Định luật Charles
+				95 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			96 container
+				97 heading B11 · Phương trình trạng thái của khí lí tưởng, Value: 2
+					98 text B11  ·  Phương trình trạng thái của khí lí tưởng
+				99 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			100 container
+				101 heading B12 · Áp suất khí theo mô hình động học phân tử. Quan hệ giữa động năng phân tử và nhiệt độ, Value: 2
+					102 text B12  ·  Áp suất khí theo mô hình động học phân tử. Quan hệ giữa động năng phân tử và nhiệt độ
+				103 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+			104 container
+				105 heading B13 · Bài tập về khí lí tưởng, Value: 2
+					106 text B13  ·  Bài tập về khí lí tưởng
+				107 text Danh mục bài học. Học liệu của chương này chưa được xây dựng trong phạm vi đề tài.
+	52 container AI hỗ trợ học tập
+		53 button (collapsed) Description: Mở khung AI học tập, Secondary Actions: Expand
+	83 text Chương 2: Khí lí tưởng
+
+The focused UI element is 28 link Description: Chương 2: Khí lí tưởng, URL: localhost:3001/hoc-lieu/chuong-trinh?chuong=II

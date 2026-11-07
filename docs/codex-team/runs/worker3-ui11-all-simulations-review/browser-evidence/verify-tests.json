@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "system-sim-rutherford",
+    "w": 1440,
+    "h": 900,
+    "time": "2026-10-05T12:27:39.111Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(255, 255, 255) auto 3px",
+          "rect": {
+            "x": 366,
+            "y": 548.171875,
+            "width": 98.734375,
+            "height": 43,
+            "top": 548.171875,
+            "right": 464.734375,
+            "bottom": 591.171875,
+            "left": 366
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 474.734375,
+            "y": 548.171875,
+            "width": 101.015625,
+            "height": 43,
+            "top": 548.171875,
+            "right": 575.75,
+            "bottom": 591.171875,
+            "left": 474.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 585.75,
+            "y": 548.171875,
+            "width": 80.828125,
+            "height": 43,
+            "top": 548.171875,
+            "right": 666.578125,
+            "bottom": 591.171875,
+            "left": 585.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 676.578125,
+            "y": 548.171875,
+            "width": 95.203125,
+            "height": 43,
+            "top": 548.171875,
+            "right": 771.78125,
+            "bottom": 591.171875,
+            "left": 676.578125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-rutherford",
+    "w": 390,
+    "h": 844,
+    "time": "2026-10-05T12:27:52.648Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.3 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 663.203125,
+            "width": 98.734375,
+            "height": 43,
+            "top": 663.203125,
+            "right": 154.734375,
+            "bottom": 706.203125,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.3 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(0, 95, 204) auto 1px",
+          "rect": {
+            "x": 164.734375,
+            "y": 663.203125,
+            "width": 101.015625,
+            "height": 43,
+            "top": 663.203125,
+            "right": 265.75,
+            "bottom": 706.203125,
+            "left": 164.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.3 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 716.203125,
+            "width": 80.828125,
+            "height": 43,
+            "top": 716.203125,
+            "right": 136.828125,
+            "bottom": 759.203125,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.3 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách hạt tới tâm (đơn vị mô hình): 50\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nBắn hạt α qua lá kim loại mỏng (thí nghiệm Rutherford, SGK tr.91–92). Thay đổi vị trí hạt tới so với tâm hạt nhân, bắn từng hạt và bắn chùm để so sánh các góc lệch.\n\n🔬 Chu trình khám phá:\n\nDự đoán: Nếu nguyên tử rỗng, phần lớn hạt α sẽ đi thế nào?\nThử: Kéo thanh trượt để bắn hạt xa tâm, rồi gần tâm.\nQuan sát: Bắn chùm nhiều hạt, đếm số hạt mỗi góc.\nGiải thích: Trả lời câu hỏi bên dưới về kết quả quan sát.\nKhoảng cách quỹ đạo tới tâm hạt nhân 50 (tương đối)\nSố hạt mỗi chùm 100\nBắn một hạt α\nBắn chùm 100 hạt\nĐặt lại\nMàn ghi nhận\nLá vàng mỏng\nNguồn α⁺\nThẳng / lệch nhẹ\nBật ngược ≥ 90°\n+\n(hạt nhân phóng đại, hình không theo tỉ lệ)\nGẦN THẲNG (GÓC < 10°)\n0 hạt\nLỆCH 10° – DƯỚI 90°\n0 hạt\nLỆCH LỚN / NGƯỢC ≥ 90°\n0 hạt\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 vị trí tới khác nhau\nBắn chùm hạt\nTrả lời câu hỏi giải thích\nTrước khi thí nghiệm, theo mô hình nguyên tử Thomson (điện dương phân bố đều), người ta dự đoán các hạt α sẽ thế nào?\nPhần lớn bị bật ngược lại.\nHầu hết đi thẳng hoặc chỉ lệch một góc rất nhỏ.\nBị hạt nhân hút lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTừ bằng chứng quan sát (một tỉ lệ nhỏ bật ngược), suy luận nào là hợp lí nhất để thay thế mô hình Thomson?\nĐiện tích dương và phần lớn khối lượng tập trung ở hạt nhân rất nhỏ; phần lớn thể tích nguyên tử là khoảng trống.\nCác electron mang điện âm tập trung ở tâm nguyên tử.\nLá vàng quá cứng nên hạt α va chạm đàn hồi bật lại.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nNguồn khoa học tham khảo\n\nMô phỏng định tính: hạt nhân được phóng đại để quan sát (hình không theo tỉ lệ); góc, kích thước và tỉ lệ số hạt không phải số liệu thí nghiệm. SGK: hạt bật ngược (≥ 90°) rất hiếm, cỡ 1/10⁴.\n\nHỏi AI về bài B21 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 146.828125,
+            "y": 716.203125,
+            "width": 95.203125,
+            "height": 43,
+            "top": 716.203125,
+            "right": 242.03125,
+            "bottom": 759.203125,
+            "left": 146.828125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-nuclear-fission",
+    "w": 1440,
+    "h": 900,
+    "time": "2026-10-05T12:27:59.358Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.2 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(8, 100, 206) auto 1px",
+          "rect": {
+            "x": 347,
+            "y": 428.75,
+            "width": 98.734375,
+            "height": 43,
+            "top": 428.75,
+            "right": 445.734375,
+            "bottom": 471.75,
+            "left": 347
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.2 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(8, 100, 205) auto 1px",
+          "rect": {
+            "x": 455.734375,
+            "y": 818.75,
+            "width": 101.015625,
+            "height": 43,
+            "top": 818.75,
+            "right": 556.75,
+            "bottom": 861.75,
+            "left": 455.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.2 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(88, 127, 173) auto 2px",
+          "rect": {
+            "x": 566.75,
+            "y": 818.75,
+            "width": 80.828125,
+            "height": 43,
+            "top": 818.75,
+            "right": 647.578125,
+            "bottom": 861.75,
+            "left": 566.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.2 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 657.578125,
+            "y": 818.75,
+            "width": 95.203125,
+            "height": 43,
+            "top": 818.75,
+            "right": 752.78125,
+            "bottom": 861.75,
+            "left": 657.578125
+          }
+        }
+      },
+      {
+        "action": "stage 0",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "stage 1",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nHạt nhân kích thích: U-236* (92p, 144n).\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 2.3 / 8 s mô hình\n\nHấp thụ neutron. U-235 hấp thụ neutron, tạo U-236 ở trạng thái kích thích. Số proton vẫn là 92.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "stage 2",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nHạt nhân kích thích: U-236* (92p, 144n).\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 3.7 / 8 s mô hình\n\nHạt nhân biến dạng. Hạt nhân kích thích biến dạng rồi tách. Chuyển động được làm chậm để nhìn rõ quá trình.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "stage 3",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nSau phản ứng: Y-95 (39p, 56n) + I-138 (53p, 85n) + 3 neutron tự do.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 7.0 / 8 s mô hình\n\nMảnh phân hạch tách ra. Kênh minh họa tạo Y-95, I-138 và 3 neutron. Các sản phẩm mang năng lượng; neutron có thể gây phân hạch tiếp theo nếu gặp hạt nhân thích hợp.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "reset + resume",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTạm dừng\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.6 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-nuclear-fission",
+    "w": 390,
+    "h": 844,
+    "time": "2026-10-05T12:28:15.643Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.8 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 45,
+            "y": 400.0625,
+            "width": 98.734375,
+            "height": 43,
+            "top": 400.0625,
+            "right": 143.734375,
+            "bottom": 443.0625,
+            "left": 45
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.8 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 153.734375,
+            "y": 400.0625,
+            "width": 101.015625,
+            "height": 43,
+            "top": 400.0625,
+            "right": 254.75,
+            "bottom": 443.0625,
+            "left": 153.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.8 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 45,
+            "y": 400.0625,
+            "width": 80.828125,
+            "height": 43,
+            "top": 400.0625,
+            "right": 125.828125,
+            "bottom": 443.0625,
+            "left": 45
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.8 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 135.828125,
+            "y": 400.0625,
+            "width": 95.203125,
+            "height": 43,
+            "top": 400.0625,
+            "right": 231.03125,
+            "bottom": 443.0625,
+            "left": 135.828125
+          }
+        }
+      },
+      {
+        "action": "stage 0",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 0.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "stage 1",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nHạt nhân kích thích: U-236* (92p, 144n).\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 2.3 / 8 s mô hình\n\nHấp thụ neutron. U-235 hấp thụ neutron, tạo U-236 ở trạng thái kích thích. Số proton vẫn là 92.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "stage 2",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nHạt nhân kích thích: U-236* (92p, 144n).\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 3.7 / 8 s mô hình\n\nHạt nhân biến dạng. Hạt nhân kích thích biến dạng rồi tách. Chuyển động được làm chậm để nhìn rõ quá trình.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "stage 3",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nSau phản ứng: Y-95 (39p, 56n) + I-138 (53p, 85n) + 3 neutron tự do.\n\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 7.0 / 8 s mô hình\n\nMảnh phân hạch tách ra. Kênh minh họa tạo Y-95, I-138 và 3 neutron. Các sản phẩm mang năng lượng; neutron có thể gây phân hạch tiếp theo nếu gặp hạt nhân thích hợp.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      },
+      {
+        "action": "reset + resume",
+        "text": "B22 · PHẢN ỨNG HẠT NHÂN\nMô phỏng phân hạch U-235\n\nDự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.\n\nProton\nNeutron\nMàu, kích thước và thời gian quy ước\n\nTrước phản ứng: U-235 (92p, 143n) + 1 neutron tới.\n\nTạm dừng\nĐặt lại thí nghiệm\nTốc độ\nChậm · 0,5×\n1×\n2×\n01\nNeutron tới\n02\nHấp thụ neutron\n03\nHạt nhân biến dạng\n04\nMảnh phân hạch tách ra\nXem lại thời điểm · 1.0 / 8 s mô hình\n\nNeutron tới. Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton.\n\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\n\nKéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.\n\n1\n0\nn\n+\n235\n92\nU\n→\n236\n92\nU*\n→\n95\n39\nY\n+\n138\n53\nI\n+ 3\n1\n0\nn\nBảo toàn số khối\n235 + 1 = 95 + 138 + 3 = 236\nBảo toàn điện tích\n92 + 0 = 39 + 53 + 0 = 92\n\nĐây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.\n\nEm quan sát thấy bao nhiêu neutron tự do sau phản ứng?\nNeutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?\nVì sao một số neutron sinh ra không gây phân hạch tiếp theo?\nMọi neutron đều bắt buộc gây phân hạch ngay.\nNeutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.\nNeutron biến thành electron ngay sau phản ứng.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nHoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.\n\nHỏi AI về bài B22 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này"
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-properties",
+    "w": 1440,
+    "h": 900,
+    "time": "2026-10-05T12:28:21.480Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 366,
+            "y": 548.140625,
+            "width": 98.734375,
+            "height": 43,
+            "top": 548.140625,
+            "right": 464.734375,
+            "bottom": 591.140625,
+            "left": 366
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 474.734375,
+            "y": 548.140625,
+            "width": 101.015625,
+            "height": 43,
+            "top": 548.140625,
+            "right": 575.75,
+            "bottom": 591.140625,
+            "left": 474.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 585.75,
+            "y": 548.140625,
+            "width": 80.828125,
+            "height": 43,
+            "top": 548.140625,
+            "right": 666.578125,
+            "bottom": 591.140625,
+            "left": 585.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 676.578125,
+            "y": 548.140625,
+            "width": 95.203125,
+            "height": 43,
+            "top": 548.140625,
+            "right": 771.78125,
+            "bottom": 591.140625,
+            "left": 676.578125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-properties",
+    "w": 1280,
+    "h": 720,
+    "time": "2026-10-05T12:28:28.045Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 366,
+            "y": 609.53125,
+            "width": 98.734375,
+            "height": 43,
+            "top": 609.53125,
+            "right": 464.734375,
+            "bottom": 652.53125,
+            "left": 366
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 474.734375,
+            "y": 609.53125,
+            "width": 101.015625,
+            "height": 43,
+            "top": 609.53125,
+            "right": 575.75,
+            "bottom": 652.53125,
+            "left": 474.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 585.75,
+            "y": 609.53125,
+            "width": 80.828125,
+            "height": 43,
+            "top": 609.53125,
+            "right": 666.578125,
+            "bottom": 652.53125,
+            "left": 585.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 676.578125,
+            "y": 609.53125,
+            "width": 95.203125,
+            "height": 43,
+            "top": 609.53125,
+            "right": 771.78125,
+            "bottom": 652.53125,
+            "left": 676.578125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-properties",
+    "w": 768,
+    "h": 1024,
+    "time": "2026-10-05T12:28:33.628Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 92,
+            "y": 762.640625,
+            "width": 98.734375,
+            "height": 43,
+            "top": 762.640625,
+            "right": 190.734375,
+            "bottom": 805.640625,
+            "left": 92
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 200.734375,
+            "y": 762.640625,
+            "width": 101.015625,
+            "height": 43,
+            "top": 762.640625,
+            "right": 301.75,
+            "bottom": 805.640625,
+            "left": 200.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 311.75,
+            "y": 762.640625,
+            "width": 80.828125,
+            "height": 43,
+            "top": 762.640625,
+            "right": 392.578125,
+            "bottom": 805.640625,
+            "left": 311.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 402.578125,
+            "y": 762.640625,
+            "width": 95.203125,
+            "height": 43,
+            "top": 762.640625,
+            "right": 497.78125,
+            "bottom": 805.640625,
+            "left": 402.578125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-properties",
+    "w": 390,
+    "h": 844,
+    "time": "2026-10-05T12:28:38.266Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.5 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 512.515625,
+            "width": 98.734375,
+            "height": 43,
+            "top": 512.515625,
+            "right": 154.734375,
+            "bottom": 555.515625,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.5 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(0, 95, 204) auto 1px",
+          "rect": {
+            "x": 164.734375,
+            "y": 512.515625,
+            "width": 101.015625,
+            "height": 43,
+            "top": 512.515625,
+            "right": 265.75,
+            "bottom": 555.515625,
+            "left": 164.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.5 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(0, 95, 204) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 565.515625,
+            "width": 80.828125,
+            "height": 43,
+            "top": 565.515625,
+            "right": 136.828125,
+            "bottom": 608.515625,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.5 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 146.828125,
+            "y": 565.515625,
+            "width": 95.203125,
+            "height": 43,
+            "top": 565.515625,
+            "right": 242.03125,
+            "bottom": 608.515625,
+            "left": 146.828125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-properties",
+    "w": 360,
+    "h": 800,
+    "time": "2026-10-05T12:28:42.817Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 628.5,
+            "width": 98.734375,
+            "height": 43,
+            "top": 628.5,
+            "right": 154.734375,
+            "bottom": 671.5,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 164.734375,
+            "y": 628.5,
+            "width": 101.015625,
+            "height": 43,
+            "top": 628.5,
+            "right": 265.75,
+            "bottom": 671.5,
+            "left": 164.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 681.5,
+            "width": 80.828125,
+            "height": 43,
+            "top": 681.5,
+            "right": 136.828125,
+            "bottom": 724.5,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nBề dày tấm chắn (tương đối): 4\nĐiều kiện thí nghiệm\nα · chắn giấy\nβ⁻ · chắn nhôm\nγ · chắn chì\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nKhảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.\n\n🔎 Chu trình khám phá:\n\nChọn tia: Chuyển qua ít nhất 3 loại tia khác nhau.\nSo sánh: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.\nGiải thích: Trả lời câu hỏi kiểm tra.\nTia α ✓\nTia β⁻\nTia β⁺\nTia γ\n\nTrong điện trường (Hình 23.3a SGK):\n\nCực + (dương)\nCực − (âm)\nTia α\n\nHướng lệch: Lệch về cực âm (bị hút bởi cực −)\n\nQua vật cản (Hình 23.4 SGK):\n\nGiấy\nNhôm\nChì\n✗\nTia α\n\nBị chặn bởi: Tờ giấy hoặc da người\n\nTia α\n\nBản chất: Hạt nhân ⁴He | Điện tích: +2e\n\nKhả năng đâm xuyên: Vài cm trong không khí\n\nTiêu chí hoàn thành:\n\nXem ít nhất 3 loại tia (1/3)\nTrả lời câu hỏi kiểm tra\nTrong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?\nTia alpha (α)\nTia beta trừ (β⁻)\nTia gamma (γ)\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 146.828125,
+            "y": 681.5,
+            "width": 95.203125,
+            "height": 43,
+            "top": 681.5,
+            "right": 242.03125,
+            "bottom": 724.5,
+            "left": 146.828125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-safety",
+    "w": 1440,
+    "h": 900,
+    "time": "2026-10-05T12:28:46.921Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 366,
+            "y": 699.875,
+            "width": 98.734375,
+            "height": 43,
+            "top": 699.875,
+            "right": 464.734375,
+            "bottom": 742.875,
+            "left": 366
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 474.734375,
+            "y": 699.875,
+            "width": 101.015625,
+            "height": 43,
+            "top": 699.875,
+            "right": 575.75,
+            "bottom": 742.875,
+            "left": 474.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 585.75,
+            "y": 699.875,
+            "width": 80.828125,
+            "height": 43,
+            "top": 699.875,
+            "right": 666.578125,
+            "bottom": 742.875,
+            "left": 585.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 2.1 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 676.578125,
+            "y": 699.875,
+            "width": 95.203125,
+            "height": 43,
+            "top": 699.875,
+            "right": 771.78125,
+            "bottom": 742.875,
+            "left": 676.578125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-safety",
+    "w": 1280,
+    "h": 720,
+    "time": "2026-10-05T12:28:52.463Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 366,
+            "y": 548.265625,
+            "width": 98.734375,
+            "height": 43,
+            "top": 548.265625,
+            "right": 464.734375,
+            "bottom": 591.265625,
+            "left": 366
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 474.734375,
+            "y": 548.265625,
+            "width": 101.015625,
+            "height": 43,
+            "top": 548.265625,
+            "right": 575.75,
+            "bottom": 591.265625,
+            "left": 474.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 585.75,
+            "y": 548.265625,
+            "width": 80.828125,
+            "height": 43,
+            "top": 548.265625,
+            "right": 666.578125,
+            "bottom": 591.265625,
+            "left": 585.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(8, 100, 205) auto 1px",
+          "rect": {
+            "x": 676.578125,
+            "y": 548.265625,
+            "width": 95.203125,
+            "height": 43,
+            "top": 548.265625,
+            "right": 771.78125,
+            "bottom": 591.265625,
+            "left": 676.578125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-safety",
+    "w": 768,
+    "h": 1024,
+    "time": "2026-10-05T12:28:58.251Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 92,
+            "y": 762.546875,
+            "width": 98.734375,
+            "height": 43,
+            "top": 762.546875,
+            "right": 190.734375,
+            "bottom": 805.546875,
+            "left": 92
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 200.734375,
+            "y": 762.546875,
+            "width": 101.015625,
+            "height": 43,
+            "top": 762.546875,
+            "right": 301.75,
+            "bottom": 805.546875,
+            "left": 200.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 311.75,
+            "y": 762.546875,
+            "width": 80.828125,
+            "height": 43,
+            "top": 762.546875,
+            "right": 392.578125,
+            "bottom": 805.546875,
+            "left": 311.75
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 402.578125,
+            "y": 762.546875,
+            "width": 95.203125,
+            "height": 43,
+            "top": 762.546875,
+            "right": 497.78125,
+            "bottom": 805.546875,
+            "left": 402.578125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-safety",
+    "w": 390,
+    "h": 844,
+    "time": "2026-10-05T12:29:04.188Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 512.765625,
+            "width": 98.734375,
+            "height": 43,
+            "top": 512.765625,
+            "right": 154.734375,
+            "bottom": 555.765625,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 164.734375,
+            "y": 512.765625,
+            "width": 101.015625,
+            "height": 43,
+            "top": 512.765625,
+            "right": 265.75,
+            "bottom": 555.765625,
+            "left": 164.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(54, 125, 207) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 565.765625,
+            "width": 80.828125,
+            "height": 43,
+            "top": 565.765625,
+            "right": 136.828125,
+            "bottom": 608.765625,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.7 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(0, 95, 204) auto 1px",
+          "rect": {
+            "x": 146.828125,
+            "y": 565.765625,
+            "width": 95.203125,
+            "height": 43,
+            "top": 565.765625,
+            "right": 242.03125,
+            "bottom": 608.765625,
+            "left": 146.828125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  },
+  {
+    "id": "system-sim-radiation-safety",
+    "w": 360,
+    "h": 800,
+    "time": "2026-10-05T12:29:08.633Z",
+    "states": [
+      {
+        "action": "Phối cảnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(2, 96, 204) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 628.140625,
+            "width": 98.734375,
+            "height": 43,
+            "top": 628.140625,
+            "right": 154.734375,
+            "bottom": 671.140625,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Phía trước",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 164.734375,
+            "y": 628.140625,
+            "width": 101.015625,
+            "height": 43,
+            "top": 628.140625,
+            "right": 265.75,
+            "bottom": 671.140625,
+            "left": 164.734375
+          }
+        }
+      },
+      {
+        "action": "Từ trên",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 56,
+            "y": 681.140625,
+            "width": 80.828125,
+            "height": 43,
+            "top": 681.140625,
+            "right": 136.828125,
+            "bottom": 724.140625,
+            "left": 56
+          }
+        }
+      },
+      {
+        "action": "Bên cạnh",
+        "text": "Không gian thí nghiệm 3D\nĐã tạm dừng · 1.6 s mô hình\nTiếp tục\nĐặt lại thí nghiệm\nTốc độ\n0,5×\n1×\n2×\nPhối cảnh\nPhía trước\nTừ trên\nBên cạnh\nKhoảng cách đến nguồn (đơn vị mô hình): 5\nĐiều kiện thí nghiệm\nKhông chắn\nCó tấm chắn\n\nKéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.\n\nBảng thao tác, số liệu và câu hỏi\n\nTham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.\n\nAn toàn bức xạ (trang 110–111 SGK). Ba nguyên tắc cốt lõi: (1) Khoảng cách – (2) Che chắn – (3) Thời gian phơi nhiễm tối thiểu.\n\n🛡️ Chu trình khám phá:\n\nChọn tình huống: Thử ít nhất 2 trong 3 tình huống.\nĐánh giá: Chọn các biện pháp bảo vệ phù hợp.\nKiến thức: Trả lời câu hỏi về nguyên tắc ALARA.\nPhòng thí nghiệm phóng xạ ✓\nPhòng bệnh nhân xạ trị\nVận chuyển nguồn phóng xạ\n☢ PHÓNG XẠ\n\nPhòng thí nghiệm phóng xạ\n\nBạn cần làm việc gần nguồn phóng xạ ¹³¹I (10 MBq). Nguồn đặt trên bàn ở khoảng cách 50 cm.\n\nChỉ số nguy cơ tương đối: 70/100\n\nChọn các biện pháp bảo vệ phù hợp:\n\nMặc áo chì bảo vệ thân\nĐứng cách nguồn ít nhất 2m\nLàm việc nhanh (< 30 phút/ngày)\nDùng kẹp dài để cầm nguồn\nKhông ăn uống trong phòng\n\nTiêu chí hoàn thành:\n\nThử ít nhất 2 tình huống (1/2)\nTrả lời câu hỏi kiểm tra\nTheo nguyên tắc ALARA, ba biện pháp giảm phơi nhiễm phóng xạ là gì?\nChe chắn bằng chì, giữ nhiệt độ thấp, mặc quần áo dày.\nTăng khoảng cách, giảm thời gian tiếp xúc, sử dụng vật che chắn.\nRửa tay thường xuyên, uống nhiều nước, ngủ đủ giấc.\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\n\nĐây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật nếu chưa được đào tạo và cấp phép.\n\nHỏi AI về bài B23 ↗\nGhi câu hỏi và cách làm trước khi trao đổi.\n\nĐưa học liệu này vào kế hoạch riêngLiên kết mở học liệu này",
+        "focus": {
+          "active": true,
+          "outline": "rgb(18, 106, 207) auto 1px",
+          "rect": {
+            "x": 146.828125,
+            "y": 681.140625,
+            "width": 95.203125,
+            "height": 43,
+            "top": 681.140625,
+            "right": 242.03125,
+            "bottom": 724.140625,
+            "left": 146.828125
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "scroll": []
+  }
+]

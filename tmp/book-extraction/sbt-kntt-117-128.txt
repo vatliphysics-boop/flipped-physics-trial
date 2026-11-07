@@ -1,0 +1,599 @@
+
+PAGE PDF 117
+21.3. A.
+21.4. C.
+21.5. B.
+21.2. B.
+21.6. D.
+21.7. D. Số neutron có trong một nguyên tử carbon 'fC là n = 8.
+Số nguyên tử có trong m = 3,5 g carbon là:
+A = 3,5.6,02.1023
+N = M.N
+- = 1,505.1023
+14
+M
+Số neutron có trong 3,5 g carbon là: n.N = 8.1,505.1023 = 12,04.1023
+21.8. A.
+Số nguyên tử oxygen có trong 1 mol (18 g) H,O là: 6,02.1023
+Số nguyên tử oxygen có trong 5 g H,O là:
+5.6,02.1023
+m.NA
+-- = 1,67.1023
+- =
+M
+18
+21.9. Áp dụng công thức: R = 1,2.10-15 A3 (m); V =
+-TR3 → V~A.
+3
+238
+= 59,5 lần.
+- =
+He
+He
+21.10. Trong Hình 21.1 SGK có chú thích: "chỉ 1 trong khoảng 104 hạt a bị lệch hơn
+104. Tức là hạt
+90°". Lệch hơn 90° có nghĩa là bật ngược trở lại, do vậy Pbật =
+kích thước của nguyên tử vàng.
+nhân nguyên tử vàng chỉ bằng khoảng
+104
+21.11. Ta có: 20x + 22y + 21.0,0026 = 20,179
+x + y = 0,9974
+Từ hai phương trình trên ta xác định được: x = 0,9092; y = 0,0882. Vậy thành phần
+neon 10 Ne trong neon thiên nhiên là 90,92% và thành phần neon 20 Ne là 8,82%.
+21.12. Khối lượng nguyên tử của chlorine: 34,969.75,4% + 36,966.24,6% = 35,46 amu.
+117
+
+PAGE PDF 118
+PHẢN ỨNG HẠT NHÂN
+BÀI 22
+VÀ NĂNG LƯỢNG LIÊN KẾT
+22.1.
+Đúng
+Nội dung
+Sai
+Phản ứng hạt nhân là quá trình biến đổi từ hạt nhân này thành
+hạt nhân khác, bao gồm phản ứng hạt nhân kích thích và phản
+ứng hạt nhân tự phát.
+Trong một phản ứng hạt nhân luôn cần từ hai hạt tham gia phản
+X
+ứng trở lên.
+Trong phản ứng hạt nhân, số khối và điện tích của hệ được bảo toàn.
+Trong phản ứng hạt nhân, số khối, điện tích và khối lượng của
+hệ được bảo toàn.
+X
+Phản ứng phân hạch là phản ứng hạt nhân trong đó một hạt
+nhân nặng vỡ thành hai mảnh nhẹ hơn.
+Phản ứng tổng hợp hạt nhân là phản ứng trong đó hai hay nhiều hạt
+nhân nhẹ tổng hợp lại thành một hạt nhân nặng hơn.
+X
+Phản ứng tổng hợp hạt nhân là phản ứng trong đó hai hay nhiều hạt
+nhân trung bình tổng hợp lại thành một hạt nhân nặng.
+X
+Độ hụt khối (Am) của hạt nhân là độ chênh lệch tổng khối lượng
+của các nucleon tạo thành hạt nhân và khối lượng của hạt nhân.
+X
+Am = [Zmp + (A - Z)m,] - mx.
+Năng lượng E và khối lượng m tương ứng của cùng một vật
+được liên hệ với nhau thông qua hệ thức Einstein: E = mc trong
+đó, c là tốc độ của ánh sáng trong chân không.
+X
+Năng lượng liên kết riêng Ekr của một hạt nhân có số khối A
+bằng: Er =
+- trong đó, En là năng lượng tối thiểu dùng để
+tách toàn bộ số nucleon ra khỏi hạt nhân, gọi là năng lượng liên
+kết hạt nhân. Hạt nhân càng bền vững khi Enr càng lớn.
+Hạt nhân càng bền vững khi năng lượng liên kết En càng lớn.
+Phản ứng hạt nhân kích thích: là quá trình các hạt nhân tương tác với
+X
+các hạt khác (ví dụ: hạt nhân, neutron,....) tạo ra các hạt nhân mới. Ví
+dụ: phản ứng phân hạch, phản ứng tổng hợp hạt nhân.
+Phản ứng hạt nhân tự phát: là quá trình tự phân rã của một hạt
+nhân không bền vững thành các hạt nhân mới.
+x
+118
+
+PAGE PDF 119
+22.3. C.
+22.4. C.
+22.5. A.
+12.2. A.
+22.6. A.
+128. D. Áp dụng công thức Wik = 4m.c
+22.7. B.
+WIK = 0,0308.931,5 = 28,70 MeV
+22.9. A. Năng lượng liên kết riêng của {He:
+WIK =
+28,8
+= 7,20 MeV/nucleon.
+22.10. D.
+WIK
+12.11. C. WIk = (8 + 9).7,75 MeV; Am =
+931,5
+m, = (8m, + 9m,) - Am = 16,995 amu.
+22.12. A. Khối lượng của hạt a là: m, = mHc - 2m, = 4,001902 amu.
+22.14. A.
+22.15. B.
+22.13. D.
+22.16. C.
+22.17. C.
+22.19. A.
+22.20. C.
+22.18. B.
+22.21. D. Hiện nay con người mới kiểm soát được phản ứng phân hạch trong lò
+phản ứng hạt nhân; còn với phản ứng nhiệt hạch thì mới chỉ thực hiện được
+phản ứng dưới dạng không kiểm soát được (bom H).
+130 và
+22.22. Các nucleon thể hiện trong hình vẽ có vai trò như nhau. Các hạt nhân
+hạt nhân H được tạo ra từ các nucleon bất kì của hạt nhân He và ",N.
+22.23. Năng lượng liên kết riêng của các hạt nhân 2 U, 1° Ce, S Fe là:
+W = 1809,5 = 7,7 MeV; Wc = 1180,2 = 8,43 MeV;
+140
+235
+494,8
+= 8,83 MeV.
+WFe =
+56
+Vậy Wu < Wce < Wre. Do đó hạt nhân S6 Fe bền vững nhất.
+22.24. Khối lượng của 1 mol hạt a là:
+:4,0015.1,66054.10-27 = 4,0014 g.
+N,.M. = 6,022.1033
+6,022.10"
+- ~ 1,505 hạt/g.
+Số hạt a trong 1 g chất đó là: n = -
+4,0014
+Khi các hạt neutron và proton riêng rẽ tạo thành hạt a thì có độ hụt khối và toả
+ra năng lượng đúng bằng năng lượng liên kết của hạt a. Năng lượng liên kết
+riêng của hạt a là Wa = 7,1 MeV và số khối A = 4, nên năng lượng liên kết là:
+W = WaA = 4.7,1 = 28,4 MeV.
+Năng lượng toả ra cần tìm là: nW = 1,505.28,4 = 42,742.10" MeV = 68,38.10"° J.
+119
+
+PAGE PDF 120
+22.25. Hạt nhân He có 2 proton và 2 neutron. Khối lượng của 2 proton và 2 neutror
+là: 2m, + 2m, = 2.1,007276 + 2.1,008665 = 4,0319 amu.
+22.26. Ap dụng công thức Wik = [Zm, + (A - Z)m, - m]c2
+Với Z = 7; A - Z = 7; m, = 938 MeV/d; m, = 939 MeV/c2
+m ("'N) = 14,003242.931,5 MeV/c, ta tìm được Wik = 95 MeV.
+222m. Sau khi tìm được nắng lượng liên kết riêng của hạt nhân ? Be và hạt nhất
+AL
+ỉ; A1, so sánh ta nhận thấy năng lượng liên kết riêng của nhôm
+lớn hơn
+A
+Al
+AW
+; do đó hạt nhân nguyên tử nhôm
+Be
+năng lượng liên kết riêng của berium
+ABe
+bền vững hơn.
+b) 2 800.1023 kg.
+22.28. a) 5,13.102 MeV.
+22.29. Vì hạt nhân X cũng là hạt nhân helium He, nên năng lượng tỏả ra khi tổng
+hợp được 0,5 mol helium là: 17,3.6,023.10% = 2,6.10" MeV.
+2.2
+22.30. Ta có: W#e = 17,5. 1000.6,02.1023
+- MeV.
+4,0015
+WHe = 2,63.1027 MeV = 4,21.10'4 J.
+Mặt khác, ta đã biết 1 kg 235U phân hạch hoàn toàn toả ra năng lượng là 8,21.10').
+W
+He = 5,1 lần.
+Vậy
+W
+U
+HIỆN TƯỢNG PHÓNG XẠ
+BÀI 23
+23.1.
+Nội dung
+Sai
+Phân rã phóng xạ có tính tự phát và ngẫu nhiên.
+Đúng
+Phân rã phóng xạ cần có kích thích để xảy ra.
+Tia phóng xạ là tia không nhìn thấy được, nhưng có các tính
+chất như: ion hóá, gây ra các hiệu ứng quang điện, phát xạ thứ
+cấp, làm đển kính ảnh, xuyên thấu lớp vật chất mỏng, phá hủỷ
+tế bào, kích thích một số phản ứng hoá học,...
+x
+120
+
+PAGE PDF 121
+Tìa phóng xạ có thể nhìn thấy được và có các tính chất như:
+ion hóá, gây ra các hiệu ứng quang điện, phát xạ thứ cấp, làm
+đen kính ảnh, xuyên thấu lớp vật chất mỏng, phá huy tế bào,
+kích thích một số phản ứng hoa học....
+Các loại tia phóng xạ chính:
+- Tia phóng xạ a là các hạt nhân He được phóng ra từ hạt
+nhân bị phân rã, chuyển động với tốc độ khoảng 2.10 m/s.
+- Tia phóng xạ B (hoặc B* ) là dòng các hạt _,e (hoặc ,
+,e) phóng
+ra từ hạt nhân bị phân rã, chuyển động với tốc độ xấp xỉ tốc
+X
+độ ánh sáng.
+- Tia phóng xạ y là sóng điện từ có bước sóng rất ngắn cỡ nhỏ
+hơn 10-''m.
+- Tia phóng xạ y là chùm hạt mang điện dương và có khả năng
+X
+đâm xuyên rất lớn.
+Số hạt chưa phân rã của chất phóng xạ N, tại thời điểm t và số
+hạt ban đầu N, của chất phóng xạ được liên hệ với nhau theo
+In 2
+công thức: N, = N,2 ™ = N, e-" trong đó ^ =
+được gọi là
+T
+hằng số phóng xạ, T là chu kì bán rã.
+Độ phóng xạ H đặc trưng cho tính phóng xạ mạnh hay yếu của
+một lượng chất phóng xạ, có giá trị bằng số hạt nhân phân rã
+trong một giây. Độ phóng xạ H, của một mẫu chất phóng xạ tại
+thời điểm t được xác định theo công thức: H, = 2N, = H,e-4
+Nguyên tắc an toàn khi làm việc với nguồn phóng xạ: giữ
+khoảng cách đủ xa đối với nguồn phóng xạ, cần sử dụng các
+X
+tấm chắn nguồn phóng xạ đủ tốt và cần giảm thiểu thời gian
+phơi nhiễm phóng xạ.
+Các nguồn phóng xạ luôn có hại, nên không để chúng xuất hiện.
+23.5. B.
+23.2. D.
+23.4. D.
+23.3. D.
+tin 2
+, khi t = 9 ngày, T = 3 ngày, m = 2 kg thì
+23.6. B. Từ công thức m = m,e-*t = m,e
+m, = 16 kg.
+T ; khi T = 6 giờ, t = 24 giờ, mo = 2,4.10-2 kg
+23.7. B. Áp dụng công thức m = m,e
+thì m = 1,5.10-3 kg.
+23.8. D. Áp dụng công thức m = m, e
+, t = 3 giờ,
+; khi m =
+3ln2
+I'º = m,e T , suy ra T = 1,5 giờ.
+ta có:
+121
+
+PAGE PDF 122
+T ; khi T = 10 giơ, m, = 40 mg, m = 10 mg,
+23.9. C. Áp dụng công thức m = m,e
+thì t = 20 giờ.
+23.10. Hạt a là các hạt mang điện dương, khi hạt mang điện dương chuyển động tạo
+thành một dòng điện. Vì hai vết chuyển động co ở phía dưới và mở rộng ở phía
+trên nên nguồn phóng xạ được đặt ở phía dưới góc phải của hình. Do vậy các
+hạt a đi từ dưới lên và lệch trái. Nó tương ứng với dòng điện đi từ dưới lên trên
+nà bị lực từ tác dụng sang phía trái. Theo quy tắc bàn tay trái có thể suy ra tử
+trường vuông gái với mặt phẳng hình chụp và hướng từ người quan sát đi vào
+mặt phẳng hình chụp.
+23.11. Khả năng đâm xuyên của tia beta từ mạnh đến yếu, tương ứng với khoảng cách
+đâm xuyên của tia beta từ lớn đến nhỏ là: Không khí, cơ thể người, nhôm và chì.
+Ví dụ: Vẽ một đường thẳng, thẳng đứng ứng với tia beta có động năng 0,5 MeV,
+nó cắt các đường đồ thị của không khí, cơ thể người, nhôm và chì lần lượt ở các
+điểm có hoành độ là 120 cm, 22 cm, 6 cm và 2 cm. Có nghĩa là tia beta có động
+năng 0,5 MeV có thể xuyên qua 120 cm không khí hoặc 22 cm cơ thể người,
+hoặc 7 cm nhôm, hoặc 2 cm chì.
+23.12. Từ định luật phân rã phóng xạ N = N,ea, khi t = xT thì:
+N
+N= N,e-AxT = N.(e-T)x= N (e-n2)x = N
+0
+=
+2
+2*
+23.13. Số nguyên tử chứa trong 1 mg 'Ce là: N, = N,.10"
+= 4,182.108
+144
+Số nguyên tử bị phân rã trong thời gian t là: AN = N.
+1-e
+Thay AN = 2,5.10%8, t = 365 ngày, N, = 4,182.10'8, ta tìm được T = 278 ngày.
+23.14. Ta có H = H,e*→ e"==→e"=→→2t= In_~0,405
+0,405T
+- ~3 273 năm.
+→ t=
+In 2
+Vậy tuổi của tượng gỗ là 3 273 năm.
+23.15. Đổi H, = 2 ụCi = 2.10°3,7.10° = 7,4.10° Bq;
+H = 502V phân rã/phút (V là thể tích của máu: cm?)
+H= H,2 T = H,20,5 →
+-= 20,5 =-
+8,37V
+H,
+7,4.104.2-0,5
+7,4.10ª → 8,37V = 7,4.10ª.20.5
+= 6 251,6 cm= 6,25 dm' = 6,25 L.
+→ V =
+8,37
+122
+
+PAGE PDF 123
+CÔNG NGHIỆP HẠT NHÂN
+BÀI 24
+24.1.
+Nội dung
+Đúng
+Sal
+Công nghệ năng lượng hạt nhân hay năng lượng nguyên tử là
+một loại công nghệ được thiết kế để tách năng lượng hữu ích
+từ hạt nhân nguyên tử thông qua các lò phản ứng hạt nhân có
+kiểm soát.
+Phương pháp duy nhất được sử dụng trong lò phản ứng hạt
+nhân hiện nay là phân hạch hạt nhân, mặc dù các phương pháp
+X
+khác có thể bao gồm tổng hợp hạt nhân và phân rã phóng xạ.
+Tất cả các lò phản ứng với nhiều kích thước và mục đích sử
+dụng khác nhau đều dùng nước được đun nóng để tạo ra hơi
+X
+nước và sau đó được chuyển thành cơ năng để phát điện hoặc
+tạo lực đẩy.
+Sử dụng năng lượng hạt nhân giúp giảm khí thải nhà kính,
+mang lại nguồn cung cấp điện ổn định, đảm bảo năng lượng
+X
+bền vững, đem lại lợi ích kinh tế lâu dài.
+24.2. a) Ở độ dày tiêu chuẩn, đầu thu sẽ nhận một độ phóng xạ xác định, do đó mức
+tín hiệu ở đầu thu cũng xác định, cho nên hệ thống máy tính không gửi tín hiệu
+điều chỉnh vị trí con lăn. Vì lí do nào đó lá vật liệu có độ dày lại khác độ dày tiêu
+chuẩn, thì tín hiệu đầu thu sẽ thay đổi do độ phóng xạ tới đầu thu bị thay đổi.
+Thông qua hệ thống máy tính, một tín hiệu điều chỉnh vị trí con quay cán vật
+liệu sẽ được gửi đi, nhằm đưa độ dày của lá vật liệu trở về giá trị tiêu chuẩn do.
+b) ng°
+lần.
+c) - Độ dày lá vật liệu sản xuất ra là: da = d (1+10Bn) =4 mm.
+- Người ta cần hiệu chỉnh máy tới giá trị: dhc = d, (1+ logn 2) = 8 mm.
+g0011
+24.3, a) Thông tin trên vỏ hộp cho thấy độ phóng xạ của mẫu là:
+H = 2,5 Ci = ^N → N =3,69.1020
+DI.AS
+Do vậy khối lượng của của mẫu phóng xạ trong pin nguyên tử là:
+nsnu
+3,69.1020
+6,02.102. 238 g = 0,15 g.
+N
+.238 g =
+dem md qun.
+m=
+nobz rairi sr
+N
+A
+123
+
+PAGE PDF 124
+b) Công suất pin tỉ lệ với bình phương suất điện động. Công suất giam đi
+50% = 0,5 thì suất điện động giảm đi /0,5 = 0,71 lần. Giá trị này cũng là độ giảm
+của độ phóng xạ.
+Do vậy thời gian t cần thay pin là: t = T. log2 0,71 = 43,3 năm.
+24.4. Lí do các nhà máy điện hạt nhân thường được xây dựng cạnh hồ, sông và bờ
+biển là vì: nhà máy điện hạt nhân toả ra rất nhiều nhiệt, cần nhiều nước để
+làm mát.
+24.5. Nguy cơ ảnh hưởng tới sức khoẻ con người và môi trường nếu không may xảy
+ra sự cố tại lò phản ứng hạt nhân: rủi ro về sự an toàn, gây ô nhiêm phóng xạ
+ảnh hưởng nghiêm trọng đến môi trường và sức khỏe con người; tạo ra chất
+thải phóng xạ, có thể gây nguy hiểm trong hàng trăm năm, việc quản lí và xử kí
+chất thải gây lo ngại về rò rỉ phóng xạ và ô nhiễm.
+24.6. Nhà máy điện hạt nhân giúp giảm khí thải nhà kính, mang lại nguồn cung cấp
+điện ổn định, đảm bảo năng lượng bền vững, đem lại lợi ích kinh tế lâu dài.
+24.7. - Ưu điểm của nhà máy điện hạt nhân: cung cấp năng lượng hạt nhân giúp
+giảm khí thải nhà kính, mang lại nguồn cung cấp điện ổn định, đảm bảo năng
+lượng bền vững, đem lại lợi ích kinh tế lâu dài. Hệ thống khai thác năng lượng
+hạt nhân có thể hoạt động trong thời gian dài mà không cần bổ sung nhiên liệu.
+- Nhược điểm của nhà máy điện hạt nhân: tạo ra chất thải nguy hại cho môi
+trường, quá trình vận hành có khả năng rủi ro và sự cố khá cao, chi phí xây
+dựng tốn kém cũng như tiềm tàng nguy cơ về an ninh hạt nhân.
+- Để đáp ứng nhu cầu năng lượng không ngừng tăng nhanh thì cơ hội phát triển
+các nhà máy điện hạt nhân là khả thi.
+24.8. Lí do người ta sử dụng tia gamma trong chụp ảnh phóng xạ cắt lớp bên trong cơ
+thể là vì: Tia y có khả năng đâm xuyên lớn. Khi các chất phóng xạ di chuyển trong
+cơ thể, chúng phát ra các tia y xuyên qua các thành phần cơ thể đến đầu dò tín hiệu
+và ta thu được thông tin về vị trí, tính chất, thành phần cơ thể bị tia y xuyên qua.
+24.9. Vai trò của y học hạt nhân trong đời sống: Chẩn đoán và điều trị các bệnh ung
+thư, bệnh nội tiết, tim mạch,...: Xử lí thực phẩm sử dụng bức xạ ion hóa, khữ
+trùng các sản phẩm và thiết bị y tế (đồng phục, dụng cụ, băng gạc,...); Xác định
+nguồn nước, đánh giá nguy cơ xâm nhập nước mặn hoặc ô nhiễm nguồn nước,
+kiểm tra khả năng sử dụng nước; Phát hiện các khu vực đất bị xói mòn,...
+24.10. Ưu điểm, nhược điểm và cơ hội phát triển của y học hạt nhân:
+- Chẩn đoán hình ảnh; Chân đoán hình ảnh kết hợp; Công nghệ chụp PET
+(Positron Emission Tomography); Công nghệ chup SPECT - Chụp tim mạch và
+xạ hình xương; Điều trị ung thư,...
+124
+
+PAGE PDF 125
+- Nhiêm quá nhiều phóng xạ có khả năng làm tổn thương các cơ quan hoặc mô
+trong cơ thể, thậm chí làm tăng ngưy cơ ung thư.
+- Khi công nghệ tiến bộ, các nhà khoa học hi vọng rằng các phương pháp điều trị
+sể tác động nhiều hơn dến khối u hoặc bệnh và t ảnh hướng đên toà láp điều tẻ,
+BÀI TẬP CUỐI CHƯƠNG IV
+IV.2. C.
+IV.3. B.
+V.1. C.
+IV.4. A.
+IV5. D. Hạt nhân của đồng vị hydrogen A5 chính là 1 proton có số khối A = 1 là
+hạt nhân có thể tích nhỏ nhất. Bán kính của nó là: R = 1,2.10-5. AỀ m.
+Coi hạt nhân có dạng hình cầu thì thể tích của nó là:
+= ŞT.1,2.10"9 m' = 7,23.10+5m?
+2.10-15 A3
+V =
+1,
+=
+3
+3
+IV.7. C.
+IV.8. C.
+IV.6. B.
+H (Ho)
+IV.9. a) Vì độ phóng xạ tỉ lệ với cường độ
+dòng điện nên đồ thị cũng đồng dạng với
+Họ
+0,75Ho
+đồ thị cường độ dòng điện Hình IV.1G.
+0,5Ho
+b) 55 s.
+0,25Ho
+c) 1 mL khí 22°Rn muốn duy trì độ phóng
+xạ thì lượng ºRn bị mất đi phải được bù
+55 110 165 220 275
+t (s)
+trừ bằng lượng 22 Rn trong phân rã 24 Ra.
+Hình IV.1.G. Bố trí thí nghiệm và
+Và lượng 224Ra phải được bù trừ bằng
+kết quả thí nghiệm khảo sát quy luật
+lượng 224Ra tạo ra trong phân rã của 228Th.
+phóng xạ
+Chính vì vậy, để duy trì ta cần phải có:
+HTh = HRa = Hen•
+Dữ kiện 1 mL khí ở điều kiện tiêu chuẩn ta suy ra được số lượng hạt của 20Rn,
+từ đo ta tính được độ phóng xạ Hn dựa vào chu kì bãn ra đã tính được từ câu
+b. Trên cơ sở đó ta tìm được khối lượng tối thiểu của bình 22 Th là mTh *11 kg.
+b) {Be+ {He → 1½C+Ón
+[V.10. a) "4N+{He→"30+{H
+H+ _jer
+3
+3H
+4 Cu → je+ 28 Ni
+c)
+125
+
+PAGE PDF 126
+IV.11. a) Độ hụt khối của hạt nhân Al:
+Sm - (3m, + 4m,) - д = 13.10728 + 141.086- 26,98153- 0,23435 amu.
+Độ hụt khối của hạt nhân Pb:
+Am = (82m, + 124m,) - mp = 82.1,00728 + 124.1.0086- 2059745 - 1,6963 amu.
+b) Năng lượng liên kết riêng của hạt nhân Al:
+AmAIC
+0,23435.931,5
+- = 8,085075 MeV
+AAI
+Năng lượng liên kết riêng của hạt nhân Pb:
+Атрыс?
+1,6963.931,5
+- = 7,6704051 MeV.
+206
+Арь
+→> Al bền vững hơn hạt nhân Pb.
+In 2
+= 2.10451
+1v.12. a) Hằng số phóng xạ: 2 =
+b) Khoảng thời gian để 75% chất đó đã biến thành chất khác (tức là số hạt nhân
+chưa phân rã còn lại là 25% N.):
+Theo định luật phóng xạ : N(1) = Noe-2t → N(t)= 2-2 = e-Mt
+No
+In 2
+→ -2 In2 = -^t; thay ^ = -
+T → t= 2T = 6930 s.
+IV.13. Tại thời điểm t, hai mẫu có số hạt nhân còn lại như nhau: N, = N2
+→ N01-2 4 = N022 T2 →2 I1
+No2
+No1
+8
+1
+3
+> t
+= 3 →t=-
+-=18
+T2,
+1
+1
+T Tz
+Sau 18 ngày hai mẫu có số hạt nhân còn lại như nhau.
+IV.14. Số hạt nhân U đã phân rã bằng số hạt nhân Pb tạo thành:
+mPb NA = 6,767 (hạt)
+N=-
+Арь
+Tại thời điểm hiện nay: AN
+1-2 T
+=
+"1
+T →2T =-
+N
+= 0,9461
+2 T
+AN
+In 0,9461
+1I+l
+→1 = 357.106 năm.
+N
+In 2
+126
+
+PAGE PDF 127
+NV15. Cả hai có cùng lượng lởC nên lượng lộc ban đầu là như nhau.
+N,
+Định luật phóng xạ: N, = No.2 T→2
+-
+No
+3
+In 3
+t
+→-=-
+→ t = 9 081,8 năm.
+T
+In 2
+NV.16. Ta có: 10 cm' = 10-2L.
+Với nồng độ 10-3 mol/L, số mol 2Na tiêm vào người là: N, = 103.10-3 = 10° mol
+Sau t = 6 h, số mol có trong người là: n = n,e-4
+0,093 0,693
+Với T = 15 h, cho ta: ^,=
+-. Từ đó xác định được trong V lít máu
+T
+15
+0,693
+của người có: n = 10-5e 15
+=0,75.10-5 mol.
+Trong V lít máu có 0,75.10S mol "Na. Trong 10-2 L có 1,5.10-° mol Na.
+0,75.10-$.10-2
+Vậy V =
+=5 L.
+191S
+1,5.10-8
+IV.17. Số hạt nhân nguyên tử có trong 100 kg quặng uranium:
+3/191
+100.25.6,023.1023
+- ~ 640,745.1023 hạt.
+N=
+100.0,235
+Năng lượng toả ra của vụ nổ:
+W = 640,745.1023.200 MeV = 1 281,49.1025 MeV = 2 050,384.102 J.
+Số số điện tương đương: n = 2 050,384.101 5,7.108 kWH.
+3,6.106
+[V.18. a) Công suất phát điện của nhà máy:
+235 U:
+Năng lượng giải phóng do phân hạch của 58,75 g
+58,75.6,023.1023.200
+= 301,1.1023 MeV = 481,76.100 J
+W=-
+Công suất điện của nhà máy: P = 481,76.100.25 x 13,94.10° W = 13,94 MW.
+235
+100.24.3600
+b) Số neutron thu được trong lò phản ứng: Số neutron giải phóng
+do 58,75 g 235 U: N, = 33,75.6,023.10:2,5 -3,76438.10 hat
+- = 3,76438.10 hạt
+235
+235 U phần hạch hết:
+Số neutron bị hấp thụ để 58,75 g
+N, = 58,75.6,023.103 = 1,5057,10ª hạt
+235
+Số neutron thu được trong lò phản ứng: N = N, - N, = 2,25862.1023 hạt.
+127
+
+PAGE PDF 128
+,CLF:
+Nhà xuất bản Giáo dục Việt Nam xin trân trọng cảm ơn
+các tác giả có tác phẩm, tư liệu được sử dụng, trích dẫn
+trong cuốn sách này.
+Chủ tịch Hội đồng thành viên kiêm Tổng Giám đốc NGUYỄN TIẾN THANH
+Chịu trách nhiệm xuất bản:
+Chịu trách nhiệm nội dung:
+Tổng biên tập PHẠM VĨNH THÁI
+Biên tập nội dung: ĐINH THỊ THÁI QUỲNH - PHẠM VĂN HANH
+Thiết kế sách: ĐINH THANH LIÊM
+Trình bày bìa: NGUYỄN BÍCH LA
+Sửa bản in: NGUYỄN DUY LONG - TRẦN THU HÀ
+Chế bản: CTCP DỊCH VỤ XUẤT BẢN GIÁO DỤC HÀ NỘI
+Bản quyền thuộc Nhà xuất bản Giáo dục Việt Nam.
+Tất cả các phần của nội dung cuốn sách này đều không được sao chép,
+lưu trữ, chuyển thể dưới bất kì hình thức nào khi chưa có sự cho phép bằng
+văn bản của Nhà xuất bản Giáo dục Việt Nam.
+BÀI TẬP VẬT LÍ 12
+Mã số: G1BHZL001H24
+In 111.000 bản (QĐ 26SBT - NXBGDHN), khổ 17 x 24cm.
+Số in: 8396 . Đơn vị in: Nhà máy in Bộ Quốc phòng
+Địa chỉ: Thôn Lưu Phái, xã Ngũ Hiệp, huyện Thanh Trì, TP. Hà Nội, Việt Nam
+Cơ sở in: k 4 C-N026C XB: Kn 19, Đại lọ Thăng Long, Thị trán Quốc Oal, TP. Hà Nội, Việt Nam
+Số ĐKXB: 466-2024/CXBIPH/15-263/GD
+Số QĐXB: 2092/QD-GD-HN ngày 23 tháng 5 năm 2024
+In xong và nộp lưu chiểu quý II năm 2024
+Mã số ISBN: 978-604-0-41869-2
+128

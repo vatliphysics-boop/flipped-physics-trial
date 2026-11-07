@@ -1,0 +1,65 @@
+{
+  "id": "worker2-round4-pedagogy-review",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T08:21:22.100Z",
+  "status": "TIMED_OUT",
+  "session_ids": [
+    "01a10b27-3b7c-7193-9ccf-a2d7a3913a28"
+  ],
+  "exit_code": null,
+  "allowed_files": [],
+  "timeout_seconds": 1500,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-fgDZr2": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-round4-pedagogy-review/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-fgDZr2",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-fgDZr2/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-fgDZr2/evidence"
+  },
+  "pid": 28908,
+  "signal": "SIGTERM",
+  "end": "2026-10-05T08:46:22.763Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-fgDZr2",
+  "changed_files": [
+    "catalog-empty1280.png",
+    "home1280.png",
+    "src/components/physics/B23Activities.tsx",
+    "src/lib/local-ai.ts",
+    "tests/local-ai.test.ts",
+    "b22.yml",
+    "src/lib/decay-data.ts",
+    "tests/decay-data.test.ts"
+  ],
+  "unexpected_changes": [
+    "catalog-empty1280.png",
+    "home1280.png",
+    "src/components/physics/B23Activities.tsx",
+    "src/lib/local-ai.ts",
+    "tests/local-ai.test.ts",
+    "b22.yml",
+    "src/lib/decay-data.ts",
+    "tests/decay-data.test.ts"
+  ],
+  "protected_sources_unchanged": true
+}

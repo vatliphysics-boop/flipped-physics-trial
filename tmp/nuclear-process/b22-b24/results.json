@@ -1,0 +1,43 @@
+{
+  "base": "http://localhost:3000",
+  "results": [
+    {
+      "code": "B22",
+      "width": 390,
+      "absentNeutron": true,
+      "paused": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 390,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "reset": true,
+      "separateCircuits": true
+    },
+    {
+      "code": "B22",
+      "width": 1366,
+      "absentNeutron": true,
+      "paused": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 1366,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "reset": true,
+      "separateCircuits": true
+    }
+  ]
+}

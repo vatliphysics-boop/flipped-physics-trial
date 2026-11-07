@@ -1,0 +1,25 @@
+{
+  "id": "worker2-round8-article-update",
+  "worker": 2,
+  "mode": "article",
+  "timeout_seconds": 2400,
+  "allowed_files": [
+    "BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx"
+  ],
+  "browser_mcp": false,
+  "previous_runs": [
+    "worker2-round6-feedback-retest",
+    "worker2-round7-history-retest"
+  ],
+  "context_files": [
+    "docs/codex-team/ARTICLE_UPDATE_BRIEF.md",
+    "docs/codex-team/TECHNICAL_VERIFICATION.md",
+    "docs/codex-team/curriculum-matrix.md",
+    "docs/codex-team/USER_GUIDE.md",
+    "docs/codex-team/DEV_DATABASE_AND_RESUME.md",
+    "docs/codex-team/runs/worker2-round6-feedback-retest/detailed-report.md",
+    "docs/codex-team/runs/worker2-round7-history-retest/detailed-report.md",
+    "docs/codex-team/runs/worker3-round7-video-retest-fix/detailed-report.md"
+  ],
+  "task": "You alone edit the existing article DOCX now. Read ARTICLE_UPDATE_BRIEF and actual evidence. Preserve existing structure, valid prose, tables, figures, citations, styles, headers and footers; the coordinator already made a backup. Read documents skill /Users/vodoandangkhoi/.codex/plugins/cache/openai-primary-runtime/documents/26.905.11957/skills/documents/SKILL.md and tasks/create_edit.md. Use bundled Python /Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 and bundled Node /Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node. Immediately before first DOCX authoring command execute marker EXACTLY ONCE: bundled Node /Users/vodoandangkhoi/.codex/plugins/cache/openai-primary-runtime/documents/26.905.11957/skills/documents/container_tools/mark_artifact_operation_started.mjs --operation-kind edit --expected-output-count 1 --output-format docx. Do not run marker for merely reading. Update current summary/results/limitations 58 to61 only where appropriate, clarify historical58 and historical PGRST205; current DB unverified/ENOTFOUND, no claim missing tables. Add compact verified changes/reasons/grounds/tests/limits for rounds4-8, CSV, scope guard, dev overlay, blank-answer guidance, B24criteria/title, B21history, curriculum15/15. Distinguish technical checks, AI role review, zero real-user study. No fabricated data, people or statistics; never portray AI as actual50year teacher. No two full final reviews achieved. Read docs/codex-team/runs/worker3-round8-b25-retest/status.json/report/detailed-report or its TMP draft before final save, if completed; B25 currently pending. Do not claim5videos confirmed unless actual round8 evidence supports it. The latest web hash is docs/codex-team/web-version-final.json; no worker code changes during article. Update original Table2/paragraphs to current exact status; keep valid original research references, supplement sources for new history only if used. Preserve source document authorships; keep scholarly prose, proper Vietnamese spacing. Do NOT rebuild article from extracted text or replace whole document. Audit zip/media/table/style counts and immutable source hashes. Render updated DOCX using bundled Python /Users/vodoandangkhoi/.codex/plugins/cache/openai-primary-runtime/documents/26.905.11957/skills/documents/render_docx.py with output_dir inside assigned TMP and --emit_pdf; only bundled LibreOffice /Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice. Inspect EVERY final page PNG via view_image at original resolution, repair/re-render if needed (up to3 repairs), then report exact page count, changed content, structural preservation and limits. Avoid page captions stranded or blank pages. Marker only once across repairs. Write progress report in assigned TMP before editing and update after save/render so timeouts preserve checkpoint. Final short report links your TMP report and QA output; root will copy. Only article may be written in workspace, all scripts/QA in TMP. Do not write .ts/.tsx backup files, no code/DB edits/credentials/production/commit."
+}

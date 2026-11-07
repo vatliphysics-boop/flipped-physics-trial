@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "language": "vi-VN",
+  "pronunciation": [
+    {
+      "symbol": "carbon",
+      "spoken": "các bon"
+    },
+    {
+      "symbol": "proton",
+      "spoken": "proton"
+    },
+    {
+      "symbol": "neutron",
+      "spoken": "neutron"
+    },
+    {
+      "symbol": "nucleon",
+      "spoken": "nucleon"
+    },
+    {
+      "symbol": "alpha (α)",
+      "spoken": "an pha"
+    },
+    {
+      "symbol": "beta (β)",
+      "spoken": "bê ta"
+    },
+    {
+      "symbol": "gamma (γ)",
+      "spoken": "gam ma"
+    },
+    {
+      "symbol": "electron",
+      "spoken": "ê léc trôn"
+    },
+    {
+      "symbol": "positron",
+      "spoken": "pô di trôn"
+    },
+    {
+      "symbol": "uranium",
+      "spoken": "u ra ni"
+    },
+    {
+      "symbol": "thorium",
+      "spoken": "thô ri"
+    },
+    {
+      "symbol": "helium",
+      "spoken": "hê li"
+    },
+    {
+      "symbol": "đơteri",
+      "spoken": "đơ tê ri"
+    },
+    {
+      "symbol": "triti",
+      "spoken": "tri ti"
+    },
+    {
+      "symbol": "becquerel (Bq)",
+      "spoken": "béc cơ ren"
+    },
+    {
+      "symbol": "lambda (λ)",
+      "spoken": "lam đa"
+    },
+    {
+      "symbol": "A",
+      "spoken": "a"
+    },
+    {
+      "symbol": "Z",
+      "spoken": "dét"
+    },
+    {
+      "symbol": "N",
+      "spoken": "en nờ"
+    },
+    {
+      "symbol": "H",
+      "spoken": "hát"
+    },
+    {
+      "symbol": "T",
+      "spoken": "tê lớn"
+    },
+    {
+      "symbol": "e",
+      "spoken": "e"
+    },
+    {
+      "symbol": "t",
+      "spoken": "tê nhỏ"
+    },
+    {
+      "symbol": "N₀",
+      "spoken": "en nờ không"
+    },
+    {
+      "symbol": "N(t)",
+      "spoken": "en nờ của tê"
+    },
+    {
+      "symbol": "ln 2",
+      "spoken": "lô ga rít tự nhiên của hai"
+    },
+    {
+      "symbol": "λ = ln 2 ÷ T",
+      "spoken": "lam đa bằng lô ga rít tự nhiên của hai chia cho tê lớn"
+    },
+    {
+      "symbol": "H = λN",
+      "spoken": "hát bằng lam đa nhân en nờ"
+    }
+  ],
+  "lessons": {
+    "B21": [
+      {
+        "sceneIndex": 0,
+        "utterances": [
+          {
+            "display": "Hai hạt alpha cùng có động năng xa tâm 8 MeV. Ta chỉ đổi tham số va chạm.",
+            "spoken": "Hai hạt an pha cùng có động năng xa tâm tám mê ga ê léc trôn vôn. Ta chỉ đổi tham số va chạm."
+          },
+          {
+            "display": "Đường tới A cách tâm vàng 90 fm. Đường tới B cách 10 fm. Em dự đoán hạt nào lệch nhiều hơn?",
+            "spoken": "Đường tới a cách tâm vàng chín mươi fem tô mét. Đường tới bê cách mười fem tô mét. Em dự đoán hạt nào lệch nhiều hơn?"
+          }
+        ]
+      },
+      {
+        "sceneIndex": 1,
+        "utterances": [
+          {
+            "display": "Theo dõi lượt A. Lực đẩy điện làm đường đi của hạt alpha cong dần.",
+            "spoken": "Theo dõi lượt a. Lực đẩy điện làm đường đi của hạt an pha cong dần."
+          },
+          {
+            "display": "Góc lệch là góc giữa hướng tới và hướng đi khi hạt ở xa tâm.",
+            "spoken": "Góc lệch là góc giữa hướng tới và hướng đi khi hạt ở xa tâm."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 2,
+        "utterances": [
+          {
+            "display": "Giữ cùng động năng và cùng đồng hồ. Hạt ở lượt B đi gần tâm vàng hơn và lệch mạnh hơn.",
+            "spoken": "Giữ cùng động năng và cùng đồng hồ. Hạt ở lượt bê đi gần tâm vàng hơn và lệch mạnh hơn."
+          },
+          {
+            "display": "Góc lệch của A khoảng 18 độ, của B khoảng 110 độ.",
+            "spoken": "Góc lệch của a khoảng mười tám độ, của bê khoảng một trăm mười độ."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 3,
+        "utterances": [
+          {
+            "display": "Tán xạ góc lớn cho thấy điện tích dương tập trung trong một vùng nhỏ.",
+            "spoken": "Tán xạ góc lớn cho thấy điện tích dương tập trung trong một vùng nhỏ."
+          },
+          {
+            "display": "A đếm nucleon, Z đếm proton. Số neutron N bằng A trừ Z.",
+            "spoken": "A đếm nucleon, dét đếm proton. Số neutron, kí hiệu en nờ, bằng a trừ dét."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 4,
+        "utterances": [
+          {
+            "display": "Carbon-12 và carbon-13 đều có 6 proton. Carbon-13 có thêm 1 neutron.",
+            "spoken": "Các bon mười hai và các bon mười ba đều có sáu proton. Các bon mười ba có thêm một neutron."
+          },
+          {
+            "display": "Màu và vị trí của các quả cầu chỉ là quy ước để quan sát cấu tạo.",
+            "spoken": "Màu và vị trí của các quả cầu chỉ là quy ước để quan sát cấu tạo."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 5,
+        "utterances": [
+          {
+            "display": "Hai lượt minh họa không cho biết tần suất tán xạ. Trong thí nghiệm lá vàng, rất ít hạt lệch góc lớn.",
+            "spoken": "Hai lượt minh họa không cho biết tần suất tán xạ. Trong thí nghiệm lá vàng, rất ít hạt lệch góc lớn."
+          },
+          {
+            "display": "Tự kiểm tra. Carbon-14 có 6 proton. Lấy 14 trừ 6 được 8 neutron.",
+            "spoken": "Tự kiểm tra. Các bon mười bốn có sáu proton. Lấy mười bốn trừ sáu được tám neutron."
+          }
+        ]
+      }
+    ],
+    "B22": [
+      {
+        "sceneIndex": 0,
+        "utterances": [
+          {
+            "display": "Hạt nhân liên kết nhẹ hơn tổng khối lượng các nucleon tự do.",
+            "spoken": "Hạt nhân liên kết nhẹ hơn tổng khối lượng các nucleon tự do."
+          },
+          {
+            "display": "Lấy độ hụt khối nhân bình phương tốc độ ánh sáng. Chia tiếp cho số nucleon để tính năng lượng liên kết riêng.",
+            "spoken": "Lấy độ hụt khối nhân bình phương tốc độ ánh sáng. Chia tiếp cho số nucleon để tính năng lượng liên kết riêng."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 1,
+        "utterances": [
+          {
+            "display": "Một neutron tới bị uranium-235 hấp thụ. Hạt nhân kích thích biến dạng rồi tách.",
+            "spoken": "Một neutron tới bị u ra ni hai trăm ba mươi lăm hấp thụ. Hạt nhân kích thích biến dạng rồi tách."
+          },
+          {
+            "display": "Kênh minh họa cho yttri-95, iốt-138 và 3 neutron.",
+            "spoken": "Kênh minh họa cho i tri chín mươi lăm, i ốt một trăm ba mươi tám và ba neutron."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 2,
+        "utterances": [
+          {
+            "display": "Bây giờ giữ nguyên uranium-235, nhưng bỏ neutron tới.",
+            "spoken": "Bây giờ giữ nguyên u ra ni hai trăm ba mươi lăm, nhưng bỏ neutron tới."
+          },
+          {
+            "display": "Không có tác nhân kích phát, kênh phân hạch cảm ứng vừa xét chưa khởi phát.",
+            "spoken": "Không có tác nhân kích phát, kênh phân hạch cảm ứng vừa xét chưa khởi phát."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 3,
+        "utterances": [
+          {
+            "display": "Mỗi vế có 236 nucleon và tổng điện tích bằng 92 lần điện tích nguyên tố.",
+            "spoken": "Mỗi vế có hai trăm ba mươi sáu nucleon và tổng điện tích bằng chín mươi hai lần điện tích nguyên tố."
+          },
+          {
+            "display": "Khối lượng giảm. Từ chênh lệch khối lượng, kênh này tỏa xấp xỉ 178 MeV.",
+            "spoken": "Khối lượng giảm. Từ chênh lệch khối lượng, kênh này tỏa xấp xỉ một trăm bảy mươi tám mê ga ê léc trôn vôn."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 4,
+        "utterances": [
+          {
+            "display": "Trong phản ứng tổng hợp, đơteri và triti tạo helium-4 và một neutron.",
+            "spoken": "Trong phản ứng tổng hợp, đơ tê ri và tri ti tạo hê li bốn và một neutron."
+          },
+          {
+            "display": "Em hãy kiểm tra: mỗi vế có 5 nucleon và tổng điện tích bằng 2 lần điện tích nguyên tố.",
+            "spoken": "Em hãy kiểm tra. Mỗi vế có năm nucleon và tổng điện tích bằng hai lần điện tích nguyên tố."
+          }
+        ]
+      }
+    ],
+    "B23": [
+      {
+        "sceneIndex": 0,
+        "utterances": [
+          {
+            "display": "N₀ là số hạt ban đầu. N(t) là số hạt mẹ còn lại theo kì vọng ở thời điểm t.",
+            "spoken": "En nờ không là số hạt ban đầu. En nờ của tê là số hạt mẹ còn lại theo kì vọng ở thời điểm tê nhỏ."
+          },
+          {
+            "display": "T là chu kì bán rã. Hai lượt dùng cùng 64 hạt và cùng bộ số ngẫu nhiên, chỉ đổi T.",
+            "spoken": "Tê lớn là chu kì bán rã. Hai lượt dùng cùng sáu mươi tư hạt và cùng bộ số ngẫu nhiên, chỉ đổi tê lớn."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 1,
+        "utterances": [
+          {
+            "display": "Lượt A có chu kì 20 giây. Mỗi chấm mờ đi khi một hạt nhân mẹ phân rã.",
+            "spoken": "Lượt a có chu kì hai mươi giây. Mỗi chấm mờ đi khi một hạt nhân mẹ phân rã."
+          },
+          {
+            "display": "Thời điểm phân rã của từng hạt là ngẫu nhiên. Ta theo dõi số hạt còn lại của cả mẫu.",
+            "spoken": "Thời điểm phân rã của từng hạt là ngẫu nhiên. Ta theo dõi số hạt còn lại của cả mẫu."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 2,
+        "utterances": [
+          {
+            "display": "Lượt B có chu kì 40 giây. Ta đọc hai mẫu ở cùng mốc 40 giây.",
+            "spoken": "Lượt bê có chu kì bốn mươi giây. Ta đọc hai mẫu ở cùng mốc bốn mươi giây."
+          },
+          {
+            "display": "Lượt A còn 20 hạt, lượt B còn 35 hạt. Đây là hai kết quả mô phỏng cụ thể.",
+            "spoken": "Lượt a còn hai mươi hạt, lượt bê còn ba mươi lăm hạt. Đây là hai kết quả mô phỏng cụ thể."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 3,
+        "utterances": [
+          {
+            "display": "Ở mốc 40 giây, hai giá trị kì vọng là 16 và 32 hạt. Kết quả một lượt có thể lệch khỏi kì vọng.",
+            "spoken": "Ở mốc bốn mươi giây, hai giá trị kì vọng là mười sáu và ba mươi hai hạt. Kết quả một lượt có thể lệch khỏi kì vọng."
+          },
+          {
+            "display": "Hằng số phóng xạ λ bằng ln 2 chia chu kì T. Độ phóng xạ bằng λ nhân số hạt mẹ còn lại.",
+            "spoken": "Hằng số phóng xạ lam đa bằng lô ga rít tự nhiên của hai chia chu kì tê lớn. Độ phóng xạ bằng lam đa nhân số hạt mẹ còn lại."
+          },
+          {
+            "display": "H(t) là độ phóng xạ ở thời điểm t. Một becquerel tương ứng một phân rã mỗi giây.",
+            "spoken": "Hát của tê là độ phóng xạ ở thời điểm tê nhỏ. Một béc cơ ren tương ứng một phân rã mỗi giây."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 4,
+        "utterances": [
+          {
+            "display": "Sau hai chu kì, em dự đoán còn bao nhiêu phần số hạt ban đầu theo kì vọng?",
+            "spoken": "Sau hai chu kì, em dự đoán còn bao nhiêu phần số hạt ban đầu theo kì vọng?"
+          },
+          {
+            "display": "Còn một phần tư. Để giảm nguy cơ chiếu xạ, giảm thời gian, tăng khoảng cách và dùng che chắn phù hợp.",
+            "spoken": "Còn một phần tư. Để giảm nguy cơ chiếu xạ, giảm thời gian, tăng khoảng cách và dùng che chắn phù hợp."
+          }
+        ]
+      }
+    ],
+    "B24": [
+      {
+        "sceneIndex": 0,
+        "utterances": [
+          {
+            "display": "Thanh điều khiển hấp thụ neutron. Ta chọn ba mức cắm khác nhau trong mô hình.",
+            "spoken": "Thanh điều khiển hấp thụ neutron. Ta chọn ba mức cắm khác nhau trong mô hình."
+          },
+          {
+            "display": "Thang phần trăm là quy ước. Không suy vị trí vận hành lò thật từ thang này.",
+            "spoken": "Thang phần trăm là quy ước. Không suy vị trí vận hành lò thật từ thang này."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 1,
+        "utterances": [
+          {
+            "display": "Rút thanh ở mức quy ước bằng không. Chỉ số bắt đầu ở 1 và tăng theo các thế hệ.",
+            "spoken": "Rút thanh ở mức quy ước bằng không. Chỉ số bắt đầu ở một và tăng theo các thế hệ."
+          },
+          {
+            "display": "Trong lượt này, hệ số nhân k lớn hơn 1.",
+            "spoken": "Trong lượt này, hệ số nhân ca lớn hơn một."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 2,
+        "utterances": [
+          {
+            "display": "So sánh ba mức cắm. Hệ số nhân lần lượt là 1,4; 1 và 0,6.",
+            "spoken": "So sánh ba mức cắm. Hệ số nhân lần lượt là một phẩy bốn, một, và không phẩy sáu."
+          },
+          {
+            "display": "Chỉ số ở thế hệ thứ tư cho thấy xu hướng tăng, giữ nguyên và giảm. Đây là mô hình định tính.",
+            "spoken": "Chỉ số ở thế hệ thứ tư cho thấy xu hướng tăng, giữ nguyên và giảm. Đây là mô hình định tính."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 3,
+        "utterances": [
+          {
+            "display": "Trong lò nước áp lực, vòng sơ cấp truyền nhiệt ở bộ sinh hơi. Hai dòng nước không trộn lẫn.",
+            "spoken": "Trong lò nước áp lực, vòng sơ cấp truyền nhiệt ở bộ sinh hơi. Hai dòng nước không trộn lẫn."
+          },
+          {
+            "display": "Hơi thứ cấp quay tua-bin kéo máy phát. Hơi sau tua-bin được làm nguội ở bình ngưng.",
+            "spoken": "Hơi thứ cấp quay tua bin kéo máy phát. Hơi sau tua bin được làm nguội ở bình ngưng."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 4,
+        "utterances": [
+          {
+            "display": "Hãy phân biệt hai chức năng. Thanh điều khiển hấp thụ neutron. Bộ sinh hơi trao đổi nhiệt.",
+            "spoken": "Hãy phân biệt hai chức năng. Thanh điều khiển hấp thụ neutron. Bộ sinh hơi trao đổi nhiệt."
+          },
+          {
+            "display": "Trong ứng dụng khác, bức xạ còn hỗ trợ y học, sinh học và bảo quản thực phẩm.",
+            "spoken": "Trong ứng dụng khác, bức xạ còn hỗ trợ y học, sinh học và bảo quản thực phẩm."
+          }
+        ]
+      }
+    ],
+    "B25": [
+      {
+        "sceneIndex": 0,
+        "utterances": [
+          {
+            "display": "Bảng 25.1 cho độ phóng xạ ban đầu 151 Bq. Một nửa là 75,5 Bq.",
+            "spoken": "Bảng hai mươi lăm chấm một cho độ phóng xạ ban đầu một trăm năm mươi mốt béc cơ ren. Một nửa là bảy mươi lăm phẩy năm béc cơ ren."
+          },
+          {
+            "display": "Em hãy tìm hai mốc đo nằm hai bên mức nửa ban đầu.",
+            "spoken": "Em hãy tìm hai mốc đo nằm hai bên mức nửa ban đầu."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 1,
+        "utterances": [
+          {
+            "display": "Giữ độ phóng xạ ban đầu. Thử chu kì 40 giây và theo dõi đường lí thuyết.",
+            "spoken": "Giữ độ phóng xạ ban đầu. Thử chu kì bốn mươi giây và theo dõi đường lí thuyết."
+          },
+          {
+            "display": "Các chấm đánh dấu số liệu SGK, được giữ nguyên khi ta đổi chu kì thử.",
+            "spoken": "Các chấm đánh dấu số liệu sách giáo khoa, được giữ nguyên khi ta đổi chu kì thử."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 2,
+        "utterances": [
+          {
+            "display": "Thử tiếp chu kì 60 giây. Đường này giảm chậm hơn đường ứng với chu kì 40 giây.",
+            "spoken": "Thử tiếp chu kì sáu mươi giây. Đường này giảm chậm hơn đường ứng với chu kì bốn mươi giây."
+          },
+          {
+            "display": "Đặt hai đường cùng trục để so sánh tại cùng một thời điểm.",
+            "spoken": "Đặt hai đường cùng trục để so sánh tại cùng một thời điểm."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 3,
+        "utterances": [
+          {
+            "display": "Tại 30 giây, hai dự báo khoảng 89,8 và 106,8 Bq. Số liệu SGK tại đó là 85 Bq.",
+            "spoken": "Tại ba mươi giây, hai dự báo khoảng tám mươi chín phẩy tám và một trăm linh sáu phẩy tám béc cơ ren. Số liệu sách giáo khoa tại đó là tám mươi lăm béc cơ ren."
+          },
+          {
+            "display": "Nội suy tuyến tính giữa hai điểm kẹp mức nửa cho khoảng 39,5 giây.",
+            "spoken": "Nội suy tuyến tính giữa hai điểm kẹp mức nửa cho khoảng ba mươi chín phẩy năm giây."
+          }
+        ]
+      },
+      {
+        "sceneIndex": 4,
+        "utterances": [
+          {
+            "display": "Em hãy giải thích vì sao đường lí thuyết có thể lệch khỏi số liệu trong bảng.",
+            "spoken": "Em hãy giải thích vì sao đường lí thuyết có thể lệch khỏi số liệu trong bảng."
+          },
+          {
+            "display": "Khi nộp bài, ghi rõ cách ước lượng chu kì và tách kết quả ấy khỏi hai giả thuyết đã thử.",
+            "spoken": "Khi nộp bài, ghi rõ cách ước lượng chu kì và tách kết quả ấy khỏi hai giả thuyết đã thử."
+          }
+        ]
+      }
+    ]
+  }
+}

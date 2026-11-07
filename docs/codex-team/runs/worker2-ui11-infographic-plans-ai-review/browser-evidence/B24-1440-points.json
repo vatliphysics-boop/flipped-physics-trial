@@ -1,0 +1,38 @@
+{
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+  "size": [
+    1440,
+    900
+  ],
+  "version": "UI11 not frozen",
+  "states": [
+    {
+      "label": "1. Phân hạch → nhiệt",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nNhiệt sinh ra trong lò được vòng sơ cấp mang tới bộ trao đổi nhiệt.\n\nGIẢI THÍCH\n\nThanh điều khiển hấp thụ neutron. Điện năng không được tạo ra trực tiếp trong nhiên liệu.",
+      "target": [
+        167.765625,
+        45
+      ]
+    },
+    {
+      "label": "2. Trao đổi nhiệt",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+      "target": [
+        138.515625,
+        45
+      ]
+    },
+    {
+      "label": "3. Cơ năng → điện",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nHơi làm quay turbine; turbine kéo máy phát.\n\nGIẢI THÍCH\n\nSau turbine, hơi ngưng tụ và quay lại vòng thứ cấp. Phân biệt dòng vật chất với dòng năng lượng.",
+      "target": [
+        151.84375,
+        45
+      ]
+    }
+  ],
+  "overlays": 0
+}

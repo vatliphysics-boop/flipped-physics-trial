@@ -1,0 +1,129 @@
+.docx
+P0000 ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM
+P0003 Ma trận nội dung thực tế của mã đề
+P0007 Điểm
+P0008 Câu có hình
+P0012 0,5
+P0015 Thông hiểu
+P0017 1,5
+P0064 Câu 1 · 0,5 điểm · img-B24-4 · A
+P0065 Sơ đồ định tính, không cho liều hoặc mọi giá trị năng lượng.
+P0066 Câu 2 · 0,5 điểm · img-B21-3 · D
+P0067 Lệch góc lớn cho bằng chứng về vùng điện tích dương tập trung; hình chỉ minh họa đường đi, không cho tần suất.
+P0068 Câu 3 · 0,5 điểm · img-B21-2 · C
+P0069 Hạt nhân II có 8 hạt màu xanh, tức 8 neutron.
+P0070 Câu 4 · 0,5 điểm · img-B23-1 · A
+P0071 N(2T)=200, N₀=800, tỉ lệ còn lại 25%.
+P0072 Câu 5 · 0,5 điểm · img-B24-2 · C
+P0073 Máy phát điện chuyển cơ năng thành điện năng.
+P0074 Câu 6 · 0,5 điểm · img-B25-1 · D
+P0075 I∝1/r² nên I(2 r)/I(r)=1/4.
+P0076 Câu 7 · 0,5 điểm · img-B22-1 · B
+P0077 Fe-56 có E/A gần 8,79MeV/nuclon.
+P0078 Câu 8 · 0,5 điểm · img-B23-3 · A
+P0079 (18+22+20)/3=20 số đếm mỗi 10 s.
+P0080 Câu 9 · 0,5 điểm · img-B21-1 · B
+P0081 Hạt nhân I:6 proton,6 neutron; II:6 proton,8 neutron. Cùng Z=6, khác N nên là đồng vị.
+P0082 Câu 10 · 0,5 điểm · img-B22-3 · B
+P0083 236=141+92+k nên k=3. Điện tích 92=56+36.
+P0084 Câu 11 · 0,5 điểm · img-B25-2 · A
+P0085 Nguồn trải rộng, hấp thụ hoặc nền phá vỡ giả thiết đơn giản.
+P0086 Câu 12 · 0,5 điểm · img-B24-1 · A
+P0087 Năng lượng hạt nhân tạo nhiệt, nhiệt tạo cơ năng quay turbine rồi máy phát tạo điện.
+P0088 Câu 13 · 0,5 điểm · img-B25-3 · C
+P0089 Trung bình thô=(44+48+40+52)/4=46; trừ nền 4 được 42.
+P0090 Câu 14 · 0,5 điểm · img-B24-3 · D
+P0091 Tia gamma bị suy giảm tùy vật liệu, độ dày và năng lượng; sơ đồ chỉ định tính.
+P0092 Câu 15 · 0,5 điểm · img-B23-2 · D
+P0093 Nđãphânrã=800−200=600; tương ứng 75%.
+P0094 Câu 16 · 0,5 điểm · img-B21-4 · C
+P0095 Không thể suy tần suất từ số đường minh họa trên sơ đồ.
+P0096 Câu 17 · 0,5 điểm · img-B23-4 · A
+P0097 Phân rã ngẫu nhiên gây dao động số đếm; cần lặp và kiểm soát điều kiện.
+P0098 Câu 18 · 0,5 điểm · img-B25-4 · C
+P0099 42/20=2,1 số đếm/s. Không đồng nhất với H hoặc liều thật.
+P0100 Câu 19 · 0,5 điểm · img-B22-4 · D
+P0101 Phân hạch có nhiều nhánh; hình không mô tả mọi sản phẩm có thể có.
+P0102 Câu 20 · 0,5 điểm · img-B22-2 · A
+P0103 E=(E/A)A=7,07×4=28,28MeV.
+P0104 Giáo viên rà soát kiến thức, hình và điểm trước khi sử dụng. Ma trận mô tả tập câu đã chọn; chưa xác lập độ khó hoặc giá trị đo lường của đề.
+P0170 Câu 1 · 0,5 điểm · img-B24-1 · D
+P0172 Câu 2 · 0,5 điểm · img-B21-4 · A
+P0174 Câu 3 · 0,5 điểm · img-B22-4 · B
+P0176 Câu 4 · 0,5 điểm · img-B22-3 · D
+P0178 Câu 5 · 0,5 điểm · img-B23-1 · B
+P0180 Câu 6 · 0,5 điểm · img-B22-2 · A
+P0182 Câu 7 · 0,5 điểm · img-B23-2 · A
+P0184 Câu 8 · 0,5 điểm · img-B25-4 · C
+P0186 Câu 9 · 0,5 điểm · img-B23-3 · B
+P0188 Câu 10 · 0,5 điểm · img-B25-2 · B
+P0190 Câu 11 · 0,5 điểm · img-B23-4 · C
+P0192 Câu 12 · 0,5 điểm · img-B24-2 · C
+P0194 Câu 13 · 0,5 điểm · img-B21-1 · B
+P0196 Câu 14 · 0,5 điểm · img-B25-1 · B
+P0198 Câu 15 · 0,5 điểm · img-B24-3 · D
+P0200 Câu 16 · 0,5 điểm · img-B21-3 · C
+P0202 Câu 17 · 0,5 điểm · img-B25-3 · B
+P0204 Câu 18 · 0,5 điểm · img-B24-4 · D
+P0206 Câu 19 · 0,5 điểm · img-B21-2 · D
+P0208 Câu 20 · 0,5 điểm · img-B22-1 · B
+
+FILE tmp/report-template/export-qa/worksheet-teacher.docx
+P0000 HƯỚNG DẪN GIÁO VIÊN B23
+P0036 Việc của giáo viên và lưu ý kiến thức
+P0037 Kiểm tra dự đoán, tổ chức quan sát và yêu cầu giải thích từ bằng chứng. Lưu ý chuyên môn: Sau 2T còn 200/800 = 25%, đã phân rã 75%. Số hạt lí thuyết là giá trị trung bình, không xác định thời điểm phân rã từng hạt.
+P0038 Nhóm cần hỗ trợ: Điền lần lượt N₀, N₀/2, N₀/4; lập hai cột còn lại và đã phân rã.
+Nhóm hoàn thành sớm: Phân biệt giá trị kì vọng N(t) với số hạt còn lại trong một lượt mô phỏng ngẫu nhiên.
+P0039 Tiêu chí: Đúng 400, 200, 100; phân biệt hai tỉ lệ; ghi cách sửa dự đoán và giới hạn mô hình.
+P0040 Câu 1: A. N(2T)=200, N₀=800, tỉ lệ còn lại 25%.
+P0041 Câu 2: D. Nđãphânrã=800−200=600; tương ứng 75%.
+P0042 Câu 3: C. (18+22+20)/3=20 số đếm mỗi 10 s.
+
+FILE tmp/article/before-unified-7991.docx
+P0025  DIFF Result: The prototype [OLD comprises 78 → contains 89] resource entries, 17 | papers and a [OLD lesson → ] planning workspace. Tasks | lesson planning workspace. [OLD Tasks connect observation, explanation → A teacher workspace assembles illustrated questions, Word worksheets] and reflection across | observation, explanation and [OLD reflection across three learning phases. → shuffled versions; AI selects authored support prompts.] Checks address fission | learning phases. Checks [OLD address → cover] fission conservation, radioactive | radioactive decay and [OLD mass conventions in → ] binding energy calculations; | in binding energy [OLD calculations; 23 → mass conventions; 41] software tests passed.
+P0030  DIFF năm infographic tương [OLD tác và → tác,] bốn đề tự | bốn đề tự [OLD luyện. Ngân hàng từ ba sách công bố 213 câu; phiếu gồm hướng dẫn, nhiệm vụ ba pha → luyện] và rubrics; quy | ba pha và [OLD rubrics; quy trình → bàn] soạn kế hoạch | trình soạn kế [OLD hoạch phân rõ hai vai. Ngân hàng đề thống nhất → hoạch. Không gian giáo viên ghép câu có hình,] xuất đề, đáp | thống nhất xuất [OLD đề, đáp án → Word] và bản đặc | đáp án và [OLD bản đặc tả Word; → đảo mã đề;] AI chọn câu | ước khối lượng; [OLD 61 → 41] ca phần mềm
+P0033  DIFF giờ học (Vũ [OLD Văn Hùng và cộng sự, → et al.,] 2024).
+P0039  DIFF lí. Bản SGK [OLD sử dụng → ] ghi “bản mẫu | mẫu tháng 1/2024”; [OLD việc → khi] áp dụng trên | việc áp dụng [OLD trên lớp → ] cần rà soát | sách đang dùng. [OLD Phiên bản sản → Sản] phẩm được kiểm | kiểm tra ngày [OLD 04/10/2026. → 04–05/10/2026.] Đơn vị phân | năng phần mềm; [OLD không → báo cáo chưa] có mẫu học | có mẫu học [OLD sinh trong báo cáo này. → sinh.] 
+P0066  DIFF tra nội bộ [OLD gồm: → gồm] đối chiếu nội | nội dung với [OLD nguồn; → nguồn,] tính lại các | nguồn; tính lại [OLD các → ] trường hợp định | trường hợp định [OLD lượng; → lượng,] kiểm tra tự | chấm phần khách [OLD quan; → quan,] thao tác trình | trình duyệt ở [OLD chiều rộng → ] 900 px và | px và 390 [OLD px; → px, cùng] kiểm tra đọc | px; kiểm tra [OLD đọc → ] trạng thái cơ | sở dữ liệu. [OLD Mỗi nhận xét được gắn với → Các lượt thử AI sử dụng kiến thức công khai B21–B25;] kết quả có | với kết quả [OLD có thể kiểm tra lại. → và lỗi phát hiện được lưu để điều chỉnh.] Ảnh trong bài | trong bài là [OLD ảnh chụp → ] giao diện bản | bản mẫu ngày [OLD 04/10/2026, → 04–05/10/2026,] không phải bài | sinh. Kiểm tra [OLD nội bộ không được gọi là ý kiến chuyên gia → này chưa phải thẩm định] độc lập hay | gia độc lập [OLD hay bằng chứng → hoặc xác lập] giá trị của
+P0070  DIFF mở tập hợp [OLD 78 → 89] mục được gắn | mô phỏng 3D, [OLD sáu → 17] mục ảnh hoặc | kiểm tra mẫu. [OLD  → Trong số ảnh có 11 hình câu hỏi mới để giáo viên dùng trong đề và phiếu.] Đây là số | mục, không phải [OLD 78 → 89] nội dung hoàn | mục liên kết [OLD tới → ] nguồn ngoài hoặc | nguồn ngoài hoặc [OLD cùng học liệu được → ] dùng ở nhiều | liệu được dùng [OLD  → lại] ở nhiều vị
+P0135  DIFF mở khung chat [OLD  → nhỏ] ở góc phải | chat ở góc [OLD phải để → phải, cho] học sinh chọn | học sinh chọn [OLD bài, hỏi → bài và yêu cầu] giải thích hoặc | giải thích hoặc [OLD nhận → ] gợi ý (Hình | tra của lớp. [OLD Liên kết Gemini và ChatGPT mở dịch vụ ngoài bằng tài khoản của người dùng; không được coi là mô hình chạy trong khung chat. → ] 
+P0137 Hình 11. Khung AI tại B23 trong lượt thử nội bộ; câu hỏi do người kiểm tra nhập.
+P0138 Lượt thử carbon-14 cho N = 14 − 6 = 8; lượt thử N₀ = 800 sau 2T cho giá trị trung bình 200. Các ví dụ chỉ xác nhận những trường hợp đã thử, chưa xác lập độ chính xác trên toàn bộ câu hỏi. Liên kết Gemini và ChatGPT mở dịch vụ ngoài bằng tài khoản của người dùng; hai trang web này không được nhúng làm mô hình của khung chat.
+P0139 3.2.10. Không gian hỗ trợ giáo viên chuẩn bị học liệu và giờ học
+P0140 Nghiên cứu về công việc giáo viên cần phân biệt khả năng tạo văn bản với việc hoàn thành tài liệu sử dụng được. Báo cáo của Roy et al. (2024) xét thời gian chuẩn bị bài và tài liệu của giáo viên khoa học Year 7–8 ở Anh. Nguồn này gợi ý chọn khâu chuẩn bị để nghiên cứu, không xác nhận hiệu quả của web đang thiết kế. Khung năng lực AI của Miao và Cukurova (2024) đặt vai trò lựa chọn và quyết định của giáo viên trong việc vận dụng công cụ. Từ yêu cầu sử dụng, bản mẫu tổ chức bốn công việc: tạo đề có hình, tạo phiếu ba pha, chuẩn bị giờ học và đảo đề riêng (Hình 12).
+P0142 Hình 12. Các công việc dành cho giáo viên trong kho B21–B25; ảnh bản thử ngày 05/10/2026.
+P0143 Ngân hàng hiện có 105 câu: 72 câu từ bốn đề mẫu và 33 câu mới gắn với 11 hình. Hình gồm cấu trúc và đồng vị, tán xạ, liên kết, phân hạch, bán rã, số đếm, dòng năng lượng, che chắn, PET và khoảng cách. Mỗi câu có mã, bài, mức độ do người biên soạn gán, điểm, đáp án và lời giải; các câu có hình lưu mã hình để giữ đúng quan hệ khi xuất. Dữ liệu đếm được ghi là mô phỏng. Ví dụ, đường N(t) cho N₀ = 800 và N(2T) = 200 đi với hai câu riêng: phần còn lại 25% và phần đã phân rã 600; hình không được tự ghép vào một câu không phù hợp.
+P0144 Giáo viên chọn đề 15 phút, giữa kỳ hoặc cuối kỳ trong phạm vi hạt nhân, chọn bài và số câu rồi kiểm tra bảng phân bố thực tế. Khi không yêu cầu mọi câu có hình, bộ chọn ưu tiên ít nhất một câu có hình cho mỗi bài đã chọn nếu kho có. Đề được tạo thành 1–8 mã dùng cùng tập câu hỏi và điểm; thứ tự được đảo trong từng dạng, lựa chọn của câu trắc nghiệm được đảo khi không có tham chiếu vị trí như “A và B”. Đáp án được ánh xạ theo thứ tự mới (Hình 13). Word dành cho học sinh chứa đề và hình; Word giáo viên chứa đáp án, lời giải và bảng phân bố. Cách giữ cùng tập câu chưa chứng minh các mã tương đương về độ khó.
+P0146 Hình 13. Bảng phân bố câu và điểm trước khi tạo mã đề; số liệu thuộc đề mẫu nội bộ.
+P0147 Phiếu học tập được tạo theo bài và vấn đề cần hỗ trợ; hình và câu được lọc theo chủ đề của phiếu (Hình 14). Ba pha có phần đọc và dự đoán, thao tác và giải thích, rồi tự sửa và học tiếp. Chẳng hạn phiếu bán rã sử dụng đường N(t), yêu cầu phân biệt phần còn lại với phần đã phân rã và ghi cách sửa dự đoán. Phiếu học sinh có chỗ viết sản phẩm; lưu ý kiến thức, hỗ trợ và đáp án nằm trong tệp hướng dẫn giáo viên riêng. Bộ xuất Word đã được kiểm tra giữ hình, kí hiệu và nội dung ba pha; giáo viên vẫn chỉnh nhiệm vụ và thời lượng phù hợp lớp.
+P0149 Hình 14. Chọn phiếu, vấn đề cần hỗ trợ và câu có hình phù hợp trước khi xuất Word.
+P0150 Trong chuẩn bị giờ học, giáo viên chọn khó khăn đã quan sát, điều kiện thiết bị và thời lượng; số lượng tổng hợp là tùy chọn (Hình 15). Hệ thống đề xuất hoạt động có mục tiêu, nhiệm vụ hai vai, sản phẩm, tiêu chí và mô phỏng tương ứng. Khi thêm hoạt động bán rã 10 phút vào mẫu có 35 phút trong giờ, tổng được kiểm tra thành 45 phút; thời gian tự học được tính riêng. Kiểm tra bằng quy tắc chỉ nhắc trường còn trống, pha thiếu hoặc thời lượng lệch, không thẩm định chất lượng toàn bộ kế hoạch. AI cục bộ chọn hai câu hỏi và một cách hỗ trợ từ phương án đã biên soạn; hệ thống chỉ nhận mã hợp lệ rồi hiển thị nguyên văn phương án. Giáo viên có thể sửa gợi ý trước khi đưa vào hoạt động, chưa tự giao cho lớp.
+P0152 Hình 15. Chuẩn bị hoạt động hỗ trợ theo điều kiện lớp; 12/40 là tham số kiểm thử, không phải số liệu học sinh thật.
+P0153 Phần đảo đề riêng đọc TXT hoặc DOCX trong trình duyệt, hỗ trợ câu trắc nghiệm bốn phương án và một hình PNG/JPEG ở phần dẫn. Đề cần được nhận dạng theo từng câu, có khóa đáp án và được giáo viên kiểm tra trước khi tạo mã (Hình 16). Một lượt thử đã đọc hai câu và hai hình từ DOCX, ghép khóa D/C rồi tạo hai mã vẫn giữ hình đi với câu. Điểm ghi ở đầu câu được giữ; câu chưa ghi điểm tạm có một điểm để giáo viên chỉnh. Công thức Word dạng đối tượng toán, bảng, đề PDF quét và hình nằm trong phương án chưa được xử lí đầy đủ; hệ thống yêu cầu chuẩn hóa thay vì tự đảo và làm mất cấu trúc.
+P0155 Hình 16. Câu và hình đọc từ tệp Word thử nghiệm sau khi kiểm tra khóa và tạo mã đề.
+P0156 Lượt thử sinh văn bản tự do đã phát hiện lỗi H = λN và việc tự đổi N₀ = 800 thành 80.000. Do đó, phần hỗ trợ tình huống chuyển sang AI chọn phương án từ danh sách, không viết lại dữ kiện khoa học. Các công cụ đọc tài liệu riêng và tạo bản nháp vẫn yêu cầu giáo viên rà soát; liên kết Gemini, ChatGPT và NotebookLM để giáo viên tự sử dụng. Chưa khảo sát nhu cầu trên mẫu giáo viên, chưa đo thời gian tiết kiệm và chưa kiểm thử tải cả lớp; các chức năng mới là giả thuyết thiết kế cần đánh giá khi sử dụng.
+P0166 41/41 ca kiểm tra đạt; build đạt; lint không có lỗi, còn một cảnh báo có sẵn.
+P0169 Chụp 16 giao diện; đề kiểm tra ở chiều rộng 390 px không tràn ngang sau sửa.
+P0186 Giới hạn của nghiên cứu là chưa có mẫu học sinh, thẩm định độc lập hoặc kiểm thử đầy đủ luồng giao, nộp nhiệm vụ qua tài khoản. Các 41 ca kiểm tra phần mềm, ví dụ vật lí và ảnh giao diện chỉ xác nhận những tình huống đã xét. Các lượt thử AI vẫn phát hiện lỗi diễn đạt về bán rã và độ phóng xạ; mã nguồn dẫn không bảo đảm mọi nhận xét đúng. Chưa kiểm thử tải AI đồng thời cả lớp. Bản SGK là bản mẫu tháng 1/2024, cần rà soát với sách dùng tại lớp dự kiến.
+
+FILE tmp/article/previous.docx
+P0000  DIFF  [OLD XÂY DỰNG → QUY TRÌNH THIẾT KẾ VÀ PHƯƠNG ÁN SỬ DỤNG] HỌC LIỆU SỐ | CÓ HỖ TRỢ [OLD TRÍ TUỆ NHÂN TẠO VÀ ĐỀ XUẤT SỬ DỤNG → AI] THEO MÔ HÌNH | HỌC ĐẢO NGƯỢC [OLD NHẰM PHÁT TRIỂN NĂNG LỰC TỰ HỌC QUA → TRONG] CHỦ ĐỀ VẬT
+P0001  DIFF  [OLD Developing → Design Process and Proposed Use of] AI-Assisted Digital Learning | Digital Learning Materials [OLD and Proposing Their Use → ] in a Flipped | a Flipped Classroom [OLD to Develop Self-Learning Competence in → for] Grade 12 Nuclear
+P0004 Tác giả liên hệ: Võ Đoàn Đăng Khôi; Vatliphysics@gmail.com; 0852282243
+P0005 Article historyReceived: ……/……/……Accepted: ……/……/……Published: ……/……/……Keywordsdigital learning materials; generative AI; flipped classroom; self-learning competence; nuclear physicsTừ khóahọc liệu số; trí tuệ nhân tạo tạo sinh; lớp học đảo ngược; năng lực tự học; Vật lí hạt nhân
+P0006 ABSTRACTContext and methods: This theory-informed educational design study examines Grade 12 physics requirements, flipped learning and self-regulation research, the lecturer’s learning-material guidance, project records, and B21–B25 code. It covers problem and context analysis, solution design, and internal review of prototypes before use; these research activities differ from the teaching phases. Results: A six-step process links objectives, learning materials, tasks, student products, and self-learning indicators. The B23 half-life model links guided exploration before class with data analysis in class. A catalog of 73 entries includes 17 interactive 3D scenes, worksheets, diagrams, external sources and group tasks, with four topic practice papers and five editable teaching-plan templates. Browser checks cover scene playback and camera presets; textbook appraisal and authenticated submission flows remain unresolved. Discussion: The article reports design decisions and product status, without claiming expert appraisal, student outcomes, or proven AI personalization.TÓM TẮTBối cảnh và phương pháp: Nghiên cứu thiết kế giáo dục dựa trên lí thuyết phân tích vấn đề và điều kiện, thiết kế giải pháp, kiến tạo và rà soát nội bộ bản mẫu trước sử dụng; ba hoạt động nghiên cứu khác với các pha học. Tư liệu gồm chương trình, sách giáo khoa, tài liệu hướng dẫn học liệu của giảng viên, hồ sơ đề tài và mã B21–B25. Kết quả: Quy trình sáu bước và ma trận nối mục tiêu, học liệu, nhiệm vụ, sản phẩm, chỉ báo tự học với trạng thái phát triển. Mô phỏng bán rã B23 nối khám phá trước giờ với xử lí số liệu trong giờ; kho có 73 mục, gồm 17 không gian thí nghiệm 3D, phiếu, sơ đồ, nguồn tham khảo, bốn đề mẫu và năm mẫu kế hoạch có thể chỉnh sửa. Thao tác chạy và đổi góc đã thử trên trình duyệt; đối chiếu chuyên môn và luồng nộp theo vai chưa hoàn tất. Bàn luận: Bài báo làm rõ căn cứ thiết kế và giới hạn sản phẩm, không báo cáo thẩm định chuyên gia, dữ liệu học sinh hoặc hiệu quả can thiệp.
+P0008  DIFF và tự học [OLD [1]. → (Bộ Giáo dục và Đào tạo, 2018).] Với chủ đề | và Tuzón Marco [OLD  → (2022)] ghi nhận những | độ của người [OLD học [2]. → học.] Điều này đặt
+P0009  DIFF và cộng sự [OLD [3], → (2019),] Strelan và cộng | và cộng sự [OLD [4] → (2020)] cho thấy tiềm | Tổng quan của [OLD Tunggyshbay, Balta → Tunggyshbay] và Admiraal trong | Tunggyshbay, Balta và [OLD Admiraal → cộng sự (2023)] trong giáo dục | vụ và công [OLD cụ [5]. → cụ.] Vì vậy, học
+P0010  DIFF Đồng Châu Thủy [OLD  → (2020)] đã nghiên cứu | học ở bậc [OLD THPT [6]. → THPT.] Mai Hoàng Phương | và cộng sự [OLD  → (2024)] xây dựng học | ở Vật lí [OLD 10 [7]. → 10.] Những công trình
+P0011  DIFF và điều chỉnh. [OLD Liu, Hew → Liu] và Du tổng | Liu, Hew và [OLD Du → cộng sự (2024)] tổng quan các | quả chưa đồng [OLD nhất [8]. → nhất.] Khái niệm self-regulated
+P0012  DIFF cứu của Almasri [OLD [9]. → (2024).] Banihashem và cộng | và cộng sự [OLD  → (2025)] chỉ ra nhiều | tập tự điều [OLD chỉnh [10]; → chỉnh;] Xia và cộng | và cộng sự [OLD  → (2026)] bàn về thiết | với AI tạo [OLD sinh [11]. → sinh.] Các tổng quan | vệ dữ liệu [OLD [12]. → (Miao & Holmes, 2023).] 
+P0013 Nghiên cứu hướng tới thiết kế và sử dụng học liệu số có hỗ trợ AI theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học trong chủ đề Vật lí hạt nhân lớp 12. Bài báo trả lời hai câu hỏi: (1) yêu cầu chương trình và lí thuyết tự điều chỉnh được chuyển thành quy trình, học liệu và nhiệm vụ như thế nào; (2) học liệu hiện có có thể được tổ chức theo các pha học ra sao và mức hoàn thiện đến đâu? Kết quả được báo cáo là quy trình, ma trận B21–B25, minh họa B23, rà soát nội bộ và phương án sử dụng; đánh giá tác động thuộc nghiên cứu tiếp theo.
+P0015 2.1. Cách tiếp cận và phạm vi báo cáo
+P0016 Nghiên cứu vận dụng định hướng nghiên cứu thiết kế giáo dục dựa trên lí thuyết (theory-informed design). McKenney và Reeves (2019) mô tả các quá trình phân tích và khám phá, thiết kế và kiến tạo, đánh giá và phản tư. Trong phạm vi bài báo, nhóm thực hiện ba hoạt động: (1) phân tích vấn đề và điều kiện từ chương trình, sách giáo khoa, tài liệu hướng dẫn và hiện trạng dự án; (2) thiết kế giải pháp bằng ma trận mục tiêu–học liệu–nhiệm vụ–bằng chứng tự học; (3) kiến tạo bản mẫu và rà soát nội bộ trước sử dụng. Hoạt động thứ ba gồm kiểm tra tài liệu, mã và thao tác trên trình duyệt, chưa phải đánh giá hiện trường hay thẩm định chuyên gia.
+P0017 Ba hoạt động trên là tiến trình nghiên cứu, khác với ba pha trước, trong và sau giờ học dành cho học sinh. Quy trình sáu bước ở mục 3.2 là cách triển khai: bước 1 phục vụ phân tích; bước 2–3 chuyển lí thuyết thành phương án; bước 4–6 tạo bản mẫu, kiểm tra và chỉnh sửa. Thử với học sinh và đánh giá hiệu quả chưa thuộc kết quả bài báo.
+P0018  DIFF với cuộc sống [OLD [13]. → (Vũ Văn Hùng et al., 2024).] Website là môi
+P0019 2.2. Tư liệu và phương pháp phân tích
+P0020 Tư liệu gồm chương trình môn Vật lí (Bộ Giáo dục và Đào tạo, 2018), sách giáo khoa (Vũ Văn Hùng et al., 2024), thuyết minh đề tài, tài liệu hướng dẫn tổ chức học liệu của giảng viên, bản thảo, kịch bản/phiếu, mã tương tác và hồ sơ phát triển. Nhóm mã hóa yêu cầu nội dung và biểu hiện tự học, nối mục tiêu với học liệu, pha dùng, thao tác và sản phẩm, rồi đọc mã để phân biệt thành phần đã xây dựng với vị trí chờ hoặc phương án. Tài liệu hướng dẫn của giảng viên nêu pha trước và trong giờ; pha sau giờ được đề xuất từ thuyết minh, nhật kí và tuyến học tương ứng trong dự án. Đọc mã không xác nhận vận hành bằng tài khoản thật.
+P0021 Đối tượng rà soát nội bộ là ma trận B21–B25, phiếu/kịch bản và các thành phần tương tác. Tiêu chí gồm: bám yêu cầu chương trình và SGK; đúng thuật ngữ, công thức, đơn vị; nêu nguồn và giới hạn mô phỏng; nối nhiệm vụ với sản phẩm; phân biệt trạng thái mã, công bố và kiểm thử. Nhóm đối chiếu các bảng trong hồ sơ phát triển với mã nguồn; chưa có biên bản đánh giá của chuyên gia độc lập hoặc dữ liệu sử dụng của học sinh. Kết quả rà soát và bất nhất giữa các bảng đối chiếu được trình bày ở mục 3.6.
+P0023 3.1. Nguyên tắc thiết kế và biểu hiện năng lực tự học
+P0025  DIFF hướng của UNESCO [OLD 

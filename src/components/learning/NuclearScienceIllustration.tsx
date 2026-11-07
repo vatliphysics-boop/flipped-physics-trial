@@ -40,7 +40,7 @@ export function NuclearScienceIllustration({ className, style }: { className?: s
 
       {/* Scientific Labels */}
       <g fill="currentColor" opacity="0.6" fontSize="10" fontFamily="monospace" letterSpacing="1">
-        <text x="10" y="20">Z=N+P</text>
+        <text x="10" y="20">N=A−Z</text>
         <text x="190" y="20">A=Z+N</text>
         <text x="10" y="230">E=mc²</text>
         <text x="175" y="230">Δm&gt;0</text>

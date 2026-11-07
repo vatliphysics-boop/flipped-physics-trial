@@ -1,0 +1,84 @@
+[
+  {
+    "lesson": "B21",
+    "question": "Trong hạt nhân carbon-14 có Z=6. Có bao nhiêu neutron và vì sao?",
+    "status": 200,
+    "seconds": 59.06,
+    "reply": "Okay, let's tackle this question. The user is asking about carbon-14: how many neutrons does it have and why? \n\nFirst, I remember from the learning material B21 that the number of neutrons N is calculated by A - Z, where A is the mass number and Z is the atomic number. The question states that carbon-14 has Z=6. \n\nLooking at the provided learning points, [H3] mentions that carbon-12, carbon-13, and carbon-14 all have Z=6. Carbon-14 has a mass number A=14. So, N = A - Z = 14 - 6 = 8 neutrons.\n\nWait, let me check if there's any other detail. The user might be confused between mass number and atomic mass. But in the context of isotopes, the mass number A is the total number of nucleons (protons + neutrons). So for carbon-14, A=14, Z=6, so neutrons are 8. \n\nThe example in [H3] says carbon-14 has 8 neutrons, which matches. So the answer should be 8 neutrons because A=14 and Z=6, so N=14-6=8.\n\nI need to make sure not to mix up with other isotopes. Carbon-12 has 6 neutrons, carbon-13 has 7, so carbon-14 has 8. Yep, that's correct.\n\nThe user's question is straightforward. They might have confused A and Z, but the answer is 8 neutrons. Let me phrase it clearly in Vietnamese, using the learning points [H2] and [H3] as references.\n</think>\n\nTrong hạt nhân carbon-14 có Z = 6 (số proton). Theo học liệu B21 [H2]: Số khối $ A = Z + N $, với $ A $ là số nucleon (proton + neutron). Carbon-14 có $ A = 14 $ (từ [H3]), nên số neutron $ N = A - Z = 14 - 6 = 8 $. \n\n**Ví dụ ngắn**: Carbon-12 có $ A = 12 $, $ Z = 6 $ → $ N = 6 $; carbon-14 có $ N = 8 $ (tương ứng với 8 neutron).\n\n**Câu hỏi tự kiểm tra**: Hạt nhân đồng vị carbon-13 có bao nhiêu neutron? Giải thích ngắn gọn.\n\n*Giải thích*: Dựa vào công thức $ N = A - Z $, carbon-13 có $ A = 13 $, $ Z = 6 $ → $ N = 7 $.",
+    "model": "qwen3:4b",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Nguyên tử gồm hạt nhân rất nhỏ và electron. Proton mang điện +e, neutron không mang điện; hạt nhân có điện tích +Ze."
+      },
+      {
+        "id": "H2",
+        "text": "Số khối A = Z + N. Kí hiệu hạt nhân ghi A ở trên và Z ở dưới bên trái kí hiệu nguyên tố. A là số nucleon, không phải khối lượng đo bằng kg."
+      },
+      {
+        "id": "H3",
+        "text": "Đồng vị có cùng Z nhưng khác N. Carbon-12, carbon-13 và carbon-14 đều có Z = 6, lần lượt có 6, 7 và 8 neutron."
+      },
+      {
+        "id": "H4",
+        "text": "Trong thí nghiệm Rutherford, phần lớn hạt α đi gần như thẳng; số rất ít lệch mạnh cho thấy điện tích dương và phần lớn khối lượng tập trung trong hạt nhân nhỏ."
+      },
+      {
+        "id": "H5",
+        "text": "Công thức gần đúng R = 1,2 × A^(1/3) fm, với 1 fm = 10^(-15) m. Đây là bán kính hạt nhân, khác bán kính nguyên tử."
+      },
+      {
+        "id": "H6",
+        "text": "Lực tương tác hạt nhân có tầm tác dụng rất ngắn. Mô hình cầu màu chỉ giúp đếm và hình dung, không mô tả đường chuyển động thật của nucleon."
+      }
+    ],
+    "title": "B21: Cấu trúc hạt nhân",
+    "href": "/hoc-lieu/truc-quan?bai=B21"
+  },
+  {
+    "lesson": "B22",
+    "question": "Phân hạch là gì và phải kiểm tra bảo toàn nào trong phương trình?",
+    "status": 200,
+    "seconds": 81.448,
+    "reply": "Okay, let's tackle this question. The user is asking about fission and what conservation laws need to be checked in the equation. \n\nFirst, I remember from the learning material B22 that fission is when heavy nuclei split into lighter ones, releasing neutrons and energy. The user wants to know the definition and the conservation laws.\n\nLooking at the provided materials, [H6] mentions fission: heavy nucleus splits into lighter fragments and can produce neutrons to sustain a chain reaction. The key here is conservation of mass number (A) and atomic number (Z). The user's question is specifically about which conservation laws to check in the equation.\n\nIn the learning material [H1] says that in nuclear equations, total A and total Z must be conserved. So for fission reactions, we need to check that the sum of A and Z on both sides are equal.\n\nFor example, a typical fission reaction like U-235 splitting into Ba-141 and Kr-92 plus neutrons. Let me verify the numbers. U-235 has A=235, Z=92. Ba-141 (A=141, Z=56), Kr-92 (A=92, Z=36), and 3 neutrons (each A=1, Z=0). So total A on left: 235. Right: 141 + 92 + 3*1 = 236. Wait, that's not right. Maybe a different example. Let's take a standard one: n + U-235 → Ba-141 + Kr-92 + 3n. Then left A: 1 + 235 = 236. Right: 141 + 92 + 3 = 236. Z: left 0 + 92 = 92. Right: 56 + 36 = 92. So that works.\n\nSo the answer should state that fission is the splitting of heavy nuclei into lighter ones, and the conservation laws to check are total mass number (A) and total atomic number (Z).\n\nThe user also asked for a short example. Let's use the U-235 fission example. Then a self-check question: In the fission reaction ²³⁵₉₂U + ¹₀n → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3¹₀n, check if A and Z are conserved.\n\nWait, the example in the materials [H6] says \"hạt nhân nặng tách thành các mảnh nhẹ hơn và có thể sinh neutron tiếp tục gây phân hạch\". So the example should show a heavy nucleus splitting into two lighter nuclei plus neutrons.\n\nAlso, the user's question is in Vietnamese, so the answer needs to be in Vietnamese. Let me structure it.\n\nFirst, define phân hạch: phản ứng hạt nhân trong đó hạt nhân nặng bị chia thành các mảnh nhẹ hơn và giải phóng",
+    "model": "qwen3:4b",
+    "truncated": true,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Phản ứng hạt nhân biến đổi hạt nhân. Trong các phương trình phổ thông phải bảo toàn tổng số khối A và tổng điện tích Z; không suy ra từng nguyên tố hay số neutron đều bất biến."
+      },
+      {
+        "id": "H2",
+        "text": "Ví dụ: ⁴₂He + ¹⁴₇N → ¹⁷₈O + ¹₁p. Hai vế có tổng A = 18 và Z = 9."
+      },
+      {
+        "id": "H3",
+        "text": "Độ hụt khối Δm = Zm_p + (A − Z)m_n − m_hạt_nhân. Nếu bảng cho khối lượng nguyên tử trung hòa cần dùng khối lượng nguyên tử hydrogen và xử lí electron nhất quán."
+      },
+      {
+        "id": "H4",
+        "text": "Năng lượng liên kết E_lk = Δm c². Khi Δm tính theo u thì E_lk(MeV) ≈ Δm(u) × 931,5. Năng lượng liên kết riêng = E_lk/A, không phải E_lk/Z."
+      },
+      {
+        "id": "H5",
+        "text": "Vùng hạt nhân trung bình quanh sắt và nickel có năng lượng liên kết riêng lớn. Không dùng duy nhất số khối để kết luận mọi hạt nhân đều bền."
+      },
+      {
+        "id": "H6",
+        "text": "Phân hạch: hạt nhân nặng tách thành các mảnh nhẹ hơn và có thể sinh neutron tiếp tục gây phân hạch. k < 1: giảm; k ≈ 1: duy trì; k > 1: tăng trong mô hình dây chuyền."
+      },
+      {
+        "id": "H7",
+        "text": "Nhiệt hạch: các hạt nhân nhẹ kết hợp. Ví dụ D–T cho helium-4, neutron và khoảng 17,6 MeV. Mặt trời chủ yếu dùng chuỗi proton–proton, khác ví dụ D–T."
+      },
+      {
+        "id": "H8",
+        "text": "Q = (m_trước − m_sau)c². Q > 0 là tỏa năng lượng; Q < 0 cần cung cấp năng lượng, đồng thời còn phải thỏa điều kiện động học."
+      }
+    ],
+    "title": "B22: Phản ứng hạt nhân và năng lượng liên kết",
+    "href": "/hoc-lieu/truc-quan?bai=B22"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "status": "CHƯA ĐẠT",
+  "time_utc": "2026-10-05T10:05:57.738836+00:00",
+  "workspace": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09",
+  "branch": "main",
+  "web_sha256": "b1e5369bc393ec547e4441c6d28eec3baefe570c5ef8c235af40718727c6fec8",
+  "article_sha256": "cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826",
+  "user_confirmed_checkpoint_reason": "Chưa rõ Supabase từ xa là môi trường thử; giữ checkpoint và hướng dẫn thiết lập",
+  "blockers": [
+    {
+      "id": "TEAM-DB01",
+      "state": "CHƯA ĐẠT",
+      "reason": "Remote development environment unconfirmed; no test identities/seed found; read-only DNS ENOTFOUND",
+      "next": "DEV_DATABASE_AND_RESUME.md; independent dev environment and DB01–10"
+    }
+  ],
+  "checks": {
+    "unit_tests": "61/61 PASS",
+    "build": "PASS build-final2.log",
+    "typescript": "PASS tsc-final.log",
+    "lint": "0 errors; 1 existing warning",
+    "article_zip": "PASS",
+    "article_render_pages": 25,
+    "article_all_pages_visually_reviewed": true,
+    "immutable_sources": "PASS",
+    "final_full_worker2_reviews_completed": 0,
+    "video_playback_segments_verified": 5,
+    "production_deployed": false,
+    "remote_database_written": false
+  },
+  "unverified_scopes": [
+    "All 17 simulations and all worksheet paths",
+    "At least 3 complete lesson-plan DOCX review/export flows",
+    "Full 15-turn team review game and all collaborative branches",
+    "Actual Excel/Sheets interaction",
+    "Full AI semantic/error/accessibility suite and private pages",
+    "Independent comprehension and class-network/fallback video use",
+    "Teacher/student assignments, submissions, RLS and persistence",
+    "Two consecutive complete Worker 2 reviews on identical final web hash",
+    "Real teacher/student evaluation and validated assessment instruments",
+    "Scale/load/backup/restore and publication acceptance"
+  ],
+  "wide_deployment_readiness": "CHƯA SẴN SÀNG",
+  "handoff_files": [
+    "CHECKPOINT.md",
+    "acceptance.md",
+    "issues.md",
+    "curriculum-matrix.md",
+    "regulations.md",
+    "PROGRESS.md",
+    "rounds-index.json",
+    "TECHNICAL_VERIFICATION.md",
+    "USER_GUIDE.md",
+    "DEV_DATABASE_AND_RESUME.md",
+    "handoff-integrity.json",
+    "article-visual-qa-final.json"
+  ],
+  "next_owner_tasks": "See CHECKPOINT.md and DEV_DATABASE_AND_RESUME.md; use new unique CLI job IDs and refresh article manifest after Worker 2 edits",
+  "configuration_followup": {
+    "evidence": "supabase-user-project-confirmation.json",
+    "user_project_url_matches_env": true,
+    "frontend_variable": "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+    "publishable_key_present": true,
+    "dns_error_code": "ENOTFOUND",
+    "development_environment_confirmed": false,
+    "config_changed": false,
+    "key_values_logged": false
+  }
+}

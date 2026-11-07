@@ -1,0 +1,14 @@
+
+> nuclear-lesson-video-renderer@1.0.0 render
+> node render.mjs B22 B23 B24 B25 --draft
+
+Remotion bundle · 6%
+Remotion bundle · 21%
+Remotion bundle · 43%
+Remotion bundle · 65%
+Remotion bundle · 81%
+Remotion bundle · 100%
+B22 · 13 ảnh kiểm tra trong /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-video-qa/b22/draft
+B23 · 13 ảnh kiểm tra trong /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-video-qa/b23/draft
+B24 · 13 ảnh kiểm tra trong /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-video-qa/b24/draft
+B25 · 13 ảnh kiểm tra trong /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-video-qa/b25/draft

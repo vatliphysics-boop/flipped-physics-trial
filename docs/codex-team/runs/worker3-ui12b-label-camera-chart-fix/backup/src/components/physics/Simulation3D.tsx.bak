@@ -1,0 +1,909 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import * as THREE from "three";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { remainingFraction, CARBON14_HALF_LIFE_YEARS } from "@/lib/physics";
+import type { CanonicalActivityKey } from "@/lib/curriculum";
+
+type BasicActivityKey = Exclude<CanonicalActivityKey, "nuclear_fission">;
+
+type Parameters = { amount: number; speed: number; mode: number };
+const settings: Record<
+  BasicActivityKey,
+  {
+    label: string;
+    min: number;
+    max: number;
+    initial: number;
+    modes?: string[];
+    caption: string;
+  }
+> = {
+  rutherford_alpha_scattering: {
+    label: "Khoảng cách hạt tới tâm (đơn vị mô hình)",
+    min: 0,
+    max: 100,
+    initial: 50,
+    caption:
+      "Nguồn α → lá vàng → màn thu. Hạt tới gần hạt nhân lệch mạnh hơn; màu vàng là quỹ đạo hạt α.",
+  },
+  nuclear_structure_builder: {
+    label: "Số proton Z",
+    min: 1,
+    max: 20,
+    initial: 6,
+    modes: ["N = Z", "N = Z + 2", "N = Z + 4"],
+    caption:
+      "Đỏ: proton; xanh: neutron. Thay đổi Z và N để xây dựng hạt nhân; A = Z + N.",
+  },
+  isotope_and_nuclear_size: {
+    label: "Số khối A của đồng vị carbon (Z = 6)",
+    min: 12,
+    max: 14,
+    initial: 12,
+    caption:
+      "Ba đồng vị carbon có cùng số proton. Vòng bao biểu diễn bán kính gần đúng R = 1,2 A^(1/3) fm.",
+  },
+  nuclear_reaction_balancer: {
+    label: "Tốc độ quan sát",
+    min: 1,
+    max: 3,
+    initial: 1,
+    caption:
+      "⁴₂He + ¹⁴₇N → ¹⁷₈O + ¹₁p. Theo dõi hạt tới và hai hạt sau phản ứng, kiểm tra tổng A = 18 và Z = 9.",
+  },
+  binding_energy_lab: {
+    label: "Độ tách các nucleon (đơn vị mô hình)",
+    min: 0,
+    max: 100,
+    initial: 40,
+    caption:
+      "Ví dụ hạt nhân helium-4: hai proton và hai neutron. Tách nucleon cần cung cấp năng lượng liên kết; ghép lại giải phóng năng lượng.",
+  },
+  nuclear_fusion: {
+    label: "Mức năng lượng hạt tới (tương đối)",
+    min: 1,
+    max: 100,
+    initial: 70,
+    caption:
+      "²₁H + ³₁H → ⁴₂He + ¹₀n. Mức dưới 50 trong mô hình chưa đủ để hợp nhất; ngưỡng này không phải nhiệt độ thực. D–T không phải chuỗi phản ứng chính trong Mặt trời.",
+  },
+  geiger_random_decay: {
+    label: "Hoạt tính nguồn (tương đối)",
+    min: 1,
+    max: 10,
+    initial: 4,
+    caption:
+      "Các sự kiện ngẫu nhiên từ nguồn đến ống đếm; mỗi chớp sáng là một sự kiện mô phỏng, không phải số liệu thực nghiệm.",
+  },
+  radiation_properties: {
+    label: "Bề dày tấm chắn (tương đối)",
+    min: 1,
+    max: 10,
+    initial: 4,
+    modes: ["α · chắn giấy", "β⁻ · chắn nhôm", "γ · chắn chì"],
+    caption:
+      "α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối.",
+  },
+  radioactive_decay_half_life: {
+    label: "Chu kì bán rã T (giây mô hình)",
+    min: 2,
+    max: 12,
+    initial: 4,
+    caption:
+      "64 hạt ban đầu. Hạt xanh còn chưa phân rã, hạt xám đã biến đổi. Số hạt kì vọng N = N₀ × 2^(−t/T), làm tròn để hiển thị.",
+  },
+  carbon14_dating: {
+    label: "Tuổi mẫu (năm)",
+    min: 0,
+    max: 22920,
+    initial: 5730,
+    caption:
+      "Mẫu kín lí tưởng: C-14 còn lại theo 2^(−t/5730). Màu xanh là phần C-14 chưa phân rã; định tuổi thực cần hiệu chỉnh và điều kiện mẫu.",
+  },
+  radiation_safety: {
+    label: "Khoảng cách đến nguồn (đơn vị mô hình)",
+    min: 2,
+    max: 10,
+    initial: 5,
+    modes: ["Không chắn", "Có tấm chắn"],
+    caption:
+      "So sánh khoảng cách và che chắn. Đây là mô hình học tập định tính, không dùng tính liều hay quyết định an toàn thực tế.",
+  },
+  nuclear_power_energy_flow: {
+    label: "Tốc độ dòng năng lượng",
+    min: 1,
+    max: 5,
+    initial: 2,
+    caption:
+      "Lò phản ứng → bộ trao đổi nhiệt → turbine → máy phát. Đỏ: vòng sơ cấp; xanh: vòng thứ cấp. Hai dòng nước không trộn lẫn.",
+  },
+  reactor_control_concept: {
+    label: "Độ cắm thanh hấp thụ (%)",
+    min: 0,
+    max: 100,
+    initial: 50,
+    caption:
+      "Thanh màu đen hấp thụ neutron. Cắm sâu hơn làm giảm số neutron tiếp tục gây phân hạch. Không phải bộ điều khiển lò phản ứng thực.",
+  },
+  nuclear_medicine: {
+    label: "Tốc độ hiển thị tín hiệu",
+    min: 1,
+    max: 5,
+    initial: 2,
+    modes: ["PET · ghi nhận hai photon", "Xạ trị · chùm hướng vào đích"],
+    caption:
+      "PET ghi nhận cặp photon gamma do hủy cặp positron–electron; xạ trị dùng bức xạ tác động đích. Hình người và thiết bị được giản lược.",
+  },
+  radiation_applications: {
+    label: "Tốc độ băng chuyền",
+    min: 1,
+    max: 5,
+    initial: 2,
+    modes: ["Chiếu xạ thực phẩm", "Kiểm tra khuyết tật"],
+    caption:
+      "Sản phẩm qua buồng chiếu hoặc tia xuyên qua mối hàn tới đầu thu. Chiếu xạ thực phẩm đúng quy trình không làm thực phẩm thành nguồn phóng xạ.",
+  },
+  nuclear_physics_practice_lab: {
+    label: "T giả thuyết (giây mô hình)",
+    min: 2,
+    max: 12,
+    initial: 4,
+    caption:
+      "Quan sát nguồn và đầu thu; đối chiếu số hạt chưa phân rã với đồ thị H(t) ở bảng phân tích bên dưới. Dữ liệu 3D là minh họa, tách biệt bảng SGK.",
+  },
+};
+
+// Every scene has its own apparatus and update rule; all coordinates are teaching-model units.
+function makeExperiment(
+  scene: THREE.Scene,
+  key: BasicActivityKey,
+  parameters: Parameters,
+) {
+  const root = new THREE.Group();
+  scene.add(root);
+  const geometries = new Set<THREE.BufferGeometry>();
+  const materials = new Set<THREE.Material>();
+  const textures = new Set<THREE.Texture>();
+  function label(text: string, x: number, y: number, z = 0) {
+    const canvas = document.createElement("canvas");
+    canvas.width = 512;
+    canvas.height = 80;
+    const context = canvas.getContext("2d");
+    if (!context) return;
+    context.fillStyle = "rgba(12,24,43,0.88)";
+    context.fillRect(0, 0, 512, 80);
+    context.font = "28px Arial";
+    context.textAlign = "center";
+    context.fillStyle = "#edf4ff";
+    context.fillText(text, 256, 51);
+    const texture = new THREE.CanvasTexture(canvas);
+    textures.add(texture);
+    const m = new THREE.SpriteMaterial({ map: texture, depthTest: false });
+    materials.add(m);
+    const sprite = new THREE.Sprite(m);
+    sprite.scale.set(2.9, 0.45, 1);
+    sprite.position.set(x, y, z);
+    root.add(sprite);
+  }
+  const sphereGeometry = new THREE.SphereGeometry(1, 16, 12);
+  geometries.add(sphereGeometry);
+  const materialCache = new Map<number, THREE.MeshStandardMaterial>();
+  function material(color: number) {
+    let m = materialCache.get(color);
+    if (!m) {
+      m = new THREE.MeshStandardMaterial({ color, roughness: 0.45 });
+      materialCache.set(color, m);
+      materials.add(m);
+    }
+    return m;
+  }
+  function ball(color: number, size = 0.22, parent: THREE.Group = root) {
+    const mesh = new THREE.Mesh(sphereGeometry, material(color));
+    mesh.scale.setScalar(size);
+    parent.add(mesh);
+    return mesh;
+  }
+  function box(
+    color: number,
+    x: number,
+    y: number,
+    z: number,
+    w: number,
+    h: number,
+    d: number,
+  ) {
+    const g = new THREE.BoxGeometry(w, h, d);
+    geometries.add(g);
+    const mesh = new THREE.Mesh(g, material(color));
+    mesh.position.set(x, y, z);
+    root.add(mesh);
+    return mesh;
+  }
+  function line(points: THREE.Vector3[], color: number) {
+    const g = new THREE.BufferGeometry().setFromPoints(points);
+    geometries.add(g);
+    const m = new THREE.LineBasicMaterial({ color });
+    materials.add(m);
+    const l = new THREE.Line(g, m);
+    root.add(l);
+    return l;
+  }
+  function ring(x: number, radius: number, color: number) {
+    const g = new THREE.TorusGeometry(radius, 0.06, 8, 64);
+    geometries.add(g);
+    const mesh = new THREE.Mesh(g, material(color));
+    mesh.rotation.y = Math.PI / 2;
+    mesh.position.x = x;
+    root.add(mesh);
+    return mesh;
+  }
+  function nucleus(z: number, n: number, size = 0.24) {
+    const group = new THREE.Group();
+    root.add(group);
+    for (let i = 0; i < z + n; i++) {
+      const angle = i * 2.399963;
+      const radius = 0.68 * Math.cbrt((i + 0.5) / (z + n));
+      const y = 1 - (2 * (i + 0.5)) / (z + n);
+      const b = ball(i < z ? 0xe35454 : 0x468ddd, size, group);
+      b.position.set(
+        radius * Math.sqrt(1 - y * y) * Math.cos(angle),
+        radius * y,
+        radius * Math.sqrt(1 - y * y) * Math.sin(angle),
+      );
+    }
+    return group;
+  }
+  const updates: ((time: number) => void)[] = [];
+  const amber = 0xffc95b,
+    blue = 0x52b7ff;
+  if (key === "rutherford_alpha_scattering") {
+    box(0x5c739c, -5, 0, 0, 0.7, 0.8, 0.8);
+    box(0xdba332, 0, 0, 0, 0.035, 3.4, 3.4);
+    ring(0, 4, 0x7898bb);
+    const core = ball(0xe35454, 0.33);
+    core.position.set(0, 0, 0);
+    const p = ball(amber, 0.14);
+    const impact = (parameters.amount / 100) * 2.5;
+    const theta = 2 * Math.atan(0.12 / Math.max(impact, 0.015));
+    const path: THREE.Vector3[] = [];
+    for (let i = 0; i <= 100; i++) {
+      const u = i / 100;
+      path.push(
+        u < 0.5
+          ? new THREE.Vector3(-5 + 10 * u, impact, 0)
+          : new THREE.Vector3(
+              10 * (u - 0.5) * Math.cos(theta),
+              impact + 10 * (u - 0.5) * Math.sin(theta),
+              0,
+            ),
+      );
+    }
+    line(path, amber);
+    updates.push((t) => p.position.copy(path[Math.floor(((t % 5) / 5) * 100)]));
+  } else if (
+    key === "nuclear_structure_builder" ||
+    key === "isotope_and_nuclear_size" ||
+    key === "binding_energy_lab"
+  ) {
+    const z =
+      key === "nuclear_structure_builder"
+        ? parameters.amount
+        : key === "isotope_and_nuclear_size"
+          ? 6
+          : 2;
+    const n =
+      key === "nuclear_structure_builder"
+        ? z + 2 * parameters.mode
+        : key === "isotope_and_nuclear_size"
+          ? parameters.amount - 6
+          : 2;
+    const group = nucleus(z, n, 0.27);
+    if (key === "isotope_and_nuclear_size") {
+      const boundary = ring(
+        0,
+        (1.2 * Math.cbrt(parameters.amount)) / 3,
+        0x7fc9ac,
+      );
+      boundary.rotation.y = 0;
+    }
+    const initial = group.children.map((b) => b.position.clone());
+    updates.push((t) => {
+      if (key === "binding_energy_lab")
+        group.children.forEach((b, i) =>
+          b.position
+            .copy(initial[i])
+            .multiplyScalar(
+              1 + (parameters.amount / 25) * (0.5 + 0.5 * Math.sin(t)),
+            ),
+        );
+    });
+  } else if (key === "nuclear_reaction_balancer" || key === "nuclear_fusion") {
+    const fusion = key === "nuclear_fusion";
+    const target = nucleus(fusion ? 1 : 7, fusion ? 2 : 7);
+    target.position.x = 0.3;
+    const projectile = nucleus(fusion ? 1 : 2, fusion ? 1 : 2);
+    const product = nucleus(fusion ? 2 : 8, fusion ? 2 : 9);
+    const outgoing = new THREE.Group();
+    root.add(outgoing);
+    ball(fusion ? blue : 0xe35454, 0.2, outgoing);
+    updates.push((t) => {
+      const u = (t * (fusion ? 1 : parameters.amount)) % 6;
+      const reacted = u >= 2 && (!fusion || parameters.amount >= 50);
+      target.visible = !reacted;
+      projectile.visible = !reacted;
+      projectile.position.set(-5 + 2.6 * Math.min(u, 2), 0, 0);
+      product.visible = reacted;
+      outgoing.visible = reacted;
+      const v = Math.max(0, u - 2);
+      product.position.set(0, 0, 0);
+      outgoing.position.set(v * 1.2, -v * 0.35, 0);
+    });
+  } else if (
+    [
+      "radioactive_decay_half_life",
+      "carbon14_dating",
+      "nuclear_physics_practice_lab",
+    ].includes(key)
+  ) {
+    const beads = Array.from({ length: 64 }, (_, i) => {
+      const b = ball(blue, 0.18);
+      b.position.set(
+        ((i % 4) - 1.5) * 0.58,
+        (Math.floor(i / 16) - 1.5) * 0.58,
+        ((Math.floor(i / 4) % 4) - 1.5) * 0.58,
+      );
+      return b;
+    });
+    box(0x5c739c, 3, 0, 0, 0.4, 2, 2);
+    const pulse = ball(amber, 0.15);
+    updates.push((t) => {
+      const fraction = remainingFraction(
+        key === "carbon14_dating"
+          ? parameters.amount
+          : Math.min(t, 3 * parameters.amount),
+        key === "carbon14_dating"
+          ? CARBON14_HALF_LIFE_YEARS
+          : parameters.amount,
+      );
+      beads.forEach(
+        (b, i) =>
+          (b.material = material(
+            i < Math.round(64 * fraction) ? blue : 0x5c6776,
+          )),
+      );
+      pulse.position.set(3 * (t % 1), 0, 0);
+    });
+  } else if (key === "geiger_random_decay") {
+    box(0xdba332, 0, 0, 0, 0.8, 0.8, 0.8);
+    box(0x5c739c, 3, 0, 0, 0.7, 1.2, 1.2);
+    const hits = Array.from({ length: 18 }, () => ({
+      b: ball(amber, 0.1),
+      start: Math.random() * 6,
+      angle: (Math.random() - 0.5) * 0.12,
+    }));
+    updates.push((t) =>
+      hits.forEach(({ b, start, angle }) => {
+        const u = ((t * parameters.amount) / 4 + start) % 6;
+        b.visible = u < 1;
+        b.position.set(u * 3, u * angle, 0);
+      }),
+    );
+  } else if (key === "radiation_properties" || key === "radiation_safety") {
+    box(0xdba332, 0, 0, 0, 0.8, 0.8, 0.8);
+    const safety = key === "radiation_safety";
+    const shield = box(
+      safety ? 0x6e8597 : [0xcbbca4, 0xabb9c8, 0x667c97][parameters.mode],
+      2,
+      0,
+      0,
+      safety ? 0.2 : parameters.amount / 15,
+      3,
+      3,
+    );
+    shield.visible = !safety || parameters.mode === 1;
+    const distance = safety ? parameters.amount : 5;
+    box(0x65bca0, distance, 0, 0, 0.2, 1.5, 1.5);
+    const beads = Array.from({ length: 12 }, () =>
+      !safety && parameters.mode === 0 ? nucleus(2, 2, 0.1) : ball(blue, 0.12),
+    );
+    updates.push((t) =>
+      beads.forEach((b, i) => {
+        const u = (t * 0.3 + i / 12) % 1;
+        const x = u * distance;
+        const stopped =
+          !safety && parameters.mode < 2
+            ? x > 2
+            : shield.visible && i % 3 !== 0 && x > 2;
+        b.visible = !stopped;
+        b.position.set(x, ((i % 3) - 1) * 0.2, Math.sin(i * 2.4) * 0.4);
+      }),
+    );
+  } else if (key === "nuclear_power_energy_flow") {
+    box(0x64799b, -4, 0, 0, 1.2, 2, 1.2);
+    box(0x7d9bad, 0, 0, 0, 1.2, 2, 1.2);
+    box(0x65bca0, 4, 0, 0, 1, 1.3, 1.3);
+    const loop1 = [
+      new THREE.Vector3(-4, 0.8, 0),
+      new THREE.Vector3(0, 0.8, 0),
+      new THREE.Vector3(0, -0.8, 0),
+      new THREE.Vector3(-4, -0.8, 0),
+      new THREE.Vector3(-4, 0.8, 0),
+    ];
+    const loop2 = [
+      new THREE.Vector3(0, 0.8, 1),
+      new THREE.Vector3(3, 0.8, 1),
+      new THREE.Vector3(3, -0.8, 1),
+      new THREE.Vector3(0, -0.8, 1),
+      new THREE.Vector3(0, 0.8, 1),
+    ];
+    line(loop1, 0xe35454);
+    line(loop2, blue);
+    const turbine = new THREE.Group();
+    root.add(turbine);
+    turbine.position.set(3, 0, 1);
+    for (let i = 0; i < 6; i++) {
+      const b = ball(amber, 0.2, turbine);
+      b.position.set(
+        0,
+        0.6 * Math.cos((i * Math.PI) / 3),
+        0.6 * Math.sin((i * Math.PI) / 3),
+      );
+    }
+    [loop1, loop2].forEach((path, j) => {
+      const curve = new THREE.CurvePath<THREE.Vector3>();
+      for (let i = 1; i < path.length; i++)
+        curve.add(new THREE.LineCurve3(path[i - 1], path[i]));
+      const p = ball(j ? blue : 0xe35454, 0.14);
+      updates.push((t) =>
+        p.position.copy(curve.getPoint(((t * parameters.amount) / 10) % 1)),
+      );
+    });
+    updates.push((t) => (turbine.rotation.x = t * parameters.amount));
+  } else if (key === "reactor_control_concept") {
+    const rods = Array.from({ length: 3 }, (_, i) =>
+      box(0x303d50, (i - 1) * 1.1, 2, 0, 0.22, 3, 0.22),
+    );
+    const fuel = Array.from({ length: 6 }, (_, i) => {
+      const g = nucleus(3, 4, 0.17);
+      g.position.set(((i % 3) - 1) * 1.1, Math.floor(i / 3) * 1.4 - 0.7, 0.5);
+      return g;
+    });
+    const neutron = Array.from({ length: 15 }, () => ball(blue, 0.1));
+    updates.push((t) => {
+      rods.forEach((b) => (b.position.y = 3.5 - parameters.amount / 50));
+      neutron.forEach((b, i) => {
+        b.visible = i < 15 * (1 - parameters.amount / 110);
+        b.position.set(
+          2 * Math.sin(t + i),
+          Math.cos(t * 0.6 + i),
+          Math.sin(t * 0.8 + i),
+        );
+      });
+      fuel.forEach((g, i) => g.scale.setScalar(1 + 0.03 * Math.sin(t + i)));
+    });
+  } else if (key === "nuclear_medicine") {
+    box(0x718a9f, 0, -0.3, 0, 1.3, 2.8, 0.5);
+    ball(0xe35454, 0.2).position.set(0, 0.4, 0.4);
+    const detector = ring(0, 2.5, 0x65bca0);
+    detector.rotation.y = 0;
+    const a = ball(amber, 0.12),
+      b = ball(amber, 0.12);
+    line(
+      [new THREE.Vector3(-3, 0.4, 0.4), new THREE.Vector3(3, 0.4, 0.4)],
+      0xffc95b,
+    );
+    updates.push((t) => {
+      const u = ((t * parameters.amount) / 4) % 1;
+      if (parameters.mode === 0) {
+        a.position.set(u * 2.5, 0.4, 0.4);
+        b.position.set(-u * 2.5, 0.4, 0.4);
+        b.visible = true;
+      } else {
+        a.position.set(-3 + u * 3, 0.4, 0.4);
+        b.visible = false;
+      }
+    });
+  } else if (key === "radiation_applications") {
+    box(0x64799b, 0, -1, 0, 9, 0.2, 2);
+    box(0x667c97, 0, 1, 0, 0.8, 1, 0.8);
+    box(0x65bca0, 0, -0.75, 0, 1, 0.15, 1);
+    const products = Array.from({ length: 3 }, (_, i) =>
+      box(parameters.mode ? 0xabb9c8 : 0xd69e57, i * 3 - 3, 0, 0, 1, 0.6, 0.7),
+    );
+    const ray = ball(amber, 0.1);
+    updates.push((t) => {
+      products.forEach(
+        (p, i) =>
+          (p.position.x = (((t * parameters.amount) / 2 + i * 3) % 9) - 4.5),
+      );
+      ray.position.set(0, 1 - ((t * 2) % 1) * 1.7, 0);
+    });
+  }
+  const labels: Partial<
+    Record<BasicActivityKey, [string, number, number, number?][]>
+  > = {
+    rutherford_alpha_scattering: [
+      ["Nguồn α", -5, 1],
+      ["Lá vàng · hạt nhân", 0, 2],
+      ["Màn thu", 0, -2],
+    ],
+    nuclear_structure_builder: [
+      [
+        `Z = ${parameters.amount} · N = ${parameters.amount + parameters.mode * 2} · A = ${parameters.amount * 2 + parameters.mode * 2}`,
+        0,
+        1.5,
+      ],
+    ],
+    isotope_and_nuclear_size: [
+      [
+        `Carbon-${parameters.amount} · Z = 6 · N = ${parameters.amount - 6}`,
+        0,
+        1.5,
+      ],
+    ],
+    binding_energy_lab: [["Helium-4 · 2p + 2n", 0, 2.3]],
+    nuclear_reaction_balancer: [
+      ["Hạt α tới", -4, 1.5],
+      ["Nitrogen-14", 0.3, 2],
+      ["Oxygen-17 + proton", 3, 1.5],
+    ],
+    nuclear_fusion: [
+      ["Deuterium", -4, 1.5],
+      ["Tritium → He-4 + n", 0.3, 2],
+    ],
+    geiger_random_decay: [
+      ["Nguồn mô phỏng", 0, 1.5],
+      ["Ống đếm", 3, 1.5],
+    ],
+    radioactive_decay_half_life: [
+      ["64 hạt ban đầu", 0, 2],
+      ["Đầu thu", 3, 1.7],
+    ],
+    carbon14_dating: [["Mẫu C-14 lí tưởng", 0, 2]],
+    nuclear_physics_practice_lab: [
+      ["Nguồn N(t)", 0, 2],
+      ["Đầu thu", 3, 1.7],
+    ],
+    radiation_properties: [
+      ["Nguồn", 0, 1.8],
+      ["Tấm chắn", 2, 2.3],
+      ["Đầu thu", 5, 1.8],
+    ],
+    radiation_safety: [
+      ["Nguồn", 0, 1.8],
+      ["Che chắn", 2, 2.3],
+      ["Vị trí quan sát", parameters.amount, 1.8],
+    ],
+    nuclear_power_energy_flow: [
+      ["Lò phản ứng", -4, 2],
+      ["Trao đổi nhiệt", 0, 2],
+      ["Turbine", 3, 2, 1],
+      ["Máy phát", 4, -1.5],
+    ],
+    reactor_control_concept: [
+      ["Thanh hấp thụ neutron", 0, 4],
+      ["Nhiên liệu", 0, -2],
+    ],
+    nuclear_medicine: [
+      ["Mô đích / chất đánh dấu", 0, -2],
+      [parameters.mode ? "Chùm xạ trị" : "Vòng đầu thu PET", 0, 3],
+    ],
+    radiation_applications: [
+      ["Nguồn chiếu", 0, 2],
+      [parameters.mode ? "Vật liệu cần kiểm tra" : "Sản phẩm thực phẩm", -3, 1],
+      ["Đầu thu / băng chuyền", 2, -1.8],
+    ],
+  };
+  labels[key]?.forEach(([text, x, y, z]) => label(text, x, y, z));
+  return {
+    update: (t: number) => updates.forEach((fn) => fn(t)),
+    dispose: () => {
+      scene.remove(root);
+      geometries.forEach((g) => g.dispose());
+      materials.forEach((m) => m.dispose());
+      textures.forEach((t) => t.dispose());
+    },
+  };
+}
+
+export default function Simulation3D({
+  activityKey,
+  onObserved,
+}: {
+  activityKey: BasicActivityKey;
+  onObserved?: (done: boolean) => void;
+}) {
+  const config = settings[activityKey];
+  const [amount, setAmount] = useState(config.initial),
+    [mode, setMode] = useState(0),
+    [speed, setSpeed] = useState(1);
+  const [started, setStarted] = useState(false),
+    [running, setRunning] = useState(false),
+    [error, setError] = useState("");
+  const [view, setView] = useState("perspective"),
+    [elapsed, setElapsed] = useState(0);
+  const host = useRef<HTMLDivElement>(null),
+    time = useRef(0),
+    runningRef = useRef(false),
+    speedRef = useRef(1),
+    observed = useRef(false),
+    callback = useRef(onObserved);
+  const cameraRef = useRef<THREE.PerspectiveCamera | null>(null),
+    controlsRef = useRef<OrbitControls | null>(null);
+  useEffect(() => {
+    callback.current = onObserved;
+  }, [onObserved]);
+  useEffect(() => {
+    runningRef.current = running;
+    speedRef.current = speed;
+  }, [running, speed]);
+  useEffect(() => {
+    const camera = cameraRef.current,
+      controls = controlsRef.current;
+    if (!camera || !controls) return;
+    const positions: Record<string, [number, number, number]> = {
+      perspective: [8, 6, 10],
+      front: [0, 0, 13],
+      top: [0, 13, 0.01],
+      side: [13, 0, 0],
+    };
+    camera.position.set(...positions[view]);
+    controls.target.set(0, 0, 0);
+    controls.update();
+  }, [view]);
+  useEffect(() => {
+    if (!started || !host.current) return;
+    const element = host.current;
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ antialias: true });
+    } catch {
+      const failureFrame = requestAnimationFrame(() =>
+        setError(
+          "Thiết bị chưa mở được WebGL 3D. Em vẫn có thể dùng bảng thao tác và câu hỏi bên dưới.",
+        ),
+      );
+      return () => cancelAnimationFrame(failureFrame);
+    }
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setClearColor(0x101d31);
+    element.appendChild(renderer.domElement);
+    renderer.domElement.setAttribute(
+      "aria-label",
+      "Không gian thí nghiệm 3D. Kéo để xoay, cuộn để phóng to; dùng nút góc nhìn nếu thao tác bằng bàn phím.",
+    );
+    renderer.domElement.setAttribute("role", "img");
+    const scene = new THREE.Scene();
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x536079, 2.5));
+    const light = new THREE.DirectionalLight(0xffffff, 3);
+    light.position.set(5, 8, 6);
+    scene.add(light);
+    const grid = new THREE.GridHelper(16, 16, 0x315270, 0x24384e);
+    grid.position.y = -2.6;
+    scene.add(grid);
+    const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+    const positions: Record<string, [number, number, number]> = {
+      perspective: [8, 6, 10],
+      front: [0, 0, 13],
+      top: [0, 13, 0.01],
+      side: [13, 0, 0],
+    };
+    camera.position.set(...positions[view]);
+    cameraRef.current = camera;
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.minDistance = 4;
+    controls.maxDistance = 28;
+    controlsRef.current = controls;
+    const experiment = makeExperiment(scene, activityKey, {
+      amount,
+      mode,
+      speed,
+    });
+    const resize = () => {
+      const w = element.clientWidth,
+        h = element.clientHeight;
+      renderer.setSize(w, h);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    };
+    const observer = new ResizeObserver(resize);
+    observer.observe(element);
+    resize();
+    let frame = 0,
+      last = performance.now(),
+      lastText = 0;
+    const render = (now: number) => {
+      // The first RAF timestamp can precede setup's performance.now().
+      const dt = Math.max(0, Math.min((now - last) / 1000, 0.1));
+      last = now;
+      if (runningRef.current) {
+        time.current += dt * speedRef.current;
+        if (
+          [
+            "radioactive_decay_half_life",
+            "nuclear_physics_practice_lab",
+          ].includes(activityKey) &&
+          time.current >= 3 * amount
+        ) {
+          time.current = 3 * amount;
+          runningRef.current = false;
+          setRunning(false);
+        }
+        if (time.current >= 2 && !observed.current) {
+          observed.current = true;
+          callback.current?.(true);
+        }
+      }
+      experiment.update(time.current);
+      controls.update();
+      renderer.render(scene, camera);
+      if (now - lastText > 250) {
+        setElapsed(time.current);
+        lastText = now;
+      }
+      frame = requestAnimationFrame(render);
+    };
+    frame = requestAnimationFrame(render);
+    const lost = (event: Event) => {
+      event.preventDefault();
+      setRunning(false);
+      setError(
+        "Không gian 3D đã mất kết nối đồ họa. Hãy đóng rồi mở lại thí nghiệm; bảng thao tác bên dưới vẫn sử dụng được.",
+      );
+    };
+    renderer.domElement.addEventListener("webglcontextlost", lost);
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+      controls.dispose();
+      experiment.dispose();
+      grid.geometry.dispose();
+      (grid.material as THREE.Material).dispose();
+      renderer.domElement.removeEventListener("webglcontextlost", lost);
+      renderer.dispose();
+      renderer.forceContextLoss();
+      renderer.domElement.remove();
+      cameraRef.current = null;
+      controlsRef.current = null;
+    };
+    // Camera presets and playback speed update without recreating the scene.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [started, activityKey, amount, mode]);
+  const finishedDecay =
+    ["radioactive_decay_half_life", "nuclear_physics_practice_lab"].includes(
+      activityKey,
+    ) && elapsed >= 3 * amount;
+  function reset() {
+    time.current = 0;
+    setElapsed(0);
+    setRunning(false);
+    observed.current = false;
+    callback.current?.(false);
+  }
+  return (
+    <section className="experiment-3d" aria-label="Thí nghiệm 3D tương tác">
+      <div className="experiment-toolbar">
+        <strong>Không gian thí nghiệm 3D</strong>
+        <span role="status">
+          {!started ? "Sẵn sàng" : running ? "Đang chạy" : "Đã tạm dừng"} ·{" "}
+          {elapsed.toFixed(1)} s mô hình
+        </span>
+      </div>
+      <div className="experiment-canvas" ref={host}>
+        {!started && (
+          <div className="experiment-start">
+            <p>Nhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.</p>
+            <button
+              type="button"
+              className="btn primary"
+              onClick={() => {
+                setStarted(true);
+                setRunning(true);
+              }}
+            >
+              Bắt đầu thí nghiệm 3D
+            </button>
+          </div>
+        )}
+      </div>
+      {error && <p role="alert">{error}</p>}
+      <div className="experiment-controls">
+        <button
+          type="button"
+          className="btn primary"
+          disabled={!started || !!error || finishedDecay}
+          onClick={() => setRunning((v) => !v)}
+        >
+          {finishedDecay ? "Đã đạt 3T" : running ? "Tạm dừng" : "Tiếp tục"}
+        </button>
+        <button type="button" className="btn" onClick={reset}>
+          Đặt lại thí nghiệm
+        </button>
+        <label>
+          Tốc độ{" "}
+          <select
+            value={speed}
+            onChange={(e) => setSpeed(Number(e.target.value))}
+          >
+            <option value={0.5}>0,5×</option>
+            <option value={1}>1×</option>
+            <option value={2}>2×</option>
+          </select>
+        </label>
+      </div>
+      <div className="experiment-views" aria-label="Chọn góc nhìn">
+        {[
+          ["perspective", "Phối cảnh"],
+          ["front", "Phía trước"],
+          ["top", "Từ trên"],
+          ["side", "Bên cạnh"],
+        ].map(([value, label]) => (
+          <button
+            type="button"
+            className={`btn small ${view === value ? "primary" : ""}`}
+            aria-pressed={view === value}
+            key={value}
+            onClick={() => setView(value)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+      {[
+        "radioactive_decay_half_life",
+        "nuclear_physics_practice_lab",
+        "carbon14_dating",
+      ].includes(activityKey) && (
+        <p className="physics-feedback" role="status">
+          {activityKey === "carbon14_dating"
+            ? `Tuổi mẫu ${amount} năm · C-14 còn ${(100 * remainingFraction(amount, CARBON14_HALF_LIFE_YEARS)).toFixed(1)}%`
+            : `N₀ = 64 · t/T = ${(Math.min(elapsed, 3 * amount) / amount).toFixed(2)} · N kì vọng ≈ ${Math.round(64 * remainingFraction(Math.min(elapsed, 3 * amount), amount))}`}
+        </p>
+      )}
+      <label className="physics-field">
+        <span>
+          {config.label}: <strong>{amount}</strong>
+        </span>
+        <input
+          type="range"
+          min={config.min}
+          max={config.max}
+          value={amount}
+          onChange={(e) => {
+            setAmount(Number(e.target.value));
+            time.current = 0;
+            setElapsed(0);
+          }}
+        />
+      </label>
+      {config.modes && (
+        <label className="physics-field">
+          Điều kiện thí nghiệm
+          <select
+            value={mode}
+            onChange={(e) => {
+              setMode(Number(e.target.value));
+              time.current = 0;
+              setElapsed(0);
+            }}
+          >
+            {config.modes.map((m, i) => (
+              <option key={m} value={i}>
+                {m}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
+      <p className="physics-note">
+        Kéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng.{" "}
+        {config.caption} Kích thước, màu và thời gian được quy ước để quan sát.
+        Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và
+        cần đặt lại để chạy lần mới.
+      </p>
+    </section>
+  );
+}

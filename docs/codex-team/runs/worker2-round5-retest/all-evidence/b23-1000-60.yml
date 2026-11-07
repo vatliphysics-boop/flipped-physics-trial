@@ -1,0 +1,163 @@
+- generic [ref=f6e300]:
+  - generic [ref=f6e301]:
+    - region "Thí nghiệm 3D tương tác" [ref=f6e466]:
+      - generic [ref=f6e467]:
+        - strong [ref=f6e468]: Không gian thí nghiệm 3D
+        - status [ref=f6e469]: Sẵn sàng · 0.0 s mô hình
+      - generic [ref=f6e471]:
+        - paragraph [ref=f6e472]: Nhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.
+        - button "Bắt đầu thí nghiệm 3D" [ref=f6e473] [cursor=pointer]
+      - generic [ref=f6e474]:
+        - button "Tiếp tục" [disabled] [ref=f6e475] [cursor=pointer]
+        - button "Đặt lại thí nghiệm" [ref=f6e476] [cursor=pointer]
+        - generic [ref=f6e477]:
+          - text: Tốc độ
+          - combobox "Tốc độ" [ref=f6e478]:
+            - option "0,5×"
+            - option "1×" [selected]
+            - option "2×"
+      - generic "Chọn góc nhìn" [ref=f6e479]:
+        - button "Phối cảnh" [pressed] [ref=f6e480] [cursor=pointer]
+        - button "Phía trước" [ref=f6e481] [cursor=pointer]
+        - button "Từ trên" [ref=f6e482] [cursor=pointer]
+        - button "Bên cạnh" [ref=f6e483] [cursor=pointer]
+      - status [ref=f6e484]: N₀ = 64 · t/T = 0.00 · N kì vọng ≈ 64
+      - generic [ref=f6e485]:
+        - generic [ref=f6e486]:
+          - text: "Chu kì bán rã T (giây mô hình):"
+          - strong [ref=f6e487]: "4"
+        - 'slider "Chu kì bán rã T (giây mô hình): 4" [ref=f6e488] [cursor=pointer]': "4"
+      - paragraph [ref=f6e489]: Kéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. 64 hạt ban đầu. Hạt xanh còn chưa phân rã, hạt xám đã biến đổi. Số hạt kì vọng N = N₀ × 2^(−t/T), làm tròn để hiển thị. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.
+    - heading "Bảng thao tác, số liệu và câu hỏi" [level=4] [ref=f6e303]
+    - paragraph [ref=f6e304]: Tham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.
+    - generic [ref=f6e305]:
+      - paragraph [ref=f6e306]: "Khảo sát định luật phóng xạ: N_t = N₀ × 2^(−t/T). Thay đổi chu kì bán rã T và số hạt ban đầu N₀ để xem đường cong thay đổi."
+      - generic [ref=f6e307]:
+        - paragraph [ref=f6e308]:
+          - strong [ref=f6e309]: "📈 Chu trình khám phá:"
+        - list [ref=f6e310]:
+          - listitem [ref=f6e311]:
+            - strong [ref=f6e312]: "Thay đổi T:"
+            - text: Kéo thanh trượt để xem đường cong phân rã thay đổi.
+          - listitem [ref=f6e313]:
+            - strong [ref=f6e314]: "Quan sát:"
+            - text: Sau mỗi chu kì T, số hạt giảm bao nhiêu phần trăm?
+          - listitem [ref=f6e315]:
+            - strong [ref=f6e316]: "Giải thích:"
+            - text: Khi T tăng gấp đôi thì đường cong như thế nào?
+      - generic [ref=f6e317]:
+        - generic [ref=f6e318]:
+          - generic [ref=f6e319]:
+            - text: Chu kì bán rã T
+            - strong [ref=f6e320]: 60 s
+          - slider "Chu kì bán rã T 60 s" [ref=f6e694] [cursor=pointer]: "60"
+        - generic [ref=f6e322]:
+          - generic [ref=f6e323]:
+            - text: Số hạt ban đầu N₀
+            - strong [ref=f6e324]: "1000"
+          - slider "Số hạt ban đầu N₀ 1000" [ref=f6e325] [cursor=pointer]: "1000"
+      - paragraph [ref=f6e326]: T là tham số so sánh các mô hình. Với một đồng vị cho trước, T là đặc trưng của đồng vị đó. N trong bảng là số hạt kì vọng theo mô hình liên tục, có thể là số thập phân; đây không phải số đếm từ nguồn thật.
+      - generic [ref=f6e327]:
+        - button "Tải dữ liệu bán rã CSV" [active] [ref=f6e328] [cursor=pointer]
+        - button "Đặt lại tham số bảng" [ref=f6e329] [cursor=pointer]
+      - status [ref=f6e711]: Đã tạo CSV với N₀ = 1000, T = 60 s. Kiểm tra tệp tải xuống của trình duyệt.
+      - group [ref=f6e330]:
+        - generic "Xử lí dữ liệu bằng Excel hoặc Google Sheets" [ref=f6e331]
+      - figure "N(t) = 1000 × 2^(−t/60) (nét liền)" [ref=f6e695]:
+        - img "Số hạt nhân N theo Thời gian t (s), T = 60s. N(t) = 1000 × 2^(−t/60)" [ref=f6e696]:
+          - generic [ref=f6e334]:
+            - generic [ref=f6e335]: "0"
+            - generic [ref=f6e336]: "0"
+          - generic [ref=f6e337]:
+            - generic [ref=f6e338]: "250"
+            - generic [ref=f6e339]: "90"
+          - generic [ref=f6e340]:
+            - generic [ref=f6e341]: "500"
+            - generic [ref=f6e342]: "180"
+          - generic [ref=f6e343]:
+            - generic [ref=f6e344]: "750"
+            - generic [ref=f6e345]: "270"
+          - generic [ref=f6e346]:
+            - generic [ref=f6e347]: "1000"
+            - generic [ref=f6e348]: "360"
+          - generic [ref=f6e350]: Số hạt nhân N
+          - generic [ref=f6e351]: Thời gian t (s), T = 60s
+      - table [ref=f6e358]:
+        - rowgroup [ref=f6e359]:
+          - row [ref=f6e360]:
+            - columnheader "Sau k chu kì (t = kT)" [ref=f6e361]
+            - columnheader "t (s)" [ref=f6e362]
+            - columnheader "N còn lại" [ref=f6e363]
+            - columnheader "% N₀" [ref=f6e364]
+        - rowgroup [ref=f6e365]:
+          - row [ref=f6e366]:
+            - cell "k = 0" [ref=f6e367]
+            - cell "0" [ref=f6e368]
+            - cell "1000.0" [ref=f6e369]
+            - cell "100.0%" [ref=f6e370]
+          - row [ref=f6e701]:
+            - cell "k = 1" [ref=f6e372]
+            - cell "60" [ref=f6e702]
+            - cell "500.0" [ref=f6e374]
+            - cell "50.0%" [ref=f6e375]
+          - row [ref=f6e703]:
+            - cell "k = 2" [ref=f6e377]
+            - cell "120" [ref=f6e704]
+            - cell "250.0" [ref=f6e379]
+            - cell "25.0%" [ref=f6e380]
+          - row [ref=f6e705]:
+            - cell "k = 3" [ref=f6e382]
+            - cell "180" [ref=f6e706]
+            - cell "125.0" [ref=f6e384]
+            - cell "12.5%" [ref=f6e385]
+          - row [ref=f6e707]:
+            - cell "k = 4" [ref=f6e387]
+            - cell "240" [ref=f6e708]
+            - cell "62.5" [ref=f6e389]
+            - cell "6.3%" [ref=f6e390]
+          - row [ref=f6e709]:
+            - cell "k = 5" [ref=f6e392]
+            - cell "300" [ref=f6e710]
+            - cell "31.3" [ref=f6e394]
+            - cell "3.1%" [ref=f6e395]
+      - generic [ref=f6e396]:
+        - generic [ref=f6e397]:
+          - term [ref=f6e398]: Chu kì bán rã T
+          - definition [ref=f6e399]: 60 s
+        - generic [ref=f6e400]:
+          - term [ref=f6e401]: Hằng số phóng xạ λ = ln2/T
+          - definition [ref=f6e402]: 0.0116 s⁻¹
+        - generic [ref=f6e403]:
+          - term [ref=f6e404]: Tại t = 30 s còn lại
+          - definition [ref=f6e405]: 707.1 hạt
+        - generic [ref=f6e406]:
+          - term [ref=f6e407]: Sau 3T còn lại
+          - definition [ref=f6e408]: 125.0 hạt (12,5%)
+      - generic [ref=f6e409]:
+        - paragraph [ref=f6e410]:
+          - strong [ref=f6e411]: "Tiêu chí hoàn thành:"
+        - list [ref=f6e412]:
+          - listitem [ref=f6e413]: Thay đổi T hoặc N₀ để quan sát đường cong ✓
+          - listitem [ref=f6e414]: Trả lời câu hỏi kiểm tra
+      - generic [ref=f6e416]:
+        - group "Nếu chu kì bán rã T tăng gấp đôi (với cùng N₀), đường cong phân rã thay đổi thế nào?" [ref=f6e417]:
+          - generic [ref=f6e419]:
+            - generic [ref=f6e420] [cursor=pointer]:
+              - radio "Dốc hơn – phân rã nhanh hơn." [ref=f6e421]
+              - generic [ref=f6e422]: Dốc hơn – phân rã nhanh hơn.
+            - generic [ref=f6e423] [cursor=pointer]:
+              - radio "Thoải hơn – cùng N₀, số hạt kì vọng giảm chậm hơn." [ref=f6e424]
+              - generic [ref=f6e425]: Thoải hơn – cùng N₀, số hạt kì vọng giảm chậm hơn.
+            - generic [ref=f6e426] [cursor=pointer]:
+              - radio "Hình dạng không đổi, chỉ thay đổi màu." [ref=f6e427]
+              - generic [ref=f6e428]: Hình dạng không đổi, chỉ thay đổi màu.
+        - button "Kiểm tra nhận định" [disabled] [ref=f6e429] [cursor=pointer]
+      - paragraph [ref=f6e430]: Mô phỏng tuân theo N_t = N₀ × 2^(−t/T) = N₀ × e^(−λt), với λ = ln2/T. Độ phóng xạ H = λ × N cũng giảm theo cùng quy luật hàm mũ (Hình 23.5, SGK trang 107).
+  - paragraph [ref=f6e431]:
+    - link "Hỏi AI về bài B23 ↗" [ref=f6e432] [cursor=pointer]:
+      - /url: /hoc-lieu/ai?bai=B23
+    - generic [ref=f6e433]: Ghi câu hỏi và cách làm trước khi trao đổi.
+  - link "Đưa học liệu này vào kế hoạch riêng" [ref=f6e434] [cursor=pointer]:
+    - /url: /hoc-lieu/soan-ke-hoach?material=system-sim-half-life
+  - link "Liên kết mở học liệu này" [ref=f6e435] [cursor=pointer]:
+    - /url: /hoc-lieu?bai=B23&resource=system-sim-half-life#resource-system-sim-half-life

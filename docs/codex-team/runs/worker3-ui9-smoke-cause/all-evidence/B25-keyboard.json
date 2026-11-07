@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-05T11:56:57.796Z",
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+  "focus": "Điểm 2: Đọc đồ thị",
+  "pins": [
+    {
+      "label": "Điểm 1: Bảng số liệu",
+      "pressed": "false"
+    },
+    {
+      "label": "Điểm 2: Đọc đồ thị",
+      "pressed": "true"
+    },
+    {
+      "label": "Điểm 3: Phân biệt N và H",
+      "pressed": "false"
+    }
+  ],
+  "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị."
+}

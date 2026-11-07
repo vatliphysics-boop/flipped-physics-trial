@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import { validateCheckpointAnswer, validateVideoProgressInput } from "@/lib/video-validation";
+import { validatePathwayEvidence } from "@/lib/pathway-progress";
 
 export type JoinClassState = {
   error?: string;
@@ -43,6 +44,37 @@ export async function submitVideoCheckpointAction(input: { materialId: string; c
 
 
 export type EvidenceState = { error?: string; message?: string };
+
+export async function completePathwayStepAction(input: { stepId: string; evidence: unknown }): Promise<EvidenceState> {
+  if (!input?.stepId || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(input.stepId)) {
+    return { error: "Mã bước học không hợp lệ." };
+  }
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Em cần đăng nhập để nộp kết quả." };
+  const { data: profile } = await supabase.from("profiles").select("role").eq("id", user.id).maybeSingle();
+  if (profile?.role !== "student") return { error: "Chỉ học sinh mới có thể nộp kết quả." };
+  const { data: step } = await supabase.from("lesson_pathway_steps").select("lesson_id, phase, is_required, config")
+    .eq("id", input.stepId).eq("is_published", true).maybeSingle();
+  if (!step) return { error: "Bước học không còn khả dụng trong lớp của em." };
+  // For required steps: validate that evidence has a non-empty response.
+  // For optional steps: allow empty evidence (the DB RPC also allows {} for non-required steps).
+  const evidence = validatePathwayEvidence(input.evidence);
+  if (step.is_required && !evidence) {
+    return { error: "Em cần ghi kết quả hợp lệ, tối đa 2.000 ký tự mỗi mục." };
+  }
+  if (step.is_required && step.config?.template_key && (!evidence?.prediction || !evidence.nextStep)) {
+    return { error: "Em cần điền cả mục đầu tiên và việc tự học tiếp theo của bước này." };
+  }
+  // Pass validated evidence for required steps, or {} for optional steps without a response.
+  const rpcEvidence = evidence ?? {};
+  // RPC checks membership, publication and the order of phases/required steps.
+  const { data, error } = await supabase.rpc("complete_pathway_step", { p_step_id: input.stepId, p_evidence: rpcEvidence });
+  if (error || data?.success !== true) return { error: data?.error ?? "Chưa lưu được kết quả. Em hãy thử lại hoặc báo giáo viên." };
+  revalidatePath(`/student/lessons/${step.lesson_id}/${step.phase.replaceAll("_", "-")}`);
+  revalidatePath(`/student/lessons/${step.lesson_id}`, "layout");
+  return { message: "Đã lưu kết quả bước học." };
+}
 
 export async function refreshSignedVideoUrlAction(materialId: string) {
   const supabase = await createClient();
@@ -111,7 +143,7 @@ export async function saveLessonReflectionAction(input: { lessonId: string; lear
   if (!membership) return { error: "Em không thuộc lớp học của bài học này." };
   const { error } = await supabase.from("lesson_reflections").upsert({ lesson_id: lesson.id, student_id: user.id, learned, difficult, next_step: nextStep, confidence: input.confidence, homework_response: input.homeworkResponse?.trim().slice(0, 4000) || "", updated_at: new Date().toISOString() });
   if (error) return { error: "Không thể lưu nhật kí học tập. Vui lòng thử lại." };
-  revalidatePath("/student"); revalidatePath("/student/journal"); revalidatePath(`/student/lessons/${input.lessonId}`);
+  revalidatePath("/student"); revalidatePath("/student/journal"); revalidatePath(`/student/lessons/${input.lessonId}`, "layout");
   return { message: "Đã lưu nhật kí học tập." };
 }
 
@@ -250,7 +282,7 @@ export async function declareSimulationCompletedAction(input: { lessonId: string
     };
   }
 
-  revalidatePath(`/student/lessons/${input.lessonId}`);
+  revalidatePath(`/student/lessons/${input.lessonId}`, "layout");
   return { success: true, message: "Đã lưu tiến độ mô phỏng." };
 }
 
@@ -282,7 +314,7 @@ export async function submitPhaseFinalQuestionsAction(input: {
     return { success: false, error: result?.error || "Không thành công." };
   }
 
-  revalidatePath(`/student/lessons/${input.lessonId}`);
+  revalidatePath(`/student/lessons/${input.lessonId}`, "layout");
   return { success: true, message: result.message || "Hoàn thành pha học tập!" };
 }
 
@@ -312,7 +344,7 @@ export async function submitPhaseAssessmentAction(input: {
     return { success: false, error: result?.error || "Không thành công." };
   }
 
-  revalidatePath(`/student/lessons/${input.lessonId}`);
+  revalidatePath(`/student/lessons/${input.lessonId}`, "layout");
   revalidatePath(`/student`);
   return { success: true, message: result.message || "Chúc mừng em đã hoàn thành bài học!" };
 }

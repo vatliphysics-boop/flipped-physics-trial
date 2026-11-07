@@ -1,0 +1,20 @@
+PART word/document.xml
+P0000 Đề thử đọc hình
+P0001 Vật lí 12 · Phạm vi B23 · Mã đề 101
+P0002 Thời gian 15 phút · 2 câu · Tổng 2 điểm
+P0003 Họ và tên: ........................................................... Lớp: ................
+P0004 Dữ kiện và hình là mô hình phục vụ câu hỏi. Đề giữa kỳ/cuối kỳ chỉ bao phủ chủ đề hạt nhân đã chọn; giáo viên điều chỉnh theo kế hoạch của lớp.
+P0005 Câu 1. (1 điểm) Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0007 A. 200
+P0008 B. 400
+P0009 C. 100
+P0010 D. 600
+P0011 Câu 2. (1 điểm) Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0013 A. 50%
+P0014 B. 75%
+P0015 C. 25%
+P0016 D. 100%
+PART word/footer1.xml
+P0000 Trang 
+PART word/footnotes.xml
+PART word/endnotes.xml

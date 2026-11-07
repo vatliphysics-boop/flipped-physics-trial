@@ -1,75 +1,119 @@
 "use client";
-
 import { useState, useTransition } from "react";
 import { saveActivityProgressAction } from "@/app/student/actions";
-
+import { normalizeActivityKey } from "@/lib/curriculum";
+import { safeLearningUrl } from "@/lib/pathway-progress";
+import { LearningResourcePreview } from "./LearningResourcePreview";
+import { NuclearLearningNotebook } from "./NuclearLearningNotebook";
+import { legacyNuclearMath } from "@/lib/legacy-nuclear-math";
+import { RichPhysicsText } from "./RichPhysicsText";
 export type StudentColabMaterial = {
   id: string;
   title: string;
   content_url: string;
   description: string | null;
+  instructions?: string | null;
   is_complete: boolean;
 };
-
 export function StudentColabViewer({
   material,
 }: {
   material: StudentColabMaterial;
 }) {
-  const [isComplete, setIsComplete] = useState(material.is_complete);
-  const [isPending, startTransition] = useTransition();
-
-  function markComplete() {
-    startTransition(async () => {
-      const res = await saveActivityProgressAction({
-        materialId: material.id,
-        response: { completed_manually: true },
-        isComplete: true,
-      });
-      if (res.message) {
-        setIsComplete(true);
-      }
-    });
-  }
-
+  const [isComplete, setIsComplete] = useState(material.is_complete),
+    [pending, startTransition] = useTransition(),
+    [response, setResponse] = useState(""),
+    [done, setDone] = useState(false),
+    [error, setError] = useState("");
+  const activity = normalizeActivityKey(material.content_url),
+    url = safeLearningUrl(material.content_url);
+  const worksheet = material.content_url.match(/^worksheet:b(2[1-5])/i);
+  const available = Boolean(
+    activity || url || worksheet || material.instructions,
+  );
   return (
-    <article style={{ marginBottom: "48px" }}>
-      <header style={{ marginBottom: "24px" }}>
-        <h2 style={{ fontSize: "24px", color: "var(--text-primary)", marginBottom: "8px" }}>{material.title}</h2>
-        {material.description && (
-          <p style={{ color: "var(--text-secondary)", fontSize: "15px", margin: "0 0 8px", maxWidth: "800px" }}>
-            {material.description}
-          </p>
-        )}
-      </header>
-
-      <div style={{ borderRadius: "var(--radius-lg)", border: "1px solid var(--border-light)", backgroundColor: "var(--bg-surface-elevated)", padding: "24px" }}>
-        <p style={{ marginBottom: "16px" }}>Em hãy mở liên kết Colab dưới đây để thực hành. Khi hoàn thành, hãy quay lại đây để xác nhận.</p>
-        <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
-          <a
-            href={material.content_url}
-            target="_blank"
-            rel="noopener noreferrer"
+    <article className="student-paper">
+      <h2>{material.title}</h2>
+      {material.description && <p>{material.description}</p>}
+      {material.instructions && (
+        <details open>
+          <summary>Hướng dẫn và nội dung nhiệm vụ</summary>
+          <div style={{ marginTop: "8px" }}>
+            <RichPhysicsText content={legacyNuclearMath(material.instructions)} />
+          </div>
+        </details>
+      )}
+      {(activity || url) && (
+        <LearningResourcePreview
+          material={{
+            title: material.title,
+            content_url: activity ? `activity:${activity}` : url!,
+            material_type: activity ? "simulation" : "colab",
+          }}
+          onProgress={setDone}
+        />
+      )}
+      {worksheet && <NuclearLearningNotebook code={`B${worksheet[1]}`} />}{" "}
+      {!available && (
+        <p role="alert">
+          Học liệu chưa có nội dung hoặc đường dẫn. Hãy báo giáo viên để bổ
+          sung.
+        </p>
+      )}
+      {!isComplete ? (
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            setError("");
+            startTransition(async () => {
+              try {
+                const result = await saveActivityProgressAction({
+                  materialId: material.id,
+                  response: { observation: response.trim() },
+                  isComplete: true,
+                });
+                if (result.error) setError(result.error);
+                else if (result.message) setIsComplete(true);
+              } catch {
+                setError(
+                  "Chưa lưu được. Nội dung của em vẫn ở đây để thử lại.",
+                );
+              }
+            });
+          }}
+        >
+          <label className="notebook-task">
+            Kết quả thực hành và điều em hiểu
+            <textarea
+              required
+              rows={4}
+              maxLength={2000}
+              value={response}
+              onChange={(e) => setResponse(e.target.value)}
+            />
+          </label>
+          <button
             className="btn primary"
+            disabled={
+              pending ||
+              !available ||
+              !response.trim() ||
+              Boolean(activity && !done)
+            }
           >
-            Mở Google Colab ↗
-          </a>
-
-          {!isComplete ? (
-            <button
-              className="btn"
-              disabled={isPending}
-              onClick={markComplete}
-            >
-              {isPending ? "Đang lưu..." : "Đánh dấu đã hoàn thành"}
-            </button>
-          ) : (
-            <span style={{ color: "var(--semantic-success)", fontWeight: 600, display: "flex", alignItems: "center", gap: "8px" }}>
-              ✓ Đã hoàn thành
-            </span>
+            {pending ? "Đang lưu…" : "Lưu kết quả thực hành"}
+          </button>
+          {activity && !done && (
+            <p>
+              Hoàn thành thao tác và kiểm tra nhận định trong thí nghiệm trước
+              khi lưu.
+            </p>
           )}
-        </div>
-      </div>
+          {error && <p role="alert">{error}</p>}
+        </form>
+      ) : (
+        <p role="status">✓ Đã lưu kết quả thực hành.</p>
+      )}
     </article>
   );
 }

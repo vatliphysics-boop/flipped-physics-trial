@@ -1,0 +1,21 @@
+320 B21 {"width":320,"scroll":320,"anchors":["#page=2","#page=2"],"math":5,"badMath":[],"clippedMath":[]}
+390 B21 {"width":390,"scroll":390,"anchors":["#page=2","#page=2"],"math":5,"badMath":[],"clippedMath":[]}
+768 B21 {"width":768,"scroll":768,"anchors":["#page=2","#page=2"],"math":5,"badMath":[],"clippedMath":[]}
+1366 B21 {"width":1366,"scroll":1366,"anchors":["#page=2","#page=2"],"math":7,"badMath":[],"clippedMath":[]}
+320 B22 {"width":320,"scroll":320,"anchors":["#page=7","#page=7"],"math":13,"badMath":[],"clippedMath":[]}
+390 B22 {"width":390,"scroll":390,"anchors":["#page=7","#page=7"],"math":13,"badMath":[],"clippedMath":[]}
+768 B22 {"width":768,"scroll":768,"anchors":["#page=7","#page=7"],"math":14,"badMath":[],"clippedMath":[]}
+1366 B22 {"width":1366,"scroll":1366,"anchors":["#page=7","#page=7"],"math":14,"badMath":[],"clippedMath":[]}
+320 B23 {"width":320,"scroll":320,"anchors":["#page=15","#page=15"],"math":5,"badMath":[],"clippedMath":[]}
+390 B23 {"width":390,"scroll":390,"anchors":["#page=15","#page=15"],"math":8,"badMath":[],"clippedMath":[]}
+768 B23 {"width":768,"scroll":768,"anchors":["#page=15","#page=15"],"math":8,"badMath":[],"clippedMath":[]}
+1366 B23 {"width":1366,"scroll":1366,"anchors":["#page=15","#page=15"],"math":8,"badMath":[],"clippedMath":[]}
+320 B24 {"width":320,"scroll":320,"anchors":["#page=25","#page=25"],"math":4,"badMath":[],"clippedMath":[]}
+390 B24 {"width":390,"scroll":390,"anchors":["#page=25","#page=25"],"math":4,"badMath":[],"clippedMath":[]}
+768 B24 {"width":768,"scroll":768,"anchors":["#page=25","#page=25"],"math":4,"badMath":[],"clippedMath":[]}
+1366 B24 {"width":1366,"scroll":1366,"anchors":["#page=25","#page=25"],"math":4,"badMath":[],"clippedMath":[]}
+320 B25 {"width":320,"scroll":320,"anchors":["#page=30","#page=30"],"math":8,"badMath":[],"clippedMath":[]}
+390 B25 {"width":390,"scroll":390,"anchors":["#page=30","#page=30"],"math":8,"badMath":[],"clippedMath":[]}
+768 B25 {"width":768,"scroll":768,"anchors":["#page=30","#page=30"],"math":8,"badMath":[],"clippedMath":[]}
+1366 B25 {"width":1366,"scroll":1366,"anchors":["#page=30","#page=30"],"math":8,"badMath":[],"clippedMath":[]}
+{"failures":[[390,"B22","locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Mảnh phân hạch tách ra/ })\u001b[22m\n"],[1366,"B22","locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /Mảnh phân hạch tách ra/ })\u001b[22m\n"],[320,"B23","locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Tia γ', exact: true })\u001b[22m\n"],[390,"B23","locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Tia γ', exact: true })\u001b[22m\n"],[768,"B23","locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Tia γ', exact: true })\u001b[22m\n"],[1366,"B23","locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Tia γ', exact: true })\u001b[22m\n"],[1366,"B25","locator.screenshot: Timeout 14970.78899999999ms exceeded.\nCall log:\n\u001b[2m  - taking element screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\u001b[2m  - attempting scroll into view action\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying scroll into view action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    15 × waiting for element to be stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying scroll into view action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"]],"errors":[]}

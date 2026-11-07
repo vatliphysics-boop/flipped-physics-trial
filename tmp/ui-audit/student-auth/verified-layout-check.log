@@ -1,0 +1,167 @@
+{
+  "y": 0,
+  "rects": [
+    {
+      "tag": "MAIN",
+      "text": "αVật lí Hạt nhân 12N=A−ZA=Z+NE=mc²Δm>0Không gian học tậpKhám",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 950,
+        "top": 0,
+        "right": 320,
+        "bottom": 950,
+        "left": 0
+      },
+      "display": "grid",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "ASIDE",
+      "text": "αVật lí Hạt nhân 12N=A−ZA=Z+NE=mc²Δm>0Không gian học tậpKhám",
+      "rect": {
+        "x": 13,
+        "y": 13,
+        "width": 294,
+        "height": 95.140625,
+        "top": 13,
+        "right": 307,
+        "bottom": 108.140625,
+        "left": 13
+      },
+      "display": "flex",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "A",
+      "text": "αVật lí Hạt nhân 12",
+      "rect": {
+        "x": 31,
+        "y": 31,
+        "width": 205,
+        "height": 28,
+        "top": 31,
+        "right": 236,
+        "bottom": 59,
+        "left": 31
+      },
+      "display": "flex",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "A",
+      "text": "Khám phá học liệu công khai →",
+      "rect": {
+        "x": 31,
+        "y": 69,
+        "width": 258,
+        "height": 20.140625,
+        "top": 69,
+        "right": 289,
+        "bottom": 89.140625,
+        "left": 31
+      },
+      "display": "block",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "SECTION",
+      "text": "✓Xác thực tài khoản thành côngĐịa chỉ email của bạn đã được ",
+      "rect": {
+        "x": 31,
+        "y": 132.140625,
+        "width": 258,
+        "height": 389.15625,
+        "top": 132.140625,
+        "right": 289,
+        "bottom": 521.296875,
+        "left": 31
+      },
+      "display": "block",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "text": "✓",
+      "rect": {
+        "x": 31,
+        "y": 132.140625,
+        "width": 44,
+        "height": 44,
+        "top": 132.140625,
+        "right": 75,
+        "bottom": 176.140625,
+        "left": 31
+      },
+      "display": "grid",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "H1",
+      "text": "Xác thực tài khoản thành công",
+      "rect": {
+        "x": 31,
+        "y": 196.140625,
+        "width": 258,
+        "height": 62.5,
+        "top": 196.140625,
+        "right": 289,
+        "bottom": 258.640625,
+        "left": 31
+      },
+      "display": "block",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "text": "Đăng nhập vào hệ thống →",
+      "rect": {
+        "x": 31,
+        "y": 477.296875,
+        "width": 258,
+        "height": 44,
+        "top": 477.296875,
+        "right": 289,
+        "bottom": 521.296875,
+        "left": 31
+      },
+      "display": "grid",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    },
+    {
+      "tag": "A",
+      "text": "Đăng nhập vào hệ thống →",
+      "rect": {
+        "x": 31,
+        "y": 477.296875,
+        "width": 258,
+        "height": 44,
+        "top": 477.296875,
+        "right": 289,
+        "bottom": 521.296875,
+        "left": 31
+      },
+      "display": "flex",
+      "opacity": "1",
+      "visibility": "visible",
+      "transform": "none"
+    }
+  ]
+}

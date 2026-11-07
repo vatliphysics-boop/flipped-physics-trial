@@ -1,0 +1,23 @@
+{
+  "route": "http://localhost:3001/login",
+  "size": [
+    390,
+    844
+  ],
+  "focus": {
+    "type": "radio",
+    "value": "teacher"
+  },
+  "roles": [
+    {
+      "value": "teacher",
+      "checked": true,
+      "focus": true
+    },
+    {
+      "value": "student",
+      "checked": false,
+      "focus": false
+    }
+  ]
+}

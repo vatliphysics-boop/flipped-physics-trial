@@ -1,0 +1,133 @@
+- generic [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - link "Đi đến nội dung chính" [ref=f9e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f9e4]:
+      - generic [ref=f9e5]:
+        - button "Mở menu" [active] [ref=f9e6] [cursor=pointer]:
+          - generic [ref=f9e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f9e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=f9e10] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f9e12]:
+      - generic [ref=f9e13]:
+        - generic [ref=f9e14]:
+          - generic [ref=f9e15]:
+            - paragraph [ref=f9e16]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=f9e17]
+            - paragraph [ref=f9e18]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=f9e19]:
+            - button "Chế độ trình chiếu" [ref=f9e20] [cursor=pointer]
+            - link "Toàn bộ kho học liệu" [ref=f9e21] [cursor=pointer]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=f9e22]:
+          - link "B21 Cấu trúc hạt nhân" [ref=f9e23] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=f9e24]: B21
+            - strong [ref=f9e25]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=f9e26] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=f9e27]: B22
+            - strong [ref=f9e28]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=f9e29] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=f9e30]: B23
+            - strong [ref=f9e31]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=f9e32] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=f9e33]: B24
+            - strong [ref=f9e34]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=f9e35] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=f9e36]: B25
+            - strong [ref=f9e37]: Thực hành bán rã
+        - generic [ref=f9e38]:
+          - generic [ref=f9e39]: B24
+          - generic [ref=f9e40]:
+            - heading "Công nghiệp hạt nhân" [level=2] [ref=f9e41]
+            - paragraph [ref=f9e42]: Mô tả chuyển hóa năng lượng và đánh giá ứng dụng hạt nhân bằng cơ chế, lợi ích, giới hạn.
+        - paragraph [ref=f9e43]:
+          - link "Hỏi AI về bài B24 ↗" [ref=f9e44] [cursor=pointer]:
+            - /url: /hoc-lieu/ai?bai=B24
+          - generic [ref=f9e45]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=f9e46]:
+          - button "01 Đọc hình Chạm để khám phá" [pressed] [ref=f9e47] [cursor=pointer]:
+            - generic [ref=f9e48]: "01"
+            - strong [ref=f9e49]: Đọc hình
+            - generic [ref=f9e50]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=f9e51] [cursor=pointer]:
+            - generic [ref=f9e52]: "02"
+            - strong [ref=f9e53]: Thao tác 3D
+            - generic [ref=f9e54]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=f9e55] [cursor=pointer]:
+            - generic [ref=f9e56]: "03"
+            - strong [ref=f9e57]: Xem video
+            - generic [ref=f9e58]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=f9e59] [cursor=pointer]:
+            - generic [ref=f9e60]: "04"
+            - strong [ref=f9e61]: Ghi & giải thích
+            - generic [ref=f9e62]: Chuẩn bị cho giờ học
+        - generic [ref=f9e63]:
+          - region "Infographic Công nghiệp hạt nhân" [ref=f9e64]:
+            - generic [ref=f9e65]:
+              - generic [ref=f9e66]: Chạm số trên hình hoặc chọn điểm bên dưới để đọc.
+              - button "Phóng to hình" [ref=f9e67] [cursor=pointer]
+            - region "Hình tổng quan" [ref=f9e68]:
+              - generic [ref=f9e69]:
+                - 'img "Công nghiệp hạt nhân. Phân hạch → nhiệt: Nhiệt sinh ra trong lò được vòng sơ cấp mang tới bộ trao đổi nhiệt. Trao đổi nhiệt: Vòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách. Cơ năng → điện: Hơi làm quay turbine; turbine kéo máy phát." [ref=f9e70]'
+                - 'button "Điểm 1: Phân hạch → nhiệt" [pressed] [ref=f9e71] [cursor=pointer]': "1"
+                - 'button "Điểm 2: Trao đổi nhiệt" [ref=f9e72] [cursor=pointer]': "2"
+                - 'button "Điểm 3: Cơ năng → điện" [ref=f9e73] [cursor=pointer]': "3"
+            - generic "Đọc từng điểm trên hình" [ref=f9e74]:
+              - button "1. Phân hạch → nhiệt" [pressed] [ref=f9e75] [cursor=pointer]
+              - button "2. Trao đổi nhiệt" [ref=f9e76] [cursor=pointer]
+              - button "3. Cơ năng → điện" [ref=f9e77] [cursor=pointer]
+            - generic [ref=f9e78]:
+              - generic [ref=f9e79]:
+                - text: Quan sát
+                - paragraph [ref=f9e80]: Nhiệt sinh ra trong lò được vòng sơ cấp mang tới bộ trao đổi nhiệt.
+              - generic [ref=f9e81]:
+                - text: Giải thích
+                - paragraph [ref=f9e82]: Thanh điều khiển hấp thụ neutron. Điện năng không được tạo ra trực tiếp trong nhiên liệu.
+            - group [ref=f9e83]:
+              - generic "Điểm dễ nhầm và giới hạn của hình" [ref=f9e84] [cursor=pointer]
+            - generic [ref=f9e85]:
+              - group "Chuỗi chuyển hóa năng lượng chính trong nhà máy điện hạt nhân là gì?" [ref=f9e86]:
+                - generic [ref=f9e88]:
+                  - generic [ref=f9e89] [cursor=pointer]:
+                    - radio "Hạt nhân → nhiệt → cơ → điện" [ref=f9e90]
+                    - generic [ref=f9e91]: Hạt nhân → nhiệt → cơ → điện
+                  - generic [ref=f9e92] [cursor=pointer]:
+                    - radio "Hạt nhân → điện trực tiếp" [ref=f9e93]
+                    - generic [ref=f9e94]: Hạt nhân → điện trực tiếp
+                  - generic [ref=f9e95] [cursor=pointer]:
+                    - radio "Điện → hạt nhân → nhiệt" [ref=f9e96]
+                    - generic [ref=f9e97]: Điện → hạt nhân → nhiệt
+              - status [ref=f9e98]: Chưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.
+              - button "Kiểm tra nhận định" [disabled] [ref=f9e99] [cursor=pointer]
+            - group "Tải và xem hình minh họa" [ref=f9e100]:
+              - generic [ref=f9e101]:
+                - link "Tải hình dùng trong bài giảng" [ref=f9e102] [cursor=pointer]:
+                  - /url: /illustrations/B24-diagram.png
+                - paragraph [ref=f9e103]: Ảnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.
+              - generic [ref=f9e104]:
+                - link "Tải hình để chỉnh sửa" [ref=f9e105] [cursor=pointer]:
+                  - /url: /illustrations/B24-diagram.svg
+                - paragraph [ref=f9e106]: Hình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.
+              - generic [ref=f9e107]:
+                - link "Xem hình lớn ↗" [ref=f9e108] [cursor=pointer]:
+                  - /url: /illustrations/B24-diagram.svg
+                - paragraph [ref=f9e109]: Mở hình trong tab mới để đọc rõ chữ và xem các chi tiết.
+          - generic [ref=f9e110]:
+            - generic [ref=f9e111]: Chạm để khám phá
+            - 'button "Tiếp: Thao tác 3D" [ref=f9e112] [cursor=pointer]'
+        - group [ref=f9e113]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=f9e114] [cursor=pointer]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=f9e115]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=f9e116]:
+          - generic "Nguồn học liệu" [ref=f9e117] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=f9e118]:
+      - button "Mở khung AI học tập" [ref=f9e119] [cursor=pointer]: AI
+  - alert [ref=f9e120]

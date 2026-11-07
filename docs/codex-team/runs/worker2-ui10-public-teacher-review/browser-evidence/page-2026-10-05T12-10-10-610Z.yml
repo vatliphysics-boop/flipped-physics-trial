@@ -1,0 +1,103 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - link "Đi đến nội dung chính" [ref=f14e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f14e4]:
+      - generic [ref=f14e5]:
+        - button "Mở menu" [ref=f14e6] [cursor=pointer]:
+          - generic [ref=f14e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f14e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f14e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f14e12]:
+      - generic [ref=f14e14]:
+        - paragraph [ref=f14e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f14e16]
+        - paragraph [ref=f14e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f14e18]:
+        - group "Công việc của giáo viên" [ref=f14e19]:
+          - button "Ngân hàng đề" [ref=f14e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f14e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [active] [pressed] [ref=f14e22] [cursor=pointer]
+        - generic [ref=f14e1059]:
+          - generic [ref=f14e1060]:
+            - heading "Chuẩn bị kế hoạch bài dạy" [level=2] [ref=f14e1061]
+            - paragraph [ref=f14e1062]: Chọn bài và thời gian, xem việc của giáo viên và học sinh ở từng hoạt động rồi xuất kế hoạch Word.
+            - text: "Mẫu ban đầu: Bài 23, 45 phút trên lớp. Tự học trước và sau giờ được tính riêng."
+          - navigation "Các bước biên soạn" [ref=f14e1063]:
+            - button "1 Chọn bài và điều kiện lớp" [ref=f14e1064] [cursor=pointer]:
+              - generic [ref=f14e1065]: "1"
+              - strong [ref=f14e1066]: Chọn bài và điều kiện lớp
+            - button "2 Chỉnh hoạt động" [ref=f14e1067] [cursor=pointer]:
+              - generic [ref=f14e1068]: "2"
+              - strong [ref=f14e1069]: Chỉnh hoạt động
+            - button "3 Kiểm tra và xuất kế hoạch" [ref=f14e1070] [cursor=pointer]:
+              - generic [ref=f14e1071]: "3"
+              - strong [ref=f14e1072]: Kiểm tra và xuất kế hoạch
+          - generic [ref=f14e1073]:
+            - heading "1. Chọn bài và điều kiện tổ chức" [level=3] [ref=f14e1074]
+            - generic [ref=f14e1075]:
+              - generic [ref=f14e1076]:
+                - text: Bài học
+                - combobox "Bài học" [ref=f14e1077]:
+                  - option "B21 · Cấu trúc hạt nhân"
+                  - option "B22 · Phản ứng hạt nhân và năng lượng liên kết"
+                  - option "B23 · Phóng xạ" [selected]
+                  - option "B24 · Công nghiệp hạt nhân"
+                  - option "B25 · Bài tập về vật lí hạt nhân"
+              - generic [ref=f14e1078]:
+                - text: Lớp sử dụng
+                - textbox "Lớp sử dụng" [ref=f14e1079]: Lớp 12
+              - generic [ref=f14e1080]:
+                - text: Thời gian trên lớp
+                - combobox "Thời gian trên lớp" [ref=f14e1081]:
+                  - option "45 phút" [selected]
+                  - option "90 phút"
+              - generic [ref=f14e1082]:
+                - text: Thiết bị của lớp
+                - combobox "Thiết bị của lớp" [ref=f14e1083]:
+                  - option "Một máy chiếu"
+                  - option "Nhóm dùng chung thiết bị" [selected]
+                  - option "Thiết bị cá nhân"
+            - generic [ref=f14e1084]:
+              - strong [ref=f14e1085]: "Hình thức: Học trước – luyện tập trên lớp"
+              - paragraph [ref=f14e1086]: Học kiến thức nền trước giờ học; dùng giờ học để giải bài, giải thích và nhận hỗ trợ.
+              - group [ref=f14e1087]:
+                - generic "Chọn mẫu theo hình thức khác" [ref=f14e1088]
+            - generic [ref=f14e1089]:
+              - text: Mở bản soạn đã lưu (JSON)
+              - button "Mở bản soạn đã lưu (JSON)" [ref=f14e1090]
+            - generic [ref=f14e1091]:
+              - text: Tên kế hoạch
+              - textbox "Tên kế hoạch" [ref=f14e1092]: Phóng xạ · Chu kì bán rã
+            - group "Yêu cầu cần đạt sử dụng trong kế hoạch" [ref=f14e1093]:
+              - paragraph [ref=f14e1095]: Diễn giải từ chương trình Vật lí theo Thông tư 32/2018, trang 27–28. Chọn yêu cầu rồi rà soát hoạt động ở bước 2.
+              - generic [ref=f14e1096]:
+                - checkbox "Nêu bản chất tự phát và ngẫu nhiên của phân rã phóng xạ." [ref=f14e1097]
+                - text: Nêu bản chất tự phát và ngẫu nhiên của phân rã phóng xạ.
+              - generic [ref=f14e1098]:
+                - checkbox "Định nghĩa độ phóng xạ, hằng số phóng xạ và vận dụng liên hệ H = λN." [ref=f14e1099]
+                - text: Định nghĩa độ phóng xạ, hằng số phóng xạ và vận dụng liên hệ H = λN.
+              - generic [ref=f14e1100]:
+                - checkbox "Vận dụng công thức x = x₀e⁻λᵗ với độ phóng xạ, số hạt chưa phân rã hoặc tốc độ số hạt đếm được." [checked] [ref=f14e1101]
+                - text: Vận dụng công thức x = x₀e⁻λᵗ với độ phóng xạ, số hạt chưa phân rã hoặc tốc độ số hạt đếm được.
+              - generic [ref=f14e1102]:
+                - checkbox "Định nghĩa chu kì bán rã." [checked] [ref=f14e1103]
+                - text: Định nghĩa chu kì bán rã.
+              - generic [ref=f14e1104]:
+                - checkbox "Mô tả sơ lược tính chất phóng xạ alpha, beta và gamma." [ref=f14e1105]
+                - text: Mô tả sơ lược tính chất phóng xạ alpha, beta và gamma.
+              - generic [ref=f14e1106]:
+                - checkbox "Nhận biết dấu hiệu vị trí có phóng xạ thông qua biển báo." [ref=f14e1107]
+                - text: Nhận biết dấu hiệu vị trí có phóng xạ thông qua biển báo.
+              - generic [ref=f14e1108]:
+                - checkbox "Nêu và tuân thủ các nguyên tắc an toàn phóng xạ." [ref=f14e1109]
+                - text: Nêu và tuân thủ các nguyên tắc an toàn phóng xạ.
+            - generic [ref=f14e1110]:
+              - text: Điều kiện lớp cần lưu ý
+              - textbox "Điều kiện lớp cần lưu ý" [ref=f14e1111]:
+                - /placeholder: "Ví dụ: mỗi nhóm dùng chung một thiết bị"
+                - text: Nhóm dùng chung thiết bị
+            - 'button "Tiếp tục: chỉnh hoạt động" [ref=f14e1113] [cursor=pointer]'
+  - alert [ref=f14e49]

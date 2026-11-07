@@ -1,0 +1,81 @@
+{
+  "recordedAt": "2026-11-06",
+  "files": {
+    "asset-metadata.json": {
+      "bytes": 23532,
+      "sha256": "d4a4bda0f4b99014dd70ac4b9a2e4f004a38424dd3727f4793de55880617f2b0"
+    },
+    "b21-overview-transitions.jpg": {
+      "bytes": 556405,
+      "sha256": "7808dd0f6d2f47b47e4d8c0a5ff42e4c4bdd62e4cba740936ccf4324930173c7"
+    },
+    "b22-overview-transitions.jpg": {
+      "bytes": 464542,
+      "sha256": "ee4c863d12e6c57ad6a1759ed5fa50a200dab7671e78bd93bb73b93536f1ffdd"
+    },
+    "b23-overview-transitions.jpg": {
+      "bytes": 519311,
+      "sha256": "efa3a9bab511801a9df4c113e055bfd4e7685fd53126acf296c59fa4f89bc2da"
+    },
+    "b24-overview-transitions.jpg": {
+      "bytes": 490970,
+      "sha256": "4ac8f116296c4f9abd31e217cb54a82f83046c00048b4e43edc5fa48b7f48f33"
+    },
+    "b25-overview-transitions.jpg": {
+      "bytes": 499217,
+      "sha256": "d0326b83707a7e1d1476e9fe8fa4d5fe2524644a76473e59e20fc08418c2b8a4"
+    },
+    "browser-audio-release.log": {
+      "bytes": 1420,
+      "sha256": "3919f55d570e625ed5b32c5312a736994a2396861e331555030471b9ef5e529f"
+    },
+    "browser-report.json": {
+      "bytes": 6698,
+      "sha256": "e7daf31064725641739d7db75ce1393af2782e1307b1d8edc1558c4876f5656b"
+    },
+    "element-phoneme-audit.log": {
+      "bytes": 755,
+      "sha256": "4fb3c02a0c8f7d42af712b35246681e692d5156f75a2d6e126e97e313dab4499"
+    },
+    "export-verification.json": {
+      "bytes": 5154,
+      "sha256": "613392c7b7a128365703b9c689d699047fa2d5c3160c38afb6de317d701e8a7c"
+    },
+    "media-signal-report.json": {
+      "bytes": 15333,
+      "sha256": "007ce37b4d595a0cf654780b89ea56581a61f96e0a556c82b90253b6834923db"
+    },
+    "phoneme-full-audit.log": {
+      "bytes": 4345,
+      "sha256": "16242fb943d9b4f62d35e12248b88eae30db9268b16d95e709a8668a1406822a"
+    },
+    "public-b21-1366.png": {
+      "bytes": 408602,
+      "sha256": "005a4561bb098c6b09fe2fae9e12c3ea7b91163bbcaa4fe1e98c317eaec2f9e8"
+    },
+    "public-b21-390.png": {
+      "bytes": 149899,
+      "sha256": "0e0588996b6111dbf510d4f99015edcbdb246a8eff09a8960eb261ac25bd220c"
+    },
+    "scene-asr-final.json": {
+      "bytes": 16985,
+      "sha256": "be8016808a0aa0eaba00120a3b71245e07af2310d4ff99c6df93d2d94c539441"
+    },
+    "teacher-preview-b25-1366.png": {
+      "bytes": 263947,
+      "sha256": "a9c8cbeced5a3215c4f678a010409ac4462010387729760b57f6a2fafb2c825f"
+    },
+    "teacher-preview-b25-390.png": {
+      "bytes": 81809,
+      "sha256": "7c1a39c85f52ad9dfa5d75c633f32b874fe4966932a3336df61ee3bc82ad1030"
+    },
+    "term-asr-comparison.jsonl": {
+      "bytes": 504,
+      "sha256": "47a5857405106e5723e7b51127de4493415ffd379ddb5810af4030b3e176ccac"
+    },
+    "waveforms.png": {
+      "bytes": 149282,
+      "sha256": "6f7ed4b8c61aff63b0070802ff9257902e750f48b23de7d3f58ca6137c8eea44"
+    }
+  }
+}

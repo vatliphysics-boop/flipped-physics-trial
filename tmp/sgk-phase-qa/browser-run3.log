@@ -1,0 +1,16 @@
+b23-gv /login 
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.fill: Timeout 24000ms exceeded.
+Call log:
+[2m  - waiting for locator('[name="email"]')[22m
+
+    at session (/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/sgk-phase-browser.mjs:37:40)
+    at async file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/sgk-phase-browser.mjs:136:19 {
+  log: [ `  - waiting for locator('[name="email"]')` ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

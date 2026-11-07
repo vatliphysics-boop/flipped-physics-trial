@@ -1,0 +1,219 @@
+START B24
+B24 teacher lesson opened
+B24 before-class teacher pathway loaded
+B24 in-class teacher pathway loaded
+B24 after-class teacher pathway loaded
+HTTP 404 /student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/before-class
+B24 before-class student phase opened
+B24 before-class student step saved after reload
+PASS B24 before-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B24 in-class student phase opened
+b23-gv /teacher/lessons/3d58d5d5-119f-4454-b982-a092255e8786/ket-qua KHÔNG GIAN GIÁO VIÊN
+
+Bài nộp · Công nghiệp hạt nhân
+
+Xem nhiệm vụ đã giao cạnh bằng chứng học sinh đã nộp để nhận xét.
+
+Về lớp [QA] SGK B21–B25 1793890153017
+›
+Chương trình Vật lí 12
+›
+Chương IV
+›
+Tổng quan bài
+›
+Công nghiệp hạt nhân
+01
+Trước giờ học
+02
+Trong giờ học
+03
+Sau giờ học
+
+Xem nhiệm vụ và bài nộp của học sinh
+
+Học sinh
+Học Sinh 1 B23
+Giai đoạn
+Trước giờ học
+Trong giờ học
+Sau giờ học
+Xem bài nộp
+
+“Đã nộp” xác nhận đã lưu sản phẩm. Giáo viên cần đọc nội dung để nhận xét mức độ hiểu và việc cần sửa.
+
+Học Sinh 1 B23 · Trước giờ học
+Tổng quan tiến độ giai đoạn (Trước giờ học)
+
+Trạng thái hoàn thành pha: Đã hoàn thành pha
+
+Dự đoán đường đi của năng lượng trong nhà máy
+
+Đã giao · Bắt buộc
+
+Nhiệm vụ giáo viên giao
+
+Mục tiêu: Nhận diện vai trò của phân hạch, hơi và máy phát.
+
+Nhiệm vụ: Đặt mục tiêu, xem video B24 rồi phác thảo thứ tự các khâu từ phân hạch đến điện. Ghi một nhầm lẫn có thể có giữa thanh điều khiển và bộ sinh hơi.
+
+Sản phẩm cần nộp: Sơ đồ dự đoán, nguồn đã dùng và một câu hỏi cần hỏi nhóm.
+
+Tiêu chí hoàn thành: Phân biệt khâu sinh nhiệt với khâu tạo điện, ghi rõ điều còn chưa chắc.
+
+Bài nộp của học sinh
+
+Đã nộp
+
+Mục tiêu và dự đoán
+
+Mục tiêu và dự đoán; đối chiếu video và mục SGK.
+
+Ghi chép chuẩn bị và nguồn đã dùng
+
+QA-HS1-B24-before-class · Bằng chứng kiểm thử luồng, không dùng làm dữ liệu nghiên cứu.
+
+Điều chưa hiểu hoặc cách em sẽ tìm hỗ trợ
+
+Kiểm tra lại số đọc và hỏi nhóm nếu có khác biệt.
+b23-hs1 /student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/in-class Vật lí 12
+/
+Chương IV
+/
+Công nghiệp hạt nhân
+Công nghiệp hạt nhân
+
+Thực hiện thí nghiệm ảo, xử lí dữ liệu và thảo luận kết quả.
+
+Học với AI · B24
+Giải thích, gợi ý và ghi lại điều cần kiểm tra.
+
+01
+TRƯỚC GIỜ HỌC
+✓
+02
+TRONG GIỜ HỌC
+03
+SAU GIỜ HỌC
+🔒
+Tiến trình giáo viên giao
+
+Thực hiện các bước theo thứ tự, ghi kết quả và việc em cần tìm hiểu thêm. Bài nộp được lưu để giáo viên xem xét.
+
+BƯỚC 1 · BẮT BUỘC
+
+Theo dõi sơ đồ phát điện và giải thích từng khâu
+
+Mục tiêu: Dùng mô hình nhà máy để giải thích chuyển hóa năng lượng.
+
+Nhiệm vụ: Theo dõi sơ đồ phát điện. Ghi thiết bị và dạng năng lượng vào/ra. So sánh hai mức cắm thanh điều khiển theo hướng dẫn của mô hình và giải thích ảnh hưởng lên hệ số nhân neutron. Trao đổi rồi viết kết luận cá nhân.
+
+Sản phẩm cần nộp: Sơ đồ có chú giải nhiệt, cơ, điện và một câu về hấp thụ neutron.
+
+Tiêu chí hoàn thành: Sắp đúng chuỗi chuyển hóa và tách kiểm soát phân hạch khỏi phát điện.
+
+Phòng thí nghiệm 3D trực quan · Tương tác trực tiếp trên vật thể
+Sơ đồ 2 vòng tuần hoàn nhiệt trong Nhà máy Điện hạt nhân PWR (3D)
+Góc 3D
+Mặt trước
+Từ trên
+Mặt bên
+
+Nhấn trực tiếp vào bất kỳ vật thể 3D nào trong mô hình để xem giải thích vật lí và kích hoạt tương tác.
+
+Công suất nhiệt P_th
+3000 MW
+Hiệu suất nhiệt điện η
+33%
+Công suất phát điện P_e
+990 MW
+An toàn cách li
+2 vòng tuần hoàn tách biệt
+Hệ thức trong mô hình
+𝑃
+điện
+=
+𝜂
+⋅
+𝑃
+nhiệt
+=
+𝜂
+⋅
+𝑁
+ph
+a
+ˆ
+n hạch
+⋅
+200
+ MeV
+𝑡
+≈
+990
+ MW
+e
+P
+điện
+	​
+
+=η⋅P
+nhiệt
+	​
+
+=η⋅
+t
+N
+ph
+a
+ˆ
+n hạch
+	​
+
+⋅200 MeV
+	​
+
+≈990 MW
+e
+	​
+
+Tăng / Điều tiết lưu lượng tuần hoàn
+Tạm dừng
+Công suất phản ứng tại tâm lò: 3 GW nhiệt
+Hiệu suất chu trình hơi nước – turbine: 33 %
+Chế độ khảo sát 3D
+Vận hành bình thường (2 vòng cách li)
+Hiển thị chi tiết bình sinh hơi
+Tốc độ thời gian (1×)
+Chậm 0,5×
+Chuẩn 1×
+Nhanh 2×
+1Lò phản ứng (Tâm lò)
+2Bình sinh hơi
+3Turbine hơi nước
+4Máy phát điện
+
+Vòng sơ cấp (màu đỏ) dẫn nước áp suất cao nhận nhiệt từ tâm lò sang bình sinh hơi và được giữ kín hoàn toàn. Vòng thứ cấp (màu xanh) nhận nhiệt hóa hơi quay turbine phát điện.
+
+Mở Phiếu bài tập định lượng & Câu hỏi kiểm tra nhận định ▾
+Dự đoán hoặc kế hoạch quan sát *Số liệu, điều kiện, kết quả và giải thích *Đối chiếu với dự đoán và điểm cần kiểm chứng *
+
+Hoàn thành yêu cầu trong mô phỏng trước khi nộp kết quả.
+
+Nộp kết quả bước học
+
+Hoàn thành hoạt động chính và nộp bằng chứng ở bước giáo viên giao, sau đó xác nhận để mở câu hỏi chốt.
+
+Xác nhận hoàn thành hoạt động chính
+Hoạt động khám phá thêm (tự chọn)
+
+Em cần xác nhận hoạt động chính và hoàn thành các nhiệm vụ bắt buộc để mở câu hỏi chốt.
+b23-hs2 /student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/before-class HỌC LIỆU VẬT LÍ 12 · 404
+
+Chưa thể mở nội dung này
+
+Liên kết có thể không còn phù hợp, hoặc nội dung chỉ dành cho thành viên lớp học. Nếu đây là bài giáo viên giao, hãy đăng nhập đúng tài khoản và mở lại từ lớp học của bạn.
+
+Đăng nhập lớp học
+Mở kho học liệu
+Về trang chủ

@@ -1,0 +1,5 @@
+2026-10-05T12:05:35.799293Z  WARN codex_network_proxy::upstream: HTTP upstream connection failed (target=localhost:3001, elapsed_ms=3)
+2026-10-05T12:05:35.800049Z  WARN codex_network_proxy::http_proxy: upstream request failed: establish connection target
+ ↪ tcp connector: connect to server
+ ↪ failed to connect to any resolved IP address for localhost (port 3001)
+2026-10-05T12:05:47.744715Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=seatbelt reason=policy_denied path=unknown

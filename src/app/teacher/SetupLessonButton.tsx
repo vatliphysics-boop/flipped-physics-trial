@@ -1,7 +1,6 @@
 "use client";
 
-import { useActionState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useActionState } from "react";
 import { setupLessonAction, type SetupLessonState } from "./actions";
 
 /**
@@ -12,7 +11,6 @@ import { setupLessonAction, type SetupLessonState } from "./actions";
  *   classId     — current class UUID
  *   topicTitle  — canonical topic title (CHAPTER_TOPIC_TITLES[chapterCode])
  *   lessonTitle — fixed catalog lesson title (FixedCurriculumLesson.title)
- *   chapterCode — for redirect breadcrumb, e.g. "IV"
  */
 export function SetupLessonButton({
   classId,
@@ -23,18 +21,10 @@ export function SetupLessonButton({
   topicTitle: string;
   lessonTitle: string;
 }) {
-  const router = useRouter();
   const [state, formAction, pending] = useActionState<SetupLessonState, FormData>(
     setupLessonAction,
     {},
   );
-
-  // On success, navigate to the lesson overview.
-  useEffect(() => {
-    if (state.lessonId) {
-      router.push(`/teacher/lessons/${state.lessonId}`);
-    }
-  }, [state.lessonId, router]);
 
   return (
     <form action={formAction}>

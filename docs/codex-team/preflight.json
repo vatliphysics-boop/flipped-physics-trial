@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-05T14:05:38.176Z",
+  "cwd": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09",
+  "branch": "main",
+  "cli": "codex-cli 0.160.0",
+  "accounts": [
+    {
+      "worker": 2,
+      "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+      "ok": true,
+      "exit_code": 0,
+      "status": "Logged in using ChatGPT"
+    },
+    {
+      "worker": 3,
+      "codex_home": "/Users/vodoandangkhoi/.codex-plus-3",
+      "ok": true,
+      "exit_code": 0,
+      "status": "Logged in using ChatGPT"
+    }
+  ],
+  "distinct_accounts": true
+}

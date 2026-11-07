@@ -1,0 +1,26 @@
+{
+  "corners": [
+    [
+      0,
+      0
+    ],
+    [
+      936,
+      0
+    ],
+    [
+      936,
+      182
+    ],
+    [
+      0,
+      182
+    ]
+  ],
+  "method": "DOM scrollTo, not keyboard traversal to edges",
+  "fit": [
+    266,
+    155
+  ],
+  "label": "Hình tổng quan"
+}

@@ -1,0 +1,44 @@
+✔ decay data preserves the fixed time axis and half-life populations (7.939792ms)
+✔ CSV records current parameters and explicitly identifies model data (2.347667ms)
+✔ The actual particles used by the 3D scene conserve A and Z in the SGK Y/I channel (19.724917ms)
+✔ Timeline shows absorption before deformation, then products, and stops at its end (16.336ms)
+✔ Qualitative generations compare decreasing, steady and growing chains (54.719125ms)
+✔ carbon isotopes keep the same Z but have distinct neutron counts (68.473417ms)
+✔ illustrated fission, fusion and alpha channels conserve total A and charge (0.367875ms)
+✔ the normalized half-life illustration halves the expected parent population (0.154792ms)
+✔ the lab titles and legacy numbered lesson names resolve to the same five modules (68.566917ms)
+✔ each phase has distinct evidence requirements and the main simulation belongs to its own lesson (194.529209ms)
+✔ legacy assessment presentation renders key formulae without changing marked-up content (18.349375ms)
+✔ web and video can reuse a fixed, count-correct nucleus layout for every supported nuclide (556.35375ms)
+✔ inconsistent counts cannot produce an illustrative layout (1.574958ms)
+✔ evidence preserves the learning record and rejects empty or excessive submissions (1.675667ms)
+✔ learning links reject executable and protocol-relative URLs (13.383625ms)
+✔ unfinished earlier required steps block later work; optional steps do not (1.065792ms)
+✔ decay halves at each T and dating inverts the same physical law (9.359417ms)
+✔ atomic mass convention gives a plausible helium-4 binding energy (0.512458ms)
+✔ B25 uses one mass convention for all five nuclides, including oxygen and uranium (0.301ms)
+✔ simulated detector can produce zero events and reproducible nonnegative counts (0.16275ms)
+✔ plan import keeps educational fields and drops undeclared injected properties (3.701959ms)
+✔ plan import rejects unsafe URLs, duplicate activity IDs and unbounded time (0.76025ms)
+✔ moving an activity preserves phase boundaries and complete resources (0.422416ms)
+✔ HTML export preserves goals, products and rubric text while escaping markup (11.901708ms)
+✔ lesson plan reference fields survive saving and HTML export without confusing phases with activity types (1.9245ms)
+✔ published bank contains only checked book questions and compatible mathematics (574.041584ms)
+✔ duplicate source distractors stay out of exams and edited duplicates are rejected (17.779084ms)
+✔ matrix CSV with quoted decimal commas is parsed and validates positive counts (4.938875ms)
+✔ matrix matching can reassign broad slots to satisfy specific rows without duplicate questions (0.792ms)
+✔ Office equations reject unsupported math and build true fractions and paired scripts (4.221ms)
+✔ Word isotope equations use native prescripts instead of empty bases (524.565625ms)
+✔ 7991 level names match authored questions and specification retains requirements (25.865ms)
+✔ true false questions always have exactly four source statements and aligned answers (0.373875ms)
+✔ splitting and same-topic grouping preserve every original statement exactly once (11.464042ms)
+✔ source coverage includes every workbook question and isolates source problems (3.301708ms)
+✔ category numbering remains stable through filters and images preserve proportions (0.535125ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8890.922417

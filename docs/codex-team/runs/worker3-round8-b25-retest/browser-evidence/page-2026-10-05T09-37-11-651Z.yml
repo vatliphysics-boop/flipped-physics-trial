@@ -1,0 +1,298 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Đi đến nội dung chính" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Mở menu" [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=e10] [cursor=pointer]:
+        - /url: /login
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - paragraph [ref=e16]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=e17]
+            - paragraph [ref=e18]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=e19]:
+            - button "Chế độ trình chiếu" [ref=e20] [cursor=pointer]
+            - link "Toàn bộ kho học liệu" [ref=e21] [cursor=pointer]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=e22]:
+          - link "B21 Cấu trúc hạt nhân" [ref=e23] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=e24]: B21
+            - strong [ref=e25]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=e26] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=e27]: B22
+            - strong [ref=e28]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=e29] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=e30]: B23
+            - strong [ref=e31]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=e32] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=e33]: B24
+            - strong [ref=e34]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=e35] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=e36]: B25
+            - strong [ref=e37]: Thực hành bán rã
+        - generic [ref=e38]:
+          - generic [ref=e39]: B25
+          - generic [ref=e40]:
+            - heading "Thực hành đo chu kì bán rã" [level=2] [ref=e41]
+            - paragraph [ref=e42]: Đọc số liệu phóng xạ, vẽ đồ thị và xác định chu kì bán rã trong mô hình thực hành.
+        - paragraph [ref=e43]:
+          - link "Hỏi AI về bài B25 ↗" [ref=e44] [cursor=pointer]:
+            - /url: /hoc-lieu/ai?bai=B25
+          - generic [ref=e45]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=e46]:
+          - button "01 Đọc hình Chạm để khám phá" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: "01"
+            - strong [ref=e49]: Đọc hình
+            - generic [ref=e50]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: "02"
+            - strong [ref=e53]: Thao tác 3D
+            - generic [ref=e54]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [pressed] [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: "03"
+            - strong [ref=e57]: Xem video
+            - generic [ref=e58]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "04"
+            - strong [ref=e61]: Ghi & giải thích
+            - generic [ref=e62]: Chuẩn bị cho giờ học
+        - generic [ref=e63]:
+          - region "Half-life" [ref=e121]:
+            - iframe [active] [ref=e135]:
+              - generic [active] [ref=f1e1]:
+                - generic "Trình phát video YouTube" [ref=f1e3]
+                - generic [ref=f1e5]:
+                  - generic:
+                    - generic:
+                      - button "Ẩn các nút điều khiển trình phát" [ref=f1e14] [cursor=pointer]
+                      - generic [ref=f1e16]:
+                        - generic:
+                          - generic [ref=f1e19]:
+                            - generic [ref=f1e21]:
+                              - generic [ref=f1e22]:
+                                - link "Half-life | Physics | Khan Academy" [ref=f1e23] [cursor=pointer]:
+                                  - /url: https://www.youtube.com/watch?v=gDpyBifg6-s
+                                - link "Khan Academy" [ref=f1e24] [cursor=pointer]:
+                                  - /url: /channel/UC4a-Gbdw7vOaccHmFo40b9g
+                              - generic [ref=f1e26]:
+                                - button [ref=f1e27] [cursor=pointer]:
+                                  - img "thumbnail-image" [ref=f1e28]
+                                - generic [ref=f1e30]:
+                                  - generic: Khan Academy
+                                  - generic: 9,48 Tr người đăng ký
+                            - generic [ref=f1e33]:
+                              - button "Tắt tiếng" [ref=f1e35] [cursor=pointer]:
+                                - img "Tắt tiếng" [ref=f1e36]
+                              - button "Đã bật phụ đề" [pressed] [ref=f1e41] [cursor=pointer]
+                          - generic [ref=f1e45]:
+                            - generic:
+                              - button "Tua lại 10 giây"
+                              - generic:
+                                - button "Phát video"
+                              - button "Tua nhanh 10 giây"
+                        - button "Chuyển sang chế độ toàn màn hình" [ref=f1e52] [cursor=pointer]
+                        - slider "Thanh tua" [ref=f1e58] [cursor=pointer]
+                        - generic:
+                          - link "Xem trên YouTube" [ref=f1e73] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=gDpyBifg6-s
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=b9qxAFLpz9U&feature=endscreen
+                                        - generic: 13:45
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Nuclear fusion | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=b9qxAFLpz9U&feature=endscreen
+                                              - heading "Nuclear fusion | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=iGr6atucsBw&feature=endscreen
+                                        - generic: 11:48
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Beta decay | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=iGr6atucsBw&feature=endscreen
+                                              - heading "Beta decay | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=ja7p_tzTTEA&feature=endscreen
+                                        - generic: 12:13
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Intro to acids and bases | Chemistry | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=ja7p_tzTTEA&feature=endscreen
+                                              - heading "Intro to acids and bases | Chemistry | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=HCCm0lFwqNw&feature=endscreen
+                                        - generic: 14:21
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "The photoelectric and photovoltaic effects | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=HCCm0lFwqNw&feature=endscreen
+                                              - heading "The photoelectric and photovoltaic effects | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=N0lBsW3ZzN8&feature=endscreen
+                                        - generic: 14:43
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Atomic spectra | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=N0lBsW3ZzN8&feature=endscreen
+                                              - heading "Atomic spectra | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=P_SD5Rt6XMk&feature=endscreen
+                                        - generic: 8:02
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Intro to radioactive decay | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=P_SD5Rt6XMk&feature=endscreen
+                                              - heading "Intro to radioactive decay | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=QCZQCi_uKpM&feature=endscreen
+                                        - generic: 11:06
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Alpha decay | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=QCZQCi_uKpM&feature=endscreen
+                                              - heading "Alpha decay | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=-7Gl-yKF6Y4&feature=endscreen
+                                        - generic: 11:32
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Thermal energy, temperature, and heat | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=-7Gl-yKF6Y4&feature=endscreen
+                                              - heading "Thermal energy, temperature, and heat | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=Yn7ICU3Q4mE&feature=endscreen
+                                        - generic: 13:28
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "The greenhouse effect | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=Yn7ICU3Q4mE&feature=endscreen
+                                              - heading "The greenhouse effect | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=rjkQcfw5fkM&feature=endscreen
+                                        - generic: 8:58
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Newton's first law | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=rjkQcfw5fkM&feature=endscreen
+                                              - heading "Newton's first law | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=5jDFqpoTgDo&feature=endscreen
+                                        - generic: 10:27
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Nuclear fission | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=5jDFqpoTgDo&feature=endscreen
+                                              - heading "Nuclear fission | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link:
+                                        - /url: https://www.youtube.com/watch?v=ksLNmLQbNT4&feature=endscreen
+                                        - generic: 11:49
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link "Gamma decay | Physics | Khan Academy 2 năm trước":
+                                              - /url: https://www.youtube.com/watch?v=ksLNmLQbNT4&feature=endscreen
+                                              - heading "Gamma decay | Physics | Khan Academy" [level=3]
+                                              - generic: 2 năm trước
+            - generic [ref=e129]:
+              - strong [ref=e130]: Xem có nhiệm vụ
+              - paragraph [ref=e131]: Dừng sau mỗi chu kì bán rã. Từ 800 hạt, dự đoán số còn lại sau 1T, 2T, 3T; phân biệt số hạt N với tốc độ phân rã H.
+            - paragraph [ref=e132]: Video tiếng Anh; câu hỏi và hướng dẫn bằng tiếng Việt. Chọn phụ đề trong trình phát nếu tác giả cung cấp. Nếu video không phát tại đây, dùng liên kết nguồn.
+            - link "Xem trên YouTube ↗" [ref=e133] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=gDpyBifg6-s
+            - button "Đóng video" [ref=e136] [cursor=pointer]
+          - generic [ref=e110]:
+            - generic [ref=e111]: Theo câu hỏi dẫn dắt
+            - 'button "Tiếp: Ghi & giải thích" [ref=e134] [cursor=pointer]'
+        - group [ref=e113]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=e114] [cursor=pointer]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=e115]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=e116]:
+          - generic "Nguồn học liệu" [ref=e117] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=e118]:
+      - button "Mở khung AI học tập" [ref=e119] [cursor=pointer]: AI
+  - alert [ref=e120]

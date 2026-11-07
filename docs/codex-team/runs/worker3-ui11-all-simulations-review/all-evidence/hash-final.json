@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-05T12:35:02.187201+00:00",
+  "baseline": "a0497186e3e2d0cb8dc2f4a84e94b8d24d823eea59c965b65dc64b8b67361c9e",
+  "actual": "653b4bbca498e9c11d3cd19d024d67fe4f644a356f824363c43560d7bdb60b74",
+  "differences": [
+    "src/app/student/StudentShell.tsx",
+    "src/app/teacher/classes/new/page.tsx",
+    "src/components/PortalShell.tsx",
+    "src/data/unified-question-bank.json",
+    "src/data/workbook-nuclear-transcriptions.json",
+    "src/lib/unified-question-bank.ts"
+  ],
+  "physics_files_match": true
+}

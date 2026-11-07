@@ -1,0 +1,64 @@
+- generic [ref=f6e1]:
+  - button "Open Next.js Dev Tools" [ref=f6e131] [cursor=pointer]
+  - alert [ref=f6e135]: Không gian hỗ trợ giáo viên
+  - generic [ref=f6e1936]:
+    - link "Đi đến nội dung chính" [ref=f6e1937] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f6e1938]:
+      - generic [ref=f6e1939]:
+        - button "Mở menu" [ref=f6e2588] [cursor=pointer]:
+          - generic [ref=f6e2589]: ☰
+        - link "Học liệu Vật lí 12" [ref=f6e1942] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f6e1944] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f6e1959]:
+      - generic [ref=f6e1961]:
+        - paragraph [ref=f6e1962]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f6e1963]
+        - paragraph [ref=f6e1964]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f6e1965]:
+        - group "Công việc của giáo viên" [ref=f6e1966]:
+          - button "Ngân hàng đề" [ref=f6e1967] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [active] [pressed] [ref=f6e1968] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f6e1969] [cursor=pointer]
+        - generic [ref=f6e2591]:
+          - generic [ref=f6e2592]:
+            - heading "Tạo phiếu học tập ba pha" [level=2] [ref=f6e2593]
+            - paragraph [ref=f6e2594]: "Phiếu có ba phần: hướng dẫn sử dụng, nhiệm vụ học sinh thực hiện qua ba pha và rubrics đánh giá. Chọn bài, chỉnh phiếu rồi tải Word."
+            - text: Bắt đầu với mẫu Chu kì bán rã của Bài 23.
+          - navigation "Các bước biên soạn" [ref=f6e2595]:
+            - button "1 Chọn bài và mẫu" [ref=f6e2596] [cursor=pointer]:
+              - generic [ref=f6e2597]: "1"
+              - strong [ref=f6e2598]: Chọn bài và mẫu
+            - button "2 Chỉnh phiếu" [ref=f6e2599] [cursor=pointer]:
+              - generic [ref=f6e2600]: "2"
+              - strong [ref=f6e2601]: Chỉnh phiếu
+            - button "3 Xem trước và xuất Word" [ref=f6e2602] [cursor=pointer]:
+              - generic [ref=f6e2603]: "3"
+              - strong [ref=f6e2604]: Xem trước và xuất Word
+          - generic [ref=f6e2605]:
+            - heading "1. Chọn bài để mở phiếu mẫu" [level=3] [ref=f6e2606]
+            - generic [ref=f6e2607]:
+              - text: Bài học
+              - combobox "Bài học" [ref=f6e2608]:
+                - option "B21 · Cấu trúc hạt nhân"
+                - option "B22 · Phản ứng hạt nhân và năng lượng liên kết"
+                - option "B23 · Phóng xạ" [selected]
+                - option "B24 · Công nghiệp hạt nhân"
+                - option "B25 · Bài tập về vật lí hạt nhân"
+            - generic [ref=f6e2609]:
+              - strong [ref=f6e2610]: "Mẫu: Chu kì bán rã"
+              - paragraph [ref=f6e2611]: Ba câu từ ngân hàng, chia vào trước, trong và sau giờ học. Bạn có thể thêm hoặc đổi câu, tối đa chín câu trong một phiếu.
+              - button "Dùng lại phiếu mẫu của bài này" [ref=f6e2612] [cursor=pointer]
+            - generic [ref=f6e2613]:
+              - text: Tên phiếu
+              - textbox "Tên phiếu" [ref=f6e2614]: Chu kì bán rã
+            - group [ref=f6e2615]:
+              - generic "Yêu cầu cần đạt theo chương trình Vật lí" [ref=f6e2616] [cursor=pointer]
+            - generic [ref=f6e2617]:
+              - text: Mục tiêu ghi trong phiếu
+              - textbox "Mục tiêu ghi trong phiếu" [ref=f6e2618]: Định nghĩa chu kì bán rã. Vận dụng công thức x = x₀e⁻λᵗ với độ phóng xạ, số hạt chưa phân rã hoặc tốc độ số hạt đếm được.
+            - 'button "Tiếp tục: chỉnh phiếu" [ref=f6e2620] [cursor=pointer]'
+        - group [ref=f6e2586]:
+          - generic "Đọc tài liệu với AI cục bộ" [ref=f6e2587]

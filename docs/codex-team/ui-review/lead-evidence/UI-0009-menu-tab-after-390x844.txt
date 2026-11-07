@@ -1,0 +1,16 @@
+Browser tab: 4, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/hoc-lieu/ai?bai=B25".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/hoc-lieu/ai?bai=B25
+	2 link Description: Đi đến nội dung chính, Value: localhost:3001/hoc-lieu/ai?bai=B25#main-content
+	3 container Description: Menu di động, ID: portal-mobile-menu
+		4 text Học liệu Vật lí 12
+		5 button Đóng menu
+		6 container Điều hướng chính
+			7 button (collapsed) Học liệu, Secondary Actions: Expand
+			8 link Description: Học với AI, Value: localhost:3001/hoc-lieu/ai
+			9 link Description: Tổng quan, Value: localhost:3001/student
+			10 link Description: Lớp học của em, Value: localhost:3001/student/classes
+			11 button (collapsed) Chương trình Vật lí 12, Secondary Actions: Expand
+			12 link Description: Bài tập và kiểm tra, Value: localhost:3001/student/assignments
+			13 link Description: Nhật kí học tập, Value: localhost:3001/student/journal
+
+The focused UI element is 9 link Description: Tổng quan, URL: localhost:3001/student

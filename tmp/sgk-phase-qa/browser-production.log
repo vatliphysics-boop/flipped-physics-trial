@@ -1,0 +1,74 @@
+START B21
+b23-gv /teacher/lessons KHÔNG GIAN GIÁO VIÊN
+
+Bài học hạt nhân
+
+Chọn một lớp, sau đó mở một trong năm bài B21–B25 để quản lý từng giai đoạn.
+
+Chọn lớp
+[QA] SGK B21–B25 1793890153017
+12A1-KiemThu-B23
+
+Hãy chọn một lớp để xem đúng năm bài của lớp đó.
+b23-hs1 /student/classes KHÔNG GIAN HỌC SINH
+
+Lớp học của em
+
+Tham gia và quản lý các lớp học của em.
+
+Tham gia lớp mới
+
+Nhập mã do giáo viên cung cấp
+
+Tham gia
+[QA] SGK B21–B25 1793890153017
+
+Lớp kiểm thử kỹ thuật riêng. Không dùng làm dữ liệu thực nghiệm sư phạm.
+
+Giáo viên: —
+Mã lớp: VEJQ4L
+Tiến độ:
+0%
+Rời lớp
+12A1-KiemThu-B23
+
+Lớp kiểm thử tự động luồng B23
+
+Giáo viên: —
+Mã lớp: STJL8U
+Tiến độ:
+0%
+Rời lớp
+b23-hs2 /student KHÔNG GIAN HỌC SINH
+
+Tổng quan học tập
+
+Tiếp tục quá trình học và theo dõi các nhiệm vụ sắp tới.
+
+TIÊU ĐIỂM HỌC TẬP
+Hiện tượng phóng xạ
+
+Tiếp tục tìm hiểu nội dung bài học hiện tại của em.
+
+Tiếp tục học →
+Nhiệm vụ sắp tới
+Xem tất cả →
+Chưa có nhiệm vụ
+
+Hiện không có bài tập nào cần hoàn thành.
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.waitFor: Timeout 40000ms exceeded.
+Call log:
+[2m  - waiting for locator('article.lesson-card').filter({ has: getByText('B21', { exact: true }) }) to be visible[22m
+
+    at /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/sgk-phase-browser.mjs:165:24 {
+  log: [
+    "  - waiting for locator('article.lesson-card').filter({ has: getByText('B21', { exact: true }) }) to be visible"
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

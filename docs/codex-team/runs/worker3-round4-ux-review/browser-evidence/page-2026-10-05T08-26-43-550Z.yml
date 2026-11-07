@@ -1,0 +1,277 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - link "Đi đến nội dung chính" [ref=f3e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f3e4]:
+      - generic [ref=f3e5]:
+        - button "Ẩn menu" [expanded] [ref=f3e6] [cursor=pointer]:
+          - generic [ref=f3e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f3e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f3e10] [cursor=pointer]:
+        - /url: /teacher/plans
+    - generic [ref=f3e11]:
+      - complementary "Thanh điều hướng" [ref=f3e12]:
+        - navigation "Điều hướng chính" [ref=f3e13]:
+          - link "Tổng quan" [ref=f3e14] [cursor=pointer]:
+            - /url: /teacher
+          - link "Lớp học" [ref=f3e15] [cursor=pointer]:
+            - /url: /teacher/classes
+          - button "Chương trình Vật lí 12" [ref=f3e17] [cursor=pointer]:
+            - text: Chương trình Vật lí 12
+            - generic [ref=f3e18]: ▼
+          - generic [ref=f3e19]:
+            - button "Học liệu" [expanded] [ref=f3e20] [cursor=pointer]:
+              - text: Học liệu
+              - generic [ref=f3e21]: ▲
+            - generic "Danh mục học liệu" [ref=f3e22]:
+              - link "Học theo hình · 3D · Video" [ref=f3e23] [cursor=pointer]:
+                - /url: /hoc-lieu/truc-quan
+              - link "Hình thức lớp học đảo ngược" [ref=f3e24] [cursor=pointer]:
+                - /url: /hoc-lieu/lop-hoc-dao-nguoc
+              - link "Tất cả học liệu" [ref=f3e25] [cursor=pointer]:
+                - /url: /hoc-lieu
+              - link "Ảnh tĩnh & Sơ đồ" [ref=f3e26] [cursor=pointer]:
+                - /url: /hoc-lieu?type=image
+              - link "Ảnh động & Minh họa" [ref=f3e27] [cursor=pointer]:
+                - /url: /hoc-lieu?type=animation
+              - link "Video thực tế / Thí nghiệm" [ref=f3e28] [cursor=pointer]:
+                - /url: /hoc-lieu?type=real_video
+              - link "Video bài giảng" [ref=f3e29] [cursor=pointer]:
+                - /url: /hoc-lieu?type=lecture_video
+              - link "Thí nghiệm 3D tương tác" [ref=f3e30] [cursor=pointer]:
+                - /url: /hoc-lieu?type=simulation
+              - link "PDF / Phiếu học tập" [ref=f3e31] [cursor=pointer]:
+                - /url: /hoc-lieu?type=document
+              - link "Câu hỏi & Nhiệm vụ" [ref=f3e32] [cursor=pointer]:
+                - /url: /hoc-lieu?type=colab
+              - link "Đề giữa kỳ & Cuối kỳ" [ref=f3e33] [cursor=pointer]:
+                - /url: /hoc-lieu?type=assessment
+          - link "Kế hoạch dạy học của tôi" [ref=f3e34] [cursor=pointer]:
+            - /url: /teacher/plans
+          - link "Không gian giáo viên" [ref=f3e35] [cursor=pointer]:
+            - /url: /hoc-lieu/ai-giao-vien
+          - link "Học sinh và kết quả" [ref=f3e36] [cursor=pointer]:
+            - /url: /teacher/students
+      - main [ref=f3e37]:
+        - generic [ref=f3e39]:
+          - paragraph [ref=f3e40]: B21–B25 · Tổ chức dạy học
+          - heading "Hình thức lớp học đảo ngược" [level=1] [ref=f3e41]
+          - paragraph [ref=f3e42]: Cách tổ chức, nhiệm vụ của giáo viên và học sinh, học liệu và sản phẩm cần có.
+        - generic [ref=f3e43]:
+          - paragraph [ref=f3e44]: Chọn một cách tổ chức phù hợp mục tiêu bài học và điều kiện lớp. Cả bốn cách dưới đây có mẫu kế hoạch và học liệu; giáo viên chỉnh nhiệm vụ, thời lượng và tiêu chí trước khi giao.
+          - group "Các hình thức lớp học đảo ngược" [ref=f3e45]:
+            - button "Học trước – luyện tập trên lớp Học kiến thức nền trước giờ học; dùng giờ học để giải bài, giải thích và nhận hỗ trợ. Có mẫu và học liệu · Ví dụ B23" [pressed] [ref=f3e46] [cursor=pointer]:
+              - strong [ref=f3e47]: Học trước – luyện tập trên lớp
+              - generic [ref=f3e48]: Học kiến thức nền trước giờ học; dùng giờ học để giải bài, giải thích và nhận hỗ trợ.
+              - generic [ref=f3e49]: Có mẫu và học liệu · Ví dụ B23
+            - button "Minh họa – thực hành Xem hướng dẫn trước; thực hiện thao tác, ghi số liệu và giải thích kết quả trên lớp. Có mẫu và học liệu · Ví dụ B25" [ref=f3e50] [cursor=pointer]:
+              - strong [ref=f3e51]: Minh họa – thực hành
+              - generic [ref=f3e52]: Xem hướng dẫn trước; thực hiện thao tác, ghi số liệu và giải thích kết quả trên lớp.
+              - generic [ref=f3e53]: Có mẫu và học liệu · Ví dụ B25
+            - button "Thảo luận Chuẩn bị thông tin trước; thảo luận tình huống, đưa bằng chứng và phản biện trên lớp. Có mẫu và học liệu · Ví dụ B24" [ref=f3e54] [cursor=pointer]:
+              - strong [ref=f3e55]: Thảo luận
+              - generic [ref=f3e56]: Chuẩn bị thông tin trước; thảo luận tình huống, đưa bằng chứng và phản biện trên lớp.
+              - generic [ref=f3e57]: Có mẫu và học liệu · Ví dụ B24
+            - button "Làm việc nhóm Chuẩn bị cá nhân trước; phân công nhóm thực hiện nhiệm vụ và tạo sản phẩm chung trên lớp. Có mẫu và học liệu · Ví dụ B24" [ref=f3e58] [cursor=pointer]:
+              - strong [ref=f3e59]: Làm việc nhóm
+              - generic [ref=f3e60]: Chuẩn bị cá nhân trước; phân công nhóm thực hiện nhiệm vụ và tạo sản phẩm chung trên lớp.
+              - generic [ref=f3e61]: Có mẫu và học liệu · Ví dụ B24
+          - generic [ref=f3e62]:
+            - heading "Học trước – luyện tập trên lớp" [level=2] [ref=f3e63]
+            - generic [ref=f3e64]:
+              - text: Bài dùng cho kế hoạch
+              - combobox "Bài dùng cho kế hoạch" [ref=f3e65]:
+                - option "B21"
+                - option "B22"
+                - option "B23" [selected]
+                - option "B24"
+                - option "B25"
+            - generic [ref=f3e66]:
+              - link "Soạn kế hoạch B23 theo hình thức này" [ref=f3e67] [cursor=pointer]:
+                - /url: /hoc-lieu/soan-ke-hoach?template=B23&form=standard
+              - link "Mở học liệu B23" [ref=f3e68] [cursor=pointer]:
+                - /url: /hoc-lieu?bai=B23
+            - heading "Việc của giáo viên và học sinh" [level=3] [ref=f3e69]
+            - article [ref=f3e70]:
+              - heading "Trước giờ học" [level=3] [ref=f3e71]
+              - generic [ref=f3e72]:
+                - generic [ref=f3e73]:
+                  - heading "Giáo viên" [level=4] [ref=f3e74]
+                  - paragraph [ref=f3e75]: Chọn video, phiếu và câu hỏi ngắn; giao mục tiêu, thời lượng; xem câu trả lời để chọn nội dung cần hỗ trợ.
+                - generic [ref=f3e76]:
+                  - heading "Học sinh" [level=4] [ref=f3e77]
+                  - paragraph [ref=f3e78]: Đọc hoặc xem học liệu, trả lời câu hỏi chẩn đoán; ghi điều chưa hiểu trước giờ học.
+              - paragraph [ref=f3e79]:
+                - strong [ref=f3e80]: "Sản phẩm cần có:"
+                - text: Câu trả lời cá nhân và câu hỏi cần trao đổi.
+            - article [ref=f3e81]:
+              - heading "Trong giờ học" [level=3] [ref=f3e82]
+              - generic [ref=f3e83]:
+                - generic [ref=f3e84]:
+                  - heading "Giáo viên" [level=4] [ref=f3e85]
+                  - paragraph [ref=f3e86]: Tổ chức luyện tập từ lỗi đã phát hiện; hỏi cách giải, hỗ trợ học sinh và chốt kiến thức.
+                - generic [ref=f3e87]:
+                  - heading "Học sinh" [level=4] [ref=f3e88]
+                  - paragraph [ref=f3e89]: Giải bài, thử mô phỏng, trao đổi cách giải và sửa lỗi theo phản hồi.
+              - paragraph [ref=f3e90]:
+                - strong [ref=f3e91]: "Sản phẩm cần có:"
+                - text: Bài giải hoặc bảng quan sát kèm lời giải thích.
+            - article [ref=f3e92]:
+              - heading "Sau giờ học" [level=3] [ref=f3e93]
+              - generic [ref=f3e94]:
+                - generic [ref=f3e95]:
+                  - heading "Giáo viên" [level=4] [ref=f3e96]
+                  - paragraph [ref=f3e97]: Giao câu hỏi vận dụng; nhận xét sản phẩm và đề nghị việc cần học tiếp.
+                - generic [ref=f3e98]:
+                  - heading "Học sinh" [level=4] [ref=f3e99]
+                  - paragraph [ref=f3e100]: Tự kiểm tra, sửa nhận định sai và ghi cách điều chỉnh việc học.
+              - paragraph [ref=f3e101]:
+                - strong [ref=f3e102]: "Sản phẩm cần có:"
+                - text: Bài sửa và nhật kí tự học.
+            - paragraph [ref=f3e103]: Kho mở và bản xem trước dùng để chuẩn bị, tự luyện. Bài giao chính thức, bài nộp và kết quả của lớp nằm trong tài khoản giáo viên/học sinh. Luồng này cần được kiểm tra với dữ liệu và tài khoản thật trước khi dùng cho nghiên cứu.
+          - group [ref=f3e104]:
+            - generic "Hai hình thức tham khảo chưa triển khai đầy đủ" [ref=f3e105] [cursor=pointer]
+          - generic [ref=f3e106]:
+            - heading "Các loại học liệu và hoạt động học tập" [level=2] [ref=f3e107]
+            - paragraph [ref=f3e108]: Hình thức tổ chức lớp học và loại học liệu là hai phần khác nhau. Video, mô phỏng, phiếu, thảo luận và trò chơi có thể phối hợp trong cùng một hình thức.
+            - generic [ref=f3e109]:
+              - article [ref=f3e110]:
+                - generic [ref=f3e111]: Trước giờ học
+                - heading "1. Video hoạt hình khoa học ngắn" [level=3] [ref=f3e112]
+                - generic [ref=f3e113]:
+                  - generic [ref=f3e114]:
+                    - heading "Giáo viên" [level=4] [ref=f3e115]
+                    - paragraph [ref=f3e116]: Chọn đoạn video và câu hỏi dẫn dắt.
+                  - generic [ref=f3e117]:
+                    - heading "Học sinh" [level=4] [ref=f3e118]
+                    - paragraph [ref=f3e119]: Xem, dừng và ghi chuỗi chuyển hóa năng lượng.
+                - paragraph [ref=f3e120]:
+                  - strong [ref=f3e121]: "Hiện có:"
+                  - text: Có video nguồn; hướng dẫn tiếng Việt, video tiếng Anh.
+                - link "Mở học liệu này" [ref=f3e122] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B24&resource=system-youtube-B24#resource-system-youtube-B24
+              - article [ref=f3e123]:
+                - generic [ref=f3e124]: Trước và trong giờ học
+                - heading "2. Mô phỏng tương tác" [level=3] [ref=f3e125]
+                - generic [ref=f3e126]:
+                  - generic [ref=f3e127]:
+                    - heading "Giáo viên" [level=4] [ref=f3e128]
+                    - paragraph [ref=f3e129]: Giao dự đoán, tham số và tiêu chí quan sát.
+                  - generic [ref=f3e130]:
+                    - heading "Học sinh" [level=4] [ref=f3e131]
+                    - paragraph [ref=f3e132]: Bắt đầu, thay tham số, xoay mô hình, ghi và giải thích kết quả.
+                - paragraph [ref=f3e133]:
+                  - strong [ref=f3e134]: "Hiện có:"
+                  - text: Có 17 hoạt động 3D; mỗi mô hình có giới hạn được ghi rõ.
+                - link "Mở học liệu này" [ref=f3e135] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B22&resource=system-sim-nuclear-fission#resource-system-sim-nuclear-fission
+              - article [ref=f3e136]:
+                - generic [ref=f3e137]: Trước giờ học
+                - heading "3. Infographic và sơ đồ lịch sử" [level=3] [ref=f3e138]
+                - generic [ref=f3e139]:
+                  - generic [ref=f3e140]:
+                    - heading "Giáo viên" [level=4] [ref=f3e141]
+                    - paragraph [ref=f3e142]: Chọn sơ đồ và điểm cần giải thích.
+                  - generic [ref=f3e143]:
+                    - heading "Học sinh" [level=4] [ref=f3e144]
+                    - paragraph [ref=f3e145]: Chọn điểm trên hình, đọc giải thích và trả lời câu hỏi.
+                - paragraph [ref=f3e146]:
+                  - strong [ref=f3e147]: "Hiện có:"
+                  - text: Có 5 infographic tương tác; sơ đồ lịch sử riêng chưa hoàn thiện.
+                - link "Mở học liệu này" [ref=f3e148] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B21&resource=system-diagram-B21#resource-system-diagram-B21
+              - article [ref=f3e149]:
+                - generic [ref=f3e150]: Trước giờ học
+                - heading "4. Phiếu học tập và câu hỏi chẩn đoán" [level=3] [ref=f3e151]
+                - generic [ref=f3e152]:
+                  - generic [ref=f3e153]:
+                    - heading "Giáo viên" [level=4] [ref=f3e154]
+                    - paragraph [ref=f3e155]: Chọn mục tiêu, câu hỏi và xem điều học sinh còn vướng.
+                  - generic [ref=f3e156]:
+                    - heading "Học sinh" [level=4] [ref=f3e157]
+                    - paragraph [ref=f3e158]: Trả lời, đọc phản hồi và ghi cách sửa.
+                - paragraph [ref=f3e159]:
+                  - strong [ref=f3e160]: "Hiện có:"
+                  - text: Có phiếu và phản hồi tự luyện; kho công khai chưa tự gửi kết quả cho giáo viên.
+                - link "Mở học liệu này" [ref=f3e161] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B23&resource=system-quiz-B23#resource-system-quiz-B23
+              - article [ref=f3e162]:
+                - generic [ref=f3e163]: Trước giờ học
+                - heading "5. Video từng bài giảng" [level=3] [ref=f3e164]
+                - generic [ref=f3e165]:
+                  - generic [ref=f3e166]:
+                    - heading "Giáo viên" [level=4] [ref=f3e167]
+                    - paragraph [ref=f3e168]: Chọn video phù hợp bài, giao thời lượng và câu hỏi.
+                  - generic [ref=f3e169]:
+                    - heading "Học sinh" [level=4] [ref=f3e170]
+                    - paragraph [ref=f3e171]: Xem video theo nhiệm vụ, ghi ý chính và câu hỏi.
+                - paragraph [ref=f3e172]:
+                  - strong [ref=f3e173]: "Hiện có:"
+                  - text: Có nguồn theo B21–B25; chưa phải bộ video tự sản xuất đầy đủ.
+                - link "Mở học liệu này" [ref=f3e174] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B23&resource=system-video-B23#resource-system-video-B23
+              - article [ref=f3e175]:
+                - generic [ref=f3e176]: Trong giờ học
+                - heading "6. Xử lí dữ liệu thí nghiệm" [level=3] [ref=f3e177]
+                - generic [ref=f3e178]:
+                  - generic [ref=f3e179]:
+                    - heading "Giáo viên" [level=4] [ref=f3e180]
+                    - paragraph [ref=f3e181]: Giao bảng số liệu, yêu cầu đồ thị, đơn vị và nhận xét.
+                  - generic [ref=f3e182]:
+                    - heading "Học sinh" [level=4] [ref=f3e183]
+                    - paragraph [ref=f3e184]: Thu số liệu mô phỏng, vẽ đồ thị, xác định chu kì bán rã.
+                - paragraph [ref=f3e185]:
+                  - strong [ref=f3e186]: "Hiện có:"
+                  - text: Có dữ liệu mô phỏng, CSV/đồ thị ở hoạt động và notebook; không gọi là số liệu đo thiết bị thật.
+                - link "Mở học liệu này" [ref=f3e187] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B25&resource=system-notes-B25#resource-system-notes-B25
+              - article [ref=f3e188]:
+                - generic [ref=f3e189]: Trong giờ học
+                - heading "7. Bản đồ tư duy nhóm" [level=3] [ref=f3e190]
+                - generic [ref=f3e191]:
+                  - generic [ref=f3e192]:
+                    - heading "Giáo viên" [level=4] [ref=f3e193]
+                    - paragraph [ref=f3e194]: Giao chủ đề, phân công và tiêu chí cơ chế–ứng dụng–giới hạn.
+                  - generic [ref=f3e195]:
+                    - heading "Học sinh" [level=4] [ref=f3e196]
+                    - paragraph [ref=f3e197]: Cùng thiết bị ghi các nhánh và kiểm tra nguồn của nhóm.
+                - paragraph [ref=f3e198]:
+                  - strong [ref=f3e199]: "Hiện có:"
+                  - text: Có bảng ghi nhóm trên một thiết bị; chưa có đồng biên tập nhiều thiết bị hoặc sơ đồ kéo thả.
+                - link "Mở học liệu này" [ref=f3e200] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B24&resource=system-mindmap#resource-system-mindmap
+              - article [ref=f3e201]:
+                - generic [ref=f3e202]: Trong giờ học
+                - heading "8. Đóng vai và tình huống" [level=3] [ref=f3e203]
+                - generic [ref=f3e204]:
+                  - generic [ref=f3e205]:
+                    - heading "Giáo viên" [level=4] [ref=f3e206]
+                    - paragraph [ref=f3e207]: Phân vai, điều phối phản biện và kiểm tra bằng chứng.
+                  - generic [ref=f3e208]:
+                    - heading "Học sinh" [level=4] [ref=f3e209]
+                    - paragraph [ref=f3e210]: Chọn vai, nêu lập luận, phản biện và ghi kết luận.
+                - paragraph [ref=f3e211]:
+                  - strong [ref=f3e212]: "Hiện có:"
+                  - text: Có bốn vai và bảng lập luận; giáo viên tổ chức trao đổi trực tiếp.
+                - link "Mở học liệu này" [ref=f3e213] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B24&resource=system-roleplay#resource-system-roleplay
+              - article [ref=f3e214]:
+                - generic [ref=f3e215]: Trong giờ học
+                - heading "9. Trò chơi ôn tập" [level=3] [ref=f3e216]
+                - generic [ref=f3e217]:
+                  - generic [ref=f3e218]:
+                    - heading "Giáo viên" [level=4] [ref=f3e219]
+                    - paragraph [ref=f3e220]: Chia hai đội, điều phối lượt và yêu cầu giải thích sau đáp án.
+                  - generic [ref=f3e221]:
+                    - heading "Học sinh" [level=4] [ref=f3e222]
+                    - paragraph [ref=f3e223]: Thảo luận, chốt đáp án, đọc phản hồi và ghi nội dung cần ôn.
+                - paragraph [ref=f3e224]:
+                  - strong [ref=f3e225]: "Hiện có:"
+                  - text: Có trò chơi hai đội dùng chung thiết bị; chưa có thi trực tuyến đồng thời.
+                - link "Mở học liệu này" [ref=f3e226] [cursor=pointer]:
+                  - /url: /hoc-lieu?bai=B25&resource=system-review-game#resource-system-review-game
+          - group [ref=f3e227]:
+            - generic "Căn cứ thiết kế" [ref=f3e228] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f3e234] [cursor=pointer]
+  - alert [ref=f3e238]

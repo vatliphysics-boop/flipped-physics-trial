@@ -1,0 +1,42 @@
+{
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+  "size": [
+    360,
+    800
+  ],
+  "version": "UI11 not frozen",
+  "states": [
+    {
+      "button": "1. Bảng số liệu",
+      "pressed": "true",
+      "text": "Chọn điểm có số và tiêu đề bên dưới hình để đọc quan sát và giải thích.\nPhóng to hình\n\nHình tổng quan hiển thị toàn bộ sơ đồ. Nếu chữ hoặc dữ liệu nhỏ, chọn Phóng to hình để đọc chi tiết và cuộn; hoặc mở Xem hình lớn bên dưới.\n\n1. Bảng số liệu\n2. Đọc đồ thị\n3. Phân biệt N và H\nQUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.\n\nĐiểm dễ nhầm và giới hạn của hình\nBan đầu có 800 hạt. Số hạt kì vọng còn lại sau 3T là bao nhiêu?\n400\n200\n100\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTải hình dùng trong bài giảng\n\nẢnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.\n\nTải hình để chỉnh sửa\n\nHình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.\n\nXem hình lớn ↗\n\nMở hình trong tab mới để đọc rõ chữ và xem các chi tiết.",
+      "rect": [
+        123,
+        44
+      ]
+    },
+    {
+      "button": "2. Đọc đồ thị",
+      "pressed": "true",
+      "text": "Chọn điểm có số và tiêu đề bên dưới hình để đọc quan sát và giải thích.\nPhóng to hình\n\nHình tổng quan hiển thị toàn bộ sơ đồ. Nếu chữ hoặc dữ liệu nhỏ, chọn Phóng to hình để đọc chi tiết và cuộn; hoặc mở Xem hình lớn bên dưới.\n\n1. Bảng số liệu\n2. Đọc đồ thị\n3. Phân biệt N và H\nQUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.\n\nĐiểm dễ nhầm và giới hạn của hình\nBan đầu có 800 hạt. Số hạt kì vọng còn lại sau 3T là bao nhiêu?\n400\n200\n100\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTải hình dùng trong bài giảng\n\nẢnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.\n\nTải hình để chỉnh sửa\n\nHình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.\n\nXem hình lớn ↗\n\nMở hình trong tab mới để đọc rõ chữ và xem các chi tiết.",
+      "rect": [
+        123,
+        44
+      ]
+    },
+    {
+      "button": "3. Phân biệt N và H",
+      "pressed": "true",
+      "text": "Chọn điểm có số và tiêu đề bên dưới hình để đọc quan sát và giải thích.\nPhóng to hình\n\nHình tổng quan hiển thị toàn bộ sơ đồ. Nếu chữ hoặc dữ liệu nhỏ, chọn Phóng to hình để đọc chi tiết và cuộn; hoặc mở Xem hình lớn bên dưới.\n\n1. Bảng số liệu\n2. Đọc đồ thị\n3. Phân biệt N và H\nQUAN SÁT\n\nH = λN có cùng xu hướng giảm khi λ không đổi.\n\nGIẢI THÍCH\n\nN là số hạt chưa phân rã. H có đơn vị Bq = phân rã/s; số đếm trên thiết bị còn phụ thuộc hiệu suất và phông.\n\nĐiểm dễ nhầm và giới hạn của hình\nBan đầu có 800 hạt. Số hạt kì vọng còn lại sau 3T là bao nhiêu?\n400\n200\n100\n\nChưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.\n\nKiểm tra nhận định\nTải hình dùng trong bài giảng\n\nẢnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.\n\nTải hình để chỉnh sửa\n\nHình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.\n\nXem hình lớn ↗\n\nMở hình trong tab mới để đọc rõ chữ và xem các chi tiết.",
+      "rect": [
+        258,
+        44
+      ]
+    }
+  ],
+  "overlays": 0,
+  "img": [
+    266,
+    155
+  ]
+}

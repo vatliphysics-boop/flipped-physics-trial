@@ -1,0 +1,11 @@
+{
+  "id": "worker3-round4-ux-review",
+  "worker": 3,
+  "mode": "review",
+  "timeout_seconds": 1200,
+  "previous_runs": [
+    "worker3-round2"
+  ],
+  "browser_mcp": true,
+  "task": "Dùng browser MCP thực tế trên localhost:3001. Smoke W2 vòng4 navigate đã thành công sau đổi approvals_reviewer auto_review và TMP ngắn. Review UX desktop1280/mobile390 và bàn phím: trang chính, kho học liệu /hoc-lieu lọc B21–B25 và mở tài nguyên, /hoc-lieu/truc-quan?bai=B22 lab phân hạch 3D có start/pause/timeline/reset/góc nhìn/nhãn/đơn vị, B23 đồ thị, notebook, công cụ GV công khai (quan sát link thực tế từ UI), trạng thái tải/lỗi/trống. Ảnh phải thật. Không đăng nhập/ghi DB, không sửa code. Không coi lỗi tools/browser là lỗi web. Với mỗi lỗi cần tái hiện rõ tác động học tập và file UI đề xuất chính xác để trưởng nhóm giao sửa. Phạm vi khoa học thuộc trưởng nhóm; đề xuất riêng UI. Không ép đại tu thẩm mỹ ngoài căn cứ."
+}

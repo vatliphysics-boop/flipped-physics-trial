@@ -1,0 +1,19 @@
+{
+  "time_utc": "2026-10-05T10:08:48.069Z",
+  "action": "read-only env metadata and DNS; no credential values logged; no DB writes",
+  "url_matches_user_project": true,
+  "frontend_variable_used_by_code": "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+  "publishable_variable": {
+    "configured": true,
+    "kind": "publishable"
+  },
+  "anon_variable": {
+    "configured": false,
+    "kind": "missing"
+  },
+  "server_service_role_variable_present": false,
+  "remote_environment_confirmed_development": false,
+  "database_writes_performed": false,
+  "dns": "FAILED",
+  "dns_error_code": "ENOTFOUND"
+}

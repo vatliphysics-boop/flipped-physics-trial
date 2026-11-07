@@ -1,0 +1,19 @@
+.list { container-type: inline-size; display: grid; gap: 12px; }
+.row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 20px; padding: 20px; background: var(--bg-surface); border: 1px solid var(--border-light); border-radius: var(--radius-md); }
+.details { min-width: 0; overflow-wrap: anywhere; }
+.details h3 { font-size: 16px; line-height: 1.5; font-weight: 650; color: var(--text-primary); margin: 0 0 5px; }
+.details p { font-size: 13px; line-height: 1.7; color: var(--text-secondary); margin: 0; }
+.joinCode { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 10px 12px; background: var(--bg-surface-elevated); border: 1px solid var(--border-light); border-radius: var(--radius-sm); }
+.joinCode > span:first-child { font-size: 12px; color: var(--text-secondary); }
+.joinCode strong { font: 650 14px ui-monospace, monospace; letter-spacing: .05em; }
+.open { justify-self: end; }
+@container (max-width: 760px) {
+  .row { grid-template-columns: minmax(0, 1fr) auto; gap: 16px; }
+  .details { grid-column: 1 / -1; }
+}
+@container (max-width: 470px) {
+  .row { grid-template-columns: minmax(0, 1fr); padding: 18px; }
+  .joinCode { justify-content: flex-start; }
+  .joinCode > span:first-child { flex-basis: 100%; }
+  .open { justify-self: stretch; }
+}

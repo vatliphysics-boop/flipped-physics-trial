@@ -1,0 +1,73 @@
+
+> flipped-physics@0.1.0 build
+> next build
+
+▲ Next.js 16.3.5 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 112ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1473ms
+  Running TypeScript ...
+  Finished TypeScript in 1447ms ...
+  Collecting page data using 5 workers ...
+  Generating static pages using 5 workers (0/36) ...
+  Generating static pages using 5 workers (9/36) 
+  Generating static pages using 5 workers (18/36) 
+  Generating static pages using 5 workers (27/36) 
+✓ Generating static pages using 5 workers (36/36) in 260ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/ai/document
+├ ƒ /api/ai/preparation
+├ ƒ /api/ai/status
+├ ƒ /api/ai/student
+├ ƒ /api/ai/teacher
+├ ƒ /api/ai/teacher-demo
+├ ƒ /auth/confirm
+├ ○ /demo-lesson
+├ ƒ /hoc-lieu
+├ ƒ /hoc-lieu/ai
+├ ○ /hoc-lieu/ai-giao-vien
+├ ○ /hoc-lieu/lop-hoc-dao-nguoc
+├ ƒ /hoc-lieu/soan-ke-hoach
+├ ƒ /hoc-lieu/truc-quan
+├ ○ /login
+├ ○ /register
+├ ƒ /student
+├ ƒ /student/ai
+├ ƒ /student/assignments
+├ ƒ /student/classes
+├ ○ /student/curriculum
+├ ƒ /student/curriculum/[chapterCode]
+├ ƒ /student/journal
+├ ƒ /student/lessons/[lessonId]
+├ ƒ /student/lessons/[lessonId]/after-class
+├ ƒ /student/lessons/[lessonId]/before-class
+├ ƒ /student/lessons/[lessonId]/in-class
+├ ƒ /student/materials
+├ ƒ /teacher
+├ ƒ /teacher/ai
+├ ƒ /teacher/classes
+├ ƒ /teacher/classes/[classId]
+├ ƒ /teacher/classes/[classId]/curriculum
+├ ○ /teacher/classes/new
+├ ƒ /teacher/curriculum
+├ ƒ /teacher/curriculum/[chapterCode]
+├ ƒ /teacher/lessons
+├ ƒ /teacher/lessons/[lessonId]
+├ ƒ /teacher/lessons/[lessonId]/after-class
+├ ƒ /teacher/lessons/[lessonId]/before-class
+├ ƒ /teacher/lessons/[lessonId]/in-class
+├ ƒ /teacher/lessons/[lessonId]/ket-qua
+├ ƒ /teacher/materials
+├ ƒ /teacher/plans
+└ ƒ /teacher/students
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

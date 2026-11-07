@@ -1,0 +1,25 @@
+PART word/document.xml
+P0000 Đáp án và hướng dẫn chấm
+P0001 Vật lí 12   Thời gian 15 phút   Mã đề 101   2 điểm
+P0002 Câu 1 (1 điểm)
+P0003 Đáp án: a Đúng, b Đúng, c Sai, d Đúng
+P0004 Δ m42=0,377528 amu; Δ m43=0,386045 amu; chênh năng lượng liên kết khoảng 7,934 MeV. Năng lượng liên kết riêng Ca-42 khoảng 8,373 MeV/nucleon, Ca-43 khoảng 8,363.
+P0005 Câu 2 (1 điểm)
+P0006 Đáp án: a Sai, b Đúng, c Đúng, d Sai
+P0007 a) Sai vì còn bảo toàn năng lượng toàn phần, động lượng.
+b) Đúng.
+c) Đúng.
+d) Sai.
+P0008 Phân bố câu theo ma trận
+P0009 Bài/chủ đề
+P0010 Loại câu
+P0011 Mức độ
+P0012 Số câu
+P0013 Điểm mỗi câu
+P0014 B22
+P0015 đúng sai
+P0017 2
+P0018 1
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

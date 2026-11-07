@@ -1,7 +1,23 @@
 .next
+.next-ui
 node_modules
 .git
 *.zip
 *.Zip
 .DS_Store
 __MACOSX
+
+# Local credentials, AI models, source scans and working documents.
+.env*
+.local-ai
+data/book-bank
+output/book-bank
+scripts/nuclear-videos
+docs
+tmp
+Sachgiaokhoavl12vlhn
+/*.docx
+/*.pdf
+desktop.png
+mobile.png
+*.tsbuildinfo

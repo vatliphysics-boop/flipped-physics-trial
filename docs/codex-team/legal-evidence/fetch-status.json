@@ -1,0 +1,28 @@
+[
+  {
+    "id": "tt32",
+    "url": "https://vbpl.vn/bogiaoducdaotao/Pages/vbpq-print.aspx?ItemID=146721&dvid=317",
+    "error": "URLError",
+    "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate i"
+  },
+  {
+    "id": "tt22",
+    "url": "https://vbpl.vn/bogiaoducdaotao/Pages/vbpq-print.aspx?ItemID=150073&dvid=317",
+    "error": "URLError",
+    "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate i"
+  },
+  {
+    "id": "tt17",
+    "url": "https://vbpl.vn/bogiaoducdaotao/Pages/vbpq-print.aspx?ItemID=183284&dvid=317",
+    "error": "URLError",
+    "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate i"
+  },
+  {
+    "id": "ct-vat-li",
+    "url": "https://moet.gov.vn/content/vanban/Lists/VBPQ/Attachments/1301/8.%20CT%20Vat%20li.pdf",
+    "http_status": 200,
+    "type": "text/html; charset=UTF-8",
+    "bytes": 7594,
+    "final_url": "https://moet.gov.vn/page/404"
+  }
+]

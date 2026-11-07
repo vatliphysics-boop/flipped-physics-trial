@@ -1,0 +1,11 @@
+ajan-saini
+P0158 Tunggyshbay, M., Balta, N., & Admiraal, W. (2023). Flipped classroom strategies and innovative teaching approaches in physics education: A systematic review. Eurasia Journal of Mathematics, Science and Technology Education, 19(6), em2283. https://doi.org/10.29333/ejmste/13258
+P0159 U.S. Nuclear Regulatory Commission. (2021). Fissionable material. https://www.nrc.gov/reading-rm/basic-ref/glossary/fissionable-material.html
+P0161  DIFF  [OLD Vũ, V. H., Nguyễn, V. B., Trần, N. C., Phạm, K. C., Đặng, T. H., Tưởng, D. H., → Vũ Văn Hùng, Nguyễn Văn Biên, Trần Ngọc Chất, Phạm Kim Chung, Đặng Thanh Hải, Tưởng Duy Hải,] & Bùi, G. | D. H., & [OLD Bùi, G. T. → Bùi Gia Thịnh.] (2024). Vật lí | (2024). Vật lí [OLD 12 (Kết → 12: Kết] nối tri thức | thức với cuộc [OLD sống; bản mẫu tháng 1/2024). → sống.] Nhà xuất bản
+P0162  DIFF  [OLD [11] Q. → ] Xia, Q. Liu, | [11] Q. Xia, [OLD Q. → Q.,] Liu, A. Tlili, | Xia, Q. Liu, [OLD A. → Q.,] Tlili, and T. | Liu, A. Tlili, [OLD and → A., & Chiu,] T. K. F. | T. K. F. [OLD Chiu, “A → (2026). A] systematic literature review | its future research [OLD directions,” → directions.] Computers & Education, | Computers & Education, [OLD vol. → ] 240, Art. no. | Education, vol. 240, [OLD Art. no. 105465, 2026, doi: 10.1016/j.compedu.2025.105465. → Article 105465. https://doi.org/10.1016/j.compedu.2025.105465] 
+
+FILE tmp/article/before-ai.docx
+P0005  DIFF phần mềm đạt [OLD 29 → 23] ca; ảnh chụp
+P0008  DIFF binding energy calculations. [OLD Twenty-nine → Twenty-three] software tests passed,
+P0110 3 11 Kết quả kiểm tra nội bộ và việc cần hoàn thiện
+P0122 Chụp 10 giao diện; đề kiểm tra ở 390 px không tràn ngang sau sửa.

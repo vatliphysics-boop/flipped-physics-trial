@@ -1,0 +1,10 @@
+[
+  {
+    "from": "docs/codex-team/runs/worker3-round5-dev-overlay-fix/backup/next.config.ts",
+    "to": "docs/codex-team/runs/worker3-round5-dev-overlay-fix/backup/next.config.ts.bak"
+  },
+  {
+    "from": "docs/codex-team/runs/worker3-round7-video-retest-fix/backup/src/lib/visual-learning.ts",
+    "to": "docs/codex-team/runs/worker3-round7-video-retest-fix/backup/src/lib/visual-learning.ts.bak"
+  }
+]

@@ -1,0 +1,215 @@
+PART word/document.xml
+P0000 ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM
+P0001 Vật lí 12 · Phạm vi B21, B22, B23, B24, B25 · Mã đề 101
+P0002 Thời gian 60 phút · 20 câu · Tổng 10 điểm
+P0003 Ma trận nội dung thực tế của mã đề
+P0004 Bài
+P0005 Mức độ
+P0006 Số câu
+P0007 Điểm
+P0008 Câu có hình
+P0009 B21
+P0010 Nhận biết
+P0011 1
+P0012 0,5
+P0013 1
+P0014 B21
+P0015 Thông hiểu
+P0016 3
+P0017 1,5
+P0018 3
+P0019 B22
+P0020 Nhận biết
+P0021 1
+P0022 0,5
+P0023 1
+P0024 B22
+P0025 Thông hiểu
+P0026 1
+P0027 0,5
+P0028 1
+P0029 B22
+P0030 Vận dụng
+P0031 2
+P0032 1
+P0033 2
+P0034 B23
+P0035 Thông hiểu
+P0036 2
+P0037 1
+P0038 2
+P0039 B23
+P0040 Vận dụng
+P0041 2
+P0042 1
+P0043 2
+P0044 B24
+P0045 Nhận biết
+P0046 1
+P0047 0,5
+P0048 1
+P0049 B24
+P0050 Thông hiểu
+P0051 3
+P0052 1,5
+P0053 3
+P0054 B25
+P0055 Thông hiểu
+P0056 1
+P0057 0,5
+P0058 1
+P0059 B25
+P0060 Vận dụng
+P0061 3
+P0062 1,5
+P0063 3
+P0064 Câu 1 · 0,5 điểm · img-B24-4 · A
+P0065 Sơ đồ định tính, không cho liều hoặc mọi giá trị năng lượng.
+P0066 Câu 2 · 0,5 điểm · img-B21-3 · D
+P0067 Lệch góc lớn cho bằng chứng về vùng điện tích dương tập trung; hình chỉ minh họa đường đi, không cho tần suất.
+P0068 Câu 3 · 0,5 điểm · img-B21-2 · C
+P0069 Hạt nhân II có 8 hạt màu xanh, tức 8 neutron.
+P0070 Câu 4 · 0,5 điểm · img-B23-1 · A
+P0071 N(2T)=200, N₀=800, tỉ lệ còn lại 25%.
+P0072 Câu 5 · 0,5 điểm · img-B24-2 · C
+P0073 Máy phát điện chuyển cơ năng thành điện năng.
+P0074 Câu 6 · 0,5 điểm · img-B25-1 · D
+P0075 I∝1/r² nên I(2 r)/I(r)=1/4.
+P0076 Câu 7 · 0,5 điểm · img-B22-1 · B
+P0077 Fe-56 có E/A gần 8,79MeV/nuclon.
+P0078 Câu 8 · 0,5 điểm · img-B23-3 · A
+P0079 (18+22+20)/3=20 số đếm mỗi 10 s.
+P0080 Câu 9 · 0,5 điểm · img-B21-1 · B
+P0081 Hạt nhân I:6 proton,6 neutron; II:6 proton,8 neutron. Cùng Z=6, khác N nên là đồng vị.
+P0082 Câu 10 · 0,5 điểm · img-B22-3 · B
+P0083 236=141+92+k nên k=3. Điện tích 92=56+36.
+P0084 Câu 11 · 0,5 điểm · img-B25-2 · A
+P0085 Nguồn trải rộng, hấp thụ hoặc nền phá vỡ giả thiết đơn giản.
+P0086 Câu 12 · 0,5 điểm · img-B24-1 · A
+P0087 Năng lượng hạt nhân tạo nhiệt, nhiệt tạo cơ năng quay turbine rồi máy phát tạo điện.
+P0088 Câu 13 · 0,5 điểm · img-B25-3 · C
+P0089 Trung bình thô=(44+48+40+52)/4=46; trừ nền 4 được 42.
+P0090 Câu 14 · 0,5 điểm · img-B24-3 · D
+P0091 Tia gamma bị suy giảm tùy vật liệu, độ dày và năng lượng; sơ đồ chỉ định tính.
+P0092 Câu 15 · 0,5 điểm · img-B23-2 · D
+P0093 Nđãphânrã=800−200=600; tương ứng 75%.
+P0094 Câu 16 · 0,5 điểm · img-B21-4 · C
+P0095 Không thể suy tần suất từ số đường minh họa trên sơ đồ.
+P0096 Câu 17 · 0,5 điểm · img-B23-4 · A
+P0097 Phân rã ngẫu nhiên gây dao động số đếm; cần lặp và kiểm soát điều kiện.
+P0098 Câu 18 · 0,5 điểm · img-B25-4 · C
+P0099 42/20=2,1 số đếm/s. Không đồng nhất với H hoặc liều thật.
+P0100 Câu 19 · 0,5 điểm · img-B22-4 · D
+P0101 Phân hạch có nhiều nhánh; hình không mô tả mọi sản phẩm có thể có.
+P0102 Câu 20 · 0,5 điểm · img-B22-2 · A
+P0103 E=(E/A)A=7,07×4=28,28MeV.
+P0104 Giáo viên rà soát kiến thức, hình và điểm trước khi sử dụng. Ma trận mô tả tập câu đã chọn; chưa xác lập độ khó hoặc giá trị đo lường của đề.
+P0106 ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM
+P0107 Vật lí 12 · Phạm vi B21, B22, B23, B24, B25 · Mã đề 102
+P0108 Thời gian 60 phút · 20 câu · Tổng 10 điểm
+P0109 Ma trận nội dung thực tế của mã đề
+P0110 Bài
+P0111 Mức độ
+P0112 Số câu
+P0113 Điểm
+P0114 Câu có hình
+P0115 B21
+P0116 Nhận biết
+P0117 1
+P0118 0,5
+P0119 1
+P0120 B21
+P0121 Thông hiểu
+P0122 3
+P0123 1,5
+P0124 3
+P0125 B22
+P0126 Nhận biết
+P0127 1
+P0128 0,5
+P0129 1
+P0130 B22
+P0131 Thông hiểu
+P0132 1
+P0133 0,5
+P0134 1
+P0135 B22
+P0136 Vận dụng
+P0137 2
+P0138 1
+P0139 2
+P0140 B23
+P0141 Thông hiểu
+P0142 2
+P0143 1
+P0144 2
+P0145 B23
+P0146 Vận dụng
+P0147 2
+P0148 1
+P0149 2
+P0150 B24
+P0151 Nhận biết
+P0152 1
+P0153 0,5
+P0154 1
+P0155 B24
+P0156 Thông hiểu
+P0157 3
+P0158 1,5
+P0159 3
+P0160 B25
+P0161 Thông hiểu
+P0162 1
+P0163 0,5
+P0164 1
+P0165 B25
+P0166 Vận dụng
+P0167 3
+P0168 1,5
+P0169 3
+P0170 Câu 1 · 0,5 điểm · img-B24-1 · D
+P0171 Năng lượng hạt nhân tạo nhiệt, nhiệt tạo cơ năng quay turbine rồi máy phát tạo điện.
+P0172 Câu 2 · 0,5 điểm · img-B21-4 · A
+P0173 Không thể suy tần suất từ số đường minh họa trên sơ đồ.
+P0174 Câu 3 · 0,5 điểm · img-B22-4 · B
+P0175 Phân hạch có nhiều nhánh; hình không mô tả mọi sản phẩm có thể có.
+P0176 Câu 4 · 0,5 điểm · img-B22-3 · D
+P0177 236=141+92+k nên k=3. Điện tích 92=56+36.
+P0178 Câu 5 · 0,5 điểm · img-B23-1 · B
+P0179 N(2T)=200, N₀=800, tỉ lệ còn lại 25%.
+P0180 Câu 6 · 0,5 điểm · img-B22-2 · A
+P0181 E=(E/A)A=7,07×4=28,28MeV.
+P0182 Câu 7 · 0,5 điểm · img-B23-2 · A
+P0183 Nđãphânrã=800−200=600; tương ứng 75%.
+P0184 Câu 8 · 0,5 điểm · img-B25-4 · C
+P0185 42/20=2,1 số đếm/s. Không đồng nhất với H hoặc liều thật.
+P0186 Câu 9 · 0,5 điểm · img-B23-3 · B
+P0187 (18+22+20)/3=20 số đếm mỗi 10 s.
+P0188 Câu 10 · 0,5 điểm · img-B25-2 · B
+P0189 Nguồn trải rộng, hấp thụ hoặc nền phá vỡ giả thiết đơn giản.
+P0190 Câu 11 · 0,5 điểm · img-B23-4 · C
+P0191 Phân rã ngẫu nhiên gây dao động số đếm; cần lặp và kiểm soát điều kiện.
+P0192 Câu 12 · 0,5 điểm · img-B24-2 · C
+P0193 Máy phát điện chuyển cơ năng thành điện năng.
+P0194 Câu 13 · 0,5 điểm · img-B21-1 · B
+P0195 Hạt nhân I:6 proton,6 neutron; II:6 proton,8 neutron. Cùng Z=6, khác N nên là đồng vị.
+P0196 Câu 14 · 0,5 điểm · img-B25-1 · B
+P0197 I∝1/r² nên I(2 r)/I(r)=1/4.
+P0198 Câu 15 · 0,5 điểm · img-B24-3 · D
+P0199 Tia gamma bị suy giảm tùy vật liệu, độ dày và năng lượng; sơ đồ chỉ định tính.
+P0200 Câu 16 · 0,5 điểm · img-B21-3 · C
+P0201 Lệch góc lớn cho bằng chứng về vùng điện tích dương tập trung; hình chỉ minh họa đường đi, không cho tần suất.
+P0202 Câu 17 · 0,5 điểm · img-B25-3 · B
+P0203 Trung bình thô=(44+48+40+52)/4=46; trừ nền 4 được 42.
+P0204 Câu 18 · 0,5 điểm · img-B24-4 · D
+P0205 Sơ đồ định tính, không cho liều hoặc mọi giá trị năng lượng.
+P0206 Câu 19 · 0,5 điểm · img-B21-2 · D
+P0207 Hạt nhân II có 8 hạt màu xanh, tức 8 neutron.
+P0208 Câu 20 · 0,5 điểm · img-B22-1 · B
+P0209 Fe-56 có E/A gần 8,79MeV/nuclon.
+P0210 Giáo viên rà soát kiến thức, hình và điểm trước khi sử dụng. Ma trận mô tả tập câu đã chọn; chưa xác lập độ khó hoặc giá trị đo lường của đề.
+PART word/footer1.xml
+P0000 Trang 
+PART word/footnotes.xml
+PART word/endnotes.xml

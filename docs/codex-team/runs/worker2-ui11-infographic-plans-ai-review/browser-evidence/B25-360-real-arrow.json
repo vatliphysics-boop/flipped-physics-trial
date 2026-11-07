@@ -1,0 +1,19 @@
+{
+  "focus": "Hình phóng to, cuộn để xem các phần",
+  "scroll": [
+    40,
+    40
+  ],
+  "max": [
+    936,
+    182
+  ],
+  "size": [
+    360,
+    800
+  ],
+  "image": [
+    1200,
+    700
+  ]
+}

@@ -1,0 +1,56 @@
+# Checkpoint bàn giao — CHƯA ĐẠT
+
+Ngày 05/10/2026. Dự án làm việc: /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09, branch main. Checkout khác trong .codex/worktrees/60c8 không được dùng thay thế hay reset. Thay đổi có sẵn được bảo toàn; git-status-final.txt ghi trạng thái khi bàn giao.
+
+Đây là checkpoint có việc đã kiểm chứng và việc còn thiếu, chưa phải nghiệm thu hoàn tất. Người dùng đã xác nhận: “Chưa rõ; giữ checkpoint và hướng dẫn thiết lập” đối với Supabase từ xa trong .env.local. Không ghi dữ liệu, tạo tài khoản hoặc chạy migration vào kết nối chưa xác minh này. Chẩn đoán đọc chín schema có limit=0 thất bại DNS ENOTFOUND; không suy ra thiếu bảng, mất dữ liệu hay RLS đúng/sai.
+
+Đối chiếu bổ sung ngày 05/10/2026: URL trong .env.local khớp project ref người dùng cung cấp. Mã nguồn dùng NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY; biến này đã có publishable key, biến ANON_KEY không được cấu hình. Không hiển thị hoặc thay key. Kiểm tra DNS hiện tại vẫn ENOTFOUND; xác nhận đúng cấu hình không đồng nghĩa môi trường thử đã được xác minh. Bằng chứng: supabase-user-project-confirmation.json.
+
+## Phiên bản và phối hợp
+
+- Trưởng nhóm trong ứng dụng phụ trách khoa học/học liệu/chatbot/tích hợp. Worker 2 dùng .codex-plus-2, phản biện theo vai giáo viên khó tính do AI mô phỏng và duy nhất sửa bài báo. Worker 3 dùng .codex-plus-3, UI/UX/hiển thị/thao tác 3D.
+- CLI thực tế 0.160.0; codex exec, CODEX_HOME riêng, cli_auth_credentials_store=file, đăng nhập ChatGPT đã lưu. Preflight cuối xác nhận hai worker đăng nhập và ba tài khoản khác nhau; chỉ lưu boolean, không credentials.
+- Bộ điều phối scripts/codex-team/run.mjs có khóa worker/file, quyền theo file, backup, timeout cả process group, trạng thái/mã thoát/signal/session ID/log/bằng chứng từng job. Review chỉ đọc mã nguồn; fix/article chỉ ghi file được giao và thư mục bằng chứng/tạm.
+- Hash web cuối: b1e5369bc393ec547e4441c6d28eec3baefe570c5ef8c235af40718727c6fec8. Manifest web-version-final.json gồm mã, public và cấu hình/phụ thuộc. Không đồng nhất hash này với bằng chứng mọi ca đã thử trên cùng phiên bản.
+- Article SHA-256: cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826.
+- Hai nguồn hd.docx và tên thực tế ĐÃ SỬA - NCKH.docx giữ nguyên hash; trích xuất đầy đủ trong source-manifest.json. PDF chương trình người dùng cung cấp được đọc trực tiếp và đưa lên web nguyên nội dung.
+
+## Việc đã làm và bằng chứng
+
+Root thêm bảng/CSV bán rã 61 điểm theo T/N₀, hướng dẫn đồ thị XY/tính T/nguồn/giới hạn và đặt lại; sửa chatbot từ chối câu ngoài phạm vi; thêm hướng dẫn khi chưa chọn đáp án, tiêu chí đóng vai B24 và xuất TXT; thêm lịch sử B21 có quan sát, bằng chứng, kết luận và nhiệm vụ. Worker 3 sửa DevTools che nút AI và tên video B24. Worker 2 dùng thử lại các ca được giao, giữ ảnh desktop/mobile và thao tác bàn phím.
+
+Hồ sơ W3R7/R8 có đoạn phát/dừng/tiếp tục thật của năm video; chưa xem toàn bộ và chưa chứng minh mức hiểu của HS. W2R5 kiểm ba CSV, công thức T và N₀ nhân đôi; chưa thao tác ứng dụng Excel/Sheets thật. W2R6 xác nhận hướng dẫn trống/phản hồi B21 và tiêu chí/TXT B24; W2R7 xác nhận bốn mốc lịch sử ở 1280/390 và bàn phím. Các lượt hết thời gian được giữ nguyên trạng thái, không tính là review toàn bộ.
+
+Kỹ thuật cuối: **61/61 tests, build, TypeScript đạt**; lint 0 lỗi/1 cảnh báo có sẵn. Build có cảnh báo truy vết tệp động trong book-bank-server.ts. Lỗi build trước do backup .ts đã xử lí bằng đổi backup sang .bak, giữ nội dung và log lỗi. Xem TECHNICAL_VERIFICATION.md.
+
+Worker 2 cập nhật bài báo bằng kết quả thực tế vòng 4–8, ghi rõ giới hạn, phản biện AI và chưa có nghiên cứu người thật. Đã sao lưu, ZIP hợp lệ, render 25 trang; Worker 2 và root xem đủ trang. Giữ 24 hình, bảng, trích dẫn và các thành phần định dạng; chỉ word/document.xml thay đổi. Audit và bản render tại runs/worker2-round8-article-update/.
+
+## Những tiêu chí còn CHƯA ĐẠT
+
+| Nhóm | Phần còn thiếu | Cách tiếp tục |
+|---|---|---|
+| Môi trường/tài khoản/lớp | Chưa xác minh Supabase thử riêng, chưa có dữ liệu/danh tính giả và DB E2E | DEV_DATABASE_AND_RESUME.md: môi trường riêng, T-A/T-B/S-A/S-B, hai lớp, DB01–10 |
+| Phạm vi công khai | Chưa kiểm đủ 17 mô phỏng, các phiếu, ba kế hoạch Word, game trọn 15 lượt/hai đội, mindmap nhiều vai, Excel/Sheets và toàn bộ lỗi/AI/khả năng tiếp cận | Chia lượt review ngắn theo nhóm ca với nhiệm vụ và bằng chứng rõ; hoàn tất các dòng acceptance.md |
+| Video/nguồn | Chưa xem toàn bộ đoạn được giao/phụ đề, mức hiểu độc lập hoặc phát tại nguồn dự phòng/mạng lớp; một số nguồn chỉ xác minh chỉ mục | GV kiểm đoạn dự kiến sử dụng, nguồn và ngôn ngữ; thử trên thiết bị/mạng lớp; ghi giới hạn pháp lí trong regulations.md |
+| Hai review cuối | W2 chưa hoàn thành hai lượt liên tiếp đủ luồng trên cùng hash cuối | Sau sửa và kiểm tra phù hợp, đóng băng phiên bản; hai lượt đầy đủ, có bằng chứng từng tiêu chí; không tính timeout/lượt hẹp |
+| Nghiên cứu/thẩm định | Chưa có GV/HS thật, thẩm định chuyên môn độc lập, công cụ được kiểm định hoặc dữ liệu hiệu quả | Tác giả thống nhất quy mô/lịch mâu thuẫn trong NCKH; kế hoạch đồng thuận, thử dùng và nghiên cứu có dữ liệu thật |
+| Vận hành rộng/công bố | Chưa chứng minh tải đồng thời, sao lưu/khôi phục/RLS trên môi trường đã xác minh; chưa có chứng từ chấp nhận bài báo | Thử tải theo quy mô được chốt và DB09/10; kiểm đóng gói/giám sát; việc gửi/công bố là bước riêng |
+
+Các phần còn thiếu ở trên là phạm vi chưa kiểm chứng, không tự coi tất cả là lỗi phần mềm. Bảng acceptance.md đối chiếu yêu cầu → chức năng → tiêu chí → bằng chứng → trạng thái; issues.md theo dõi từng vấn đề có căn cứ.
+
+## Mức sẵn sàng triển khai rộng
+
+**Chưa sẵn sàng triển khai rộng.** Bản phát triển chạy được và các ca công khai đã sửa có bằng chứng kỹ thuật/thao tác. Hiện chưa đủ căn cứ nghiệm thu LMS qua tài khoản hoặc kết luận hiệu quả học tập, khả năng phục vụ cả lớp và bảo vệ dữ liệu trong vận hành thật. Phản biện AI theo vai giáo viên không thay thẩm định hay thực nghiệm người thật.
+
+USER_GUIDE.md cung cấp hướng dẫn GV/HS/người vận hành và giới hạn lưu cục bộ/AI/video. DEV_DATABASE_AND_RESUME.md hướng dẫn môi trường riêng và ca thử. Chỉ chuẩn bị triển khai sau khi các phần cần thiết có bằng chứng; phiên này không triển khai lên hệ thống thật.
+
+## Bước tiếp tục cụ thể
+
+1. Đọc acceptance.md, issues.md, PROGRESS.md, USER_GUIDE.md và báo cáo trong runs; kiểm đúng thư mục, branch, git status và hash hai nguồn.
+2. Xác minh môi trường thử riêng và chuẩn bị danh tính giả an toàn theo DEV_DATABASE_AND_RESUME.md. Không đặt secrets trong job JSON/log/chat.
+3. Chạy preflight. Tạo job có ID mới, truyền căn cứ/tiêu chí/báo cáo trước. Chia phần nội dung/khoa học cho trưởng nhóm, UX/3D thao tác cho Worker 3, file chung do trưởng nhóm tích hợp. Worker 2 review chỉ đọc.
+4. Hoàn tất phạm vi công khai và DB01–10; sửa theo vấn đề có căn cứ, kiểm tra lại và ghi bằng chứng. Nếu công cụ/quyền/hạn mức chặn, giữ CHƯA ĐẠT và đổi phương án phù hợp.
+5. Chốt hash sau tích hợp. Worker 2 thực hiện hai lượt đầy đủ liên tiếp cùng phiên bản; khi chưa đủ bằng chứng tiếp tục vòng sau.
+6. Worker 2 duy nhất cập nhật bài báo, sao lưu/render/xem đủ trang; làm mới extract/manifest. Đánh giá riêng nghiên cứu và triển khai rộng, không bịa số người hoặc kết quả.
+
+Bộ bàn giao gồm web phát triển, bài báo DOCX, acceptance.md/curriculum-matrix.md/regulations.md, logs/ảnh/session trong runs, PROGRESS.md, USER_GUIDE.md và hướng dẫn môi trường/tiếp tục. Không có commit, push hoặc công bố trong phiên này.

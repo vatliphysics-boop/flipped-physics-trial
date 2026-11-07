@@ -1,0 +1,184 @@
+const trendText = {
+  rising: { label: "Số phân hạch kì vọng tăng qua các thế hệ", comparison: ">", color: "#b45309" },
+  steady: { label: "Số phân hạch kì vọng giữ nguyên qua các thế hệ", comparison: "=", color: "#086b66" },
+  falling: { label: "Số phân hạch kì vọng giảm qua các thế hệ", comparison: "<", color: "#1d4e9a" },
+};
+
+const chainMax = reactorState(REACTOR_LAST_GENERATION, 0).expected;
+const reactorFormat = (value: number) => value.toLocaleString("vi", { maximumFractionDigits: 2 });
+
+function NeutronPaths({ state }: { state: ReturnType<typeof reactorState> }) {
+  const progress = state.finished ? 1 : state.progress;
+  const insertion = state.rodPercent / 100;
+  return <figure className={reactorStyles.diagram}>
+    <svg viewBox="0 0 680 228" role="img" aria-label="Các đường đi quy ước của neutron tới thanh điều khiển hoặc nhiên liệu">
+      <rect x="18" y="12" width="644" height="204" rx="14" fill="#10263b" />
+      <rect x="280" y="31" width="36" height={48 + 89 * insertion} rx="5" fill="#7190a9" />
+      <rect x="509" y="71" width="105" height="120" rx="12" fill="#744627" stroke="#f9ba82" strokeWidth="2" />
+      <path d="M79 103H281 M79 155H509" fill="none" stroke="#9bcad8" strokeWidth="3" strokeDasharray="6 8" />
+      <text x="71" y="56" fill="#e5f6fd" fontSize="21" fontWeight="650">Neutron tới</text>
+      <text x="297" y="54" fill="#f0f7fa" fontSize="18" textAnchor="middle">↓</text>
+      <text x="330" y="91" fill="#cbdce5" fontSize="19">Thanh điều khiển</text>
+      <text x="562" y="143" fill="#fff1df" fontSize="19" textAnchor="middle">Nhiên liệu</text>
+      <circle cx={79 + 202 * progress} cy="103" r="10" fill="#65d5f0" opacity={0.3 + 0.7 * insertion} />
+      <circle cx={79 + 430 * progress} cy="155" r="10" fill="#ffc27d" opacity={1 - 0.65 * insertion} />
+    </svg>
+    <figcaption>Hai đường đi chỉ biểu diễn khả năng bị hấp thụ hoặc tới nhiên liệu. Độ sáng gợi xu hướng khi đổi vị trí thanh, không biểu diễn xác suất hay số neutron đo được.</figcaption>
+  </figure>;
+}
+
+const flowPaths = [
+  "M110 146H267",
+  "M275 147C307 147 305 78 337 78H444",
+  "M432 79H523",
+  "M523 79H641",
+  "M440 107V184H324V145",
+];
+const flowDevices = [
+  { x: 39, y: 120, width: 106, title: "Lõi lò" },
+  { x: 240, y: 116, width: 114, title: "Bộ sinh hơi" },
+  { x: 395, y: 51, width: 97, title: "Tua-bin" },
+  { x: 522, y: 51, width: 105, title: "Máy phát" },
+  { x: 361, y: 160, width: 111, title: "Bình ngưng" },
+];
+
+function ReactorFlow({ state }: { state: ReturnType<typeof reactorFlowState> }) {
+  return <figure className={reactorStyles.diagram}>
+    <svg viewBox="0 0 680 228" role="img" aria-label="Hai vòng nước cách li trong nhà máy điện hạt nhân kiểu lò nước áp lực">
+      <rect x="18" y="12" width="644" height="204" rx="14" fill="#10263b" />
+      <path d="M138 141H254V175H98V153" fill="none" stroke="#f2ae76" strokeWidth="5" />
+      <path d="M332 131V79H439V184H324V149" fill="none" stroke="#78dce5" strokeWidth="5" />
+      <path d="M433 79H644" fill="none" stroke="#a1d69a" strokeWidth="4" strokeDasharray="9 7" />
+      {flowDevices.map(({ x, y, width, title }, index) => <g key={title}>
+        <rect x={x} y={y} width={width} height="48" rx="8" fill="#213f57" stroke={index === state.step ? "#ffce99" : "#6b8ca2"} strokeWidth={index === state.step ? 3 : 1.5} />
+        <text x={x + width / 2} y={y + 30} fill="#f0f7fa" textAnchor="middle" fontSize="18" fontWeight="650">{title}</text>
+      </g>)}
+      <path d={flowPaths[state.step]} pathLength="1" fill="none" stroke="#ffcf99" strokeWidth="3" strokeLinecap="round" opacity=".55" strokeDasharray={state.finished ? "1 1" : `${Math.max(0.02, state.progress)} 1`} />
+      <text x="45" y="50" fill="#ffca9a" fontSize="17">Sơ cấp</text>
+      <text x="45" y="77" fill="#98e9ee" fontSize="17">Thứ cấp</text>
+    </svg>
+    <figcaption><strong>{state.stage.label}.</strong> {state.stage.detail}</figcaption>
+  </figure>;
+}
+
+// A single activity with independent didactic clocks for neutron generations and water/energy flow.
+export function ReactorControlConcept({ onProgress }: ActivityProps) {
+  const [mode, setMode] = useState<"chain" | "flow">("chain");
+  const [rod, setRod] = useState(50);
+  const [position, setPosition] = useState(0);
+  const [running, setRunning] = useState(false);
+  const [hasWithdrawn, setHasWithdrawn] = useState(false);
+  const [hasInserted, setHasInserted] = useState(false);
+  const [hasAnswered, setHasAnswered] = useState(false);
+  const positionRef = useRef(0);
+  const chain = reactorState(position, rod);
+  const flow = reactorFlowState(position);
+  const trend = trendText[chain.trend];
+  const last = mode === "chain" ? REACTOR_LAST_GENERATION : REACTOR_FLOW_LAST_STEP;
+
+  function seek(next: number) {
+    positionRef.current = next;
+    setPosition(next);
+    setRunning(false);
+  }
+
+  useEffect(() => {
+    if (!running) return;
+    let frame = 0, previous = performance.now();
+    function animate(now: number) {
+      const next = Math.min(last, positionRef.current + Math.min(now - previous, 80) / 1250);
+      previous = now;
+      positionRef.current = next;
+      setPosition(next);
+      if (next >= last) setRunning(false);
+      else frame = requestAnimationFrame(animate);
+    }
+    frame = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(frame);
+  }, [last, running]);
+
+  function changeRod(next: number) {
+    setRod(next);
+    seek(0);
+    const withdrawn = hasWithdrawn || next < 20;
+    const inserted = hasInserted || next > 80;
+    setHasWithdrawn(withdrawn);
+    setHasInserted(inserted);
+    onProgress?.(withdrawn && inserted && hasAnswered);
+  }
+
+  return <Lab
+    intro="Khám phá phản ứng dây chuyền và dòng năng lượng trong nhà máy điện hạt nhân kiểu lò nước áp lực, theo Hình 24.1 và 24.3 SGK."
+    note="Đây là mô hình định tính. Vị trí thanh điều khiển và thời gian đã quy ước. Giá trị giữa là mốc so sánh trong mô hình, không phải vị trí tới hạn của lò thật. Hai diễn tiến dùng các bước riêng, không suy ra độ trễ, nhiệt độ hay công suất nhà máy."
+  >
+    <div className="physics-guide">
+      <p><strong>So sánh hai lần thử</strong></p>
+      <ol>
+        <li>Rút thanh tới 0%, chạy qua các thế hệ và ghi xu hướng của phản ứng dây chuyền.</li>
+        <li>Cắm thanh sâu hơn 80%, chạy lại từ thế hệ 0. Giải thích khác biệt dựa vào sự hấp thụ neutron.</li>
+        <li>Chọn dòng năng lượng. Theo dõi từ lõi lò đến máy phát, rồi tìm đường nước trở về ở vòng thứ cấp.</li>
+      </ol>
+    </div>
+    <div className="physics-controls" aria-label="Chọn quá trình khảo sát">
+      <button type="button" className={`physics-button ${mode === "chain" ? "primary" : ""}`} aria-pressed={mode === "chain"} onClick={() => { setMode("chain"); seek(0); }}>Phản ứng dây chuyền</button>
+      <button type="button" className={`physics-button ${mode === "flow" ? "primary" : ""}`} aria-pressed={mode === "flow"} onClick={() => { setMode("flow"); seek(0); }}>Dòng năng lượng</button>
+    </div>
+    {mode === "chain" && <label className="physics-field">
+      <span>Thanh điều khiển cắm sâu <strong>{rod}%</strong></span>
+      <input type="range" min={0} max={100} step={5} value={rod} onChange={event => changeRod(Number(event.target.value))} />
+    </label>}
+    <div className="physics-controls">
+      <button type="button" className="physics-button primary" onClick={() => {
+        if (positionRef.current >= last) seek(0);
+        setRunning(!running);
+      }}>{running ? "Tạm dừng" : position >= last ? "Chạy lại" : position > 0 ? "Tiếp tục" : mode === "chain" ? "Mô phỏng phân hạch" : "Chạy dòng năng lượng"}</button>
+      <button type="button" className="physics-button" disabled={position >= last} onClick={() => seek(Math.min(last, Math.floor(position) + 1))}>Tiến một bước</button>
+      <button type="button" className="physics-button" onClick={() => seek(0)}>Đặt lại mô phỏng</button>
+    </div>
+    {mode === "chain" ? <>
+      <NeutronPaths state={chain} />
+      <p role="status" className={reactorStyles.current}><strong>Thế hệ {chain.generation}.</strong> {trend.label}.</p>
+      <LatexMath block math={`k${trend.comparison}1\\quad (k=\${reactorFormat(chain.k).replace(",", "{,}")})`} />
+      <div className={reactorStyles.generations} aria-label="Chỉ số tương đối theo thế hệ">
+        {Array.from({ length: REACTOR_LAST_GENERATION + 1 }, (_, generation) => {
+          const expected = reactorState(generation, rod).expected;
+          return <div key={generation} className={reactorStyles.generation} aria-current={generation === chain.generation ? "step" : undefined}>
+            <span>{generation}</span>
+            <div aria-hidden="true"><i style={{ width: generation > chain.generation ? 0 : `${100 * expected / chainMax}%`, backgroundColor: trend.color }} /></div>
+            <span>{generation > chain.generation ? "…" : reactorFormat(expected)}</span>
+          </div>;
+        })}
+      </div>
+      <p className="physics-note">Chỉ số ở thế hệ 0 được đặt bằng 1. Giá trị ở thế hệ sau là kì vọng tương đối, không phải số neutron đếm trực tiếp. Thanh điều khiển hấp thụ neutron; riêng việc thay đổi hệ số nhân chưa đủ để kết luận về an toàn của nhà máy.</p>
+    </> : <>
+      <ReactorFlow state={flow} />
+      <div className="physics-controls" aria-label="Các khâu chuyển hóa và tuần hoàn">
+        {REACTOR_FLOW_STAGES.map((stage, index) => <button key={stage.id} type="button" className={`physics-button ${index === flow.step ? "primary" : ""}`} aria-pressed={index === flow.step} onClick={() => seek(index)}>{stage.label}</button>)}
+      </div>
+      <p role="status" className={reactorStyles.current}>{flow.stage.detail}</p>
+    </>}
+    <div className="physics-checklist">
+      <p><strong>Tiêu chí hoàn thành</strong></p>
+      <ul>
+        <li className={hasWithdrawn ? "is-done" : ""}>Đã thử rút thanh điều khiển {hasWithdrawn ? "✓" : ""}</li>
+        <li className={hasInserted ? "is-done" : ""}>Đã thử cắm sâu thanh điều khiển {hasInserted ? "✓" : ""}</li>
+        <li className={hasAnswered ? "is-done" : ""}>Đã giải thích tác dụng của thanh điều khiển {hasAnswered ? "✓" : ""}</li>
+      </ul>
+    </div>
+    <ChoiceCheck
+      question="Khi cần dừng phản ứng dây chuyền khẩn cấp, đưa thanh điều khiển vào lõi lò có tác dụng gì?"
+      options={[
+        "Tăng số neutron để duy trì phát điện.",
+        "Hấp thụ thêm neutron, khiến ít neutron còn có thể gây phân hạch tiếp theo.",
+        "Thay cho việc dẫn nhiệt ra ngoài bằng chất tải nhiệt.",
+      ]}
+      correctIndex={1}
+      explanation="Vật liệu như boron hoặc cadmium hấp thụ neutron để giảm nhanh phản ứng dây chuyền. Lò vẫn cần làm mát do nhiệt dư."
+      onResult={correct => { setHasAnswered(correct); onProgress?.(hasWithdrawn && hasInserted && correct); }}
+    />
+    <Sources links={[{ label: "U.S. NRC · Pressurized Water Reactors", url: REACTOR_SOURCE }]} />
+  </Lab>;
+}
+
+export { ReactorControlConcept as NuclearPowerEnergyFlow };
+

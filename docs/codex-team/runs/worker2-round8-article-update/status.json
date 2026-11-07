@@ -1,0 +1,52 @@
+{
+  "id": "worker2-round8-article-update",
+  "worker": 2,
+  "mode": "article",
+  "start": "2026-10-05T09:38:22.350Z",
+  "status": "COMPLETED_PENDING_LEAD_REVIEW",
+  "session_ids": [
+    "01a10b6d-bd0f-72b1-88d1-c3675460deb1"
+  ],
+  "exit_code": 0,
+  "allowed_files": [
+    "BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx"
+  ],
+  "timeout_seconds": 2400,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-jvkqeA": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-round8-article-update/report.md": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": false,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-jvkqeA",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-jvkqeA/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-jvkqeA/evidence"
+  },
+  "pid": 36306,
+  "signal": null,
+  "end": "2026-10-05T09:44:12.502Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-jvkqeA",
+  "changed_files": [
+    "BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx"
+  ],
+  "unexpected_changes": [],
+  "protected_sources_unchanged": true
+}

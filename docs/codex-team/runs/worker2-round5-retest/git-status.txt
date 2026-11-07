@@ -1,0 +1,143 @@
+ M .gitignore
+ M README.md
+ D "SGK V\341\272\254T L\303\215 12 KNTT.pdf"
+ M next.config.ts
+ M package-lock.json
+ M package.json
+ M src/app/PublicShell.tsx
+ M src/app/demo-lesson/DemoShell.tsx
+ M src/app/demo-lesson/page.tsx
+ M src/app/globals.css
+ M src/app/layout.tsx
+ M src/app/page.tsx
+ M src/app/student/StudentShell.tsx
+ M src/app/student/actions.ts
+ M src/app/student/lessons/StudentLessonHeader.tsx
+ M src/app/student/lessons/[lessonId]/after-class/page.tsx
+ M src/app/student/lessons/[lessonId]/before-class/page.tsx
+ M src/app/student/lessons/[lessonId]/in-class/page.tsx
+ M src/app/teacher/curriculum/page.tsx
+ M src/app/teacher/material-actions.ts
+ M src/app/teacher/materials/page.tsx
+ M src/app/teacher/pathway-actions.ts
+ M src/components/PortalShell.tsx
+ M src/components/learning/LessonNavigation.tsx
+ M src/components/learning/MaterialBankViewer.tsx
+ M src/components/learning/PathwayStepManager.tsx
+ M src/components/learning/StudentColabViewer.tsx
+ M src/components/learning/StudentInClassProgression.tsx
+ M src/components/physics/B21Activities.tsx
+ M src/components/physics/B22Activities.tsx
+ M src/components/physics/B23Activities.tsx
+ M src/components/physics/B24Activities.tsx
+ M src/components/physics/B25Activities.tsx
+ M src/components/physics/FixedPhysicsActivityRenderer.tsx
+ M src/components/physics/shared.tsx
+ M src/lib/material-bank.ts
+ M src/lib/physics.ts
+ M supabase/migrations/20260928_018_material_bank_and_pathway.sql
+ M tsconfig.json
+?? BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx
+?? "L\306\260u tr\341\273\257 2.zip"
+?? Sachgiaokhoavl12vlhn/
+?? b22.yml
+?? desktop.png
+?? docs/LOCAL_AI.md
+?? docs/PROGRESS_20261004.md
+?? docs/PROGRESS_20261005.md
+?? docs/TEACHER_NEEDS_AND_DESIGN.md
+?? docs/VISUAL_LEARNING_SOURCES.md
+?? docs/archive/
+?? docs/article-figures/
+?? docs/codex-team/
+?? docs/previews/
+?? docs/references/
+?? docs/templates/
+?? docs/worksheets/
+?? mobile.png
+?? public/illustrations/
+?? public/learning/
+?? scripts/
+?? src/app/api/
+?? src/app/hoc-lieu/
+?? src/app/student/ai/
+?? src/app/student/materials/
+?? src/app/teacher/ai/
+?? src/app/teacher/lessons/[lessonId]/ket-qua/
+?? src/app/teacher/plan-actions.ts
+?? src/app/teacher/plans/
+?? src/components/learning/AILearningWorkspace.tsx
+?? src/components/learning/AIResponseText.tsx
+?? src/components/learning/AIStudyHelp.tsx
+?? src/components/learning/BookQuestionBank.tsx
+?? src/components/learning/FlippedClassroomGuide.tsx
+?? src/components/learning/HalfLifeDiscovery.tsx
+?? src/components/learning/InteractiveInfographic.tsx
+?? src/components/learning/LearningLibrary.tsx
+?? src/components/learning/LearningResourcePreview.tsx
+?? src/components/learning/LocalAIAvailability.tsx
+?? src/components/learning/MatrixLessonEditor.tsx
+?? src/components/learning/NuclearExamWorkspace.tsx
+?? src/components/learning/NuclearLearningNotebook.tsx
+?? src/components/learning/ObservationNotebook.tsx
+?? src/components/learning/PlanRoleComparison.tsx
+?? src/components/learning/QuestionMathText.tsx
+?? src/components/learning/StudentPathwayStepViewer.tsx
+?? src/components/learning/TeacherAIWorkspace.tsx
+?? src/components/learning/TeacherAssessmentStudio.tsx
+?? src/components/learning/TeacherPreparationPanel.tsx
+?? src/components/learning/TeacherPreparationWizard.tsx
+?? src/components/learning/TeacherWorkflowSteps.tsx
+?? src/components/learning/TeacherWorkroom.tsx
+?? src/components/learning/TeacherWorksheetStudio.tsx
+?? src/components/learning/TeachingGuideWorkspace.tsx
+?? src/components/learning/TeachingPlanStudio.tsx
+?? src/components/learning/VisualLearningStudio.tsx
+?? src/components/learning/YouTubeLearningVideo.tsx
+?? src/components/learning/useTeacherDraft.ts
+?? src/components/physics/FissionScene.tsx
+?? src/components/physics/GuidedFissionLab.tsx
+?? src/components/physics/Simulation3D.tsx
+?? src/data/
+?? src/lib/ai-document.ts
+?? src/lib/ai-learning.ts
+?? src/lib/ai-teacher-auth.ts
+?? src/lib/bloom-taxonomy.ts
+?? src/lib/book-bank-docx.ts
+?? src/lib/book-bank-server.ts
+?? src/lib/book-bank.ts
+?? src/lib/decay-data.ts
+?? src/lib/exam-matrix-import.ts
+?? src/lib/exam-scoring.ts
+?? src/lib/extended-nuclear-materials.ts
+?? src/lib/fission-model.ts
+?? src/lib/flipped-classroom.ts
+?? src/lib/guided-preparation.ts
+?? src/lib/guided-worksheet.ts
+?? src/lib/local-ai-server.ts
+?? src/lib/local-ai.ts
+?? src/lib/nuclear-curriculum.ts
+?? src/lib/nuclear-learning-content.ts
+?? src/lib/office-equation.ts
+?? src/lib/pathway-progress.ts
+?? src/lib/question-bank-display.ts
+?? src/lib/student-pathway.ts
+?? src/lib/teacher-assessment.ts
+?? src/lib/teacher-docx-export.ts
+?? src/lib/teacher-docx-import.ts
+?? src/lib/teacher-preparation.ts
+?? src/lib/teaching-plan-docx.ts
+?? src/lib/teaching-plan-templates.ts
+?? src/lib/teaching-plan.ts
+?? src/lib/unified-exam-docx.ts
+?? src/lib/unified-question-bank.ts
+?? src/lib/unified-worksheet.ts
+?? src/lib/visual-learning.ts
+?? src/lib/word-download.ts
+?? src/lib/worksheet-instructions.ts
+?? supabase/migrations/20261004_019_teacher_plans_and_assessments.sql
+?? tests/
+?? tmp/
+?? ~$I_BAO_KHOA_HOC_AN_DANH.docx
+?? ~$I_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx
+?? ~$I_BAO_KHOA_HOC_THEO_MAU.docx

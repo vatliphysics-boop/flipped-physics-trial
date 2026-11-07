@@ -1,0 +1,121 @@
+@149
+Các yêu cầu, nguyên tắc và bước thiết kế dưới đây chuyển khung lí luận thành tiêu chí có thể kiểm tra. Một học liệu được chấp nhận khi đồng thời đúng nội dung, thực hiện được nhiệm vụ và tạo minh chứng phù hợp; lỗi khoa học nghiêm trọng không được bù bằng giao diện đẹp hoặc điểm trung bình cao ở tiêu chí khác.
+@150
+!original 151 151
+Mỗi học liệu phải chỉ ra yêu cầu cần đạt cụ thể và sản phẩm đánh giá tương ứng. Các nội dung mở rộng như công thức bán kính chỉ dùng để hỗ trợ giải thích, được phân biệt với yêu cầu bắt buộc.
+!original 152 152
+Nhiệm vụ cần có quyết định của học sinh: đặt mục tiêu, lựa chọn cách làm, kiểm tra hoặc sửa sai. Gắn nhãn “tự học” cho một video chưa đáp ứng yêu cầu này.
+!original 153 153
+Biểu diễn phải ghi tỉ lệ minh họa, điều kiện mô hình và nguồn số liệu. Tách ngẫu nhiên vi mô với quy luật thống kê; không mô tả phân hạch như hai nguyên tử uranium va vào nhau.
+!original 154 154
+Học liệu trước giờ tạo đầu vào cho trao đổi trên lớp; phản hồi trong lớp tạo nhiệm vụ sửa bài sau giờ. Cần dự kiến xử lí trường hợp chưa chuẩn bị vì thiếu điều kiện tiếp cận.
+!original 155 155
+AI hỗ trợ tạo nháp và gợi ý theo nhiệm vụ đã giao. Giáo viên duyệt nội dung, học sinh kiểm chứng nguồn; không dùng AI để tự động quyết định điểm nghiên cứu hoặc đưa hướng dẫn thực hành nguồn phóng xạ.
+!original 156 156
+Có phương án mạng yếu, thiết bị dùng chung, phụ đề và bản văn bản. Dữ liệu thu phải tối thiểu, có mục đích, thời hạn và người chịu trách nhiệm; chưa triển khai thu tự động thông tin cá nhân khi chưa có quy trình.
+@157
+!original 158 158
+Kiểm tra công thức bằng suy luận vật lí, bài tính chuẩn và trường hợp biên; so sánh khối lượng cùng quy ước. Nội dung sinh bởi AI phải được kiểm duyệt như mọi nguồn chưa xác thực.
+!original 159 159
+Chia nhiệm vụ theo một vấn đề nhận thức rõ, giảm thông tin trang trí và cung cấp ví dụ mẫu trước khi yêu cầu học sinh tự thực hiện. Độ dài và ngôn ngữ được điều chỉnh sau thử nhận thức.
+!original 160 160
+Tương tác phải gắn với câu hỏi dự đoán – quan sát – giải thích. Phản hồi nói rõ vì sao một lựa chọn chưa phù hợp và gợi bước kiểm tra, không chỉ báo đúng hoặc sai.
+!original 161 161
+Giữ nhiệm vụ cốt lõi chung; bổ sung gợi ý theo tầng và bài mở rộng tự chọn. Phân hóa dựa vào minh chứng hiện tại, không cố định nhãn năng lực hay yêu cầu học sinh phải có thiết bị tốt hơn.
+!original 162 162
+Mỗi nhiệm vụ nêu chỉ báo, dạng sản phẩm và cách thu. Nhật kí trình duyệt chưa có lịch sử phiên bản không được xem là hồ sơ quá trình hoàn chỉnh.
+!original 163 163
+Ghi nguồn, giấy phép khi có, vai trò AI và người duyệt. Người học được biết dữ liệu nào được sử dụng trong nghiên cứu và có quyền không tham gia mà vẫn tiếp cận hoạt động học bình thường.
+@164
+!original 165 165
+Đọc yêu cầu chương trình, xác định kiến thức tiên quyết và các nhầm lẫn cần chẩn đoán. Đầu ra là danh mục yêu cầu có mã để truy vết; không lấy thứ tự trang website làm chuẩn chương trình.
+!original 166 166
+Chọn biểu hiện tự học có thể thực hiện trong nhiệm vụ: ví dụ kiểm tra loại khối lượng trước khi tính năng lượng. Đầu ra là chỉ báo và minh chứng, không phải một khẩu hiệu “phát triển tự học”.
+!original 167 167
+Ma trận kết nối yêu cầu, nhiệm vụ, công cụ, mức hỗ trợ AI và tiêu chí. Khi một chức năng chưa có chỉ báo phù hợp, ghi là hỗ trợ vận hành hoặc tham khảo, không gán tác động giáo dục.
+!original 168 168
+Tạo học liệu từ nguồn có thể truy xuất, ghi phiên bản và điều kiện sử dụng. AI có thể đề xuất nháp; giáo viên chịu trách nhiệm sửa và duyệt. Tài sản được thử trên thiết bị mục tiêu và có phương án thay thế.
+!original 169 169
+Chuyên gia chấm độc lập bằng phiếu có tiêu chí; nhóm thử nhỏ ngoài mẫu chính để xem học sinh hiểu nhiệm vụ thế nào. Lưu biên bản, lỗi, quyết định sửa và kiểm tra lại. Hiện chưa có hồ sơ xác nhận bước thẩm định này đã hoàn tất.
+!original 170 170
+Đóng gói học liệu vào hệ thống quản lí học tập với mã bài, hướng dẫn, tiêu chí và kênh nộp. Khóa phiên bản trước thực nghiệm; ghi mọi thay đổi phát sinh và phạm vi người học chịu ảnh hưởng. Không đồng nhất đóng gói phần mềm với nghiệm thu sư phạm.
+@171
+Quy trình sử dụng tạo một vòng phản hồi liên tục. Giáo viên cần xác định trước dữ liệu nào thực sự dùng để ra quyết định và cách học sinh nhìn thấy tiến bộ của mình. Các thao tác có thể thực hiện trên nền tảng hoặc giấy với cùng yêu cầu nhận thức.
+@172
+Giáo viên giao một mục tiêu, nguồn bắt buộc và sản phẩm ngắn trước buổi học 2–3 ngày; thời lượng dự kiến 20–35 phút cho một lượt chuẩn bị. Học sinh ghi mục tiêu cá nhân, xem hoặc đọc nguồn, trả lời câu hỏi dự đoán, đánh dấu điều chưa hiểu và mức chắc chắn. AI chỉ được dùng sau nỗ lực ban đầu và phải ghi câu hỏi đã hỏi. Trước tiết học, giáo viên tổng hợp kiểu lỗi thay vì công bố bảng xếp hạng; học sinh chưa truy cập được nhận bản tương đương.
+@173
+Giáo viên dùng lỗi chẩn đoán để mở vấn đề, tổ chức nhóm nhỏ kiểm tra giả thuyết và yêu cầu mỗi học sinh nộp phần giải thích cá nhân. Mô phỏng được dùng với một biến thay đổi mỗi lần và bảng ghi điều kiện. Học sinh so sánh kết quả với dự đoán, tranh luận bằng nguồn hoặc dữ liệu, sau đó sửa giải thích. Giáo viên chuẩn hóa kiến thức và chỉ rõ giới hạn biểu diễn; hoạt động trên lớp không lặp nguyên bài giảng mà học sinh đã xem.
+@174
+Học sinh hoàn thành nhiệm vụ vận dụng vừa sức, nộp bản sửa kèm lí do và tự chấm một số chỉ báo. Giáo viên phản hồi vào điểm sai ảnh hưởng đến cách hiểu và lựa chọn một nhiệm vụ tiếp theo phù hợp. Không yêu cầu học sinh lặp toàn bộ bài đã đúng hoặc tăng số lượt thao tác để tạo số liệu truy cập. Bản sửa cần có dấu thời gian và mã nhiệm vụ; nếu website chưa lưu lịch sử, giáo viên thu tệp theo quy ước hoặc bản giấy có ngày.
+@175
+Mỗi nhiệm vụ có mã, phiên bản học liệu, hạn nộp, mức hỗ trợ cho phép và tiêu chí đánh giá. Nhật kí theo dõi ghi hoàn thành, lỗi trọng tâm, loại trợ giúp và hành động sau phản hồi. Dữ liệu từ website chỉ được đưa vào nghiên cứu sau khi xác định chính xác sự kiện, đơn vị đo và quy trình xuất; một lượt tải trang không phải thời gian học tích cực. Quan sát và phỏng vấn giúp giải thích trường hợp thiếu sản phẩm hoặc sử dụng nhiều lần. Các quy tắc thu áp dụng công bằng ở hai nhóm, với nguồn minh chứng tương đương.
+@176
+Cơ sở lí luận dẫn tới thiết kế lấy nhiệm vụ và minh chứng tự học làm trung tâm. SRL cung cấp cách giải thích chu trình, còn chương trình Việt Nam xác định đích phát triển và phạm vi nội dung. AI là một phương tiện có điều kiện và giới hạn; chất lượng học liệu phụ thuộc kiểm duyệt và tổ chức sử dụng. Khảo sát thực trạng chưa có dữ liệu, vì vậy các yêu cầu tiếp cận và mức hỗ trợ phải tiếp tục được hiệu chỉnh trước thực nghiệm. Chương 2 cụ thể hóa các quyết định này thành học liệu, ma trận và kế hoạch bài dạy.
+@179
+Chương này đối chiếu yêu cầu chương trình với bộ học liệu hiện có, rồi thiết kế cách sử dụng để tạo cơ hội tự học. Kết quả kiểm kê là bằng chứng phát triển sản phẩm. Ba kế hoạch bài dạy là phương án can thiệp dự kiến cần giáo viên và nhà trường thẩm định, chưa phải tiết dạy đã thực hiện.
+@180
+Chuẩn nội dung là Chương trình môn Vật lí ban hành kèm Thông tư 32/2018/TT-BGDĐT, phần Vật lí hạt nhân và phóng xạ ở trang 27–28 của bản chương trình lưu trong dự án. Khi triển khai, giáo viên đối chiếu kế hoạch giáo dục năm học của trường và các văn bản điều chỉnh có hiệu lực; không dùng số bài của một bộ sách làm chuẩn duy nhất.
+@181
+Nội dung thuộc Vật lí lớp 12, liên hệ kiến thức cấu tạo nguyên tử, điện tích, năng lượng và hàm mũ. Nhóm gán mã YC1–YC15 để tiện truy vết, không thay văn bản chương trình. Các mã lần lượt là: YC1 suy luận sự tồn tại và kích thước hạt nhân từ tán xạ α; YC2 viết kí hiệu theo số nucleon, proton; YC3 mô tả proton, neutron, electron trong mô hình nguyên tử; YC4 viết phương trình phân rã đơn giản; YC5 thảo luận quan hệ khối lượng – năng lượng; YC6 liên hệ năng lượng liên kết riêng với độ bền; YC7 nêu phân hạch và tổng hợp hạt nhân; YC8 đánh giá vai trò công nghiệp hạt nhân; YC9 tính tự phát và ngẫu nhiên; YC10 độ phóng xạ và H = λN; YC11 vận dụng hàm mũ cho đại lượng phân rã; YC12 chu kì bán rã; YC13 tính chất α, β, γ; YC14 nhận biết biển báo; YC15 nguyên tắc và hành vi an toàn. Đây là diễn giải để thiết kế, cần đối chiếu nguyên văn khi duyệt kế hoạch.
+@182
+Kiến thức được tổ chức theo quan hệ cấu trúc – tương tác – biến đổi – ứng dụng. Cấu trúc hạt nhân cung cấp A và Z; khối lượng và năng lượng giải thích năng lượng liên kết, năng lượng phản ứng; phóng xạ giới thiệu quá trình tự phát và quy luật thống kê; ứng dụng yêu cầu đánh giá lợi ích, giới hạn và an toàn. Ba kế hoạch 2.4–2.6 là ba cụm bài nhiều tiết, không phải ba tiết đơn lẻ. Phương trình phân rã được thực hành ở bài 2 và củng cố trong mạch phản ứng ở bài 3, tránh tách kí hiệu khỏi ý nghĩa.
+!eq nuclear
+Trong kí hiệu hạt nhân, A là số nucleon, Z là số proton, Nn là số neutron. Đề cương dùng Nn khi cần phân biệt với N(t), số hạt nhân chưa phân rã trong một mẫu. Số khối A không phải khối lượng tính bằng u, dù hai giá trị có thể gần nhau về số.
+@183
+Các khó khăn dự kiến được đưa thành câu hỏi chẩn đoán: hạt α có đi theo quỹ đạo quanh hạt nhân như hình minh họa không; đồng vị khác nhau ở đại lượng nào; sau một chu kì có bắt buộc đúng một nửa số hạt nhỏ còn lại không; nguồn đã chiếu xạ có luôn làm vật trở thành phóng xạ không. Đề tài không khẳng định học sinh tại trường có các quan niệm này trước khi khảo sát. Giáo viên dùng đáp án và lí do để chọn hoạt động: lỗi kí hiệu cần bảng chuyển đổi; lỗi ngẫu nhiên cần nhiều lần mô phỏng; lỗi an toàn cần phân tích tình huống có nguồn.
+@184
+Mạch cấu trúc dùng quan sát tán xạ và công cụ xây dựng hạt nhân để học sinh giải thích quan hệ A, Z, Nn. Mạch năng lượng dùng bảng khối lượng có ghi quy ước để kiểm tra phép tính. Mạch phóng xạ dùng chuỗi thời gian và phân rã ngẫu nhiên để đối chiếu mô hình với dao động. Mạch ứng dụng dùng sơ đồ hệ thống và lập luận dựa trên tài liệu. AI hỗ trợ đặt câu hỏi hoặc chỉ ra bước cần kiểm tra, không được tạo dữ liệu đo giả hoặc xác nhận một nhận định an toàn thiếu điều kiện.
+@185
+!caption Bảng 2.1. Ma trận mục tiêu – hoạt động – học liệu – đánh giá dự kiến
+| Mạch và yêu cầu | Nhiệm vụ, học liệu hiện có | Vai trò hỗ trợ | Chỉ báo và minh chứng |
+| Cấu trúc YC1–YC3 | Dự đoán tán xạ; xây dựng đồng vị B21 | Gợi hỏi vì sao đa số α đi thẳng | TH1, TH5, TH8; sơ đồ có giải thích |
+| Liên kết YC5–YC6 | So sánh He, Fe bằng bảng khối lượng B22 | Nhắc kiểm tra loại khối lượng | TH3, TH6, TH8; phép tính có đơn vị |
+| Phân rã YC4, YC9–YC13 | Đọc đồ thị, lặp mô phỏng B23/B25 | Gợi kiểm tra N còn lại và ΔN | TH4, TH7, TH9; bảng và bản sửa |
+| Phản ứng YC4, YC7 | Cân bằng A, Z; phân hạch và nhiệt hạch B22 | Đặt câu hỏi kiểm tra bảo toàn | TH5, TH8; phương trình và lí do |
+| Ứng dụng YC8, YC14–YC15 | Hồ sơ tình huống B24, biển báo, sơ đồ lò | Hỗ trợ xác định điều cần kiểm chứng | TH2, TH4, TH10; khuyến nghị có nguồn |
+!source Nguồn: nhóm thiết kế từ Chương trình môn Vật lí (Bộ Giáo dục và Đào tạo, 2018) và đối chiếu mã nguồn ngày 04/11/2026. Chỉ báo xem Phụ lục.
+Ma trận cho phép phát hiện thiếu khâu đánh giá: nếu học sinh chỉ xem mô phỏng mà không nộp dự đoán và giải thích, chưa có minh chứng cho TH5 hoặc TH8. Vai trò AI trong bảng là cách sử dụng dự kiến do giáo viên tổ chức, không khẳng định mọi phản hồi của hệ thống hiện đã đáp ứng yêu cầu đó.
+@186
+Kho chuẩn trong mã nguồn có 89 mục. Phép đếm dùng danh mục hệ thống, không gộp học liệu cá nhân hoặc suy từ số thẻ giao diện. Danh mục gồm 17 hình ảnh, 4 mục kiểm tra, 18 tài liệu, 17 mục colab, 5 hình động, 10 video bài giảng, 1 video thực tế và 17 mô phỏng. Năm infographic là nhãn trong nội dung liên quan, không cộng thêm vào tổng 89. Mỗi mục cần tiếp tục kiểm tra khả năng mở, nguồn và mức hoàn thiện khi đóng phiên bản thực nghiệm.
+@187
+Các mục tiêu, hướng dẫn và danh mục nhiệm vụ theo bài hỗ trợ học sinh hình dung đầu ra trước khi chọn tài nguyên. Checklist đề xuất gồm: xác định mục tiêu; chọn nguồn bắt buộc; tạo bản trả lời đầu; kiểm tra một điểm chưa chắc; nộp bản sửa. Học sinh ghi lí do nếu chưa hoàn thành. Dấu tích tự khai hoặc trạng thái hoàn thành trên giao diện chỉ là dữ liệu quá trình, cần đối chiếu sản phẩm để chấm tự học. Chưa có hồ sơ cho thấy các checklist đã được học sinh sử dụng trong thực nghiệm.
+@188
+Video và hình động cung cấp diễn tiến khó quan sát, còn infographic hỗ trợ tóm tắt quan hệ giữa các khái niệm. Trong dạy học, giáo viên gắn câu hỏi dừng với từng đoạn: nêu quan sát trước khi xem lời giải; so sánh hình với kí hiệu; đánh dấu giả định của mô hình. Học sinh được dùng bản văn bản hoặc hình tĩnh tương đương khi không nghe hoặc tải được video. Các ảnh và video trong bài báo hiện có được giữ như minh chứng giao diện ở thời điểm chụp, không coi là minh chứng một lớp đã học. Cần rà quyền sử dụng và độ bền liên kết trước phát hành chính thức.
+@189
+Mã nguồn có 17 khóa hoạt động với lớp hiển thị 3D chung và các bảng tương tác định lượng: B21 có 3, B22 có 4, B23 có 5, B24 có 4, B25 có 1. Phép đếm xác nhận cấu hình hoạt động, không chứng minh 17 mô hình vật lí độc lập đã được thẩm định. Hình 3D và bảng định lượng có thể dùng tham số điều khiển riêng; giáo viên cần nói rõ để học sinh không suy rằng mọi chuyển động trên hình là dữ liệu đo của bảng.
+Tệp xuất phân rã có 61 dòng thời gian từ 0 đến 360 s, bước 6 s, sáu cột gồm thời gian, số hạt kỳ vọng, phần còn lại, chu kì, số ban đầu và nguồn mô hình. Đây là dữ liệu tính toán. Nó phù hợp để kiểm tra thao tác đồ thị, không đủ để kiểm chứng thực nghiệm định luật. Khi khảo sát tính ngẫu nhiên, cần dùng hoạt động mô phỏng ngẫu nhiên riêng, lặp lại và phân biệt với đường kỳ vọng.
+@190
+Ngân hàng hiện tại có 212 câu hỏi duy nhất trong tệp dữ liệu hợp nhất: 72 nhiều lựa chọn, 12 đúng–sai, 19 trả lời số và 109 tự luận. Số 213 và 73 nhiều lựa chọn trong bài báo là thông tin phiên bản trước, không còn khớp dữ liệu kiểm kê hiện tại. Các câu hỏi được dùng tạo bài luyện tập và chẩn đoán lỗi; một bản ghi hợp lệ về cấu trúc chưa chứng minh câu hỏi đúng khoa học, vừa sức hoặc có độ phân biệt tốt.
+Bài tiền kiểm – hậu kiểm phải tách khỏi ngân hàng luyện tập để giảm hiệu ứng nhớ đáp án. Câu tự luận và biểu hiện tự học do người chấm theo rubric; kiểm tra đáp án tự động chỉ phù hợp với phần có đáp án xác định. Mọi kết quả điểm trên tài khoản demo không được đưa vào tập dữ liệu học sinh.
+@191
+Nhánh hỗ trợ học sinh ưu tiên mô hình cục bộ khi dịch vụ sẵn sàng; nếu không có hoặc lỗi, bộ phản hồi theo quy tắc cung cấp nội dung đã soạn. Trạng thái API báo sẵn sàng cho hệ thống kết hợp không đồng nghĩa mô hình tạo sinh đang chạy. Mô hình mặc định được cấu hình là Qwen3 4B Instruct, nhưng cấu hình môi trường có thể thay đổi; mỗi phiên nghiên cứu phải ghi công cụ và phiên bản thực dùng.
+Rà mã phát hiện từ khóa “bánh ngọt” nằm trong nhánh trả lời về Rutherford, nên không thể suy rộng kết quả kiểm tra từ chối ngoài chủ đề trong hồ sơ cũ sang phiên bản hiện tại. Bộ gợi ý còn cần rà các phát biểu tuyệt đối hóa độ bền theo năng lượng liên kết riêng hoặc tính độc lập của phân rã với mọi điều kiện. Đây là điểm cần kiểm duyệt trước thực nghiệm; đề cương không sửa mã nguồn trong nhiệm vụ biên soạn này.
+@192
+Phiếu học tập số tạo không gian ghi mục tiêu, dự đoán, kết quả và giải thích. Thành phần sổ quan sát hiện có bốn trường dự đoán, quan sát, giải thích, câu hỏi; lưu ở trình duyệt theo mã bài và xuất tệp TXT. Lưu cục bộ có thể bị ghi đè hoặc mất khi đổi thiết bị, chưa phải lịch sử nộp bài cho giáo viên. Do đó, quy trình nghiên cứu bổ sung mã nhiệm vụ, ngày, phiên bản và kênh thu đã xác nhận. Không gọi một tệp lưu trình duyệt là bằng chứng đã nộp hoặc đã được giáo viên phản hồi.
+Phiếu tự đánh giá tách hai câu: “tôi đã thực hiện việc gì” và “minh chứng ở đâu”. Sự khác biệt giữa tự chấm và chấm rubric được dùng để thảo luận khả năng tự giám sát, không tự động quy lỗi trung thực cho học sinh.
+@193
+Công cụ giáo viên hỗ trợ xem học liệu, chuẩn bị kế hoạch, câu hỏi và đánh giá. Mã nguồn và hồ sơ giao diện cho thấy các luồng chức năng đã được thiết kế; chưa có dữ liệu phiên làm việc thực của giáo viên hoặc hồ sơ chuyên gia để khẳng định đã thẩm định tính hữu ích. Hướng dẫn triển khai cần phân vai: người duyệt nội dung, người giao nhiệm vụ, người thu dữ liệu và người chấm độc lập. Trước thực nghiệm phải thử toàn tuyến đăng nhập – giao – làm – nộp – xuất trên tài khoản thử không có dữ liệu thật; chỉ đưa các trường đã xác nhận ý nghĩa vào nghiên cứu.
+@194
+Thiết kế từng mạch được trình bày theo đối tượng nhận thức, nhiệm vụ, sản phẩm và điểm kiểm duyệt. Các ví dụ định lượng sau là bài tập do nhóm biên soạn với số liệu đầu vào nêu rõ, không phải kết quả thực nghiệm sư phạm hay số đo phóng xạ thực tế.
+@195
+Học liệu cấu trúc gồm sơ đồ thí nghiệm tán xạ, biểu diễn proton–neutron và bảng kí hiệu đồng vị. Học sinh dự đoán phân bố hướng đi của α nếu điện tích dương phân bố đều, đối chiếu mô tả quan sát lịch sử rồi giải thích vì sao cần mô hình hạt nhân tập trung. Sau đó xác định 6 proton và 8 neutron của carbon-14, so sánh với carbon-12. Sản phẩm là sơ đồ có chú giải và bảng A, Z, Nn, không chỉ ảnh chụp mô hình.
+Giáo viên kiểm tra việc biểu diễn electron nằm ngoài hạt nhân, điện tích α là +2e và kích thước hình không theo tỉ lệ thật. AI chỉ gợi câu hỏi đối chiếu giả thuyết với quan sát; nếu đưa con số tán xạ cụ thể, học sinh phải tìm nguồn trước sử dụng.
+@196
+Học liệu liên kết dùng hai quy ước khối lượng được trình bày cạnh nhau để ngăn lỗi trộn dữ liệu. Với khối lượng hạt nhân, dùng proton và neutron tự do; với khối lượng nguyên tử trung hòa, dùng khối lượng nguyên tử hydrogen, bỏ qua chênh lệch năng lượng liên kết electron ở mức chính xác bài học (Urone & Hinrichs, 2022).
+!eq binding
+!eq atomic
+!eq energy
+Ví dụ dùng mH = 1,007825 u, mn = 1,008665 u và m nguyên tử He-4 = 4,002603 u: Δm = 0,030377 u, Elk ≈ 28,296 MeV, Elk/A ≈ 7,074 MeV/nucleon. Học sinh nêu quy ước trước khi thay số và kiểm tra cỡ lớn. Năng lượng liên kết riêng là chỉ báo mức liên kết trên nucleon; không đủ một mình để quyết định mọi dạng bền vững phóng xạ. Bảng so sánh cần tránh phát biểu “cứ Elk/A lớn hơn thì hoàn toàn bền hơn” không điều kiện.
+@197
+Học liệu phản ứng yêu cầu cân bằng số nucleon và điện tích, sau đó giải thích năng lượng theo chênh lệch khối lượng nghỉ. Tổng khối lượng nghỉ không bắt buộc bảo toàn riêng; tổng năng lượng và động lượng mới là các đại lượng bảo toàn của hệ kín. Phân hạch minh họa một kênh phản ứng do neutron gây ra, không mô tả hai nguyên tử uranium va chạm; nhiệt hạch là sự kết hợp các hạt nhân nhẹ trong điều kiện thích hợp.
+!eq reaction
+!eq qvalue
+Phương trình phân hạch trong đề cương là một kênh minh họa, không phải sản phẩm duy nhất của mọi phân hạch uranium. Học sinh kiểm tra A: 236 = 141 + 92 + 3 và Z: 92 = 56 + 36. Năng lượng cụ thể chỉ tính khi đề cho khối lượng đồng nhất; không gắn một giá trị chính xác cho hình minh họa thiếu dữ liệu.
+@198
+Học liệu phóng xạ gồm đồ thị kỳ vọng, hoạt động phân rã ngẫu nhiên, bảng tính và câu hỏi về đại lượng đo. Với mẫu một đồng vị, không bổ sung nguồn và bỏ qua chuỗi hạt con, N(t) là số hạt chưa phân rã kỳ vọng; H là tốc độ phân rã, có đơn vị Bq = s⁻¹.
+!eq decay
+!eq activity
+Máy đếm ghi tốc độ đếm còn phụ thuộc hiệu suất, hình học và phông. Vì vậy tốc độ đếm chỉ tỉ lệ với H khi điều kiện đo ổn định và đã xử lí phông phù hợp. Học sinh dùng N0 = 800, T = 60 s để tạo bảng kỳ vọng N(0), N(60), N(120), N(180) = 800, 400, 200, 100; đây là dữ liệu bài tập. Lặp mô phỏng ngẫu nhiên để thảo luận vì sao một lần chạy với ít hạt không nhất thiết cho đúng nửa số hạt sau T.
+@199
+Học liệu ứng dụng tổ chức thành hồ sơ vấn đề: điện hạt nhân, y học hạt nhân, chiếu xạ thực phẩm và kiểm tra vật liệu. Mỗi hồ sơ yêu cầu nêu cơ chế, lợi ích, điều kiện và một giới hạn; không biến thảo luận thành quảng bá hoặc phủ định công nghệ. Tài liệu IAEA về chiếu xạ thực phẩm và NIBIB về y học hạt nhân là nguồn đối chiếu, không thay tư vấn chuyên môn trong tình huống sức khỏe cụ thể.
+An toàn được dạy bằng nhận biết biển báo, giữ khoảng cách, giảm thời gian và che chắn thích hợp dưới sự quản lí chuyên môn. Quy luật nghịch đảo bình phương chỉ dùng gần đúng cho nguồn điểm, phát đẳng hướng trong điều kiện phù hợp; không suy ra khoảng cách an toàn tuyệt đối. Học sinh chỉ phân tích tình huống mô phỏng, không tìm nguồn phóng xạ thật.

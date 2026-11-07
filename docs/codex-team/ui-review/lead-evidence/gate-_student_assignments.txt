@@ -1,0 +1,22 @@
+Browser tab: 4, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/student/assignments".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/student/assignments
+	2 link Description: Đi đến nội dung chính, Value: localhost:3001/student/assignments#main-content
+	3 container
+		4 button (collapsed) Description: Mở menu, Secondary Actions: Expand
+		5 link Description: Học liệu Vật lí 12, Value: localhost:3001/student
+		6 button Đăng xuất
+	7 container main-content
+		8 container
+			9 text KHÔNG GIAN HỌC SINH
+			10 heading Bài tập và kiểm tra, Value: 1
+				11 text Bài tập và kiểm tra
+			12 text Các bài tập và yêu cầu thực hành giáo viên giao cho lớp.
+		13 container
+			14 heading Chưa có bài tập, Value: 2
+				15 text Chưa có bài tập
+			16 text Khi giáo viên giao bài, nhiệm vụ sẽ hiển thị tại đây.
+			17 link Description: Mở chương trình học, Value: localhost:3001/student/curriculum
+	18 container AI hỗ trợ học tập
+		19 button (collapsed) Description: Mở khung AI học tập, Secondary Actions: Expand
+
+The focused UI element is 4 button (collapsed) Description: Mở menu, Secondary Actions: Expand

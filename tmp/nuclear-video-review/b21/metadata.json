@@ -1,0 +1,14 @@
+{
+  "codec": "h264",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 2160,
+  "seconds": 72,
+  "bytes": 4462380,
+  "renderedMotionFrames": 384,
+  "repairedMotionFrames": [
+    779,
+    780
+  ]
+}

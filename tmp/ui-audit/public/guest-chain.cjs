@@ -1,0 +1,37 @@
+const {chromium}=require(process.env.PLAYWRIGHT_CORE_PATH || process.env.HOME+'/.gemini/antigravity/brain/17e91277-4016-4e60-920d-e3b6e5d338ed/scratch/pg-harness/node_modules/playwright-core');
+const assert=require('node:assert/strict');
+const fs=require('node:fs/promises');
+const path=require('node:path');
+const base=process.env.BASE_URL||'http://127.0.0.1:3476';
+const dest='tmp/ui-audit/public';
+(async()=>{const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});const report=[];
+try{for(const width of [1366,390]){
+ const context=await browser.newContext({viewport:{width,height:width===390?844:900},isMobile:width===390,hasTouch:width===390});
+ const page=await context.newPage();const writes=[];const errors=[];
+ page.on('request',r=>{if(['POST','PUT','PATCH','DELETE'].includes(r.method()))writes.push({method:r.method(),url:r.url()});});
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base,{waitUntil:'domcontentloaded'});
+ const nav=page.getByRole('navigation',{name:'Điều hướng công khai',exact:true});
+ if(width<500){await page.getByRole('button',{name:'Mở menu',exact:true}).click();await nav.getByRole('link',{name:'Kho học liệu',exact:true}).waitFor({state:'visible'});await page.keyboard.press('Escape');assert.equal(await page.getByRole('button',{name:'Mở menu',exact:true}).getAttribute('aria-expanded'),'false');await page.getByRole('button',{name:'Mở menu',exact:true}).click();}
+ await nav.getByRole('link',{name:'Kho học liệu',exact:true}).click();
+ await page.waitForURL(u=>u.pathname==='/hoc-lieu');
+ assert.equal(await page.locator('aside.portal-sidebar').count(),0,'Guest library should use shared public header');
+ await page.getByRole('link',{name:'Mô hình và video B21–B25',exact:true}).click();
+ await page.waitForURL(u=>u.pathname==='/hoc-lieu/phong-hat-nhan');
+ await page.getByRole('heading',{level:1,name:'Cấu trúc hạt nhân',exact:true}).waitFor();
+ await page.locator('#video').scrollIntoViewIfNeeded();
+ assert.equal(await page.locator('video').count(),0,'Video element should be loaded on demand');
+ await page.getByRole('button',{name:/Mở video B21/}).click();
+ await page.waitForFunction(()=>document.querySelector('video')?.readyState>=1);
+ const metadata=await page.locator('video').evaluate(v=>({duration:v.duration,paused:v.paused,controls:v.controls,autoplay:v.autoplay}));
+ assert(metadata.paused&&metadata.controls&&!metadata.autoplay);
+ await page.screenshot({path:`docs/previews/ui-consistency/after/guest-video-${width}.png`});
+ await page.goBack({waitUntil:'domcontentloaded'});
+ assert.equal(new URL(page.url()).pathname,'/hoc-lieu');
+ assert.equal(await page.locator('video').count(),0);
+ await page.getByRole('heading',{name:'Chương 4: Vật lí hạt nhân',level:1,exact:true}).waitFor();
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth),width);
+ assert.deepEqual(writes,[],'Guest browsing should not write data');assert.deepEqual(errors,[]);
+ report.push({width,chain:['home','library','B21-model','video-open-on-demand','back-to-library'],mobileMenuEscape:width<500,metadata,writes,errors});
+ console.log('PASS guest chain',width);await context.close();
+}await fs.writeFile(path.join(dest,'guest-chain.json'),JSON.stringify({base,checkedAt:new Date().toISOString(),report},null,2)+'\n');}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

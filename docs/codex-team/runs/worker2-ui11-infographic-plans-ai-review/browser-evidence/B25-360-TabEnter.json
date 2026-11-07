@@ -1,0 +1,10 @@
+{
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+  "size": [
+    360,
+    800
+  ],
+  "focus": "2. Đọc đồ thị",
+  "pressed": "true",
+  "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị."
+}

@@ -1,0 +1,869 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Hướng dẫn" [ref=e9] [cursor=pointer]
+        - generic [ref=e13]:
+          - link "Trang chủ YouTube" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]: VN
+        - button "Bỏ qua điều hướng" [ref=e24] [cursor=pointer]
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Tìm kiếm" [expanded] [ref=e34]
+              - button [ref=e37] [cursor=pointer]
+            - button "Search" [ref=e38] [cursor=pointer]
+        - generic [ref=e43]:
+          - button "Tìm kiếm bằng giọng nói" [ref=e45] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "Cài đặt" [ref=e55] [cursor=pointer]
+        - link "Đăng nhập" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DbVlwH1kfDeg&hl=vi&ec=65620
+  - main [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e72]:
+          - generic [ref=e75] [cursor=pointer]
+          - complementary [ref=e76]:
+            - generic "Trình phát video YouTube" [active] [ref=e79]:
+              - generic [ref=e83]:
+                - generic [ref=e84] [cursor=pointer]:
+                  - slider "Thanh trượt tìm kiếm" [ref=e85]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "Nhấp vào hoặc cuộn bảng điều khiển để tua chính xác"
+                - generic [ref=e94]:
+                  - generic [ref=e95]:
+                    - button "Tạm dừng (k)" [ref=e96] [cursor=pointer]
+                    - generic [ref=e97]:
+                      - button "Tắt tiếng (m)" [ref=e99] [cursor=pointer]
+                      - slider "Âm lượng":
+                        - generic [ref=e100] [cursor=pointer]
+                    - button "0 Phút 0 Giây / 11 Phút 23 Giây" [ref=e103] [cursor=pointer]: 0:00 / 11:23
+                  - generic [ref=e104]:
+                    - generic [ref=e105]:
+                      - button "Chế độ tự động phát đang bật" [ref=e106] [cursor=pointer]
+                      - button "Không có phụ đề" [ref=e109] [cursor=pointer]
+                      - button "Cài đặt" [ref=e111] [cursor=pointer]
+                    - generic [ref=e112]:
+                      - button "Chế độ rạp chiếu phim (t)" [ref=e113] [cursor=pointer]
+                      - button "Toàn màn hình (f)" [ref=e114] [cursor=pointer]
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e118]:
+              - generic [ref=e120]:
+                - heading "RutherfordÂ s gold foil experiment | Electronic structure of atoms | Chemistry | Khan Academy" [level=1] [ref=e121]
+                - img "Hoạt động gây quỹ" [ref=e126]
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - generic [ref=e130]:
+                    - link [ref=e131] [cursor=pointer]:
+                      - /url: /@khanacademy
+                      - img "Khan Academy" [ref=e133]
+                    - generic [ref=e134]:
+                      - generic [ref=e135]:
+                        - generic "Khan Academy" [ref=e138]:
+                          - link "Khan Academy" [ref=e139] [cursor=pointer]:
+                            - /url: /@khanacademy
+                        - img "Đã xác minh" [ref=e144]
+                      - generic "9,48 triệu người đăng ký" [ref=e148]: 9,48 Tr người đăng ký
+                  - button "Đăng ký Khan Academy." [ref=e154] [cursor=pointer]:
+                    - generic: Đăng ký
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - generic [ref=e166]:
+                      - button "cùng 708 người khác thích video này" [ref=e170] [cursor=pointer]:
+                        - generic: "708"
+                      - button "Không thích video này" [ref=e177] [cursor=pointer]
+                    - button "Chia sẻ" [ref=e183] [cursor=pointer]
+                  - generic [ref=e187]:
+                    - generic [ref=e189]:
+                      - button "Tải xuống" [ref=e191] [cursor=pointer]
+                      - tooltip "tooltip"
+                    - button "Lưu vào danh sách phát" [ref=e197] [cursor=pointer]:
+                      - generic: Lưu
+                  - button "Thao tác khác" [ref=e202] [cursor=pointer]
+              - generic [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]:
+                  - generic [ref=e210]:
+                    - generic "178.930 lượt xem" [ref=e211]:
+                      - generic [ref=e212]:
+                        - generic [ref=e213]:
+                          - generic [ref=e215]: "1"
+                          - generic [ref=e216]: "2"
+                          - generic [ref=e217]: "3"
+                          - generic [ref=e218]: "4"
+                          - generic [ref=e219]: "5"
+                          - generic [ref=e220]: "6"
+                          - generic [ref=e221]: "7"
+                          - generic [ref=e222]: "8"
+                          - generic [ref=e223]: "9"
+                          - generic [ref=e224]: "0"
+                          - generic [ref=e225]: "1"
+                          - generic [ref=e226]: "2"
+                          - generic [ref=e227]: "3"
+                          - generic [ref=e228]: "4"
+                          - generic [ref=e229]: "5"
+                          - generic [ref=e230]: "6"
+                          - generic [ref=e231]: "7"
+                          - generic [ref=e232]: "8"
+                          - generic [ref=e233]: "9"
+                          - generic [ref=e234]: "0"
+                          - generic [ref=e235]: "1"
+                          - generic [ref=e236]: "2"
+                          - generic [ref=e237]: "3"
+                          - generic [ref=e238]: "4"
+                          - generic [ref=e239]: "5"
+                          - generic [ref=e240]: "6"
+                          - generic [ref=e241]: "7"
+                          - generic [ref=e242]: "8"
+                          - generic [ref=e243]: "9"
+                        - generic [ref=e245]:
+                          - generic [ref=e247]: "1"
+                          - generic [ref=e248]: "2"
+                          - generic [ref=e249]: "3"
+                          - generic [ref=e250]: "4"
+                          - generic [ref=e251]: "5"
+                          - generic [ref=e252]: "6"
+                          - generic [ref=e253]: "7"
+                          - generic [ref=e254]: "8"
+                          - generic [ref=e255]: "9"
+                          - generic [ref=e256]: "0"
+                          - generic [ref=e257]: "1"
+                          - generic [ref=e258]: "2"
+                          - generic [ref=e259]: "3"
+                          - generic [ref=e260]: "4"
+                          - generic [ref=e261]: "5"
+                          - generic [ref=e262]: "6"
+                          - generic [ref=e263]: "7"
+                          - generic [ref=e264]: "8"
+                          - generic [ref=e265]: "9"
+                          - generic [ref=e266]: "0"
+                          - generic [ref=e267]: "1"
+                          - generic [ref=e268]: "2"
+                          - generic [ref=e269]: "3"
+                          - generic [ref=e270]: "4"
+                          - generic [ref=e271]: "5"
+                          - generic [ref=e272]: "6"
+                          - generic [ref=e273]: "7"
+                          - generic [ref=e274]: "8"
+                          - generic [ref=e275]: "9"
+                        - generic [ref=e277]:
+                          - generic [ref=e279]: "1"
+                          - generic [ref=e280]: "2"
+                          - generic [ref=e281]: "3"
+                          - generic [ref=e282]: "4"
+                          - generic [ref=e283]: "5"
+                          - generic [ref=e284]: "6"
+                          - generic [ref=e285]: "7"
+                          - generic [ref=e286]: "8"
+                          - generic [ref=e287]: "9"
+                          - generic [ref=e288]: "0"
+                          - generic [ref=e289]: "1"
+                          - generic [ref=e290]: "2"
+                          - generic [ref=e291]: "3"
+                          - generic [ref=e292]: "4"
+                          - generic [ref=e293]: "5"
+                          - generic [ref=e294]: "6"
+                          - generic [ref=e295]: "7"
+                          - generic [ref=e296]: "8"
+                          - generic [ref=e297]: "9"
+                          - generic [ref=e298]: "0"
+                          - generic [ref=e299]: "1"
+                          - generic [ref=e300]: "2"
+                          - generic [ref=e301]: "3"
+                          - generic [ref=e302]: "4"
+                          - generic [ref=e303]: "5"
+                          - generic [ref=e304]: "6"
+                          - generic [ref=e305]: "7"
+                          - generic [ref=e306]: "8"
+                          - generic [ref=e307]: "9"
+                        - generic [ref=e309]: .
+                        - generic [ref=e313]:
+                          - generic [ref=e315]: "1"
+                          - generic [ref=e316]: "2"
+                          - generic [ref=e317]: "3"
+                          - generic [ref=e318]: "4"
+                          - generic [ref=e319]: "5"
+                          - generic [ref=e320]: "6"
+                          - generic [ref=e321]: "7"
+                          - generic [ref=e322]: "8"
+                          - generic [ref=e323]: "9"
+                          - generic [ref=e324]: "0"
+                          - generic [ref=e325]: "1"
+                          - generic [ref=e326]: "2"
+                          - generic [ref=e327]: "3"
+                          - generic [ref=e328]: "4"
+                          - generic [ref=e329]: "5"
+                          - generic [ref=e330]: "6"
+                          - generic [ref=e331]: "7"
+                          - generic [ref=e332]: "8"
+                          - generic [ref=e333]: "9"
+                          - generic [ref=e334]: "0"
+                          - generic [ref=e335]: "1"
+                          - generic [ref=e336]: "2"
+                          - generic [ref=e337]: "3"
+                          - generic [ref=e338]: "4"
+                          - generic [ref=e339]: "5"
+                          - generic [ref=e340]: "6"
+                          - generic [ref=e341]: "7"
+                          - generic [ref=e342]: "8"
+                          - generic [ref=e343]: "9"
+                        - generic [ref=e345]:
+                          - generic [ref=e347]: "1"
+                          - generic [ref=e348]: "2"
+                          - generic [ref=e349]: "3"
+                          - generic [ref=e350]: "4"
+                          - generic [ref=e351]: "5"
+                          - generic [ref=e352]: "6"
+                          - generic [ref=e353]: "7"
+                          - generic [ref=e354]: "8"
+                          - generic [ref=e355]: "9"
+                          - generic [ref=e356]: "0"
+                          - generic [ref=e357]: "1"
+                          - generic [ref=e358]: "2"
+                          - generic [ref=e359]: "3"
+                          - generic [ref=e360]: "4"
+                          - generic [ref=e361]: "5"
+                          - generic [ref=e362]: "6"
+                          - generic [ref=e363]: "7"
+                          - generic [ref=e364]: "8"
+                          - generic [ref=e365]: "9"
+                          - generic [ref=e366]: "0"
+                          - generic [ref=e367]: "1"
+                          - generic [ref=e368]: "2"
+                          - generic [ref=e369]: "3"
+                          - generic [ref=e370]: "4"
+                          - generic [ref=e371]: "5"
+                          - generic [ref=e372]: "6"
+                          - generic [ref=e373]: "7"
+                          - generic [ref=e374]: "8"
+                          - generic [ref=e375]: "9"
+                        - generic [ref=e377]:
+                          - generic [ref=e379]: "1"
+                          - generic [ref=e380]: "2"
+                          - generic [ref=e381]: "3"
+                          - generic [ref=e382]: "4"
+                          - generic [ref=e383]: "5"
+                          - generic [ref=e384]: "6"
+                          - generic [ref=e385]: "7"
+                          - generic [ref=e386]: "8"
+                          - generic [ref=e387]: "9"
+                          - generic [ref=e388]: "0"
+                          - generic [ref=e389]: "1"
+                          - generic [ref=e390]: "2"
+                          - generic [ref=e391]: "3"
+                          - generic [ref=e392]: "4"
+                          - generic [ref=e393]: "5"
+                          - generic [ref=e394]: "6"
+                          - generic [ref=e395]: "7"
+                          - generic [ref=e396]: "8"
+                          - generic [ref=e397]: "9"
+                          - generic [ref=e398]: "0"
+                          - generic [ref=e399]: "1"
+                          - generic [ref=e400]: "2"
+                          - generic [ref=e401]: "3"
+                          - generic [ref=e402]: "4"
+                          - generic [ref=e403]: "5"
+                          - generic [ref=e404]: "6"
+                          - generic [ref=e405]: "7"
+                          - generic [ref=e406]: "8"
+                          - generic [ref=e407]: "9"
+                      - generic [ref=e409]: lượt xem
+                    - generic "24 thg" [ref=e410]:
+                      - generic [ref=e411]:
+                        - generic [ref=e412]:
+                          - generic [ref=e414]: "1"
+                          - generic [ref=e415]: "2"
+                          - generic [ref=e416]: "3"
+                          - generic [ref=e417]: "4"
+                          - generic [ref=e418]: "5"
+                          - generic [ref=e419]: "6"
+                          - generic [ref=e420]: "7"
+                          - generic [ref=e421]: "8"
+                          - generic [ref=e422]: "9"
+                          - generic [ref=e423]: "0"
+                          - generic [ref=e424]: "1"
+                          - generic [ref=e425]: "2"
+                          - generic [ref=e426]: "3"
+                          - generic [ref=e427]: "4"
+                          - generic [ref=e428]: "5"
+                          - generic [ref=e429]: "6"
+                          - generic [ref=e430]: "7"
+                          - generic [ref=e431]: "8"
+                          - generic [ref=e432]: "9"
+                          - generic [ref=e433]: "0"
+                          - generic [ref=e434]: "1"
+                          - generic [ref=e435]: "2"
+                          - generic [ref=e436]: "3"
+                          - generic [ref=e437]: "4"
+                          - generic [ref=e438]: "5"
+                          - generic [ref=e439]: "6"
+                          - generic [ref=e440]: "7"
+                          - generic [ref=e441]: "8"
+                          - generic [ref=e442]: "9"
+                        - generic [ref=e444]:
+                          - generic [ref=e446]: "1"
+                          - generic [ref=e447]: "2"
+                          - generic [ref=e448]: "3"
+                          - generic [ref=e449]: "4"
+                          - generic [ref=e450]: "5"
+                          - generic [ref=e451]: "6"
+                          - generic [ref=e452]: "7"
+                          - generic [ref=e453]: "8"
+                          - generic [ref=e454]: "9"
+                          - generic [ref=e455]: "0"
+                          - generic [ref=e456]: "1"
+                          - generic [ref=e457]: "2"
+                          - generic [ref=e458]: "3"
+                          - generic [ref=e459]: "4"
+                          - generic [ref=e460]: "5"
+                          - generic [ref=e461]: "6"
+                          - generic [ref=e462]: "7"
+                          - generic [ref=e463]: "8"
+                          - generic [ref=e464]: "9"
+                          - generic [ref=e465]: "0"
+                          - generic [ref=e466]: "1"
+                          - generic [ref=e467]: "2"
+                          - generic [ref=e468]: "3"
+                          - generic [ref=e469]: "4"
+                          - generic [ref=e470]: "5"
+                          - generic [ref=e471]: "6"
+                          - generic [ref=e472]: "7"
+                          - generic [ref=e473]: "8"
+                          - generic [ref=e474]: "9"
+                      - generic [ref=e476]: thg
+                    - link "#YouCanLearnAnything" [ref=e478]:
+                      - /url: /hashtag/youcanlearnanything
+                  - tooltip "tooltip"
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - generic [ref=e483]:
+                      - text: "Courses on Khan Academy are always 100% free. Start practicing—and saving your progress—now:"
+                      - link "https://www.khanacademy.org/science/c..." [ref=e485]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUZZTVljSFhjSmZZRDcxbGtxNHBGMExwT3J6TnxBTl9pYzRkNlo1cTNWbnFxQmRMT3JuN1JIbFBRanJBY0NjbDV5RjNpcFBuSUQ2c2h2WFdfODRWUlRPSlhUenZiZEp6bUd5eDdtTFo0MldnVFZUWVdKLV9WNEdleHR2ZldfX0dW&q=https%3A%2F%2Fwww.khanacademy.org%2Fscience%2Fchemistry%2Felectronic-structure-of-atoms%2Fhistory-of-atomic-structure%2Fv%2Frutherfords-gold-foil-experiment&v=bVlwH1kfDeg
+                    - generic: …
+                  - button "...thêm" [ref=e486]
+            - text: •
+            - generic [ref=e488]:
+              - generic [ref=e489]:
+                - button [ref=e492] [cursor=pointer]:
+                  - generic [ref=e494]:
+                    - heading [level=2] [ref=e496]:
+                      - generic [ref=e497]:
+                        - text: Mua sắm tại cửa hàng của Khan Academy
+                        - img "Xem cửa hàng của Khan Academy" [ref=e499]
+                    - generic [ref=e502]: Từ Khan Academy Store
+                - button "Trình đơn thao tác" [ref=e506] [cursor=pointer]
+              - generic [ref=e510]:
+                - generic [ref=e512]:
+                  - generic "Give to Khan Academy $5, 133.000 ₫ , trên Khan Academy Store" [ref=e514] [cursor=pointer]: Give to Khan Academy $5
+                  - generic "Khan Academy Kids- Toddler T-Shirt 4T, 344.000 ₫ , trên Khan Academy Store" [ref=e526] [cursor=pointer]: Khan Academy Kids- Toddler T-Shirt 4T
+                  - generic "Khan Academy Die Cut Laptop Sticker, 53.000 ₫ , trên Khan Academy Store" [ref=e538] [cursor=pointer]: Khan Academy Die Cut Laptop Sticker
+                  - generic "Khan Academy Organic Cotton French Terry Zip Hoodie X-Large / Navy, 1.057.000 ₫ , trên Khan Academy Store" [ref=e550] [cursor=pointer]: Khan Academy Organic Cotton French Terry Zip Hoodie X-Large / Navy
+                  - generic "Khan Academy Logo Beanie, 264.000 ₫ , trên Khan Academy Store" [ref=e562] [cursor=pointer]: Khan Academy Logo Beanie
+                  - generic "Khan Academy Left Chest Logo Tee 2XL / White, 476.000 ₫ , trên Khan Academy Store" [ref=e574] [cursor=pointer]: Khan Academy Left Chest Logo Tee 2XL / White
+                - generic [ref=e586] [cursor=pointer]
+          - heading "Bình luận" [level=2] [ref=e596]
+      - generic [ref=e670]:
+        - generic [ref=e671]: Rất tiếc, bạn chưa thể quyên góp ở quốc gia hoặc khu vực này.
+        - generic [ref=e678]:
+          - generic [ref=e680] [cursor=pointer]:
+            - link [ref=e681]:
+              - /url: /watch?v=tlSJCG5DqzI&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e687]:
+                - generic [ref=e688]: 6:47
+            - generic [ref=e690]:
+              - generic [ref=e691]:
+                - heading "Noble gas configuration | Electronic structure of atoms | Chemistry | Khan Academy" [level=3] [ref=e692]:
+                  - link "Noble gas configuration | Electronic structure of atoms | Chemistry | Khan Academy 6 phút, 47 giây" [ref=e693]:
+                    - /url: /watch?v=tlSJCG5DqzI&pp=ugUEEgJlbg%3D%3D
+                    - text: Noble gas configuration | Electronic structure of atoms | Chemistry | Khan Academy
+                - generic [ref=e695]:
+                  - group [ref=e696]:
+                    - generic [ref=e697]: Khan Academy
+                    - generic "Đã xác minh" [ref=e698]
+                  - group [ref=e701]:
+                    - generic "371 nghìn lượt xem" [ref=e705]: 371 N
+                    - generic "10 năm trước" [ref=e706]
+                  - group [ref=e707]:
+                    - generic [ref=e708]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e714]
+          - generic [ref=e719] [cursor=pointer]:
+            - link [ref=e720]:
+              - /url: /watch?v=Zqt3btS1FwE
+              - img [ref=e726]:
+                - generic [ref=e727]: 9:18
+            - generic [ref=e729]:
+              - generic [ref=e730]:
+                - heading "Photon Energy | Physical Processes | MCAT | Khan Academy" [level=3] [ref=e731]:
+                  - link "Photon Energy | Physical Processes | MCAT | Khan Academy 9 phút, 18 giây" [ref=e732]:
+                    - /url: /watch?v=Zqt3btS1FwE
+                    - text: Photon Energy | Physical Processes | MCAT | Khan Academy
+                - generic [ref=e734]:
+                  - group [ref=e735]:
+                    - generic [ref=e736]: khanacademymedicine
+                    - generic "Đã xác minh" [ref=e737]
+                  - group [ref=e740]:
+                    - generic "419 nghìn lượt xem" [ref=e744]: 419 N
+                    - generic "12 năm trước" [ref=e745]
+              - button "Thao tác khác" [ref=e748]
+          - generic [ref=e753] [cursor=pointer]:
+            - link [ref=e754]:
+              - /url: /watch?v=GVmd-stL3e4&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e760]:
+                - generic [ref=e761]: 4:51
+            - generic [ref=e763]:
+              - generic [ref=e764]:
+                - heading "Discovery of electrons | Structure of Atom | Grade 11 | Chemistry | Khan Academy" [level=3] [ref=e765]:
+                  - link "Discovery of electrons | Structure of Atom | Grade 11 | Chemistry | Khan Academy 4 phút, 51 giây" [ref=e766]:
+                    - /url: /watch?v=GVmd-stL3e4&pp=ugUEEgJlbg%3D%3D
+                    - text: Discovery of electrons | Structure of Atom | Grade 11 | Chemistry | Khan Academy
+                - generic [ref=e768]:
+                  - group [ref=e769]:
+                    - generic [ref=e770]: Khan Academy India - English
+                  - group [ref=e771]:
+                    - generic "13 nghìn lượt xem" [ref=e775]: 13 N
+                    - generic "1 năm trước" [ref=e776]
+              - button "Thao tác khác" [ref=e779]
+          - generic [ref=e784] [cursor=pointer]:
+            - link [ref=e785]:
+              - /url: /watch?v=sNQsdrqsD_s&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e791]:
+                - generic [ref=e792]: 5:06
+            - generic [ref=e794]:
+              - generic [ref=e795]:
+                - heading "Rutherford's Gold Foil Experiment - Quick and Simple!" [level=3] [ref=e796]:
+                  - link "Rutherford's Gold Foil Experiment - Quick and Simple! 5 phút, 6 giây" [ref=e797]:
+                    - /url: /watch?v=sNQsdrqsD_s&pp=ugUEEgJlbg%3D%3D
+                    - text: Rutherford's Gold Foil Experiment - Quick and Simple!
+                - generic [ref=e799]:
+                  - group [ref=e800]:
+                    - generic [ref=e801]: The Organic Chemistry Tutor
+                    - generic "Đã xác minh" [ref=e802]
+                  - group [ref=e805]:
+                    - generic "537 nghìn lượt xem" [ref=e809]: 537 N
+                    - generic "8 năm trước" [ref=e810]
+              - button "Thao tác khác" [ref=e813]
+          - generic [ref=e818] [cursor=pointer]:
+            - link [ref=e819]:
+              - /url: /watch?v=WEPMwhNsLbU&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e825]:
+                - generic [ref=e826]: 4:33
+            - generic [ref=e828]:
+              - generic [ref=e829]:
+                - heading "The Rutherford's Gold Foil" [level=3] [ref=e830]:
+                  - link "The Rutherford's Gold Foil 4 phút, 33 giây" [ref=e831]:
+                    - /url: /watch?v=WEPMwhNsLbU&pp=ugUEEgJlbg%3D%3D
+                    - text: The Rutherford's Gold Foil
+                - generic [ref=e833]:
+                  - group [ref=e834]:
+                    - generic [ref=e835]: Free Animated Education
+                    - generic "Đã xác minh" [ref=e836]
+                  - group [ref=e839]:
+                    - generic "324 nghìn lượt xem" [ref=e843]: 324 N
+                    - generic "2 năm trước" [ref=e844]
+              - button "Thao tác khác" [ref=e847]
+          - generic [ref=e852] [cursor=pointer]:
+            - link [ref=e853]:
+              - /url: /watch?v=OFwskHrtYQ4&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e859]:
+                - generic [ref=e860]: 10:11
+            - generic [ref=e862]:
+              - generic [ref=e863]:
+                - heading "Quantum Wavefunction | Quantum physics | Physics | Khan Academy" [level=3] [ref=e864]:
+                  - link "Quantum Wavefunction | Quantum physics | Physics | Khan Academy 10 phút, 11 giây" [ref=e865]:
+                    - /url: /watch?v=OFwskHrtYQ4&pp=ugUEEgJlbg%3D%3D
+                    - text: Quantum Wavefunction | Quantum physics | Physics | Khan Academy
+                - generic [ref=e867]:
+                  - group [ref=e868]:
+                    - generic [ref=e869]: Khan Academy
+                    - generic "Đã xác minh" [ref=e870]
+                  - group [ref=e873]:
+                    - generic "518 nghìn lượt xem" [ref=e877]: 518 N
+                    - generic "8 năm trước" [ref=e878]
+                  - group [ref=e879]:
+                    - generic [ref=e880]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e886]
+          - generic [ref=e891] [cursor=pointer]:
+            - link [ref=e892]:
+              - /url: /watch?v=ds-s59DrvIk&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e898]:
+                - generic [ref=e899]: 9:49
+            - generic [ref=e901]:
+              - generic [ref=e902]:
+                - heading "Trends in the Periodic Table" [level=3] [ref=e903]:
+                  - link "Trends in the Periodic Table 9 phút, 49 giây" [ref=e904]:
+                    - /url: /watch?v=ds-s59DrvIk&pp=ugUEEgJlbg%3D%3D
+                    - text: Trends in the Periodic Table
+                - generic [ref=e906]:
+                  - group [ref=e907]:
+                    - generic [ref=e908]: Duell Chemistry
+                  - group [ref=e909]:
+                    - generic "621 nghìn lượt xem" [ref=e913]: 621 N
+                    - generic "7 năm trước" [ref=e914]
+              - button "Thao tác khác" [ref=e917]
+          - generic [ref=e922] [cursor=pointer]:
+            - link [ref=e923]:
+              - /url: /watch?v=pnPWdDOR9XE&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e929]:
+                - generic [ref=e930]: 10:44
+            - generic [ref=e932]:
+              - generic [ref=e933]:
+                - heading "Buffer capacity | Buffers, titrations, and solubility equilibria | Chemistry | Khan Academy" [level=3] [ref=e934]:
+                  - link "Buffer capacity | Buffers, titrations, and solubility equilibria | Chemistry | Khan Academy 10 phút, 44 giây" [ref=e935]:
+                    - /url: /watch?v=pnPWdDOR9XE&pp=ugUEEgJlbg%3D%3D
+                    - text: Buffer capacity | Buffers, titrations, and solubility equilibria | Chemistry | Khan Academy
+                - generic [ref=e937]:
+                  - group [ref=e938]:
+                    - generic [ref=e939]: Khan Academy
+                    - generic "Đã xác minh" [ref=e940]
+                  - group [ref=e943]:
+                    - generic "248 nghìn lượt xem" [ref=e947]: 248 N
+                    - generic "10 năm trước" [ref=e948]
+                  - group [ref=e949]:
+                    - generic [ref=e950]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e956]
+          - generic [ref=e961] [cursor=pointer]:
+            - link [ref=e962]:
+              - /url: /watch?v=v48u8hjqNBU&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e968]:
+                - generic [ref=e969]: 7:04
+            - generic [ref=e971]:
+              - generic [ref=e972]:
+                - heading "What Are The Different Atomic Models? Dalton, Rutherford, Bohr and Heisenberg Models Explained" [level=3] [ref=e973]:
+                  - link "What Are The Different Atomic Models? Dalton, Rutherford, Bohr and Heisenberg Models Explained 7 phút, 4 giây" [ref=e974]:
+                    - /url: /watch?v=v48u8hjqNBU&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: What Are The Different Atomic Models? Dalton, Rutherford, Bohr and Heisenberg Models Explained
+                - generic [ref=e976]:
+                  - group [ref=e977]:
+                    - generic [ref=e978]: Science ABC
+                    - generic "Đã xác minh" [ref=e979]
+                  - group [ref=e982]:
+                    - generic "891 nghìn lượt xem" [ref=e986]: 891 N
+                    - generic "5 năm trước" [ref=e987]
+              - button "Thao tác khác" [ref=e990]
+          - generic [ref=e995] [cursor=pointer]:
+            - link [ref=e996]:
+              - /url: /watch?v=ID7HmZdX-0w
+              - img [ref=e1002]:
+                - generic [ref=e1003]: 7:03
+            - generic [ref=e1005]:
+              - generic [ref=e1006]:
+                - heading "[HOÁ 9+12] PHẢN ỨNG XÀ PHÒNG HOÁ CHẤT BÉO | Ý NGHĨA TỪNG BƯỚC THÍ NGHIỆM | elm zai chị Nguyệt." [level=3] [ref=e1007]:
+                  - link "[HOÁ 9+12] PHẢN ỨNG XÀ PHÒNG HOÁ CHẤT BÉO | Ý NGHĨA TỪNG BƯỚC THÍ NGHIỆM | elm zai chị Nguyệt. 7 phút, 3 giây" [ref=e1008]:
+                    - /url: /watch?v=ID7HmZdX-0w
+                    - text: "[HOÁ 9+12] PHẢN ỨNG XÀ PHÒNG HOÁ CHẤT BÉO | Ý NGHĨA TỪNG BƯỚC THÍ NGHIỆM | elm zai chị Nguyệt."
+                - generic [ref=e1010]:
+                  - group [ref=e1011]:
+                    - generic [ref=e1012]: elm zai chị Nguyệt.
+                  - group [ref=e1013]:
+                    - generic "154 nghìn lượt xem" [ref=e1017]: 154 N
+                    - generic "1 năm trước" [ref=e1018]
+              - button "Thao tác khác" [ref=e1021]
+          - generic [ref=e1026] [cursor=pointer]:
+            - link [ref=e1027]:
+              - /url: /watch?v=Rd4a1X3B61w&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e1033]:
+                - generic [ref=e1034]: 7:45
+            - generic [ref=e1036]:
+              - generic [ref=e1037]:
+                - heading "Introduction to chemistry | Atoms, compounds, and ions | Chemistry | Khan Academy" [level=3] [ref=e1038]:
+                  - link "Introduction to chemistry | Atoms, compounds, and ions | Chemistry | Khan Academy 7 phút, 45 giây" [ref=e1039]:
+                    - /url: /watch?v=Rd4a1X3B61w&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: Introduction to chemistry | Atoms, compounds, and ions | Chemistry | Khan Academy
+                - generic [ref=e1041]:
+                  - group [ref=e1042]:
+                    - generic [ref=e1043]: Khan Academy
+                    - generic "Đã xác minh" [ref=e1044]
+                  - group [ref=e1047]:
+                    - generic "2,5 triệu lượt xem" [ref=e1051]: 2,5 Tr
+                    - generic "10 năm trước" [ref=e1052]
+                  - group [ref=e1053]:
+                    - generic [ref=e1054]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e1060]
+          - generic [ref=e1065] [cursor=pointer]:
+            - link [ref=e1066]:
+              - /url: /watch?v=iTRxuBxttj8
+              - img [ref=e1072]:
+                - generic [ref=e1073]: 11:20
+            - generic [ref=e1075]:
+              - generic [ref=e1076]:
+                - heading "De Broglie wavelength | Physics | Khan Academy" [level=3] [ref=e1077]:
+                  - link "De Broglie wavelength | Physics | Khan Academy 11 phút, 20 giây" [ref=e1078]:
+                    - /url: /watch?v=iTRxuBxttj8
+                    - text: De Broglie wavelength | Physics | Khan Academy
+                - generic [ref=e1080]:
+                  - group [ref=e1081]:
+                    - generic [ref=e1082]: Khan Academy Physics
+                  - group [ref=e1083]:
+                    - generic "534 nghìn lượt xem" [ref=e1087]: 534 N
+                    - generic "9 năm trước" [ref=e1088]
+              - button "Thao tác khác" [ref=e1091]
+          - generic [ref=e1096] [cursor=pointer]:
+            - link [ref=e1097]:
+              - /url: /watch?v=9SJ17nQczpQ
+              - img [ref=e1103]:
+                - generic [ref=e1104]: 13:18
+            - generic [ref=e1106]:
+              - generic [ref=e1107]:
+                - heading "Atomic Structure In Just 14 Minutes! REVISION - Super Quick ! JEE & NEET Chemistry | Pahul Sir" [level=3] [ref=e1108]:
+                  - link "Atomic Structure In Just 14 Minutes! REVISION - Super Quick ! JEE & NEET Chemistry | Pahul Sir 13 phút, 18 giây" [ref=e1109]:
+                    - /url: /watch?v=9SJ17nQczpQ
+                    - text: Atomic Structure In Just 14 Minutes! REVISION - Super Quick ! JEE & NEET Chemistry | Pahul Sir
+                - generic [ref=e1111]:
+                  - group [ref=e1112]:
+                    - generic [ref=e1113]: Catalysis by Vedantu
+                  - group [ref=e1114]:
+                    - generic "1,7 triệu lượt xem" [ref=e1118]: 1,7 Tr
+                    - generic "6 năm trước" [ref=e1119]
+              - button "Thao tác khác" [ref=e1122]
+          - generic [ref=e1127] [cursor=pointer]:
+            - link [ref=e1128]:
+              - /url: /watch?v=dNp-vP17asI&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1134]:
+                - generic [ref=e1135]: 15:59
+            - generic [ref=e1137]:
+              - generic [ref=e1138]:
+                - 'heading "Discovery of the Nucleus: Rutherford''s Gold Foil Experiment" [level=3] [ref=e1139]':
+                  - 'link "Discovery of the Nucleus: Rutherford''s Gold Foil Experiment 15 phút" [ref=e1140]':
+                    - /url: /watch?v=dNp-vP17asI&pp=ugUEEgJlbg%3D%3D
+                    - text: "Discovery of the Nucleus: Rutherford's Gold Foil Experiment"
+                - generic [ref=e1142]:
+                  - group [ref=e1143]:
+                    - generic [ref=e1144]: Tyler DeWitt
+                    - generic "Đã xác minh" [ref=e1145]
+                  - group [ref=e1148]:
+                    - generic "950 nghìn lượt xem" [ref=e1152]: 950 N
+                    - generic "13 năm trước" [ref=e1153]
+              - button "Thao tác khác" [ref=e1156]
+          - generic [ref=e1161] [cursor=pointer]:
+            - link [ref=e1162]:
+              - /url: /watch?v=9HW_09Q0BeM&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e1168]:
+                - generic [ref=e1169]: 9:37
+            - generic [ref=e1171]:
+              - generic [ref=e1172]:
+                - 'heading "Best Explanation of Chemical Bonds: Ionic, Covalent and Metallic" [level=3] [ref=e1173]':
+                  - 'link "Best Explanation of Chemical Bonds: Ionic, Covalent and Metallic 9 phút, 37 giây" [ref=e1174]':
+                    - /url: /watch?v=9HW_09Q0BeM&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: "Best Explanation of Chemical Bonds: Ionic, Covalent and Metallic"
+                - generic [ref=e1176]:
+                  - group [ref=e1177]:
+                    - generic [ref=e1178]: Brain Station Advanced
+                    - generic "Đã xác minh" [ref=e1179]
+                  - group [ref=e1182]:
+                    - generic "141 nghìn lượt xem" [ref=e1186]: 141 N
+                    - generic "5 tháng trước" [ref=e1187]
+              - button "Thao tác khác" [ref=e1190]
+          - generic [ref=e1195] [cursor=pointer]:
+            - link [ref=e1196]:
+              - /url: /watch?v=88bMVbx1dzM&pp=ugUEEgJ2aQ%3D%3D
+              - img [ref=e1202]:
+                - generic [ref=e1203]: 21:29
+            - generic [ref=e1205]:
+              - generic [ref=e1206]:
+                - heading "Điều gì sẽ xảy ra nếu bạn cứ tiếp tục phóng to?" [level=3] [ref=e1207]:
+                  - link "Điều gì sẽ xảy ra nếu bạn cứ tiếp tục phóng to? 21 phút" [ref=e1208]:
+                    - /url: /watch?v=88bMVbx1dzM&pp=ugUEEgJ2aQ%3D%3D
+                    - text: Điều gì sẽ xảy ra nếu bạn cứ tiếp tục phóng to?
+                - generic [ref=e1210]:
+                  - group [ref=e1211]:
+                    - generic [ref=e1212]: Veritasium
+                    - generic "Đã xác minh" [ref=e1213]
+                  - group [ref=e1216]:
+                    - generic "31 triệu lượt xem" [ref=e1220]: 31 Tr
+                    - generic "1 năm trước" [ref=e1221]
+                  - group [ref=e1222]:
+                    - generic [ref=e1223]: Bản lồng tiếng
+              - button "Thao tác khác" [ref=e1232]
+          - generic [ref=e1237] [cursor=pointer]:
+            - link [ref=e1238]:
+              - /url: /watch?v=iPpJQv1ScKk&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1244]:
+                - generic [ref=e1245]: 11:27
+            - generic [ref=e1247]:
+              - generic [ref=e1248]:
+                - heading "Photo electric effect & failure of wave theory | Dual nature of light | Physics | Khan Academy" [level=3] [ref=e1249]:
+                  - link "Photo electric effect & failure of wave theory | Dual nature of light | Physics | Khan Academy 11 phút, 27 giây" [ref=e1250]:
+                    - /url: /watch?v=iPpJQv1ScKk&pp=ugUEEgJlbg%3D%3D
+                    - text: Photo electric effect & failure of wave theory | Dual nature of light | Physics | Khan Academy
+                - generic [ref=e1252]:
+                  - group [ref=e1253]:
+                    - generic [ref=e1254]: Khan Academy India - English
+                  - group [ref=e1255]:
+                    - generic "91 nghìn lượt xem" [ref=e1259]: 91 N
+                    - generic "5 năm trước" [ref=e1260]
+              - button "Thao tác khác" [ref=e1263]
+          - generic [ref=e1268] [cursor=pointer]:
+            - link [ref=e1269]:
+              - /url: /watch?v=S1LDJUu4nko
+              - img [ref=e1275]:
+                - generic [ref=e1276]: 5:05
+            - generic [ref=e1278]:
+              - generic [ref=e1279]:
+                - heading "Bohr’s Atomic Model | Atoms and Molecules | Infinity Learn NEET" [level=3] [ref=e1280]:
+                  - link "Bohr’s Atomic Model | Atoms and Molecules | Infinity Learn NEET 5 phút, 5 giây" [ref=e1281]:
+                    - /url: /watch?v=S1LDJUu4nko
+                    - text: Bohr’s Atomic Model | Atoms and Molecules | Infinity Learn NEET
+                - generic [ref=e1283]:
+                  - group [ref=e1284]:
+                    - generic [ref=e1285]: Sri Chaitanya Academy NEET
+                    - generic "Đã xác minh" [ref=e1286]
+                  - group [ref=e1289]:
+                    - generic "1,8 triệu lượt xem" [ref=e1293]: 1,8 Tr
+                    - generic "8 năm trước" [ref=e1294]
+              - button "Thao tác khác" [ref=e1297]
+          - generic [ref=e1302] [cursor=pointer]:
+            - link [ref=e1303]:
+              - /url: /watch?v=dNPs-cr_6Bk&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1309]:
+                - generic [ref=e1310]: 11:30
+            - generic [ref=e1312]:
+              - generic [ref=e1313]:
+                - heading "Formal charge and dot structures | Chemical bonds | Chemistry | Khan Academy" [level=3] [ref=e1314]:
+                  - link "Formal charge and dot structures | Chemical bonds | Chemistry | Khan Academy 11 phút, 30 giây" [ref=e1315]:
+                    - /url: /watch?v=dNPs-cr_6Bk&pp=ugUEEgJlbg%3D%3D
+                    - text: Formal charge and dot structures | Chemical bonds | Chemistry | Khan Academy
+                - generic [ref=e1317]:
+                  - group [ref=e1318]:
+                    - generic [ref=e1319]: Khan Academy Organic Chemistry
+                  - group [ref=e1320]:
+                    - generic "698 nghìn lượt xem" [ref=e1324]: 698 N
+                    - generic "12 năm trước" [ref=e1325]
+              - button "Thao tác khác" [ref=e1328]
+          - generic [ref=e1333] [cursor=pointer]:
+            - link [ref=e1334]:
+              - /url: /watch?v=Rb6MguN0Uj4&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1340]:
+                - generic [ref=e1341]: 11:08
+            - generic [ref=e1343]:
+              - generic [ref=e1344]:
+                - 'heading "Discovery of the Electron: Cathode Ray Tube Experiment" [level=3] [ref=e1345]':
+                  - 'link "Discovery of the Electron: Cathode Ray Tube Experiment 11 phút, 8 giây" [ref=e1346]':
+                    - /url: /watch?v=Rb6MguN0Uj4&pp=ugUEEgJlbg%3D%3D
+                    - text: "Discovery of the Electron: Cathode Ray Tube Experiment"
+                - generic [ref=e1348]:
+                  - group [ref=e1349]:
+                    - generic [ref=e1350]: Tyler DeWitt
+                    - generic "Đã xác minh" [ref=e1351]
+                  - group [ref=e1354]:
+                    - generic "1,5 triệu lượt xem" [ref=e1358]: 1,5 Tr
+                    - generic "13 năm trước" [ref=e1359]
+              - button "Thao tác khác" [ref=e1362]
+          - generic [ref=e1367] [cursor=pointer]:
+            - link [ref=e1368]:
+              - /url: /watch?v=5CBs36jtZxY&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1374]:
+                - generic [ref=e1375]: 10:01
+            - generic [ref=e1377]:
+              - generic [ref=e1378]:
+                - heading "Ionization energy trends | Periodic table | Chemistry | Khan Academy" [level=3] [ref=e1379]:
+                  - link "Ionization energy trends | Periodic table | Chemistry | Khan Academy 10 phút, 1 giây" [ref=e1380]:
+                    - /url: /watch?v=5CBs36jtZxY&pp=ugUEEgJlbg%3D%3D
+                    - text: Ionization energy trends | Periodic table | Chemistry | Khan Academy
+                - generic [ref=e1382]:
+                  - group [ref=e1383]:
+                    - generic [ref=e1384]: Khan Academy
+                    - generic "Đã xác minh" [ref=e1385]
+                  - group [ref=e1388]:
+                    - generic "612 nghìn lượt xem" [ref=e1392]: 612 N
+                    - generic "11 năm trước" [ref=e1393]
+                  - group [ref=e1394]:
+                    - generic [ref=e1395]: Hoạt động gây quỹ
+              - button "Thao tác khác" [ref=e1401]
+          - generic [ref=e1406] [cursor=pointer]:
+            - link [ref=e1407]:
+              - /url: /watch?v=H4bvY_CkSf0
+              - img [ref=e1413]:
+                - generic [ref=e1414]: 10:05
+            - generic [ref=e1416]:
+              - generic [ref=e1417]:
+                - heading "Electron distribution in shells | Structure of an atom | Chemistry | Khan Academy" [level=3] [ref=e1418]:
+                  - link "Electron distribution in shells | Structure of an atom | Chemistry | Khan Academy 10 phút, 5 giây" [ref=e1419]:
+                    - /url: /watch?v=H4bvY_CkSf0
+                    - text: Electron distribution in shells | Structure of an atom | Chemistry | Khan Academy
+                - generic [ref=e1421]:
+                  - group [ref=e1422]:
+                    - generic [ref=e1423]: Khan Academy India - English
+                  - group [ref=e1424]:
+                    - generic "112 nghìn lượt xem" [ref=e1428]: 112 N
+                    - generic "3 năm trước" [ref=e1429]
+              - button "Thao tác khác" [ref=e1432]
+          - generic [ref=e1437] [cursor=pointer]:
+            - link [ref=e1438]:
+              - /url: /watch?v=mMzbr5rm4j8
+              - img [ref=e1444]:
+                - generic [ref=e1445]: 9:38
+            - generic [ref=e1447]:
+              - generic [ref=e1448]:
+                - heading "Concentration cell | Redox reactions and electrochemistry | Chemistry | Khan Academy" [level=3] [ref=e1449]:
+                  - link "Concentration cell | Redox reactions and electrochemistry | Chemistry | Khan Academy 9 phút, 38 giây" [ref=e1450]:
+                    - /url: /watch?v=mMzbr5rm4j8
+                    - text: Concentration cell | Redox reactions and electrochemistry | Chemistry | Khan Academy
+                - generic [ref=e1452]:
+                  - group [ref=e1453]:
+                    - generic [ref=e1454]: Khan Academy Organic Chemistry
+                  - group [ref=e1455]:
+                    - generic "99 nghìn lượt xem" [ref=e1459]: 99 N
+                    - generic "11 năm trước" [ref=e1460]
+              - button "Thao tác khác" [ref=e1463]
+          - generic [ref=e1468] [cursor=pointer]:
+            - link [ref=e1469]:
+              - /url: /watch?v=y848lHpmaJg&pp=ugUEEgJ2aQ%3D%3D
+              - img [ref=e1475]:
+                - generic [ref=e1476]: 14:56
+            - generic [ref=e1478]:
+              - generic [ref=e1479]:
+                - 'heading "Hóa học lớp 10 - Bài 1: Thành phần của nguyên tử - Kết nối tri thức" [level=3] [ref=e1480]':
+                  - 'link "Hóa học lớp 10 - Bài 1: Thành phần của nguyên tử - Kết nối tri thức 14 phút, 56 giây" [ref=e1481]':
+                    - /url: /watch?v=y848lHpmaJg&pp=ugUEEgJ2aQ%3D%3D
+                    - text: "Hóa học lớp 10 - Bài 1: Thành phần của nguyên tử - Kết nối tri thức"
+                - generic [ref=e1483]:
+                  - group [ref=e1484]:
+                    - generic [ref=e1485]: Thầy Nguyễn Chí Sơn
+                  - group [ref=e1486]:
+                    - generic "290 nghìn lượt xem" [ref=e1490]: 290 N
+                    - generic "4 năm trước" [ref=e1491]
+              - button "Thao tác khác" [ref=e1494]
+          - generic [ref=e1499] [cursor=pointer]:
+            - link [ref=e1500]:
+              - /url: /watch?v=Vf0I_2O7zUA&pp=ugUHEgVlbi1VUw%3D%3D
+              - img [ref=e1506]:
+                - generic [ref=e1507]: 33:07
+            - generic [ref=e1509]:
+              - generic [ref=e1510]:
+                - heading "A Brief History Of Atom | Democritus to Quantum | Atomic Models" [level=3] [ref=e1511]:
+                  - link "A Brief History Of Atom | Democritus to Quantum | Atomic Models 33 phút" [ref=e1512]:
+                    - /url: /watch?v=Vf0I_2O7zUA&pp=ugUHEgVlbi1VUw%3D%3D
+                    - text: A Brief History Of Atom | Democritus to Quantum | Atomic Models
+                - generic [ref=e1514]:
+                  - group [ref=e1515]:
+                    - generic [ref=e1516]: Klonusk
+                  - group [ref=e1517]:
+                    - generic "761 nghìn lượt xem" [ref=e1521]: 761 N
+                    - generic "2 năm trước" [ref=e1522]
+              - button "Thao tác khác" [ref=e1525]
+          - generic [ref=e1530] [cursor=pointer]:
+            - link [ref=e1531]:
+              - /url: /watch?v=wxN6Z1PtGjA&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1537]:
+                - generic [ref=e1538]: 6:43
+            - generic [ref=e1540]:
+              - generic [ref=e1541]:
+                - heading "Rutherford's Atomic Model, Chemistry" [level=3] [ref=e1542]:
+                  - link "Rutherford's Atomic Model, Chemistry 6 phút, 43 giây" [ref=e1543]:
+                    - /url: /watch?v=wxN6Z1PtGjA&pp=ugUEEgJlbg%3D%3D
+                    - text: Rutherford's Atomic Model, Chemistry
+                - generic [ref=e1545]:
+                  - group [ref=e1546]:
+                    - generic [ref=e1547]: Najam Academy
+                    - generic "Đã xác minh" [ref=e1548]
+                  - group [ref=e1551]:
+                    - generic "385 nghìn lượt xem" [ref=e1555]: 385 N
+                    - generic "5 năm trước" [ref=e1556]
+              - button "Thao tác khác" [ref=e1559]

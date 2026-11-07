@@ -1,0 +1,6 @@
+Worker 3 round 2: CHƯA ĐẠT điều kiện review; UX/3D CHƯA KIỂM CHỨNG.
+All supplied extracted documents and actual AGENTS/TEAM/acceptance read.
+MCP tools discovered. browser_resize(1280,900) and browser_navigate(http://localhost:3001) both returned: MCP tool call requires approval, but approval policy is never.
+0 browser interactions, 0 screenshots. No shell browser launch. No workspace edits, auth/secrets/env reads, DB writes or commits.
+W3-V2-01: Blocker kiểm thử. Sources hd P6–10; NCKH P121–122; article P67–68/P91–95/P197–199. Acceptance: enable isolated MCP operations, then test 1280/390/keyboard/library/B22/visual-learning/public teacher tools.
+No confirmed product defects or exact files proposed. Account workflows unverified: no designated test account or verified DB.

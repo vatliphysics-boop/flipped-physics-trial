@@ -1,0 +1,9 @@
+{
+  "time": "2026-10-05T11:57:50.232Z",
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+  "focus": "<div id=\"_R_mrinebn5rlb_\" class=\"infographic-viewport is-zoomed\" role=\"region\" aria-label=\"Hình phóng to, cuộn để xem các phần\" tabindex=\"0\"><div class=\"infographic-image\"><img src=\"/illustrations/B25-diagram.svg\" alt=\"Thực hành đo chu kì bán rã. Bảng số liệu: Mô hình có N₀ = 800, N(T) = 400, N(2T) = 200. Đọc đồ thị: Đường N(t) giảm theo hàm mũ; không phải đường thẳng. Phân biệt N và H: H = λN có cùng xu hướng giảm khi λ không đổi.\"><button class=\"infographic-pin \" style=\"left:15%;top:31%\" aria-label=\"Điểm 1: Bảng số liệu\" aria-pressed=\"false\">1</button><button class=\"infographic-pin is-active\" style=\"left:59%;top:46%\" aria-label=\"Điểm 2: Đọc đồ thị\" aria-pressed=\"true\">2</button><button class=\"infographic-pin \" style=\"left:82%;top:27%\" aria-label=\"Điểm 3: Phân biệt N và H\" aria-pressed=\"false\">3</button></div></div>",
+  "zoom": "true",
+  "scroll": 40,
+  "scrollWidth": 1000,
+  "clientWidth": 294
+}

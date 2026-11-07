@@ -1,0 +1,7 @@
+{
+  "id": "worker3-round0",
+  "worker": 3,
+  "mode": "review",
+  "timeout_seconds": 900,
+  "task": "Vòng 0: đọc đầy đủ căn cứ; đánh giá UX/3D công khai trên http://localhost:3001 nếu có browser thực. Không sửa file. Đề xuất danh sách file cụ thể cho UX/hiển thị 3D, ghi rõ phần nào chưa thao tác. Không đổi fission-model hay nội dung khoa học. Kiểm tra đường dẫn và nêu 3-8 vấn đề có căn cứ thực, không tạo yêu cầu thẩm mỹ ngoài phạm vi. Trả kết quả thực hiện, không chỉ plan."
+}

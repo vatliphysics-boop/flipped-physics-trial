@@ -1,0 +1,19 @@
+{
+  "id": "worker3-ui11-all-simulations-review",
+  "worker": 3,
+  "mode": "review",
+  "timeout_seconds": 1500,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [
+    "worker3-ui10-infographic-auth-fix"
+  ],
+  "context_files": [
+    "docs/codex-team/ui-review/TEAM_HANDOFF.md",
+    "docs/codex-team/ui-review/coverage.md",
+    "docs/codex-team/ui-review/simulations.json",
+    "docs/codex-team/ui-review/version-ui10.json",
+    "docs/codex-team/runs/worker3-ui10-infographic-auth-fix/detailed-report.md"
+  ],
+  "task": "Rà soát thực tế TOÀN BỘ17 mô phỏng trong simulations.json ở đúng Documents/localhost3001, web hash version-ui10. Đây review CHỈ ĐỌC, không source/CSS/DOCX/env/DB. Vai Worker3 UI/interaction; khoa học chỉ ghi nghi vấn/căn cứ để root xử lý. Đọc source cơ chế điều khiển khi cần, nhưng không dùng mã thay thao tác/ảnh. Chrome/Playwright qua browser MCP; Node bundled/browser headless được phép như UI10 khi MCP không đủ lặp, phải lưu log thực tế và mở ảnh. Đừng dùng cách launch bị từ chối nguyên trạng. Mỗi17 ca: mở URL tài nguyên thật, trạng thái ban đầu, thao tác điều khiển/slider/select, chạy/dừng/đặt lại nếu có, camera kéo/zoom nếu có, hướng dẫn/nhãn/đơn vị/giới hạn. Không bắt chức năng không có; ghi N/A có lý do. Ít nhất1440x900 và390x844 cho từng17, cộng1280x720/768x1024/360x800 với các component phức tạp và mọi ca tràn/chồng. Ghi actual viewport/hash thời điểm, overflow document vs vùng cuộn có chủ đích, công thức/labels bị che, target/focus/disabled/feedback, camera/animation quan sát được. Lưu và MỞ xem ảnh tất cả17 desktop/mobile; hình dài có thể chụp section/canvas rõ nhưng cần ảnh viewport quanh nó. Không suy toàn trang đạt từ canvas. IDs lỗi UI-0200 trở lên. Mỗi lỗi đủ route/state/size/severity/repro/evidence/căn cứ learningimpact/acceptance/cause. Đưa báo cáo nháp và JSON sau từng5 mô phỏng rồi final trước deadline. Nếu thiếu nguồn/thao tác/quyền nêu CHƯA KIỂM rõ. Không cần chạy fullbuild; không đóng lỗi thay W2; không thêm yêu cầu mỹ thuật không có tác động. Máy chủ vừa restart PID40707 đúng Documents, nếu lỗi kết nối thử lại một lần sau snapshot, ghi sự cố thực. Hai source chính đã sửa UI0002/3 độc lập, metadata audit không quy cho bạn. Report-final.md trong TMP để root thu hồi."
+}

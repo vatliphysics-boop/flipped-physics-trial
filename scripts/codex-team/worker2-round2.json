@@ -1,0 +1,11 @@
+{
+  "id": "worker2-round2",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 1200,
+  "previous_runs": [
+    "worker2-round1b"
+  ],
+  "task": "Vòng 2: dùng MCP team_browser sẵn trong tools, KHÔNG khởi chạy browser qua shell nữa (macOS chặn MachPort). MCP Playwright chạy host riêng, Chrome đã cài, isolated không lấy session người dùng. Workspace read-only, ảnh ở TMP riêng. Không đăng nhập/tạo tài khoản/ghi DB chưa xác minh. Vòng 1: blocker sandbox đã đổi phương án bằng permissions profile kế thừa :read-only, workspace chỉ đọc, network hoạt động, thư mục TMP riêng writable. Thực sự dùng bundled Playwright/Chromium theo thông tin ở cuối prompt. Chụp ảnh desktop 1280 và mobile 390 tại TMP. Thử kho học liệu, lọc B21–B25, 3D B22 bắt đầu/tạm dừng/timeline/reset, bảng bán rã B23 thay T/N0, notebook lưu tải lại, chatbot một câu B23, các công cụ giáo viên công khai. Không thay DB/tài khoản. Nêu vấn đề có chứng cứ, kể cả luồng private chưa thể kiểm chứng. Với W2-00-03/04 kiểm tra bản chạy có còn lỗi không, phân biệt ghi chú bài báo lịch sử. Đánh giá việc có dùng được độc lập, không chỉ tồn tại nút. Không sửa DOCX ở vòng này.",
+  "browser_mcp": true
+}

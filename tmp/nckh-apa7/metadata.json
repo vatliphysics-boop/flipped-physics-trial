@@ -1,0 +1,647 @@
+[
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Almasri, F."
+    ],
+    "PY": "2024",
+    "UR": "https://doi.org/10.1007/s11165-024-10176-3",
+    "DO": "10.1007/s11165-024-10176-3",
+    "ID": "NCKH01",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Exploring the impact of artificial intelligence in teaching and learning of science: A systematic review of empirical research",
+    "JO": "Research in Science Education",
+    "VL": "54",
+    "IS": "5",
+    "SP": "977",
+    "EP": "997",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Banihashem, S. K.",
+      "Bond, M.",
+      "Bergdahl, N.",
+      "Khosravi, H.",
+      "Noroozi, O."
+    ],
+    "PY": "2025",
+    "UR": "https://doi.org/10.1186/s41239-025-00548-8",
+    "DO": "10.1186/s41239-025-00548-8",
+    "ID": "NCKH02",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "A systematic mapping review at the intersection of artificial intelligence and self-regulated learning",
+    "JO": "International Journal of Educational Technology in Higher Education",
+    "VL": "22",
+    "IS": null,
+    "SP": "50",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "CONF",
+    "AU": [
+      "Bishop, J. L.",
+      "Verleger, M. A."
+    ],
+    "PY": "2013",
+    "UR": "https://doi.org/10.18260/1-2--22585",
+    "DO": "10.18260/1-2--22585",
+    "ID": "NCKH03",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "The flipped classroom: A survey of the research",
+    "T2": "2013 ASEE Annual Conference & Exposition",
+    "SP": "23.1200.1",
+    "EP": "23.1200.18",
+    "PB": "ASEE Conferences",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Bộ Giáo dục và Đào tạo,"
+    ],
+    "PY": "2018",
+    "UR": "https://vbpl.moj.gov.vn/bogiaoducdaotao/Pages/vbpq-toanvan.aspx?ItemID=146721",
+    "DO": null,
+    "ID": "NCKH04",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Chương trình giáo dục phổ thông: Chương trình tổng thể và Chương trình môn Vật lí",
+    "M1": "Thông tư 32/2018/TT-BGDĐT",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Bộ Giáo dục và Đào tạo,"
+    ],
+    "PY": "2020",
+    "UR": "https://tunghia.quangngai.edu.vn/tai-nguyen/cac-phu-luc-kem-theo-cong-van-5512-bgddt-gdtrh-ngay-18-12-2020-cua-bo-giao-duc-va-dao-tao",
+    "DO": null,
+    "ID": "NCKH05",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Công văn 5512/BGDĐT-GDTrH về việc xây dựng và tổ chức thực hiện kế hoạch giáo dục của nhà trường",
+    "M1": "5512/BGDĐT-GDTrH; Phụ lục IV",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Bộ Giáo dục và Đào tạo,"
+    ],
+    "PY": "2021",
+    "UR": "https://vanban.chinhphu.vn/?docid=203926&pageid=27160",
+    "DO": null,
+    "ID": "NCKH06",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Thông tư 22/2021/TT-BGDĐT quy định về đánh giá học sinh trung học cơ sở và học sinh trung học phổ thông",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Bộ Giáo dục và Đào tạo,"
+    ],
+    "PY": "2024",
+    "UR": "https://pgddtcumgar.edu.vn/wp-content/uploads/2024/12/Cong-van-7991-huong-dan-KTDGDK.pdf",
+    "DO": null,
+    "ID": "NCKH07",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Công văn 7991/BGDĐT-GDTrH về việc thực hiện kiểm tra, đánh giá đối với cấp THCS, THPT",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Bộ Giáo dục và Đào tạo,"
+    ],
+    "PY": "2026",
+    "UR": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/10/89-bgddt.signed.pdf",
+    "DO": null,
+    "ID": "NCKH08",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Thông tư 89/2026/TT-BGDĐT sửa đổi, bổ sung quy định đánh giá học sinh ban hành kèm Thông tư 27/2020 và Thông tư 22/2021",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "VIDEO",
+    "AU": [
+      "FuseSchool – Global Education,"
+    ],
+    "PY": null,
+    "UR": "https://www.youtube.com/watch?v=D91T-B-PVE0",
+    "DO": null,
+    "ID": "NCKH27",
+    "KW": [
+      "bai_bao"
+    ],
+    "TI": "What is nuclear fission? | Radioactivity | Physics | FuseSchool",
+    "PB": "YouTube",
+    "N1": "Dùng trong: bai_bao. Chưa xác minh ngày đăng video; không tự điền năm. Cần xem lại toàn bộ video trước khi dùng dạy học."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Huỳnh, Thị Yến Nhi",
+      "Nguyễn, Thị Thu Hương",
+      "Lê, Anh Đức"
+    ],
+    "PY": "2026",
+    "UR": "https://doi.org/10.54607/hcmue.js.23.SI1.5418(2026)",
+    "DO": "10.54607/hcmue.js.23.SI1.5418(2026)",
+    "ID": "NCKH09",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Tích hợp lịch sử vật lí nguyên tử và hạt nhân trong giảng dạy",
+    "JO": "Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh",
+    "VL": "23",
+    "IS": "SI1",
+    "SP": "537",
+    "EP": "547",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "ELEC",
+    "AU": [
+      "International Atomic Energy Agency,"
+    ],
+    "PY": null,
+    "UR": "https://www.iaea.org/topics/food-irradiation",
+    "DO": null,
+    "ID": "NCKH10",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Food irradiation",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Krathwohl, D. R."
+    ],
+    "PY": "2002",
+    "UR": "https://doi.org/10.1207/s15430421tip4104_2",
+    "DO": "10.1207/s15430421tip4104_2",
+    "ID": "NCKH28",
+    "KW": [
+      "bai_bao"
+    ],
+    "TI": "A revision of Bloom’s taxonomy: An overview",
+    "JO": "Theory Into Practice",
+    "VL": "41",
+    "IS": "4",
+    "SP": "212",
+    "EP": "218",
+    "N1": "Dùng trong: bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Liu, L.",
+      "Hew, K. F.",
+      "Du, J."
+    ],
+    "PY": "2024",
+    "UR": "https://doi.org/10.1016/j.ijer.2024.102319",
+    "DO": "10.1016/j.ijer.2024.102319",
+    "ID": "NCKH11",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Design principles for supporting self-regulated learning in flipped classrooms: A systematic review",
+    "JO": "International Journal of Educational Research",
+    "VL": "124",
+    "IS": null,
+    "SP": "102319",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Mai, Hoàng Phương",
+      "Hồ, Văn Tài",
+      "Phan, Thanh Thúy",
+      "Phạm, Thụy Phương Uyên",
+      "Nguyễn, Thị Mỹ Duyên"
+    ],
+    "PY": "2024",
+    "UR": "https://doi.org/10.34238/tnu-jst.9209",
+    "DO": "10.34238/tnu-jst.9209",
+    "ID": "NCKH12",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung Động lượng – Vật lí 10 theo mô hình lớp học đảo ngược",
+    "JO": "TNU Journal of Science and Technology",
+    "VL": "229",
+    "IS": "01/S",
+    "SP": "197",
+    "EP": "206",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Mai, Xuân Đào",
+      "Phan, Đồng Châu Thủy"
+    ],
+    "PY": "2020",
+    "UR": "https://doi.org/10.54607/hcmue.js.17.8.2825(2020)",
+    "DO": "10.54607/hcmue.js.17.8.2825(2020)",
+    "ID": "NCKH13",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Xây dựng và sử dụng học liệu điện tử theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học cho học sinh THPT ở Tân Uyên, tỉnh Bình Dương",
+    "JO": "Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh",
+    "VL": "17",
+    "IS": "8",
+    "SP": "1421",
+    "EP": "1429",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "BOOK",
+    "AU": [
+      "McKenney, S.",
+      "Reeves, T. C."
+    ],
+    "PY": "2019",
+    "UR": "https://www.routledge.com/Conducting-Educational-Design-Research-2nd-Edition/McKenney-Reeves/p/book/9781138095564",
+    "DO": null,
+    "ID": "NCKH29",
+    "KW": [
+      "bai_bao"
+    ],
+    "TI": "Conducting educational design research",
+    "ET": "2",
+    "PB": "Routledge",
+    "N1": "Dùng trong: bai_bao."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Miao, F.",
+      "Cukurova, M."
+    ],
+    "PY": "2024",
+    "UR": "https://www.unesco.org/en/articles/ai-competency-framework-teachers",
+    "DO": null,
+    "ID": "NCKH30",
+    "KW": [
+      "bai_bao"
+    ],
+    "TI": "AI competency framework for teachers",
+    "PB": "UNESCO",
+    "N1": "Dùng trong: bai_bao."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Miao, F.",
+      "Holmes, W."
+    ],
+    "PY": "2023",
+    "UR": "https://doi.org/10.54675/EWZM9535",
+    "DO": "10.54675/EWZM9535",
+    "ID": "NCKH14",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Guidance for generative AI in education and research",
+    "PB": "UNESCO",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Morales López, A. I.",
+      "Tuzón Marco, P."
+    ],
+    "PY": "2022",
+    "UR": "https://doi.org/10.1007/s11191-021-00251-w",
+    "DO": "10.1007/s11191-021-00251-w",
+    "ID": "NCKH15",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Misconceptions, knowledge, and attitudes towards the phenomenon of radioactivity",
+    "JO": "Science & Education",
+    "VL": "31",
+    "IS": "2",
+    "SP": "405",
+    "EP": "426",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "ELEC",
+    "AU": [
+      "National Institute of Biomedical Imaging and Bioengineering,"
+    ],
+    "PY": null,
+    "UR": "https://www.nibib.nih.gov/science-education/science-topics/nuclear-medicine",
+    "DO": null,
+    "ID": "NCKH16",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Nuclear medicine",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Nguyen, N. T. L.",
+      "Le, H. T. T.",
+      "Nguyen, N. T.",
+      "Dang, T. M."
+    ],
+    "PY": "2020",
+    "UR": "https://doi.org/10.52296/vje.2020.8",
+    "DO": "10.52296/vje.2020.8",
+    "ID": "NCKH17",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Using blended learning model in improving self-study competence in physics subject of high school students",
+    "JO": "Vietnam Journal of Education",
+    "VL": "4",
+    "IS": "1",
+    "SP": "53",
+    "EP": "60",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Nguyễn, Thị Thu Thủy",
+      "Nguyễn, Thị Trúc Linh",
+      "Hồ, Sỹ Chương"
+    ],
+    "PY": "2026",
+    "UR": "https://vjol.info.vn/tckh-dhdongnai/vi/article/view/217317",
+    "DO": null,
+    "ID": "NCKH18",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Một số biện pháp kích thích hứng thú học tập cho học sinh trong dạy học Vật lí với sự hỗ trợ của các công cụ trí tuệ nhân tạo",
+    "JO": "Tạp chí Khoa học Trường Đại học Đồng Nai",
+    "VL": "211",
+    "IS": "02",
+    "SP": "1",
+    "EP": "15",
+    "N1": "Dùng trong: de_cuong. Đã xác minh thông tin xuất bản; toàn văn trực tuyến chưa truy xuất được trong lần rà soát trước."
+  },
+  {
+    "TY": "ELEC",
+    "AU": [
+      "Ollama,"
+    ],
+    "PY": null,
+    "UR": "https://ollama.com/library/qwen3:4b-instruct-2507-q4_K_M",
+    "DO": null,
+    "ID": "NCKH31",
+    "KW": [
+      "bai_bao"
+    ],
+    "TI": "qwen3:4b-instruct-2507-q4_K_M",
+    "N1": "Dùng trong: bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Panadero, E."
+    ],
+    "PY": "2017",
+    "UR": "https://doi.org/10.3389/fpsyg.2017.00422",
+    "DO": "10.3389/fpsyg.2017.00422",
+    "ID": "NCKH19",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "A review of self-regulated learning: Six models and four directions for research",
+    "JO": "Frontiers in Psychology",
+    "VL": "8",
+    "IS": null,
+    "SP": "422",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "RPRT",
+    "AU": [
+      "Roy, P.",
+      "Poet, H.",
+      "Staunton, R.",
+      "Aston, K.",
+      "Thomas, D."
+    ],
+    "PY": "2024",
+    "UR": "https://d2tic4wvo1iusb.cloudfront.net/production/documents/projects/chatgpt_in_lesson_planning_-_evaluation_report.pdf",
+    "DO": null,
+    "ID": "NCKH32",
+    "KW": [
+      "bai_bao"
+    ],
+    "TI": "ChatGPT in lesson preparation: A Teacher Choices trial",
+    "PB": "Education Endowment Foundation",
+    "N1": "Dùng trong: bai_bao."
+  },
+  {
+    "TY": "THES",
+    "AU": [
+      "Trương, Thị Phương Chi"
+    ],
+    "PY": "2017",
+    "UR": "https://www.tailieu5s.net/stream-viewer/217443/luan-an-tien-si-khoa-hoc-giao-duc%3A-xay-dung-va-su-dung-e-learning-vao-day-hoc-cac-kien-thuc-hat-nhan-nguyen-tu-vat-li-12-thpt-theo-mo-hinh-lop-hoc-dao-nguoc",
+    "DO": null,
+    "ID": "NCKH20",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Xây dựng và sử dụng E-learning vào dạy học các kiến thức hạt nhân nguyên tử Vật lí 12 THPT theo mô hình lớp học đảo ngược",
+    "PB": "Trường Đại học Vinh",
+    "M3": "Luận án tiến sĩ khoa học giáo dục",
+    "N1": "Dùng trong: de_cuong, bai_bao. URL là bản luận án lưu trên trang trung gian; đối chiếu trang tên luận án. Chưa xác lập URL kho lưu trữ của Trường Đại học Vinh."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Tunggyshbay, M.",
+      "Balta, N.",
+      "Admiraal, W."
+    ],
+    "PY": "2023",
+    "UR": "https://doi.org/10.29333/ejmste/13258",
+    "DO": "10.29333/ejmste/13258",
+    "ID": "NCKH21",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Flipped classroom strategies and innovative teaching approaches in physics education: A systematic review",
+    "JO": "Eurasia Journal of Mathematics, Science and Technology Education",
+    "VL": "19",
+    "IS": "6",
+    "SP": "em2283",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "BOOK",
+    "AU": [
+      "Urone, P. P.",
+      "Hinrichs, R."
+    ],
+    "PY": "2022",
+    "UR": "https://openstax.org/details/books/college-physics-2e",
+    "DO": null,
+    "ID": "NCKH22",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "College physics",
+    "ET": "2",
+    "PB": "OpenStax",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "van Alten, D. C. D.",
+      "Phielix, C.",
+      "Janssen, J.",
+      "Kester, L."
+    ],
+    "PY": "2019",
+    "UR": "https://doi.org/10.1016/j.edurev.2019.05.003",
+    "DO": "10.1016/j.edurev.2019.05.003",
+    "ID": "NCKH23",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Effects of flipping the classroom on learning outcomes and satisfaction: A meta-analysis",
+    "JO": "Educational Research Review",
+    "VL": "28",
+    "IS": null,
+    "SP": "100281",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Võ, Văn Duyên Em",
+      "Nguyễn, Thị Kim Ánh",
+      "Trần, Thị Thảo Quyên"
+    ],
+    "PY": "2026",
+    "UR": "https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/5570",
+    "DO": null,
+    "ID": "NCKH24",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "Dạy học theo mô hình lớp học đảo ngược với sự hỗ trợ của trí tuệ nhân tạo nhằm phát triển năng lực tự học cho học sinh trong môn Khoa học tự nhiên 9",
+    "JO": "Tạp chí Giáo dục",
+    "VL": "26",
+    "IS": "số đặc biệt 5",
+    "SP": "357",
+    "EP": "363",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "BOOK",
+    "AU": [
+      "Vũ, Văn Hùng",
+      "Nguyễn, Văn Biên",
+      "Trần, Ngọc Chất",
+      "Phạm, Kim Chung",
+      "Đặng, Thanh Hải",
+      "Tưởng, Duy Hải",
+      "Bùi, Gia Thịnh"
+    ],
+    "PY": "2024",
+    "UR": null,
+    "DO": null,
+    "ID": "NCKH33",
+    "KW": [
+      "bai_bao"
+    ],
+    "TI": "Vật lí 12",
+    "PB": "Nhà xuất bản Giáo dục Việt Nam",
+    "ET": "Kết nối tri thức với cuộc sống; bản mẫu tháng 1/2024",
+    "N1": "Dùng trong: bai_bao. Nguồn là bản mẫu tháng 1/2024 có trong dự án; chưa tự thay bằng metadata bản thương mại."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Xia, Q.",
+      "Liu, Q.",
+      "Tlili, A.",
+      "Chiu, T. K. F."
+    ],
+    "PY": "2026",
+    "UR": "https://doi.org/10.1016/j.compedu.2025.105465",
+    "DO": "10.1016/j.compedu.2025.105465",
+    "ID": "NCKH25",
+    "KW": [
+      "de_cuong"
+    ],
+    "TI": "A systematic literature review on designing self-regulated learning using generative artificial intelligence and its future research directions",
+    "JO": "Computers & Education",
+    "VL": "240",
+    "IS": null,
+    "SP": "105465",
+    "N1": "Dùng trong: de_cuong."
+  },
+  {
+    "TY": "JOUR",
+    "AU": [
+      "Zimmerman, B. J."
+    ],
+    "PY": "2002",
+    "UR": "https://doi.org/10.1207/s15430421tip4102_2",
+    "DO": "10.1207/s15430421tip4102_2",
+    "ID": "NCKH26",
+    "KW": [
+      "de_cuong",
+      "bai_bao"
+    ],
+    "TI": "Becoming a self-regulated learner: An overview",
+    "JO": "Theory Into Practice",
+    "VL": "41",
+    "IS": "2",
+    "SP": "64",
+    "EP": "70",
+    "N1": "Dùng trong: de_cuong, bai_bao."
+  }
+]

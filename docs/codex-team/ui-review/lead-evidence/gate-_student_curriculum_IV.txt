@@ -1,0 +1,48 @@
+Browser tab: 4, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/student/curriculum/IV".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/student/curriculum/IV
+	2 link Description: Đi đến nội dung chính, Value: localhost:3001/student/curriculum/IV#main-content
+	3 container
+		4 button (collapsed) Description: Mở menu, Secondary Actions: Expand
+		5 link Description: Học liệu Vật lí 12, Value: localhost:3001/student
+		6 button Đăng xuất
+	7 container main-content
+		8 container
+			9 text VẬT LÍ 12
+			10 heading VẬT LÍ HẠT NHÂN, Value: 1
+				11 text VẬT LÍ HẠT NHÂN
+		12 link Description: Vật lí 12, Value: localhost:3001/student
+		13 text /
+		14 link Description: Chương IV, Value: localhost:3001/student/curriculum
+		15 heading VẬT LÍ HẠT NHÂN, Value: 1
+			16 text VẬT LÍ HẠT NHÂN
+		17 container
+			18 text 5  bài học
+		19 text 21
+		20 heading Cấu trúc hạt nhân, Value: 3
+			21 text Cấu trúc hạt nhân
+		22 text Chưa mở
+		23 text →
+		24 text 22
+		25 heading Phản ứng hạt nhân và năng lượng liên kết, Value: 3
+			26 text Phản ứng hạt nhân và năng lượng liên kết
+		27 text Chưa mở
+		28 text →
+		29 text 23
+		30 heading Hiện tượng phóng xạ, Value: 3
+			31 text Hiện tượng phóng xạ
+		32 text Chưa mở
+		33 text →
+		34 text 24
+		35 heading Công nghiệp hạt nhân, Value: 3
+			36 text Công nghiệp hạt nhân
+		37 text Chưa mở
+		38 text →
+		39 text 25
+		40 heading Bài tập về vật lí hạt nhân, Value: 3
+			41 text Bài tập về vật lí hạt nhân
+		42 text Chưa mở
+		43 text →
+	44 container AI hỗ trợ học tập
+		45 button (collapsed) Description: Mở khung AI học tập, Secondary Actions: Expand
+
+The focused UI element is 4 button (collapsed) Description: Mở menu, Secondary Actions: Expand

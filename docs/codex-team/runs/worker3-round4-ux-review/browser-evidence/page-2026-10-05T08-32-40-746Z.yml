@@ -1,0 +1,168 @@
+- generic [active] [ref=f6e1]:
+  - button "Open Next.js Dev Tools" [ref=f6e131] [cursor=pointer]
+  - alert [ref=f6e135]: Không gian hỗ trợ giáo viên
+  - generic [ref=f6e1936]:
+    - link "Đi đến nội dung chính" [ref=f6e1937] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f6e1938]:
+      - generic [ref=f6e1939]:
+        - button "Mở menu" [ref=f6e2588] [cursor=pointer]:
+          - generic [ref=f6e2589]: ☰
+        - link "Học liệu Vật lí 12" [ref=f6e1942] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f6e1944] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f6e1959]:
+      - generic [ref=f6e1961]:
+        - paragraph [ref=f6e1962]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f6e1963]
+        - paragraph [ref=f6e1964]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f6e1965]:
+        - group "Công việc của giáo viên" [ref=f6e1966]:
+          - button "Ngân hàng đề" [ref=f6e1967] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f6e1968] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [pressed] [ref=f6e1969] [cursor=pointer]
+        - generic [ref=f6e2727]:
+          - generic [ref=f6e2728]:
+            - heading "Chuẩn bị kế hoạch bài dạy" [level=2] [ref=f6e2729]
+            - paragraph [ref=f6e2730]: Chọn bài và thời gian, xem việc của giáo viên và học sinh ở từng hoạt động rồi xuất kế hoạch Word.
+            - text: "Mẫu ban đầu: Bài 23, 45 phút trên lớp. Tự học trước và sau giờ được tính riêng."
+          - navigation "Các bước biên soạn" [ref=f6e2731]:
+            - button "1 Chọn bài và điều kiện lớp" [ref=f6e2732] [cursor=pointer]:
+              - generic [ref=f6e2733]: "1"
+              - strong [ref=f6e2734]: Chọn bài và điều kiện lớp
+            - button "2 Chỉnh hoạt động" [ref=f6e2735] [cursor=pointer]:
+              - generic [ref=f6e2736]: "2"
+              - strong [ref=f6e2737]: Chỉnh hoạt động
+            - button "3 Kiểm tra và xuất kế hoạch" [ref=f6e2738] [cursor=pointer]:
+              - generic [ref=f6e2739]: "3"
+              - strong [ref=f6e2740]: Kiểm tra và xuất kế hoạch
+          - generic [ref=f6e2782]:
+            - heading "2. Rà soát nhiệm vụ và sản phẩm của từng hoạt động" [level=3] [ref=f6e2783]
+            - paragraph [ref=f6e2784]: Ba pha là thời điểm học tập. Trong tiến trình vẫn có các hoạt động mở đầu, hình thành kiến thức, luyện tập và vận dụng theo khung kế hoạch bài dạy.
+            - group [ref=f6e2785]:
+              - generic "Chỉnh mục tiêu chung và thiết bị học liệu" [ref=f6e2786] [cursor=pointer]
+            - generic [ref=f6e2787]:
+              - generic [ref=f6e2788]:
+                - heading "Trước giờ học" [level=4] [ref=f6e2789]
+                - generic [ref=f6e2790]: 15 phút tự học
+              - article [ref=f6e2791]:
+                - heading "Chuẩn bị câu 1 trong phiếu" [level=4] [ref=f6e2792]
+                - paragraph [ref=f6e2793]: Mở đầu · 15 phút
+                - generic [ref=f6e2794]:
+                  - generic [ref=f6e2795]:
+                    - strong [ref=f6e2796]: Giáo viên
+                    - paragraph [ref=f6e2797]: Giao phiếu và đường dẫn học liệu, thông báo thời hạn phần chuẩn bị. Xem câu trả lời để chọn vấn đề cần trao đổi trên lớp.
+                  - generic [ref=f6e2798]:
+                    - strong [ref=f6e2799]: Học sinh
+                    - paragraph [ref=f6e2800]: "1. Đọc mục chu kì bán rã trong học liệu Phóng xạ. 2. Trả lời câu hỏi: nêu rõ đại lượng giảm còn một nửa và ý nghĩa của chu kì T. 3. Ghi một điều chưa hiểu để mang đến lớp."
+                - paragraph [ref=f6e2801]:
+                  - strong [ref=f6e2802]: "Sản phẩm:"
+                  - text: Câu trả lời cá nhân và một nội dung cần trao đổi trên lớp.
+                - paragraph [ref=f6e2803]:
+                  - strong [ref=f6e2804]: "Tiêu chí:"
+                  - text: Trả lời đúng yêu cầu; ghi điều chưa hiểu hoặc căn cứ của cách trả lời.
+                - link "B23 · Kiến thức và phiếu học tập ba giai đoạn ↗" [ref=f6e2806] [cursor=pointer]:
+                  - /url: /hoc-lieu?resource=system-notes-B23
+                - group [ref=f6e2807]:
+                  - generic "Chỉnh hoạt động này" [ref=f6e2808] [cursor=pointer]
+            - generic [ref=f6e2809]:
+              - generic [ref=f6e2810]:
+                - heading "Trong giờ học" [level=4] [ref=f6e2811]
+                - generic [ref=f6e2812]: 45 phút / 45
+              - article [ref=f6e2813]:
+                - heading "Xác định vấn đề từ phần tự học" [level=4] [ref=f6e2814]
+                - paragraph [ref=f6e2815]: Mở đầu · 5 phút
+                - generic [ref=f6e2816]:
+                  - generic [ref=f6e2817]:
+                    - strong [ref=f6e2818]: Giáo viên
+                    - paragraph [ref=f6e2819]: Giao nhiệm vụ trong phiếu, quan sát cách làm, hỏi về căn cứ; tổ chức báo cáo và chốt kiến thức.
+                  - generic [ref=f6e2820]:
+                    - strong [ref=f6e2821]: Học sinh
+                    - paragraph [ref=f6e2822]: Mỗi học sinh nêu điều chưa hiểu hoặc căn cứ trả lời câu 1. Giáo viên chọn một vấn đề gắn với mục tiêu để lớp giải quyết.
+                - paragraph [ref=f6e2823]:
+                  - strong [ref=f6e2824]: "Sản phẩm:"
+                  - text: Câu hỏi cần giải quyết và cách hiểu ban đầu.
+                - paragraph [ref=f6e2825]:
+                  - strong [ref=f6e2826]: "Tiêu chí:"
+                  - text: Nêu cụ thể chỗ chưa hiểu hoặc căn cứ của cách trả lời.
+                - 'link "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T ↗" [ref=f6e2828] [cursor=pointer]':
+                  - /url: /hoc-lieu?resource=system-sim-half-life
+                - group [ref=f6e2829]:
+                  - generic "Chỉnh hoạt động này" [ref=f6e2830] [cursor=pointer]
+              - article [ref=f6e2831]:
+                - heading "Thực hiện câu 2 và trao đổi bằng chứng" [level=4] [ref=f6e2832]
+                - paragraph [ref=f6e2833]: Hình thành kiến thức · 30 phút
+                - generic [ref=f6e2834]:
+                  - generic [ref=f6e2835]:
+                    - strong [ref=f6e2836]: Giáo viên
+                    - paragraph [ref=f6e2837]: Giao nhiệm vụ trong phiếu, quan sát cách làm, hỏi về căn cứ; tổ chức báo cáo và chốt kiến thức.
+                  - generic [ref=f6e2838]:
+                    - strong [ref=f6e2839]: Học sinh
+                    - paragraph [ref=f6e2840]: 1. Đọc dữ kiện bài tập; phân biệt tỉ lệ đã phân rã và tỉ lệ còn lại. 2. Mở mô phỏng bán rã; so sánh phần còn lại sau 1T và 2T để kiểm tra cách hiểu. 3. Lập biểu thức liên hệ thời gian, phần còn lại và T rồi giải bài. Nhóm đối chiếu phép tính, mỗi bạn ghi kết luận riêng.
+                - paragraph [ref=f6e2841]:
+                  - strong [ref=f6e2842]: "Sản phẩm:"
+                  - text: Lời giải có các bước và căn cứ; kết luận của nhóm sau trao đổi.
+                - paragraph [ref=f6e2843]:
+                  - strong [ref=f6e2844]: "Tiêu chí:"
+                  - text: Sử dụng đúng dữ kiện, kí hiệu và đơn vị; giải thích được cách làm và điều đã sửa.
+                - 'link "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T ↗" [ref=f6e2846] [cursor=pointer]':
+                  - /url: /hoc-lieu?resource=system-sim-half-life
+                - group [ref=f6e2847]:
+                  - generic "Chỉnh hoạt động này" [ref=f6e2848] [cursor=pointer]
+              - article [ref=f6e2849]:
+                - heading "Hoàn thiện lời giải cá nhân sau trao đổi" [level=4] [ref=f6e2850]
+                - paragraph [ref=f6e2851]: Luyện tập · 10 phút
+                - generic [ref=f6e2852]:
+                  - generic [ref=f6e2853]:
+                    - strong [ref=f6e2854]: Giáo viên
+                    - paragraph [ref=f6e2855]: Giao nhiệm vụ trong phiếu, quan sát cách làm, hỏi về căn cứ; tổ chức báo cáo và chốt kiến thức.
+                  - generic [ref=f6e2856]:
+                    - strong [ref=f6e2857]: Học sinh
+                    - paragraph [ref=f6e2858]: Mỗi học sinh hoàn thiện lời giải câu 2 trong phiếu. Chỉ ra dữ kiện, hình hoặc công thức làm căn cứ; kiểm tra đơn vị và kết luận. Giáo viên hỏi một số học sinh giải thích cách làm, phản hồi chỗ còn thiếu.
+                - paragraph [ref=f6e2859]:
+                  - strong [ref=f6e2860]: "Sản phẩm:"
+                  - text: Lời giải riêng của từng học sinh và điều chỉnh sau trao đổi.
+                - paragraph [ref=f6e2861]:
+                  - strong [ref=f6e2862]: "Tiêu chí:"
+                  - text: Lời giải phù hợp yêu cầu; có căn cứ và tự kiểm tra kết quả.
+                - 'link "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T ↗" [ref=f6e2864] [cursor=pointer]':
+                  - /url: /hoc-lieu?resource=system-sim-half-life
+                - group [ref=f6e2865]:
+                  - generic "Chỉnh hoạt động này" [ref=f6e2866] [cursor=pointer]
+            - generic [ref=f6e2867]:
+              - generic [ref=f6e2868]:
+                - heading "Sau giờ học" [level=4] [ref=f6e2869]
+                - generic [ref=f6e2870]: 15 phút tự học
+              - article [ref=f6e2871]:
+                - heading "Làm câu 3 và tự đánh giá theo rubrics" [level=4] [ref=f6e2872]
+                - paragraph [ref=f6e2873]: Vận dụng · 15 phút
+                - generic [ref=f6e2874]:
+                  - generic [ref=f6e2875]:
+                    - strong [ref=f6e2876]: Giáo viên
+                    - paragraph [ref=f6e2877]: Giao phần sau giờ học và thời hạn nộp. Đối chiếu đáp án, nhận xét bài làm và cách tự kiểm tra theo rubrics.
+                  - generic [ref=f6e2878]:
+                    - strong [ref=f6e2879]: Học sinh
+                    - paragraph [ref=f6e2880]: "1. Tự làm bài: lập tỉ số lượng đồng vị còn lại so với ban đầu cho từng trường hợp. 2. Dùng công thức bán rã tìm thời gian; trình bày phép tính và đơn vị. 3. Kiểm tra trường hợp nào cần nhiều thời gian hơn; ghi điều đã sửa hoặc cách kiểm tra kết quả."
+                - paragraph [ref=f6e2881]:
+                  - strong [ref=f6e2882]: "Sản phẩm:"
+                  - text: Bài làm cá nhân có giải thích, một điều tự sửa và cách kiểm tra lại.
+                - paragraph [ref=f6e2883]:
+                  - strong [ref=f6e2884]: "Tiêu chí:"
+                  - text: Lời giải đúng yêu cầu; kết quả có đơn vị nếu cần; nêu được cách tự kiểm tra.
+                - link "B23 · Sửa ba lỗi thường gặp ↗" [ref=f6e2886] [cursor=pointer]:
+                  - /url: /hoc-lieu?resource=system-remediation-B23
+                - group [ref=f6e2887]:
+                  - generic "Chỉnh hoạt động này" [ref=f6e2888] [cursor=pointer]
+            - group [ref=f6e2889]:
+              - generic "Hỗ trợ một khó khăn học sinh đang gặp" [ref=f6e2890] [cursor=pointer]
+              - option "Nhầm phần còn lại và phần đã phân rã" [selected]
+              - option "Nhầm độ phóng xạ với số hạt hoặc số đếm"
+              - option "Một máy chiếu"
+              - option "Nhóm dùng chung thiết bị" [selected]
+              - option "Thiết bị cá nhân"
+            - generic [ref=f6e2891]:
+              - button "Quay lại chọn bài" [ref=f6e2892] [cursor=pointer]
+              - 'button "Tiếp tục: kiểm tra kế hoạch" [ref=f6e2893] [cursor=pointer]'
+        - group [ref=f6e2586]:
+          - generic "Đọc tài liệu với AI cục bộ" [ref=f6e2587]

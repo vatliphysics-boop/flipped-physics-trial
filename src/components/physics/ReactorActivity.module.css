@@ -1,0 +1,54 @@
+.diagram {
+  margin: 1rem 0;
+  min-width: 0;
+  container-type: inline-size;
+  container-name: reactor-diagram;
+}
+.diagram svg {
+  display: block;
+  width: 100%;
+}
+.diagram .portrait {
+  display: none;
+  max-width: 360px;
+  margin-inline: auto;
+}
+.diagram figcaption {
+  color: #46566a;
+  line-height: 1.55;
+  margin: .45rem .35rem 0;
+}
+.current {
+  margin: .85rem 0 .4rem;
+}
+.generations {
+  display: grid;
+  gap: .5rem;
+  margin: 1rem 0;
+}
+.generation {
+  display: grid;
+  grid-template-columns: 1.5em minmax(0, 1fr) 3.5em;
+  align-items: center;
+  gap: .5rem;
+  padding: .35rem .5rem;
+  border-radius: .4rem;
+}
+.generation[aria-current="step"] {
+  background: #eaf2f6;
+  font-weight: 700;
+}
+.generation > div {
+  height: .65rem;
+  border-radius: 100vmax;
+  background: #e0e9ef;
+}
+.generation i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+}
+@container reactor-diagram (max-width: 510px) {
+  .diagram .landscape { display: none; }
+  .diagram .portrait { display: block; }
+}

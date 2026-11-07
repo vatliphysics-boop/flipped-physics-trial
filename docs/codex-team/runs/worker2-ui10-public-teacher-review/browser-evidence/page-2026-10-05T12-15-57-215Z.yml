@@ -1,0 +1,328 @@
+- generic [active] [ref=f18e1]:
+  - alert [ref=f18e124]: Hiện tượng phóng xạ
+  - generic [ref=f18e125]:
+    - banner [ref=f18e126]:
+      - generic [ref=f18e127]:
+        - generic [ref=f18e128]:
+          - img [ref=f18e130]:
+            - generic [ref=f18e147]:
+              - generic [ref=f18e148]: N=A−Z
+              - generic [ref=f18e149]: A=Z+N
+              - generic [ref=f18e150]: E=mc²
+              - generic [ref=f18e151]: Δm>0
+          - generic [ref=f18e152]: Bài học minh họa
+        - navigation [ref=f18e153]:
+          - link "Học liệu & Thí nghiệm 3D" [ref=f18e154] [cursor=pointer]:
+            - /url: /hoc-lieu
+          - link "Về trang chủ" [ref=f18e155] [cursor=pointer]:
+            - /url: /
+    - main [ref=f18e156]:
+      - generic [ref=f18e157]:
+        - generic [ref=f18e158]:
+          - generic [ref=f18e159]: "Chủ đề: Vật lí hạt nhân"
+          - heading "Hiện tượng phóng xạ" [level=1] [ref=f18e160]
+          - paragraph [ref=f18e161]: Khám phá bản chất của hiện tượng phóng xạ, các đại lượng đặc trưng và ứng dụng trong đời sống theo mô hình lớp học đảo ngược.
+        - generic [ref=f18e162]:
+          - generic [ref=f18e163]: Trạng thái tiến độ
+          - strong [ref=f18e164]: Chưa bắt đầu
+          - generic [ref=f18e165]: Lộ trình gồm 3 giai đoạn học tập
+      - generic [ref=f18e166]:
+        - generic [ref=f18e167]:
+          - generic [ref=f18e168]: Mục tiêu học tập
+          - paragraph [ref=f18e169]: Nhận biết được đặc điểm của phóng xạ, giải thích được quy luật phân rã và vận dụng kiến thức để phân tích một số tình huống thực tế.
+        - generic [ref=f18e170]:
+          - generic [ref=f18e171]: Lộ trình học tập
+          - generic "Ba giai đoạn học tập" [ref=f18e172]:
+            - generic [ref=f18e173]:
+              - generic [ref=f18e174]: "1"
+              - text: Trước giờ học
+            - generic [ref=f18e175]:
+              - generic [ref=f18e176]: "2"
+              - text: Trong giờ học
+            - generic [ref=f18e177]:
+              - generic [ref=f18e178]: "3"
+              - text: Sau giờ học
+      - generic [ref=f18e179]:
+        - generic [ref=f18e180]:
+          - generic [ref=f18e181]:
+            - generic [ref=f18e182]: GIAI ĐOẠN
+            - generic [ref=f18e183]: TRƯỚC GIỜ HỌC
+          - heading "TRƯỚC GIỜ HỌC" [level=2] [ref=f18e184]
+          - paragraph [ref=f18e185]: Tự khám phá kiến thức nền tảng và chuẩn bị câu hỏi trước khi đến lớp.
+          - generic [ref=f18e186]:
+            - region "Khám phá bán rã trước giờ học" [ref=f18e187]:
+              - paragraph [ref=f18e188]: B23 · Chuẩn bị trước giờ học
+              - heading "Dự đoán và khám phá chu kì bán rã" [level=2] [ref=f18e189]
+              - list [ref=f18e190]:
+                - listitem [ref=f18e191]: "Trước khi thao tác, ghi dự đoán: với cùng N₀, khi T tăng từ 30 s lên 60 s, số hạt còn lại tại t = 30 s tăng hay giảm?"
+                - listitem [ref=f18e192]: Giữ N₀ = 1.000, so sánh hai giá trị T. Ghi số hạt tại t = T, 2T và 3T rồi đối chiếu với dự đoán.
+                - listitem [ref=f18e193]: Giữ T cố định, tăng N₀ gấp đôi. Tỉ lệ N(t)/N₀ tại cùng thời điểm có thay đổi không? Ghi lời giải thích và một câu hỏi mang đến lớp.
+              - paragraph [ref=f18e194]: Số liệu được tính theo mô hình hàm mũ, không phải số đếm từ nguồn phóng xạ thật. Ghi kết quả vào phiếu; nếu giáo viên giao mô phỏng trong tiến trình, nộp kết quả ở bước học tương ứng.
+              - generic [ref=f18e195]:
+                - region "Thí nghiệm 3D tương tác" [ref=f18e196]:
+                  - generic [ref=f18e197]:
+                    - strong [ref=f18e198]: Không gian thí nghiệm 3D
+                    - status [ref=f18e199]: Sẵn sàng · 0.0 s mô hình
+                  - generic [ref=f18e201]:
+                    - paragraph [ref=f18e202]: Nhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.
+                    - button "Bắt đầu thí nghiệm 3D" [ref=f18e203] [cursor=pointer]
+                  - generic [ref=f18e204]:
+                    - button "Tiếp tục" [disabled] [ref=f18e205] [cursor=pointer]
+                    - button "Đặt lại thí nghiệm" [ref=f18e206] [cursor=pointer]
+                    - generic [ref=f18e207]:
+                      - text: Tốc độ
+                      - combobox "Tốc độ" [ref=f18e208]:
+                        - option "0,5×"
+                        - option "1×" [selected]
+                        - option "2×"
+                  - generic "Chọn góc nhìn" [ref=f18e209]:
+                    - button "Phối cảnh" [pressed] [ref=f18e210] [cursor=pointer]
+                    - button "Phía trước" [ref=f18e211] [cursor=pointer]
+                    - button "Từ trên" [ref=f18e212] [cursor=pointer]
+                    - button "Bên cạnh" [ref=f18e213] [cursor=pointer]
+                  - status [ref=f18e214]: N₀ = 64 · t/T = 0.00 · N kì vọng ≈ 64
+                  - generic [ref=f18e215]:
+                    - generic [ref=f18e216]:
+                      - text: "Chu kì bán rã T (giây mô hình):"
+                      - strong [ref=f18e217]: "4"
+                    - 'slider "Chu kì bán rã T (giây mô hình): 4" [ref=f18e218] [cursor=pointer]': "4"
+                  - paragraph [ref=f18e219]: Kéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. 64 hạt ban đầu. Hạt xanh còn chưa phân rã, hạt xám đã biến đổi. Số hạt kì vọng N = N₀ × 2^(−t/T), làm tròn để hiển thị. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.
+                - heading "Bảng thao tác, số liệu và câu hỏi" [level=4] [ref=f18e220]
+                - paragraph [ref=f18e221]: Tham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.
+                - generic [ref=f18e222]:
+                  - paragraph [ref=f18e223]: "Khảo sát định luật phóng xạ: N_t = N₀ × 2^(−t/T). Thay đổi chu kì bán rã T và số hạt ban đầu N₀ để xem đường cong thay đổi."
+                  - generic [ref=f18e224]:
+                    - paragraph [ref=f18e225]:
+                      - strong [ref=f18e226]: "📈 Chu trình khám phá:"
+                    - list [ref=f18e227]:
+                      - listitem [ref=f18e228]:
+                        - strong [ref=f18e229]: "Thay đổi T:"
+                        - text: Kéo thanh trượt để xem đường cong phân rã thay đổi.
+                      - listitem [ref=f18e230]:
+                        - strong [ref=f18e231]: "Quan sát:"
+                        - text: Sau mỗi chu kì T, số hạt giảm bao nhiêu phần trăm?
+                      - listitem [ref=f18e232]:
+                        - strong [ref=f18e233]: "Giải thích:"
+                        - text: Khi T tăng gấp đôi thì đường cong như thế nào?
+                  - generic [ref=f18e234]:
+                    - generic [ref=f18e235]:
+                      - generic [ref=f18e236]:
+                        - text: Chu kì bán rã T
+                        - strong [ref=f18e237]: 30 s
+                      - slider "Chu kì bán rã T 30 s" [ref=f18e238] [cursor=pointer]: "30"
+                    - generic [ref=f18e239]:
+                      - generic [ref=f18e240]:
+                        - text: Số hạt ban đầu N₀
+                        - strong [ref=f18e241]: "1000"
+                      - slider "Số hạt ban đầu N₀ 1000" [ref=f18e242] [cursor=pointer]: "1000"
+                  - paragraph [ref=f18e243]: T là tham số so sánh các mô hình. Với một đồng vị cho trước, T là đặc trưng của đồng vị đó. N trong bảng là số hạt kì vọng theo mô hình liên tục, có thể là số thập phân; đây không phải số đếm từ nguồn thật.
+                  - generic [ref=f18e244]:
+                    - button "Tải dữ liệu bán rã CSV" [ref=f18e245] [cursor=pointer]
+                    - button "Đặt lại tham số bảng" [ref=f18e246] [cursor=pointer]
+                  - group [ref=f18e247]:
+                    - generic "Xử lí dữ liệu bằng Excel hoặc Google Sheets" [ref=f18e248]
+                  - figure "N(t) = 1000 × 2^(−t/30) (nét liền)" [ref=f18e249]:
+                    - img "Số hạt nhân N theo Thời gian t (s), T = 30s. N(t) = 1000 × 2^(−t/30)" [ref=f18e250]:
+                      - generic [ref=f18e251]:
+                        - generic [ref=f18e252]: "0"
+                        - generic [ref=f18e253]: "0"
+                      - generic [ref=f18e254]:
+                        - generic [ref=f18e255]: "250"
+                        - generic [ref=f18e256]: "90"
+                      - generic [ref=f18e257]:
+                        - generic [ref=f18e258]: "500"
+                        - generic [ref=f18e259]: "180"
+                      - generic [ref=f18e260]:
+                        - generic [ref=f18e261]: "750"
+                        - generic [ref=f18e262]: "270"
+                      - generic [ref=f18e263]:
+                        - generic [ref=f18e264]: "1000"
+                        - generic [ref=f18e265]: "360"
+                      - generic [ref=f18e267]: Số hạt nhân N
+                      - generic [ref=f18e268]: Thời gian t (s), T = 30s
+                  - table [ref=f18e275]:
+                    - rowgroup [ref=f18e276]:
+                      - row [ref=f18e277]:
+                        - columnheader "Sau k chu kì (t = kT)" [ref=f18e278]
+                        - columnheader "t (s)" [ref=f18e279]
+                        - columnheader "N còn lại" [ref=f18e280]
+                        - columnheader "% N₀" [ref=f18e281]
+                    - rowgroup [ref=f18e282]:
+                      - row [ref=f18e283]:
+                        - cell "k = 0" [ref=f18e284]
+                        - cell "0" [ref=f18e285]
+                        - cell "1000.0" [ref=f18e286]
+                        - cell "100.0%" [ref=f18e287]
+                      - row [ref=f18e288]:
+                        - cell "k = 1" [ref=f18e289]
+                        - cell "30" [ref=f18e290]
+                        - cell "500.0" [ref=f18e291]
+                        - cell "50.0%" [ref=f18e292]
+                      - row [ref=f18e293]:
+                        - cell "k = 2" [ref=f18e294]
+                        - cell "60" [ref=f18e295]
+                        - cell "250.0" [ref=f18e296]
+                        - cell "25.0%" [ref=f18e297]
+                      - row [ref=f18e298]:
+                        - cell "k = 3" [ref=f18e299]
+                        - cell "90" [ref=f18e300]
+                        - cell "125.0" [ref=f18e301]
+                        - cell "12.5%" [ref=f18e302]
+                      - row [ref=f18e303]:
+                        - cell "k = 4" [ref=f18e304]
+                        - cell "120" [ref=f18e305]
+                        - cell "62.5" [ref=f18e306]
+                        - cell "6.3%" [ref=f18e307]
+                      - row [ref=f18e308]:
+                        - cell "k = 5" [ref=f18e309]
+                        - cell "150" [ref=f18e310]
+                        - cell "31.3" [ref=f18e311]
+                        - cell "3.1%" [ref=f18e312]
+                  - generic [ref=f18e313]:
+                    - generic [ref=f18e314]:
+                      - term [ref=f18e315]: Chu kì bán rã T
+                      - definition [ref=f18e316]: 30 s
+                    - generic [ref=f18e317]:
+                      - term [ref=f18e318]: Hằng số phóng xạ λ = ln2/T
+                      - definition [ref=f18e319]: 0.0231 s⁻¹
+                    - generic [ref=f18e320]:
+                      - term [ref=f18e321]: Tại t = 30 s còn lại
+                      - definition [ref=f18e322]: 500.0 hạt
+                    - generic [ref=f18e323]:
+                      - term [ref=f18e324]: Sau 3T còn lại
+                      - definition [ref=f18e325]: 125.0 hạt (12,5%)
+                  - generic [ref=f18e326]:
+                    - paragraph [ref=f18e327]:
+                      - strong [ref=f18e328]: "Tiêu chí hoàn thành:"
+                    - list [ref=f18e329]:
+                      - listitem [ref=f18e330]: Thay đổi T hoặc N₀ để quan sát đường cong
+                      - listitem [ref=f18e331]: Trả lời câu hỏi kiểm tra
+                  - generic [ref=f18e333]:
+                    - group "Nếu chu kì bán rã T tăng gấp đôi (với cùng N₀), đường cong phân rã thay đổi thế nào?" [ref=f18e334]:
+                      - generic [ref=f18e336]:
+                        - generic [ref=f18e337] [cursor=pointer]:
+                          - radio "Dốc hơn – phân rã nhanh hơn." [ref=f18e338]
+                          - generic [ref=f18e339]: Dốc hơn – phân rã nhanh hơn.
+                        - generic [ref=f18e340] [cursor=pointer]:
+                          - radio "Thoải hơn – cùng N₀, số hạt kì vọng giảm chậm hơn." [ref=f18e341]
+                          - generic [ref=f18e342]: Thoải hơn – cùng N₀, số hạt kì vọng giảm chậm hơn.
+                        - generic [ref=f18e343] [cursor=pointer]:
+                          - radio "Hình dạng không đổi, chỉ thay đổi màu." [ref=f18e344]
+                          - generic [ref=f18e345]: Hình dạng không đổi, chỉ thay đổi màu.
+                    - status [ref=f18e346]: Chưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.
+                    - button "Kiểm tra nhận định" [disabled] [ref=f18e347] [cursor=pointer]
+                  - paragraph [ref=f18e348]: Mô phỏng tuân theo N_t = N₀ × 2^(−t/T) = N₀ × e^(−λt), với λ = ln2/T. Độ phóng xạ H = λ × N cũng giảm theo cùng quy luật hàm mũ (Hình 23.5, SGK trang 107).
+            - article [ref=f18e349]:
+              - generic [ref=f18e350]:
+                - generic [ref=f18e351]:
+                  - generic [ref=f18e352]: ●
+                  - heading "Video bài học" [level=3] [ref=f18e353]
+                - paragraph [ref=f18e354]: Hình thành kiến thức nền tảng trước khi đến lớp.
+                - text: Chưa thực hiện
+            - article [ref=f18e355]:
+              - generic [ref=f18e356]:
+                - generic [ref=f18e357]:
+                  - generic [ref=f18e358]: ●
+                  - heading "Mô phỏng tương tác" [level=3] [ref=f18e359]
+                - paragraph [ref=f18e360]: Quan sát và khám phá hiện tượng vật lí qua thao tác trực quan.
+                - text: Chưa thực hiện
+            - article [ref=f18e361]:
+              - generic [ref=f18e362]:
+                - generic [ref=f18e363]:
+                  - generic [ref=f18e364]: ●
+                  - heading "Infographic" [level=3] [ref=f18e365]
+                - paragraph [ref=f18e366]: Hệ thống hóa khái niệm và mối liên hệ quan trọng.
+                - text: Chưa thực hiện
+            - article [ref=f18e367]:
+              - generic [ref=f18e368]:
+                - generic [ref=f18e369]:
+                  - generic [ref=f18e370]: ●
+                  - heading "Phiếu học tập số" [level=3] [ref=f18e371]
+                - paragraph [ref=f18e372]: Ghi lại dự đoán, câu hỏi và những điều cần tìm hiểu thêm.
+                - text: Chưa thực hiện
+            - article [ref=f18e373]:
+              - generic [ref=f18e374]:
+                - generic [ref=f18e375]:
+                  - generic [ref=f18e376]: ●
+                  - heading "Trắc nghiệm chẩn đoán" [level=3] [ref=f18e377]
+                - paragraph [ref=f18e378]: Tự kiểm tra nhanh mức độ sẵn sàng cho hoạt động trên lớp.
+                - text: Chưa thực hiện
+        - generic [ref=f18e379]:
+          - generic [ref=f18e380]:
+            - generic [ref=f18e381]: GIAI ĐOẠN
+            - generic [ref=f18e382]: TRONG GIỜ HỌC
+          - heading "TRONG GIỜ HỌC" [level=2] [ref=f18e383]
+          - paragraph [ref=f18e384]: Đào sâu bản chất thông qua hợp tác, xử lí dữ liệu và giải quyết vấn đề.
+          - generic [ref=f18e385]:
+            - article [ref=f18e386]:
+              - generic [ref=f18e387]:
+                - generic [ref=f18e388]:
+                  - generic [ref=f18e389]: ●
+                  - heading "Xử lí dữ liệu" [level=3] [ref=f18e390]
+                - paragraph [ref=f18e391]: Phân tích bảng số liệu, đồ thị và kết quả quan sát.
+                - text: Chưa thực hiện
+            - article [ref=f18e392]:
+              - generic [ref=f18e393]:
+                - generic [ref=f18e394]:
+                  - generic [ref=f18e395]: ●
+                  - heading "Thảo luận / bản đồ tư duy" [level=3] [ref=f18e396]
+                - paragraph [ref=f18e397]: Kết nối ý tưởng và xây dựng cách giải thích cùng nhóm.
+                - text: Chưa thực hiện
+            - article [ref=f18e398]:
+              - generic [ref=f18e399]:
+                - generic [ref=f18e400]:
+                  - generic [ref=f18e401]: ●
+                  - heading "Tình huống vận dụng" [level=3] [ref=f18e402]
+                - paragraph [ref=f18e403]: Vận dụng kiến thức hạt nhân để giải quyết vấn đề thực tiễn.
+                - text: Chưa thực hiện
+            - article [ref=f18e404]:
+              - generic [ref=f18e405]:
+                - generic [ref=f18e406]:
+                  - generic [ref=f18e407]: ●
+                  - heading "Hoạt động củng cố" [level=3] [ref=f18e408]
+                - paragraph [ref=f18e409]: Kiểm tra cách hiểu và làm rõ những điểm còn băn khoăn.
+                - text: Chưa thực hiện
+        - generic [ref=f18e410]:
+          - generic [ref=f18e411]:
+            - generic [ref=f18e412]: GIAI ĐOẠN
+            - generic [ref=f18e413]: SAU GIỜ HỌC
+          - heading "SAU GIỜ HỌC" [level=2] [ref=f18e414]
+          - paragraph [ref=f18e415]: Củng cố kiến thức, tự đánh giá và chuyển hóa điều đã học thành năng lực vận dụng.
+          - generic [ref=f18e416]:
+            - article [ref=f18e417]:
+              - generic [ref=f18e418]:
+                - generic [ref=f18e419]:
+                  - generic [ref=f18e420]: ●
+                  - heading "Bài kiểm tra củng cố" [level=3] [ref=f18e421]
+                - paragraph [ref=f18e422]: Ôn tập và kiểm tra mức độ nắm vững kiến thức sau bài học.
+                - text: Chưa thực hiện
+            - article [ref=f18e423]:
+              - generic [ref=f18e424]:
+                - generic [ref=f18e425]:
+                  - generic [ref=f18e426]: ●
+                  - heading "Tự đánh giá" [level=3] [ref=f18e427]
+                - paragraph [ref=f18e428]: Nhìn lại mức độ hoàn thành và năng lực tự học của bản thân.
+                - text: Chưa thực hiện
+            - article [ref=f18e429]:
+              - generic [ref=f18e430]:
+                - generic [ref=f18e431]:
+                  - generic [ref=f18e432]: ●
+                  - heading "Nhật kí học tập" [level=3] [ref=f18e433]
+                - paragraph [ref=f18e434]: Ghi lại quá trình chuẩn bị, khó khăn và điều đã tiến bộ.
+                - text: Chưa thực hiện
+            - article [ref=f18e435]:
+              - generic [ref=f18e436]:
+                - generic [ref=f18e437]:
+                  - generic [ref=f18e438]: ●
+                  - heading "Phản hồi và điều chỉnh" [level=3] [ref=f18e439]
+                - paragraph [ref=f18e440]: Tiếp nhận phản hồi để điều chỉnh cách học tiếp theo.
+                - text: Chưa thực hiện
+            - article [ref=f18e441]:
+              - generic [ref=f18e442]:
+                - generic [ref=f18e443]:
+                  - generic [ref=f18e444]: ●
+                  - heading "Nhiệm vụ vận dụng" [level=3] [ref=f18e445]
+                - paragraph [ref=f18e446]: Liên hệ kiến thức với một tình huống hoặc hiện tượng đời sống.
+                - text: Chưa thực hiện
+    - contentinfo [ref=f18e447]:
+      - paragraph [ref=f18e449]: Học liệu số Vật lí hạt nhân 12 · Phiên bản MVP phục vụ nghiên cứu khoa học giáo dục.

@@ -1,0 +1,15 @@
+{
+  "id": "worker2-round4-pedagogy-review",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 1500,
+  "previous_runs": [
+    "worker2-round2",
+    "worker2-round4-browser-smoke"
+  ],
+  "context_files": [
+    "docs/codex-team/environment-discovery.json"
+  ],
+  "browser_mcp": true,
+  "task": "Vòng đánh giá sư phạm thực tế đầu tiên sau smoke mở trang thành công. Dùng MCP browser, đọc snapshot tệp bằng shell khi MCP trả liên kết, chụp evidence/ và dùng view_image thật để đánh giá ảnh. Desktop1280/mobile390 và bàn phím. Lần lượt thực hiện độc lập các nhiệm vụ căn cứ hd: kho lọc B21–B25; video/mô phỏng/infographic mở được và nội dung hiểu được; B22 phân hạch start/pause/timeline/reset/nhãn và sản phẩm bảo toàn; B23 đổi T,N0, xuất dữ liệu/nêu giới hạn mô hình; notebook nhập dự đoán/quan sát/giải thích rồi reload (localStorage thử được); quiz phản hồi; hoạt động cộng tác ứng dụng, đóng vai và ôn tập nhóm nếu có; công cụ GV công khai kế hoạch/phiếu/đề và hướng dẫn; chatbot hỏi 2T ở B23 và câu ngoài phạm vi (không chạy nhiều AI cùng lúc). Với mỗi vấn đề phải ID severity trang steps bằng chứng ảnh source paragraph tác động dạy/học và acceptance rõ. Phân biệt lỗi web đang có với lỗi lịch sử trong bài báo. Không sửa DOCX/code/DB. .env.local là Supabase REMOTE, chưa xác minh là dev; không có Supabase CLI/Docker hoặc file seed/tài khoản thử. User đã yêu cầu trưởng nhóm kiểm tra; giữ luồng riêng CHƯA KIỂM CHỨNG, không dùng session thật. Đánh giá bao phủ yêu cầu, không chỉ số nút. Nêu tối thiểu các ca đã thật sự thực hiện và phần chưa kiểm chứng; không tự kết luận đạt toàn dự án."
+}

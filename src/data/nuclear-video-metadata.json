@@ -1,0 +1,62 @@
+{
+  "B21": {
+    "durationSeconds": 89.8,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "audio": "aac",
+    "audioSampleRate": 48000,
+    "language": "vi-VN",
+    "voice": "Kim Thanh",
+    "engine": "VieNeu-TTS v3 Turbo",
+    "captions": 12
+  },
+  "B22": {
+    "durationSeconds": 75.2,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "audio": "aac",
+    "audioSampleRate": 48000,
+    "language": "vi-VN",
+    "voice": "Kim Thanh",
+    "engine": "VieNeu-TTS v3 Turbo",
+    "captions": 10
+  },
+  "B23": {
+    "durationSeconds": 93.73333333333333,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "audio": "aac",
+    "audioSampleRate": 48000,
+    "language": "vi-VN",
+    "voice": "Kim Thanh",
+    "engine": "VieNeu-TTS v3 Turbo",
+    "captions": 11
+  },
+  "B24": {
+    "durationSeconds": 71.96666666666667,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "audio": "aac",
+    "audioSampleRate": 48000,
+    "language": "vi-VN",
+    "voice": "Kim Thanh",
+    "engine": "VieNeu-TTS v3 Turbo",
+    "captions": 10
+  },
+  "B25": {
+    "durationSeconds": 76.23333333333333,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "audio": "aac",
+    "audioSampleRate": 48000,
+    "language": "vi-VN",
+    "voice": "Kim Thanh",
+    "engine": "VieNeu-TTS v3 Turbo",
+    "captions": 10
+  }
+}

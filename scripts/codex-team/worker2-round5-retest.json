@@ -1,0 +1,17 @@
+{
+  "id": "worker2-round5-retest",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 1200,
+  "browser_mcp": true,
+  "previous_runs": [
+    "worker2-round4-pedagogy-review",
+    "worker3-round5-dev-overlay-fix"
+  ],
+  "context_files": [
+    "docs/codex-team/lead-round5-plan.md",
+    "docs/codex-team/curriculum-applicable-extract.txt",
+    "docs/codex-team/USER_GUIDE.md"
+  ],
+  "task": "Vòng trước timeout; previous là checkpoint root thu log, không phải nghiệm thu. Ghi report nháp vào thư mục tạm ngay từ đầu, cập nhật sau mỗi ca; cuối trỏ đúng report đầy đủ. Không sửa workspace/DOCX. Bản hiện có CSV B23, scope OUT_OF_SCOPE và DevTools che AI đã tắt. Thử browser thực tế tuần tự: (1) Chuột mở AI mobile390/desktop1280, hỏi cách làm bánh trong Gợi ý rồi câu sau2T, chờ xong từng câu; ngoài phạm vi không ép H1, câu học tập có nguồn và dẫn dắt phù hợp. (2) Kho B23 Khảo sát đồ thị: N0=1000 T30→60, N0=2000, tải CSV; 61 thời điểm, t30≈1414.213562 với2000/60; reset bảng. Đọc hướng dẫn tính T từ2điểm/giới hạn. (3) Thực hiện theo USER_GUIDE: B24 đóngvai lập luận nguồn/phảnbiện, B21 chẩnđoán đúng/sai/trống, B23 infographic tia/lịch sử dùng bànphím. Ghi ca mới và ca previous riêng, ảnh thật và view_image. Đối chiếu 15YCCĐ PDF mới trang27–28 với src/lib/nuclear-curriculum.ts. Mỗi vấn đề ID/severity/trang/steps/evidence/căn cứ/tácđộng/tiêuchíđóng. Tài khoản/DBdev chưa có nên privateCHƯAKIỂMCHỨNG. Không coiR5là2lượtnghiệmthu. Filenameảnh/snapshotTUYỆTĐỐItrongevidence. Báo đầy đủ phần còn mở, hoàn tất báo cáo trước timeout."
+}

@@ -1,0 +1,96 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Đi đến nội dung chính" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Mở menu" [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=e10] [cursor=pointer]:
+        - /url: /login
+    - main [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - paragraph [ref=e16]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=e17]
+            - paragraph [ref=e18]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=e19]:
+            - button "Chế độ trình chiếu" [ref=e20] [cursor=pointer]
+            - link "Toàn bộ kho học liệu" [ref=e21] [cursor=pointer]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=e22]:
+          - link "B21 Cấu trúc hạt nhân" [ref=e23] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=e24]: B21
+            - strong [ref=e25]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=e26] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=e27]: B22
+            - strong [ref=e28]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=e29] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=e30]: B23
+            - strong [ref=e31]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=e32] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=e33]: B24
+            - strong [ref=e34]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=e35] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=e36]: B25
+            - strong [ref=e37]: Thực hành bán rã
+        - generic [ref=e38]:
+          - generic [ref=e39]: B25
+          - generic [ref=e40]:
+            - heading "Thực hành đo chu kì bán rã" [level=2] [ref=e41]
+            - paragraph [ref=e42]: Đọc số liệu phóng xạ, vẽ đồ thị và xác định chu kì bán rã trong mô hình thực hành.
+        - paragraph [ref=e43]:
+          - link "Hỏi AI về bài B25 ↗" [ref=e44] [cursor=pointer]:
+            - /url: /hoc-lieu/ai?bai=B25
+          - generic [ref=e45]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=e46]:
+          - button "01 Đọc hình Chạm để khám phá" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: "01"
+            - strong [ref=e49]: Đọc hình
+            - generic [ref=e50]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: "02"
+            - strong [ref=e53]: Thao tác 3D
+            - generic [ref=e54]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [active] [pressed] [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: "03"
+            - strong [ref=e57]: Xem video
+            - generic [ref=e58]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "04"
+            - strong [ref=e61]: Ghi & giải thích
+            - generic [ref=e62]: Chuẩn bị cho giờ học
+        - generic [ref=e63]:
+          - region "Half-life" [ref=e121]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: ▶
+              - heading "Half-life" [level=3] [ref=e125]
+              - paragraph [ref=e126]: Khan Academy
+              - button "Mở video tại đây" [ref=e127] [cursor=pointer]
+              - paragraph [ref=e128]: Chỉ kết nối YouTube khi em mở video.
+            - generic [ref=e129]:
+              - strong [ref=e130]: Xem có nhiệm vụ
+              - paragraph [ref=e131]: Dừng sau mỗi chu kì bán rã. Từ 800 hạt, dự đoán số còn lại sau 1T, 2T, 3T; phân biệt số hạt N với tốc độ phân rã H.
+            - paragraph [ref=e132]: Video tiếng Anh; câu hỏi và hướng dẫn bằng tiếng Việt. Chọn phụ đề trong trình phát nếu tác giả cung cấp. Nếu video không phát tại đây, dùng liên kết nguồn.
+            - link "Xem trên YouTube ↗" [ref=e133] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=gDpyBifg6-s
+          - generic [ref=e110]:
+            - generic [ref=e111]: Theo câu hỏi dẫn dắt
+            - 'button "Tiếp: Ghi & giải thích" [ref=e134] [cursor=pointer]'
+        - group [ref=e113]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=e114] [cursor=pointer]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=e115]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=e116]:
+          - generic "Nguồn học liệu" [ref=e117] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=e118]:
+      - button "Mở khung AI học tập" [ref=e119] [cursor=pointer]: AI
+  - alert [ref=e120]

@@ -1,0 +1,98 @@
+[
+  {
+    "task": "worksheet",
+    "status": 200,
+    "seconds": 58.363,
+    "reply": "**PHIẾU HỌC SINH**  \n\n**Mục tiêu:** Hiểu khái niệm phóng xạ, các loại phân rã (α, β⁻, β⁺, γ), tính chất và cách bảo vệ.  \n\n**Nhiệm vụ dự đoán:** Dựa vào thông tin, đoán tác động của mỗi loại phân rã đến số khối (A) và số nguyên tử (Z).  \n\n**Nhiệm vụ quan sát/đọc dữ liệu:** Đọc các đoạn [D1]–[D9], ghi nhận thay đổi A, Z, và khả năng chặn tia.  \n\n**Câu hỏi giải thích:**  \n- Vì sao không thể dự đoán chính xác thời điểm phân rã của một hạt?  \n- Trong phân rã β⁻, A và Z thay đổi như thế nào?  \n\n**Câu hỏi tự điều chỉnh:**  \n- Nếu một mẫu có độ phóng xạ 100 Bq, sau 10 năm (T = 5730 năm), độ phóng xạ sẽ thay đổi thế nào?  \n- Tại sao việc dùng chì hoặc bê tông là cần thiết với γ?  \n\n---\n\n**GỢI Ý DÀNH CHO GIÁO VIÊN**  \n\n- Dùng [D1] để hình thành khái niệm phân rã ngẫu nhiên.  \n- Hướng dẫn học sinh phân tích [D2]–[D4] để nhận diện thay đổi A/Z.  \n- Dùng [D5] để so sánh khả năng chặn các tia.  \n- Giải thích [D6] bằng ví dụ giả định: sau 1 T, số hạt giảm một nửa so với đầu khoảng đó.  \n- Nhấn mạnh [D7]: H = λN, không đổi khi N thay đổi.  \n- Dùng [D8] để minh họa định tuổi C-14, lưu ý cần hiệu chỉnh thực tế.  \n- Gợi ý [D9] để xây dựng nguyên tắc bảo vệ bằng cách mô phỏng tình huống đơn giản.  \n- Không tạo số liệu đo thực tế; tất cả ví dụ tính toán là giả định.",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "D1",
+        "text": "Phóng xạ là biến đổi tự phát của hạt nhân không bền. Không dự đoán chính xác lúc phân rã của một hạt riêng; có thể dự đoán phân bố thống kê của nhiều hạt."
+      },
+      {
+        "id": "D2",
+        "text": "α là hạt nhân helium-4 (2 proton, 2 neutron). Phân rã α làm A giảm 4 và Z giảm 2."
+      },
+      {
+        "id": "D3",
+        "text": "β⁻ là electron phát ra khi neutron biến đổi thành proton; A không đổi, Z tăng 1. β⁺ là positron, A không đổi và Z giảm 1; phản ứng còn có neutrino hoặc phản neutrino."
+      },
+      {
+        "id": "D4",
+        "text": "γ là photon năng lượng cao từ hạt nhân kích thích. Khi chỉ phát γ, A và Z không đổi."
+      },
+      {
+        "id": "D5",
+        "text": "Giấy có thể chặn α; nhôm làm suy giảm β; γ cần vật liệu dày như chì hoặc bê tông để suy giảm. Mức đâm xuyên phụ thuộc năng lượng và vật liệu, không phải giới hạn tuyệt đối."
+      },
+      {
+        "id": "D6",
+        "text": "N(t) = N₀ exp(−λt) = N₀ 2^(−t/T), λ = ln2/T. Sau mỗi T, số hạt chưa phân rã giảm một nửa so với đầu khoảng đó, không phải giảm một nửa N₀ mãi mãi."
+      },
+      {
+        "id": "D7",
+        "text": "Độ phóng xạ H = λN, đơn vị becquerel (Bq) = một phân rã mỗi giây. N là số hạt, H là tốc độ phân rã; không đổi lẫn các đại lượng này."
+      },
+      {
+        "id": "D8",
+        "text": "C-14 có T gần 5730 năm. Mẫu kín lí tưởng còn 25% so với ban đầu tương ứng 2T = 11460 năm; định tuổi khảo cổ thực còn cần hiệu chỉnh."
+      },
+      {
+        "id": "D9",
+        "text": "Nguyên tắc bảo vệ: giảm thời gian tiếp xúc, tăng khoảng cách, dùng che chắn phù hợp. Mô phỏng chỉ để học quan hệ định tính."
+      }
+    ],
+    "partial": false,
+    "sourceWarning": false
+  },
+  {
+    "task": "review",
+    "status": 200,
+    "seconds": 70.518,
+    "reply": "- [D1] Câu: \"Không dự đoán chính xác lúc phân rã của một hạt riêng\" – chưa rõ thời gian cụ thể, cần kiểm tra điều kiện xác định phân bố thống kê.  \n- [D2] Câu: \"Phân rã α làm A giảm 4 và Z giảm 2\" – cần kiểm tra đơn vị A, Z (số khối, số proton) và điều kiện hạt nhân phù hợp.  \n- [D3] Câu: \"β⁻ là electron phát ra khi neutron biến đổi thành proton\" – cần kiểm tra điều kiện phản ứng và sự xuất hiện của neutrino (không được nêu rõ).  \n- [D4] Câu: \"γ là photon năng lượng cao từ hạt nhân kích thích\" – cần kiểm tra điều kiện kích thích và năng lượng cụ thể.  \n- [D5] Câu: \"Giấy có thể chặn α; nhôm làm suy giảm β; γ cần vật liệu dày như chì hoặc bê tông\" – cần kiểm tra mức độ hiệu quả theo năng lượng và loại vật liệu.  \n- [D6] Câu: \"Sau mỗi T, số hạt chưa phân rã giảm một nửa so với đầu khoảng đó\" – cần kiểm tra điều kiện \"mỗi khoảng T\" và không sai so với N₀.  \n- [D7] Câu: \"H = λN, đơn vị becquerel (Bq)\" – cần kiểm tra mối quan hệ giữa H và N, và đơn vị Bq.  \n- [-D8] Câu: \"Mẫu kín lí tưởng còn 25% so với ban đầu tương ứng 2T = 11460 năm\" – cần kiểm tra điều kiện mẫu kín và hiệu chỉnh thực tế.  \n- [D9] Câu: \"Mô phỏng chỉ để học quan hệ định tính\" – cần kiểm tra mục đích sử dụng mô phỏng trong dạy học.  \n\nTổng: 198 từ. Không có sai lệch được xác nhận; các điểm cần kiểm tra do thiếu thông tin cụ thể hoặc không đủ căn cứ.",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "D1",
+        "text": "Phóng xạ là biến đổi tự phát của hạt nhân không bền. Không dự đoán chính xác lúc phân rã của một hạt riêng; có thể dự đoán phân bố thống kê của nhiều hạt."
+      },
+      {
+        "id": "D2",
+        "text": "α là hạt nhân helium-4 (2 proton, 2 neutron). Phân rã α làm A giảm 4 và Z giảm 2."
+      },
+      {
+        "id": "D3",
+        "text": "β⁻ là electron phát ra khi neutron biến đổi thành proton; A không đổi, Z tăng 1. β⁺ là positron, A không đổi và Z giảm 1; phản ứng còn có neutrino hoặc phản neutrino."
+      },
+      {
+        "id": "D4",
+        "text": "γ là photon năng lượng cao từ hạt nhân kích thích. Khi chỉ phát γ, A và Z không đổi."
+      },
+      {
+        "id": "D5",
+        "text": "Giấy có thể chặn α; nhôm làm suy giảm β; γ cần vật liệu dày như chì hoặc bê tông để suy giảm. Mức đâm xuyên phụ thuộc năng lượng và vật liệu, không phải giới hạn tuyệt đối."
+      },
+      {
+        "id": "D6",
+        "text": "N(t) = N₀ exp(−λt) = N₀ 2^(−t/T), λ = ln2/T. Sau mỗi T, số hạt chưa phân rã giảm một nửa so với đầu khoảng đó, không phải giảm một nửa N₀ mãi mãi."
+      },
+      {
+        "id": "D7",
+        "text": "Độ phóng xạ H = λN, đơn vị becquerel (Bq) = một phân rã mỗi giây. N là số hạt, H là tốc độ phân rã; không đổi lẫn các đại lượng này."
+      },
+      {
+        "id": "D8",
+        "text": "C-14 có T gần 5730 năm. Mẫu kín lí tưởng còn 25% so với ban đầu tương ứng 2T = 11460 năm; định tuổi khảo cổ thực còn cần hiệu chỉnh."
+      },
+      {
+        "id": "D9",
+        "text": "Nguyên tắc bảo vệ: giảm thời gian tiếp xúc, tăng khoảng cách, dùng che chắn phù hợp. Mô phỏng chỉ để học quan hệ định tính."
+      }
+    ],
+    "partial": false,
+    "sourceWarning": false
+  }
+]

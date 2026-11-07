@@ -1,0 +1,27 @@
+- generic [ref=f15e1]:
+  - generic [ref=f15e3]:
+    - generic [ref=f15e4]:
+      - heading "Đăng nhập" [level=1] [ref=f15e5]
+      - paragraph [ref=f15e6]: Truy cập không gian làm việc của bạn
+    - generic [ref=f15e7]:
+      - generic [ref=f15e8]:
+        - generic [ref=f15e9] [cursor=pointer]:
+          - radio "Giáo viên" [checked] [ref=f15e10]
+          - generic [ref=f15e11]: Giáo viên
+        - generic [ref=f15e12] [cursor=pointer]:
+          - radio "Học sinh" [ref=f15e13]
+          - generic [ref=f15e14]: Học sinh
+      - generic [ref=f15e15]:
+        - generic [ref=f15e16]: Email
+        - textbox "Email" [active] [ref=f15e17]: invalid-test
+      - generic [ref=f15e18]:
+        - generic [ref=f15e19]: Mật khẩu
+        - textbox "Mật khẩu" [ref=f15e20]
+      - button "Đăng nhập" [ref=f15e21] [cursor=pointer]
+    - paragraph [ref=f15e22]:
+      - text: Chưa có tài khoản?
+      - link "Đăng ký ngay" [ref=f15e23] [cursor=pointer]:
+        - /url: /register
+    - link "← Quay lại trang chủ" [ref=f15e25] [cursor=pointer]:
+      - /url: /
+  - alert [ref=f15e26]

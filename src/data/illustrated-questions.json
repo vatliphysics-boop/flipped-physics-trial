@@ -1,0 +1,596 @@
+[
+  {
+    "id": "img-B21-1",
+    "kind": "choice",
+    "topic": "B21",
+    "level": "Thông hiểu",
+    "prompt": "Dựa vào màu chú giải, hai hạt nhân trong hình có quan hệ nào?",
+    "options": [
+      "Cùng Z, khác N",
+      "Cùng A, khác Z",
+      "Cùng N, khác Z",
+      "Khác Z và khác N"
+    ],
+    "answer": 0,
+    "explanation": "Hạt nhân I:6 proton,6 neutron; II:6 proton,8 neutron. Cùng Z=6, khác N nên là đồng vị.",
+    "points": 1,
+    "imageId": "isotopes",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B21-2",
+    "kind": "choice",
+    "topic": "B21",
+    "level": "Nhận biết",
+    "prompt": "Số neutron của hạt nhân II trong hình là bao nhiêu?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "14"
+    ],
+    "answer": 1,
+    "explanation": "Hạt nhân II có 8 hạt màu xanh, tức 8 neutron.",
+    "points": 1,
+    "imageId": "isotopes",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B21-3",
+    "kind": "choice",
+    "topic": "B21",
+    "level": "Thông hiểu",
+    "prompt": "Việc một số rất ít hạt alpha bật ngược gợi ý điều gì?",
+    "options": [
+      "Điện tích dương phân bố đều",
+      "Electron chứa gần hết khối lượng",
+      "Vùng điện tích dương tập trung trong hạt nhân rất nhỏ",
+      "Nguyên tử là khối đặc"
+    ],
+    "answer": 2,
+    "explanation": "Lệch góc lớn cho bằng chứng về vùng điện tích dương tập trung; hình chỉ minh họa đường đi, không cho tần suất.",
+    "points": 1,
+    "imageId": "rutherford",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B21-4",
+    "kind": "choice",
+    "topic": "B21",
+    "level": "Thông hiểu",
+    "prompt": "Sơ đồ đường đi này có cho phép suy chính xác tỉ lệ hạt bật ngược không?",
+    "options": [
+      "Có, vì vẽ một đường bật ngược",
+      "Không, hình không biểu diễn tần suất đo",
+      "Có, tỉ lệ là 1/3",
+      "Có, tỉ lệ là 2/3"
+    ],
+    "answer": 1,
+    "explanation": "Không thể suy tần suất từ số đường minh họa trên sơ đồ.",
+    "points": 1,
+    "imageId": "rutherford",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B22-1",
+    "kind": "choice",
+    "topic": "B22",
+    "level": "Nhận biết",
+    "prompt": "Hạt nhân nào có năng lượng liên kết riêng lớn nhất trong hình?",
+    "options": [
+      "He-4",
+      "Fe-56",
+      "U-235",
+      "Cả ba bằng nhau"
+    ],
+    "answer": 1,
+    "explanation": "Fe-56 có E/A gần 8,79MeV/nuclon.",
+    "points": 1,
+    "imageId": "binding",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B22-2",
+    "kind": "choice",
+    "topic": "B22",
+    "level": "Vận dụng",
+    "prompt": "Từ dữ kiện hình, năng lượng liên kết tổng của He-4 gần bằng bao nhiêu?",
+    "options": [
+      "1,77MeV",
+      "7,07MeV",
+      "28,28MeV",
+      "56,56MeV"
+    ],
+    "answer": 2,
+    "explanation": "E=(E/A)A=7,07×4=28,28MeV.",
+    "points": 1,
+    "imageId": "binding",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B22-3",
+    "kind": "choice",
+    "topic": "B22",
+    "level": "Vận dụng",
+    "prompt": "Với nhánh trong hình, số neutron sinh ra cần có để bảo toàn A là bao nhiêu?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "236=141+92+k nên k=3. Điện tích 92=56+36.",
+    "points": 1,
+    "imageId": "fission",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B22-4",
+    "kind": "choice",
+    "topic": "B22",
+    "level": "Thông hiểu",
+    "prompt": "Nhận xét nào đúng về nhánh phản ứng được minh họa?",
+    "options": [
+      "Mọi lần phân hạch U-235 đều có hai mảnh như hình",
+      "Đây là một nhánh minh họa; phân hạch có thể tạo các mảnh khác",
+      "Không có năng lượng tỏa ra",
+      "Số khối mỗi mảnh bằng 235"
+    ],
+    "answer": 1,
+    "explanation": "Phân hạch có nhiều nhánh; hình không mô tả mọi sản phẩm có thể có.",
+    "points": 1,
+    "imageId": "fission",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B23-1",
+    "kind": "choice",
+    "topic": "B23",
+    "level": "Thông hiểu",
+    "prompt": "Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "answer": 0,
+    "explanation": "N(2T)=200, N₀=800, tỉ lệ còn lại 25%.",
+    "points": 1,
+    "imageId": "decay-curve",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B23-2",
+    "kind": "choice",
+    "topic": "B23",
+    "level": "Vận dụng",
+    "prompt": "Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?",
+    "options": [
+      "100",
+      "200",
+      "400",
+      "600"
+    ],
+    "answer": 3,
+    "explanation": "Nđãphânrã=800−200=600; tương ứng 75%.",
+    "points": 1,
+    "imageId": "decay-curve",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B23-3",
+    "kind": "choice",
+    "topic": "B23",
+    "level": "Vận dụng",
+    "prompt": "Giá trị trung bình của ba lượt đếm trong hình là bao nhiêu?",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "22"
+    ],
+    "answer": 2,
+    "explanation": "(18+22+20)/3=20 số đếm mỗi 10 s.",
+    "points": 1,
+    "imageId": "counting",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B23-4",
+    "kind": "choice",
+    "topic": "B23",
+    "level": "Thông hiểu",
+    "prompt": "Ba lượt đếm khác nhau ở cùng điều kiện phù hợp với nhận xét nào?",
+    "options": [
+      "Máy đếm chắc chắn hỏng",
+      "Phân rã có tính ngẫu nhiên, số đếm có thể dao động",
+      "Chu kì bán rã đổi ở mỗi lượt",
+      "Số đếm phải bằng nhau tuyệt đối"
+    ],
+    "answer": 1,
+    "explanation": "Phân rã ngẫu nhiên gây dao động số đếm; cần lặp và kiểm soát điều kiện.",
+    "points": 1,
+    "imageId": "counting",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B24-1",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Thông hiểu",
+    "prompt": "Trình tự chuyển hóa năng lượng nào phù hợp sơ đồ?",
+    "options": [
+      "Hạt nhân→nhiệt→cơ→điện",
+      "Điện→hạt nhân→nhiệt→cơ",
+      "Cơ→hạt nhân→điện→nhiệt",
+      "Nhiệt→điện→hạt nhân→cơ"
+    ],
+    "answer": 0,
+    "explanation": "Năng lượng hạt nhân tạo nhiệt, nhiệt tạo cơ năng quay turbine rồi máy phát tạo điện.",
+    "points": 1,
+    "imageId": "power-flow",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B24-2",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Nhận biết",
+    "prompt": "Bộ phận nào biến cơ năng quay thành điện năng?",
+    "options": [
+      "Lò phản ứng",
+      "Bộ trao đổi nhiệt",
+      "Turbine",
+      "Máy phát điện"
+    ],
+    "answer": 3,
+    "explanation": "Máy phát điện chuyển cơ năng thành điện năng.",
+    "points": 1,
+    "imageId": "power-flow",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B24-3",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Thông hiểu",
+    "prompt": "Phát biểu nào phù hợp phần minh họa tia gamma?",
+    "options": [
+      "Một tờ giấy chắn hết gamma",
+      "Gamma bị suy giảm qua vật liệu chắn, không xem là bị chắn tuyệt đối",
+      "Gamma không tương tác với vật chất",
+      "Mọi gamma bị nhôm mỏng chắn hết"
+    ],
+    "answer": 1,
+    "explanation": "Tia gamma bị suy giảm tùy vật liệu, độ dày và năng lượng; sơ đồ chỉ định tính.",
+    "points": 1,
+    "imageId": "shielding",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B24-4",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Thông hiểu",
+    "prompt": "Để dùng sơ đồ này trong câu hỏi, điều kiện nào cần nêu rõ?",
+    "options": [
+      "Chỉ màu tia là đủ",
+      "Khả năng đâm xuyên còn phụ thuộc năng lượng bức xạ và vật liệu",
+      "Sơ đồ cho liều thật",
+      "Kích thước tia vẽ bằng kích thước thật"
+    ],
+    "answer": 1,
+    "explanation": "Sơ đồ định tính, không cho liều hoặc mọi giá trị năng lượng.",
+    "points": 1,
+    "imageId": "shielding",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B25-1",
+    "kind": "choice",
+    "topic": "B25",
+    "level": "Vận dụng",
+    "prompt": "Dưới các giả thiết trong hình, cường độ tại 2 r so với tại r gần bằng bao nhiêu?",
+    "options": [
+      "2",
+      "1/2",
+      "1/4",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "I∝1/r² nên I(2 r)/I(r)=1/4.",
+    "points": 1,
+    "imageId": "distance",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B25-2",
+    "kind": "choice",
+    "topic": "B25",
+    "level": "Thông hiểu",
+    "prompt": "Khi nào không thể áp dụng trực tiếp tỉ số lí tưởng 1/4 trong hình?",
+    "options": [
+      "Nguồn điểm, bỏ qua hấp thụ và nền",
+      "Nguồn trải rộng hoặc hấp thụ và nền đáng kể",
+      "Giữ cùng nguồn và điều kiện lí tưởng",
+      "Khoảng cách tăng từ r lên 2 r ở mô hình lí tưởng"
+    ],
+    "answer": 1,
+    "explanation": "Nguồn trải rộng, hấp thụ hoặc nền phá vỡ giả thiết đơn giản.",
+    "points": 1,
+    "imageId": "distance",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B25-3",
+    "kind": "choice",
+    "topic": "B25",
+    "level": "Vận dụng",
+    "prompt": "Trung bình số đếm sau trừ nền mỗi lượt trong hình là bao nhiêu?",
+    "options": [
+      "40",
+      "42",
+      "46",
+      "50"
+    ],
+    "answer": 1,
+    "explanation": "Trung bình thô=(44+48+40+52)/4=46; trừ nền 4 được 42.",
+    "points": 1,
+    "imageId": "background",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B25-4",
+    "kind": "choice",
+    "topic": "B25",
+    "level": "Vận dụng",
+    "prompt": "Trung bình tốc độ đếm sau trừ nền là bao nhiêu?",
+    "options": [
+      "0,21 số đếm/s",
+      "2,1 số đếm/s",
+      "4,2 số đếm/s",
+      "42 số đếm/s"
+    ],
+    "answer": 1,
+    "explanation": "42/20=2,1 số đếm/s. Không đồng nhất với H hoặc liều thật.",
+    "points": 1,
+    "imageId": "background",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B21-extra-0",
+    "kind": "choice",
+    "topic": "B21",
+    "level": "Nhận biết",
+    "prompt": "Số khối của hạt nhân II trong hình là bao nhiêu?",
+    "options": [
+      "6",
+      "8",
+      "14",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "Hạt nhân II có 6 proton và 8 neutron, nên A = 14.",
+    "points": 1,
+    "imageId": "isotopes",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B21-extra-1",
+    "kind": "choice",
+    "topic": "B21",
+    "level": "Thông hiểu",
+    "prompt": "Trong thí nghiệm thật, đa số hạt alpha đi qua gần thẳng. Kết quả này cùng một số rất ít hạt lệch mạnh gợi ý điều gì?",
+    "options": [
+      "Phần lớn thể tích nguyên tử là khoảng trống, điện tích dương tập trung ở vùng rất nhỏ",
+      "Nguyên tử là khối đặc đồng nhất",
+      "Không có điện tích dương trong nguyên tử",
+      "Electron có khối lượng lớn hơn hạt nhân"
+    ],
+    "answer": 0,
+    "explanation": "Đi qua gần thẳng và một số rất ít lệch mạnh phù hợp cấu trúc nguyên tử có hạt nhân rất nhỏ. Hình chỉ minh họa đường đi.",
+    "points": 1,
+    "imageId": "rutherford",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B22-extra-2",
+    "kind": "choice",
+    "topic": "B22",
+    "level": "Vận dụng",
+    "prompt": "Chênh lệch E/A của Fe-56 và U-235 trong hình gần bằng bao nhiêu?",
+    "options": [
+      "0,60 MeV/nuclon",
+      "1,20 MeV/nuclon",
+      "7,59 MeV/nuclon",
+      "16,38 MeV/nuclon"
+    ],
+    "answer": 1,
+    "explanation": "8,79 − 7,59 = 1,20 MeV/nuclon.",
+    "points": 1,
+    "imageId": "binding",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B22-extra-3",
+    "kind": "choice",
+    "topic": "B22",
+    "level": "Vận dụng",
+    "prompt": "Cho Ba có Z = 56 và Kr có Z = 36. Tổng điện tích hạt nhân của hai mảnh trong hình bằng bao nhiêu đơn vị điện tích nguyên tố?",
+    "options": [
+      "36",
+      "56",
+      "92",
+      "141"
+    ],
+    "answer": 2,
+    "explanation": "56 + 36 = 92; neutron có Z = 0.",
+    "points": 1,
+    "imageId": "fission",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B23-extra-4",
+    "kind": "choice",
+    "topic": "B23",
+    "level": "Vận dụng",
+    "prompt": "Sau 3T, phần hạt nhân mẹ còn lại theo đường lí thuyết là bao nhiêu?",
+    "options": [
+      "12,5%",
+      "25%",
+      "50%",
+      "87,5%"
+    ],
+    "answer": 0,
+    "explanation": "100/800 = 0,125 = 12,5%.",
+    "points": 1,
+    "imageId": "decay-curve",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B23-extra-5",
+    "kind": "choice",
+    "topic": "B23",
+    "level": "Vận dụng",
+    "prompt": "Trung bình tốc độ đếm của ba lượt trong hình là bao nhiêu?",
+    "options": [
+      "0,2 số đếm/s",
+      "2 số đếm/s",
+      "20 số đếm/s",
+      "200 số đếm/s"
+    ],
+    "answer": 1,
+    "explanation": "Trung bình 20 số đếm trong 10 s, tức 2 số đếm/s; chưa đồng nhất với H nếu chưa biết hiệu suất và nền.",
+    "points": 1,
+    "imageId": "counting",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B24-extra-6",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Thông hiểu",
+    "prompt": "Turbine trong sơ đồ có vai trò nào?",
+    "options": [
+      "Tạo phân hạch trực tiếp",
+      "Biến năng lượng của dòng hơi thành cơ năng quay",
+      "Chắn mọi tia gamma",
+      "Trực tiếp tạo nhiên liệu hạt nhân"
+    ],
+    "answer": 1,
+    "explanation": "Dòng hơi làm quay turbine; máy phát nối với turbine chuyển cơ năng thành điện năng.",
+    "points": 1,
+    "imageId": "power-flow",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B24-extra-7",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Nhận biết",
+    "prompt": "Loại bức xạ nào trong hình là photon năng lượng cao?",
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Cả ba đều là hạt nhân helium"
+    ],
+    "answer": 2,
+    "explanation": "Gamma là photon; alpha là hạt nhân helium-4, beta là electron hoặc positron.",
+    "points": 1,
+    "imageId": "shielding",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B25-extra-8",
+    "kind": "choice",
+    "topic": "B25",
+    "level": "Vận dụng",
+    "prompt": "Giữ các giả thiết nguồn điểm như hình. Nếu đặt máy đếm tại 3r, cường độ so với tại r gần bằng bao nhiêu?",
+    "options": [
+      "1/3",
+      "1/6",
+      "1/9",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "I tỉ lệ 1/r² nên I(3r)/I(r) = 1/9.",
+    "points": 1,
+    "imageId": "distance",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B25-extra-9",
+    "kind": "choice",
+    "topic": "B25",
+    "level": "Vận dụng",
+    "prompt": "Khoảng biến thiên giữa số đếm lớn nhất và nhỏ nhất của bốn lượt trong hình là bao nhiêu?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "52 − 40 = 12 số đếm; các lượt cùng 20 s.",
+    "points": 1,
+    "imageId": "background",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ kiến thức B21–B25; hình là mô hình, cần giáo viên rà soát trước khi giao."
+  },
+  {
+    "id": "img-B24-pet-0",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Nhận biết",
+    "prompt": "Trong sơ đồ PET, hai máy dò ghi nhận chủ yếu loại tín hiệu nào?",
+    "options": [
+      "Photon gamma",
+      "Hạt nhân alpha",
+      "Dòng neutron nhiệt",
+      "Sóng âm"
+    ],
+    "answer": 0,
+    "explanation": "PET ghi nhận photon gamma liên quan quá trình positron hủy cặp với electron.",
+    "points": 1,
+    "imageId": "pet",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ nguyên lí PET; hình minh họa cần giáo viên rà soát."
+  },
+  {
+    "id": "img-B24-pet-1",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Thông hiểu",
+    "prompt": "Mục đích phù hợp với nguyên lí trong hình là gì?",
+    "options": [
+      "Đánh giá phân bố dược chất để hỗ trợ chẩn đoán hình ảnh",
+      "Dùng máy dò làm nguồn điều trị trực tiếp",
+      "Đo trực tiếp số proton của mọi hạt nhân",
+      "Thay mọi phương pháp chẩn đoán khác"
+    ],
+    "answer": 0,
+    "explanation": "Hình minh họa nguyên lí chẩn đoán PET; không phải mô hình điều trị hoặc sự thay thế mọi phương pháp khác.",
+    "points": 1,
+    "imageId": "pet",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ nguyên lí PET; hình minh họa cần giáo viên rà soát."
+  },
+  {
+    "id": "img-B24-pet-2",
+    "kind": "choice",
+    "topic": "B24",
+    "level": "Thông hiểu",
+    "prompt": "Giới hạn nào cần nêu khi sử dụng sơ đồ này?",
+    "options": [
+      "Có thể tính liều bệnh nhân từ kích thước hình",
+      "Sơ đồ chưa cung cấp dữ liệu liều hoặc thay thế chỉ định của chuyên môn y tế",
+      "Hình chứng minh mọi chất phát gamma dùng được cho PET",
+      "Hình mô tả mọi chi tiết sinh học và thiết bị"
+    ],
+    "answer": 1,
+    "explanation": "Sơ đồ nguyên lí đơn giản không cung cấp dữ kiện tính liều và không thay thế tư vấn hoặc chỉ định y tế.",
+    "points": 1,
+    "imageId": "pet",
+    "source": "Câu hỏi do nhóm thiết kế biên soạn từ nguyên lí PET; hình minh họa cần giáo viên rà soát."
+  }
+]

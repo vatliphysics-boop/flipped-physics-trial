@@ -1,0 +1,8 @@
+PASS B23 opens on demand, plays and seeks middle/end in 390px browser {
+  duration: 60,
+  width: 1920,
+  height: 1080,
+  current: [ 30, 59.9 ],
+  track: 'vi',
+  cues: 5
+}

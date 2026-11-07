@@ -1,0 +1,10 @@
+[     455ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     504ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   17686ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18635ms] [LOG] [Fast Refresh] done in 1004ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   18744ms] [LOG] [Fast Refresh] done in 1004ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   34045ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector @ https://www.google.com/js/th/JeUz4nRqeb1gkym__P4turcUd-lzSiN8qMcTTqaOYsw.js:0
+[   35059ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector @ https://www.google.com/js/th/JeUz4nRqeb1gkym__P4turcUd-lzSiN8qMcTTqaOYsw.js:0
+[   37109ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector @ https://www.google.com/js/th/JeUz4nRqeb1gkym__P4turcUd-lzSiN8qMcTTqaOYsw.js:0
+[   40840ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector @ https://www.google.com/js/th/JeUz4nRqeb1gkym__P4turcUd-lzSiN8qMcTTqaOYsw.js:0
+[   49431ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector @ https://www.google.com/js/th/JeUz4nRqeb1gkym__P4turcUd-lzSiN8qMcTTqaOYsw.js:0

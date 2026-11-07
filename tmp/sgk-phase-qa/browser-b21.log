@@ -1,0 +1,164 @@
+START B21
+b23-gv /teacher/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/before-class CHƯƠNG IV · BÀI 21 · [QA] SGK B21–B25 1793890153017
+
+Cấu trúc hạt nhân
+
+Pha 1 · Trước giờ học — Bài giảng và chuẩn bị kiến thức nền
+
+Về lớp [QA] SGK B21–B25 1793890153017
+›
+Chương trình Vật lí 12
+›
+Chương IV
+›
+Tổng quan bài
+›
+Trước giờ học
+01
+Trước giờ học
+02
+Trong giờ học
+03
+Sau giờ học
+
+Xem nhiệm vụ và bài nộp của học sinh
+
+Tiến trình học tập: Pha 1 · Trước giờ học (Chuẩn bị kiến thức)
+
+Các bước được giao ngay cho học sinh khi bài học được xuất bản. Học sinh thực hiện theo thứ tự và nộp kết quả từng bước.
+
++ Chọn từ kho học liệu
+1
+Dự đoán điều giữ nguyên giữa các đồng vị carbon
+Bản nháp
+Giao cho học sinh
+Video bài giảng
+Bắt buộc
+
+Mục tiêu: Đọc số proton và số khối từ kí hiệu hạt nhân.
+
+Nhiệm vụ: Chọn mục tiêu tự học, xem video B21 và đọc mục cấu tạo hạt nhân. Dự đoán điều giống và khác giữa 
+6
+12
+C
+6
+12
+	​
+
+C và 
+6
+13
+C
+6
+13
+	​
+
+C. Ghi đoạn video hoặc mục sách em đã dùng.
+
+Sản phẩm cần nộp: Một dự đoán có lí do, nguồn đã đọc và một điều chưa hiểu để hỏi khi vào lớp.
+
+Tiêu chí hoàn thành: Dự đoán nói rõ đại lượng nào giống nhau và câu hỏi còn lại đủ cụ thể.
+
+▲
+▼
+✎ Chỉnh sửa
+👁 Xem trước
+Xóa
+Bản nháp
+Bắt buộc
+Video bài giảng
+Bài B21
+Dự đoán điều giữ nguyên giữa các đồng vị carbon
+✎ Chỉnh sửa
+⛶ Mở rộng
+✕
+ℹ️ Chế độ xem trước của giáo viên: Thao tác thử thoải mái trên nội dung thật — không ghi bài nộp, điểm số hay tiến độ và không tự động giao bài.
+1. NHIỆM VỤ CỦA HỌC SINH
+Chỉnh sửa nhiệm vụ & công thức →
+
+Mục tiêu: Đọc số proton và số khối từ kí hiệu hạt nhân.
+
+Nhiệm vụ: Chọn mục tiêu tự học, xem video B21 và đọc mục cấu tạo hạt nhân. Dự đoán điều giống và khác giữa 
+6
+12
+C
+6
+12
+	​
+
+C và 
+6
+13
+C
+6
+13
+	​
+
+C. Ghi đoạn video hoặc mục sách em đã dùng.
+
+Sản phẩm cần nộp: Một dự đoán có lí do, nguồn đã đọc và một điều chưa hiểu để hỏi khi vào lớp.
+
+Tiêu chí hoàn thành: Dự đoán nói rõ đại lượng nào giống nhau và câu hỏi còn lại đủ cụ thể.
+
+2. HỌC LIỆU TƯƠNG TÁC
+▶
+Mở video B21
+Cấu trúc hạt nhân · Có phụ đề tiếng Việt
+Thử kiểm tra phản hồi (Không lưu)
+3. NGUỒN THAM KHẢO & HỌC LIỆU GỐC
+Tên học liệu gốc: Video B21 · Cấu trúc hạt nhân
+Phân loại: Video bài giảng
+Định danh / Đường dẫn: /videos/nuclear-lessons/b21.mp4
+✎ Chỉnh sửa bước học này
+Đóng xem trước
+HỌC LIỆU
+HỌC LIỆU TRƯỚC GIỜ HỌC
++ Upload video
++ Thêm Google Colab
+
+Chưa có học liệu trước giờ học
+
+Chưa có hoạt động Colab nào.
+
+Câu hỏi cuối giai đoạn
+
+Cấu hình chính xác 2 câu hỏi để học sinh làm sau khi hoàn thành học liệu.
+
+Câu 1
+
+Carbon có bao nhiêu proton trong hạt nhân? Chỉ nhập số.
+
+ĐÁP ÁN: 6
+Sửa
+Xóa
+Câu 2
+
+Trong \({}^{13}_{6}\mathrm{C}\), số khối là bao nhiêu? Chỉ nhập số.
+
+ĐÁP ÁN: 13
+Sửa
+Xóa
+b23-hs1 blank 
+b23-hs2 blank 
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.click: Timeout 24000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('dialog', { name: /Xem trước/ }).getByRole('button', { name: /Mở video B21/ })[22m
+[2m    - locator resolved to <button type="button" class="NuclearLessonVideo-module__27juKW__cover">…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+    at /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/sgk-phase-browser.mjs:202:69 {
+  log: [
+    "  - waiting for getByRole('dialog', { name: /Xem trước/ }).getByRole('button', { name: /Mở video B21/ })",
+    '    - locator resolved to <button type="button" class="NuclearLessonVideo-module__27juKW__cover">…</button>',
+    '  - attempting click action',
+    '    - waiting for element to be visible, enabled and stable'
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

@@ -1,0 +1,267 @@
+[
+  {
+    "code": "B21",
+    "frames": 2694,
+    "durationSeconds": 89.8,
+    "aacSeconds": 89.8,
+    "maxHeaderDifference": 0.1391,
+    "aacLufs": -18.04,
+    "aacDbtp": -1.95,
+    "cadence": [
+      {
+        "scene": 2,
+        "motionFrames": 339,
+        "windows": [
+          {
+            "frame": 617,
+            "even": 0.0078,
+            "odd": 0.0055
+          },
+          {
+            "frame": 733,
+            "even": 0.011,
+            "odd": 0.008
+          },
+          {
+            "frame": 807,
+            "even": 0.0055,
+            "odd": 0.0086
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "motionFrames": 234,
+        "windows": [
+          {
+            "frame": 969,
+            "even": 0.0182,
+            "odd": 0.0153
+          },
+          {
+            "frame": 1049,
+            "even": 0.0129,
+            "odd": 0.0145
+          },
+          {
+            "frame": 1100,
+            "even": 0.0136,
+            "odd": 0.0142
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "B22",
+    "frames": 2256,
+    "durationSeconds": 75.2,
+    "aacSeconds": 75.2,
+    "maxHeaderDifference": 0.1535,
+    "aacLufs": -18.04,
+    "aacDbtp": -1.84,
+    "cadence": [
+      {
+        "scene": 2,
+        "motionFrames": 229,
+        "windows": [
+          {
+            "frame": 476,
+            "even": 0.0173,
+            "odd": 0.0116
+          },
+          {
+            "frame": 554,
+            "even": 0.0161,
+            "odd": 0.0161
+          },
+          {
+            "frame": 604,
+            "even": 0.0886,
+            "odd": 0.0888
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "B23",
+    "frames": 2812,
+    "durationSeconds": 93.733333,
+    "aacSeconds": 93.733,
+    "maxHeaderDifference": 0.1375,
+    "aacLufs": -18.05,
+    "aacDbtp": -1.92,
+    "cadence": [
+      {
+        "scene": 2,
+        "motionFrames": 426,
+        "windows": [
+          {
+            "frame": 605,
+            "even": 0.0083,
+            "odd": 0.0123
+          },
+          {
+            "frame": 750,
+            "even": 0.0278,
+            "odd": 0.0115
+          },
+          {
+            "frame": 844,
+            "even": 0.0085,
+            "odd": 0.0058
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "motionFrames": 210,
+        "windows": [
+          {
+            "frame": 1027,
+            "even": 0.023,
+            "odd": 0.0245
+          },
+          {
+            "frame": 1098,
+            "even": 0.0149,
+            "odd": 0.0113
+          },
+          {
+            "frame": 1144,
+            "even": 0.0135,
+            "odd": 0.0124
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "B24",
+    "frames": 2159,
+    "durationSeconds": 71.966667,
+    "aacSeconds": 71.966,
+    "maxHeaderDifference": 0.1475,
+    "aacLufs": -18.05,
+    "aacDbtp": -1.95,
+    "cadence": [
+      {
+        "scene": 2,
+        "motionFrames": 337,
+        "windows": [
+          {
+            "frame": 448,
+            "even": 0.0087,
+            "odd": 0.0078
+          },
+          {
+            "frame": 563,
+            "even": 0.006,
+            "odd": 0.0051
+          },
+          {
+            "frame": 637,
+            "even": 0.0056,
+            "odd": 0.0063
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "motionFrames": 234,
+        "windows": [
+          {
+            "frame": 798,
+            "even": 0.0085,
+            "odd": 0.0096
+          },
+          {
+            "frame": 878,
+            "even": 0.0081,
+            "odd": 0.0073
+          },
+          {
+            "frame": 929,
+            "even": 0.0089,
+            "odd": 0.0082
+          }
+        ]
+      },
+      {
+        "scene": 4,
+        "motionFrames": 423,
+        "windows": [
+          {
+            "frame": 1313,
+            "even": 0.0095,
+            "odd": 0.0097
+          },
+          {
+            "frame": 1457,
+            "even": 0.0086,
+            "odd": 0.0087
+          },
+          {
+            "frame": 1550,
+            "even": 0.0025,
+            "odd": 0.0027
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "B25",
+    "frames": 2287,
+    "durationSeconds": 76.233333,
+    "aacSeconds": 76.233,
+    "maxHeaderDifference": 0.1558,
+    "aacLufs": -18.06,
+    "aacDbtp": -1.94,
+    "cadence": [
+      {
+        "scene": 2,
+        "motionFrames": 404,
+        "windows": [
+          {
+            "frame": 539,
+            "even": 0.0166,
+            "odd": 0.0198
+          },
+          {
+            "frame": 676,
+            "even": 0.0149,
+            "odd": 0.0162
+          },
+          {
+            "frame": 765,
+            "even": 0.0125,
+            "odd": 0.013
+          }
+        ]
+      },
+      {
+        "scene": 3,
+        "motionFrames": 356,
+        "windows": [
+          {
+            "frame": 965,
+            "even": 0.0241,
+            "odd": 0.0266
+          },
+          {
+            "frame": 1086,
+            "even": 0.0235,
+            "odd": 0.0241
+          },
+          {
+            "frame": 1164,
+            "even": 0.0209,
+            "odd": 0.0211
+          }
+        ]
+      }
+    ]
+  }
+]

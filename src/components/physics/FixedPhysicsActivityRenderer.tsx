@@ -1,6 +1,8 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
+import dynamic from "next/dynamic";
+const Simulation3D = dynamic(() => import("./Simulation3D"), { ssr: false, loading: () => <p role="status">Đang tải không gian 3D…</p> });
 import {
   CANONICAL_PHASE2_ACTIVITY_KEYS,
   getCanonicalPhysicsActivities,
@@ -14,9 +16,14 @@ import { BindingEnergyLab, NuclearFission, NuclearFusion, NuclearReactionBalance
 import { Carbon14Dating, GeigerRandomDecay, RadioactiveDecayHalfLife, RadiationProperties, RadiationSafety } from "./B23Activities";
 import { NuclearPowerEnergyFlow, ReactorControlConcept, NuclearMedicine, RadiationApplications } from "./B24Activities";
 import { NuclearPhysicsPracticeLab } from "./B25Activities";
+import { GuidedFissionLab } from "./GuidedFissionLab";
 
 export type ActivityKey = CanonicalActivityKey;
-export type PhysicsActivityProps = { activityKey: ActivityKey; onProgress?: (done: boolean) => void };
+export type PhysicsActivityProps = {
+  activityKey: ActivityKey;
+  customPrompt?: string;
+  onProgress?: (done: boolean) => void;
+};
 
 export const ACTIVITY_KEYS = {
   B21: getCanonicalPhysicsActivities("B21").map((activity) => activity.key),
@@ -38,7 +45,7 @@ function UnavailableActivity({ activityKey }: PhysicsActivityProps) {
   );
 }
 
-export function FixedPhysicsActivityRenderer({ activityKey, onProgress }: PhysicsActivityProps) {
+function ActivityDataPanel({ activityKey, onProgress }: PhysicsActivityProps) {
   switch (normalizeActivityKey(activityKey)) {
     // B21
     case "rutherford_alpha_scattering":
@@ -90,8 +97,48 @@ export function FixedPhysicsActivityRenderer({ activityKey, onProgress }: Physic
   }
 }
 
-export function PhysicsActivityList({ lessonCode, onCompleteAll }: { lessonCode: NuclearPhysicsLessonCode, onCompleteAll?: () => void }) {
-  const activities = getCanonicalPhysicsActivities(lessonCode) || [];
+export function FixedPhysicsActivityRenderer({ activityKey, customPrompt, onProgress }: PhysicsActivityProps) {
+  const observed = useRef(false), answered = useRef(false);
+  const report = useCallback((part: "observed" | "answered", done: boolean) => {
+    if (part === "observed") observed.current = done; else answered.current = done;
+    onProgress?.(observed.current && answered.current);
+  }, [onProgress]);
+  const reportObserved = useCallback((done: boolean) => report("observed", done), [report]);
+  const reportAnswered = useCallback((done: boolean) => report("answered", done), [report]);
+  const normalized = normalizeActivityKey(activityKey);
+  if (!normalized) return <UnavailableActivity activityKey={activityKey} />;
+
+  // Core processes own both their visual and numerical state. A second generic
+  // viewer would display a different run and report unrelated completion.
+  if (normalized === "rutherford_alpha_scattering") return <RutherfordActivity onProgress={onProgress} />;
+  if (normalized === "radioactive_decay_half_life") return <RadioactiveDecayHalfLife onProgress={onProgress} />;
+  if (normalized === "nuclear_fission") return <GuidedFissionLab onProgress={onProgress} />;
+  if (normalized === "reactor_control_concept" || normalized === "nuclear_power_energy_flow") return <ReactorControlConcept onProgress={onProgress} />;
+  if (normalized === "nuclear_physics_practice_lab") return <NuclearPhysicsPracticeLab onProgress={onProgress} />;
+
+  return (
+    <div className="interactive-experiment">
+      <Simulation3D activityKey={normalized} customPrompt={customPrompt} onObserved={reportObserved} />
+      <details style={{ marginTop: "14px", background: "#fff", border: "1px solid #e2e8f0", borderRadius: "10px", padding: "14px 18px" }}>
+        <summary style={{ cursor: "pointer", fontWeight: 700, color: "#0f172a" }}>Mở phiếu bài tập và câu hỏi kiểm tra</summary>
+        <div style={{ marginTop: "12px" }}>
+          <p className="physics-note">Khung quan sát bổ trợ và bài tập bên dưới là hai hoạt động riêng. Đọc giả thiết của từng phần trước khi đối chiếu.</p>
+          <ActivityDataPanel activityKey={normalized} onProgress={reportAnswered} />
+        </div>
+      </details>
+    </div>
+  );
+}
+
+export function PhysicsActivityList({ lessonCode, onCompleteAll, requiredActivity, omitActivity }: {
+  lessonCode: NuclearPhysicsLessonCode;
+  onCompleteAll?: () => void;
+  requiredActivity?: CanonicalActivityKey;
+  omitActivity?: CanonicalActivityKey;
+}) {
+  const activities = (getCanonicalPhysicsActivities(lessonCode) || []).filter(activity => activity.key !== omitActivity);
+  const required = requiredActivity ? activities.filter(activity => activity.key === requiredActivity) : activities;
+  const [expanded, setExpanded] = useState<string | null>(requiredActivity ?? activities[0]?.key ?? null);
   const [completionMap, setCompletionMap] = useState<Record<string, boolean>>({});
 
   const handleActivityProgress = useCallback((key: string, done: boolean) => {
@@ -101,7 +148,7 @@ export function PhysicsActivityList({ lessonCode, onCompleteAll }: { lessonCode:
     });
   }, []);
 
-  const allActivitiesDone = activities.every((a) => completionMap[a.key]);
+  const allActivitiesDone = required.every((a) => completionMap[a.key]);
 
   return (
     <div className="physics-activity-list">
@@ -109,8 +156,8 @@ export function PhysicsActivityList({ lessonCode, onCompleteAll }: { lessonCode:
         <article className="student-paper" key={activity.activityCode} style={{ marginBottom: "40px" }}>
           <header style={{ marginBottom: "32px", borderBottom: "1px solid var(--border-light)", paddingBottom: "24px" }}>
             <div>
-              <p className="student-kicker">{activity.activityCode} · {activity.activityType}</p>
-              <h3 className="student-heading">{activity.title}</h3>
+              <p className="student-kicker">{activity.activityCode}{requiredActivity && (activity.key === requiredActivity ? " · Hoạt động chính" : " · Tự chọn")}</p>
+              <h3 className="student-heading"><button type="button" className="activity-expand" aria-expanded={expanded === activity.key} aria-controls={`activity-${activity.key}`} onClick={() => setExpanded(expanded === activity.key ? null : activity.key)}>{activity.title} <span aria-hidden="true">{expanded === activity.key ? "−" : "+"}</span></button></h3>
               <p style={{ color: "var(--text-secondary)", fontSize: "16px", lineHeight: 1.6 }}>{activity.shortDescription}</p>
               {completionMap[activity.key] && (
                 <p style={{ color: "var(--semantic-success)", fontSize: "14px", marginTop: "8px", fontWeight: 500 }}>
@@ -119,10 +166,10 @@ export function PhysicsActivityList({ lessonCode, onCompleteAll }: { lessonCode:
               )}
             </div>
           </header>
-          <FixedPhysicsActivityRenderer
+          {expanded === activity.key && <div id={`activity-${activity.key}`}><FixedPhysicsActivityRenderer
             activityKey={activity.key}
             onProgress={(done) => handleActivityProgress(activity.key, done)}
-          />
+          /></div>}
         </article>
       ))}
       {onCompleteAll && (
@@ -131,15 +178,15 @@ export function PhysicsActivityList({ lessonCode, onCompleteAll }: { lessonCode:
             className="btn primary"
             onClick={onCompleteAll}
             disabled={!allActivitiesDone}
-            title={allActivitiesDone ? "Đánh dấu đã hoàn thành" : "Hoàn thành tất cả hoạt động để mở khoá"}
+            title={allActivitiesDone ? "Xác nhận đã hoàn thành" : "Hoàn thành hoạt động chính để mở khóa"}
           >
             {allActivitiesDone
               ? "Đánh dấu đã hoàn thành các mô phỏng"
-              : `Hoàn thành ${Object.values(completionMap).filter(Boolean).length}/${activities.length} hoạt động`}
+              : `Hoàn thành ${required.filter(activity => completionMap[activity.key]).length}/${required.length} hoạt động chính`}
           </button>
           {!allActivitiesDone && (
             <p style={{ color: "var(--text-muted)", fontSize: "13px", marginTop: "8px" }}>
-              Em cần hoàn thành tiêu chí của từng hoạt động trước khi xác nhận.
+              Em cần hoàn thành tiêu chí của hoạt động chính trước khi xác nhận.
             </p>
           )}
         </div>

@@ -1,0 +1,35 @@
+
+> nuclear-lesson-video-renderer@1.0.0 render
+> node render.mjs B21 B22 B23 B24 B25
+
+Remotion bundle · 6%
+Remotion bundle · 21%
+Remotion bundle · 43%
+Remotion bundle · 65%
+Remotion bundle · 81%
+Remotion bundle · 100%
+B21 · render 384 khung chuyển động qua Remotion
+B21 · 120/384
+B21 · 240/384
+B21 · 360/384
+B21 · 1920×1080, 30 fps, 72.000000 s · b21.mp4
+B22 · render 320 khung chuyển động qua Remotion
+B22 · 120/320
+B22 · 240/320
+B22 · 1920×1080, 30 fps, 60.000000 s · b22.mp4
+B23 · render 320 khung chuyển động qua Remotion
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+Error: Visited "http://localhost:3001/index.html" but got no response.
+    at gotoPageOrThrow (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:18617:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async innerSetPropsAndEnv (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:18752:28)
+    at async setPropsAndEnv (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:18854:20)
+    at async makePage (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:21822:3)
+    at async makeNewPage (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:22909:18)
+    at async Promise.all (index 1)
+    at async getPool (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:22940:28)
+
+Node.js v24.21.0

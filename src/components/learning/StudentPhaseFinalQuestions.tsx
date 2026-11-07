@@ -1,6 +1,8 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useId, useState, useTransition } from "react";
+import { RichPhysicsText } from "./RichPhysicsText";
+import { legacyNuclearMath } from "@/lib/legacy-nuclear-math";
 import { submitPhaseFinalQuestionsAction } from "@/app/student/actions";
 
 export type FinalQuestion = {
@@ -19,11 +21,13 @@ export function StudentPhaseFinalQuestions({
   questions: FinalQuestion[];
   isCompleted: boolean;
 }) {
+  const formId = useId();
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [error, setError] = useState<string | null>(null);
+  const [localCompleted, setLocalCompleted] = useState(false);
   const [isPending, startTransition] = useTransition();
 
-  if (isCompleted) {
+  if (isCompleted || localCompleted) {
     return (
       <section style={{ marginTop: "48px", padding: "24px", borderRadius: "var(--radius-lg)", border: "1px solid var(--semantic-success)", backgroundColor: "rgba(16, 185, 129, 0.1)" }}>
         <h3 style={{ color: "var(--semantic-success)", fontSize: "18px", fontWeight: 600, display: "flex", alignItems: "center", gap: "8px" }}>
@@ -46,9 +50,11 @@ export function StudentPhaseFinalQuestions({
         lessonId,
         phase,
         answers,
-      });
+      }).catch(() => ({ error: "Chưa nộp được. Câu trả lời vẫn còn trên trang; em hãy thử lại.", success: false }));
       if (res.error) {
         setError(res.error);
+      } else if (res.success) {
+        setLocalCompleted(true);
       }
     });
   }
@@ -63,10 +69,12 @@ export function StudentPhaseFinalQuestions({
       <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
         {questions.map((q, i) => (
           <div key={q.id}>
-            <label style={{ display: "block", fontWeight: 500, marginBottom: "8px" }}>
-              Câu {i + 1}: {q.question_text}
-            </label>
+            <div style={{ fontWeight: 500, marginBottom: "8px" }}>
+              <label htmlFor={`${formId}-${q.id}`}>Câu {i + 1}</label>
+              <RichPhysicsText content={legacyNuclearMath(q.question_text)} />
+            </div>
             <input
+              id={`${formId}-${q.id}`}
               type="text"
               className="form-input"
               value={answers[q.id] || ""}
@@ -78,7 +86,7 @@ export function StudentPhaseFinalQuestions({
         ))}
 
         {error && (
-          <div style={{ padding: "16px", backgroundColor: error.includes("chưa đúng") ? "#fffbeb" : "var(--bg-surface-elevated)", border: `1px solid ${error.includes("chưa đúng") ? "#f59e0b" : "var(--semantic-error)"}`, borderRadius: "var(--radius-md)", color: error.includes("chưa đúng") ? "#92400e" : "var(--semantic-error)" }}>
+          <div role="alert" style={{ padding: "16px", backgroundColor: error.includes("chưa đúng") ? "#fffbeb" : "var(--bg-surface-elevated)", border: `1px solid ${error.includes("chưa đúng") ? "#f59e0b" : "var(--semantic-error)"}`, borderRadius: "var(--radius-md)", color: error.includes("chưa đúng") ? "#92400e" : "var(--semantic-error)" }}>
             {error.includes("chưa đúng") ? <strong>Phản hồi học tập: </strong> : null}
             {error}
           </div>

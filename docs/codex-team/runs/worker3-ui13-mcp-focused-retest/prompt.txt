@@ -1,0 +1,1127 @@
+Bạn là Worker 3. Vai trò cố định: Giao diện, UX và trình bày/tương tác 3D. Không thay mô hình khoa học do trưởng nhóm phụ trách.
+Workspace /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09. Web http://localhost:3001. Mode review. Quyền sửa CHỈ các file chính xác: []. Không sửa file chung, không commit, không reset/clean, không reset DB/migration, không dùng production. Review tuyệt đối không sửa workspace. Không đọc/in auth, secrets, env values. Đọc TOÀN BỘ ba tài liệu đã trích xuất sau và AGENTS/hướng dẫn liên quan, trước khi thực hiện. Nếu không có công cụ trình duyệt hoặc tài khoản thử, ghi CHƯA KIỂM CHỨNG; không dùng đọc code thay bằng chứng thao tác. Mỗi vấn đề: ID, severity, trang, steps, evidence, source paragraph, tác động dạy/học, acceptance. Cuối báo cáo nêu actual tests và giới hạn.
+
+--- hd.docx (sha256 fed08c644e78bc4121dc662e163c49dd05594b0b4ad05ab2a636a91de0b9980e) ---
+PART word/document.xml
+P1: GIAI ĐOẠN 1: TRƯỚC GIỜ HỌC (Tự học tại nhà)
+P2: Mục tiêu: Giúp học sinh tự khám phá kiến thức nền tảng, hình thành biểu tượng về cấu trúc hạt nhân, hiện tượng phóng xạ và năng lượng hạt nhân.
+P3: 1. Video hoạt hình khoa học ngắn (Animation/Screencast):
+P4: Nội dung: Giải thích trực quan sự phân rã phóng xạ, chuỗi phản ứng dây chuyền trong lò phản ứng hạt nhân, hoặc quá trình tổng hợp hạt nhân trong Mặt Trời.
+P5: Công cụ gợi ý: TED-Ed videos, Kurzgesagt (có phụ đề tiếng Việt), hoặc video do giáo viên tự quay màn hình bảng tương tác.
+P6: 2. Mô phỏng tương tác trực tuyến (Interactive Simulations):
+P7: Nội dung: Học sinh tự tay kéo thả các hạt proton/neutron để tạo hạt nhân, đo chu kỳ bán rã, hoặc cho các nguyên tử Uranium va chạm để quan sát phản ứng phân hạch.
+P8: Công cụ gợi ý: PhET Interactive Simulations (Các bài mô phỏng như Nuclear Fission, Alpha Decay, Beta Decay).
+P9: 3. Infographic tương tác & Sơ đồ cấu trúc lịch sử:
+P10: Nội dung: Bảng hệ thống hóa các loại phóng xạ ($\alpha, \beta, \gamma$) kèm theo tính chất, khả năng đâm xuyên dưới dạng đồ họa trực quan, kèm link nhúng để khám phá sâu hơn.
+P11: Công cụ gợi ý: Canva, Genially.
+P12: 4. Phiếu học tập số & Trắc nghiệm chẩn đoán nhanh:
+P13: Nội dung: Các câu hỏi kiểm tra mức độ hiểu bài sau khi xem video/mô phỏng, có hệ thống phản hồi tự động (feedback) ngay lập tức giúp học sinh biết mình sai ở đâu.
+P14: Công cụ gợi ý: Google Forms, Quizizz, Nearpod.
+P15: 5. Video từng bài giảng
+P17: GIAI ĐOẠN 2: TRONG GIỜ HỌC (Thảo luận, Xử lý dữ liệu & Vận dụng)
+P18: Mục tiêu: Đào sâu bản chất, xử lý số liệu thực tế, giải quyết các vấn đề thực tiễn (an toàn bức xạ, năng lượng hạt nhân sạch hay nguy hiểm).
+P19: 1. Bộ dữ liệu thí nghiệm thực tế ảo / Xử lý số liệu (Data Analysis):
+P20: Nội dung: Cung cấp bảng số liệu về số hạt còn lại theo thời gian từ một thí nghiệm mô phỏng. Học sinh làm việc nhóm trên bảng tính (Excel/Google Sheets) để vẽ đồ thị hàm số mũ của định luật phóng xạ và tính chu kỳ bán rã $T$.
+P21: 2. Bản đồ tư duy cộng tác nhóm (Collaborative Mindmap):
+P22: Nội dung: Thảo luận và tổng hợp các ứng dụng của đồng vị phóng xạ trong y học (chữa bệnh ung thư), nông nghiệp (chiếu xạ bảo quản thực phẩm) và công nghiệp.
+P23: Công cụ gợi ý: Padlet, Miro, hoặc Google Jamboard.
+P24: 3. Mô hình trò chơi đóng vai / Tình huống giả định (Role-playing / Case Study):
+P25: Nội dung: Bài tập tình huống: "Chính quyền địa phương đang cân nhắc xây dựng một nhà máy điện hạt nhân. Nhóm của bạn đại diện cho ai (Nhà khoa học, Người dân địa phương, Chuyên gia kinh tế, Nhà môi trường)? Hãy bảo vệ quan điểm của mình bằng các kiến thức về năng lượng liên kết và an toàn hạt nhân."
+P26: 4. Trò chơi ôn tập cạnh tranh (Gamification):
+P27: Nội dung: Củng cố các công thức tính độ hụt khối, năng lượng liên kết, năng lượng phản ứng hạt nhân ($\Delta E = \Delta m \cdot c^2$) qua trò chơi đồng đội kịch tính.
+P28: Công cụ gợi ý: Kahoot!, Blooket, hoặc Quizizz dạng Live.
+--- ĐÃ SỬA - NCKH.docx (sha256 706cc7065b146da7d90d582168439ebb61c3dc6f078b58e84adf5c1e9a3f4907) ---
+PART word/document.xml
+P2: ỦY BAN NHÂN DÂN
+P3: THÀNH PHỐ HỒ CHÍ MINH
+P4: TRƯỜNG ĐẠI HỌC SÀI GÒN
+P5: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+P6: Độc lập – Tự do – Hạnh phúc
+P8: Thành phố Hồ Chí Minh, ngày 04 tháng 9 năm 2026
+P10: THUYẾT MINH ĐỀ TÀI NGHIÊN CỨU KHOA HỌC 
+P11: CẤP TRƯỜNG CỦA SINH VIÊN
+P13: 1. Tên đề tài:
+P14: Xây dựng và sử dụng học liệu số có hỗ trợ trí tuệ nhân tạo trong tổ chức dạy học theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học của học sinh qua chủ đề “Vật lí hạt nhân” môn Vật lí lớp 12 ở trường THPT
+P15: Mã số đề tài: 
+P16: 2. Lĩnh vực nghiên cứu:
+P17: Khoa học Tự nhiên
+P18: ☐
+P19: Khoa học Kỹ thuật và Công nghệ
+P20: ☐
+P21: Khoa học Y, dược
+P22: ☐
+P23: Khoa học Nông nghiệp
+P24: ☐
+P25: Khoa học Xã hội
+P26: ☒
+P27: Khoa học Nhân văn
+P28: ☐
+P29: Loại đề tài:     ☐ A          ☒ B1          ☐ B2          ☐ C
+P30: 3. Thời gian thực hiện: 7 tháng (Từ tháng 10/2026 đến tháng 4/2027)
+P31: 4. Chủ nhiệm đề tài
+P32: Họ và tên: Võ Đoàn Đăng Khôi
+P33: Chương trình đào tạo: Sư phạm Vật lý
+P34: MSSV: 3124020013
+P35: Lớp: DLI1241
+P36: Khoa: Khoa Sư phạm Khoa học Tự nhiên
+P37: Điện thoại di động: 0852282243
+P38: Email: Vatliphysics@gmail.com
+P39: 5. Các thành viên tham gia thực hiện đề tài(cần ghi rõ nhiệm vụ của từng người, kể cả chủ nhiệm đề tài)
+P40: STT
+P41: Họ và tên
+P42: Đơn vị (MSSV, lớp, CTĐT)
+P43: Nội dung nghiên cứu cụ thể được giao
+P44: Chữ ký
+P45: 1
+P46: Võ Đoàn Đăng Khôi
+P47: 3124020013, DLI1241
+P48: Quản lí chung; Xây dượng thuyết minh đề tài; tổng quan nghiên cứu; xây dựng khung lí luận; thiết kế học liệu và tiến trình dạy học; điều phối thực nghiệm; phân tích dữ liệu; viết báo cáo và bài báo.
+P50: 2
+P51: Nguyễn Bảo Thy
+P52: 3125020007, DLI1251
+P53: Phân tích chương trình, nội dung chủ đề Vật lí hạt nhân; xây dựng ma trận mục tiêu - nội dung - hoạt động - đánh giá; kiểm chứng tính chính xác khoa học.
+P55: 3
+P56: Bùi Ngọc Xuân Phương
+P57: 3125020003, DLI1251
+P58: Thiết kế video, mô phỏng, câu hỏi tương tác và học liệu trên LMS; quản lí phiên bản và hồ sơ kiểm duyệt nội dung do AI hỗ trợ tạo.
+P60: 6. Mô tả năng lực nghiên cứu chủ nhiệm và các thành viên
+P61: Nhóm nghiên cứu gồm sinh viên thuộc ngành Sư phạm Vật lí/Khoa học giáo dục, có kiến thức nền về Vật lí đại cương, Vật lí hạt nhân, lí luận và phương pháp dạy học bộ môn; có khả năng phân tích Chương trình giáo dục phổ thông 2018 và thiết kế hoạt động học theo định hướng phát triển năng lực.
+P62: Về công nghệ, nhóm có khả năng sử dụng các công cụ thiết kế bài giảng, xử lí hình ảnh - âm thanh - video, xây dựng câu hỏi trực tuyến, quản lí học liệu trên hệ thống LMS và khai thác công cụ trí tuệ nhân tạo ở mức hỗ trợ. 
+P63: Về nghiên cứu, nhóm có khả năng thực hiện tổng quan tài liệu, khảo sát bằng bảng hỏi, xây dựng công cụ đánh giá, tổ chức thực nghiệm sư phạm, xử lí thống kê cơ bản và phân tích dữ liệu định tính. Trong quá trình thực hiện, nhóm làm việc dưới sự hướng dẫn của giảng viên chuyên ngành Lí luận và phương pháp dạy học Vật lí có nhiều kinh nghiệm trong nghiên cứu và dạy học.
+P64: 7. Cán bộ hướng dẫn sinh viên thực hiện đề tài
+P65: Họ và tên
+P66: số ĐTDĐ
+P67: Khoa
+P68: Chữ ký
+P69: PGS.TS Nguyễn Thị Nhị
+P70: 0983564456
+P71: Sư phạm KHTN
+P74: 8. Tình hình nghiên cứu liên quan đến đề tài 
+P75: 8.1. Tình hình nghiên cứu trong nước
+P76: Trong những năm gần đây, cùng với việc triển khai Chương trình giáo dục phổ thông 2018, nghiên cứu về đổi mới phương pháp dạy học, chuyển đổi số và phát triển năng lực người học ngày càng được quan tâm ở Việt Nam. Chương trình giáo dục phổ thông môn Vật lí xác định bên cạnh việc hình thành và phát triển năng lực vật lí, quá trình dạy học cần góp phần phát triển các năng lực chung, trong đó có năng lực tự chủ và tự học [1]. Định hướng này tạo cơ sở cho việc nghiên cứu các mô hình dạy học tăng cường vai trò chủ động của học sinh,   đặc biệt là dạy học kết hợp, lớp học đảo ngược và khai thác học liệu số.
+P77: Một trong những hướng nghiên cứu được quan tâm là mô hình lớp học đảo ngược (Flipped Classroom). Lê Thị Phượng và Bùi Phương Anh [2] đã phân tích khả năng vận dụng mô hình lớp học đảo ngược nhằm phát triển năng lực tự học của học sinh. Theo mô hình này, một phần nội dung tiếp nhận kiến thức được chuyển ra ngoài lớp học; học sinh chủ động nghiên cứu tài liệu trước, trong khi thời gian trên lớp được ưu tiên cho trao đổi, giải quyết vấn đề, vận dụng kiến thức và nhận phản hồi từ giáo viên. Nghiên cứu đã chỉ ra tiềm năng của mô hình trong việc tăng tính chủ động và trách nhiệm học tập của học sinh. Tuy nhiên, ở giai đoạn đầu, các nghiên cứu chủ yếu tập trung xây dựng cơ sở lí luận và quy trình tổ chức, chưa gắn nhiều với các công nghệ thông minh có khả năng hỗ trợ cá nhân hóa hoạt động tự học.
+P78: Ở hướng kết hợp học liệu điện tử với lớp học đảo ngược, Mai Xuân Đào và Phan Đồng Châu Thủy [3] đã xây dựng các nguyên tắc thiết kế, sử dụng học liệu điện tử và công cụ đánh giá năng lực tự học của học sinh THPT. Kết quả thực nghiệm tại các trường THPT ở Tân Uyên, Bình Dương cho thấy việc sử dụng học liệu điện tử theo mô hình lớp học đảo ngược có tính khả thi và có thể hỗ trợ phát triển năng lực tự học. Công trình này có ý nghĩa quan trọng vì đã chuyển từ việc nghiên cứu riêng mô hình lớp học đảo ngược sang thiết kế một hệ thống học liệu phục vụ hoạt động học trước – học trên lớp. Tuy nhiên, đối tượng nghiên cứu thuộc lĩnh vực Hóa học và học liệu được xây dựng theo mô hình học liệu điện tử truyền thống, chưa tích hợp các chức năng của trí tuệ nhân tạo.
+P79: Trong dạy học Vật lí, Nguyễn Thị Ngọc Lan và cộng sự [4] nghiên cứu sử dụng mô hình Blended Learning nhằm phát triển năng lực tự học cho học sinh THPT. Nhóm tác giả đã xây dựng hệ thống E-learning phục vụ dạy học Vật lí và tiến hành thực nghiệm với 255 học sinh THPT tại tỉnh Quảng Trị. Kết quả cho thấy mô hình kết hợp giữa học trực tuyến và học trực tiếp có khả năng hỗ trợ hoạt động tự học và góp phần nâng cao chất lượng dạy học Vật lí. Công trình này cung cấp bằng chứng thực nghiệm đáng chú ý về mối quan hệ giữa môi trường học tập số và sự phát triển năng lực tự học trong môn Vật lí; tuy nhiên, mô hình được nghiên cứu là Blended Learning nói chung, chưa tập trung cụ thể vào lớp học đảo ngược và chưa khai thác AI như một công cụ hỗ trợ tự học.
+P80: Một số nghiên cứu tiếp tục vận dụng lớp học đảo ngược vào các nội dung Vật lí cụ thể. Nguyễn Thanh Nga và Đoàn Thị Thu Trang [5] đã tổ chức dạy học một số kiến thức thuộc chương “Âm học” theo mô hình lớp học đảo ngược. Kết quả cho thấy mô hình không chỉ hỗ trợ phát triển năng lực khoa học tự nhiên mà còn tạo điều kiện hình thành các năng lực chung như tự chủ và tự học, giải quyết vấn đề, giao tiếp và hợp tác. Điều này cho thấy lớp học đảo ngược phù hợp với đặc trưng của dạy học Vật lí khi học sinh có thể tiếp cận kiến thức cơ bản trước ở nhà để dành thời gian trên lớp cho quan sát, thảo luận, thực hành và giải quyết nhiệm vụ nhận thức.
+P81: Đặc biệt gần với hướng nghiên cứu của đề tài là công trình của Mai Hoàng Phương và cộng sự [6] về xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung “Động lượng” – Vật lí 10 theo mô hình lớp học đảo ngược. Các tác giả thiết kế học liệu trên hệ thống Moodle, lấy ý kiến của 22 giáo viên phổ thông và tiến hành thử nghiệm với học sinh lớp 10. Học sinh được nghiên cứu học liệu, trả lời câu hỏi và thực hiện bài kiểm tra trước giờ học; thời gian trên lớp được dành cho tương tác, thảo luận và củng cố kiến thức. Kết quả bước đầu cho thấy sự kết hợp giữa học liệu số và lớp học đảo ngược có khả năng nâng cao tính tự chủ và tự học của học sinh. Đây là công trình có mức độ tương đồng khá cao với đề tài đang đề xuất. Tuy nhiên, nghiên cứu tập trung vào Vật lí 10, chưa đề cập chủ đề Vật lí hạt nhân và chưa tích hợp AI vào học liệu hoặc tiến trình hỗ trợ tự học. Bản thân các tác giả cũng mới ghi nhận kết quả thực nghiệm ở mức bước đầu.
+P82: Ở một hướng khác, Lê Thị Cẩm Tú và Lê Thị Thu Hà [7] đề xuất quy trình sử dụng học liệu số trong dạy học Vật lí 10 nhằm phát triển năng lực vận dụng kiến thức, kĩ năng của học sinh. Nghiên cứu khẳng định học liệu số không chỉ là phương tiện truyền tải nội dung mà cần được tổ chức gắn với nhiệm vụ học tập và mục tiêu phát triển năng lực. Tuy nhiên, năng lực được tập trung đánh giá là năng lực vận dụng kiến thức, kĩ năng chứ chưa phải năng lực tự học; đồng thời, nghiên cứu chưa khai thác lớp học đảo ngược và AI.
+P83: Các nghiên cứu về trí tuệ nhân tạo trong dạy học Vật lí ở Việt Nam mới phát triển mạnh trong thời gian gần đây. Nguyễn Thị Thu Thủy, Nguyễn Thị Trúc Linh và Hồ Sỹ Chương [8] nghiên cứu các biện pháp kích thích hứng thú học tập Vật lí với sự hỗ trợ của các công cụ AI. Công trình cho thấy AI có thể được khai thác để tạo học liệu, hỗ trợ tương tác, phản hồi và đa dạng hóa hoạt động học tập. Tuy nhiên, hướng nghiên cứu này chủ yếu tập trung vào việc đề xuất các biện pháp sư phạm và hứng thú học tập, chưa nghiên cứu AI như một bộ phận có cấu trúc trong hệ thống học liệu số nhằm hỗ trợ các thành tố của năng lực tự học. Điều này cho thấy nghiên cứu AI trong giáo dục Vật lí ở Việt Nam đang phát triển nhưng còn cần thêm các nghiên cứu thực nghiệm gắn AI với những mô hình dạy học cụ thể.
+P84: Đối với riêng Vật lí hạt nhân lớp 12, đây là một nội dung có đặc điểm khác biệt so với nhiều phần kiến thức Vật lí phổ thông khác. Lê Anh Đức, Huỳnh Thị Yến Nhi và Nguyễn Thị Thu Hương [9] nhận định các nội dung về vật lí hạt nhân, phóng xạ và vật lí lượng tử liên quan đến những đối tượng vi mô, có tính trừu tượng cao; đồng thời chương trình hiện hành hạn chế về các thí nghiệm trực tiếp có thể minh họa và kiểm chứng các khái niệm này. Nhóm tác giả đề xuất tích hợp lịch sử vật lí để giúp học sinh tiếp cận kiến thức thuận lợi hơn. Kết quả này gợi ý rằng chủ đề Vật lí hạt nhân đặc biệt phù hợp với việc sử dụng các dạng học liệu số như mô phỏng, hình ảnh động, video, câu hỏi tương tác và các công cụ hỗ trợ giải thích, phản hồi.
+P85: Đánh giá chung về tình hình nghiên cứu trong nước: các công trình đã tạo được những cơ sở quan trọng cho đề tài ở bốn phương diện: (i) khẳng định khả năng phát triển năng lực tự học thông qua các môi trường học tập số; (ii) xây dựng và vận dụng mô hình lớp học đảo ngược ở trường phổ thông; (iii) xây dựng học liệu số trong dạy học Vật lí; và (iv) bước đầu khai thác AI trong dạy học Vật lí. Tuy nhiên, trong phạm vi các tài liệu đã khảo sát, chưa thấy một nghiên cứu tích hợp đồng thời học liệu số có hỗ trợ AI, mô hình lớp học đảo ngược, phát triển năng lực tự học và nội dung Vật lí hạt nhân lớp 12 thành một hệ thống dạy học thống nhất. Đặc biệt, còn thiếu các nghiên cứu xác định rõ AI hỗ trợ học sinh ở khâu nào của quá trình tự học, chẳng hạn xác định mục tiêu, lập kế hoạch học tập, tiếp nhận và xử lí thông tin, tự kiểm tra, nhận phản hồi và tự điều chỉnh hoạt động học tập. Đây là khoảng trống mà đề tài có thể tiếp tục nghiên cứu.
+P86: 8.2. Tình hình nghiên cứu trên thế giới
+P87: Trên thế giới, lớp học đảo ngược đã được nghiên cứu khá rộng rãi. Bergmann và Sams [10] là những tác giả có đóng góp quan trọng trong việc phổ biến mô hình này, với đặc trưng cơ bản là chuyển hoạt động tiếp nhận kiến thức ban đầu ra ngoài lớp học và sử dụng thời gian trực tiếp cho các hoạt động học tập tích cực. Các nghiên cứu sau đó cho thấy hiệu quả của lớp học đảo ngược không đơn thuần xuất phát từ việc học sinh “xem video trước ở nhà”, mà phụ thuộc đáng kể vào thiết kế nhiệm vụ trước lớp, cơ chế kiểm tra việc chuẩn bị, hoạt động tương tác và giải quyết vấn đề trên lớp.
+P88: Van Alten và cộng sự [11] thực hiện phân tích tổng hợp 114 nghiên cứu so sánh lớp học đảo ngược và lớp học truyền thống. Kết quả cho thấy lớp học đảo ngược tạo ra tác động tích cực, dù ở mức nhỏ, đối với kết quả học tập; hiệu quả có xu hướng cao hơn khi thời gian học trực tiếp không bị cắt giảm và khi thiết kế có các bài kiểm tra ngắn để kiểm soát việc học trước lớp. Nghiên cứu đồng thời không phát hiện tác động rõ ràng lên mức độ hài lòng của người học, cho thấy việc “đảo ngược” lớp học tự thân chưa đảm bảo hiệu quả nếu thiếu thiết kế sư phạm phù hợp.
+P89: Ở quy mô lớn hơn, Strelan, Osborn và Palmer [12] tổng hợp 198 nghiên cứu với 33.678 người học và ghi nhận tác động tích cực ở mức trung bình của lớp học đảo ngược đối với kết quả học tập (Hedges' (g=0,50)). Đáng chú ý, 174 nghiên cứu trong mẫu được thực hiện ở giáo dục đại học,   trong khi chỉ có 21 nghiên cứu ở trung học và 3 nghiên cứu ở tiểu học. Các tác giả kết luận rằng một thành tố quan trọng tạo nên hiệu quả của mô hình là cơ hội dành cho học tập tích cực và giải quyết vấn đề có cấu trúc, thay vì chỉ thay thế bài giảng trực tiếp bằng video. Đây cũng là một hạn chế của cơ sở bằng chứng hiện có khi kết quả nghiên cứu ở học sinh phổ thông còn ít hơn đáng kể so với giáo dục đại học.
+P90: Riêng đối với giáo dục Vật lí, Tunggyshbay, Balta và Admiraal [13] thực hiện tổng quan hệ thống 30 công trình về lớp học đảo ngược trong dạy học Vật lí. Kết quả cho thấy mô hình được vận dụng với nhiều loại hoạt động trước và trong lớp, đồng thời phần lớn các nghiên cứu ghi nhận ảnh hưởng tích cực đến quá trình học tập. Tuy nhiên, các cách tổ chức và công cụ được sử dụng khá đa dạng, cho thấy hiệu quả phụ thuộc vào thiết kế dạy học và bối cảnh cụ thể.
+P91: Một vấn đề đặc biệt quan trọng của lớp học đảo ngược là khả năng tự điều chỉnh việc học. Trong tài liệu quốc tế, khái niệm self-regulated learning (SRL) thường được sử dụng. SRL không hoàn toàn đồng nhất với khái niệm “năng lực tự học” trong Chương trình giáo dục phổ thông Việt Nam, nhưng có nhiều thành tố tương đồng, đặc biệt là xác định mục tiêu, lựa chọn chiến lược, theo dõi tiến độ, tự đánh giá và điều chỉnh hoạt động học tập. Liu, Hew và Du [14] tổng quan 22 nghiên cứu thực nghiệm về hỗ trợ SRL trong lớp học đảo ngược và phát hiện kết quả của các biện pháp hỗ trợ còn không đồng nhất. Trong 22 nghiên cứu được tổng hợp, 19 nghiên cứu thực hiện ở giáo dục đại học, chỉ 2 ở trung học và 1 ở tiểu học. Các tác giả nhấn mạnh muốn phát triển SRL trong lớp học đảo ngược cần kết hợp hướng dẫn với cơ hội thực hành tự điều chỉnh, thay vì mặc nhiên cho rằng việc giao học liệu cho học sinh tự học trước lớp sẽ tự động hình thành năng lực này.
+P92: Song song với sự phát triển của lớp học đảo ngược, AI trong giáo dục khoa học đang trở thành một hướng nghiên cứu lớn. Tổng quan hệ thống của Almasri [15] trên 74 nghiên cứu thực nghiệm cho thấy AI đã được sử dụng trong giáo dục khoa học với nhiều chức năng như xây dựng môi trường học tập thích ứng, hỗ trợ đánh giá, tạo câu hỏi, cung cấp phản hồi và dự đoán kết quả học tập. Các kết quả này cho thấy AI có tiềm năng chuyển học liệu số từ dạng tài nguyên tương đối tĩnh sang môi trường có khả năng tương tác và phản hồi theo nhu cầu của người học. Tuy nhiên, hiệu quả của AI phụ thuộc mạnh vào thiết kế sư phạm, đặc điểm người học và cách giáo viên tổ chức sử dụng công nghệ.
+P93: Mối quan hệ trực tiếp giữa AI và khả năng tự điều chỉnh việc học cũng đã được nghiên cứu. Banihashem và cộng sự [16] tổng hợp 84 nghiên cứu tại giao điểm giữa AI và SRL. Các ứng dụng phổ biến gồm hệ thống thích ứng và cá nhân hóa, dự đoán và lập hồ sơ người học, hệ thống gia sư thông minh, đánh giá và phản hồi. Tuy nhiên, các nghiên cứu tập trung chủ yếu ở giáo dục đại học, trong khi số nghiên cứu đối với học sinh phổ thông còn hạn chế. Bên cạnh đó, nhiều công trình tập trung mạnh vào các khía cạnh nhận thức và siêu nhận thức, trong khi những yếu tố như động cơ và cảm xúc của quá trình tự điều chỉnh chưa được khảo sát tương xứng.
+P94: Sự xuất hiện của AI tạo sinh (Generative AI) mở rộng hơn nữa khả năng hỗ trợ tự học. Xia, Liu, Tlili và Chiu [17], qua tổng quan 73 công trình, xác định sáu nhóm khả năng sư phạm của GenAI đối với SRL, gồm: hỗ trợ cá nhân hóa mục tiêu học tập; tìm kiếm, phân tích và tích hợp tài nguyên; theo dõi và đánh giá tiến độ; đề xuất chiến lược học tập; ghi nhận tiến trình và cung cấp phản hồi; tạo ý tưởng và ví dụ mới. Những chức năng này có sự tương thích cao với tiến trình tự học của học sinh và có thể được tích hợp vào học liệu số ở các giai đoạn trước lớp – trong lớp – sau lớp. Tuy nhiên, tổng quan cũng chỉ ra rằng cơ chế tác động của GenAI đến SRL vẫn chưa hoàn toàn rõ ràng và giáo viên còn gặp khó khăn trong việc tích hợp AI vào thiết kế dạy học một cách có hệ thống.
+P95: Đối với Vật lí hạt nhân và hiện tượng phóng xạ, nghiên cứu quốc tế cho thấy học sinh thường gặp nhiều khó khăn về nhận thức. Morales López và Tuzón Marco [18], khảo sát 191 học sinh trung học và 29 giáo sinh Vật lí – Hóa học, phát hiện nhiều quan niệm sai liên quan đến bản chất phóng xạ; ở các trình độ thấp, người học còn có xu hướng đồng nhất phóng xạ với nguy hiểm, sự phá hủy hoặc các sự cố hạt nhân. Điều này cho thấy việc dạy Vật lí hạt nhân không chỉ cần truyền đạt các công thức mà còn cần hỗ trợ hình thành biểu tượng khoa học chính xác và khắc phục các quan niệm sai. Cardoso và cộng sự [19] cũng ghi nhận những hạn chế trong hiểu biết của học sinh phổ thông về mô hình nguyên tử, bức xạ và phóng xạ, cho thấy nhu cầu sử dụng các hình thức trực quan hóa và tương tác để hỗ trợ học sinh tiếp cận các đối tượng, hiện tượng không thể quan sát trực tiếp.
+P96: Việc đưa AI vào học liệu dành cho học sinh phổ thông đồng thời đặt ra các yêu cầu về độ chính xác, an toàn và đạo đức sử dụng. UNESCO [20] khuyến nghị việc sử dụng AI tạo sinh trong giáo dục cần theo định hướng lấy con người làm trung tâm, chú ý đến bảo vệ dữ liệu, độ tuổi người học, khả năng tiếp cận công bằng và đặc biệt là sự kiểm chứng của con người đối với nội dung do AI tạo ra. Vì vậy, trong dạy học Vật lí hạt nhân, AI không nên được sử dụng như nguồn tri thức tự động thay thế giáo viên hoặc sách giáo khoa mà cần được thiết kế như công cụ hỗ trợ có kiểm soát: gợi ý, đặt câu hỏi, cung cấp phản hồi, hỗ trợ tự đánh giá hoặc đề xuất cách tiếp cận; các nội dung khoa học cốt lõi phải được giáo viên kiểm chứng trước khi đưa vào học liệu.
+P97: Đánh giá chung và xác định khoảng trống nghiên cứu: kết quả nghiên cứu quốc tế cho thấy ba nền tảng của đề tài đều có cơ sở khoa học: lớp học đảo ngược có khả năng cải thiện kết quả học tập khi được thiết kế phù hợp; hoạt động tự điều chỉnh/tự học là điều kiện quan trọng đối với thành công của lớp học đảo ngược; AI có tiềm năng hỗ trợ cá nhân hóa, phản hồi và quá trình tự điều chỉnh học tập. Đồng thời, nghiên cứu về Vật lí hạt nhân cho thấy đây là lĩnh vực có nhiều khái niệm trừu tượng và dễ xuất hiện quan niệm sai. Tuy nhiên, các hướng nghiên cứu hiện nay phần lớn mới xem xét từng mối quan hệ riêng lẻ, như lớp học đảo ngược với kết quả học tập, lớp học đảo ngược với SRL, AI với SRL hoặc những khó khăn trong học Vật lí hạt nhân. Số nghiên cứu tích hợp AI, học liệu số, lớp học đảo ngược, tự học, Vật lí hạt nhân ở bậc THPT còn rất hạn chế trong phạm vi nguồn tài liệu khảo sát.
+P98: Từ đó, đề tài “Xây dựng và sử dụng học liệu số có hỗ trợ trí tuệ nhân tạo trong tổ chức dạy học theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học của học sinh qua chủ đề ‘Vật lí hạt nhân’ môn Vật lí lớp 12 ở trường THPT” có cơ sở khoa học và có khoảng trống nghiên cứu tương đối rõ. Điểm cần tập trung của đề tài không phải chỉ là “sử dụng AI” như một yếu tố công nghệ mới, mà là thiết kế có chủ đích hệ thống học liệu và tiến trình dạy học, trong đó mỗi chức năng của AI phải gắn với một hoạt động tự học cụ thể của học sinh. Theo đó, học liệu có thể hỗ trợ học sinh xác định mục tiêu và nhiệm vụ trước giờ học, tiếp cận nội dung đa phương tiện, trả lời câu hỏi định hướng, nhận phản hồi tức thời, tự kiểm tra mức độ hiểu bài và điều chỉnh việc học; còn thời gian trên lớp được dành cho giải quyết vấn đề, xử lí các quan niệm sai, thảo luận và vận dụng kiến thức. Hiệu quả của hệ thống cần được đánh giá không chỉ thông qua kết quả học tập mà đặc biệt thông qua các biểu hiện và thành tố của năng lực tự học trước và sau quá trình tác động.
+P99: 8.3. Danh mục tài liệu tham khảo
+P100: [1] Bộ Giáo dục và Đào tạo, Chương trình giáo dục phổ thông môn Vật lí, ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT ngày 26 tháng 12 năm 2018, Hà Nội, 2018.
+P101: [2] L. T. Phượng and B. P. Anh, “Dạy học theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học cho học sinh,” Tạp chí Quản lý Giáo dục, no. 10, pp. 1–8, 2017.
+P102: [3] M. X. Đào and P. Đ. C. Thủy, “Xây dựng và sử dụng học liệu điện tử theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học cho học sinh THPT ở Tân Uyên, tỉnh Bình Dương,” Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh,   vol. 17, no. 8, pp. 1421–1429, 2020, doi: 10.54607/hcmue.js.17.8.2825(2020).
+P103: [4] N. T. L. Nguyen, H. T. T. Le, N. T. Nguyễn, và T. M. Dang, "Sử dụng mô hình học tập kết hợp để nâng cao năng lực tự học môn Vật lý cho học sinh trung học,"  Vietnam Journal of Education, tập 4, số 1, trang 53–60, 2020, doi: 10.52296/vje.2020.8.
+P104: [5] T. N. Nguyễn and T. T. T. Đoàn, “Tổ chức dạy học một số kiến thức chương ‘Âm học’ – Vật lí 7 theo mô hình lớp học đảo ngược nhằm phát triển năng lực khoa học tự nhiên của học sinh,” Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh,   vol. 20, no. 1, pp. 110–122, 2023, doi: 10.54607/hcmue.js.20.1.3156(2023).
+P105: [6] M. H. Phương, H. V. Tài, P. T. Thúy, P. T. P. Uyên, and N. T. M. Duyên, “Xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung Động lượng – Vật lí 10 theo mô hình lớp học đảo ngược,” TNU Journal of Science and Technology, vol. 229, no. 01/S,   pp. 197–206, 2024, doi: 10.34238/tnu-jst.9209.
+P106: [7] L. T. C. Tú and L. T. T. Hà, “Sử dụng học liệu số hỗ trợ dạy học Vật lí 10 theo hướng phát triển năng lực vận dụng kiến thức, kĩ năng đã học cho học sinh,” Tạp chí Giáo dục, vol. 24, no. 4, pp. 7–12, 2024.
+P107: [8] N. T. T. Thủy, N. T. T. Linh, and H. S. Chương, “Một số biện pháp kích thích hứng thú học tập cho học sinh trong dạy học Vật lí với sự hỗ trợ của các công cụ trí tuệ nhân tạo,” Tạp chí Khoa học Trường Đại học Đồng Nai, vol. 211, no. 02,   pp. 1–15, 2026.
+P108: [9] A. D. Le, T. Y. N. Huynh, và T. T. H. Nguyễn, "Tích hợp lịch sử vật lý nguyên tử và hạt nhân vào giảng dạy," Tạp chí Khoa học Đại học Giáo dục Thành phố Hồ Chí Minh, tập 23, số. SI1, trang 537–547, 2026, doi: 10.54607/hcmue.js.23.SI1.5418(2026).
+P109: [10] J. Bergmann và A. Sams, Flip Your Classroom: Tiếp cận mọi học sinh trong mọi lớp mỗi ngày. Eugene, OR, Hoa Kỳ: Hiệp hội Quốc tế về Công nghệ trong Giáo dục, 2012.
+P110: [11] D. C. D. VAN Alten, C. Phielix, J. Janssen, và L. Kester, "Ảnh hưởng của việc đảo ngược lớp học đến kết quả học tập và sự hài lòng: Phân tích tổng hợp," Educational Research Review, tập 28, Mục. số 100281, 2019, doi: 10.1016/j.edurev.2019.05.003.
+P111: [12] P. Strelan, A. Osborn, và E. Palmer, "Lớp học đảo ngược: Phân tích tổng hợp ảnh hưởng đến hiệu suất học sinh giữa các ngành học và cấp độ giáo dục," Educational Research Review, tập 30, Bài. Số 100314, 2020, DOI: 10.1016/J.Edurev.2020.100314.
+P112: [13] M. Tunggyshbay, N. Balta, và W. Admiraal, "Chiến lược lớp học đảo ngược và phương pháp giảng dạy sáng tạo trong giáo dục vật lý: Một tổng quan hệ thống," Eurasia Journal of Mathematics, Science and Technology Education, tập 19, số 6, Điều số. EM2283, 2023, DOI: 10.29333/EJMSTE/13258.
+P113: [14] L. Liu, K. F. Hew, và J. Du, "Nguyên tắc thiết kế hỗ trợ học tập tự điều chỉnh trong lớp học đảo ngược: Tổng quan hệ thống," Tạp chí Nghiên cứu Giáo dục Quốc tế, tập 124, Mục. số 102319, 2024, doi: 10.1016/j.ijer.2024.102319.
+P114: [15] F. Almasri, "Khám phá tác động của trí tuệ nhân tạo trong giảng dạy và học tập khoa học: Tổng quan hệ thống nghiên cứu thực nghiệm," Research in Science Education, tập 54, trang 977–997, 2024, doi: 10.1007/s11165-024-10176-3.
+P115: [16] S. K. Banihashem, M. Bond, N. Bergdahl, H. Khosravi, và O. Noroozi, "Đánh giá bản đồ hệ thống tại giao điểm giữa trí tuệ nhân tạo và học tập tự điều chỉnh," Tạp chí Công nghệ Giáo dục Quốc tế trong Giáo dục Đại học, tập 22, Điều số 50, 2025, doi: 10.1186/s41239-025-00548-8.
+P116: [17] Q. Xia, Q. Liu, A. Tlili, và T. K. F. Chiu, "Tổng quan tài liệu hệ thống về thiết kế học tập tự điều chỉnh sử dụng trí tuệ nhân tạo sinh và các hướng nghiên cứu tương lai của nó," Computers & Education, tập 240, Điều số 105465, 2026, doi: 10.1016/j.compedu.2025.105465.
+P117: [18] A. I. Morales López và P. Tuzón Marco, "Những hiểu lầm, kiến thức và thái độ đối với hiện tượng phóng xạ," Science & Education, tập 31, trang 405–426, 2022, doi: 10.1007/s11191-021-00251-w.
+P118: [19] P. S. S. Cardoso, M. C. S. Nunes, G. P. S. Silva, L. S. Braghittoni, và N. M. Trindade, "Quan niệm về học sinh trung học về mô hình nguyên tử, bức xạ và phóng xạ," Physics Education, tập 55, số 3, Điều số 035030, 2020.
+P119: [20] F. Miao và W. Holmes, Hướng dẫn về AI Sinh tạo trong Giáo dục và Nghiên cứu. Paris, Pháp: UNESCO, 2023.
+P120: 9. Tính cấp thiết của đề tài 
+P121: Chủ đề Vật lí hạt nhân lớp 12 chứa nhiều đối tượng vi mô, quá trình không thể quan sát trực tiếp và khái niệm định lượng trừu tượng như độ hụt khối, năng lượng liên kết, phóng xạ, phản ứng hạt nhân và an toàn bức xạ. Nếu chủ yếu giảng giải trên lớp, học sinh dễ học công thức rời rạc, thiếu thời gian xử lí dữ liệu, giải quyết vấn đề và liên hệ ứng dụng. Học liệu số có video ngắn, mô phỏng, câu hỏi tương tác và phản hồi tức thời có thể giúp học sinh chuẩn bị kiến thức nền trước giờ học, từ đó dành thời gian trên lớp cho hoạt động nhận thức bậc cao.
+P122: Mô hình lớp học đảo ngược có bằng chứng tích cực đối với kết quả học tập và khả năng học tập tự chủ, nhưng hiệu quả phụ thuộc mạnh vào chất lượng nhiệm vụ trước lớp, cơ chế kiểm tra sự chuẩn bị, hỗ trợ tự điều chỉnh và hoạt động tích cực trong lớp [8]-[11]. Do đó, đề tài không chỉ tạo video mà xây dựng một hệ thống học liệu gắn với mục tiêu, nhiệm vụ, phản hồi, nhật kí học tập và dữ liệu tiến độ.
+P123: AI có thể hỗ trợ tạo phiên bản câu hỏi, gợi ý từng bước, điều chỉnh ngôn ngữ, tạo phụ đề, tổng hợp lỗi thường gặp và cung cấp phản hồi sơ bộ. Tuy nhiên, AI cũng có thể tạo nội dung sai, thiên lệch hoặc làm học sinh phụ thuộc. Vì vậy, cần một mô hình “AI hỗ trợ - giáo viên kiểm duyệt - học sinh chịu trách nhiệm”, trong đó AI không thay thế việc suy luận, không tự động quyết định điểm chính thức và không tiếp nhận dữ liệu cá nhân nhạy cảm [3], [4], [13], [14].
+P124: Đóng góp dự kiến của đề tài gồm: 
+P125: (1) Quy trình thiết kế học liệu số và bộ học liệu số xây dựng theo Chương trình giáo dục phổ thông 2018; 
+P126: (2) Hướng dẫn sử dụng AI tạo sinh để tạo học liệu số sử dụng trong dạy học ở trường THPT; 
+P127: (3) 3 kế hoạch dạy học nội dung chương “Vật lý hạt nhân” theo tiến trình lớp học đảo ngược ba giai đoạn vơis sự hỗ trợ của học liệu số đã xây dựng; 
+P128: (4) bộ công cụ đánh giá năng lực tự học trong dạy học theo mô hình lớp học đảo ngược với học liệu số; 
+P129: (5)kết quả thử nghiệm tại một trường THPT.
+P130: 10. Mục tiêu đề tài 
+P131: Mục tiêu chung
+P132: Xây dựng và sử dụng bộ học liệu số được thiết kế với sự hỗ trợ của AI tạo sinh theo mô hình lớp học đảo ngược, nhằm phát triển năng lực tự học của học sinh trong dạy học chủ đề Vật lí hạt nhân lớp 12.
+P133: Mục tiêu cụ thể
+P134: – Hệ thống hóa cơ sở lí luận và thực tiễn về học liệu số, AI tạo sinh trong giáo dục, lớp học đảo ngược và năng lực tự học;
+P135: – Nghiên cứu Chương trình giáo dục phổ thông 2018, Xây dựng ma trận mục tiêu - nội dung - hoạt động - đánh giá cho chủ đề Vật lí hạt nhân; xác định các biểu hiện năng lực tự học có thể quan sát và đo lường trong ba giai đoạn trước - trong - sau giờ học.
+P136: – Đề xuất quy trình xây dựng học liệu số với sự hỗ trợ của AI và vận dụng thiết kế bộ học liệu số trong dạy học chủ đề “Vật lý hạt nhân” Vật lý lớp 12 với sự hỗ trợ của AI; 
+P137: – Tổ chức bán thực nghiệm tại 01 trường với 02 lớp; đánh giá tác động bước đầu đến năng lực tự học của học sinh.
+P138: Giả thuyết khoa học
+P139: Nếu đề xuất được quy trình thiết kế bộ học liệu số với sự hỗ trợ của AI và vận dụng vào thiết kế bộ học liệu số trong dạy học chủ đề “Vật lý hạt nhân” đồng thời sử dụng theo tiến trình lớp học đảo ngược thì có thể phát triển năng lực tự học của học sinh.
+P140: 11. Đối tượng và phạm vi nghiên cứu 
+P141: Đối tượng nghiên cứu
+P142: Quá trình tổ chức dạy học chủ đề Vật lí hạt nhân lớp 12 bằng học liệu số có hỗ trợ AI theo mô hình lớp học đảo ngược; sự phát triển năng lực tự học của học sinh trong quá trình đó.
+P143: Khách thể nghiên cứu
+P144: Học sinh lớp 12 và giáo viên Vật lí tại trường THPT được lựa chọn để khảo sát, và thực nghiệm sư phạm.
+P145: Phạm vi nội dung
+P146: Các nội dung cốt lõi của chủ đề Vật lí hạt nhân trong Chương trình môn Vật lí lớp 12: cấu trúc hạt nhân; độ hụt khối và năng lượng liên kết; phản ứng hạt nhân; hiện tượng phóng xạ; ứng dụng, công nghiệp hạt nhân và an toàn phóng xạ. 
+P147: Phạm vi thực nghiệm
+P148: Tại một số trường THPT ở Thành phố Hồ Chí Minh.
+P149: Giới hạn vai trò của AI
+P150: AI chỉ hỗ trợ thiết kế hoặc cung cấp gợi ý, phản hồi sơ bộ, phân hóa câu hỏi và tổng hợp lỗi; giáo viên chịu trách nhiệm kiểm duyệt nội dung, quyết định hoạt động dạy học và đánh giá chính thức. Không nhập dữ liệu nhận dạng, hồ sơ cá nhân hoặc thông tin nhạy cảm của học sinh vào công cụ AI công cộng.
+P151: 12. Phương pháp nghiên cứu 
+P152: 12.1. Cách tiếp cận nghiên cứu
+P153: Đề tài sử dụng phương pháp nghiên cứu hỗn hợp, trong đó định lượng giữ vai trò chính và định tính dùng để giải thích kết quả. 
+P154: 12.2. Nghiên cứu lí luận và phân tích nội dung
+P155: Thu thập, phân tích và hệ thống hóa văn bản chương trình, tài liệu khoa học trong và ngoài nước về năng lực tự học, lớp học đảo ngược, học liệu số, AI trong giáo dục và phương pháp dạy học Vật lí. Phân tích yêu cầu cần đạt, cấu trúc kiến thức, khó khăn nhận thức và cơ hội sử dụng mô phỏng, dữ liệu, bài toán thực tiễn trong chủ đề Vật lí hạt nhân.
+P156: 12.3. Điều tra, khảo sát thực trạng
+P157: Khảo sát giáo viên và học sinh về mức độ sử dụng học liệu số, thói quen tự học, điều kiện thiết bị - Internet, khó khăn khi học Vật lí hạt nhân và thái độ đối với AI. Dữ liệu được thu bằng bảng hỏi trực tuyến/kết hợp giấy, phỏng vấn bán cấu trúc và phân tích một số sản phẩm học tập. Mẫu khảo sát dự kiến gồm 20-30 giáo viên Vật lí và 150-250 học sinh lớp 12 ở các trường có điều kiện khác nhau.
+P158: 12.4. Thực nghiệm sư phạm
+P159: Thiết kế bán thực nghiệm tiền kiểm - hậu kiểm có nhóm đối chứng. Hai lớp thực nghiệm học theo bộ học liệu số và tiến trình lớp học đảo ngược; hai lớp đối chứng học theo kế hoạch thông thường nhưng cùng yêu cầu cần đạt và thời lượng. Ưu tiên cùng một giáo viên hoặc giáo viên có kinh nghiệm tương đương; sử dụng chung ma trận kiểm tra. Can thiệp dự kiến kéo dài 6-8 tuần tương ứng toàn bộ chủ đề Vật lí hạt nhân.
+P160: 12.5. Xử lí và phân tích dữ liệu
+P161: Sử dụng thống kê mô tả, kiểm tra độ tin cậy, … bằng phần mềm SPSS.
+P162: 12.6. Đạo đức nghiên cứu và bảo vệ dữ liệu
+P163: Thông báo rõ mục đích, quyền rút lui và cách sử dụng dữ liệu. Dữ liệu được mã hóa bằng mã số, giới hạn người truy cập, lưu trữ trong thời gian xác định và công bố ở dạng tổng hợp. Không đưa họ tên, số điện thoại, địa chỉ, hình ảnh nhận dạng hoặc hồ sơ cá nhân của học sinh vào hệ thống AI công cộng; mọi nội dung và phản hồi AI đều có cơ chế báo lỗi và giáo viên kiểm tra [3], [4], [14].
+P164: 13. Nội dung nghiên cứu và tiến độ thực hiện
+P165: 13.1. Nội dung nghiên cứu (nêu rõ từng nội dung gắn với các mục tiêu cụ thể)
+P166: Nội dung 1. Nghiên cứu cơ sở lí luận và thực tiễn về học liệu số có hỗ trợ AI, lớp học đảo ngược và năng lực tự học của học sinh trong dạy học Vật lý ở trường THPT
+P167: Nội dung 2. Xây dựng và sử dụng bộ học liệu số có sự hỗ trợ của AI trong dạy học chủ đề “Vật lý hạt nhân” Vật lý lớp 12 ở trường THPT
+P168: Nội dung 3. Thực nghiệm sư phạm; thu thập dữ liệu trước, trong và sau can thiệp; phân tích hiệu quả và các yếu tố ảnh hưởng.
+P169: Nội dung 4. Hoàn thiện sản phẩm, viết bài báo, báo cáo tổng kết, hướng dẫn sử dụng và đề xuất khả năng chuyển giao.
+P170: 13.2. Tiến độ thực hiện
+P171: STT
+P172: Công việc chủ yếu
+P173: Thời gian
+P174: (bắt đầu-kết thúc)
+P175: Người thực hiện
+P176: Sản phẩm dự kiến
+P177: 1
+P178: Hoàn thiện thuyết minh, đề cương; tổng quan tài liệu; xây dựng khung lí luận và câu hỏi nghiên cứu.
+P179: 10/2026
+P180: Khôi, Thy và 
+P181: Phương
+P182: Thuyết minh đề tài; đề cương nghiên cứu; Cơ sở lý luận
+P183: 2
+P184: Khảo sát thực trạng; phân tích chương trình, nội dung và khó khăn học tập chủ đề Vật lí hạt nhân.
+P185: 10/2026
+P186: Khôi, Thy và 
+P187: Phương
+P188: Bảng hỏi; kết quả khảo sát; Kết quả phân tích nội dung chủ đề Vật lý hạt nhân
+P189: 3
+P190: Đề xuất quy trình thiết kế học liệu số với sự hỗ trợ của AI
+P191: 10/2026-
+P192: 11/2026
+P193: Khôi, Thy và 
+P194: Phương
+P195: Quy trình thiết kế học liêụ số
+P196: 4
+P197: Thiết kế bộ học liệu số
+P198: 11/2026-
+P199: 12/2027
+P200: Khôi, Thy và 
+P201: Phương
+P202: Bộ học liệu số
+P203: 5
+P204: Thiết kế kế hoạch dạy học các nội dung chủ đề “Vật lý hạt nhân” theo mô hình lớp học đảo ngược với sự hỗ trợ của bộ học liệu số đã xây dựng
+P205: 12/2027-
+P206: 01/2027
+P207: Khôi, Thy và 
+P208: Phương
+P209: Các kế hoạch dạy học
+P210: 6
+P211: Thực nghiệm sư phạm
+P212: 01/2027-
+P213: 02/2027
+P214: Khôi, Thy và 
+P215: Phương
+P216: Kết quả thực nghiệm
+P217: 7
+P218: Viết bài báo và báo cáo tổng kết; hoàn thiện  học liệu, hướng dẫn; hoàn thiện hồ sơ nghiệm  thu
+P219: 03/2027-
+P220: 04/2027
+P221: Chủ nhiệm và 
+P222: toàn nhóm
+P223: Bài báo
+P224: Báo cáo tổng kết đề tài
+P226: 14. Sản phẩm khoa học và công nghệ của đề tài (Không kể Báo cáo tổng kết)
+P227: STT
+P228: Chủng loại
+P229: sản phẩm
+P230: Yêu cầu về chất lượng cần đạt của sản phẩm
+P231: Số lượng
+P232: (đơn vị)
+P233: 1
+P234: Bài báo khoa học
+P235:       Bài báo có nội dung liên quan trực tiếp đến đề tài; được chấp nhận đăng hoặc đã đăng tại tạp chí khoa học đáp ứng điều kiện nghiệm thu đề tài theo quy định hiện hành của Trường.
+P236: 01 bài
+P237: 2
+P238: Bộ học liệu số chủ đề Vật lí hạt nhân
+P239:       Đảm bảo về mặt khoa học, phù hợp với chương trình GDPT 2018
+P240: 01 bộ
+P242: 15. Khả năng ứng dụng và phát triển của đề tài
+P243: Sản phẩm có thể áp dụng trực tiếp trong dạy học chủ đề Vật lí hạt nhân lớp 12 tại các trường THPT có hệ thống LMS hoặc sử dụng các nền tảng học tập phổ biến. 
+P244: Quy trình thiết kế học liệu số có thể chuyển giao cho giáo viên Vật lí thông qua sinh hoạt chuyên môn, tập huấn hoặc cộng đồng học tập; có thể mở rộng sang các chủ đề khác như Vật lí lượng tử, điện từ trường, dao động - sóng. 
+P245: Đối với Trường Đại học Sài Gòn, đề tài có thể tạo học liệu minh họa cho đào tạo sinh viên sư phạm Vật lý, thực hành thiết kế học liệu số và nghiên cứu phương pháp dạy học Vật lí. 
+P247: 6. Kinh phí thực hiện đề tài NCKH của sinh viên
+P248: Tổng kinh phí: 12.000.000 đồngTrong đó: Ngân sách Nhà nước: 12.000.000 đồng; Các nguồn kinh phí khác: 0 đồngDự trù kinh phí theo các mục chi (dự kiến, điều chỉnh theo định mức và quy định tài chính của Trường Đại học Sài Gòn).Đơn vị tính: đồngSố tiền bằng chữ: Mười hai triệu đồng.
+P250: TT
+P251: Nội dung chi
+P252: Kinh phí
+P253: 1
+P254: Chi tiền công thực hiện đề tài
+P255: 12.000.000
+P257: Thù lao chủ nhiệm đề tài, quản lí chung
+P258: 2.500.000
+P260: xây dựng đề cương, ma trận và công cụ
+P261: 1.500.000
+P263: Thu thập thông tin, điều tra, khảo sát hoặc thực nghiệm 
+P264: 2.000.000
+P266: Viết nội dung 
+P267: 2.000.000
+P269: Viết và phí xuất bản bài báo khoa học
+P270: 4.000.000
+P271: 2
+P272: Chi phí khác: 
+P273: 0
+P277: Tổng số
+P278: 12.000.000
+P281:                                                                                         Ngày 04 tháng 9 năm 2026
+P283: Xác nhận của Khoa
+P284: (Ký và ghi rõ họ tên)
+P285: Cán bộ hướng dẫn
+P286: (Ký và ghi rõ họ tên)
+P287: Chủ nhiệm đề tài
+P288: (Ký và ghi rõ họ tên)
+P301: DUYỆT CỦA TRƯỜNG ĐẠI HỌC SÀI GÒN
+P302: KT. HIỆU TRƯỞNG
+P303: PHÓ HIỆU TRƯỞNG
+P310: PGS. TS. Lê Minh Triết
+--- BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx (sha256 cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826) ---
+PART word/document.xml
+P1: XÂY DỰNG VÀ SỬ DỤNG HỌC LIỆU SỐ CÓ HỖ TRỢ TRÍ TUỆ NHÂN TẠO TRONG TỔ CHỨC DẠY HỌC THEO MÔ HÌNH LỚP HỌC ĐẢO NGƯỢC NHẰM PHÁT TRIỂN NĂNG LỰC TỰ HỌC CỦA HỌC SINH QUA CHỦ ĐỀ “VẬT LÍ HẠT NHÂN” MÔN VẬT LÍ LỚP 12 Ở TRƯỜNG THPT
+P2: Developing and using AI-supported digital learning resources in flipped classroom teaching to develop students’ self-study competence through the Nuclear Physics topic in Grade 12 physics at upper secondary schools
+P3: Võ Đoàn Đăng Khôi1,+
+P4: Nguyễn Bảo Thy1
+P5: Bùi Ngọc Xuân Phương1
+P7: 1Khoa Sư phạm Khoa học Tự nhiên, Trường Đại học Sài Gòn, Việt Nam
+P8: +Tác giả liên hệ ● Email: Vatliphysics@gmail.com
+P9: Điện thoại: 0852282243
+P13: Article history
+P14: Received: …/…/2026
+P15: Accepted: …/…/2026
+P16: Published: …/…/2026
+P18: Keywords
+P19: Digital learning resources, flipped classroom, artificial intelligence, nuclear physics, self-study competence
+P21: Từ khóa
+P22: Học liệu số, lớp học đảo ngược, trí tuệ nhân tạo, Vật lí hạt nhân, năng lực tự học
+P24: ABSTRACT
+P25: Context: Nuclear physics requires representations of processes that cannot be observed directly at school. This study describes theory-informed analysis, design and construction of AI-supported resources for lessons B21–B25 in a flipped classroom, with internal checks before use.
+P26: Result: The prototype contains 89 resource entries, 17 interactive 3D simulations, five interactive infographics and four practice papers. The source-based bank publishes 213 questions; worksheets include instructions, three-phase tasks and an analytic rubric. The guided planning workspace separates teacher and student actions. A unified question bank exports papers, answer guides and specifications to editable Word; AI selects authored support prompts. Checks cover fission conservation, radioactive decay and binding energy mass conventions; 61 software tests passed.
+P27: Discussion: Results concern design products and internal verification. AI drafts still require content review. Account-based assignment and submission workflows need further verification. Independent appraisal and classroom research are needed before drawing conclusions about teaching effectiveness or self-study competence.
+P29: TÓM TẮT
+P30: Bối cảnh: Chủ đề Vật lí hạt nhân cần biểu diễn các quá trình không thể quan sát trực tiếp ở trường phổ thông. Nghiên cứu trình bày quy trình phân tích, thiết kế, kiến tạo học liệu có hỗ trợ AI cho B21–B25 theo mô hình lớp học đảo ngược, kèm kiểm tra nội bộ trước sử dụng.
+P31: Kết quả: Bản mẫu có 89 mục học liệu, 17 mô phỏng 3D, năm infographic tương tác và bốn đề tự luyện. Ngân hàng từ ba sách công bố 213 câu; phiếu gồm hướng dẫn, nhiệm vụ ba pha và rubrics; quy trình soạn kế hoạch phân rõ hai vai. Ngân hàng đề thống nhất xuất đề, đáp án và bản đặc tả Word; AI chọn câu hỏi hỗ trợ đã biên soạn. Kiểm tra xem xét bảo toàn trong phân hạch, bán rã và quy ước khối lượng; 61 ca phần mềm đạt.
+P32: Bàn luận: Kết quả phản ánh sản phẩm thiết kế và kiểm tra nội bộ. Bản nháp AI vẫn cần rà soát kiến thức; luồng giao, nộp qua tài khoản cần kiểm thử thêm. Cần thẩm định độc lập và nghiên cứu trên lớp trước khi kết luận về hiệu quả dạy học hoặc năng lực tự học.
+P33: 1. Mở đầu
+P34: Chương trình giáo dục phổ thông môn Vật lí đặt yêu cầu phát triển năng lực vật lí và năng lực tự chủ, tự học (Bộ Giáo dục và Đào tạo, 2018). Chủ đề Vật lí hạt nhân đòi hỏi liên hệ kí hiệu, phương trình, đồ thị và ứng dụng của những quá trình khó quan sát trực tiếp. Huỳnh et al. (2026) phân tích khả năng tích hợp lịch sử vật lí nguyên tử và hạt nhân vào hoạt động dạy học; nguồn này gợi ý lựa chọn tình huống và biểu diễn, chưa chứng minh hiệu quả của website. Nghiên cứu giới hạn ở Chương 4, các bài B21–B25 của sách Vật lí 12, bộ Kết nối tri thức với cuộc sống (Vũ et al., 2024), với nhiệm vụ trước, trong và sau giờ học.
+P35: Các nghiên cứu về lớp học đảo ngược đã xem xét cả kết quả học tập và điều kiện hỗ trợ người học. Phân tích tổng hợp 114 nghiên cứu của van Alten et al. (2019) ghi nhận tác động tích cực nhỏ đối với kết quả học tập, nhưng có khác biệt đáng kể giữa các nghiên cứu. Ở hướng hỗ trợ tự điều chỉnh học tập, tổng quan 22 nghiên cứu thực nghiệm của Liu et al. (2024) cho thấy kết quả còn không đồng nhất và đề xuất các nguyên tắc thiết kế hỗ trợ người học. Trong dạy học Vật lí ở Việt Nam, Mai et al. (2024) đã xây dựng và sử dụng học liệu số cho nội dung Động lượng lớp 10 theo mô hình lớp học đảo ngược. Các công trình này cung cấp căn cứ để gắn tài nguyên với nhiệm vụ, tương tác và phản hồi; chúng chưa thay thế việc kiểm tra một sản phẩm cụ thể ở chủ đề Vật lí hạt nhân. Yêu cầu cần được cụ thể hóa ở nghiên cứu hiện tại là kết nối thao tác trên học liệu với sản phẩm cho thấy học sinh đã chuẩn bị và giải thích nội dung như thế nào.
+P36: Trên cơ sở đó, nghiên cứu nhằm đề xuất và cụ thể hóa quy trình thiết kế học liệu số có hỗ trợ trí tuệ nhân tạo cho chủ đề Vật lí hạt nhân lớp 12 theo mô hình lớp học đảo ngược, hướng tới hỗ trợ năng lực tự học. Hai câu hỏi được đặt ra là: (1) học liệu B21–B25 được tổ chức thành những tài nguyên, nhiệm vụ và sản phẩm học tập nào để giáo viên có thể lựa chọn, điều chỉnh và học sinh có thể quan sát, giải thích, tự kiểm tra; (2) bản mẫu đã được kiểm tra đến mức nào trước sử dụng? Bài báo mô tả phương pháp thiết kế, trình bày các chức năng và bằng chứng kiểm tra, sau đó bình luận về khả năng sử dụng và giới hạn của sản phẩm. Phạm vi kết quả là thiết kế và kiểm tra nội bộ, chưa bao gồm thực nghiệm sư phạm hoặc kết luận về tác động tới học sinh.
+P37: 2. Phương pháp nghiên cứu
+P38: 2.1. Thiết kế nghiên cứu và tư liệu
+P39: Nghiên cứu vận dụng định hướng nghiên cứu thiết kế giáo dục có cơ sở lí thuyết theo McKenney và Reeves (2019). Cách tiếp cận này phù hợp với mục tiêu chuyển yêu cầu dạy học thành một bản mẫu có thể kiểm tra và tiếp tục điều chỉnh. Báo cáo giới hạn ở phân tích vấn đề và điều kiện, thiết kế giải pháp, kiến tạo và kiểm tra nội bộ trước sử dụng. Chu trình triển khai, đánh giá và cải tiến dựa trên dữ liệu lớp học chưa được thực hiện; do đó, bài báo không trình bày một nghiên cứu thực nghiệm đã hoàn tất.
+P40: Tư liệu gồm chương trình môn Vật lí, SGK và sách bài tập được cung cấp, yêu cầu thiết kế học liệu, nghiên cứu về lớp học đảo ngược và nguồn kiến thức vật lí. Phụ lục IV Công văn 5512 được dùng để xác định cấu trúc kế hoạch bài dạy; phụ lục Công văn 7991 được dùng để tham khảo ma trận và bản đặc tả (Bộ Giáo dục và Đào tạo, 2020, 2024). Bản SGK ghi “bản mẫu tháng 1/2024”, cần đối chiếu sách dùng tại lớp. Đơn vị phân tích là mục học liệu, hoạt động, trường sản phẩm và chức năng phần mềm. Báo cáo chưa có mẫu học sinh; dữ liệu trích xuất các chương khác được lưu để biên tập, không mở rộng phạm vi nghiên cứu.
+P41: Định hướng hỗ trợ tự học được cụ thể hóa qua hoạt động đặt mục tiêu, dự đoán, theo dõi kết quả, giải thích và tự điều chỉnh. Khung tự điều chỉnh học tập của Zimmerman (2002) và tổng quan của Liu et al. (2024) được sử dụng làm căn cứ thiết kế nhiệm vụ và bản ghi phản tư. Trong phạm vi bài báo, những biểu hiện này là yêu cầu thiết kế sản phẩm học tập, chưa phải thang đo năng lực tự học được kiểm định. Việc có trường nhập liệu hoặc phản hồi trên giao diện cũng chưa đủ để xác định học sinh đã thực hiện được các hoạt động tương ứng.
+P42: 2.2. Quy trình phân tích thiết kế và kiến tạo
+P43: Phân tích yêu cầu: nội dung chương trình, cấu trúc bài học và đặc điểm kiến thức được chuyển thành ma trận nội dung, thao tác và sản phẩm dự kiến. Những khó khăn như đọc kí hiệu hạt nhân, kiểm tra phương trình, phân biệt số hạt với độ phóng xạ và lựa chọn quy ước khối lượng được xem xét từ đặc điểm nội dung. Chưa tiến hành khảo sát để khẳng định nhu cầu của một quần thể giáo viên hoặc học sinh. Ma trận ở Bảng 1 xác định những thao tác và bằng chứng cần được thể hiện trong bản mẫu.
+P44: Bảng 1. Nội dung và sản phẩm học tập dự kiến trong phạm vi B21–B25
+P45: Bài
+P46: Trọng tâm và thao tác
+P47: Sản phẩm học tập dự kiến
+P48: B21
+P49: Thay đổi Z, N; quan sát tán xạ α và đồng vị.
+P50: Bảng A–Z–N và giải thích đường đi của hạt α.
+P51: B22
+P52: Cân bằng phản ứng; xem các bước phân hạch; tính độ hụt khối.
+P53: Phương trình và hai phép kiểm tra bảo toàn số khối, điện tích.
+P54: B23
+P55: Thay đổi T, N₀; đọc bảng, đồ thị và phân biệt các tia phóng xạ.
+P56: Dự đoán, bảng t–N và giải thích sự thay đổi.
+P57: B24
+P58: Theo dõi chuyển hóa năng lượng và thảo luận về ứng dụng.
+P59: Sơ đồ năng lượng, lập luận và nguồn dẫn chứng.
+P60: B25
+P61: Ước lượng T từ H(t); cân bằng phản ứng và kiểm tra phép tính.
+P62: Đồ thị, kết quả có đơn vị và nhận xét sai khác.
+P63: Mỗi hoạt động có mục tiêu, nội dung, sản phẩm và cách tổ chức, phân rõ việc giáo viên và học sinh. Bốn loại hoạt động gồm mở đầu, hình thành kiến thức, luyện tập và vận dụng theo Phụ lục IV; đây là loại hoạt động, không phải ba pha học đảo ngược (Bộ Giáo dục và Đào tạo, 2020). Ba pha được dùng để sắp thời điểm: chuẩn bị trước giờ, trao đổi và thao tác trong giờ, sửa giải thích và tự kiểm tra sau giờ. Mỗi hoạt động ghi các bước giao nhiệm vụ, thực hiện, báo cáo/thảo luận và kết luận. Học liệu trực quan đi kèm yêu cầu quan sát và giải thích; mở video hoặc đổi góc nhìn chưa được xem là sản phẩm học tập.
+P64: Kiến tạo học liệu: mô phỏng, hình tương tác, video có nhiệm vụ, bản ghi, đề tự luyện và mẫu kế hoạch được triển khai trên web. AI hỗ trợ dự thảo nội dung, câu hỏi và mã; bản mẫu còn có khung hỏi bài cho học sinh và công cụ xử lí học liệu cho giáo viên. Mỗi kết quả AI được xem là bản nháp để kiểm tra, không tự công bố hoặc quyết định điểm chính thức. Công thức, số liệu và nguồn dẫn do người thiết kế, giáo viên đối chiếu trước khi sử dụng (Miao & Holmes, 2023).
+P65: Kiểm tra và điều chỉnh: bản mẫu được đối chiếu nguồn, tính lại các trường hợp định lượng và kiểm tra giao diện. Những sai khác phát hiện được dùng để sửa công thức, cách giải thích hoặc bố cục trước khi tiếp tục kiểm tra. Các kết quả về độ chính xác kiến thức, vận hành phần mềm và mức phù hợp sư phạm được phân biệt, vì một chức năng chạy đúng chưa chứng minh nhiệm vụ phù hợp với học sinh hoặc tạo ra tác động giáo dục.
+P66: 2.3. Thu thập bằng chứng và cách phân tích
+P67: Kiểm tra nội bộ gồm đối chiếu nguồn, tính lại trường hợp định lượng và 61 ca tự động về dữ liệu, định dạng đúng–sai, công thức Word, chấm phần khách quan, phiếu ba phần và thời lượng kế hoạch. Thao tác trình duyệt đã xét màn hình 900 px, 390 px ở phiên trước và 1280 px ở phiên cập nhật. Ma trận CSV, DOCX và XLSX được thử đọc; tệp đề Word được tải từ giao diện, so sánh nội dung tải và kết xuất thành trang để xem bố cục. Ảnh ngày 04–05/10/2026 và tham số thử không phải bài làm học sinh. Kiểm tra kĩ thuật không xác lập giá trị công cụ đánh giá hoặc hiệu quả sư phạm. Bộ kiểm tra trước có 58 ca; phiên cuối có 61 ca. Phản biện và dùng thử bằng AI đóng vai giáo viên theo tiêu chuẩn giả định được tách khỏi kiểm tra kĩ thuật; không có giáo viên hoặc học sinh thật tham gia nghiên cứu này.
+P68: Bằng chứng được mô tả theo hạng mục, trường hợp kiểm tra và giới hạn suy luận. Phép tính được đối chiếu với công thức và đơn vị; phần mềm được xem xét qua số ca kiểm tra và tình trạng bản chạy; giao diện được minh họa ở kích thước đã xét. Chưa có dữ liệu học sinh nên bài báo không báo cáo kiểm định thống kê hoặc mức tăng năng lực tự học.
+P69: 3. Kết quả nghiên cứu
+P70: 3.1. Cấu trúc kho học liệu và tiến trình lớp học đảo ngược
+P71: Kho Chương 4 tập hợp 89 mục: 17 mô phỏng 3D, 17 mục ảnh/sơ đồ, năm minh họa động, 11 mục video, 18 tài liệu/phiếu, 17 câu hỏi/hoạt động nhóm và bốn đề tự luyện. Trong số ảnh có 11 hình câu hỏi để dùng trong đề và phiếu. Đây là số mục danh mục, có nguồn ngoài hoặc mục được dùng lại; không phải 89 nội dung độc lập. Menu Chương trình Vật lí 12 xổ bốn chương, nhưng học liệu nghiên cứu chỉ triển khai B21–B25. Bộ lọc cho phép chọn bài, loại học liệu và mục đích sử dụng (Hình 1).
+P73: Hình 1. Kho mở với menu học liệu và các lối vào theo bài B21–B25.
+P75: Giáo viên có thể chuyển học liệu đang xem sang bàn soạn kế hoạch. Học sinh có thể mở kho để tự luyện. Hoạt động công khai và thao tác lưu trên trình duyệt được phân biệt với nhiệm vụ được giao trong lớp có tài khoản; việc xem kho không tự chứng minh học sinh đã hoàn thành nhiệm vụ học tập.
+P76: Bishop và Verleger (2013) mô tả lớp học đảo ngược qua chuẩn bị ngoài lớp và giải quyết vấn đề tích cực theo nhóm trong lớp. Bản mẫu cụ thể hóa bốn lựa chọn tổ chức: học trước rồi luyện tập; minh họa rồi thực hành; thảo luận; làm việc nhóm (Hình 2). Đây là lựa chọn thiết kế để giáo viên phối hợp nhiệm vụ, không phải phân loại chính thức hoặc bốn mô hình đã được nghiên cứu này kiểm chứng. Học hoàn toàn trực tuyến và học sinh tạo video chưa được triển khai đầy đủ.
+P78: Hình 2. Bốn lựa chọn tổ chức có hướng dẫn và mẫu kế hoạch để điều chỉnh.
+P80: Học trước rồi luyện tập được minh họa bằng B23: dự đoán số hạt ở nhà, xử lí bảng và giải thích trên lớp. Minh họa rồi thực hành được minh họa bằng B25: xem hướng dẫn, thao tác và trình bày kết quả. B24 sử dụng thảo luận theo vai hoặc sản phẩm nhóm. Video, mô phỏng, infographic và phiếu là loại học liệu có thể kết hợp trong các hình thức này, không phải các hình thức lớp học riêng.
+P81: Trước giờ học, học sinh xem học liệu, dự đoán và ghi câu hỏi. Trong giờ học, giáo viên sử dụng các dự đoán để tổ chức quan sát, xử lí số liệu và thảo luận. Sau giờ học, học sinh sửa giải thích và tự luyện. Sản phẩm ở từng pha tạo căn cứ theo dõi việc chuẩn bị; hiệu quả của tiến trình cần được đánh giá trên lớp.
+P82: 3.2. Học liệu tương tác và công cụ hỗ trợ tự học
+P83: 3.2.1. Infographic tương tác
+P84: Năm infographic của B21–B25 có các điểm chọn để mở phần quan sát, giải thích và câu hỏi. Ở B22, hình thể hiện neutron tới, U-236 kích thích và hai mảnh phân hạch; hai dòng phép cộng giúp học sinh kiểm tra số khối và điện tích (Hình 3). Nội dung phương trình được đối chiếu ví dụ trong SGK, trang in 100–101 (Vũ et al., 2024).
+P86: Hình 3. Infographic B22 thể hiện một kênh phân hạch và các điểm tương tác.
+P88: Hình có bản PNG để chèn vào bài giảng hoặc phiếu, bản SVG để chỉnh sửa bằng phần mềm hỗ trợ và chế độ xem lớn. Nhãn nút nêu công dụng của từng định dạng. Màu và kích thước được quy ước; hình không được dùng làm phép đo cấu trúc hay khoảng cách thực của hạt nhân.
+P89: Các điểm chọn giúp giao từng yêu cầu quan sát trước khi mở giải thích. Với B22, sản phẩm cần thu là phương trình và phép kiểm tra. Hình tĩnh hoặc tương tác đều phải giữ thống nhất kí hiệu và ý nghĩa khoa học. B21 bổ sung bốn mốc 1896/1898/1911/1932 và nhiệm vụ hai cặp bằng chứng–kết luận cùng một dự đoán đã sửa. Vòng 7 chọn đủ bốn mốc, thử Tab/Enter và xem ở 1280/390 px; trạng thái chọn và vùng thông báo cập nhật đúng. Đây là kiểm tra giao diện và tính nhất quán theo hồ sơ nguồn, không phải phép thử với người học; nguồn Curie chỉ có metadata được chỉ mục, trang trực tiếp bị chặn.
+P90: 3.2.2. Mô phỏng phân hạch trong không gian 3D
+P91: Học sinh nhấn bắt đầu rồi quan sát bốn bước: neutron tới, hấp thụ, biến dạng và tách mảnh. Có thể tạm dừng, đặt lại, xem lại thời điểm và đổi góc nhìn. Một kênh được chọn để minh họa, không đại diện cho mọi sản phẩm phân hạch (Vũ et al., 2024; Urone & Hinrichs, 2022, mục 32.6).
+P93: Hình 4. Cảnh sau phân hạch với hai mảnh Y-95, I-138 và ba neutron tự do.
+P94: Mô hình sử dụng 236 nucleon. Trước phản ứng, 235 + 1 = 236 và điện tích là 92; sau phản ứng, 95 + 138 + 3 = 236 và 39 + 53 = 92. Học sinh đếm neutron và giải thích khả năng neutron thoát ra hoặc bị hấp thụ. Với hệ số nhân k > 1, mô hình thể hiện sự tăng qua các thế hệ; không dùng điều kiện này để tự kết luận xảy ra vụ nổ.
+P95: Học sinh dự đoán số neutron, tạm dừng ở bước cuối và so sánh kết quả. Việc đổi góc nhìn hỗ trợ nhận diện, còn kết luận phải dựa trên phương trình và bảo toàn. Chuyển động, kích thước trong cảnh chỉ có ý nghĩa minh họa.
+P97: 3.2.3. Video nguồn kèm nhiệm vụ quan sát
+P98: Năm video YouTube được bổ sung theo bài, bên cạnh các liên kết bài giảng và video buồng sương. Trình phát chỉ kết nối YouTube khi học sinh mở; tên video, kênh và liên kết nguồn được giữ lại. Ví dụ B22 dùng video của FuseSchool – Global Education (n.d.) với nhiệm vụ nhận diện neutron tới, mảnh phân hạch và neutron sinh ra (Hình 5).
+P100: Hình 5. Video B22 và nhiệm vụ quan sát bằng tiếng Việt trước khi mở trình phát.
+P102: Câu hỏi và hướng dẫn video là tiếng Việt. Vòng 7 đã thử phát, dừng và tiếp tục các đoạn B21–B24; phụ đề tiếng Anh được quan sát ở B21–B23 và tiếng Việt ở đoạn B24. Tên B24 được sửa thành “Những vấn đề của năng lượng hạt nhân” của M. V. Ramana và Sajan Saini. B23 từng lỗi kết nối nhúng rồi mở lại được. Tên và kênh năm video đã được đối chiếu, nhưng chưa xem hết nội dung hoặc kiểm chứng toàn bộ phụ đề. Vòng 8 xác nhận B25 phát/dừng/tiếp tục ở 390 px, phụ đề Anh hiện và thời gian dừng ổn định; không tái thử B21–B24 trên cùng hash cuối. Giáo viên cần kiểm tra ngôn ngữ, mạng và nguồn thay thế trước giao; liên kết mở nguồn không tự chứng minh video phát được.
+P103: 3.2.4. Đồ thị bán rã và kiểm tra định lượng
+P104: Hoạt động B23 cho thay đổi chu kì bán rã T và số hạt ban đầu N₀, đồng thời cập nhật đồ thị và bảng. Mô hình dùng quy luật hàm mũ để biểu diễn số hạt còn lại theo thời gian; độ phóng xạ được liên hệ với số hạt qua hằng số phóng xạ (Urone & Hinrichs, 2022, mục 31.5). Số liệu trên Hình 6 là giá trị tính của mô hình, không phải số liệu đo thực nghiệm.
+P105: N(t) = N02-tT;    H(t) = λN(t);    λ = ln 2T
+P107: Hình 6. Đồ thị và bảng khi N₀ = 1.000 và T = 30 s trong hoạt động B23.
+P109: Với N₀ = 1.000, T = 30 s, giá trị tại t = 30 s là 500, sau 2T là 250 và sau 3T là 125. Khi tăng T lên 60 s, giá trị tại cùng t = 30 s khoảng 707,1; tăng N₀ gấp đôi sẽ tăng giá trị này gấp đôi. Đây là các trường hợp kiểm tra phép tính và phản hồi giao diện. Tham số của cảnh 3D được điều chỉnh riêng với bảng định lượng và được thông báo trên giao diện.
+P110: Nhiệm vụ so sánh yêu cầu giữ một tham số và đổi tham số còn lại. Dự đoán và bảng số liệu làm căn cứ giải thích. Giá trị khoảng 707,1 là kết quả của mô hình hàm mũ, không phải số hạt đếm được trong một lần quan sát mẫu nhỏ. CSV tải từ B23 có 61 mốc từ 0 đến 360 s, sáu cột và ghi tham số, nguồn mô hình. Ba tệp thử với (N₀, T) = (1000, 30 s), (1000, 60 s), (2000, 60 s) cho N(30 s) lần lượt 500; 707,106781; 1414,213562. Tính T từ hai điểm theo T = (t₂ − t₁)ln2/ln(N₁/N₂) thu lại 30 hoặc 60 s. Hướng dẫn vẽ XY và đặt lại bảng được bổ sung để hỗ trợ xử lí dữ liệu; chưa thao tác Excel/Sheets thật hoặc tổ chức nhóm học sinh.
+P111: 3.2.5. Quy ước khối lượng và năng lượng liên kết
+P112: Hoạt động B25 dùng thống nhất khối lượng nguyên tử trung hòa. Công thức độ hụt khối sử dụng khối lượng nguyên tử ¹H thay cho khối lượng proton; bỏ qua năng lượng liên kết electron. Khối lượng được đối chiếu bảng A.1 và công thức ở mục 31.6 của Urone và Hinrichs (2022).
+P113: Δm = ZmH + (A - Z)mn - mnt;    Elk = Δmc2
+P114: Trong biểu thức trên, mnt là khối lượng nguyên tử trung hòa của đồng vị đang xét; mH là khối lượng nguyên tử ¹H và mn là khối lượng neutron. Các khối lượng phải cùng đơn vị. Khi độ hụt khối tính bằng u, năng lượng được đổi theo 1 u tương ứng khoảng 931,5 MeV/c². Cần xác định loại khối lượng trước khi thay số.
+P116: Hình 7. Các bước tính độ hụt khối và năng lượng liên kết của U-235.
+P117: Ví dụ U-235 có Z = 92, N = 143, khối lượng nguyên tử 235,043924 u. Với khối lượng nguyên tử ¹H là 1,007825 u và khối lượng neutron là 1,008665 u, tổng tính được là 236,958995 u, độ hụt khối 1,915071 u; dùng 931,5 MeV cho mỗi u cho năng lượng liên kết khoảng 1.783,9 MeV và năng lượng liên kết riêng khoảng 7,59 MeV/nucleon. Độ hụt khối làm tròn thành 1,91507 u, phù hợp giá trị cuối ở Hình 7. Tổng 236,95899 u hiển thị ở bước trung gian khác 0,000005 u so với phép tính lại; cần thống nhất quy tắc làm tròn. Kiểm tra đã dẫn đến sửa lỗi trộn hai quy ước khối lượng; đây không phải phép đo mới.
+P118: 3.2.6. Bàn soạn kế hoạch và nhiệm vụ của giáo viên học sinh
+P119: Bàn soạn có năm mẫu bài và kế hoạch trống. Giáo viên có thể sửa mục tiêu, thời lượng, học liệu, nhiệm vụ, sản phẩm, tiêu chí và hỗ trợ; mỗi hoạt động có trường riêng cho giáo viên và học sinh. Ở ví dụ thảo luận B24, giáo viên phân vai và yêu cầu bằng chứng, còn học sinh trình bày, phản biện và điều chỉnh kết luận (Hình 8).
+P121: Hình 8. Nhiệm vụ giáo viên và học sinh trong kế hoạch thảo luận B24.
+P122: Trước giờ, giáo viên chọn nguồn và câu hỏi; học sinh chuẩn bị lập luận cá nhân. Trong giờ, hai vai cùng làm việc với sản phẩm nhưng có nhiệm vụ khác nhau. Sau giờ, giáo viên nhận xét, học sinh sửa giải thích và nêu điều cần học tiếp. Mẫu B24 còn dùng nguồn NIBIB để phân biệt PET với SPECT và nguồn IAEA cho ứng dụng thực phẩm (International Atomic Energy Agency, n.d.; National Institute of Biomedical Imaging and Bioengineering, n.d.). Kế hoạch lưu trên thiết bị có thể tiếp tục chỉnh sửa; lưu tài khoản và đưa vào lớp chưa được xác nhận vận hành.
+P123: 3.2.7. Bản ghi quan sát và phản tư tự học
+P124: Bản ghi gồm dự đoán, điều quan sát, giải thích và câu hỏi mang đến lớp (Hình 9). Thiết kế hướng tới việc lưu dấu quá trình chuẩn bị và kiểm tra cách hiểu. Cơ sở lí thuyết là tự điều chỉnh học tập và sự cần thiết của hướng dẫn trong lớp đảo ngược (Zimmerman, 2002; Liu et al., 2024).
+P126: Hình 9. Bốn trường của bản ghi quan sát; giao diện trống, chưa có dữ liệu học sinh.
+P128: Ví dụ nhiệm vụ B22 yêu cầu ghi số neutron dự đoán, số quan sát ở bước cuối và cách kiểm tra phương trình. Giáo viên có thể nhận xét sự khác nhau giữa dự đoán và giải thích, thay vì căn cứ riêng số lần nhấn nút. Khung đề xuất theo dõi bốn biểu hiện: đặt mục tiêu hoặc kế hoạch; theo dõi; giải thích có nguồn; tự điều chỉnh. Đây là khung thiết kế chưa kiểm định, không được dùng để tuyên bố mức tăng năng lực tự học. Bản ghi ở kho mở tự lưu trên trình duyệt, chưa tự gửi cho giáo viên.
+P129: Bản ghi lưu mối liên hệ giữa dự đoán, quan sát và giải thích. Giáo viên có thể yêu cầu nêu một chỗ đã thay đổi cách hiểu cùng lí do. Số trường được điền không tự phản ánh chất lượng lập luận; tiêu chí chấm và độ tin cậy cần được nghiên cứu tiếp.
+P130: 3.2.8. Đề tự luyện theo phạm vi chủ đề
+P131: Kho có hai mã đề giữa kì trong phạm vi B21–B23 và hai mã đề cuối kì trong phạm vi B21–B25. Mỗi đề gồm 18 câu, thang 10 điểm; phần khách quan tối đa tám điểm, tự luận hai điểm cần giáo viên chấm. Thời gian mẫu là 45 phút và 60 phút. Hình 10 minh họa một lượt mở đề cuối kì, chưa chọn đáp án.
+P133: Hình 10. Giao diện đề cuối kì mã A với phạm vi, thời gian và câu hỏi B21.
+P134: Câu minh họa yêu cầu tìm số neutron khi A = 23 và Z = 11; đáp số là 12. Các ca kiểm tra chấm điểm xét câu bỏ trống, đúng–sai từng ý, dấu phẩy thập phân và dung sai đáp số. Ma trận và hướng dẫn chấm được cung cấp để giáo viên rà soát. Đề công khai là tài liệu tự luyện theo chủ đề, chưa là công cụ thực nghiệm có độ tin cậy và độ giá trị đã xác lập; không đại diện cho toàn bộ học kỳ Vật lí 12.
+P135: 3.2.9. Khung AI hỗ trợ học sinh trong trang học tập
+P136: Nút AI tròn mở khung chat ở góc phải để học sinh chọn bài, hỏi giải thích hoặc nhận gợi ý (Hình 11). Qwen3 4B Instruct chạy qua Ollama trên máy chủ của hệ thống (Ollama, n.d.). Chế độ gợi ý chọn mã đoạn lí thuyết rồi đặt câu hỏi dẫn dắt; hệ thống trích nguyên văn đoạn đã chọn. Chế độ giải thích tạo bản nháp từ kiến thức công khai, không đọc điểm hoặc đáp án bài kiểm tra của lớp. Liên kết Gemini và ChatGPT mở dịch vụ ngoài bằng tài khoản của người dùng; không được coi là mô hình chạy trong khung chat.
+P138: Hình 11. Khung hỏi bài B23 trong lượt thử nội bộ; câu hỏi do người kiểm tra nhập.
+P139: Trong lượt kiểm tra ngày 05/10/2026, câu hỏi về hai chu kì bán rã ở chế độ gợi ý nhận đoạn N(t) = N₀2⁻ᵗ/ᵀ và câu hỏi dẫn dắt. Kết quả này xác nhận một lượt hoạt động, chưa xác lập độ chính xác trên toàn bộ câu hỏi. Dịch vụ giới hạn một yêu cầu xử lí đồng thời trên máy thử; chưa kiểm chứng đáp ứng cả lớp. Khi dịch vụ không có kết nối, phần công cụ AI giáo viên được bỏ khỏi giao diện; khi có kết nối, công cụ chỉ được tải lúc người dùng mở. Sau lỗi gán câu ngoài phạm vi vào đoạn lí thuyết, cơ chế giới hạn phạm vi được bổ sung. Hai câu thử tuần tự trên giao diện 1280/390 px xác nhận từ chối câu làm bánh và gợi ý đúng công thức ở hai chu kì bán rã; không xác nhận mọi câu hỏi đều đúng. Công cụ chỉ báo phát triển đã được ẩn để tránh che nút AI; đây là sửa môi trường phát triển.
+P140: 3.2.10. Ngân hàng câu hỏi từ ba sách và tạo đề theo ma trận
+P141: Roy et al. (2024) xem xét ChatGPT trong chuẩn bị bài của giáo viên khoa học Year 7–8 ở Anh; bối cảnh đó không xác nhận hiệu quả của website này. Miao và Cukurova (2024) nhấn mạnh năng lực lựa chọn và đánh giá công cụ của giáo viên. Bản mẫu tổ chức ba công việc: ngân hàng đề, phiếu ba pha và chuẩn bị giờ học. Ngân hàng thống nhất có năm mục: trắc nghiệm, đúng–sai, trả lời ngắn, tự luận và tải ma trận/xuất Word (Hình 12).
+P143: Hình 12. Ngân hàng dùng câu hỏi chữ và công thức LaTeX, số thứ tự câu; hình gốc bổ sung cho câu hỏi.
+P144: Phạm vi biên tập có 232 mục bài tập/hoạt động của Chương 4 trong ba sách được cung cấp. Trong đó, 208 mục gốc được đối chiếu phần chữ, công thức và hướng dẫn trả lời; 24 mục có dữ kiện, bản quét hoặc yêu cầu chưa đủ rõ được giữ ngoài tập chọn đề. Sau tách và ghép bảng đúng–sai theo cùng bài/chủ đề, ngân hàng công bố 213 câu: 73 trắc nghiệm, 12 đúng–sai, 19 trả lời ngắn và 109 tự luận. Đây là số câu của sản phẩm, không phải kết quả đo trên học sinh. Sáu ý đúng–sai còn dư được lưu để biên tập, không tự thêm ý mới cho đủ câu.
+P145: Mỗi câu đúng–sai có đúng bốn ý a–d, giữ đáp án theo từng ý (Hình 13). Nhãn Bloom được phân loại theo thao tác nhận thức cần thực hiện, tham chiếu hệ phân loại sửa đổi (Krathwohl, 2002). Sáu mức Bloom được phân biệt với ba mức Biết–Hiểu–Vận dụng trong ma trận. Nhãn và căn cứ phân loại do người biên soạn rà soát nội bộ; chưa có thẩm định độc lập. Ảnh câu hỏi được cắt từ sách, không dùng ảnh quét thay phần dẫn. Dữ liệu giữ 25 hình gốc khác nhau gắn với 33 câu đã công bố; không tuyên bố đã xử lí mọi hình trong toàn bộ ba sách.
+P147: Hình 13. Câu đúng–sai gồm bốn ý với công thức dạng chữ; nguồn gốc được giữ trong dữ liệu biên tập.
+P148: Giáo viên nhập CSV, JSON hoặc bảng DOCX/XLSX có năm cột bắt buộc: bài/chủ đề, loại câu, mức độ, số câu và điểm mỗi câu. Trường chương, đơn vị kiến thức, yêu cầu cần đạt và năng lực bổ sung bản đặc tả. Mỗi bài được hiện thành một nhóm với bốn ô loại câu; giáo viên có thể lấy trắc nghiệm và tự luận cùng B21, đồng thời thêm các mức độ trong từng loại (Hình 14). Bộ chọn không lặp câu và báo dòng thiếu nguồn câu. Khi đổi ma trận, tập câu và xác nhận cũ được bỏ để tránh xuất đề theo cấu hình trước.
+P150: Hình 14. Cùng bài B21 chọn hai câu trắc nghiệm và một câu tự luận; các loại còn lại có thể thêm riêng.
+P151: Phân bố điểm theo loại câu và mức độ được tính từ ma trận hiện tại. Mẫu 30–20–20–30% theo loại câu và 40–30–30% theo mức độ trong phụ lục Công văn 7991 là căn cứ tham khảo để giáo viên đối chiếu kế hoạch kiểm tra của trường, không phải chứng nhận chất lượng đề (Bộ Giáo dục và Đào tạo, 2024). Thêm câu làm thay đổi tổng điểm; giáo viên phải điều chỉnh điểm từng dòng. Ví dụ phối hợp trong Hình 14 là thao tác thử, chưa phải đề định kì đã thẩm định.
+P152: 3.2.11. Phiếu học tập có hướng dẫn, nhiệm vụ và rubrics
+P153: Công cụ phiếu dùng ba bước: chọn bài/mẫu, chỉnh phiếu, xem trước/xuất Word (Hình 15). Mỗi mẫu chọn ba câu gốc cùng bài, chia trước, trong và sau giờ học. Giáo viên có thể đổi pha, bỏ hoặc thêm câu, tối đa chín câu khác nhau; khi thay câu cần chỉnh hướng dẫn và sản phẩm. Hệ thống kiểm tra đủ ba pha, yêu cầu cần đạt và các trường thời gian, mục tiêu, sản phẩm, tiêu chí trước khi xuất.
+P155: Hình 15. Bắt đầu với mẫu B23; các bước biên soạn và mục tiêu được hiện ngay trong công cụ.
+P156: Tệp học sinh có ba phần. Phần 1 hướng dẫn cách dùng, mục tiêu, thời lượng, sản phẩm và đường dẫn học liệu (Hình 16). Phần 2 ghi việc cần làm theo thứ tự, câu hỏi và chỗ viết lời giải, điều chưa hiểu hoặc điều đã sửa. Phần 3 là rubrics để học sinh tự nhận xét và giáo viên đối chiếu bài làm. Các phần này giúp người học biết phải làm gì, dùng học liệu nào, nộp sản phẩm gì; sự rõ ràng của cấu trúc chưa chứng minh kết quả học tập đã cải thiện.
+P158: Hình 16. Phần hướng dẫn B23: trước giờ 15 phút, trong giờ 40 phút, sau giờ 15 phút; mỗi pha có sản phẩm và học liệu.
+P159: Ở mẫu B21, nhiệm vụ yêu cầu xác định nguồn alpha, lá vàng và màn quan sát, rồi giải thích bằng chứng về hạt nhân. Câu hỏi được giữ dưới dạng chữ, kèm hình bố trí thí nghiệm 21.2 cắt từ SGK (Hình 17). Tệp Word giữ nguyên hình, kí hiệu và câu hỏi; bản dành cho học sinh có chỗ làm bài, bản hướng dẫn giáo viên chứa đáp án và lưu ý. Hình trắng đen trong sách được giữ nguyên khi chưa có bản phục dựng đã đối chiếu.
+P161: Hình 17. Nhiệm vụ B21 và hình bố trí thí nghiệm gốc; ảnh bổ sung cho câu hỏi, không thay câu hỏi bằng ảnh.
+P162: Rubrics có bốn tiêu chí: chuẩn bị trước giờ; giải thích và dùng dữ kiện; vận dụng sau giờ; tự kiểm tra và điều chỉnh. Mỗi tiêu chí có bốn mức mô tả hành vi/sản phẩm (Hình 18). Học sinh tự chọn mức; giáo viên dùng lời giải và phần tự kiểm tra để nhận xét, ghi nội dung cần sửa và cách sửa. Rubrics được xây dựng cho phiếu, chưa phải thang đo năng lực tự học đã kiểm định. Phiếu dùng cho học tập và đánh giá thường xuyên bằng nhận xét; khi dùng kiểm tra định kì cần bổ sung ma trận, bản đặc tả, đề và hướng dẫn chấm.
+P164: Hình 18. Bốn tiêu chí, bốn mức của rubrics; có phần đối chiếu tự đánh giá học sinh và nhận xét giáo viên.
+P165: 3.2.12. Kế hoạch bài dạy gắn với nhiệm vụ trong phiếu
+P166: Chuẩn bị giờ học đi theo ba bước: chọn bài và điều kiện lớp; chỉnh hoạt động; kiểm tra và xuất kế hoạch. Giáo viên chọn lớp, thời gian trên lớp 45 hoặc 90 phút và thiết bị; thời gian tự học được tính riêng (Hình 19). Các yêu cầu cần đạt được diễn giải từ chương trình Vật lí theo Thông tư 32/2018, trang 27–28; chọn yêu cầu phù hợp với nội dung thực hiện (Hình 20). Ví dụ bán rã chọn định nghĩa T và vận dụng luật phân rã, không tự nhận là bao phủ toàn bộ B23. Đối chiếu 15/15 yêu cầu ở trang 27–28 của PDF chương trình do người dùng cung cấp không phát hiện bỏ sót hoặc sai nghĩa; kết quả mapping không xác nhận mọi hoạt động và kế hoạch đã đạt. Hồ sơ pháp lí chưa xác minh đầy đủ tình trạng áp dụng hiện tại của các công văn hướng dẫn; tỉ lệ mẫu không mặc định bắt buộc cho mọi đề tự luyện.
+P168: Hình 19. Chọn bài, lớp, thời gian và thiết bị trước khi biên soạn hoạt động.
+P170: Hình 20. Chọn yêu cầu cần đạt phù hợp nội dung bán rã; các yêu cầu khác của chủ đề vẫn được liệt kê để giáo viên lựa chọn.
+P171: Kế hoạch mẫu B23 dùng cùng ba nhiệm vụ của phiếu. Trước giờ, học sinh định nghĩa T và ghi điều chưa hiểu. Trên lớp gồm mở đầu 5 phút, xử lí câu 2 bằng mô phỏng và trao đổi 30 phút, hoàn thiện lời giải cá nhân 10 phút. Sau giờ, học sinh giải câu 3 và tự đánh giá 15 phút. Ví dụ câu 2: O-15 sau 244 s đã phân rã 75%, nên còn 25% và 244 = 2T, suy ra T = 122 s. Hoạt động thể hiện riêng việc giáo viên, học sinh, sản phẩm, tiêu chí và học liệu (Hình 21).
+P173: Hình 21. Giáo viên tổ chức và hỏi căn cứ; học sinh dùng mô phỏng, phân biệt phần còn lại với phần đã phân rã, hoàn thiện lời giải.
+P174: Word kế hoạch có I. Mục tiêu, II. Thiết bị dạy học và học liệu, III. Tiến trình, IV. Điều chỉnh sau bài dạy (Hình 22). Tiến trình giữ ba thời điểm học đảo ngược; mỗi hoạt động vẫn có loại mở đầu, hình thành kiến thức, luyện tập hoặc vận dụng và các mục mục tiêu, nội dung, sản phẩm, tổ chức. Mục tổ chức ghi giao nhiệm vụ, thực hiện, báo cáo/thảo luận và kết luận theo Phụ lục IV Công văn 5512 (Bộ Giáo dục và Đào tạo, 2020). Mẫu có thể sửa và lưu thiết bị, tải bản soạn JSON để mở lại; lưu/giao qua tài khoản cần kiểm thử đầy đủ với lớp thật.
+P176: Hình 22. Kiểm tra cấu trúc kế hoạch và xem mục tiêu kiến thức, năng lực, phẩm chất trước khi xuất Word.
+P177: Kiểm tra bằng quy tắc phát hiện trường thiếu, pha thiếu hoặc tổng thời gian trên lớp lệch; chưa xác nhận toàn bộ chất lượng sư phạm. Khi chọn hỗ trợ một khó khăn, nhiệm vụ thay hoạt động hình thành kiến thức và giữ thời gian đã dành cho hoạt động đó, tránh cộng chồng vượt tiết học. Giáo viên phải xem lại mục tiêu và câu hỏi sau khi thay. Bốn lựa chọn tổ chức có hướng dẫn vai khác nhau; chọn hình thức là mở mẫu để giáo viên điều chỉnh, không tự đồng nhất một mẫu với mọi lớp.
+P178: 3.2.13. Xuất tài liệu và kiểm tra AI trong môi trường thử
+P179: Sau chọn câu, giáo viên xem nội dung và khóa, đánh dấu đã kiểm tra rồi xuất đề, đáp án hoặc ma trận/đặc tả. Hệ thống tạo một đến bốn mã từ cùng tập câu, giữ quan hệ câu–hình–điểm–khóa khi đảo thứ tự; chưa suy ra các mã tương đương độ khó. Nút xuất tạo đường dẫn tải trực tiếp có thời hạn 15 phút và liên kết tải lại (Hình 23). Trong lượt thử đã tải được tệp DOCX từ giao diện, giữ hình gốc và công thức Equation. Kí hiệu đồng vị đủ A/Z và kí hiệu chỉ có số khối được kiểm tra để loại ô vuông trống khi hiển thị trong Word.
+P181: Hình 23. Vùng kiểm tra và tải Word với xác nhận đề, trạng thái đã tạo tệp và liên kết tải lại.
+P182: AI cục bộ được thử với học liệu B23: tạo tóm tắt phóng xạ, nêu H = λN và phần còn lại sau mỗi T (Hình 24). Các đoạn học liệu được hiện để giáo viên đối chiếu bản nháp. Một lượt thử có mã đoạn bị viết lệch; lượt trên giao diện viết “Z giảm −2” trong phân rã α, cần sửa thành Z giảm 2. Các kiểm tra mã và lời nhắc chưa thay cho rà soát kiến thức. Phần hỗ trợ khó khăn dùng AI chọn phương án câu hỏi từ danh sách đã biên soạn rồi hiển thị nguyên văn, nhằm hạn chế đổi dữ kiện. Những kết quả này là bằng chứng vận hành giới hạn, không xác nhận AI chính xác với mọi tài liệu, xử lí hình trong bản quét hoặc đáp ứng đồng thời cả lớp.
+P184: Hình 24. Bản nháp do AI cục bộ tạo từ học liệu công khai; giáo viên có thể đối chiếu đoạn nguồn và chỉnh sửa trước khi dùng.
+P185: Các công cụ được phát triển từ yêu cầu thiết kế và phản hồi sử dụng, chưa có khảo sát nhu cầu trên một mẫu giáo viên hoặc đo thời gian tiết kiệm. Sự liên kết học liệu, câu hỏi, phiếu, kế hoạch và tệp Word là giả thuyết thiết kế cần đánh giá. Kết quả phản ánh tính hiện thực hóa của giải pháp và trường hợp kiểm tra, chưa phải bằng chứng phát triển năng lực tự học của học sinh.
+P186: 3.3. Kết quả kiểm tra nội bộ và nội dung cần hoàn thiện
+P187: Bảng 2. Bằng chứng kiểm tra sản phẩm đến ngày 04–05/10/2026
+P188: Hạng mục
+P189: Bằng chứng cụ thể
+P190: Giới hạn
+P191: Kiến thức và tính toán
+P192: Bảo toàn số khối và điện tích; quy luật bán rã; thống nhất quy ước khối lượng cho năm hạt nhân.
+P193: Đối chiếu các ví dụ đã xét, chưa có thẩm định toàn bộ bởi chuyên gia độc lập.
+P194: Phần mềm
+P195: 61/61 ca đạt; build và TypeScript chạy lại cuối đạt; lint không có lỗi, còn một cảnh báo có sẵn. Build còn cảnh báo truy vết hệ thống tệp động.
+P196: Chưa thay thế kiểm thử tài khoản và nghiên cứu trên lớp.
+P197: Giao diện
+P198: Hồ sơ trước có 24 giao diện; các ca bổ sung xét 1280/390 px, bàn phím, hướng dẫn trống và lịch sử B21.
+P199: Không suy rộng cho mọi thiết bị hoặc công nghệ hỗ trợ.
+P200: Video và lưu cục bộ
+P201: Tên/kênh năm video được đối chiếu; B21–B24 thử đoạn phát/dừng/tiếp tục ở vòng 7, B25 ở vòng 8. Lưu cục bộ và xuất TXT B24 đã được thử.
+P202: Chưa xem hết video; Các ca video thuộc hai lượt khác nhau, chưa xác lập cùng hash cuối. Chưa kiểm chứng mọi phụ đề hoặc tải tệp trên máy chủ khác.
+P203: Giao và nộp nhiệm vụ qua lớp
+P204: PGRST205 là kết quả phiên trước. Chẩn đoán đọc hiện tại với chín schema thất bại DNS ENOTFOUND; chưa xác minh môi trường thử hoặc schema.
+P205: Không kết luận thiếu bảng từ lỗi DNS. Chưa có tài khoản/dữ liệu thử; giữ checkpoint, không ghi DB hoặc chạy migration; cần môi trường phát triển riêng rồi kiểm thử hai vai.
+P206: Đánh giá sư phạm
+P207: Có nhiệm vụ, sản phẩm và khung nhận xét để chuẩn bị thẩm định.
+P208: Phản biện AI và dùng thử giới hạn, không phải thẩm định của giáo viên 50 năm kinh nghiệm thật. Không có người tham gia, dữ liệu học sinh hoặc hiệu quả dạy học.
+P209: Các lỗi được phát hiện và sửa gồm trộn khối lượng nguyên tử với khối lượng hạt nhân ở B25, giải thích k > 1 quá mức, diễn đạt chưa rõ sự khác nhau giữa PET và SPECT, cùng bố cục lựa chọn đáp án trên màn hình hẹp. Việc ghi lại lỗi và căn cứ sửa cho thấy quá trình kiểm tra đã tác động tới sản phẩm; số ca đạt chỉ xác nhận các tình huống đã xét. Hướng dẫn chưa chọn đáp án B21 và phản hồi sai/đúng đã được thử bằng bàn phím ở 390 px. B24 bổ sung bốn tiêu chí lập luận khoa học, bằng chứng truy nguyên, giới hạn, phản biện/tự điều chỉnh; tệp TXT giữ tiêu chí và bốn trường giả định do AI nhập. Những sửa đổi giúp người học biết cách bắt đầu và giáo viên nhận xét sản phẩm, chưa chứng minh chất lượng bài làm thật.
+P210: Kiểm tra xác định các sai khác đã sửa và phần vận hành chưa hoàn tất. Việc mở lại sản phẩm lưu cục bộ khác với việc giáo viên nhận bài qua lớp. Vì vậy, cần đánh giá từng luồng sử dụng; Bảng 2 là căn cứ tiếp tục hoàn thiện trước triển khai. Các vòng 4–7 cung cấp ca kiểm tra giới hạn, chưa tạo thành hai lượt đầy đủ liên tiếp trên cùng phiên bản cuối; vòng 8 cập nhật bài báo theo hồ sơ. Trạng thái nghiệm thu tổng vẫn CHƯA ĐẠT.
+P211: 4. Kết luận và bình luận
+P212: Nghiên cứu cụ thể hóa phân tích, thiết kế và kiến tạo học liệu số có hỗ trợ AI cho B21–B25 theo lớp học đảo ngược. Sản phẩm gồm kho truy cập theo bài, 17 mô phỏng 3D, năm infographic, video có nhiệm vụ, bản ghi quan sát và các công cụ giáo viên. Ngân hàng 213 câu giữ dữ kiện từ ba sách; ma trận phối hợp bốn loại câu trong cùng bài và xuất Word. Phiếu có hướng dẫn, nhiệm vụ và rubrics; kế hoạch ghi mục tiêu, hai vai, sản phẩm và bốn bước tổ chức. Đây là kết quả thiết kế và kiểm tra nội bộ trước sử dụng.
+P213: Đóng góp của sản phẩm là kết nối thao tác trực quan với nhiệm vụ và bằng chứng học tập, đồng thời để giáo viên điều chỉnh kế hoạch theo lớp. Ví dụ phân hạch yêu cầu học sinh kiểm tra hai tổng bảo toàn; đồ thị bán rã yêu cầu giữ một tham số và thay tham số còn lại; bản ghi yêu cầu giải thích điều quan sát. Các thiết kế này cụ thể hóa định hướng hỗ trợ học tập, nhưng chưa đủ để kết luận tăng hứng thú, thành tích hay năng lực tự học. Kết quả tổng quan của van Alten et al. (2019) và Liu et al. (2024) càng cho thấy cần đánh giá trong bối cảnh sử dụng thực tế.
+P214: AI hỗ trợ cả khâu kiến tạo học liệu và tạo bản nháp trong giao diện sử dụng. Khung học sinh đọc lí thuyết công khai; công cụ giáo viên xử lí văn bản và đề xuất nhiệm vụ. Các chức năng này chưa tự theo dõi hoặc cá nhân hóa quá trình học của từng học sinh. Việc xuất hiện bản nháp trên giao diện chưa chứng minh năng lực tự học đã được phát triển; kết luận về tác động cần dữ liệu trên lớp và công cụ đánh giá phù hợp.
+P215: Nghiên cứu chưa có mẫu học sinh, thẩm định độc lập hoặc kiểm thử đầy đủ luồng giao, nộp qua tài khoản. 61 ca phần mềm và các lượt thử chỉ xác nhận tình huống đã xét. Ngân hàng đã đối chiếu 208 mục gốc; 24 mục có vấn đề nguồn và sáu ý đúng–sai chưa ghép đủ bốn ý được giữ ngoài tập chọn đề. Nhãn Bloom và rubrics là phân loại, tiêu chí nội bộ; chưa được kiểm định độ tin cậy. Chưa phục dựng toàn bộ hình trắng đen, chưa kiểm thử tải AI đồng thời cả lớp. Bản SGK ghi “bản mẫu tháng 1/2024”. Cần thẩm định chuyên môn và thử dùng với lớp trước khi đánh giá tác động. Chưa hoàn thành hai lượt dùng thử đầy đủ liên tiếp trên cùng hash bản cuối. Quy mô lớp và mốc tiến độ trong thuyết minh gốc còn mâu thuẫn, cần tác giả xác nhận trước nghiên cứu; hai tài liệu căn cứ được giữ nguyên.
+P216: Trước khi sử dụng trong thực nghiệm sư phạm, cần hoàn thiện luồng tài khoản, giao và nộp; tổ chức thẩm định nội dung, mức phù hợp nhiệm vụ và tiêu chí đánh giá; kiểm tra thiết bị, mạng và ngôn ngữ video ở lớp dự kiến. Sau đó mới xác lập người tham gia, kế hoạch thu thập dữ liệu và công cụ đánh giá phù hợp. Các thông tin này là công việc tiếp theo, không được trình bày như đã hoàn thành. Phạm vi báo cáo hiện tại phù hợp pha thiết kế trước sử dụng theo McKenney và Reeves (2019).
+P217: Tuyên bố về vai trò của các tác giả
+P218: Theo phân công ở pha thiết kế, Võ Đoàn Đăng Khôi: xây dựng ý tưởng, thiết kế phương pháp nghiên cứu, tổ chức thiết kế học liệu và viết bản thảo ban đầu. Nguyễn Bảo Thy: phân tích chương trình, xây dựng ma trận mục tiêu–nội dung–hoạt động–đánh giá và kiểm chứng nội dung khoa học. Bùi Ngọc Xuân Phương: thiết kế học liệu trực quan, mô phỏng, câu hỏi tương tác; quản lí phiên bản và hồ sơ kiểm duyệt. Bài báo chưa báo cáo nhiệm vụ thực nghiệm hoặc phân tích dữ liệu học sinh.
+P219: Tuyên bố về GenAI và quyền tác giả
+P220: Codex (OpenAI) được sử dụng để hỗ trợ viết mã, biên tập ngôn ngữ và định dạng bản thảo. Trong bản mẫu web, Qwen3 4B Instruct chạy cục bộ qua Ollama để tạo bản nháp giải thích, nhiệm vụ và học liệu. Các tác giả chịu trách nhiệm kiểm tra và chỉnh sửa nội dung, số liệu, trích dẫn trước khi gửi công bố. Công cụ được mô tả theo hồ sơ thao tác; việc có liên kết Gemini, ChatGPT hoặc NotebookLM không được xem là bằng chứng đã dùng các dịch vụ đó để tạo toàn bộ học liệu.
+P221: Mô hình đang dùng: qwen3:4b-instruct-2507-q4_K_M; bộ chạy Ollama 0.35.1 trên máy thử 8 GB RAM. Môi trường hỗ trợ soạn và lập trình: Codex trên máy tính. Hồ sơ của bản mẫu không xác lập phiên bản mô hình ChatGPT hoặc Gemini đã dùng bởi các tác giả ngoài các thao tác được báo cáo.
+P222: Tuyên bố về xung đột lợi ích
+P223: Các tác giả cần xác nhận tuyên bố về xung đột lợi ích trước khi gửi công bố.
+P224: Thông tin tài trợ
+P225: Thông tin tài trợ, cơ quan cấp kinh phí và mã số đề tài cần được các tác giả xác nhận trước khi gửi công bố.
+P226: Lời cảm ơn
+P227: Nhóm tác giả trân trọng cảm ơn PGS.TS. Nguyễn Thị Nhị, Khoa Sư phạm Khoa học Tự nhiên, Trường Đại học Sài Gòn, cán bộ hướng dẫn đề tài nghiên cứu khoa học của nhóm.
+P228: Tài liệu tham khảo
+P229: Bishop, J. L., & Verleger, M. A. (2013). The flipped classroom: A survey of the research. In 2013 ASEE Annual Conference & Exposition (pp. 23.1200.1–23.1200.18). ASEE Conferences. https://doi.org/10.18260/1-2--22585
+P230: Bộ Giáo dục và Đào tạo. (2018). Chương trình giáo dục phổ thông môn Vật lí (Ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT). Cơ sở dữ liệu văn bản Bộ Giáo dục và Đào tạo. https://vbpl.vn/bogiaoducdaotao/Pages/vbpq-van-ban-goc.aspx?ItemID=146721&dvid=317
+P231: Bộ Giáo dục và Đào tạo. (2020). Khung kế hoạch bài dạy (Phụ lục IV kèm Công văn số 5512/BGDĐT-GDTrH ngày 18/12/2020).
+P232: Bộ Giáo dục và Đào tạo. (2024). Công văn số 7991/BGDĐT-GDTrH về thực hiện kiểm tra, đánh giá đối với cấp THCS, THPT.
+P233: FuseSchool – Global Education. (n.d.). What is nuclear fission? | Radioactivity | Physics | FuseSchool [Video]. YouTube. https://www.youtube.com/watch?v=D91T-B-PVE0
+P234: Huỳnh, T. Y. N., Nguyễn, T. T. H., & Lê, A. Đ. (2026). Tích hợp lịch sử vật lí nguyên tử và hạt nhân trong giảng dạy. Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh, 23(SI1), 537–547. https://doi.org/10.54607/hcmue.js.23.SI1.5418(2026)
+P235: International Atomic Energy Agency. (n.d.). Food irradiation. https://www.iaea.org/topics/food-irradiation
+P236: Krathwohl, D. R. (2002). A revision of Bloom’s taxonomy: An overview. Theory Into Practice, 41(4), 212–218. https://doi.org/10.1207/s15430421tip4104_2
+P237: Liu, L., Hew, K. F., & Du, J. (2024). Design principles for supporting self-regulated learning in flipped classrooms: A systematic review. International Journal of Educational Research, 124, Article 102319. https://doi.org/10.1016/j.ijer.2024.102319
+P238: Mai, H. P., Hồ, V. T., Phan, T. T., Phạm, T. P. U., & Nguyễn, T. M. D. (2024). Xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung Động lượng – Vật lí 10 theo mô hình lớp học đảo ngược. TNU Journal of Science and Technology, 229(01/S), 197–206. https://doi.org/10.34238/tnu-jst.9209
+P239: McKenney, S., & Reeves, T. C. (2019). Conducting educational design research (2nd ed.). Routledge. https://www.routledge.com/Conducting-Educational-Design-Research-2nd-Edition/McKenney-Reeves/p/book/9781138095564
+P240: Miao, F., & Cukurova, M. (2024). AI competency framework for teachers. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
+P241: Miao, F., & Holmes, W. (2023). Guidance for generative AI in education and research. UNESCO. https://doi.org/10.54675/EWZM9535
+P242: National Institute of Biomedical Imaging and Bioengineering. (n.d.). Nuclear medicine. https://www.nibib.nih.gov/science-education/science-topics/nuclear-medicine
+P243: Ollama. (n.d.). qwen3:4b-instruct-2507-q4_K_M. https://ollama.com/library/qwen3:4b-instruct-2507-q4_K_M
+P244: Roy, P., Poet, H., Staunton, R., Aston, K., & Thomas, D. (2024). ChatGPT in lesson preparation: A Teacher Choices trial. Education Endowment Foundation. https://d2tic4wvo1iusb.cloudfront.net/production/documents/projects/chatgpt_in_lesson_planning_-_evaluation_report.pdf
+P245: Urone, P. P., & Hinrichs, R. (2022). College physics (2nd ed.). OpenStax. https://openstax.org/details/books/college-physics-2e
+P246: van Alten, D. C. D., Phielix, C., Janssen, J., & Kester, L. (2019). Effects of flipping the classroom on learning outcomes and satisfaction: A meta-analysis. Educational Research Review, 28, Article 100281. https://doi.org/10.1016/j.edurev.2019.05.003
+P247: Vũ, V. H., Nguyễn, V. B., Trần, N. C., Phạm, K. C., Đặng, T. H., Tưởng, D. H., & Bùi, G. T. (2024). Vật lí 12 (Kết nối tri thức với cuộc sống; bản mẫu tháng 1/2024). Nhà xuất bản Giáo dục Việt Nam. 
+P248: Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory Into Practice, 41(2), 64–70. https://doi.org/10.1207/s15430421tip4102_2
+PART word/footer1.xml
+P1: 1
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/header1.xml
+P1: VJE
+P2: Tạp chí Giáo dục
+P3: ISSN: 2354-0753
+
+
+--- AGENTS.md ---
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
+
+--- docs/codex-team/TEAM.md ---
+# Phối hợp ba tài khoản
+
+Trưởng nhóm trong ứng dụng chịu trách nhiệm nội dung, học liệu, chatbot, mô hình khoa học, hoạt động học và tích hợp file chung. Worker 2 dùng `$HOME/.codex-plus-2`, đánh giá thực tế và duy nhất sửa `BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx`. Worker 3 dùng `$HOME/.codex-plus-3`, sửa UX/hiển thị/thao tác theo danh sách file từng job. Không có worker thay thế bằng tài khoản trưởng nhóm.
+
+Hai tài liệu căn cứ bất biến: `hd.docx` và tên thực tế `ĐÃ SỬA - NCKH.docx`. Tên thứ hai khác thứ tự tên người dùng nêu; nội dung là thuyết minh đề tài Vật lí hạt nhân lớp 12 THPT, đề ngày 04/09/2026. Hash và trích xuất đầy đủ lưu trong source-manifest.json. Các số người tham gia trong tổng quan tài liệu thuộc nghiên cứu được trích, không phải mẫu thử của web này.
+
+Mỗi job có quyền read-only khi review; workspace-write chỉ khi fix/article. Danh sách file được giao là hợp đồng sửa, có khóa worker và khóa từng file cùng audit hash; profile filesystem CLI giới hạn đúng file được giao và thư mục báo cáo/tạm. Browser MCP chạy ở host nên cwd được đặt trong evidence; luôn dùng filename tuyệt đối tại evidence và kiểm tra audit sau lượt. Trưởng nhóm xem mọi thay đổi bất ngờ trước tích hợp. Không chạy job cùng worker chồng nhau. Không xóa khóa còn tiến trình sống. Không commit thay đổi sẵn có, reset, clean hoặc tác động DB thật.
+
+Vòng: Worker 2 review → trưởng nhóm phân vấn đề khoa học/UX → trưởng nhóm và Worker 3 sửa file độc lập → Worker 2 review lại. Mỗi vấn đề cần ID/mức/trang/cách tái hiện/bằng chứng/căn cứ/tác động/tiêu chí đóng. Hai lượt review cuối liên tiếp phải cùng hash phiên bản, không lỗi mới ảnh hưởng nghiệm thu. COMPLETED_PENDING_LEAD_REVIEW chỉ có nghĩa CLI xong; không có nghĩa web đạt.
+
+Nếu auth/hạn mức/browser/dữ liệu thử bị chặn: ghi CHƯA ĐẠT và checkpoint, không tạo kết quả kiểm thử giả. Không coi cổng Supabase đang cấu hình là môi trường phát triển đã xác minh. Chỉ dùng tài khoản/dữ liệu thử được xác định rõ; chưa được phép ghi dữ liệu lên hệ thống chưa xác minh.
+
+DOCX: Worker 2 đọc skill Documents tại `/Users/vodoandangkhoi/.codex/plugins/cache/openai-primary-runtime/documents/26.905.11957/skills/documents/SKILL.md`; sao lưu trước sửa, giữ cấu trúc, bảng/hình/trích dẫn/định dạng còn đúng, cập nhật có căn cứ. Runtime Python: `/Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`; Node `/Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node`. Render bằng script của skill, chỉ dùng LibreOffice bundled nếu có; không dùng LibreOffice desktop. Phân biệt test kỹ thuật, phản biện AI và thực nghiệm người thật.
+
+--- docs/codex-team/acceptance.md ---
+# Bảng đối chiếu nghiệm thu
+
+Cập nhật 05/10/2026. Môn Vật lí, lớp 12 THPT, chủ đề hạt nhân B21–B25; đối tượng giáo viên Vật lí và học sinh lớp 12. Trạng thái tổng: **CHƯA ĐẠT**. Các đoạn P truy nguyên bản trích xuất đầy đủ trong source-manifest.json; hai DOCX căn cứ giữ nguyên. Ca phần mềm đạt không thay cho nghiên cứu với người thật.
+
+ĐẠT trong một ca chỉ áp dụng cho phạm vi ghi trong bằng chứng. Dòng CHƯA ĐẠT nghĩa còn tiêu chí chưa đủ bằng chứng; không dùng số vòng hoặc mã thoát 0 để nghiệm thu. Bản chương trình người dùng cung cấp có 38 trang, nội dung hạt nhân tại trang 27–28. Đối chiếu 15 yêu cầu cần đạt (YCCĐ) ở curriculum-matrix.md; căn cứ pháp lí, hiệu lực và giới hạn tra cứu ở regulations.md.
+
+| ID / căn cứ | Yêu cầu → chức năng/học liệu | Tiêu chí kiểm tra | Bằng chứng đạt / phần còn thiếu | Trạng thái |
+|---|---|---|---|---|
+| HD01 hd P3–5 | Video hoạt hình hạt nhân → video B21–B25, YouTubeLearningVideo | Phát/dừng/tiếp tục, nguồn, nhiệm vụ quan sát, hướng dẫn ngôn ngữ và phương án khi video lỗi | W3R7/R8 xác nhận đoạn phát/dừng/tiếp tục của 5/5 video bằng ảnh, snapshot và thời gian thật. B21–B23/B25 thấy phụ đề Anh, đoạn B24 phụ đề Việt; chưa xem toàn bộ. Root IAB thấy B22 tới 2:58/2:58. Chưa kiểm chứng HS hiểu độc lập | CHƯA ĐẠT toàn tiêu chí |
+| HD02 hd P6–8 | Mô phỏng cấu tạo/bán rã/phân hạch → Simulation3D, GuidedFissionLab, B21–B25 | Đổi tham số đúng, nhãn/đơn vị, dừng/đặt lại/góc nhìn; dự đoán–quan sát–giải thích | W2R4/W3R4 thao tác B22 bảo toàn 236/92, timeline/đặt lại/dừng; B23 thay T/N₀; ảnh desktop/mobile. Tests physics/fission đạt. Chưa kiểm tra đủ 17 mô phỏng và mọi đường dẫn | CHƯA ĐẠT đủ phạm vi |
+| HD03 hd P9–11 | Infographic tia/lịch sử → InteractiveInfographic B23, NuclearHistory B21 | Alpha/beta/gamma đúng; bàn phím/nhãn; mốc gắn bằng chứng, nguồn và sản phẩm | W2R5 Tab+Enter chọn beta, Tab+Space chọn gamma; A/Z đúng và gamma suy giảm. W2R7 click bốn mốc lịch sử, Tab→Enter, pressed/live đúng, ảnh 1280/390 đọc được. Nguồn Curie chỉ xác minh metadata chỉ mục; chưa đánh giá người học độc lập | CHƯA ĐẠT toàn tiêu chí |
+| HD04 hd P12–14 | Phiếu số/chẩn đoán → ChoiceCheck, phiếu ba pha | Trống có hướng dẫn, đúng/sai có giải thích; nhiệm vụ/sản phẩm rõ | W2R6 mobile: hướng dẫn trống/aria-describedby; Space/ArrowRight/Tab/Enter; sai→đúng có giải thích Z/N/A; ảnh và báo cáo chi tiết. W2R4 mở phiếu B23; tests phiếu đạt. Chưa thử đủ các phiếu/bài | CHƯA ĐẠT đủ phạm vi; ca B21 ĐẠT |
+| HD05 hd P15 | Video từng bài → kho B21–B25 | Mỗi bài có video phù hợp, tên/kênh/nguồn đúng, phát được và có nhiệm vụ | W3R6 đối chiếu 5 ID/nguồn dự phòng, phát hiện tên B24 lệch. W3R7 sửa tên và thử đoạn phát/dừng/tiếp tục B21–B24; W3R8 xác nhận B25. Chưa xem toàn bộ nội dung/phụ đề/khả năng hiểu | CHƯA ĐẠT toàn tiêu chí |
+| HD06 hd P19–20 | Bảng t–N, đồ thị hàm mũ/T → B23 CSV và notebook | Tải bảng đúng tham số/đơn vị, vẽ XY, tính T, phân biệt mô hình/đo | W2R5 tải ba CSV 1000/30, 1000/60, 2000/60; N(30) ở 1000/60 = 707,106781 và nhân đôi khi N₀ = 2000. Có 61 mốc 0–360 s; tính T từ hai điểm đúng. Hai tests CSV/khoa học đạt; có nguồn/giới hạn/hướng dẫn đặt lại. Chưa thao tác Excel/Sheets thật hoặc thử với nhóm HS | CHƯA ĐẠT toàn luồng; CSV/công thức ĐẠT các ca |
+| HD07 hd P21–23 | Mindmap cộng tác ứng dụng → NuclearGroupWorkspace | Phân công thành viên; cơ chế–lợi ích–giới hạn–nguồn; một sản phẩm chung | W2R4 mở bốn nhánh; USER_GUIDE hướng dẫn phân công trên thiết bị chung. Chưa thử trọn lượt nhiều vai, xuất/đối chiếu đủ bốn nhánh hoặc có nhóm thật | CHƯA ĐẠT |
+| HD08 hd P24–25 | Đóng vai dự án điện giả định → B24 roleplay | Bốn vai; lập luận/bằng chứng/giới hạn/phản biện; tiêu chí và xuất sản phẩm | W2R6 thấy bốn tiêu chí và hướng dẫn tự/GV nhận xét, nhập bốn trường giả định, tải TXT đủ vai/tiêu chí/nội dung, xem ảnh 390. W2R4 quan sát bốn vai. Đây là kiểm thử bản mẫu, không có nhóm người học thật | ĐẠT chức năng bản mẫu trong ca đã thử |
+| HD09 hd P26–28 | Ôn cạnh tranh đồng đội → NuclearReviewGame | Luật/lượt/chấm/giải thích; độ hụt khối/năng lượng liên kết/Q đúng | Có 15 câu, ví dụ Δm = 0,010 u → 9,315 MeV, bảo toàn A/Z, Q > 0. W2R4 thử lượt đầu/phản hồi. Chưa chơi trọn 15 lượt và xác nhận hai đội/chấm/đặt lại | CHƯA ĐẠT |
+| NC01 NCKH P135,P146,P239 | Ma trận mục tiêu–nội dung–hoạt động–đánh giá → nuclear-curriculum/teaching-plan | Truy nguyên đủ YCCĐ áp dụng đúng THPT; mục tiêu/sản phẩm/đánh giá phù hợp | W2R5 đối chiếu 15/15 với PDF trang 27–28, không bỏ sót/sai nghĩa; root xem ảnh hai trang. regulations.md phân biệt TT17/2025 chỉ sửa các môn khác. Mapping ĐẠT; chưa thử từng hoạt động và chưa đọc đầy đủ một số văn bản pháp lí | CHƯA ĐẠT toàn dòng; đối chiếu 15/15 ĐẠT |
+| NC02 P121–123,P135 | Tự học ba pha → notebook/phiếu/progression | Nhiệm vụ/sản phẩm/theo dõi/tự điều chỉnh; GV nhận bài được giao | W3R4 tải lại notebook vẫn còn bản ghi cục bộ; W2R4 thử phiếu/ba pha. Lưu trình duyệt khác bài nộp; luồng tài khoản chưa thử | CHƯA ĐẠT — giao–nộp bị chặn |
+| NC03 P123,P150,P163 | AI gợi ý có kiểm duyệt và bảo vệ dữ liệu → local-ai/AIworkspace | Trong/ngoài phạm vi, căn cứ/công thức, lỗi/tải; GV rà soát, không tự quyết định điểm chính thức | Root sửa OUT_OF_SCOPE; HTTP hint/explain câu làm bánh từ chối, câu 2T trả H6. W2R5 dùng chuột 1280/390, hai câu tuần tự đúng; W3R5 sửa DevTools che nút. Tests local-ai đạt. Chưa kiểm tra đủ câu sai, injection, lỗi, quyền tài khoản và tải cả lớp | CHƯA ĐẠT toàn phạm vi; các ca sửa ĐẠT |
+| NC04 P125–126,P169 | Quy trình AI tạo học liệu → USER_GUIDE/LOCAL_AI | Chọn nguồn→nháp→đối chiếu→sửa→duyệt→lưu phiên bản và trách nhiệm | USER_GUIDE ghi quy trình, trách nhiệm GV và cách báo lỗi; W2R4 mở công cụ giáo viên. Chưa xác nhận GV thật dùng độc lập quy trình | CHƯA ĐẠT kiểm chứng sử dụng |
+| NC05 P127 | Ít nhất ba kế hoạch ba pha → mẫu B21–B25/xuất Word | Đúng mục tiêu, thời gian/thiết bị/hai vai/sản phẩm/đánh giá; DOCX đọc được | Có năm mẫu và tests; W2R4/W3R4 dùng công cụ soạn/phiếu B23. Lượt hiện tại chưa thẩm định và đọc Word đủ ba kế hoạch | CHƯA ĐẠT đủ phạm vi |
+| NC06 P128,P135,P161 | Công cụ đánh giá tự học → rubrics 4×4/nhật kí | Hành vi/sản phẩm quan sát được; phân biệt khung thiết kế và thang đo kiểm định | Có khung và tests/rà nội dung; bài báo/guide ghi chưa kiểm định. Chưa có độ tin cậy/giá trị thực nghiệm | CHƯA ĐẠT kiểm định nghiên cứu |
+| NC07 P157–159,P168 | Khảo sát/bán thực nghiệm THPT → đề cương | Người thật/đồng thuận/lớp tiền–hậu/đối chứng, dữ liệu có nguồn | Chưa thực hiện; không tính AI đóng vai GV là người tham gia | CHƯA ĐẠT — nghiên cứu thực địa |
+| NC08 P163 | Mã hóa/rút lui/hạn lưu/riêng tư → vận hành/RLS | Chính sách thực hiện tại trường, ownership và lưu/xóa theo quy trình | .env.local có Supabase từ xa chưa xác minh môi trường phát triển; chín lượt đọc schema có limit=0 thất bại DNS ENOTFOUND. Người dùng xác nhận giữ checkpoint; chưa seed/tài khoản thử; không ghi DB/migration | CHƯA ĐẠT — môi trường/dữ liệu |
+| NC09 P169,P235 | Bài báo đúng phiên bản; chấp nhận/đăng theo trường → DOCX | W2 duy nhất sửa; backup/render đủ trang; kết quả đúng, không bịa; việc chấp nhận/đăng có chứng từ | W2R8 cập nhật DOCX theo bằng chứng vòng 4–8, sao lưu và render 25 trang. W2 và root xem đủ trang; ZIP hợp lệ, giữ 24 hình, chỉ word/document.xml thay đổi. Phần cập nhật bài báo ĐẠT; chưa gửi hoặc được chấp nhận đăng | CHƯA ĐẠT toàn dòng; DOCX cập nhật ĐẠT |
+| NC10 P243–245 | Hướng dẫn/chuyển giao → USER_GUIDE, DEV_DATABASE_AND_RESUME | GV/HS thao tác độc lập; dữ liệu/AI/offline/nhận bài và quy mô rõ | Có hướng dẫn ba vai, CSV/3D/nhóm/AI; checklist DB01–10 và thử dùng thực địa. Chưa có người dùng thật, thử giao–nộp hoặc dữ liệu quy mô | CHƯA ĐẠT nghiệm thu chuyển giao |
+| US01 yêu cầu phiên | UI desktop/mobile/bàn phím/khả năng tiếp cận/lỗi/trống | Dễ đọc/điều hướng/focus; 1280/390; trạng thái hữu ích | W3R4 có 18 ảnh/13 nhóm thao tác: lọc/trống/menu/Esc/focus/timeline/đồ thị/notebook; W2R6 có năm ảnh/bàn phím; sửa DevTools có bốn ảnh. Chưa kiểm tra mọi trang riêng, trình đọc màn hình hoặc toàn bộ khả năng tiếp cận | CHƯA ĐẠT đủ phạm vi; các ca công khai ĐẠT |
+| US02 yêu cầu phiên | Chức năng/phân quyền/lưu/hiệu năng → LMS/Supabase/AI | Hai vai/hai lớp; không đọc lớp khác/đáp án; đăng nhập lại; tải theo quy mô | 61/61 tests, lint 0 lỗi/1 cảnh báo có sẵn. Build cuối và TypeScript đạt sau sửa đường dẫn backup. Chưa có DB E2E/tải; giới hạn một yêu cầu AI đồng thời và 12/phút không là cam kết phục vụ cả lớp | CHƯA ĐẠT — DB/tải |
+| US03 yêu cầu phiên | Hai lượt Worker 2 liên tiếp trên phiên bản cuối | Cùng hash web, đủ luồng bắt buộc, không vấn đề mới ảnh hưởng tiêu chí | W2R4/R5 hết thời gian, có bằng chứng nhưng thiếu phạm vi. R6 kiểm tra lại hai ca, R7 kiểm tra lịch sử; không tính thành hai lượt đủ điều kiện | CHƯA ĐẠT |
+
+## Điều kiện tiếp tục
+
+Người dùng xác nhận chưa rõ Supabase từ xa là môi trường thử và yêu cầu giữ checkpoint/hướng dẫn. Không ghi dữ liệu hoặc chạy migration vào kết nối này. Theo DEV_DATABASE_AND_RESUME.md, xác định môi trường riêng, tạo danh tính thử thuộc hai lớp và hoàn tất DB01–10. Các phạm vi công khai còn thiếu cũng phải được thử đầy đủ trước hai lượt Worker 2 cuối cùng trên cùng hash.
+
+Tên PhET/Canva/Genially/Forms/Padlet/Kahoot trong hd là công cụ gợi ý; nhiệm vụ tương ứng vẫn phải đạt. Không tự yêu cầu đồng biên tập mạng nếu tài liệu không bắt buộc. Phản biện AI và kiểm thử phần mềm không chứng minh hiệu quả học tập.
+
+NC06/NC07 và việc chấp nhận đăng ở NC09 là nghiệm thu nghiên cứu, cần bằng chứng riêng. NCKH gốc có mâu thuẫn một trường/hai lớp (P137), hai lớp thực nghiệm + hai lớp đối chứng (P159), một số trường (P148); P199/P205 ghi 12/2027 trước 01/2027. Tác giả cần xác nhận trước nghiên cứu/công bố; giữ nguyên nguồn.
+
+--- docs/codex-team/regulations.md ---
+# Căn cứ chương trình và phạm vi áp dụng
+
+Cập nhật 05/10/2026. Đối tượng xác định từ hai DOCX: giáo viên Vật lí và học sinh lớp 12 THPT, chủ đề Vật lí hạt nhân B21–B25. Không áp dụng mặc định chương trình giáo dục thường xuyên hoặc trung học nghề. Theo chỉ dẫn mới của người dùng, dừng tìm thêm bản chương trình và dùng PDF đã cung cấp.
+
+## Nguồn chương trình trực tiếp
+
+Tệp người dùng gửi: `/Users/vodoandangkhoi/12_ctvat_li_26320197.pdf`, 38 trang, SHA-256 `a7de3a21e491f911cca098f9a1dd22086dde69be512b7b324e4a0c9169303aa1`. Trang bìa ghi Bộ GDĐT, chương trình môn Vật lí ban hành kèm TT32/2018 ngày 26/12/2018. Đã đọc mục tiêu/năng lực trang 3–7, nội dung hạt nhân trang 27–28, phương pháp/đánh giá/điều kiện trang 31–38; xem ảnh trang 27–28 để kiểm tra công thức và bảng. Không thay đổi PDF. Trích xuất đầy đủ lưu `12_ctvat_li_26320197-layout.txt`; phần áp dụng cho workers lưu `curriculum-applicable-extract.txt`. Không coi tệp năm 2018 tự chứng minh lịch sử hiệu lực đến năm 2026.
+
+| Văn bản | Ban hành / có hiệu lực | Phần áp dụng | Tính chất / mức xác minh | URL nguồn chính thức |
+|---|---|---|---|---|
+| 32/2018/TT-BGDĐT | 26/12/2018 / 15/02/2019 | Chương trình môn Vật lí; yêu cầu hạt nhân/phóng xạ trang 27–28; phương pháp và đánh giá trang 31–34 | Yêu cầu cần đạt là căn cứ bắt buộc. PDF Bộ do người dùng cung cấp đã đọc trực tiếp. CSDL ghi văn bản đã sửa một phần; không ghi toàn bộ bản 2018 còn nguyên hiệu lực. Trang CSDL truy cập trực tiếp bị 403; metadata được kết quả tìm kiếm chính thức trả về. | [CSDL Bộ GDĐT](https://vbpl.vn/bogiaoducdaotao/Pages/vbpq-van-ban-goc.aspx?ItemID=146721&dvid=317) |
+| 20/2021/TT-BGDĐT | 01/07/2021 / 16/08/2021 | Sửa Điều 3 về lộ trình thực hiện TT32; không dùng để thay nội dung hạt nhân | Metadata đã thấy tại cổng Bộ/lịch sử CSDL; chưa đọc toàn văn trực tiếp trong lượt này. Không tự đặt yêu cầu phần mềm từ văn bản. | [Cổng Bộ](https://moet.gov.vn/van-ban/vanban/Pages/chi-tiet-van-ban.aspx%3FItemID=1409) |
+| 13/2022/TT-BGDĐT | 03/08/2022 / 03/08/2022 | Sửa một số nội dung chương trình; cần dùng khi đối chiếu kế hoạch toàn trường | Metadata số/ngày đã thấy tại cổng Bộ và CSDL; chưa xác minh toàn văn hiện hành trong lượt này. Không diễn giải thành thay đổi công thức Vật lí hạt nhân. | [Cổng Bộ](https://moet.gov.vn/van-ban/vanban/Pages/chi-tiet-van-ban.aspx%3FItemID=1467) |
+| 17/2025/TT-BGDĐT | 12/09/2025 / 12/09/2025, Điều 2 bản ký | Điều 1 sửa Lịch sử/Địa lí/Giáo dục công dân. Không liệt kê môn Vật lí | Đã mở trang Bộ, tải PDF 22 trang và xem trực tiếp trang 1 bản ký. Không áp dụng sửa đổi này để thay yêu cầu hạt nhân trang 27–28. | [Cổng Bộ](https://moet.gov.vn/van-ban/vanban/Pages/chi-tiet-van-ban.aspx%3FItemID=1600), [bản ký Bộ](https://moet.gov.vn/upload/2007219/20250814/f3726edc2d37e257e75757d7f68617ed172025ttbgddtsigned.pdf) |
+| 22/2021/TT-BGDĐT | 20/07/2021 / 05/09/2021 | Đánh giá học sinh THCS/THPT; phân biệt tự luyện và điểm chính thức; giáo viên chịu trách nhiệm đánh giá | CSDL mục Bộ trả metadata còn hiệu lực qua kết quả tìm kiếm; truy cập toàn văn trực tiếp 403/502. Chưa kiểm toán toàn bộ sửa đổi đến 05/10/2026. Không tuyên bố tuân thủ pháp lý toàn diện chỉ từ test phần mềm. | [Thuộc tính tại CSDL Bộ](https://vbpl.moj.gov.vn/bogiaoducdaotao/Pages/vbpq-thuoctinh.aspx?ItemID=150073&Keyword=&dvid=317) |
+| 5512/BGDĐT-GDTrH | 18/12/2020; chưa xác minh tình trạng áp dụng hiện tại | Khung kế hoạch/hoạt động, tham khảo phụ lục IV trong tài liệu dự án | Hướng dẫn hành chính. Bản địa phương/dự án chưa thay cho nguồn trực tiếp cơ quan ban hành. Giữ làm tham khảo, không coi mọi mẫu là bắt buộc hoặc ba pha đảo ngược chính là bốn loại hoạt động. | Chưa thu được URL toàn văn trực tiếp của Bộ; CHƯA XÁC MINH đầy đủ |
+| 7991/BGDĐT-GDTrH | 17/12/2024; bản dự án nêu triển khai học kỳ II 2024–2025 | Ma trận, đặc tả và hướng dẫn chấm định kỳ THPT | Bản văn trong dự án ghi “tham khảo Phụ lục”; tỷ lệ mẫu không mặc định bắt buộc cho mọi đề tự luyện. Chưa thu nguồn toàn văn trực tiếp Bộ, chưa xác minh hướng dẫn địa phương hiện tại. | Chưa thu được URL toàn văn trực tiếp của Bộ; CHƯA XÁC MINH đầy đủ |
+
+PhET, Canva, Genially, Forms, Padlet, Kahoot trong hd là gợi ý công cụ. Chương trình nêu định hướng giáo dục mở và lựa chọn tư liệu; nghiệm thu dựa trên hoạt động/sản phẩm tương ứng, không bắt buộc thay nền tảng chỉ vì tên công cụ. Tỷ lệ thời lượng chủ đề hạt nhân 16 tiết ở trang 37 là phân bố dự kiến; không tự chuyển thành quy mô tải đồng thời hoặc số người tham gia nghiên cứu.
+
+## Giới hạn kiểm chứng
+
+Các lần truy cập CSDL và cổng cũ thất bại đã lưu ở `legal-evidence/`; có bản Bộ mới TT17 đọc được. Một phần lịch sử hiệu lực chỉ có metadata, không có toàn văn tải được. PDF người dùng bổ sung giải quyết nội dung chương trình môn Vật lí; nó không xác nhận mọi quy định đánh giá và văn bản hướng dẫn của trường năm 2026. Trước dùng làm đánh giá chính thức, nhà trường cần xác nhận văn bản/hướng dẫn đang áp dụng. Dự án hiện vẫn CHƯA ĐẠT nghiệm thu toàn bộ và chưa kết luận sẵn sàng triển khai rộng.
+
+--- docs/codex-team/runs/worker3-ui12b-label-camera-chart-fix/detailed-report.md ---
+# Worker 3 UI12b — nhãn, camera và đồ thị
+
+Đã đọc toàn bộ ba bản trích xuất DOCX trong yêu cầu, AGENTS, TEAM và các hướng dẫn nghiệm thu/UI11/UI12. Đã đọc hướng dẫn Next `node_modules/next/dist/docs/01-app/03-api-reference/01-directives/use-client.md` trước sửa. Chỉ sửa Simulation3D.tsx, B22Activities.tsx và globals.css. Không thay công thức, dữ liệu, tên/kí hiệu khoa học, tọa độ hay quy tắc chuyển động. Không DOCX/auth/DB/env/secret/production/commit/reset/clean.
+
+Trạng thái: đang kiểm tra tập trung; chưa đóng lỗi độc lập, CHƯA ĐẠT nghiệm thu tổng. Evidence tuyệt đối: `/private/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-5CukgI/evidence`. Script `focused.mjs` ở TMP cùng cấp; `after-hashes.json` ghi hash ba file, `actual-tests.json` ghi từng lượt và lỗi thật.
+
+## UI-0200 — P2 / Medium
+
+Trang: các cảnh dùng Simulation3D, trọng tâm B21 nuclear-builder/isotope-size, B23 geiger-decay, B24 reactor-control.
+Steps: mở tài nguyên từ simulations.json ở desktop/mobile → bắt đầu → tạm dừng → đọc nhãn; đổi slider Home/End và mode.
+Evidence BEFORE: UI11 durable `detailed-report.md`, ảnh builder/isotope/geiger/reactor trong `all-evidence` hoặc TMP UI11, là bằng chứng phiên trước. AFTER: ảnh `system-sim-…-1440/390-initial.png` và Home/End trong evidence phiên này; actual-tests ghi legend sau từng thao tác.
+Source paragraph: hd P2/P6–7; NCKH P84/P95/P121; bài báo P49–50/P55–56/P88/P95/P197–199.
+Tác động dạy/học: nhãn quá nhỏ làm khó nối tên/kí hiệu với vật thể.
+Sửa: thay thanh chữ trong thế giới bằng marker số tròn 28px theo màn hình, không tương tác; chú giải cùng số 15px ngoài canvas lấy nguyên existing strings. Legend tạo lại khi tham số/mode đổi. Không tăng font texture đơn thuần.
+Acceptance: đọc được nhãn thiết yếu ở 1440/390/360, liên hệ marker rõ, không che hiện tượng; giữ đơn vị và giới hạn; W2 kiểm độc lập. Chờ kết quả ca tập trung và ảnh.
+
+## UI-0201 — P2 / Medium
+
+Trang: B23 radiation-properties/radiation-safety.
+Steps: mở/start mobile 360/390 → bốn preset → slider min/max → về toàn cảnh; so sánh 1440/1280/768.
+Evidence BEFORE: UI11 ảnh cắt đầu thu/vị trí quan sát theo detailed-report. AFTER: `system-sim-radiation-properties/safety-W-Home/End-P.png` tại evidence; W là width, P=0 phối cảnh/1 trước/2 trên/3 cạnh.
+Source paragraph: hd P7/P10; NCKH P121/P146; bài báo P55–56/P197–199/P213.
+Tác động: cắt đích làm khó nhận ra quan hệ nguồn–chắn–đích.
+Sửa: fit camera theo bounds apparatus và label anchors, loại gridhelper, dùng cả FOV ngang/dọc và aspect; padding 18%; cập nhật start/resize/tham số/preset, không fit mỗi frame. Nút Về toàn cảnh phục hồi sau zoom/drag; mở rộng camera far/maxDistance theo khung cảnh, giữ orbit.
+Acceptance: đủ đối tượng/marker ở năm size, bốn preset, cực trị; không đổi world coordinates/physics. Chờ ảnh/W2 kiểm độc lập.
+
+## UI-0202 — P2 / Medium
+
+Trang: B22 binding-energy.
+Steps: Tab qua chín nút điểm, Enter chọn Fe-56, Space chọn U-235 → xem trạng thái/tooltip/criteria; năm size.
+Evidence BEFORE: UI11 chart-tests và ảnh binding-chart; AFTER: `chart-W-buttons.png` và actual-tests gồm Tab/activate/height/pressed/status/criteria.
+Source paragraph: hd P6–7/P13; NCKH P96/P121; bài báo P52–53/P197–199/P213; US01.
+Tác động: bàn phím không chọn được điểm bắt buộc, điểm chạm quá nhỏ.
+Sửa: chín button ngoài SVG cùng handler/state, >=44px, aria-pressed và focus rõ; tên Fe-56/U-235/He-4 dùng tên đã có, các điểm khác chỉ A; giá trị từ getEnergy hiện có. Chữ ngoài SVG nêu trục/đơn vị và giá trị; selected point hiện trên đồ thị. Giữ geometry/data/formula.
+Acceptance: Tab/Enter/Space chọn và cập nhật đúng cùng criteria, chữ đọc ở mobile, không tràn ngang; chờ W2 kiểm độc lập.
+
+## Actual tests và giới hạn
+
+Lint hai file TSX đã chạy, exit 0. Browser Chrome headless thật qua Playwright bundled đang chạy focused checks và smoke 17 tài nguyên; chưa coi script tồn tại là bằng chứng ca đã đạt. Sẽ cập nhật kết quả thực tế cuối. Không dùng 61 tests cũ làm kết quả phiên này. Không tài khoản thử/môi trường DB: giao–nộp và quyền tài khoản CHƯA KIỂM CHỨNG. Không người học thật/touch vật lý/screen reader/hiệu quả giáo dục. Root có thay đổi độc lập ngoài job, không quy chúng cho Worker3.
+
+--- docs/codex-team/ui-review/version-ui13-candidate.json ---
+{
+  "phase": "UI13 candidate frozen for read-only reviews; acceptance pending",
+  "time_utc": "2026-10-05T14:05:37.791559+00:00",
+  "root": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09",
+  "branch": "main",
+  "head": "9cba223",
+  "url": "http://localhost:3001",
+  "server_pid": 40707,
+  "ai_server_pid": 43302,
+  "algorithm": "sha256 of sorted compact JSON file map; src/public/config plus runtime book-bank JSON. Runtime data added explicitly vs UI12 lead scope. Documents/jobs/logs excluded.",
+  "web_sha256": "898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2",
+  "files": {
+    "data/book-bank/curation-audit.json": "107029115e39596a4e8fa8c030dd827acb7b878143c69400a3c4a5d3e01a3733",
+    "data/book-bank/index.json": "d602c17d217efe7e212b8bda1e2ed8a46947bb2ad0604f399e5c9ce070f07e46",
+    "data/book-bank/manifest.json": "e10a021d59cebb2fb271f120a70c32a5e31c4edc0a8bf1c8a4d37a345c4a79ea",
+    "data/book-bank/unified.json": "1d15561edb3ece8cd6636f0b0f43b5ead51d94e003e9ae16f2276b6389c11ea1",
+    "next.config.ts": "02e0d475900d6b69f8ca629e409f74aacda602701c05b5f3b163f466a9fd9fe7",
+    "package-lock.json": "d5151638f24e11fd3a9834cafee7ec9820790de62eab17d7a3a0d01a804f9e7f",
+    "package.json": "94ac65901d92e2bd814697cea629af4c3e651fe8ead679681931dd286d822d76",
+    "public/.DS_Store": "4eeb8e6a4dfc11889d5f18279f879863b3e40ceaebcd0a07edc77d77c73bad58",
+    "public/file.svg": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+    "public/globe.svg": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+    "public/illustrations/B21-animation.svg": "9c7fc92e9b28b5405556d3c4d2af5b84d9e61fb829a693431ca7fcd38f08630c",
+    "public/illustrations/B21-diagram.png": "878820730902707c86a2f9d75e98d16cdeec27b110827796778637b7bfa42c04",
+    "public/illustrations/B21-diagram.svg": "de3b467ca7a9363b6b0635c5cfcdc9d721e026b0c1ff190791aa29a4d11e7261",
+    "public/illustrations/B22-animation.svg": "b58a0211e33cdebd851538adb76c3b1b1f829eb4bc5e42e1122df20f002ab189",
+    "public/illustrations/B22-diagram.png": "746d31fc5a9b3f8125065e53b972863572a7c1fcfca49a566c9ab604ea010b70",
+    "public/illustrations/B22-diagram.svg": "38ec118b4d53132b68893b301f8fb0a2b8dc23568b338d7b1071f1d9d1d2ee0c",
+    "public/illustrations/B23-animation.svg": "a00d0ce1a30e7aeb3c24483aaefa19e46f72c05aea6eb238417edadd9bea7531",
+    "public/illustrations/B23-diagram.png": "fa180eb9823ec9a4b5f658869bb9aa88804d2ce44ce793fa87a3f60946f78818",
+    "public/illustrations/B23-diagram.svg": "d69b3ccbf99cb04925111957508228d2d4e903fcfd0fe105bec1d80eb8217bc8",
+    "public/illustrations/B24-animation.svg": "0a4d05fa78dd92e3c163249c3f8f41290a57b3dd1870ad152f543f2984fc4e85",
+    "public/illustrations/B24-diagram.png": "7ccdcbed3ca1201456d04a88b6e5ccc7bb2f756c3c3fe6a92883b6e10b3c637f",
+    "public/illustrations/B24-diagram.svg": "6789feaeae9f8290cbaed3a908721d3994094dd77562cdf4e79dec979edf3e22",
+    "public/illustrations/B25-animation.svg": "210b376db336019ec797042acdcf09645d4b37ba9cab37e6e2ddc6ae94385d33",
+    "public/illustrations/B25-diagram.png": "f015aadca31dbd5a5fb65be21cea5217b00f1521413321f487a364b0ad9b40e8",
+    "public/illustrations/B25-diagram.svg": "8192eae89efcddfa8bca8073dabefd1f3a832069043f26e2d2e05831686b8a37",
+    "public/illustrations/rutherford_scheme.svg": "242d5e61ad21cedd1b76bc739d9be5c3e4d22394be603d54427cd0adf5e9ad07",
+    "public/learning/B21-worksheet.pdf": "2f8c129bbe66892f07113f79e02db02cccd661f44211b28ff75acc6d24eaae91",
+    "public/learning/B22-worksheet.pdf": "216cced3c29a69cbcb61c436a1fc6b52508574a6b75cbd1c6802ac678dec32ae",
+    "public/learning/B23-worksheet.pdf": "035cacf3d1aad19edc31845dde162591dfe53bc07cf1d4b1cc2df5efe043a26f",
+    "public/learning/B24-worksheet.pdf": "68fdcbf7431551d849b57dca311ad672c5b4180facce6fed0b22f97ab3926b57",
+    "public/learning/B25-worksheet.pdf": "7364af7909e07e7b4b79295d3ff3e57a04631cace66804af639cbda5ac07f2b0",
+    "public/learning/SGK-chuong-IV.pdf": "cf170116ea1d1974f9b9c24a147857d20e79d4c2ed9898eb67f33278934e427a",
+    "public/learning/decay-analysis.ipynb": "3b75d68bd65d0c068ae90f11e5ae43bb5c855930a5f52a7848811b03108618e0",
+    "public/learning/decay-model.csv": "0f93fc62ee8e8cdf9676ee73b90f8099f1db77ccbece0c682f3165492a9f56e9",
+    "public/learning/exams/final-a-answers.html": "c7fe69ae0e728410a143ab46bf665615114d56fec51d423d735b052d9e4ea841",
+    "public/learning/exams/final-a.html": "4805a20eb46eed8ed2fd9bcb3e24661288dc41b2ea1df53a5e2d3db391ffb79f",
+    "public/learning/exams/final-b-answers.html": "0a0c6c9d23819db2e4d51469b7ec5a3bff51cf0e88151727fc80da5bc269bc88",
+    "public/learning/exams/final-b.html": "5ecd1a6e21b4549f26dedc1e14a8fdd9cf34d8d595eae593182b31e5eeec9446",
+    "public/learning/exams/midterm-a-answers.html": "d14b165bf4767ad692e15f3b9e5eef88c7823a429aa452ba4e4b75be75207efe",
+    "public/learning/exams/midterm-a.html": "78890675a59376298695e23d3e6f4689eaadc65b03abf1df9c177c241660e9a0",
+    "public/learning/exams/midterm-b-answers.html": "95d0dadf9e368fc9ea0c5d3fa14feff03e8688ff447d4d1fe316b8e638af3656",
+    "public/learning/exams/midterm-b.html": "f07096f7a7c7cb545a580583a9ddcecabd93784136ab123ef6d81bfbc4fc2ccb",
+    "public/learning/guides/B21.html": "7a6311f70195515c00467459f1c0c665374971fc74757ae03bc26a7a086f2604",
+    "public/learning/guides/B22.html": "dce1c4a11c8c7971c50897706d461b01832421b13a7f5e22dc9409e0a5185d27",
+    "public/learning/guides/B23.html": "29875c6b4ff67cabcf25740f750bc1771cf61623b5d640aaf616fca743c7ddd1",
+    "public/learning/guides/B24.html": "198d063da7fa8287e2eed2882b429359a2b71454d0e6837661a239e35c05a945",
+    "public/learning/guides/B25.html": "ce2c07e70270945dc0674398b45399af8a8331b56df9eec302b6de7e640cbc7d",
+    "public/learning/guides/self-learning-rubric.html": "9eedd5cb73ca1c0ecbc7baef0ff90c30e120a6c5a303a231730286b9dc5f8307",
+    "public/learning/physics-curriculum-2018.pdf": "a7de3a21e491f911cca098f9a1dd22086dde69be512b7b324e4a0c9169303aa1",
+    "public/learning/question-images/background.png": "ffc8279aa2d7418022413ae064ab6036fea1c77a4278be4ae1bd31a4c040c613",
+    "public/learning/question-images/background.svg": "2bde42ab19fceb175988ed8084a9ce1fef1a780a164f8da7f24eebb76f5a8ab5",
+    "public/learning/question-images/binding.png": "cc26a2c0dac0a8151d2ebc4896d311e919dd17d8dddf19d921c5a522010b0d7a",
+    "public/learning/question-images/binding.svg": "2cafde2bb6ce624a1081d8361e99ea669fcb641a178cac621d6dc398ec4cd4a2",
+    "public/learning/question-images/counting.png": "a7351d6e4b37e104e57f9ef9ec618af8b84f8edd7a3b8218829b9e32f8c06c71",
+    "public/learning/question-images/counting.svg": "6fb126b6b18a3fa999c5a39de834d6f01d5d96db559b81bb3bc017071deceea5",
+    "public/learning/question-images/decay-curve.png": "2fcc032cb28e8245a38f450b5096fa7f8f008dd5dc6ea536ed0e32746e34062d",
+    "public/learning/question-images/decay-curve.svg": "a7679821a3b1b064aa2d02a963873118c04f35151eb13c5d5dab6e7d06b74a2c",
+    "public/learning/question-images/distance.png": "d64dd9f2fd5ebe6bb5ce6166e29b123e6487c4dcd3f74cc902136e5c5177484f",
+    "public/learning/question-images/distance.svg": "f9c370bdbdc68d47ca14df8d1ef65988cb5ac704b478db85dbda93a6c9c5a30f",
+    "public/learning/question-images/fission.png": "e372d29c2104a386ad20a8e1576209d5d4a936dc3cd8ee35b7dac31cb37cc229",
+    "public/learning/question-images/fission.svg": "45ad9ab978715b70dd1c0afa92949bb072f5c432754934578b823d05c29242cd",
+    "public/learning/question-images/isotopes.png": "76638d9389f78b9cd6e47997877fed1601f54d3dc42af9603cea2444f235a78e",
+    "public/learning/question-images/isotopes.svg": "5bfe89cb780c549da8380b396b69b7265e8b3e4a8d819e0932685d32e1b9c29f",
+    "public/learning/question-images/pet.png": "bd8583463667b9202d21263cc3ef1727413b6292877e513127c22fab34ffea4a",
+    "public/learning/question-images/pet.svg": "09ede19fbd1de58357a99036598914953e007a6228618fbdf1b856bad79f7a8b",
+    "public/learning/question-images/power-flow.png": "9a990fde87889af5012033882bbc02067de74283464af000073620db3472912f",
+    "public/learning/question-images/power-flow.svg": "f47f98a20d6737adbcb48b581c3afdc90f18af924b40fda08974bd32f66b69ee",
+    "public/learning/question-images/rutherford.png": "828f9c1b2cffd52b86da733b7745124d390dc756d61b48f97cc5686b28143a01",
+    "public/learning/question-images/rutherford.svg": "9cb2708090b7d5b5ed00310168ddae3fd09249a55ff46bbbd67fc8ff150ef154",
+    "public/learning/question-images/shielding.png": "b3297eacd60e346511fd07587a3d7f211803ecee195c7b2d4610e603251197ed",
+    "public/learning/question-images/shielding.svg": "060e3583faacd0637480ad45d0760c4c50647c2dfd624c9297c69c3e980b527b",
+    "public/next.svg": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+    "public/vercel.svg": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+    "public/window.svg": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+    "src/app/PublicShell.tsx": "371482018d4dab545f58dbcee8f769e35c567ff9daf568dddb5228c7ec597935",
+    "src/app/api/ai/document/route.ts": "9fbd081078c4c5e0783dfb120d905566ce5fd7cd7b8f4b14e7b63551593a8e4f",
+    "src/app/api/ai/preparation/route.ts": "2ffb9d041844ac0277b0205f222927aee1a7bbf18a24decdae7091b4696ec9a4",
+    "src/app/api/ai/status/route.ts": "93ed6d1f6d02268bed7242fe828f39c7cc53a18c5771c1c25814666837e8f57f",
+    "src/app/api/ai/student/route.ts": "f84c7f7c816d0772cf30cfaa3f04a0565106d2b46ba6af325ef1cd6d6ec88168",
+    "src/app/api/ai/teacher-demo/route.ts": "1a729e85273ba205efdbc5b9890b250d7ad4e6971d0e9ee4992118ca2b18bffb",
+    "src/app/api/ai/teacher/route.ts": "065a2d799ca6f437c0900e0da0c52c0bca40d47bdd6bfdb53adb2e263f6605df",
+    "src/app/api/book-bank/asset/route.ts": "edd3be98f88ced5f9c55ffddc5e32ed831ce9a513875d069e7bee0fd16f39a1b",
+    "src/app/api/book-bank/route.ts": "011881acce56039939ae644ad08f5fea8aa8db4047acba273997f9e7db7dc3ff",
+    "src/app/api/question-bank/route.ts": "2dd41f92a766a3d04c5c3cb9ac3891325a89a41f254a7045ffc10d800c52868a",
+    "src/app/api/word-download/route.ts": "c25fca42c66390e261437ff357b5a103457b7dd2e128edcd0dc4762deea9a0ce",
+    "src/app/auth/actions.ts": "d7257aeeaf708a1a486836721804ab478ef6e5899d9a132bd807f00eb1386e48",
+    "src/app/auth/confirm/route.ts": "c76859210342e6df58a088977eba9af1b160d754a75362e07b34ee5a932e5fa0",
+    "src/app/demo-lesson/DemoShell.tsx": "3412d659b7a6c313cee8cde68d496059327e7cedad3adbe60b0262752873488e",
+    "src/app/demo-lesson/page.tsx": "722f1b8d30757d3837fbbf35f15616cf4ca61b6afb56a4f790486fc6e972989a",
+    "src/app/favicon.ico": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+    "src/app/globals.css": "aece30d3748561442961c2d1ce7a86b8236382ee0f6326a7e8fc7c8958022a71",
+    "src/app/hoc-lieu/ai-giao-vien/page.tsx": "ce7ec46772bfaec96c8650c2ec388af0f3cd7cc6f0fd3e8e2e4c35b0242f0e68",
+    "src/app/hoc-lieu/ai/page.tsx": "8201c6da7e031800065e36f5288a2ed83c59a6947b2d4212a15ce3eef6170b3c",
+    "src/app/hoc-lieu/chuong-trinh/page.tsx": "827723822986c97e2d8afef3ee050bee15fa28e3977cb9ecd2191302070c9e5c",
+    "src/app/hoc-lieu/lop-hoc-dao-nguoc/page.tsx": "cfa597b851e58745d169bdf572fdd2b41f53b77b90de7fb387d1b3aada3a2b8a",
+    "src/app/hoc-lieu/page.tsx": "4ff5ca032ffd1f4b190ee81000cd3505c1cb39cb2702030488c8a35c39dbfaea",
+    "src/app/hoc-lieu/soan-ke-hoach/page.tsx": "62ba60b661b1872087d238532e5f79b8e0b5cbce2789ebc99f1c15f1a0292d7c",
+    "src/app/hoc-lieu/truc-quan/page.tsx": "4fa05d1eb13419cd1aea7c05bad9152322af5b98c481bea712b3a08244c8694e",
+    "src/app/layout.tsx": "37aa184c43d2c7cb2a19b8d4984283b852cb7c3b0268a5a2faca73de349fe000",
+    "src/app/login/page.tsx": "9b27e25dc831dc15f038a295e3be3e6e9d82ef4f4271c13db4adeacd778a883a",
+    "src/app/not-found.tsx": "eda6b1144bbf9279f9789bf0302e1998fdf69c1dd43a589f8cea068efd31352e",
+    "src/app/page.tsx": "99ee3db4c05ab6c724cdf1e4e34cb2c269d943754eb152ae0f1aefb0246f90af",
+    "src/app/register/page.tsx": "a6e0339da0aed78678e57765a3e3cdbc40e3624e88b23b37aea514f8bcc9ff92",
+    "src/app/student/JoinClassForm.tsx": "0be5852bdfebdb00bfce0a6fcf3ceb2d56e6d2eb82803eec552e7822ba0786ee",
+    "src/app/student/StudentClassList.tsx": "b3acf4563baa26802802b22fa4072d0b55e2f5084bdcb9b806985e19a8c1db29",
+    "src/app/student/StudentShell.tsx": "859e488afcbad93421a2561a797571963e26a97e7734e9459ed67f5ace05898b",
+    "src/app/student/VideoCheckpointPlayer.tsx": "c8d245c0fa9e2f641e769a95baa1ad5f00e198307c82d6cc0653a705ddb41090",
+    "src/app/student/actions.ts": "e9e104ceeb2caafbe402f513dfb384332b3494ef7d6c0dfc7970a7952bff5e5f",
+    "src/app/student/ai/page.tsx": "70c5d0a703d6bf00225a8f6620153d114c1039dedd725e74d5e7f38a80d50fc1",
+    "src/app/student/assignments/page.tsx": "f2031ff8e36cdbc420092ed6a04e9559d1fe2acd2d4bd56c28d61caa0d872d48",
+    "src/app/student/classes/page.tsx": "34180bbe9b1d68625e99b7958b483b34da5e4e3a531737abddd3bf91e4912c34",
+    "src/app/student/curriculum/[chapterCode]/page.tsx": "3226a131916301948d1b202d94b46e4e6de3d2d8f6ac9d72a2ad9e74c5a2ca07",
+    "src/app/student/curriculum/page.tsx": "54c6146c60108a16c57421ec7185068cd68f77339c4171c3bfed3824882164e0",
+    "src/app/student/journal/page.tsx": "96dd033d4bcdd04ca037bdc3672f54fffd7c3e4d38f58bf890b405503324477e",
+    "src/app/student/lessons/StudentLessonHeader.tsx": "c49424271bd5cb7065e9e368e0588f4efaade986a0aa4a8b5a12a66c155e43cb",
+    "src/app/student/lessons/[lessonId]/after-class/page.tsx": "11fb069ff51105f084183964b537db86e54a0f8e28c3b6b2922f5d3b2182f952",
+    "src/app/student/lessons/[lessonId]/before-class/page.tsx": "c7151d9e4da504169ba2e23db1407d24d9b304a2b2cb89f18bbab30f48b3222f",
+    "src/app/student/lessons/[lessonId]/in-class/page.tsx": "a93ba3759d5fb6f6db5cace8ff0c2abd911a712ee3a8acba537867ce617a8d24",
+    "src/app/student/lessons/[lessonId]/page.tsx": "bb022609cabdf45b351e75ff8ddaa647df01805c5d8fa6b05217a4af5b30d669",
+    "src/app/student/materials/page.tsx": "fe9255c29e7232220e15f400a249ddd33fa5ba94205694fde8f94cbd94623dad",
+    "src/app/student/page.tsx": "f7580401121040e89553beaf11fbce909726f04d8525ca7cd80ccf98e967f698",
+    "src/app/teacher/ClassList.tsx": "98fbc29de88806957b3718954dbdc2f9957b6d6f39c16efcc40fa76abac8b403",
+    "src/app/teacher/ClassManagement.tsx": "3f792ef088a0602f87a03fa876556c1e07b67636bd4be6c61c88abc198592fa9",
+    "src/app/teacher/CopyJoinCodeButton.tsx": "7100bffd64228c851dbfb3d7c976aed557242d89abdcabbaf4e9f221236af810",
+    "src/app/teacher/CreateClassForm.tsx": "176f8eb6dc1575a6d62960f801b9e72338d03103c5362157acef31ec5232416d",
+    "src/app/teacher/DeleteLessonButton.tsx": "6c379991c38f77f7a7351b1b9016ab906041703d2ce0e8c5a901157dc72b3fc3",
+    "src/app/teacher/HomeworkManager.tsx": "f5a50fa49c1af055c7886082b9837f7e54f6e3f60701cc8adcd9adb9de1d735b",
+    "src/app/teacher/LessonClassAssignment.tsx": "12b24afe349daa19bb812249c7d5a0b2850684472b4d38644943d846645712bf",
+    "src/app/teacher/LessonCreationPanel.tsx": "054265db84628344bedf794e7cb15d73ab73e869be0b1688f3ab00dcd8add449",
+    "src/app/teacher/LessonForm.tsx": "10bc4b7ab6da5e50494074cf321abb9fbd77d95a8a9de2fb5e770e76e4f8c107",
+    "src/app/teacher/LessonList.tsx": "2d46c432d3c0911a5e5734fc8080f31464efe2d97cd9ed8f921a81f9711cb01a",
+    "src/app/teacher/SetupLessonButton.tsx": "5905c63b8ea03ce63cc9769bf24f1bbb29ab1920add5678eb4c3a9533d1ddf43",
+    "src/app/teacher/TeacherShell.tsx": "3d0168170d300a4dcac65c1ae6ac8ceb53956882172209614506ddac3c55941a",
+    "src/app/teacher/actions.ts": "6af5b77a290938e098053cc91da2341f48751ddf412c39273cfc4d3b10b8ada3",
+    "src/app/teacher/ai/page.tsx": "23e343a839c5268d0920fac52b091acbba0dfbd85e2037ac770713699bcadcf9",
+    "src/app/teacher/classes/[classId]/curriculum/page.tsx": "dc3bfd115d6c7df656f44f59f9d3637df554ed14959c6fc10a322330475a5620",
+    "src/app/teacher/classes/[classId]/page.tsx": "cf2eaeb656684dff071d2bf170ff55227ec2f489d4434812b8d1e4d0504625f8",
+    "src/app/teacher/classes/new/page.tsx": "7cf8f6d955467363d3c0d7d88ce8a3bd5e02c4e5b85b90d9205a6e32f2c3f2d8",
+    "src/app/teacher/classes/page.tsx": "f0ebffd09df0fb2c3a617074b233e6dd634f4bfc9c08d6c1bf7c25fd133f8465",
+    "src/app/teacher/curriculum/[chapterCode]/page.tsx": "77edb924cd2df2544117aef27ec108a5bbddf333e6ce56aff2b668839753c706",
+    "src/app/teacher/curriculum/page.tsx": "293a7989d80f4562aa366f9b4e8cd826dbb835f20764d86d34337bbb8ccaf3d2",
+    "src/app/teacher/data.ts": "c5d94b955dabcff4a7436c4f3f89bfba7aef900478f262c54d7ec872f841f7db",
+    "src/app/teacher/lessons/[lessonId]/VideoMaterialManager.tsx": "4b9419c0f2d20ceb6857924385093c99c37f98f956f44b4990d505b54ecf4609",
+    "src/app/teacher/lessons/[lessonId]/after-class/page.tsx": "83d4347fe4ce4af4af72c6feb5cdba27e085dc60c34059e5000ffec1b4958bba",
+    "src/app/teacher/lessons/[lessonId]/before-class/page.tsx": "8f55af4388178e1815137e69fca0acf1e1766eddb33e326873fd552669f57942",
+    "src/app/teacher/lessons/[lessonId]/in-class/page.tsx": "2abfd85d070498e5fd4df7f01fbe6b2b9905d49a4a94332680957ec5a6136ea7",
+    "src/app/teacher/lessons/[lessonId]/ket-qua/page.tsx": "9fc04a4e466ec2e98548d4c367756a1f4ae7fea022c7a7afebbeacf0b6306d11",
+    "src/app/teacher/lessons/[lessonId]/page.tsx": "d715f0507a1e4c70fe4e37c70f35263a55e8820a50c6c8bc2d046b10bb3f15b8",
+    "src/app/teacher/lessons/page.tsx": "21317c7c4a367e964e9f7b3e37cd815f53a7c08b0baff1cfd1fdab5416798a59",
+    "src/app/teacher/material-actions.ts": "ee41b2831db024bce5ecbfe9e65bc7c729fd8a1b9b7164a1707528d682c1187d",
+    "src/app/teacher/materials/page.tsx": "8cf78cff57349eb9617fccfde8933f9de654646ef43d5c8975058ee9c6e052e3",
+    "src/app/teacher/page.tsx": "e4e985e042e06163dc96238e7f0110915b3868b557b4fa8f47023069e9c2f108",
+    "src/app/teacher/pathway-actions.ts": "cbfdd2a8be929c513bf174d7e54d8defd61fab562d9ce347d4745eeaef7e3623",
+    "src/app/teacher/pdf-action.ts": "ce25701b750637be37e6abaf31745a2c468891c890fb56573b95002763a99953",
+    "src/app/teacher/plan-actions.ts": "255bd0b60c5a90789a79116cc3a7a1a6c74ec39bceee0bd2f05edb2f2c794d6a",
+    "src/app/teacher/plans/page.tsx": "445a1087954e4b6eae510e4185e1ce25b0cd4b6eba4d6131eca65d2149fccfa2",
+    "src/app/teacher/students/page.tsx": "bc9888be225fd8ce2d1501d831aa11e4c21ecaa38952197c56ec43f3b7830f4b",
+    "src/components/LogoutButton.tsx": "3051641eb60353d26feb790a82c095255984d6da347cd24118e26170ff408f29",
+    "src/components/PortalShell.tsx": "4e50184769df40e3d6ad1c0805d810986d4e7bdee638c8ed9d4f5563c6241f19",
+    "src/components/ProgressBar.tsx": "32773e6d7d8adeb1d09352cb678d1076bf76207f2a85730885b5d1b874ce3d44",
+    "src/components/StageSection.tsx": "76ccd12721953b415f091501128893d13139dff039ea7677f916b5ebe58ddb5b",
+    "src/components/StatCard.tsx": "f4f857716f704237926dd1a00ccb4461b8df8764c95d71e074078abbfeae5859",
+    "src/components/learning/AILearningWorkspace.tsx": "8fd2980a26889cf01eba7252ae155466b16c9032cd1f0529c018fea5501dbcfa",
+    "src/components/learning/AIResponseText.tsx": "7f6fa6911667e98258e71df852080d6d63e029331c3261a306c08e5d28e132f2",
+    "src/components/learning/AIStudyHelp.tsx": "6156180bb51ef265c2b4c062710a8c85dbccdb74e592591c7fde8ddc1144ef24",
+    "src/components/learning/B25ModelData.tsx": "d938cd4d706b8cb8bd4a777618d339a63869cdfe658d65822d1b71d2bc1761e9",
+    "src/components/learning/BookQuestionBank.tsx": "6dae02c1b2869225446d51674d9e9812f6bc651f26f307d37679efd85070f735",
+    "src/components/learning/ColabMaterialManager.tsx": "effdf4e6771cad54bbba0c8575a6b9e4a984c7f57d7645c46c67053ce1bf4a59",
+    "src/components/learning/FlippedClassroomGuide.tsx": "b8afae1ff658dd0ca6256692e17227866bd4a475537ed42ae43f26f246df6fe3",
+    "src/components/learning/HalfLifeDiscovery.tsx": "f989914d956b766df3692a0c2e23328885265aa79264345d54311e72754b5c72",
+    "src/components/learning/IdealGasIllustration.tsx": "ee69873caeeaf143ff4f652f6a7b12f1d4fb9847e2ff6fa187270db856f3f744",
+    "src/components/learning/InteractiveInfographic.tsx": "fc7a8130cbb96a0a7f288d70b487905e506efb2ddb4a07101c0141aef0beadc7",
+    "src/components/learning/LearningLibrary.tsx": "ed2a6699e55b726330c8caa710861d5e1708a38903881799193348f4a2154481",
+    "src/components/learning/LearningResourcePreview.tsx": "84d40ef9955f3cfabb11faf8bf621ed2615308a90b39df7bb233afa0127091f9",
+    "src/components/learning/LessonLearningCard.tsx": "449de2a5e918fdb9e31f33a5a7c6d4c68ee308244ad8a44f9091ed34e016a946",
+    "src/components/learning/LessonNavigation.tsx": "55c9438267b266078015349312884cd4d08b2b1ade7e917ed535ae0cf00d79a4",
+    "src/components/learning/LocalAIAvailability.tsx": "1e35333f1522d7b2c4b060fe5c635e94244fe6767f5cc0db5d876621b262d25c",
+    "src/components/learning/MagneticFieldIllustration.tsx": "c7679701ad887a293ad45968a9b4b28740bc67484ceefb621666d6456b6df4d0",
+    "src/components/learning/MaterialBankViewer.tsx": "2f8b1622285c105127d74a81a40626284ac87652ef27d69353b9f45822841f86",
+    "src/components/learning/MatrixLessonEditor.tsx": "5aa103c996da8ede3453c068c3c4eb7c762c9d19ebd61e9733fb380899fd18ce",
+    "src/components/learning/NuclearExamWorkspace.tsx": "29cffbe5ae254571cd4922a455a3456a0f2445243b1a4b29b1ff683505096226",
+    "src/components/learning/NuclearHistory.tsx": "8fc4733b6e29fa838216757ea668c2d6e3085b978308a377311196ccb18f3723",
+    "src/components/learning/NuclearLearningNotebook.tsx": "2742bc2bf36baa209608e1c9a7e6798f401fb8b9cc3e8f4b570d65b6d7de852e",
+    "src/components/learning/NuclearScienceIllustration.tsx": "a0a05d056ad1f1f3d01e61cab434f82eb4eed27a1acc4a18bf38236803598b7c",
+    "src/components/learning/ObservationNotebook.tsx": "d1130df98ec1ab23c4732f83ad540a61f5bd1f91c7a2b62954c6039947645491",
+    "src/components/learning/PathwayStepManager.tsx": "8bad498c2a200b59c0c82c56a0288a9fcadbc77ba92eacba43bbb1107fce0795",
+    "src/components/learning/PdfMaterialManager.tsx": "4c16e0b8970ab1499e5703f1ad8f65485c717beae43d94333959bdc46239b17e",
+    "src/components/learning/PhaseActionHeader.tsx": "cd808f21484b2c39bc52813837337351130bce4f29f2a1035facbb644eb47f52",
+    "src/components/learning/PhaseFinalQuestionsManager.tsx": "3b56c754ad4fb0e1962e6169413fae9dac27b7aabb379055e27d2f97ff2b2196",
+    "src/components/learning/PlanRoleComparison.tsx": "aef5256b9067e1dfe9afd51e571fe5aa30c634a15cef5b5ea2ffc91c5df7475a",
+    "src/components/learning/QuestionBankManager.tsx": "84f2fdce5afc923fcebcd74944b7e586a1c2f0812cd2f34608a8f91e9b466e86",
+    "src/components/learning/QuestionMathText.tsx": "640d90b3ce80b8912e3d33db4837a4ebff8b4a91945ed61042835be68d239e26",
+    "src/components/learning/StudentColabViewer.tsx": "fe669649160e87133868389b0ba6635b44e60a0eb7f22c3c10a5c23958fb2e47",
+    "src/components/learning/StudentInClassProgression.tsx": "90aea8fa58998f8341509bfec09e9500d334c6b2dadda17a8f796ddc6bc587a2",
+    "src/components/learning/StudentLessonReflection.tsx": "2429f24465e4ad5acc92a04cf0de08155879ed4cc1cba9fe29434828171c4571",
+    "src/components/learning/StudentPathwayStepViewer.tsx": "c0a348d77427dda888172678ff5324973281bcf8010bd7a533ad66b9ccbd9593",
+    "src/components/learning/StudentPhase3Assessment.tsx": "f9bfb4600be61fc05e9d08c544797663915754313843dac2c7006e3bf2a3c78b",
+    "src/components/learning/StudentPhaseFinalQuestions.tsx": "2c6fe049c63c58e323c496d539d9a7b85f206932aa319b50314f60dd57b2ae40",
+    "src/components/learning/TeacherAIWorkspace.tsx": "c7bea93b9c018267189f5e54d3ce5c28a32ab6c977b31a03386cdf40a32a564c",
+    "src/components/learning/TeacherAssessmentStudio.tsx": "46fb3c71d69ce40f1c1dfdb1f501f9ed0231b4a07562cde27e1f688c19045c88",
+    "src/components/learning/TeacherPreparationPanel.tsx": "0a2d4c277b5591d22c97f6a4be69b15973beda9722cb72bd941764ac440ff69a",
+    "src/components/learning/TeacherPreparationWizard.tsx": "8fce80a254dd478994273a0893936270278942f3592d47a4b598bbcee8175c99",
+    "src/components/learning/TeacherWorkflowSteps.tsx": "fc3937a07bad042a2c95e49567d6b3b671e036d91a4c4dc5657ea754d6880ec1",
+    "src/components/learning/TeacherWorkroom.tsx": "5e610470fae1da7722b5b999fa3056787039a8180ea3f9227cc96e0f16920981",
+    "src/components/learning/TeacherWorksheetStudio.tsx": "72d96a7b2f7f47a9ad888cc1e79fc94e79a3a0885708308dde3aa2a65676748f",
+    "src/components/learning/TeachingGuideWorkspace.tsx": "af2e31b14c469b919ce76273fb1a6a2e8a388281839ae054429fcd68ec9fefcd",
+    "src/components/learning/TeachingPlanStudio.tsx": "3d4f4166dfd21bf28fe67f8158b7e4b08792d41b960b9f3e044d3ff33449aa05",
+    "src/components/learning/ThermalIllustration.tsx": "7c3b10b99eed53c2c2e9c925e7bdf777c3d87048d93213cf9cedf71a1f75b627",
+    "src/components/learning/VisualLearningStudio.tsx": "bf7ca50bd2baf4389f2d186a28b5e2197882c6c2afce6e333317596cd1bea323",
+    "src/components/learning/YouTubeLearningVideo.tsx": "2cd93bcc038dbbf15d40e45220b2e8820e53ac758d7d95788532bda03db71149",
+    "src/components/learning/useTeacherDraft.ts": "42cc98cd9c9cdd6710e6675367aec9fb2cf741f984837eb222c685890690424b",
+    "src/components/physics/B21Activities.tsx": "e01177acab883203cf26f35874136b5e8aac3374d6966acd50997822fcf52471",
+    "src/components/physics/B22Activities.tsx": "1891629e5e8050882f2acc9ab73ad96d7d60c7047bc315a73f16b62ae8cd3e16",
+    "src/components/physics/B23Activities.tsx": "f7871f5907894fcd539f086d4be943d41151c99c212967adac965f6a5ca0722d",
+    "src/components/physics/B24Activities.tsx": "aff05d99f673513cdd6555997de60198046e868b9cd58d124727473e47c437dc",
+    "src/components/physics/B25Activities.tsx": "c49085b5a4f9d4e6eb143a5c5a014894bc429c606e8ac99d4b8a3ed2d0c0a185",
+    "src/components/physics/FissionScene.tsx": "c0293b31d82e0ffd99a5ab2abcd46ef410cf4cbc53cb86ea350e7e052ae2be4d",
+    "src/components/physics/FixedPhysicsActivityRenderer.tsx": "e30c3b8e7b368ea358d5deffd579fd7e71d579d57466394803830c8ff8e24c41",
+    "src/components/physics/GuidedFissionLab.tsx": "dc8e8d0409661baaf9df962748c40fa7e13210263dc3b77922f2849c5b0ef795",
+    "src/components/physics/Simulation3D.tsx": "0e88599c75c70cb62480223d4d31443cbfb4341444fe86b414deb5b1b2a5625e",
+    "src/components/physics/shared.tsx": "2fbde6d16485599af20e7b0bd526ea19d0d64ed62545921e1c534136e194a5e3",
+    "src/data/book-equation-transcriptions.json": "1e017205a7b445b354e81deaf2d7028f1fa9345079dcf434c9d5e63aac04db4d",
+    "src/data/book-original-figures.json": "6d48fe3008ac68e029ddb67773307e8163a4cb993b14f4bbf7739374388bbafd",
+    "src/data/book-question-transcriptions.json": "220205099182fbdb038b0d0fd6783ca9ab1630809cbd525a8bb99d01690736b5",
+    "src/data/illustrated-questions.json": "8828cc8acf4dea7716662b75ac1822537d761fe808acf86058370410423a430c",
+    "src/data/nuclear-exams.json": "34d0951b4b72449082b7ca5c2f3135aa5c911899686d4370f3f2e7d492ab5d81",
+    "src/data/nuclear-learning.json": "8e3a8e291e1505d9a52741c2796312583f0419d07deb1b4a4b58062ecdc116dc",
+    "src/data/question-images.json": "e82d76cf1c963315dd45d456b8aa96baaf06f9d749b3a88802cebdeaa9c7ea73",
+    "src/data/sgk-nuclear-transcriptions.json": "fc21a8aa013e229e589913d8bae8443b912a4c3a02170afa600deaf3d2cb3d54",
+    "src/data/teaching-guides.json": "6869ad2b57cdf995a438a1e030b131c2350e0820f320a4a53dc901a793234c94",
+    "src/data/unified-question-bank.json": "94f1583ac882da966fd2b68089c325f0e3db785ab732c0d85de78092a5694f7f",
+    "src/data/workbook-nuclear-transcriptions.json": "8988adee13aefa144eff0ebbfd57a42a844b3bdca423814c4a3feceee65c5b8e",
+    "src/lib/ai-document.ts": "b8e102e25a5373ea3236d7195240a9e22e9fd7dc59cfae1762c65b0e379a8f75",
+    "src/lib/ai-learning.ts": "c15df7d07564e7c2eea7491f9a20433c75ecb9a104078f9c3bbb0c4c33272f88",
+    "src/lib/ai-teacher-auth.ts": "e6b11b908cc64601b0f9bd1b885b8fa89e31585ef8254bba2f25ed9ded5c9806",
+    "src/lib/bloom-taxonomy.ts": "2e4b341b4e66669d80456821c3fe28610bb2c9646a01a5c3414673a6d4b6e2dc",
+    "src/lib/book-bank-docx.ts": "617d89f83baaa8f81d47216f189a81ee946f0dec20108de7e5c257072c9f283b",
+    "src/lib/book-bank-server.ts": "06af7e95877e54bf2455265ce99fac2067207a1324e089c62c94bbe2b96b12c0",
+    "src/lib/book-bank.ts": "5a4c8c775cb054f078545986cf795843a32fa12700ade35c8998e1a7abe28003",
+    "src/lib/catalog-b21.ts": "defd28367ab9ef4968aa3ba913bbffd541bf94b02f162cb95e97bd4d83ccc980",
+    "src/lib/catalog-b22.ts": "467945dbef8690dd10663e884edf43b2123a997d1e47851887744cc89881e5f1",
+    "src/lib/catalog-b23.ts": "7ce2e15c83b1175eccb36cf27c00ceca558d2e9cadd5241f4f6b69f4ffdd8da7",
+    "src/lib/catalog-b24.ts": "88b105af03ead5240e32a3a0d516d986820ba6323ae5d3059ba0af9e6551bb40",
+    "src/lib/catalog-b25.ts": "5af9e7ff21f39bea05bac3d22dc473d8229666a38f055ddcda772ee7f7931c1a",
+    "src/lib/curriculum.ts": "96fd0661851e364a6a961d94a60e63787205bca9113fcc2ef6147213f470523a",
+    "src/lib/decay-data.ts": "c1a66f22b47932c5e303ab2ddaedb820b43a6d883bb57f01fa963830ea4a3fe4",
+    "src/lib/exam-matrix-import.ts": "413ab5a73864cb843f57823db2347842d1944a15c738e45450f5ada1716bd90e",
+    "src/lib/exam-scoring.ts": "5cdad1d63e2b5d06b824833d34d12dee9966b02f0138a395b198daf5112b1e8f",
+    "src/lib/extended-nuclear-materials.ts": "13c13846396a4def27111925ba89bfb086c967eb2d4283c35d0f0bf548fae08e",
+    "src/lib/fission-model.ts": "2e02bad2eeed37b4d9aad95c355594e0c322d5dfb9a7a5261a3b454e761dd064",
+    "src/lib/flipped-classroom.ts": "9964c59db9021dc1fc70bceeb87b65eba9c71fea3960a65fd7bae90f33fc194b",
+    "src/lib/guided-preparation.ts": "c581305b8b1673c1ac4151d411bda2f81531adc53762678c83414344edcd8f99",
+    "src/lib/guided-worksheet.ts": "fd7c898942ae233a6a4e0c87bf4808fe9a9762606595353fe72bb53ccce7f0b4",
+    "src/lib/learning-phases.ts": "1696e62ccaf03dca332995dc10c9cbee0b36c94fd5238263159b715bc5c51fd5",
+    "src/lib/learning-progress.ts": "002b38ddfd3575b5524a5d27c72f8c7d307a04178f35360f969b4c90f6feb3fd",
+    "src/lib/local-ai-server.ts": "67ed541fe58ca0b53816d28223c2e3513eb6855fa2978e1c4efde0dc2f0a3b9c",
+    "src/lib/local-ai.ts": "e5723c072f7a89b220b08ddec6aef7ce7f7dc6b674bc655d829cd53821079997",
+    "src/lib/material-bank.ts": "42e4d954e86b29f87a168be0577872e5e98de08bd29685007c8273a27de6e0bc",
+    "src/lib/nuclear-curriculum.ts": "c11e64ab72e54459cf0d9d7080f729c5052ae185edaae964faea66e840340229",
+    "src/lib/nuclear-history.ts": "5a6336a1d3e0f21895710b1e8af6a8125cb6941f99441e8a4c2be5779b2c4c73",
+    "src/lib/nuclear-learning-content.ts": "d64fdce18d31700d78e31b37dae1e4769b49978f7ed04d947ca72d1ee514f777",
+    "src/lib/office-equation.ts": "b5dac53ef09c74a41a46df1b448dd60730fa84c1c7440aa51c2e3d9519596200",
+    "src/lib/pathway-progress.ts": "34c2ff2487f07d114a2d3f97bf08a14a91883caf683c42289d08cecbbc2c7799",
+    "src/lib/phase-guard.ts": "f0852f746c73a211eafc64ad0524a63e02460e9b4782243bcf2a2110abb0196b",
+    "src/lib/physics.ts": "e243ec428ffb11606f336da25814c65c040c8abbf4c6b0771f3c8e26b9e88c8b",
+    "src/lib/question-bank-display.ts": "a24f0bb2e2b7783c03c5dcaad0d3c915546c2a7897bff802f6a72583ea3bd26f",
+    "src/lib/student-learning.ts": "2bd0d3b12880eef0484542f14d5ee993adee0e2eff1f1d4c9ba78a033fa4b9f7",
+    "src/lib/student-lesson.ts": "b66cce7bcb5769cbfa28f23899c6f20b61048b669f555f8abccea42d7849e7ec",
+    "src/lib/student-pathway.ts": "06c817307a1174418b1564d25facea000cef6e63da7b5ded51a05dc49e4e694a",
+    "src/lib/supabase/client.ts": "9112bb5b8dec84bfcbe060d2c3f00b524a4388ea7b2581546e7a466ee8393533",
+    "src/lib/supabase/middleware.ts": "8ff11100ac39a0fd8c44e8ea9c11ae175fa4991ec0968ca863c393c2f50a121e",
+    "src/lib/supabase/proxy.ts": "b2187dccecac59a0c62586240aba548d1e601faa54c432e9ebd8edf5605ffd17",
+    "src/lib/supabase/server.ts": "d8133cb8a16781bf00de84ea3ce1a7ea4d3da956ebcf1b7c2397274b3114ebf7",
+    "src/lib/teacher-assessment.ts": "968870930a77d2c1ed06907c14dcb6babee3e2f6b730c6cfd207dcdd3d25b3f5",
+    "src/lib/teacher-docx-export.ts": "36b57e9509b65a1119ccef8f0f5715832c2a06cccbba197e96b4a9e69f5b5106",
+    "src/lib/teacher-docx-import.ts": "796d3f71717d3c72076b5ba85449073bf2a0f2aafb9cc9e6cc1a4827bd064255",
+    "src/lib/teacher-lesson.ts": "8d4259104c9cc2475f3e1032dac90aac681364e6a0e3ca2f872a38431e2f91a1",
+    "src/lib/teacher-preparation.ts": "93b1e0db448feb897da47517e24fe607cf937dedee9f395e57b3881a6b49d8f9",
+    "src/lib/teaching-plan-docx.ts": "b5eb9620842499226e2eca6a5d6525d47d1d5e855ff10c242950f219e90e60e2",
+    "src/lib/teaching-plan-templates.ts": "4741fd18dce7bef94be35185e4f2c92c5b9c08ada299945db635bad92266d0b6",
+    "src/lib/teaching-plan.ts": "7f390024a3447fde922e43a9115b26c819bb672a42798b372f03ff2167de645d",
+    "src/lib/unified-exam-docx.ts": "a5964bf69f02fb3a2ba7ad564893f5d9d7082be9f09dad12f121056427590720",
+    "src/lib/unified-question-bank.ts": "3b7588a613e9834ef9bcfd22cd1979e4d65aba9b04e439bd629b547dda5175a2",
+    "src/lib/unified-worksheet.ts": "1f2d3eb8a82359bd0cc082cc6530198952ca5b0e4f19066d11c9c50182f0f341",
+    "src/lib/video-source.ts": "fa2818f119ba7544cacc6a0d1e438e1266fc70970ef15884b45ddfbbae93afac",
+    "src/lib/video-validation.ts": "deb4c863ce3ef1cb4c41f43c780293ef8f059b2378e42fb85374a3c37ec1f8d0",
+    "src/lib/visual-learning.ts": "9b4d33f57f5e88860300a97d05ab92a40e0dfcb18949856c00438e608a3a4a0f",
+    "src/lib/word-download.ts": "1eec2864164173bc1b60d83b780deff50f8d989a3ca81157c34f1bf92fad1306",
+    "src/lib/worksheet-instructions.ts": "92833282b436449e52c2f2328bcbf9003f67fb334297d6bf50b93b1a6d7b738a",
+    "tsconfig.json": "b3a2b777c39603d534d8078f650df3c6316cecdc846940b956ccec07680c4e36"
+  }
+}
+--- docs/codex-team/ui-review/simulations.json ---
+[
+  {
+    "id": "system-sim-rutherford",
+    "title": "Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford",
+    "lesson": "B21",
+    "activity_key": "rutherford_alpha_scattering",
+    "url": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-rutherford#resource-system-sim-rutherford"
+  },
+  {
+    "id": "system-sim-nuclear-builder",
+    "title": "Mô phỏng: Cấu tạo hạt nhân nguyên tử (Proton & Neutron)",
+    "lesson": "B21",
+    "activity_key": "nuclear_structure_builder",
+    "url": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#resource-system-sim-nuclear-builder"
+  },
+  {
+    "id": "system-sim-isotope-size",
+    "title": "Mô phỏng: Đồng vị và kích thước hạt nhân",
+    "lesson": "B21",
+    "activity_key": "isotope_and_nuclear_size",
+    "url": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-isotope-size#resource-system-sim-isotope-size"
+  },
+  {
+    "id": "system-sim-reaction-balancer",
+    "title": "Mô phỏng: Cân bằng phản ứng hạt nhân & Buồng sương Blackett",
+    "lesson": "B22",
+    "activity_key": "nuclear_reaction_balancer",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-reaction-balancer#resource-system-sim-reaction-balancer"
+  },
+  {
+    "id": "system-sim-binding-energy",
+    "title": "Mô phỏng: Độ hụt khối và năng lượng liên kết riêng (Elkr)",
+    "lesson": "B22",
+    "activity_key": "binding_energy_lab",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-binding-energy#resource-system-sim-binding-energy"
+  },
+  {
+    "id": "system-sim-nuclear-fission",
+    "title": "Mô phỏng: Phản ứng phân hạch Uranium-235 và phản ứng dây chuyền",
+    "lesson": "B22",
+    "activity_key": "nuclear_fission",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-nuclear-fission#resource-system-sim-nuclear-fission"
+  },
+  {
+    "id": "system-sim-nuclear-fusion",
+    "title": "Mô phỏng: Phản ứng tổng hợp hạt nhân D–T (Nhiệt hạch)",
+    "lesson": "B22",
+    "activity_key": "nuclear_fusion",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-nuclear-fusion#resource-system-sim-nuclear-fusion"
+  },
+  {
+    "id": "system-sim-geiger-decay",
+    "title": "Mô phỏng: Ống đếm Geiger và tính ngẫu nhiên của phân rã phóng xạ",
+    "lesson": "B23",
+    "activity_key": "geiger_random_decay",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-geiger-decay#resource-system-sim-geiger-decay"
+  },
+  {
+    "id": "system-sim-radiation-properties",
+    "title": "Mô phỏng: Bản chất và độ đâm xuyên của tia phóng xạ (Alpha, Beta, Gamma)",
+    "lesson": "B23",
+    "activity_key": "radiation_properties",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-radiation-properties#resource-system-sim-radiation-properties"
+  },
+  {
+    "id": "system-sim-half-life",
+    "title": "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T",
+    "lesson": "B23",
+    "activity_key": "radioactive_decay_half_life",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-half-life#resource-system-sim-half-life"
+  },
+  {
+    "id": "system-sim-carbon14-dating",
+    "title": "Mô phỏng: Vận dụng đồng vị Carbon-14 định tuổi cổ vật",
+    "lesson": "B23",
+    "activity_key": "carbon14_dating",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-carbon14-dating#resource-system-sim-carbon14-dating"
+  },
+  {
+    "id": "system-sim-radiation-safety",
+    "title": "Mô phỏng & Bài tập tình huống: An toàn phóng xạ (Khoảng cách, Thời gian, Che chắn)",
+    "lesson": "B23",
+    "activity_key": "radiation_safety",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-radiation-safety#resource-system-sim-radiation-safety"
+  },
+  {
+    "id": "system-sim-nuclear-power",
+    "title": "Mô phỏng: Sơ đồ chu chuyển năng lượng nhà máy điện hạt nhân",
+    "lesson": "B24",
+    "activity_key": "nuclear_power_energy_flow",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-nuclear-power#resource-system-sim-nuclear-power"
+  },
+  {
+    "id": "system-sim-reactor-control",
+    "title": "Mô phỏng: Điều khiển thanh hấp thụ neutron trong lò phản ứng",
+    "lesson": "B24",
+    "activity_key": "reactor_control_concept",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-reactor-control#resource-system-sim-reactor-control"
+  },
+  {
+    "id": "system-sim-nuclear-medicine",
+    "title": "Mô phỏng: Ứng dụng đồng vị phóng xạ trong Y học (Chẩn đoán & Xạ trị)",
+    "lesson": "B24",
+    "activity_key": "nuclear_medicine",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-nuclear-medicine#resource-system-sim-nuclear-medicine"
+  },
+  {
+    "id": "system-sim-radiation-applications",
+    "title": "Mô phỏng: Chiếu xạ bảo quản thực phẩm & Ứng dụng công nghiệp",
+    "lesson": "B24",
+    "activity_key": "radiation_applications",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-radiation-applications#resource-system-sim-radiation-applications"
+  },
+  {
+    "id": "system-sim-practice-lab",
+    "title": "Mô phỏng: Thực hành phân tích dữ liệu phân rã phóng xạ H(t)",
+    "lesson": "B25",
+    "activity_key": "nuclear_physics_practice_lab",
+    "url": "http://localhost:3001/hoc-lieu?bai=B25&resource=system-sim-practice-lab#resource-system-sim-practice-lab"
+  }
+]
+
+--- Previous worker3-ui12b-label-camera-chart-fix ---
+# Worker 3 UI12b — nhãn, camera và đồ thị
+
+Đã đọc toàn bộ ba bản trích xuất DOCX trong yêu cầu, AGENTS, TEAM và các hướng dẫn nghiệm thu/UI11/UI12. Đã đọc hướng dẫn Next `node_modules/next/dist/docs/01-app/03-api-reference/01-directives/use-client.md` trước sửa. Chỉ sửa Simulation3D.tsx, B22Activities.tsx và globals.css. Không thay công thức, dữ liệu, tên/kí hiệu khoa học, tọa độ hay quy tắc chuyển động. Không DOCX/auth/DB/env/secret/production/commit/reset/clean.
+
+Trạng thái: đang kiểm tra tập trung; chưa đóng lỗi độc lập, CHƯA ĐẠT nghiệm thu tổng. Evidence tuyệt đối: `/private/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-5CukgI/evidence`. Script `focused.mjs` ở TMP cùng cấp; `after-hashes.json` ghi hash ba file, `actual-tests.json` ghi từng lượt và lỗi thật.
+
+## UI-0200 — P2 / Medium
+
+Trang: các cảnh dùng Simulation3D, trọng tâm B21 nuclear-builder/isotope-size, B23 geiger-decay, B24 reactor-control.
+Steps: mở tài nguyên từ simulations.json ở desktop/mobile → bắt đầu → tạm dừng → đọc nhãn; đổi slider Home/End và mode.
+Evidence BEFORE: UI11 durable `detailed-report.md`, ảnh builder/isotope/geiger/reactor trong `all-evidence` hoặc TMP UI11, là bằng chứng phiên trước. AFTER: ảnh `system-sim-…-1440/390-initial.png` và Home/End trong evidence phiên này; actual-tests ghi legend sau từng thao tác.
+Source paragraph: hd P2/P6–7; NCKH P84/P95/P121; bài báo P49–50/P55–56/P88/P95/P197–199.
+Tác động dạy/học: nhãn quá nhỏ làm khó nối tên/kí hiệu với vật thể.
+Sửa: thay thanh chữ trong thế giới bằng marker số tròn 28px theo màn hình, không tương tác; chú giải cùng số 15px ngoài canvas lấy nguyên existing strings. Legend tạo lại khi tham số/mode đổi. Không tăng font texture đơn thuần.
+Acceptance: đọc được nhãn thiết yếu ở 1440/390/360, liên hệ marker rõ, không che hiện tượng; giữ đơn vị và giới hạn; W2 kiểm độc lập. Chờ kết quả ca tập trung và ảnh.
+
+## UI-0201 — P2 / Medium
+
+Trang: B23 radiation-properties/radiation-safety.
+Steps: mở/start mobile 360/390 → bốn preset → slider min/max → về toàn cảnh; so sánh 1440/1280/768.
+Evidence BEFORE: UI11 ảnh cắt đầu thu/vị trí quan sát theo detailed-report. AFTER: `system-sim-radiation-properties/safety-W-Home/End-P.png` tại evidence; W là width, P=0 phối cảnh/1 trước/2 trên/3 cạnh.
+Source paragraph: hd P7/P10; NCKH P121/P146; bài báo P55–56/P197–199/P213.
+Tác động: cắt đích làm khó nhận ra quan hệ nguồn–chắn–đích.
+Sửa: fit camera theo bounds apparatus và label anchors, loại gridhelper, dùng cả FOV ngang/dọc và aspect; padding 18%; cập nhật start/resize/tham số/preset, không fit mỗi frame. Nút Về toàn cảnh phục hồi sau zoom/drag; mở rộng camera far/maxDistance theo khung cảnh, giữ orbit.
+Acceptance: đủ đối tượng/marker ở năm size, bốn preset, cực trị; không đổi world coordinates/physics. Chờ ảnh/W2 kiểm độc lập.
+
+## UI-0202 — P2 / Medium
+
+Trang: B22 binding-energy.
+Steps: Tab qua chín nút điểm, Enter chọn Fe-56, Space chọn U-235 → xem trạng thái/tooltip/criteria; năm size.
+Evidence BEFORE: UI11 chart-tests và ảnh binding-chart; AFTER: `chart-W-buttons.png` và actual-tests gồm Tab/activate/height/pressed/status/criteria.
+Source paragraph: hd P6–7/P13; NCKH P96/P121; bài báo P52–53/P197–199/P213; US01.
+Tác động: bàn phím không chọn được điểm bắt buộc, điểm chạm quá nhỏ.
+Sửa: chín button ngoài SVG cùng handler/state, >=44px, aria-pressed và focus rõ; tên Fe-56/U-235/He-4 dùng tên đã có, các điểm khác chỉ A; giá trị từ getEnergy hiện có. Chữ ngoài SVG nêu trục/đơn vị và giá trị; selected point hiện trên đồ thị. Giữ geometry/data/formula.
+Acceptance: Tab/Enter/Space chọn và cập nhật đúng cùng criteria, chữ đọc ở mobile, không tràn ngang; chờ W2 kiểm độc lập.
+
+## Actual tests và giới hạn
+
+Lint hai file TSX đã chạy, exit 0. Browser Chrome headless thật qua Playwright bundled đang chạy focused checks và smoke 17 tài nguyên; chưa coi script tồn tại là bằng chứng ca đã đạt. Sẽ cập nhật kết quả thực tế cuối. Không dùng 61 tests cũ làm kết quả phiên này. Không tài khoản thử/môi trường DB: giao–nộp và quyền tài khoản CHƯA KIỂM CHỨNG. Không người học thật/touch vật lý/screen reader/hiệu quả giáo dục. Root có thay đổi độc lập ngoài job, không quy chúng cho Worker3.
+
+NHIỆM VỤ VÒNG NÀY:
+Chỉ kiểm tra thực tế UI0200/0201/0202 đã sửa; code candidate frozen UI13, root không sửa mã trong review. UI12b đã timeout, Chrome shell SIGABRT và không có ảnh sau, report trước nói đang chạy KHÔNG phải ca đạt. ĐỔI CÁCH: dùng MCP team_browser browser_navigate/resize/click/press_key/evaluate/take_screenshot. Tuyệt đối KHÔNG khởi Chrome bằng shell hoặc lặp launch SIGABRT. Probe đầu một route +start/pause+ảnh mở view_image, nếu MCP cũng không dùng được viết kịch bản cụ thể rồi báo BLOCKED_BROWSER. Ưu tiên 1) radiation-properties/safety 360,390,1440: start/pause bốn preset min/max slider 3D, chọn modes, về toàn cảnh; ảnh camera/legend thực tế không cắt đích/marker. Thêm1280/768 nếu đủ; từng ca chưa làm ghi rõ. 2) builder/isotope/geiger/reactor390 &1440 đọc marker/legend và thay tham số, tên/đơn vị/công thức không đổi; 3) binding-energy 360/390/768/1280/1440 Tab/Enter/Space chọnFe56/U235,pressed/status/checklist đúng và>=44hit. Xem ảnh before UI11 all-evidence và ảnh after thật bằng view_image; ghi danh sách ảnh đã mở. Chỉ review, không sửa 3 file; lỗi còn căn cứ báoUI-020x với bước/ảnh/acceptance. Lưu draft report sau từng nhóm và kết thúc trước25phút, không quét lại112groups hoặc tất cả17sim nếu chưa xong3issue. Không gọi AI/DB/login/env/auth secrets. Trạng thái toàn website vẫn CHƯA ĐẠT; exit0 chỉ khi report thật đã viết, không ngồi chờ khởi chạy lỗi.
+Browser bundled module: /Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs. Node bundled: /Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node. Thư mục tạm browser được phép ghi: /var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-lfTaqM; TMPDIR/TMP/TEMP đã trỏ vào đó. Khi review, workspace vẫn chỉ đọc; lưu ảnh/bằng chứng dưới thư mục evidence tuyệt đối /var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-lfTaqM/evidence, trưởng nhóm sẽ thu hồi sau. Tên filename khi chụp/ghi snapshot phải là đường dẫn TUYỆT ĐỐI trong evidence. Không ghi ảnh/snapshot tại root workspace. Chỉ truy cập web phát triển và nguồn cần kiểm chứng.

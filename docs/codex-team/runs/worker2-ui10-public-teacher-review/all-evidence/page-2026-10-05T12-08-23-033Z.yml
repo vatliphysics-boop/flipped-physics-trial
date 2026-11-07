@@ -1,0 +1,63 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - link "Đi đến nội dung chính" [ref=f14e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f14e4]:
+      - generic [ref=f14e5]:
+        - button "Mở menu" [active] [ref=f14e6] [cursor=pointer]:
+          - generic [ref=f14e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f14e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f14e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f14e12]:
+      - generic [ref=f14e14]:
+        - paragraph [ref=f14e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f14e16]
+        - paragraph [ref=f14e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f14e18]:
+        - group "Công việc của giáo viên" [ref=f14e19]:
+          - button "Ngân hàng đề" [pressed] [ref=f14e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f14e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f14e22] [cursor=pointer]
+        - generic [ref=f14e24]:
+          - heading "Ngân hàng đề Chương 4 Vật lí hạt nhân" [level=2] [ref=f14e25]
+          - paragraph [ref=f14e26]: Câu hỏi được biên soạn từ ba sách đã cung cấp, giữ yêu cầu và dữ kiện của bài gốc. Nhãn Bloom thể hiện thao tác nhận thức cần thực hiện. Các câu hỏi dùng chung một ngân hàng. Nội dung dạng chữ, công thức LaTeX. Khi xuất Word, công thức chuyển thành Equation có thể chỉnh sửa.
+          - navigation "Năm mục ngân hàng đề" [ref=f14e27]:
+            - button "Ngân hàng đề trắc nghiệm" [pressed] [ref=f14e28] [cursor=pointer]
+            - button "Ngân hàng đề đúng sai" [ref=f14e29] [cursor=pointer]
+            - button "Ngân hàng đề trả lời ngắn" [ref=f14e30] [cursor=pointer]
+            - button "Ngân hàng đề tự luận" [ref=f14e31] [cursor=pointer]
+            - button "Up ma trận đề và xuất ra đề file Word" [ref=f14e32] [cursor=pointer]
+          - status
+          - paragraph [ref=f14e33]: Đang tải ngân hàng…
+          - generic [ref=f14e34]:
+            - generic [ref=f14e35]:
+              - text: Chương
+              - combobox "Chương" [ref=f14e36]:
+                - option "Tất cả câu đã nhập"
+                - option "Vật lí nhiệt"
+                - option "Khí lí tưởng"
+                - option "Từ trường"
+                - option "Vật lí hạt nhân" [selected]
+            - generic [ref=f14e37]:
+              - text: Bài/chủ đề
+              - combobox "Bài/chủ đề" [ref=f14e38]:
+                - option "Tất cả" [selected]
+            - generic [ref=f14e39]:
+              - text: Tình trạng
+              - combobox "Tình trạng" [ref=f14e40]:
+                - option "Tất cả" [selected]
+                - option "Đã biên soạn"
+                - option "Chờ kiểm tra"
+            - generic [ref=f14e41]:
+              - text: Tìm câu hỏi
+              - textbox "Tìm câu hỏi" [ref=f14e42]:
+                - /placeholder: Nội dung câu hỏi
+          - paragraph [ref=f14e43]: 0 câu · 0 đã biên soạn
+          - generic [ref=f14e44]:
+            - button "Trang trước" [disabled] [ref=f14e45] [cursor=pointer]
+            - generic [ref=f14e46]: Trang 1/1
+            - button "Trang sau" [disabled] [ref=f14e47] [cursor=pointer]
+            - button "Tải bản biên soạn" [ref=f14e48] [cursor=pointer]
+  - alert [ref=f14e49]

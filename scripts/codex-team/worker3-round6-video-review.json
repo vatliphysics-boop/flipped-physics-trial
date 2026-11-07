@@ -1,0 +1,22 @@
+{
+  "id": "worker3-round6-video-review",
+  "worker": 3,
+  "mode": "review",
+  "timeout_seconds": 1200,
+  "browser_mcp": true,
+  "browser_origins": [
+    "https://www.youtube.com",
+    "https://www.youtube-nocookie.com",
+    "https://i.ytimg.com"
+  ],
+  "allowed_domains": [
+    "www.youtube.com",
+    "www.youtube-nocookie.com",
+    "i.ytimg.com"
+  ],
+  "previous_runs": [
+    "worker3-round4-ux-review",
+    "worker3-round5-dev-overlay-fix"
+  ],
+  "task": "Video B22 vòng4 của Worker2 bị Chrome chặn do MCP chỉ cho origins localhost; lượt này thêm origins YouTube/YouTube-nocookie công khai, không dùng session người thật. Không sửa code/DOCX/DB. Ghi checkpoint report trong thư mục tạm từ đầu và sau từng bài. Trên /hoc-lieu/truc-quan?bai=B21..B25 theo UI tab Video: mởvideo tạiđây, dùng controlsplayerthật playpause, xem sự thay đổi thời gian/phát hình, nhiệm vụtiếngViệt/nguồn/hướngdẫnkhôngphụđề/fallback. Chụpảnh1280 và ít nhất1mobile390 xem ảnh thực. Thử đủ5video chính, nhưng không tính iframe tồn tại là đã phát; nếu chỉloadtitle/blocked thì ghi caCHƯAKIỂMCHỨNG. Không login/acceptCAPTCHA; nếu nhàcungcấpchặn thì báo root phần bịchặn. Browser filename tuyệtđối trongevidence. Tiêuchí hdP3–5/P15: mỗibài cónguồn và nhiệm vụquan sát phùhợp, cóthể xem video hoặc cáchmởnguồn khi nhúng lỗi. Mỗivấnđề IDseveritypage steps evidence căn cứ tácđộng tiêuchí sửa, exact UIfile nếu có lỗi. Không đại tu thẩmmỹ."
+}

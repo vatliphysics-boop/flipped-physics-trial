@@ -1,0 +1,46 @@
+{
+  "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+  "time": "2026-10-05T12:08:35.275Z",
+  "viewport": [
+    390,
+    844
+  ],
+  "image": [
+    296,
+    173
+  ],
+  "region": [
+    296,
+    173,
+    296,
+    173,
+    0,
+    0
+  ],
+  "overlay": 0,
+  "buttons": [
+    {
+      "text": "1. Bảng số liệu",
+      "pressed": "true",
+      "controls": "_R_mrinebn5rlb_-explanation",
+      "width": 138,
+      "height": 44
+    },
+    {
+      "text": "2. Đọc đồ thị",
+      "pressed": "false",
+      "controls": "_R_mrinebn5rlb_-explanation",
+      "width": 138,
+      "height": 44
+    },
+    {
+      "text": "3. Phân biệt N và H",
+      "pressed": "false",
+      "controls": "_R_mrinebn5rlb_-explanation",
+      "width": 288,
+      "height": 44
+    }
+  ],
+  "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+  "focus": ""
+}

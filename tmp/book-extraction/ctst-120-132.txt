@@ -1,0 +1,516 @@
+
+PAGE PDF 120
+BÀI TẬP VẬT LÍ 12
+МАНИ ТА
+ÖN AU
+B. TỰ LUẬN
+Bài 14.1.
+Na
+Kí hiệu tên nguyên tố
+11
+19
+Số proton
+8
+12
+20
+Số neutron
+8
+23
+Số khối
+39
+16
+23Na
+19 K
+180
+Kí hiệu hạt nhân
+Bài 14.2.
+a) (1) các hạt nhân; (2) proton Z
+b) (3) số hiệu nguyên tử; (4) bảng tuần hoàn hóa học
+c) (5) rỗng; (6) bán kính; (7) trung tâm của nguyên tử; (8) hạt nhân nguyên tử
+d) (9) năng lượng xác định; (10) không phát xạ
+e) (11) 10-15 m - 10-14 m
+f) (12) fm (femtômét)
+g) (13) nucleon; (14) tổng số proton và neutron
+h) (15) phát ra năng lượng; (16) năng lượng; (17) giảm dần.
+Bài 14.3. Ap dụng công thức r =1,2.A3
+, ta có: "He = 1,9 fm; ry = 7,4 fm;
+"pe = 4,59 fm; rcs = 6,19 fm.
+ric =.
+VFe.
+Are =.
+56
+Bài 14.4.
+= 18,7.
+VT
+AT
+Bài 14.5.
+a) Nguyên tử carbon: 6 proton, 6 neutron, 6 electron. Kí hiệu hạt nhân: ?C.
+b) Nguyên tử aluminium: 13 proton, 14 neutron, 13 electron. Kí hiệu hạt nhân: 13 AI.
+c) Nguyên tử nitrogen: 7 proton, 7 neutron, 7 electron. Kí hiệu hạt nhân: "N.
+d) Nguyên tử silicon: 14 proton, 14 neutron, 14 electron. Kí hiệu hạt nhân: 23 Si.
+
+PAGE PDF 121
+BÀI TẬP VẬT LÍ 12
+00O
+NĂNG LƯỢNG LIÊN KẾT
+Bài 15
+HẠT NHÂN
+A. TRẮC NGHIỆM
+Câu 15.1. Đáp án C.
+Câu 15.2. Đáp án B.
+Câu 15.3. Đáp án D.
+Câu 15.4. Đáp án A.
+Câu 15.5. Đáp án D.
+Câu 15.6. Đáp án B.
+Từ năng lượng liên kết, ta tính được năng lượng liên kết riêng. Vì năng lượng
+liên kết riêng đặc trưng cho mức độ bền vững của hạt nhân nên thứ tự giảm dần
+về năng lượng liên kết riêng cũng chính là thứ tự giảm dần về mức độ bền vững
+của hạt nhân.
+Câu 15.7. a) Đúng; b) Đúng; c) Sai; d) Đúng.
+Câu 15.8. Đáp án C.
+Năng lượng liên kết riêng của các hạt nhân nói trên lần lượt là:
+En(U238) = 7,37 MeV/nucleon, E Kr(235) = 7,59 MeV/nucleon,
+ArNa23) = 8,11 MeV/nucleon, EK(Au197) ~ 7,71 MeV/nucleon.
+Suy ra thứ tự tăng dần về mức độ bền vững của hạt nhân là:
+238 U, 232-
+232 U, '7, Au, 21 Na.
+Câu 15.9. Đáp án B.
+Độ hụt khối của 3T là:
+Am_=[Zmp+ (Ay-Zy)m.]-m, = [1,007276 +2.1,008665]-3,016049
+= 8,557.10-3 amu
+Độ hụt khối của 244
+95 Am là:
+AmAm= [ZAmMp+ (AAm -ZAm) mn ]-mAm
+= [95.1,007276 + 149.1, 008665] - 244,064279 = 1,918026 amu
+
+PAGE PDF 122
+BÀI TẬP VẬT LÍ 12
+000
+Vì độ ht khối của 241 Am lớm hơm độ hụt khối của "T nền nằng ưrợng liên kết
+của 2,5 Am cũng lớn hơn năng lượng liên kết của ,T.
+B. TỰ LUẬN
+Bài 15.1.
+Độ hụt khối của ?}Al là:
+Am= [Zm, + (A-Z) m.]-mal
+=[13.1,00728 +14.1,00867] - 26,97435 = 0,24167 amu
+Năng lượng liên kết của 23A1 là:
+Ex = Amc = 0,24167.931,5 = 225,115605 MeV
+Bài 15.2.
+Độ hụt khối của 3P là:
+Am= [Zm, + (A-Z)m,]-Mp
+=[15.1,00728 +15.1,00867) - 29,97005 = 0,2692 amu
+Năng lượng liên kết riêng của 10P là:
+Amc-
+0,2692.931,5
+EKT
+- = 8,35866 MeV/nucleon
+30
+Bài 15.3.
+Vì năng lượng liên kết riêng là đại lượng đặc trưng cho mức độ bền vững của
+hạt nhân nên ta có thứ tự sắp xếp sau: %Fe, 48 Ca, 3 Te, 12 Hf, 83 Bi, 92.
+bền vững của các hạt nhân có khối lượng lớn (từ sau %Fe) theo chiều tăng dân
+92 U. Về tính
+về số khối: năng lượng liên kết riêng giảm dần nên độ bền vững của các hạt nhân
+cũng giảm dần.
+Bài 15.4.
+Vì năng lượng liên kết riêng của óFe và D lần lượt là 8,55716 MeV/nucelon
+và 1,11780 MeV/nucleon nên ,Fe có năng lượng liên kết riêng lớn hơn D
+xấp xỉ 7,66 lần.
+
+PAGE PDF 123
+BAI TẬP VẬT LÍ 12
+Bài 15.5.
+Vi năng lượng liền kết của Mg và 3 Na lần lượt là 175,6809 MeY và
+186,63285 MeV nên 4, Na có năng lượng liên kết lớn hơn 1 Mg một lượng
+bằng 10,982385 MeV.
+Bài 15.6.
+Độ hụt khối của D là:
+Am = [Zm, + (A-I)m.)- mo
+= (1,00728 + 1,00867) - 2,01355 = 2,4.10-3 amu
+Năng lượng liên kết của hạt nhân 3D là:
+Ex = Amc = 2,4.103.931,5 = 2,2356 MeV
+Năng lượng đế tách hạt nhân tách D thành các hạt nucleon riêng rẽ chính là
+năng lượng liên kết của hạt nhân nên năng lượng tối thiểu của photon y cần thiết
+là 2,2356 MeV.
+Bài 15.7.
+Độ hụt khối của ?D là:
+Am= Zm, + (A-Z)m]- my
+= (1,00728 + 1,00867) - 2,01355 = 2,4.10-3 amu
+Theo định luật bảo toàn năng lượng toàn phần:
+E- Ex _ 3,6-2,4.10 .931,5
+= 0,6822 MeV
+E= En +2 W (p) → Wa(p) = W
+Động lượng của proton và neutron lần lượt là:
+MeV
+Pp = (2m, Wap) = V2.1,00728.0,6822 = 1,1723
+MeV
+Pn = /2m Wa(n) = V2.1,00867.0,6822 ~ 1,1731
+
+PAGE PDF 124
+BÀI TẬP VẬT LÍ 12
+PHẢN ỨNG PHÂN HẠCH,
+PHẢN ỨNG NHIỆT HẠCH
+Bài 16
+VÀ ỨNG DỤNG
+A. TRẮC NGHIỆM
+Câu 16.1. Đáp án A.
+"F+|H→ 80+{He.
+Câu 16.2. Đáp án D.
+Câu 16.3. Đáp án B.
+Các phát biểu đúng là (1) và (4).
+Câu 16.4. Đáp án B.
+Câu 16.5. Đáp án B.
+Áp dụng định luật bảo toàn điện tích và bảo toàn số khối để kiểm tra các phản
+ứng hạt nhân.
+Câu 16.6. Đáp án B.
+Áp dụng định luật bảo toàn số nucleon: 236 = 143 + 87 + y → y = 6.
+Câu 16.7.
+a) Sai.
+b) Đúng.
+c) Sai. Vì đây là năng lượng mà phản ứng này toả ra.
+d) Đúng.
+e) Sai. Vì còn có sự bảo toàn động lượng và năng lượng toàn phần.
+f) Đúng.
+Câu 16.8. Đáp án D.
+Năng lượng toa ra khi sử dụng hết 50 g 235 U:
+235: 6,022.103.200 = 2,56.1025 MeV
+=
+Năng lượng toa ra khi thu được 50 g D:
+50
+-.6,022.1023 2,23 = 3,36.102 MeV
+=•
+2
+Vậy năng lượng toả ra ở phản ứng nhiệt hạch lớn hơn phản ứng phân hạch nói
+trên 1,3125 lần trong các trường hợp đang xét.
+
+PAGE PDF 125
+BÀI TẬP VẬT LÍ 12
+Câu 16.9. Đáp án A.
+Số lượng He được tạo thành là:
+NHe =200 6,022.10" = 3,011.102 hạt
+Tổng năng lượng toả ra của các phần ứng nhiệt hạch là:
+Q=3,011.102 (17,6.10° 1, 6.10-19) =8,48.10° J
+Khôi lượng thuốc nô TNT cân dùng đê năng lượng toả ra tương đương với
+bom hydrogen là:
+2,8.10'° +8,48.1013
+m=
+- F 20 197,14 tấn
+4,2.10°
+B. TỰ LUẬN
+Bài 16.1.
+'n →23 Ne+ {He.
+a) "Mg+!
+b) 12Pu+ "?Ne → 4':n+ 164 Rf.
+c) }H + }Li →2"He+ ön.
+Bài 16.2.
+Để tạo ra 1 hạt He cần phải có sự tham gia của 1 hạt ?H và 1 hạt H.
+Số hạt He có trong 50 g ,He:
+50
+-.6,022.102 = 7,5275.104 hạt
+NH2 = NH3 = N,
+He =
+7,5275.104
+Khối lượng 1H: mH2
+.2= 25 g.
+6,022.1023
+7,5275.1024
+Khối lượng 3H: mu12 =
+6,022. 102 .3 = 37,5 8.
+Bài 16.3.
+Mỗi phản ứng nhiệt hạch đang xét cần sử dụng 2 hạt 3H. Do đó, số lượng phản
+ứmg nhiệt hạch khi sử dụng hết 150 g ,H là:
+150. 6,022.10" = 2,25825.1025
+150
+N
+H2 =-
+N=
+4
+2
+Tổng năng lượng thu được:
+W = 2,25825.10ª 3,25 = 7,3393.103 MeV
+
+PAGE PDF 126
+BÀI TẬP VẬT LÍ 12
+Bài 16.4.
+a) Áp dụng định luật bảo toàn số nucleon: 1+235=140+94+ x.1= x= 2.
+b) W = 140.8,29 + 94.8,59 - 235.7,59 = 184,41 MeV.
+Bài 16.5.
+a) Năng lượng có ích: Ac = 1920.10%.365.86400 = 6,1.10' J.
+Vì hiệu suất nhà máy là 33% nên năng lượng toàn phần cần sử dụng trong một
+năm là:
+4, =6,1.10% 1,8.10"%
+0,33
+1,8.10'
+Số hạt 32 U cần dùng: N = 20.1.6.10-m3 ≥ 5,6.107 hạt.
+Khối lượng 232U cần dùng:
+5,6.1027
+6,022.103.235 = 2,2.10° g = 2,2 tấn
+m =.
+b) Khối lượng than đá cần phải sử dụng để tạo ra lượng năng lượng tương
+đương ở câu a:
+1,8.10'
+m'=
+- = 9.10° kg = 9.10° tấn
+20.106
+Bài 16.6.
+Số lượng hạt nhân ¿He trong ngôi sao là:
+4.1030103
+N=
+. 6,022.102 = 6,022.1056 hạt
+4
+Vì một phản ứng nhiệt hạch cần sử dụng 3 hạt nhân 'He nên tổng năng lượng
+toả ra của ngôi sao trong quá trình ba - alpha là:
+e = 6,022.1056
+-. 7,275.10°
+".1,6.101 =2,34.1044J
+Thời gian để toàn bộ hạt nhân ?He chuyển hóa hoàn toàn thành '?C là:
+_2,34.1044
+1 = €
+- = 6,16.10' s ~ 1,95 triệu năm
+=
+3,8.1030
+
+PAGE PDF 127
+HIỆN TƯỢNG PHÓNG XẠ
+Bài 1
+A. TRẮC NGHIỆM
+Câu 17.1. Đáp án B.
+Câu 17.2. Đáp án B.
+Hiện tượng phóng xạ tuân theo các định luật bảo toàn: động lượng, số khối và
+năng lượng toàn phần.
+Câu 17.3. Đáp án C.
+Câu 17.4. Đáp án C.
+Các phát biểu đúng là: 1, 3 và 4.
+Câu 17.5. Đáp án B.
+Câu 17.6. a) Đúng; b) Sai; c) Đúng; d) Sai.
+Câu 17.7. Đáp án A
+Khoảng thời gian cần tìm là:
+1-2T
+N
+0
+AN.
+t
+=2T-1=7→t=3T =3.138,4= 415,2 ngày
+N,2T
+t
+Câu 17.8. Đáp án C.
+Khoảng thời gian cần tìm là:
+H, = H,2 T → 25= 350.2 io →> 1 = 418,81 ngày
+Câu 17.9. Đáp án A.
+3= No(1-27)
+2
+1-2 T
+Na = No. 1-27)→
+3
+→ T =8,56 s
+=
+=
+17
+15 = No. 1-27
+15
+1-2 T
+In 2
+In 2
+= 2 =
+~ 0,081 s"
+8,56
+
+PAGE PDF 128
+BÀI TẬP VẬT LÍ 12
+B. TỰ LUẬN
+Bài 17.1.
+Vi hoạt độ phóng xạ được xác định bằng số hạt nhân phóng xạ phân rã trong
+1 giây nên mẫu chất chứa 28g pb sẽ có số hạt nhân phân rã nhiều hơn trong 1 giây.
+Bài 17.2.
+Hình vẽ đường đi của các tia phóng xạ trong điện trường đều được biểu diễn
+như hình dưới đây.
+y
+B*
+Bài 17.3.
+11-27
+Số hạt nhân đã phóng xạ là: AN = No - N, = N,
+No.
+4
+Bài 17.4.
+Vì phóng xạ là phản ứng hạt nhân toa năng lượng, năng lượng toả ra tồn tại
+dưới dạng động năng của các hạt sau phóng xạ, do đó động năng của các hạt
+này sẽ lớn hơn động năng chuyển động nhiệt của các hạt trong môi trường xung
+quanh. Mặt khác, khi các hạt chuyển động càng nhanh thì nhiệt độ của vật sẽ
+càng cao, chính vì vậy mà nhiệt độ của mẫu chất phóng xạ luôn cao hơn nhiệt độ
+của môi trường xung quanh một chút.
+Bài 17.5.
+Dựa trên định luật bảo toàn điện tích và bảo toàn số nucleon, ta có thể suy ra
+giá trị của số khối 4 và số hiệu nguyên tử Z của hạt nhân {X như sau:
+a) A = 208; Z = 81.
+b) A = 4; Z= 2.
+c) A = 206; Z = 82.
+d) A = 12; Z = 6.
+
+PAGE PDF 129
+BÀI TẬP VẬT LÍ 12
+Bài 17.6.
+Dựa trên định luật bảo toàn điện tích và bảo toàn số nucleon, ta lập được hệ
+phương trình sau:
+232=208+4y
+/y= 6
+y =6
+/90=82-x+2y
+|x=2y-8
+x =4
+Bài 17.7.
+a) ¿ Ni →
+-e+ 66
+0
+29 Cu.
+b) Vì khối lượng của electron là không đáng kể nên năng lượng toa ra của quá
+trình phóng xạ là:
+W = (mNi-mc)c = (65,9291 - 65,9289).931,5 = 0,1863 MeV
+Bài 17.8.
+a) Khối lượng "C chứa trong mẫu than bùn sau 2 000 năm là:
+m. = m,2 T = 980. 2000 z 769,4 4g
+b) Thời điểm mà khối lượng 'C trong mẫu than bùn này còn lại 100 ug là:
+=-5730.10g. 100)
+m.
+m, =m.2 T
+→ t = -1 log2
+~18867,64 năm
+980
+Bài 17.9.
+Số lượng hạt nhân 2, Co chứa trong nguồn phóng xạ tại thời điểm đang xét là:
+In 2
+H,= AN, ==
+5,27.365.24.3600
+-.(5800.3,7.1010) ~ 5,15.102 hạt
+→ N
+H,
+In 2
+Bài 17.10.
+İ=2*-1=15→1,=4T.
+Npb
+1-2 T
+Tại thời điểm t,, ta có:
+Npo
+4.138+966
+N=27-1=2
+Tại thời điểm t, = t, + 966, ta có:
+-1 = 2047.
+N.
+Po
+Bài 17.11.
+21 Po phân rã là:
+Số lượng hạt nhân
+ms. N, 1-27
+1-2
+ANpo = N
+210-60221091-2761
+=1,43.10" hạt
+=
+
+PAGE PDF 130
+BAI TẠP VẠI LI 12
+Số lượng hạt nhân 3}I phân rã là:
+N,(1-2#)
+*)- ma .
+= N
+AN,
+T510.0210 1-258 -381.10" bat
+Vậy máy đo bức xạ ứng với mẫu chất chứa S}I đếm được nhiều tín hiệu hơn.
+Bài 17.12.
+a) 'n+ "N→"C+\p. Vậy X chính là hạt proton.
+b) C→"N+ie+».
+c) Số lượng hạt nhân "C trong mảnh gỗ hiện tại là:
+T
+Nc14 ==
+-H
+=-
+In 2
+Khối lượng '4C trong mảnh gỗ hiện tại là:
+NeI4. Acia =i
+I ACI4 H
+Mc14 =
+In2 Ns
+NA
+Số lượng hạt nhân ?C trong mảnh gỗ hiện tại là:
+m-mors. N. = m
+Naz= Mc12. Ns =
+.C14 ./
+A --
+Ac12
+Ac1z
+In2 Acız
+Ac12
+Vì đồng vị .C bền nên số lượng hạt nhân ?C được xem gần đúng là không đổi.
+Từ đó ta suy ra số lượng hạt nhân "C tại thời điểm ban đầu (lúc khối gỗ còn
+đang sống) là:
+NO(C14) = 1,3.10-12.Nc12
+Độ tuổi của mẫu hoa thạch là:
+NoI = NorcH,2 T
+→ t=-Tl0g2 -
+=-5 730.10g2
+3[1,3.10-72" (mN, In2- Ac HT)
+5730.365.24.3 600.0,52.12
+= -5730.10g2
+1,3.10-. 220.6,022.102. In2- 14.0,52.(5730.365.24.3600)]|
+~ 38 541 năm
+
+PAGE PDF 131
+AN TOÀN PHÓNG XẠ
+18
+Bài
+A. TRẮC NGHIỆM
+Câu 18.1. Đáp án D.
+Câu 18.2. (1) an toàn; (2) phơi nhiễm; (3) khoảng cách; (4) kẹp dài; (5) che chắn;
+(6) màn chắn.
+Câu 18.3. a) Sai; b) Đúng; c) Sai; d) Đúng; e) Đúng; f) Sai.
+Câu 18.4. Đáp án C.
+MAINIHE
+B. TỰ LUẬN
+Bài 18.1. Điêm khác biệt quan trọng giữa hai biển báo: Biển báo ở Hình 18.1b
+có nhiều chi tiết hơn nhằm nhân mạnh tác hại của các tia phóng xạ và việc
+cần thiết là phải rời xa nguồn phóng xạ (một trong ba quy tắc đảm bảo an toàn
+phóng xạ).
+Bài 18.2.
+Hình 18.2a: Giảm thiểu thời gian tiếp xúc với nguồn phóng xạ.
+Hình 18.2b: Giữa khoảng cách phù hợp đến nguồn phóng xạ.
+Hình 18.2c: Sử dụng che chắn để giảm tác dụng của các tia phóng xạ.
+Bài 18.3. Việc cởi bỏ trang phục đang mặc là cần thiết khi bị tiếp xúc với chất
+phóng xạ, giúp giảm thiếu đáng kế khả năng bị nhiễm xạ. Tuy nhiên, trang phục
+này phải được xử lí thích hợp vì có thể gây nhiễm xạ cho người hoặc đồ vật tiếp
+xúc sau đó.
+Bài 18.4.
+Cả hai nguyên tố đều là chất phóng xạ (radium phóng xạ a để sinh ra radon,
+radon cũng phóng xạ a để cho ra poloni).
+Radon là chất khí nên nhiễm xạ qua đường hô hấp và gây tác hại cho mô phổi.
+Trong khi đó, radium là chất rắn, nhiễm xạ theo đường tiêu hóa (như uống nước
+nhiễm xạ).
+
+PAGE PDF 132
+T T V L2
+Nhà xuất bản Giáo dục Việt Nam xin trân trọng cam ơn
+các tác giả có tác phẩm, tư liệu được sử dụng, trích dẫn
+trong cuốn sách này.
+Chịu trách nhiệm xuất bản:
+Chủ tịch Hội đồng thành viên kiêm Tổng Giám đốc NGUYỄN TIẾN THANH
+Chịu trách nhiệm nội dung:
+Tổng biên tập PHẠM VĨNH THÁI
+Biên tập nội dung: NGUYỄN THỊ KIM ANH - NGUYỄN BÔNG
+LÝ VƯƠNG NGỌC MINH - PHẠM TRƯỜNG THỊNH
+Thiết kế sách: PHẠM THỊ HẠ LIÊN
+Trình bày bìa: ĐẬNG NGỌC HÀ - TÔNG THANH THẢO
+Sửa bản in: NGUYỄN THỊ KIM ANH - NGUYỄN BÔNG
+LÝ VƯƠNG NGỌC MINH - PHẠM TRƯỜNG THỊNH
+Chế bản: CÔNG TY CỔ PHẦN DỊCH VỤ XUẤT BẢN GIÁO DỤC GIA ĐỊNH
+Bản quyền thuộc Nhà xuất bản Giáo dục Việt Nam.
+Tất cả các phần của nội dung cuốn sách này đều không được sao chép, lưu trữ,
+chuyển thể dưới bất kì hình thức nào khi chưa có sự cho phép bằng văn bản
+của Nhà xuất bản Giáo dục Việt Nam.
+BÀI TẬP VẬT LÍ 12
+(Chân trời sáng tạo)
+Mã số: G2BHZL001M24
+In 25.500 bản (QĐ in số 06BT), khô 17 x 24 cm.
+Đơn vị in: Công ty TNHH MTV ITAXA
+Địa chỉ: 122-124-126 Nguyễn Thị Minh Khai, P. Võ Thị Sáu, Q. 3, TP. HCM
+Số ĐKXB: 06-2024/CXBIPH/37-2346/GD
+Số QĐXB: 25 SBT/QĐ-GD-HCM, ngày 28 tháng 05 năm 2024
+In xong và nộp lưu chiều tháng 06 năm 2024.
+Mã số ISBN: 978-604-0-40332-2

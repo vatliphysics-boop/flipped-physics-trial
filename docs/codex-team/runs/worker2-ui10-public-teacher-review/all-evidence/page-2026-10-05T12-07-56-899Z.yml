@@ -1,0 +1,33 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - heading "Đăng ký tài khoản" [level=1] [ref=f10e5]
+      - paragraph [ref=f10e6]: Tạo không gian làm việc mới
+    - generic [ref=f10e7]:
+      - generic [ref=f10e8]:
+        - generic [ref=f10e9] [cursor=pointer]:
+          - radio "Giáo viên" [checked] [ref=f10e10]
+          - generic [ref=f10e11]: Giáo viên
+        - generic [ref=f10e12] [cursor=pointer]:
+          - radio "Học sinh" [ref=f10e13]
+          - generic [ref=f10e14]: Học sinh
+      - generic [ref=f10e15]:
+        - generic [ref=f10e16]: Họ và tên
+        - textbox "Họ và tên" [ref=f10e17]
+      - generic [ref=f10e18]:
+        - generic [ref=f10e19]: Email
+        - textbox "Email" [ref=f10e20]
+      - generic [ref=f10e21]:
+        - generic [ref=f10e22]: Mật khẩu
+        - textbox "Mật khẩu" [ref=f10e23]
+      - generic [ref=f10e24]:
+        - generic [ref=f10e25]: Xác nhận mật khẩu
+        - textbox "Xác nhận mật khẩu" [ref=f10e26]
+      - button "Tạo tài khoản" [ref=f10e27] [cursor=pointer]
+    - paragraph [ref=f10e28]:
+      - text: Đã có tài khoản?
+      - link "Đăng nhập" [ref=f10e29] [cursor=pointer]:
+        - /url: /login
+    - link "← Quay lại trang chủ" [ref=f10e31] [cursor=pointer]:
+      - /url: /
+  - alert [ref=f10e32]

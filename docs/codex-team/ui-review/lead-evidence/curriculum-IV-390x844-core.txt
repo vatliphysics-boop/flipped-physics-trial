@@ -1,0 +1,43 @@
+Browser tab: 5, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=IV".
+0 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/hoc-lieu/chuong-trinh?chuong=IV
+	1 link Description: Đi đến nội dung chính, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=IV#main-content
+	2 container
+		54 button (collapsed) Description: Mở menu, Secondary Actions: Expand
+		4 link Description: Học liệu Vật lí 12, Value: localhost:3001/hoc-lieu
+		5 link Description: Đăng nhập lớp học, Value: localhost:3001/login
+	20 container main-content
+		21 container
+			22 text CHƯƠNG TRÌNH VẬT LÍ 12
+			23 heading Chương 4: Vật lí hạt nhân, Value: 1
+				24 text Chương 4: Vật lí hạt nhân
+			25 text Học liệu của đề tài tập trung Chương 4: Vật lí hạt nhân, B21–B25.
+		26 container Chọn chương
+			27 link Description: Chương 1: Vật lí nhiệt, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=I
+			28 link Description: Chương 2: Khí lí tưởng, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=II
+			29 link Description: Chương 3: Từ trường, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=III
+			30 link Description: Chương 4: Vật lí hạt nhân, Value: localhost:3001/hoc-lieu/chuong-trinh?chuong=IV
+		31 container Bài học trong chương
+			32 container
+				33 heading B21 · Cấu trúc hạt nhân, Value: 2
+					34 text B21  ·  Cấu trúc hạt nhân
+				35 link Description: Mở học liệu bài học, Value: localhost:3001/hoc-lieu/truc-quan?bai=B21
+			36 container
+				37 heading B22 · Phản ứng hạt nhân và năng lượng liên kết, Value: 2
+					38 text B22  ·  Phản ứng hạt nhân và năng lượng liên kết
+				39 link Description: Mở học liệu bài học, Value: localhost:3001/hoc-lieu/truc-quan?bai=B22
+			40 container
+				41 heading B23 · Hiện tượng phóng xạ, Value: 2
+					42 text B23  ·  Hiện tượng phóng xạ
+				43 link Description: Mở học liệu bài học, Value: localhost:3001/hoc-lieu/truc-quan?bai=B23
+			44 container
+				45 heading B24 · Công nghiệp hạt nhân, Value: 2
+					46 text B24  ·  Công nghiệp hạt nhân
+				47 link Description: Mở học liệu bài học, Value: localhost:3001/hoc-lieu/truc-quan?bai=B24
+			48 container
+				49 heading B25 · Bài tập về vật lí hạt nhân, Value: 2
+					50 text B25  ·  Bài tập về vật lí hạt nhân
+				51 link Description: Mở học liệu bài học, Value: localhost:3001/hoc-lieu/truc-quan?bai=B25
+	52 container AI hỗ trợ học tập
+		53 button (collapsed) Description: Mở khung AI học tập, Secondary Actions: Expand
+
+The focused UI element is 0 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/hoc-lieu/chuong-trinh?chuong=IV

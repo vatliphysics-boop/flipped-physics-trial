@@ -1,0 +1,92 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+// @ts-expect-error Node native TypeScript runner needs source extension
+import {assembleMatrixExam,validateUnifiedQuestion,validateExamMatrix,mathSegments,matrixAssessmentSummary,type UnifiedQuestion} from "../src/lib/unified-question-bank.ts";
+// @ts-expect-error Node native TypeScript runner needs source extension
+import {officeEquation} from "../src/lib/office-equation.ts";
+// @ts-expect-error Node native TypeScript runner needs source extension
+import {matrixFromRows,csvRows,MATRIX_TEMPLATE} from "../src/lib/exam-matrix-import.ts";
+// @ts-expect-error Node runner uses source extension
+import {numberQuestionBank,fitQuestionFigure} from "../src/lib/question-bank-display.ts";
+import katex from "katex";
+import {Document,Packer,Paragraph} from "docx";
+import JSZip from "jszip";
+const bank=JSON.parse(fs.readFileSync(new URL("../src/data/unified-question-bank.json",import.meta.url),"utf8")) as UnifiedQuestion[];
+test("published bank contains only checked book questions and compatible mathematics",()=>{
+ assert.equal(new Set(bank.map(q=>q.id)).size,bank.length);assert.equal(bank.length,213);
+ assert.deepEqual(new Set(bank.map(q=>q.source.bookId)),new Set(['sgk-kntt','ctst','sbt-kntt']));
+ for(const q of bank){validateUnifiedQuestion(q);assert.ok(q.bloom?.rationale);assert.ok(q.source.pages.length);assert.equal(q.status,'ready');if(q.figure)assert.equal(q.figure.origin,'source_crop');for(const text of [q.prompt,...q.options||[],...q.statements?.map(s=>s.text)||[],q.explanation||"",q.answerText||""])for(const s of mathSegments(text))if(s.math){officeEquation(s.text);katex.renderToString(s.text,{throwOnError:true,trust:false});}}
+ assert.equal(new Set(bank.map(q=>q.kind)).size,4);
+});
+test("matrix CSV with quoted decimal commas is parsed and validates positive counts",()=>{
+ const rows=csvRows(MATRIX_TEMPLATE);const m=matrixFromRows(rows);assert.deepEqual(validateExamMatrix(m),{count:6,total:10});
+ const comma=matrixFromRows(csvRows('Bài/chủ đề,Loại câu,Mức độ,Số câu,Điểm mỗi câu\nB21,Trắc nghiệm,Nhận biết,2,"0,25"\n'));assert.equal(comma.rows[0].points,.25);
+ assert.throws(()=>matrixFromRows(rows.map((r,i)=>i===1?[...r.slice(0,3),'0','0.5']:r)),/Mỗi dòng/);
+ assert.throws(()=>csvRows('"unfinished'),/thiếu/);
+});
+test("matrix matching can reassign broad slots to satisfy specific rows without duplicate questions",()=>{
+ const base=bank.find(q=>q.kind==="choice")!;const pool=[{...base,id:"a",topic:"B21",level:"Nhận biết"},{...base,id:"b",topic:"B21",level:"Thông hiểu"}];
+ const matrix={title:"Test",minutes:15,rows:[{topic:"B21",kind:"choice" as const,level:"",count:1,points:1},{topic:"B21",kind:"choice" as const,level:"Nhận biết",count:1,points:2}]};
+ const selected=assembleMatrixExam(pool,matrix,"test");assert.deepEqual(selected.map(q=>q.id),["b","a"]);assert.deepEqual(selected.map(q=>q.points),[1,2]);
+ assert.throws(()=>assembleMatrixExam(pool,{...matrix,rows:[{...matrix.rows[1],count:3}]},"test"),/chưa đủ/);
+ assert.throws(()=>assembleMatrixExam([{...base,status:"draft"}],{...matrix,rows:[matrix.rows[0]]},"test"),/chưa đủ/);
+});
+test("Office equations reject unsupported math and build true fractions and paired scripts",()=>{
+ for(const source of [String.raw`\frac{\ln 2}{T}`,String.raw`{}^{235}_{92}\mathrm{U}`,String.raw`N_t=N_0 2^{-\frac{t}{T}}`])assert.ok(officeEquation(source));
+ assert.throws(()=>officeEquation(String.raw`\unknown{x}`),/Chưa hỗ trợ/);assert.throws(()=>officeEquation('x_{2'),/thiếu/);assert.throws(()=>mathSegments('N=$x^2'),/đủ cặp/);
+});
+test("Word isotope equations use native prescripts instead of empty bases",async()=>{
+ const document=new Document({sections:[{children:[new Paragraph({children:[officeEquation(String.raw`{}^{235}_{92}\mathrm{U}+{}^{1}_{0}\mathrm{n}`),officeEquation(String.raw`^{42}_{20}\mathrm{Ca}`),officeEquation(String.raw`{}^{144}\mathrm{Ce}`)]})]}]});
+ const zip=await JSZip.loadAsync(await Packer.toBuffer(document));
+ const xml=await zip.file('word/document.xml')!.async('string');
+ assert.equal((xml.match(/<m:sPre>/g)||[]).length,4);
+ assert.ok(xml.includes('144'));
+ assert.ok(!xml.includes('<m:t></m:t>'),'isotope base must not be an empty placeholder');
+});
+test("7991 level names match authored questions and specification retains requirements",()=>{
+ const matrix=matrixFromRows(csvRows(MATRIX_TEMPLATE));
+ const selected=assembleMatrixExam(bank,matrix,"7991");assert.equal(selected.length,6);
+ const summary=matrixAssessmentSummary(matrix);assert.deepEqual(summary.incomplete,[]);
+ assert.deepEqual(summary.kindPercent,{choice:10,true_false:20,numeric:20,written:50});
+ assert.deepEqual(summary.levelPercent,{Biết:10,Hiểu:20,"Vận dụng":70});
+ assert.ok(matrix.rows.every(r=>r.requirement&&r.competency));
+ const incomplete=matrixAssessmentSummary({...matrix,rows:[{...matrix.rows[0],requirement:""}]});assert.deepEqual(incomplete.incomplete,[1]);
+});
+test("true false questions always have exactly four source statements and aligned answers",()=>{
+ const question=bank.find(q=>q.kind==="true_false")!;
+ for(const q of bank.filter(q=>q.kind==='true_false'))assert.equal(q.statements?.length,4);
+ for(const count of [0,1,3,5,8,13])assert.throws(()=>validateUnifiedQuestion({...question,statements:Array(count).fill(question.statements![0])}),/đúng 4 ý/);
+ assert.throws(()=>validateUnifiedQuestion({...question,statements:question.statements!.map((s,i)=>i===0?{text:s.text}:s)}),/đáp án/);
+});
+test("splitting and same-topic grouping preserve every original statement exactly once",()=>{
+ const originals=JSON.parse(fs.readFileSync(new URL('../src/data/workbook-nuclear-transcriptions.json',import.meta.url),'utf8')) as UnifiedQuestion[];
+ const pending=JSON.parse(fs.readFileSync(new URL('../data/book-bank/true-false-pending-statements.json',import.meta.url),'utf8')) as {questionId:string;topic:string;statementIndex:number;statement:{text:string;answer:boolean}}[];
+ const seen=new Set<string>();
+ const check=(id:string,index:number,statement:{text:string;answer?:boolean},topic:string)=>{
+  const original=originals.find(q=>q.id===id)!;
+  assert.equal(original.status,'ready');assert.equal(original.topic,topic);
+  assert.equal(statement.text,original.statements![index].text);assert.equal(statement.answer,original.statements![index].answer);
+  const key=`${id}:${index}`;assert.ok(!seen.has(key),'statement must not be duplicated');seen.add(key);
+ };
+ let combined=false;
+ for(const q of bank.filter(q=>q.kind==='true_false')){
+  if(q.source.parts){let i=0;combined ||=q.source.parts.length>1;for(const part of q.source.parts)for(const index of part.statementIndexes)check(part.questionId,index,q.statements![i++],q.topic);assert.equal(i,4);}
+  else q.statements!.forEach((s,i)=>check(q.id,i,s,q.topic));
+  assert.ok(!/[e-z]\)/.test(q.explanation||''),'answer explanation must use a–d');
+ }
+ for(const item of pending)check(item.questionId,item.statementIndex,item.statement,item.topic);
+ assert.equal(seen.size,originals.filter(q=>q.kind==='true_false'&&q.status==='ready').reduce((n,q)=>n+q.statements!.length,0));
+ assert.equal(pending.length,6);assert.ok(combined,'remainder statements should combine within a topic');
+});
+test('source coverage includes every workbook question and isolates source problems',()=>{
+ const rows=JSON.parse(fs.readFileSync(new URL('../src/data/workbook-nuclear-transcriptions.json',import.meta.url),'utf8')) as UnifiedQuestion[];
+ assert.equal(rows.filter(q=>q.source.bookId==='ctst').length,76);assert.equal(rows.filter(q=>q.source.bookId==='sbt-kntt').length,85);
+ for(const book of ['ctst','sbt-kntt'])assert.deepEqual(rows.filter(q=>q.source.bookId===book).map(q=>q.source.sequence),Array.from({length:book==='ctst'?76:85},(_,i)=>i+1));
+ for(const q of rows.filter(q=>q.status==='draft'))assert.ok(!bank.some(p=>p.id===q.id));
+ assert.ok(!bank.some(q=>q.id.startsWith('midterm-')||q.id.startsWith('img-')));
+});
+test('category numbering remains stable through filters and images preserve proportions',()=>{
+ const numbered=numberQuestionBank(bank);for(const kind of ['choice','true_false','numeric','written'])assert.deepEqual(numbered.filter(q=>q.kind===kind).map(q=>q.displayNumber),Array.from({length:bank.filter(q=>q.kind===kind).length},(_,i)=>i+1));
+ assert.deepEqual(fitQuestionFigure(200,1000),{width:90,height:450});assert.deepEqual(fitQuestionFigure(100,80),{width:100,height:80});assert.throws(()=>fitQuestionFigure(0,100));
+});

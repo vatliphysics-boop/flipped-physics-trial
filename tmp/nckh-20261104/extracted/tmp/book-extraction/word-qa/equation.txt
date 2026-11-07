@@ -1,0 +1,10 @@
+PART word/document.xml
+P0000 Bài tập nhiệt nóng chảy riêng
+P0001 Vật lí 12   Thời gian 15 phút   Mã đề 101   10 điểm
+P0002 Họ và tên .......................................................... Lớp ................
+P0003 Câu 1 (10 điểm)
+P0004 Khi được cung cấp một nhiệt lượng Q=5,13×105 J thì toàn bộ 1,5 kg băng (nước đá) ở 0°C hóa lỏng và không thay đổi nhiệt độ. Tính nhiệt nóng chảy riêng của nước đá ở 0°C.
+P0005 Trả lời ...........................................
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

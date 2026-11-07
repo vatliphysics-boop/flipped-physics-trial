@@ -1,0 +1,215 @@
+PART word/document.xml
+P0000 Đề cuối kỳ trong chủ đề Vật lí hạt nhân
+P0001 Vật lí 12 · Phạm vi B21, B22, B23, B24, B25 · Mã đề 101
+P0002 Thời gian 60 phút · 20 câu · Tổng 10 điểm
+P0003 Họ và tên: ........................................................... Lớp: ................
+P0004 Dữ kiện và hình là mô hình phục vụ câu hỏi. Đề giữa kỳ/cuối kỳ chỉ bao phủ chủ đề hạt nhân đã chọn; giáo viên điều chỉnh theo kế hoạch của lớp.
+P0005 Câu 1. (0,5 điểm) Để dùng sơ đồ này trong câu hỏi, điều kiện nào cần nêu rõ?
+P0007 A. Khả năng đâm xuyên còn phụ thuộc năng lượng bức xạ và vật liệu
+P0008 B. Chỉ màu tia là đủ
+P0009 C. Kích thước tia vẽ bằng kích thước thật
+P0010 D. Sơ đồ cho liều thật
+P0011 Câu 2. (0,5 điểm) Việc một số rất ít hạt alpha bật ngược gợi ý điều gì?
+P0013 A. Điện tích dương phân bố đều
+P0014 B. Nguyên tử là khối đặc
+P0015 C. Electron chứa gần hết khối lượng
+P0016 D. Vùng điện tích dương tập trung trong hạt nhân rất nhỏ
+P0017 Câu 3. (0,5 điểm) Số neutron của hạt nhân II trong hình là bao nhiêu?
+P0019 A. 6
+P0020 B. 12
+P0021 C. 8
+P0022 D. 14
+P0023 Câu 4. (0,5 điểm) Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0025 A. 25%
+P0026 B. 75%
+P0027 C. 50%
+P0028 D. 100%
+P0029 Câu 5. (0,5 điểm) Bộ phận nào biến cơ năng quay thành điện năng?
+P0031 A. Turbine
+P0032 B. Lò phản ứng
+P0033 C. Máy phát điện
+P0034 D. Bộ trao đổi nhiệt
+P0035 Câu 6. (0,5 điểm) Dưới các giả thiết trong hình, cường độ tại 2 r so với tại r gần bằng bao nhiêu?
+P0037 A. 4
+P0038 B. 1/2
+P0039 C. 2
+P0040 D. 1/4
+P0041 Câu 7. (0,5 điểm) Hạt nhân nào có năng lượng liên kết riêng lớn nhất trong hình?
+P0043 A. Cả ba bằng nhau
+P0044 B. Fe-56
+P0045 C. He-4
+P0046 D. U-235
+P0047 Câu 8. (0,5 điểm) Giá trị trung bình của ba lượt đếm trong hình là bao nhiêu?
+P0049 A. 20
+P0050 B. 18
+P0051 C. 19
+P0052 D. 22
+P0053 Câu 9. (0,5 điểm) Dựa vào màu chú giải, hai hạt nhân trong hình có quan hệ nào?
+P0055 A. Khác Z và khác N
+P0056 B. Cùng Z, khác N
+P0057 C. Cùng A, khác Z
+P0058 D. Cùng N, khác Z
+P0059 Câu 10. (0,5 điểm) Với nhánh trong hình, số neutron sinh ra cần có để bảo toàn A là bao nhiêu?
+P0061 A. 1
+P0062 B. 3
+P0063 C. 2
+P0064 D. 4
+P0065 Câu 11. (0,5 điểm) Khi nào không thể áp dụng trực tiếp tỉ số lí tưởng 1/4 trong hình?
+P0067 A. Nguồn trải rộng hoặc hấp thụ và nền đáng kể
+P0068 B. Giữ cùng nguồn và điều kiện lí tưởng
+P0069 C. Khoảng cách tăng từ r lên 2 r ở mô hình lí tưởng
+P0070 D. Nguồn điểm, bỏ qua hấp thụ và nền
+P0071 Câu 12. (0,5 điểm) Trình tự chuyển hóa năng lượng nào phù hợp sơ đồ?
+P0073 A. Hạt nhân→nhiệt→cơ→điện
+P0074 B. Nhiệt→điện→hạt nhân→cơ
+P0075 C. Cơ→hạt nhân→điện→nhiệt
+P0076 D. Điện→hạt nhân→nhiệt→cơ
+P0077 Câu 13. (0,5 điểm) Trung bình số đếm sau trừ nền mỗi lượt trong hình là bao nhiêu?
+P0079 A. 50
+P0080 B. 46
+P0081 C. 42
+P0082 D. 40
+P0083 Câu 14. (0,5 điểm) Phát biểu nào phù hợp phần minh họa tia gamma?
+P0085 A. Gamma không tương tác với vật chất
+P0086 B. Mọi gamma bị nhôm mỏng chắn hết
+P0087 C. Một tờ giấy chắn hết gamma
+P0088 D. Gamma bị suy giảm qua vật liệu chắn, không xem là bị chắn tuyệt đối
+P0089 Câu 15. (0,5 điểm) Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0091 A. 400
+P0092 B. 100
+P0093 C. 200
+P0094 D. 600
+P0095 Câu 16. (0,5 điểm) Sơ đồ đường đi này có cho phép suy chính xác tỉ lệ hạt bật ngược không?
+P0097 A. Có, tỉ lệ là 2/3
+P0098 B. Có, vì vẽ một đường bật ngược
+P0099 C. Không, hình không biểu diễn tần suất đo
+P0100 D. Có, tỉ lệ là 1/3
+P0101 Câu 17. (0,5 điểm) Ba lượt đếm khác nhau ở cùng điều kiện phù hợp với nhận xét nào?
+P0103 A. Phân rã có tính ngẫu nhiên, số đếm có thể dao động
+P0104 B. Số đếm phải bằng nhau tuyệt đối
+P0105 C. Chu kì bán rã đổi ở mỗi lượt
+P0106 D. Máy đếm chắc chắn hỏng
+P0107 Câu 18. (0,5 điểm) Trung bình tốc độ đếm sau trừ nền là bao nhiêu?
+P0109 A. 4,2 số đếm/s
+P0110 B. 0,21 số đếm/s
+P0111 C. 2,1 số đếm/s
+P0112 D. 42 số đếm/s
+P0113 Câu 19. (0,5 điểm) Nhận xét nào đúng về nhánh phản ứng được minh họa?
+P0115 A. Mọi lần phân hạch U-235 đều có hai mảnh như hình
+P0116 B. Số khối mỗi mảnh bằng 235
+P0117 C. Không có năng lượng tỏa ra
+P0118 D. Đây là một nhánh minh họa; phân hạch có thể tạo các mảnh khác
+P0119 Câu 20. (0,5 điểm) Từ dữ kiện hình, năng lượng liên kết tổng của He-4 gần bằng bao nhiêu?
+P0121 A. 28,28MeV
+P0122 B. 7,07MeV
+P0123 C. 1,77MeV
+P0124 D. 56,56MeV
+P0126 Đề cuối kỳ trong chủ đề Vật lí hạt nhân
+P0127 Vật lí 12 · Phạm vi B21, B22, B23, B24, B25 · Mã đề 102
+P0128 Thời gian 60 phút · 20 câu · Tổng 10 điểm
+P0129 Họ và tên: ........................................................... Lớp: ................
+P0130 Dữ kiện và hình là mô hình phục vụ câu hỏi. Đề giữa kỳ/cuối kỳ chỉ bao phủ chủ đề hạt nhân đã chọn; giáo viên điều chỉnh theo kế hoạch của lớp.
+P0131 Câu 1. (0,5 điểm) Trình tự chuyển hóa năng lượng nào phù hợp sơ đồ?
+P0133 A. Điện→hạt nhân→nhiệt→cơ
+P0134 B. Cơ→hạt nhân→điện→nhiệt
+P0135 C. Nhiệt→điện→hạt nhân→cơ
+P0136 D. Hạt nhân→nhiệt→cơ→điện
+P0137 Câu 2. (0,5 điểm) Sơ đồ đường đi này có cho phép suy chính xác tỉ lệ hạt bật ngược không?
+P0139 A. Không, hình không biểu diễn tần suất đo
+P0140 B. Có, tỉ lệ là 1/3
+P0141 C. Có, tỉ lệ là 2/3
+P0142 D. Có, vì vẽ một đường bật ngược
+P0143 Câu 3. (0,5 điểm) Nhận xét nào đúng về nhánh phản ứng được minh họa?
+P0145 A. Không có năng lượng tỏa ra
+P0146 B. Đây là một nhánh minh họa; phân hạch có thể tạo các mảnh khác
+P0147 C. Mọi lần phân hạch U-235 đều có hai mảnh như hình
+P0148 D. Số khối mỗi mảnh bằng 235
+P0149 Câu 4. (0,5 điểm) Với nhánh trong hình, số neutron sinh ra cần có để bảo toàn A là bao nhiêu?
+P0151 A. 4
+P0152 B. 1
+P0153 C. 2
+P0154 D. 3
+P0155 Câu 5. (0,5 điểm) Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0157 A. 50%
+P0158 B. 25%
+P0159 C. 100%
+P0160 D. 75%
+P0161 Câu 6. (0,5 điểm) Từ dữ kiện hình, năng lượng liên kết tổng của He-4 gần bằng bao nhiêu?
+P0163 A. 28,28MeV
+P0164 B. 56,56MeV
+P0165 C. 7,07MeV
+P0166 D. 1,77MeV
+P0167 Câu 7. (0,5 điểm) Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0169 A. 600
+P0170 B. 400
+P0171 C. 200
+P0172 D. 100
+P0173 Câu 8. (0,5 điểm) Trung bình tốc độ đếm sau trừ nền là bao nhiêu?
+P0175 A. 4,2 số đếm/s
+P0176 B. 0,21 số đếm/s
+P0177 C. 2,1 số đếm/s
+P0178 D. 42 số đếm/s
+P0179 Câu 9. (0,5 điểm) Giá trị trung bình của ba lượt đếm trong hình là bao nhiêu?
+P0181 A. 19
+P0182 B. 20
+P0183 C. 18
+P0184 D. 22
+P0185 Câu 10. (0,5 điểm) Khi nào không thể áp dụng trực tiếp tỉ số lí tưởng 1/4 trong hình?
+P0187 A. Nguồn điểm, bỏ qua hấp thụ và nền
+P0188 B. Nguồn trải rộng hoặc hấp thụ và nền đáng kể
+P0189 C. Khoảng cách tăng từ r lên 2 r ở mô hình lí tưởng
+P0190 D. Giữ cùng nguồn và điều kiện lí tưởng
+P0191 Câu 11. (0,5 điểm) Ba lượt đếm khác nhau ở cùng điều kiện phù hợp với nhận xét nào?
+P0193 A. Máy đếm chắc chắn hỏng
+P0194 B. Chu kì bán rã đổi ở mỗi lượt
+P0195 C. Phân rã có tính ngẫu nhiên, số đếm có thể dao động
+P0196 D. Số đếm phải bằng nhau tuyệt đối
+P0197 Câu 12. (0,5 điểm) Bộ phận nào biến cơ năng quay thành điện năng?
+P0199 A. Lò phản ứng
+P0200 B. Bộ trao đổi nhiệt
+P0201 C. Máy phát điện
+P0202 D. Turbine
+P0203 Câu 13. (0,5 điểm) Dựa vào màu chú giải, hai hạt nhân trong hình có quan hệ nào?
+P0205 A. Cùng A, khác Z
+P0206 B. Cùng Z, khác N
+P0207 C. Khác Z và khác N
+P0208 D. Cùng N, khác Z
+P0209 Câu 14. (0,5 điểm) Dưới các giả thiết trong hình, cường độ tại 2 r so với tại r gần bằng bao nhiêu?
+P0211 A. 1/2
+P0212 B. 1/4
+P0213 C. 4
+P0214 D. 2
+P0215 Câu 15. (0,5 điểm) Phát biểu nào phù hợp phần minh họa tia gamma?
+P0217 A. Một tờ giấy chắn hết gamma
+P0218 B. Mọi gamma bị nhôm mỏng chắn hết
+P0219 C. Gamma không tương tác với vật chất
+P0220 D. Gamma bị suy giảm qua vật liệu chắn, không xem là bị chắn tuyệt đối
+P0221 Câu 16. (0,5 điểm) Việc một số rất ít hạt alpha bật ngược gợi ý điều gì?
+P0223 A. Nguyên tử là khối đặc
+P0224 B. Electron chứa gần hết khối lượng
+P0225 C. Vùng điện tích dương tập trung trong hạt nhân rất nhỏ
+P0226 D. Điện tích dương phân bố đều
+P0227 Câu 17. (0,5 điểm) Trung bình số đếm sau trừ nền mỗi lượt trong hình là bao nhiêu?
+P0229 A. 40
+P0230 B. 42
+P0231 C. 50
+P0232 D. 46
+P0233 Câu 18. (0,5 điểm) Để dùng sơ đồ này trong câu hỏi, điều kiện nào cần nêu rõ?
+P0235 A. Chỉ màu tia là đủ
+P0236 B. Kích thước tia vẽ bằng kích thước thật
+P0237 C. Sơ đồ cho liều thật
+P0238 D. Khả năng đâm xuyên còn phụ thuộc năng lượng bức xạ và vật liệu
+P0239 Câu 19. (0,5 điểm) Số neutron của hạt nhân II trong hình là bao nhiêu?
+P0241 A. 6
+P0242 B. 14
+P0243 C. 12
+P0244 D. 8
+P0245 Câu 20. (0,5 điểm) Hạt nhân nào có năng lượng liên kết riêng lớn nhất trong hình?
+P0247 A. U-235
+P0248 B. Fe-56
+P0249 C. Cả ba bằng nhau
+P0250 D. He-4
+PART word/footer1.xml
+P0000 Trang 
+PART word/footnotes.xml
+PART word/endnotes.xml

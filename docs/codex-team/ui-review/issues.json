@@ -1,0 +1,531 @@
+{
+  "phase": "UI review ongoing",
+  "global_status": "CHƯA ĐẠT",
+  "issues": [
+    {
+      "id": "UI-0001",
+      "title": "Nút số che nội dung hình B21–B25",
+      "route": "/hoc-lieu/truc-quan?bai=B21…B25",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "1280x720",
+        "768x1024",
+        "390x844",
+        "360x800"
+      ],
+      "severity": "P2",
+      "learning_impact": "Che tiêu đề dữ liệu, nhãn và hiện tượng cần đọc",
+      "reproduce": "Mở bài, xem hình và chọn từng điểm; B25 số1 che Dữ liệu kì vọng",
+      "before": [
+        "docs/codex-team/ui-review/lead-evidence/UI-0001-B25-before-1440x900.jpg",
+        "runs/worker2-ui9-smoke-b25/detailed-report.md",
+        "runs/worker3-ui9-smoke-cause/all-evidence/"
+      ],
+      "expected_and_acceptance": "Không control/focus che kiến thức, chọn từng số đổi đúng explanation, fit/zoom/pan đủ5size",
+      "owner": "Worker3; root tích hợp",
+      "verified_cause": "Button absolute cố định30/34px trên SVG co theo viewport",
+      "files": [
+        "src/components/learning/InteractiveInfographic.tsx",
+        "src/app/globals.css"
+      ],
+      "after": [
+        "docs/codex-team/ui-review/lead-evidence/UI-0001-B25-after-1440x900.jpg",
+        "runs/worker3-ui10-infographic-auth-fix/all-evidence/actual-tests.json"
+      ],
+      "basis": "hd P9–14; NCKH P121–123/135; yêu cầu rà soát UI của người dùng",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0002",
+      "title": "Tên bài minh họa không khớp đích",
+      "route": "/ → /demo-lesson",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Người dạy chọn sai chủ đề do nhãn B21 dẫn đến B23",
+      "reproduce": "Đọc thẻ minh họa và mở demo",
+      "before": [
+        "docs/codex-team/ui-review/lead-evidence/home-before-1440x900.txt",
+        "docs/codex-team/ui-review/lead-evidence/demo-before-1440x900.txt"
+      ],
+      "expected_and_acceptance": "Tên B23/phóng xạ và link/đích khớp desktop/mobile",
+      "owner": "Codex chính",
+      "verified_cause": "Nhãn trang chủ cũ khác nội dung demo",
+      "files": [
+        "src/app/page.tsx"
+      ],
+      "after": [
+        "Worker2 UI10 draft: đã mở ảnh live mới; còn cần xác nhận click luồng"
+      ],
+      "basis": "hd P9–14; NCKH P121–123/135; yêu cầu rà soát UI của người dùng",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0003",
+      "title": "Công thức Z=N+P sai khoa học",
+      "route": "/; /login; /register",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "severity": "P1",
+      "learning_impact": "Gợi sai quan hệ số proton/neutron/số khối ngay màn hình đầu",
+      "reproduce": "Mở ba trang ở desktop và đọc minh họa",
+      "before": [
+        "docs/codex-team/ui-review/lead-evidence/home-before-1440x900.jpg",
+        "docs/codex-team/ui-review/lead-evidence/login-before-1440x900.jpg",
+        "docs/codex-team/ui-review/lead-evidence/register-before-1440x900.jpg"
+      ],
+      "expected_and_acceptance": "Hiển thị N=A−Z và A=Z+N đúng, không công thức sai ở nơi dùng",
+      "owner": "Codex chính",
+      "verified_cause": "Text trong SVG component dùng chung sai",
+      "files": [
+        "src/components/learning/NuclearScienceIllustration.tsx"
+      ],
+      "after": [
+        "Worker2 UI10 draft: đã mở ảnh live công thức đúng"
+      ],
+      "basis": "Chương trình Vật lí THPT phần cấu trúc hạt nhân, B21 SGK; NCKH nội dung đúng chuyên môn",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0004",
+      "title": "Không chọn vai trò bằng bàn phím",
+      "route": "/login; /register",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Người dùng bàn phím không chọn được GV/HS",
+      "reproduce": "Tab từ đầu form; trước sửa bỏ qua hai vai",
+      "before": [
+        "docs/codex-team/ui-review/lead-evidence/register-before-390x844.jpg",
+        "docs/codex-team/ui-review/lead-evidence/register-before-390x844.txt"
+      ],
+      "expected_and_acceptance": "Tab đến native radio, Arrow/Space đổi checked GV↔HS, focus rõ, hit area44px",
+      "owner": "Worker3",
+      "verified_cause": "CSS .role-selector input display:none loại khỏi focus/AX",
+      "files": [
+        "src/app/globals.css"
+      ],
+      "after": [
+        "runs/worker3-ui10-infographic-auth-fix/all-evidence/actual-tests.json"
+      ],
+      "basis": "hd P9–14; NCKH P121–123/135; yêu cầu rà soát UI của người dùng",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0005",
+      "title": "Vùng bấm điểm tương tác nhỏ",
+      "route": "/hoc-lieu/truc-quan B21–B25",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Khó chạm điểm trên điện thoại; ring có thể che chữ",
+      "reproduce": "Mở hình mobile, chọn điểm số",
+      "before": [
+        "runs/worker3-ui9-smoke-cause/detailed-report.md"
+      ],
+      "expected_and_acceptance": "Mỗi nút ngoài hình ít nhất44x44, focus rõ không cắt/chồng",
+      "owner": "Worker3",
+      "verified_cause": "Pin30/34px cố định và thiếu target44",
+      "files": [
+        "src/components/learning/InteractiveInfographic.tsx",
+        "src/app/globals.css"
+      ],
+      "after": [
+        "runs/worker3-ui10-infographic-auth-fix/all-evidence/actual-tests.json"
+      ],
+      "basis": "hd P9–14; NCKH P121–123/135; yêu cầu rà soát UI của người dùng",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0006",
+      "title": "Zoom desktop không tăng đủ; chữ fit mobile nhỏ",
+      "route": "/hoc-lieu/truc-quan B21–B25",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Dữ liệu/chú thích khó đọc để làm nhiệm vụ",
+      "reproduce": "So fit/zoom, thử Tab/Arrow pan",
+      "before": [
+        "runs/worker3-ui9-smoke-cause/detailed-report.md"
+      ],
+      "expected_and_acceptance": "Zoom tăng kích thước thật, hướng dẫn pan rõ, đi tới các cạnh, thu gọn trả tổng quan đầy đủ",
+      "owner": "Worker3: zoom/UI; root: bảng và công thức chữ B25",
+      "verified_cause": "Min-width1000 cũ nhỏ hơn ảnh desktop1040; mobile SVG thu nhỏ",
+      "files": [
+        "src/components/learning/InteractiveInfographic.tsx",
+        "src/app/globals.css",
+        "src/components/learning/B25ModelData.tsx"
+      ],
+      "after": [
+        "runs/worker3-ui10-infographic-auth-fix/all-evidence/actual-tests.json",
+        "B25 thêm disclosure bảng HTML/công thức/đơn vị; chờ xem ảnh và W2"
+      ],
+      "basis": "hd P9–14; NCKH P121–123/135; yêu cầu rà soát UI của người dùng",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0007",
+      "title": "Trang không mở được thiếu hướng xử lý",
+      "route": "/student/lessons/[lessonId]/before-class và notFound dùng chung",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Người dùng thấy 404 tiếng Anh không biết đăng nhập/mở lại ở đâu",
+      "reproduce": "Truy cập bài với UUID thử khi chưa đăng nhập",
+      "before": [
+        "docs/codex-team/ui-review/lead-evidence/student-gate-390x844.jpg"
+      ],
+      "expected_and_acceptance": "Thông báo tiếng Việt không lộ dữ liệu, có link đăng nhập/kho/trang chủ, đọc và keyboard được ở desktop/mobile",
+      "owner": "Codex chính",
+      "verified_cause": "Chưa có app/not-found, dùng fallback Next",
+      "files": [
+        "src/app/not-found.tsx"
+      ],
+      "after": [
+        "docs/codex-team/ui-review/lead-evidence/UI-0007-not-found-after-390x844.jpg",
+        "docs/codex-team/ui-review/lead-evidence/UI-0007-not-found-after-1440x900.jpg"
+      ],
+      "basis": "hd P9–14; NCKH P121–123/135; yêu cầu rà soát UI của người dùng",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0008",
+      "title": "Trang riêng hiển thị đăng xuất/dữ liệu trống khi chưa đăng nhập",
+      "route": "/student; /student/assignments; /student/curriculum; /student/curriculum/IV; /teacher/classes/new",
+      "role": "công khai/GV/HS theo route",
+      "state": "trạng thái ban đầu và thao tác mô tả dưới đây",
+      "viewports": [
+        "1440x900",
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Nhầm không có bài/lớp với chưa đăng nhập; nhập tạo lớp rồi mới lỗi",
+      "reproduce": "Mở từng URL chưa đăng nhập",
+      "before": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_assignments.txt",
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_curriculum_IV.txt",
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_classes_new.txt"
+      ],
+      "expected_and_acceptance": "Các trang riêng chuyển đăng nhập; kho/chương trình công khai vẫn mở và quyền tổ chức GV giữ nguyên; auth có dữ liệu CHƯA KIỂM riêng",
+      "owner": "Codex chính",
+      "verified_cause": "StudentShell chưa gate; route tạo lớp chưa gọi getTeacherContext",
+      "files": [
+        "src/app/student/StudentShell.tsx",
+        "src/app/teacher/classes/new/page.tsx"
+      ],
+      "after": [
+        "docs/codex-team/ui-review/lead-evidence/UI-0008-after-_student.txt",
+        "docs/codex-team/ui-review/lead-evidence/UI-0008-after-_student_assignments.txt",
+        "docs/codex-team/ui-review/lead-evidence/UI-0008-after-_student_curriculum.txt",
+        "docs/codex-team/ui-review/lead-evidence/UI-0008-after-_student_curriculum_IV.txt",
+        "docs/codex-team/ui-review/lead-evidence/UI-0008-after-_teacher_classes_new.txt"
+      ],
+      "basis": "hd P9–14; NCKH P121–123/135; yêu cầu rà soát UI của người dùng",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM trên phiên bản tích hợp cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0009",
+      "title": "Tab thoát khỏi menu di động đang mở",
+      "route": "/hoc-lieu/ai?bai=B25; PortalShell dùng chung",
+      "role": "HS công khai; shared component",
+      "state": "menu mở/AI gợi ý",
+      "viewports": [
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Focus vào nội dung nền bị che làm người dùng bàn phím lạc vị trí",
+      "reproduce": "Mở menu390; Tab qua nhật kí rồi tới B21 phía sau",
+      "before": [
+        "lead-evidence/UI-0009-menu-tab-before.json",
+        "lead-evidence/UI-0009-menu-tab-before-390x844.jpg"
+      ],
+      "expected_and_acceptance": "Tab/ShiftTab vòng trong menu, Escape đóng và trả focus, các submenu vẫn dùng được; thử HS/GV public tại360/390/768",
+      "owner": "Codex chính (file dùng chung/nội dung)",
+      "verified_cause": "Dialog aria-modal chưa giữ focus và chưa inert nội dung nền",
+      "files": [
+        "src/components/PortalShell.tsx"
+      ],
+      "after": [
+        "lead-evidence/UI-0009-menu-tab-after.json",
+        "lead-evidence/UI-0009-menu-tab-after-390x844.jpg"
+      ],
+      "basis": "Yêu cầu rà soátUI B/F; hd P12–14; NCKH P121–123/135/150",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM phiên bản sau sửa",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0010",
+      "title": "Gợi ý AI chưa phân biệt số liệu tham khảo với đề người học",
+      "route": "/hoc-lieu/ai?bai=B25; AIStudyHelp",
+      "role": "HS công khai; shared component",
+      "state": "menu mở/AI gợi ý",
+      "viewports": [
+        "390x844"
+      ],
+      "severity": "P2",
+      "learning_impact": "Có thể nhầm số liệu H₀151Bq với dữ kiện N₀800hạt đang hỏi",
+      "reproduce": "Gửi câu hỏi N₀800, N(10s)400 và hỏi N/H; phản hồi trích H3 số liệu khác mà chưa ghi ví dụ",
+      "before": [
+        "lead-evidence/AI-live-result-390x844.jpg",
+        "lead-evidence/AI-live-result-390x844.txt"
+      ],
+      "expected_and_acceptance": "Giữ số liệu đề, chỉ rõ đoạn tham khảo; có căn cứ N(t), H=λN, đơn vị; AI không làm thay và ngoài phạm vi không kéo đoạn tùy ý",
+      "owner": "Codex chính (file dùng chung/nội dung)",
+      "verified_cause": "Template trích nguyên đoạn thiếu chỉ dẫn phân biệt ví dụ; B25 theory thiếu quan hệ N/H tổng quát",
+      "files": [
+        "src/lib/local-ai.ts",
+        "src/data/nuclear-learning.json"
+      ],
+      "after": [],
+      "basis": "Yêu cầu rà soátUI B/F; hd P12–14; NCKH P121–123/135/150",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM phiên bản sau sửa",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0100",
+      "title": "Câu nguồn có hai distractor trùng được chọn đề tự động",
+      "route": "/hoc-lieu/ai-giao-vien",
+      "role": "GV công khai",
+      "state": "Ma trận DE-01 đã chọn",
+      "viewports": [
+        "768x1024",
+        "360x800"
+      ],
+      "severity": "P2",
+      "learning_impact": "Giảm ý nghĩa chẩn đoán và chất lượng đề",
+      "reproduce": "Mở ma trận mẫu, Chọn câu theo ma trận DE-01, câu1 B21",
+      "before": [
+        "runs/worker2-ui10-public-teacher-review/all-evidence/UI-0100-final-768.png"
+      ],
+      "expected_and_acceptance": "Nguồn đối chiếu; câu chưa phù hợp bị giữ lại; DE-01 vàDE-02/preview/DOCX không dùng câu21.3; giữ quyền GV biên tập có kiểm tra",
+      "owner": "Codex chính",
+      "verified_cause": "Ảnh SBT KNTT trang71 cũng trùng B/C; transcription đúng nhưng statusready chưa phù hợp dùng đề",
+      "files": [
+        "src/data/workbook-nuclear-transcriptions.json",
+        "src/data/unified-question-bank.json",
+        "src/lib/unified-question-bank.ts",
+        "scripts/curate-workbook-nuclear.py",
+        "tests/unified-question-bank.test.ts",
+        "data/book-bank/unified.json",
+        "data/book-bank/curation-audit.json"
+      ],
+      "after": [
+        "UI-0100-source-review.md",
+        "tests-question-bank.log"
+      ],
+      "basis": "W2 UI10; hd12–14/NCKH135/239; ảnh nguồntrang71",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "W2 UI11 đang thử",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0200",
+      "title": "Nhãn trong cảnh 3D quá nhỏ",
+      "route": "/hoc-lieu?resource=system-sim-nuclear-builder/isotope-size/geiger-decay/reactor-control",
+      "role": "công khai/GV/HS",
+      "state": "khởi đầu, chạy, dừng, tham số, góc nhìn/điểm chọn theo kịch bản",
+      "viewports": [
+        "1440x900",
+        "1280x720",
+        "768x1024",
+        "390x844",
+        "360x800"
+      ],
+      "severity": "P2",
+      "learning_impact": "Cản trở nhận diện đối tượng, quan sát hiện tượng hoặc hoàn thành nhiệm vụ bắt buộc.",
+      "reproduce": "Mở tài nguyên → bắt đầu → tạm dừng → đọc tên và Z/N/A, thay tham số.",
+      "before": [
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/detailed-report.md",
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/all-evidence/system-sim-nuclear-builder-390-fresh.png"
+      ],
+      "expected_and_acceptance": "Nhãn đọc được ở 1440/390/360, có liên hệ rõ với vật thể; không che hiện tượng hoặc đổi mô hình.",
+      "owner": "Worker 3; Codex chính kiểm khoa học và tích hợp",
+      "verified_cause": "Texture chữ theo kích thước thế giới bị thu còn vài pixel.",
+      "files": [
+        "src/components/physics/Simulation3D.tsx",
+        "src/app/globals.css"
+      ],
+      "after": [
+        "docs/codex-team/runs/worker3-ui12b-label-camera-chart-fix/detailed-report.md (mã đã sửa; không có ca browser sau đạt)",
+        "docs/codex-team/runs/worker3-ui13-mcp-focused-retest/ (đang chạy)"
+      ],
+      "basis": "hd P2/6–7; NCKH P84/95/121",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM; chưa có nghiệm thu độc lập trên bản cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0201",
+      "title": "Camera điện thoại cắt đích quan sát",
+      "route": "/hoc-lieu?resource=system-sim-radiation-properties/radiation-safety",
+      "role": "công khai/GV/HS",
+      "state": "khởi đầu, chạy, dừng, tham số, góc nhìn/điểm chọn theo kịch bản",
+      "viewports": [
+        "1440x900",
+        "1280x720",
+        "768x1024",
+        "390x844",
+        "360x800"
+      ],
+      "severity": "P2",
+      "learning_impact": "Cản trở nhận diện đối tượng, quan sát hiện tượng hoặc hoàn thành nhiệm vụ bắt buộc.",
+      "reproduce": "Mở mới 360/390 → bắt đầu → tạm dừng → giữ phối cảnh rồi chọn từ trên; thử min/max và bốn góc nhìn.",
+      "before": [
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/detailed-report.md",
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/all-evidence/system-sim-radiation-properties-360-preset-0.png"
+      ],
+      "expected_and_acceptance": "Đủ nguồn, chắn và đích/marker ở năm size, preset và cực trị; có cách về toàn cảnh, giữ orbit/zoom.",
+      "owner": "Worker 3; Codex chính kiểm khoa học và tích hợp",
+      "verified_cause": "Camera cố định chưa fit bounds theo aspect canvas.",
+      "files": [
+        "src/components/physics/Simulation3D.tsx",
+        "src/app/globals.css"
+      ],
+      "after": [
+        "docs/codex-team/runs/worker3-ui12b-label-camera-chart-fix/detailed-report.md (mã đã sửa; không có ca browser sau đạt)",
+        "docs/codex-team/runs/worker3-ui13-mcp-focused-retest/ (đang chạy)"
+      ],
+      "basis": "hd P7/10; NCKH P121/146",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM; chưa có nghiệm thu độc lập trên bản cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    },
+    {
+      "id": "UI-0202",
+      "title": "Điểm đồ thị năng lượng không chọn được bằng bàn phím",
+      "route": "/hoc-lieu?bai=B22&resource=system-sim-binding-energy",
+      "role": "công khai/GV/HS",
+      "state": "khởi đầu, chạy, dừng, tham số, góc nhìn/điểm chọn theo kịch bản",
+      "viewports": [
+        "1440x900",
+        "1280x720",
+        "768x1024",
+        "390x844",
+        "360x800"
+      ],
+      "severity": "P2",
+      "learning_impact": "Cản trở nhận diện đối tượng, quan sát hiện tượng hoặc hoàn thành nhiệm vụ bắt buộc.",
+      "reproduce": "Tab từ slider đến điểm A56/A235; không điểm nhận focus; circle mobile 3,6–4,1 px.",
+      "before": [
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/detailed-report.md",
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/all-evidence/binding-chart-360-4.png"
+      ],
+      "expected_and_acceptance": "Tab/Enter/Space chọn mọi điểm, >=44px đường chọn thay thế; pressed/giá trị/tiêu chí đồng nhất, chữ/trục/đơn vị đọc được ở năm size.",
+      "owner": "Worker 3; Codex chính kiểm khoa học và tích hợp",
+      "verified_cause": "SVG onClick không có đường thao tác bàn phím; vùng bấm quá nhỏ.",
+      "files": [
+        "src/components/physics/B22Activities.tsx",
+        "src/app/globals.css"
+      ],
+      "after": [
+        "docs/codex-team/runs/worker3-ui12b-label-camera-chart-fix/detailed-report.md (mã đã sửa; không có ca browser sau đạt)",
+        "docs/codex-team/runs/worker3-ui13-mcp-focused-retest/ (đang chạy)"
+      ],
+      "basis": "hd P6–7/13; NCKH P96/121",
+      "status": "CHỜ KIỂM TRA LẠI",
+      "worker2_retest": "CHƯA KIỂM; chưa có nghiệm thu độc lập trên bản cuối",
+      "history": [
+        "MỚI",
+        "ĐANG SỬA",
+        "CHỜ KIỂM TRA LẠI"
+      ]
+    }
+  ],
+  "updated_at": "2026-10-05T14:10:53.509157+00:00"
+}

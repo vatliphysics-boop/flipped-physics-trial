@@ -1,0 +1,22 @@
+{
+  "id": "worker3-ui12-label-camera-chart-fix",
+  "worker": 3,
+  "mode": "fix",
+  "timeout_seconds": 900,
+  "browser_mcp": true,
+  "allowed_files": [
+    "src/components/physics/Simulation3D.tsx",
+    "src/components/physics/B22Activities.tsx",
+    "src/app/globals.css"
+  ],
+  "previous_runs": [
+    "worker3-ui11-all-simulations-review"
+  ],
+  "context_files": [
+    "docs/codex-team/runs/worker3-ui11-all-simulations-review/detailed-report.md",
+    "docs/codex-team/ui-review/version-ui12-lead.json",
+    "docs/codex-team/ui-review/ROOT_UI12_RETEST_BRIEF.md",
+    "docs/codex-team/ui-review/simulations.json"
+  ],
+  "task": "UI11 process TIMED_OUT nhưngreport-final/112groups/snapshots đãthuhoidurable, khônglặplạifull17quét. Sửa3issue UI0200/201/202 trongCHỈ3fileallowed. Root đãxemảnhbuildermobile/isotopecanvas vàDUYỆT thay đổi trìnhbày nhãn/camera; tên/kíhiệu/giátrị/môhình vật lí giữ nguyên. Root khôngsửa3filetrongjobnày. ĐọcAGENTS/Next relevant trướccode. UI0200: nhãnworldsprite28fonttexture512x80scale2.9x0.45 chỉfewpixels. Chấpnhận chúgiải chữ≥14px ngoài canvas có liênhệ rõtừngvật: phươngán rootDUYỆT là marker số khôngtươngtác trongcảnh +legend cùngsố ngoài canvas, nội dunglabel lấyđúngexistingstrings; marker số đọcđược kíchthướcmàn hình (sizeAttenuationfalse/adaptive theoheight/FOV, không đểbarwidth512 chevật). Có thểphươngánkhác nếuđạt đọc+association khôngchephenomena. Khôngchỉtăngcanvasresolutionkhôngtăngscreenfont. Legend cậpnhật khiZ/N/mode thayđổi; font/linewrapmobile; giữunits/limits. UI0201: fit camera/preset theo bounds apparatus/labelanchors vàaspect canvas, excludegridhelper; resize/start/parameterextremes khôngcắtmất đích ởradiationproperties/safety360/390 và4presets. Giữrayphysics/worldcoords; cónút vềtoàncảnh hoặcpresetđãfit. Chọnpadding/cameraminmax phùhợp giữzoom/drag, khôngautofit mỗiframecướpthaotácuser. UI0202: g/circler4khôngkeyboard; rootDUYỆT danh sáchbutton tên+hạt nhân+giátrị ngoàiđồ thị dùngsamehandlerstate, ≥44taptarget, aria-pressed/focus; Fe56/U235 vàtấtcảđiểm cầnchọn. Đồthị giữgeometry/data; nếuSVGlabelsnhỏmobile phải cóbảng/danh sách rõtrục/đơnvị/values, khôngbịa. Khôngthaybindingformula/scientificlabels.\nTestfocused: labelbuilder/isotope/geiger/reactor desktop/mobile +extremes; radiationproperties/safety đủ5size4preset+minmaxslider; chartB22 đủ5size TabEnter/SpaceFe56/U235 cậpnhậttooltip/criterionexact. Mở BEFORE ảnhUI11durable vàAFTERphoto thật; chụpviewport/canvas/legend rõ. Smoke all16Simulation3D +fissionkhôngchungcơchế khôngphảitestsfullcontrolsagain. Tuyệtđốikhôngchạy thêm25phút fullscan trướcbáocáo; ngay sau sửa lưureportdraft/hash/filelist, ưu tiênảnhrootcầnreview+focusedchecks, reportfinaltrướctimer15phút. GhiđúngcaCHƯAKIỂM. W2 sẽreview độc lập. Có codehelper từUI11 TMPct-w3-x7ZyQr nhưngread-only bằngchứng không sửa chúng; copyTMPmới khi cần. Source root7fixesđộclập/header/AI/Table khác khôngquythuộcchojob. DịchvụOllamađãkhởiđộng127.0.0.1 nênkhônggọiAIhayloadmodeltrongUIjob. NoDOCX/DB/env/secret/commit/production/reset."
+}

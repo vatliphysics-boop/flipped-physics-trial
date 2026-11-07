@@ -2,7 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { StudentShell } from "../../StudentShell";
 import { createClient } from "@/lib/supabase/server";
-import { getCurriculumChapter, CHAPTER_TOPIC_TITLES, type CurriculumChapterCode } from "@/lib/curriculum";
+import { getCurriculumChapter, CHAPTER_TOPIC_TITLES, getCurriculumLessonByTitle, type CurriculumChapterCode } from "@/lib/curriculum";
 
 export default async function StudentChapterPage({ params }: { params: Promise<{ chapterCode: string }> }) {
   const { chapterCode } = await params;
@@ -37,7 +37,7 @@ export default async function StudentChapterPage({ params }: { params: Promise<{
 
   // Map published DB lessons by normalized title so fixed-catalog rows can match them.
   const lessonByTitle = new Map(
-    (publishedLessons ?? []).map((lesson) => [lesson.title.trim().toLowerCase(), lesson]),
+    (publishedLessons ?? []).map((lesson) => [getCurriculumLessonByTitle(lesson.title, chapter.code)?.code ?? "", lesson]),
   );
 
   const lessonIds = (publishedLessons ?? []).map((lesson) => lesson.id);
@@ -54,28 +54,13 @@ export default async function StudentChapterPage({ params }: { params: Promise<{
   }
 
   return (
-    <StudentShell active="curriculum" eyebrow="Vật lí 12" title={chapter.title} description="">
-      <div className="chapter-detail" style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 0" }}>
+    <StudentShell active="curriculum" eyebrow={`Vật lí 12 · Chương ${chapter.code}`} title={chapter.shortTitle} description={`${chapter.lessons.length} bài học. Mở bài do giáo viên giao để bắt đầu học.`}>
+      <div className="chapter-detail" style={{ maxWidth: "800px", margin: "0 auto", padding: "0 0 24px" }}>
         
-        {/* Breadcrumb & Header */}
-        <div style={{ marginBottom: "48px" }}>
-          <div style={{ display: "flex", gap: "8px", fontSize: "14px", color: "var(--text-muted)", marginBottom: "16px" }}>
-            <Link href="/student" style={{ textDecoration: "none", color: "inherit" }}>Vật lí 12</Link>
-            <span>/</span>
-            <Link href="/student/curriculum" style={{ textDecoration: "none", color: "inherit" }}>Chương {chapter.code}</Link>
-          </div>
-          <h1 style={{ fontSize: "36px", margin: "0 0 16px", color: "var(--text-primary)", fontWeight: 600, letterSpacing: "-0.02em", textTransform: "uppercase" }}>
-            {chapter.shortTitle}
-          </h1>
-          <div style={{ fontSize: "16px", color: "var(--text-secondary)" }}>
-            {chapter.lessons.length} bài học
-          </div>
-        </div>
-
         {/* Lesson List */}
         <div className="lesson-list" style={{ display: "flex", flexDirection: "column" }}>
           {chapter.lessons.map((fixedLesson) => {
-            const lesson = lessonByTitle.get(fixedLesson.title.trim().toLowerCase());
+            const lesson = lessonByTitle.get(fixedLesson.code);
             const state = lesson ? progressByLesson.get(lesson.id) : undefined;
             const status = !lesson ? "Chưa mở" : state?.complete ? "Đã hoàn thành" : state?.started ? "Đang học" : "Chưa bắt đầu";
             

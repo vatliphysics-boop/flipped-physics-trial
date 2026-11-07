@@ -1,8 +1,12 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 import { randomInt } from "node:crypto";
 import { createClient } from "@/lib/supabase/server";
+import { getChapterByTopicTitle, getCurriculumLessonByTitle, type NuclearPhysicsLessonCode } from "@/lib/curriculum";
+import { getNuclearSequence } from "@/lib/nuclear-learning-sequence";
+import { prepareNuclearLesson } from "@/lib/nuclear-lesson-seed";
 import { classifyVideoSource, YOUTUBE_VIDEO_ERROR } from "@/lib/video-source";
 
 export type CreateClassState = {
@@ -13,6 +17,8 @@ export type CreateClassState = {
 export type ManageClassState = {
   error?: string;
   message?: string;
+  joinCode?: string;
+  removedStudentId?: string;
 };
 
 export type CreateLessonState = {
@@ -22,7 +28,6 @@ export type CreateLessonState = {
 
 export type SetupLessonState = {
   error?: string;
-  lessonId?: string;
 };
 
 export type LessonMaterialState = {
@@ -516,19 +521,19 @@ export async function setupLessonAction(
     return { error: `Lỗi không xác định khi tải chủ đề.` };
   }
 
-  // Idempotency check — return existing lesson if already created.
-  const { data: existing } = await supabase
-    .from("lessons")
-    .select("id")
-    .eq("teacher_id", user.id)
-    .eq("class_id",   classId)
-    .eq("topic_id",   topic.id)
-    .eq("title",      lessonTitle)
-    .maybeSingle();
+  const chapter = getChapterByTopicTitle(topicTitle);
+  const course = getCurriculumLessonByTitle(lessonTitle, chapter?.code);
+  const { data: existingLessons, error: lessonsLookupError } = await supabase
+    .from("lessons").select("id,title")
+    .eq("teacher_id", user.id).eq("class_id", classId).eq("topic_id", topic.id);
+  if (lessonsLookupError) return { error: "Chưa kiểm tra được bài học hiện có." };
+  const existing = existingLessons?.find(lesson =>
+    course ? getCurriculumLessonByTitle(lesson.title, chapter?.code)?.code === course.code : lesson.title === lessonTitle
+  );
 
   if (existing) {
     revalidatePath("/teacher/curriculum");
-    return { lessonId: existing.id };
+    redirect(`/teacher/lessons/${existing.id}`);
   }
 
   // Create the lesson row.
@@ -549,29 +554,34 @@ export async function setupLessonAction(
     return { error: `Không thể tạo bài học: ${insertErr?.message ?? "Lỗi không xác định."}` };
   }
 
-  // Seed catalog content automatically on first creation.
-  // lessonTitle here is the short title from curriculum.ts ("Cấu trúc hạt nhân"),
-  // NOT the DB-stored title forced by migration 011's trigger ("Bài 21. Cấu trúc hạt nhân").
-  // The seed functions have idempotency guards so double-calling is safe.
-  if (lessonTitle === "Cấu trúc hạt nhân") {
-    const { seedB21Catalog } = await import("@/lib/catalog-b21");
-    await seedB21Catalog(supabase, created.id, user.id);
-  } else if (lessonTitle === "Phản ứng hạt nhân và năng lượng liên kết") {
-    const { seedB22Catalog } = await import("@/lib/catalog-b22");
-    await seedB22Catalog(supabase, created.id, user.id);
-  } else if (lessonTitle === "Hiện tượng phóng xạ") {
-    const { seedB23Catalog } = await import("@/lib/catalog-b23");
-    await seedB23Catalog(supabase, created.id, user.id);
-  } else if (lessonTitle === "Công nghiệp hạt nhân") {
-    const { seedB24Catalog } = await import("@/lib/catalog-b24");
-    await seedB24Catalog(supabase, created.id, user.id);
-  } else if (lessonTitle === "Bài tập về vật lí hạt nhân") {
-    const { seedB25Catalog } = await import("@/lib/catalog-b25");
-    await seedB25Catalog(supabase, created.id, user.id);
+  if (course && getNuclearSequence(course.code)) {
+    try {
+      await prepareNuclearLesson(supabase, created.id, course.code as NuclearPhysicsLessonCode);
+    } catch (error) {
+      // The saved lesson still opens. The overview can safely retry missing parts.
+      console.error("Chưa tạo đủ tiến trình mẫu:", error);
+    }
   }
 
   revalidatePath("/teacher/curriculum");
-  return { lessonId: created.id };
+  revalidatePath("/teacher/lessons");
+  redirect(`/teacher/lessons/${created.id}`);
+}
+
+export async function toggleLessonStatusAction(formData: FormData): Promise<void> {
+  const lessonId = readText(formData, "lesson_id");
+  const status = readText(formData, "status");
+  if (!lessonId || (status !== "draft" && status !== "published")) return;
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return;
+  await supabase.from("lessons").update({ status }).eq("id", lessonId).eq("teacher_id", user.id);
+  revalidatePath("/teacher");
+  revalidatePath("/teacher/curriculum");
+  revalidatePath(`/teacher/lessons/${lessonId}`);
+  revalidatePath("/student");
+  revalidatePath("/student/curriculum");
+  revalidatePath(`/student/lessons/${lessonId}`);
 }
 
 export async function createLessonAction(
@@ -692,6 +702,8 @@ export async function updateClassAction(
   if (updateError) return { error: "Không thể cập nhật lớp học. Vui lòng thử lại." };
 
   revalidatePath("/teacher");
+  revalidatePath("/teacher/classes");
+  revalidatePath(`/teacher/classes/${classId}`);
   return { message: "Cập nhật lớp học thành công." };
 }
 
@@ -717,7 +729,9 @@ export async function regenerateJoinCodeAction(
 
     if (!updateError) {
       revalidatePath("/teacher");
-      return { message: "Đã tạo mã lớp mới. Mã cũ không còn hiệu lực." };
+      revalidatePath("/teacher/classes");
+      revalidatePath(`/teacher/classes/${classId}`);
+      return { message: "Đã tạo mã lớp mới. Mã cũ không còn hiệu lực.", joinCode: newCode };
     }
 
     if (updateError.code !== "23505") {
@@ -753,6 +767,8 @@ export async function deleteClassAction(
   if (deleteError) return { error: "Không thể xóa lớp học. Vui lòng thử lại." };
 
   revalidatePath("/teacher");
+  revalidatePath("/teacher/classes");
+  revalidatePath(`/teacher/classes/${classId}`);
   return { message: "Đã xóa lớp học thành công." };
 }
 
@@ -792,5 +808,7 @@ export async function removeStudentFromClassAction(
   if (deleteError) return { error: "Không thể mời học sinh khỏi lớp. Vui lòng thử lại." };
 
   revalidatePath("/teacher");
-  return { message: "Đã mời học sinh khỏi lớp." };
+  revalidatePath("/teacher/classes");
+  revalidatePath(`/teacher/classes/${classId}`);
+  return { message: "Đã mời học sinh khỏi lớp.", removedStudentId: studentId };
 }

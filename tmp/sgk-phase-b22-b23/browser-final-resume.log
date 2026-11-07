@@ -1,0 +1,21 @@
+START B22
+B22 after-class student phase opened
+B22 after-class student step saved after reload
+PASS B22 after-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+START B23
+B23 setting up from teacher card
+B23 teacher lesson opened
+B23 before-class teacher pathway loaded
+B23 in-class teacher pathway loaded
+B23 after-class teacher pathway loaded
+HTTP 404 /student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class
+B23 before-class student phase opened
+B23 before-class student step saved after reload
+PASS B23 before-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B23 in-class student phase opened
+B23 in-class student step saved after reload
+PASS B23 in-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B23 after-class student phase opened
+B23 after-class student step saved after reload
+PASS B23 after-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+PASS: class QA only; second student outside the test class cannot access the lessons.

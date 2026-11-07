@@ -1,0 +1,9 @@
+PASS: escaped dollars render as text; invalid formulas show a friendly error.
+PASS: full preview opens above editor and returns with unsaved content intact.
+PASS: closing after preview still warns about unsaved changes.
+PASS: saving locks inputs; a network failure preserves edits and allows retry.
+PASS: retry saves successfully; LaTeX and newlines survive reload.
+PASS: mobile editor and preview fit a 390px viewport.
+PASS: student sees the saved formulas and text; no uncaught browser errors.
+RESTORED: original fixture instructions verified after reload.
+All step-editor checks passed. Screenshots: /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-lab-qa/editor

@@ -1,0 +1,130 @@
+- generic [ref=e1]:
+  - alert [ref=e142]
+  - generic [ref=e143]:
+    - link "Đi đến nội dung chính" [ref=e144] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e145]:
+      - generic [ref=e146]:
+        - button "Mở menu" [ref=e283] [cursor=pointer]:
+          - generic [ref=e284]: ☰
+        - link "Học liệu Vật lí 12" [ref=e149] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=e151] [cursor=pointer]:
+        - /url: /login
+    - main [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=e183]
+            - paragraph [ref=e184]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=e185]:
+            - button "Chế độ trình chiếu" [ref=e186] [cursor=pointer]
+            - link "Toàn bộ kho học liệu" [ref=e187] [cursor=pointer]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=e188]:
+          - link "B21 Cấu trúc hạt nhân" [ref=e189] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=e190]: B21
+            - strong [ref=e191]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=e192] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=e193]: B22
+            - strong [ref=e194]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=e195] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=e196]: B23
+            - strong [ref=e197]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=e198] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=e199]: B24
+            - strong [ref=e200]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=e201] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=e202]: B25
+            - strong [ref=e203]: Thực hành bán rã
+        - generic [ref=e204]:
+          - generic [ref=e205]: B25
+          - generic [ref=e206]:
+            - heading "Thực hành đo chu kì bán rã" [level=2] [ref=e207]
+            - paragraph [ref=e208]: Đọc số liệu phóng xạ, vẽ đồ thị và xác định chu kì bán rã trong mô hình thực hành.
+        - paragraph [ref=e209]:
+          - link "Hỏi AI về bài B25 ↗" [ref=e210] [cursor=pointer]:
+            - /url: /hoc-lieu/ai?bai=B25
+          - generic [ref=e211]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=e212]:
+          - button "01 Đọc hình Chạm để khám phá" [pressed] [ref=e213] [cursor=pointer]:
+            - generic [ref=e214]: "01"
+            - strong [ref=e215]: Đọc hình
+            - generic [ref=e216]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=e217] [cursor=pointer]:
+            - generic [ref=e218]: "02"
+            - strong [ref=e219]: Thao tác 3D
+            - generic [ref=e220]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=e221] [cursor=pointer]:
+            - generic [ref=e222]: "03"
+            - strong [ref=e223]: Xem video
+            - generic [ref=e224]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=e225] [cursor=pointer]:
+            - generic [ref=e226]: "04"
+            - strong [ref=e227]: Ghi & giải thích
+            - generic [ref=e228]: Chuẩn bị cho giờ học
+        - generic [ref=e229]:
+          - region "Infographic Thực hành đo chu kì bán rã" [ref=e230]:
+            - generic [ref=e231]:
+              - generic [ref=e232]: Chọn điểm có số và tiêu đề bên dưới hình để đọc quan sát và giải thích.
+              - button "Phóng to hình" [ref=e233] [cursor=pointer]
+            - region "Hình tổng quan" [ref=e234]:
+              - 'img "Thực hành đo chu kì bán rã. Bảng số liệu: Mô hình có N₀ = 800, N(T) = 400, N(2T) = 200. Đọc đồ thị: Đường N(t) giảm theo hàm mũ; không phải đường thẳng. Phân biệt N và H: H = λN có cùng xu hướng giảm khi λ không đổi." [ref=e236]'
+            - paragraph [ref=e237]: Hình tổng quan hiển thị toàn bộ sơ đồ. Nếu chữ hoặc dữ liệu nhỏ, chọn Phóng to hình để đọc chi tiết và cuộn; hoặc mở Xem hình lớn bên dưới.
+            - generic "Đọc từng điểm trên hình" [ref=e238]:
+              - button "1. Bảng số liệu" [ref=e239] [cursor=pointer]
+              - button "2. Đọc đồ thị" [active] [pressed] [ref=e240] [cursor=pointer]
+              - button "3. Phân biệt N và H" [ref=e241] [cursor=pointer]
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - text: Quan sát
+                - paragraph [ref=e244]: Đường N(t) giảm theo hàm mũ; không phải đường thẳng.
+              - generic [ref=e245]:
+                - text: Giải thích
+                - paragraph [ref=e246]: N(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.
+            - group [ref=e247]:
+              - generic "Điểm dễ nhầm và giới hạn của hình" [ref=e248] [cursor=pointer]
+            - generic [ref=e249]:
+              - group "Ban đầu có 800 hạt. Số hạt kì vọng còn lại sau 3T là bao nhiêu?" [ref=e250]:
+                - generic [ref=e252]:
+                  - generic [ref=e253] [cursor=pointer]:
+                    - radio "400" [ref=e254]
+                    - generic [ref=e255]: "400"
+                  - generic [ref=e256] [cursor=pointer]:
+                    - radio "200" [ref=e257]
+                    - generic [ref=e258]: "200"
+                  - generic [ref=e259] [cursor=pointer]:
+                    - radio "100" [ref=e260]
+                    - generic [ref=e261]: "100"
+              - status [ref=e262]: Chưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.
+              - button "Kiểm tra nhận định" [disabled] [ref=e263] [cursor=pointer]
+            - group "Tải và xem hình minh họa" [ref=e264]:
+              - generic [ref=e265]:
+                - link "Tải hình dùng trong bài giảng" [ref=e266] [cursor=pointer]:
+                  - /url: /illustrations/B25-diagram.png
+                - paragraph [ref=e267]: Ảnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.
+              - generic [ref=e268]:
+                - link "Tải hình để chỉnh sửa" [ref=e269] [cursor=pointer]:
+                  - /url: /illustrations/B25-diagram.svg
+                - paragraph [ref=e270]: Hình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.
+              - generic [ref=e271]:
+                - link "Xem hình lớn ↗" [ref=e272] [cursor=pointer]:
+                  - /url: /illustrations/B25-diagram.svg
+                - paragraph [ref=e273]: Mở hình trong tab mới để đọc rõ chữ và xem các chi tiết.
+          - generic [ref=e274]:
+            - generic [ref=e275]: Chạm để khám phá
+            - 'button "Tiếp: Thao tác 3D" [ref=e276] [cursor=pointer]'
+        - group [ref=e277]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=e278] [cursor=pointer]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=e285]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=e279]:
+          - generic "Nguồn học liệu" [ref=e280] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=e281]:
+      - button "Mở khung AI học tập" [ref=e282] [cursor=pointer]: AI

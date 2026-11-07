@@ -1,0 +1,11 @@
+{
+  "id": "worker3-round2",
+  "worker": 3,
+  "mode": "review",
+  "timeout_seconds": 1000,
+  "previous_runs": [
+    "worker3-round1b"
+  ],
+  "task": "Vòng 2: dùng MCP team_browser sẵn trong tools, KHÔNG khởi chạy browser qua shell nữa (macOS chặn MachPort). MCP Playwright chạy host riêng, Chrome đã cài, isolated không lấy session người dùng. Workspace read-only, ảnh ở TMP riêng. Không đăng nhập/tạo tài khoản/ghi DB chưa xác minh. Vòng 1: runner đã cấp mạng và TMP writable với workspace read-only. Dùng bundled Playwright module ở cuối prompt, chụp ảnh TMP. Thử desktop 1280 và mobile 390, keyboard, kho/3D B22/visual-learning/teacher tools công khai qua điều hướng hiển thị. Nêu lỗi UX tái hiện, tác động và exact files đề xuất sửa. Không sửa khoa học hay file. Không lặp kết luận thiếu Playwright vì module đã xác minh có thật.",
+  "browser_mcp": true
+}

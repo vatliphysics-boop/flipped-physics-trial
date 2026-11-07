@@ -1,0 +1,28 @@
+
+> nuclear-lesson-video-renderer@1.0.0 render
+> node render.mjs B25
+
+Remotion bundle · 6%
+Remotion bundle · 21%
+Remotion bundle · 43%
+Remotion bundle · 65%
+Remotion bundle · 81%
+Remotion bundle · 100%
+B25 · render 320 khung chuyển động qua Remotion
+ProtocolError: Protocol error (Page.bringToFront): Target closed. https://www.remotion.dev/docs/target-closed
+    at CDPSession._onClosed (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:1867:36)
+    at #onMessage (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:1746:17)
+    at WebSocket.<anonymous> (file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/@remotion/renderer/dist/esm/index.mjs:3896:24)
+    at callListener (/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onMessage (/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/ws/lib/event-target.js:209:9)
+    at WebSocket.emit (node:events:514:28)
+    at Receiver.receiverOnMessage (/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/ws/lib/websocket.js:1239:20)
+    at Receiver.emit (node:events:514:28)
+    at Receiver.dataMessage (/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/ws/lib/receiver.js:650:14)
+    at Receiver.getData (/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/nuclear-videos/node_modules/ws/lib/receiver.js:534:10) {
+  code: undefined,
+  originalMessage: ''
+}
+B25 · 120/320
+B25 · 240/320
+B25 · 1920×1080, 30 fps, 60.000000 s · b25.mp4

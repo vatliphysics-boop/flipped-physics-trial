@@ -1,0 +1,239 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - link "Đi đến nội dung chính" [ref=f1e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - button "Ẩn menu" [expanded] [ref=f1e6] [cursor=pointer]:
+          - generic [ref=f1e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f1e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=f1e10] [cursor=pointer]:
+        - /url: /login
+    - generic [ref=f1e11]:
+      - complementary "Thanh điều hướng" [ref=f1e12]:
+        - navigation "Điều hướng chính" [ref=f1e13]:
+          - generic [ref=f1e14]:
+            - button "Học liệu" [expanded] [ref=f1e15] [cursor=pointer]:
+              - text: Học liệu
+              - generic [ref=f1e16]: ▲
+            - generic "Danh mục học liệu" [ref=f1e17]:
+              - link "Học theo hình · 3D · Video" [ref=f1e18] [cursor=pointer]:
+                - /url: /hoc-lieu/truc-quan
+              - link "Hình thức lớp học đảo ngược" [ref=f1e19] [cursor=pointer]:
+                - /url: /hoc-lieu/lop-hoc-dao-nguoc
+              - link "Tất cả học liệu" [ref=f1e20] [cursor=pointer]:
+                - /url: /hoc-lieu
+              - link "Ảnh tĩnh & Sơ đồ" [ref=f1e21] [cursor=pointer]:
+                - /url: /hoc-lieu?type=image
+              - link "Ảnh động & Minh họa" [ref=f1e22] [cursor=pointer]:
+                - /url: /hoc-lieu?type=animation
+              - link "Video thực tế / Thí nghiệm" [ref=f1e23] [cursor=pointer]:
+                - /url: /hoc-lieu?type=real_video
+              - link "Video bài giảng" [ref=f1e24] [cursor=pointer]:
+                - /url: /hoc-lieu?type=lecture_video
+              - link "Thí nghiệm 3D tương tác" [ref=f1e25] [cursor=pointer]:
+                - /url: /hoc-lieu?type=simulation
+              - link "PDF / Phiếu học tập" [ref=f1e26] [cursor=pointer]:
+                - /url: /hoc-lieu?type=document
+              - link "Câu hỏi & Nhiệm vụ" [ref=f1e27] [cursor=pointer]:
+                - /url: /hoc-lieu?type=colab
+              - link "Đề giữa kỳ & Cuối kỳ" [ref=f1e28] [cursor=pointer]:
+                - /url: /hoc-lieu?type=assessment
+          - link "Học với AI" [ref=f1e29] [cursor=pointer]:
+            - /url: /hoc-lieu/ai
+          - link "Tổng quan" [ref=f1e30] [cursor=pointer]:
+            - /url: /student
+          - link "Lớp học của em" [ref=f1e31] [cursor=pointer]:
+            - /url: /student/classes
+          - button "Chương trình Vật lí 12" [ref=f1e33] [cursor=pointer]:
+            - text: Chương trình Vật lí 12
+            - generic [ref=f1e34]: ▼
+          - link "Bài tập và kiểm tra" [ref=f1e35] [cursor=pointer]:
+            - /url: /student/assignments
+          - link "Nhật kí học tập" [ref=f1e36] [cursor=pointer]:
+            - /url: /student/journal
+      - main [ref=f1e37]:
+        - generic [ref=f1e38]:
+          - generic [ref=f1e39]:
+            - generic [ref=f1e40]:
+              - paragraph [ref=f1e41]: "Chương 4: Vật lí hạt nhân · B21–B25"
+              - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=f1e42]
+              - paragraph [ref=f1e43]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+            - generic [ref=f1e44]:
+              - button "Chế độ trình chiếu" [ref=f1e45] [cursor=pointer]
+              - link "Toàn bộ kho học liệu" [ref=f1e46] [cursor=pointer]:
+                - /url: /hoc-lieu
+          - navigation "Chọn bài học" [ref=f1e47]:
+            - link "B21 Cấu trúc hạt nhân" [ref=f1e48] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B21
+              - generic [ref=f1e49]: B21
+              - strong [ref=f1e50]: Cấu trúc hạt nhân
+            - link "B22 Phản ứng hạt nhân" [ref=f1e51] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B22
+              - generic [ref=f1e52]: B22
+              - strong [ref=f1e53]: Phản ứng hạt nhân
+            - link "B23 Hiện tượng phóng xạ" [ref=f1e54] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B23
+              - generic [ref=f1e55]: B23
+              - strong [ref=f1e56]: Hiện tượng phóng xạ
+            - link "B24 Công nghiệp hạt nhân" [ref=f1e57] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B24
+              - generic [ref=f1e58]: B24
+              - strong [ref=f1e59]: Công nghiệp hạt nhân
+            - link "B25 Thực hành bán rã" [ref=f1e60] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B25
+              - generic [ref=f1e61]: B25
+              - strong [ref=f1e62]: Thực hành bán rã
+          - generic [ref=f1e63]:
+            - generic [ref=f1e64]: B22
+            - generic [ref=f1e65]:
+              - heading "Phản ứng hạt nhân & năng lượng liên kết" [level=2] [ref=f1e66]
+              - paragraph [ref=f1e67]: Mô tả phân hạch, nhiệt hạch và dùng bảo toàn A, Z để kiểm tra phương trình.
+          - paragraph [ref=f1e68]:
+            - link "Hỏi AI về bài B22 ↗" [ref=f1e69] [cursor=pointer]:
+              - /url: /hoc-lieu/ai?bai=B22
+            - generic [ref=f1e70]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+          - navigation "Cách học bài này" [ref=f1e71]:
+            - button "01 Đọc hình Chạm để khám phá" [ref=f1e72] [cursor=pointer]:
+              - generic [ref=f1e73]: "01"
+              - strong [ref=f1e74]: Đọc hình
+              - generic [ref=f1e75]: Chạm để khám phá
+            - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [pressed] [ref=f1e76] [cursor=pointer]:
+              - generic [ref=f1e77]: "02"
+              - strong [ref=f1e78]: Thao tác 3D
+              - generic [ref=f1e79]: Dự đoán rồi kiểm tra
+            - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=f1e80] [cursor=pointer]:
+              - generic [ref=f1e81]: "03"
+              - strong [ref=f1e82]: Xem video
+              - generic [ref=f1e83]: Theo câu hỏi dẫn dắt
+            - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=f1e84] [cursor=pointer]:
+              - generic [ref=f1e85]: "04"
+              - strong [ref=f1e86]: Ghi & giải thích
+              - generic [ref=f1e87]: Chuẩn bị cho giờ học
+          - generic [ref=f1e88]:
+            - region "Mô phỏng phân hạch" [ref=f1e153]:
+              - generic [ref=f1e155]:
+                - generic [ref=f1e156]: B22 · Phản ứng hạt nhân
+                - heading "Mô phỏng phân hạch U-235" [level=3] [ref=f1e157]
+                - paragraph [ref=f1e158]: Dự đoán số neutron sinh ra, nhấn bắt đầu rồi xoay mô hình để kiểm tra.
+              - generic [ref=f1e159]:
+                - generic [ref=f1e160]:
+                  - generic [ref=f1e161]: ¹n + ²³⁵U
+                  - paragraph [ref=f1e162]: Một phản ứng, bốn bước quan sát.Mỗi quả cầu biểu diễn một nucleon.
+                  - button "Bắt đầu thí nghiệm 3D" [ref=f1e163] [cursor=pointer]
+                - generic [ref=f1e164]:
+                  - generic [ref=f1e165]: Proton
+                  - generic [ref=f1e167]: Neutron
+                  - generic [ref=f1e169]: Màu, kích thước và thời gian quy ước
+              - status [ref=f1e170]: "Trước phản ứng: U-235 (92p, 143n) + 1 neutron tới."
+              - generic [ref=f1e171]:
+                - button "Tiếp tục" [disabled] [ref=f1e172] [cursor=pointer]
+                - button "Đặt lại thí nghiệm" [ref=f1e173] [cursor=pointer]
+                - generic [ref=f1e174]:
+                  - text: Tốc độ
+                  - combobox "Tốc độ" [ref=f1e175]:
+                    - option "Chậm · 0,5×"
+                    - option "1×" [selected]
+                    - option "2×"
+              - generic "Các bước phân hạch" [ref=f1e176]:
+                - button "01 Neutron tới" [disabled] [pressed] [ref=f1e177]:
+                  - generic [ref=f1e178]: "01"
+                  - text: Neutron tới
+                - button "02 Hấp thụ neutron" [disabled] [ref=f1e179]:
+                  - generic [ref=f1e180]: "02"
+                  - text: Hấp thụ neutron
+                - button "03 Hạt nhân biến dạng" [disabled] [ref=f1e181]:
+                  - generic [ref=f1e182]: "03"
+                  - text: Hạt nhân biến dạng
+                - button "04 Mảnh phân hạch tách ra" [disabled] [ref=f1e183]:
+                  - generic [ref=f1e184]: "04"
+                  - text: Mảnh phân hạch tách ra
+              - generic [ref=f1e185]:
+                - text: Xem lại thời điểm · 0.0 / 8 s mô hình
+                - slider "Thời điểm phân hạch" [disabled] [ref=f1e186] [cursor=pointer]: "0"
+              - status [ref=f1e187]:
+                - strong [ref=f1e188]: Neutron tới.
+                - text: "Một neutron tới gần U-235. Trước phản ứng: 235 + 1 nucleon, 92 proton."
+              - generic "Góc nhìn phân hạch" [ref=f1e189]:
+                - button "Phối cảnh" [disabled] [pressed] [ref=f1e190] [cursor=pointer]
+                - button "Phía trước" [disabled] [ref=f1e191] [cursor=pointer]
+                - button "Từ trên" [disabled] [ref=f1e192] [cursor=pointer]
+                - button "Bên cạnh" [disabled] [ref=f1e193] [cursor=pointer]
+              - paragraph [ref=f1e194]: Kéo một ngón tay/chuột để xoay; chụm hai ngón/cuộn để thu phóng. Mô hình dừng sau một lượt, không tự khởi động lại.
+              - generic "Phương trình phân hạch" [ref=f1e195]:
+                - generic [ref=f1e196]:
+                  - generic "n, số khối 1, số proton 0" [ref=f1e197]:
+                    - generic:
+                      - superscript: "1"
+                      - subscript: "0"
+                    - generic [ref=f1e198]: "n"
+                  - text: +
+                  - generic "U, số khối 235, số proton 92" [ref=f1e199]:
+                    - generic:
+                      - superscript: "235"
+                      - subscript: "92"
+                    - generic [ref=f1e200]: U
+                - generic [ref=f1e201]: →
+                - generic "U*, số khối 236, số proton 92" [ref=f1e203]:
+                  - generic:
+                    - superscript: "236"
+                    - subscript: "92"
+                  - generic [ref=f1e204]: U*
+                - generic [ref=f1e205]: →
+                - generic [ref=f1e206]:
+                  - generic "Y, số khối 95, số proton 39" [ref=f1e207]:
+                    - generic:
+                      - superscript: "95"
+                      - subscript: "39"
+                    - generic [ref=f1e208]: "Y"
+                  - text: +
+                  - generic "I, số khối 138, số proton 53" [ref=f1e209]:
+                    - generic:
+                      - superscript: "138"
+                      - subscript: "53"
+                    - generic [ref=f1e210]: I
+                  - text: + 3
+                  - generic "n, số khối 1, số proton 0" [ref=f1e211]:
+                    - generic:
+                      - superscript: "1"
+                      - subscript: "0"
+                    - generic [ref=f1e212]: "n"
+              - generic [ref=f1e213]:
+                - generic [ref=f1e214]:
+                  - generic [ref=f1e215]: Bảo toàn số khối
+                  - strong [ref=f1e216]: 235 + 1 = 95 + 138 + 3 = 236
+                - generic [ref=f1e217]:
+                  - generic [ref=f1e218]: Bảo toàn điện tích
+                  - strong [ref=f1e219]: 92 + 0 = 39 + 53 + 0 = 92
+              - paragraph [ref=f1e220]: Đây là một kênh minh họa trong SGK; sản phẩm phân hạch có thể khác ở các kênh khác. Năng lượng tỏa ra khoảng 200 MeV cho một phân hạch theo ví dụ SGK, phần lớn dưới dạng động năng sản phẩm. Hạt nhân không phải những quả cầu xếp cứng như hình.
+              - generic [ref=f1e221]:
+                - text: Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?
+                - spinbutton "Em quan sát thấy bao nhiêu neutron tự do sau phản ứng?" [ref=f1e222]
+              - group [ref=f1e223]:
+                - generic "Neutron sinh ra có thể tạo phản ứng dây chuyền như thế nào?" [ref=f1e224] [cursor=pointer]
+              - generic [ref=f1e225]:
+                - group "Vì sao một số neutron sinh ra không gây phân hạch tiếp theo?" [ref=f1e226]:
+                  - generic [ref=f1e228]:
+                    - generic [ref=f1e229] [cursor=pointer]:
+                      - radio "Mọi neutron đều bắt buộc gây phân hạch ngay." [ref=f1e230]
+                      - generic [ref=f1e231]: Mọi neutron đều bắt buộc gây phân hạch ngay.
+                    - generic [ref=f1e232] [cursor=pointer]:
+                      - radio "Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch." [ref=f1e233]
+                      - generic [ref=f1e234]: Neutron có thể thoát ra hoặc bị hấp thụ mà không gây phân hạch.
+                    - generic [ref=f1e235] [cursor=pointer]:
+                      - radio "Neutron biến thành electron ngay sau phản ứng." [ref=f1e236]
+                      - generic [ref=f1e237]: Neutron biến thành electron ngay sau phản ứng.
+                - button "Kiểm tra nhận định" [disabled] [ref=f1e238] [cursor=pointer]
+              - status [ref=f1e239]: Hoàn thành khi đã quan sát bước 4, đếm đúng neutron, thử cả ba giá trị k và trả lời đúng câu giải thích.
+            - generic [ref=f1e134]:
+              - generic [ref=f1e135]: Dự đoán rồi kiểm tra
+              - 'button "Tiếp: Xem video" [active] [ref=f1e240] [cursor=pointer]'
+          - group [ref=f1e137]:
+            - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=f1e138] [cursor=pointer]
+          - group [ref=f1e139]:
+            - generic "Nguồn học liệu" [ref=f1e140] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=f1e141]:
+      - button "Mở khung AI học tập" [ref=f1e142] [cursor=pointer]: AI
+  - button "Open Next.js Dev Tools" [ref=f1e148] [cursor=pointer]
+  - alert [ref=f1e152]

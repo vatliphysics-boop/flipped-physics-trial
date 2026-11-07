@@ -1,0 +1,39 @@
+{"name":"overview","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"classes","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"class-new","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"class-detail","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"class-curriculum-redirect","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"curriculum","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"curriculum-selected","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"curriculum-chapter","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"lessons","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"lesson-overview","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"lesson-before","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"lesson-during","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"lesson-after","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"lesson-results","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"materials","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"materials-assessment","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"plans","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"workroom","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"students","width":1366,"status":200,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"workroom-worksheet","width":1366,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"workroom-preparation","width":1366,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"workroom-bank","width":1366,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+{"name":"workroom-matrix","width":1366,"scrollWidth":1366,"alerts":0,"pageErrors":0}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('.pathway-step-row').first().getByRole('button', { name: 'Chỉnh sửa', exact: true })[22m
+
+    at /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/ui-audit/teacher/audit.mjs:81:63 {
+  log: [
+    "  - waiting for locator('.pathway-step-row').first().getByRole('button', { name: 'Chỉnh sửa', exact: true })"
+  ],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

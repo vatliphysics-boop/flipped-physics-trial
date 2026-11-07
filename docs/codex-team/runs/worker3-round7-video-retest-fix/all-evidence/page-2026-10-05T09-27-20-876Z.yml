@@ -1,0 +1,341 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Đi đến nội dung chính" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Ẩn menu" [expanded] [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=e10] [cursor=pointer]:
+        - /url: /login
+    - generic [ref=e11]:
+      - complementary "Thanh điều hướng" [ref=e12]:
+        - navigation "Điều hướng chính" [ref=e13]:
+          - generic [ref=e14]:
+            - button "Học liệu" [expanded] [ref=e15] [cursor=pointer]:
+              - text: Học liệu
+              - generic [ref=e16]: ▲
+            - generic "Danh mục học liệu" [ref=e17]:
+              - link "Học theo hình · 3D · Video" [ref=e18] [cursor=pointer]:
+                - /url: /hoc-lieu/truc-quan
+              - link "Hình thức lớp học đảo ngược" [ref=e19] [cursor=pointer]:
+                - /url: /hoc-lieu/lop-hoc-dao-nguoc
+              - link "Tất cả học liệu" [ref=e20] [cursor=pointer]:
+                - /url: /hoc-lieu
+              - link "Ảnh tĩnh & Sơ đồ" [ref=e21] [cursor=pointer]:
+                - /url: /hoc-lieu?type=image
+              - link "Ảnh động & Minh họa" [ref=e22] [cursor=pointer]:
+                - /url: /hoc-lieu?type=animation
+              - link "Video thực tế / Thí nghiệm" [ref=e23] [cursor=pointer]:
+                - /url: /hoc-lieu?type=real_video
+              - link "Video bài giảng" [ref=e24] [cursor=pointer]:
+                - /url: /hoc-lieu?type=lecture_video
+              - link "Thí nghiệm 3D tương tác" [ref=e25] [cursor=pointer]:
+                - /url: /hoc-lieu?type=simulation
+              - link "PDF / Phiếu học tập" [ref=e26] [cursor=pointer]:
+                - /url: /hoc-lieu?type=document
+              - link "Câu hỏi & Nhiệm vụ" [ref=e27] [cursor=pointer]:
+                - /url: /hoc-lieu?type=colab
+              - link "Đề giữa kỳ & Cuối kỳ" [ref=e28] [cursor=pointer]:
+                - /url: /hoc-lieu?type=assessment
+          - link "Học với AI" [ref=e29] [cursor=pointer]:
+            - /url: /hoc-lieu/ai
+          - link "Tổng quan" [ref=e30] [cursor=pointer]:
+            - /url: /student
+          - link "Lớp học của em" [ref=e31] [cursor=pointer]:
+            - /url: /student/classes
+          - button "Chương trình Vật lí 12" [ref=e33] [cursor=pointer]:
+            - text: Chương trình Vật lí 12
+            - generic [ref=e34]: ▼
+          - link "Bài tập và kiểm tra" [ref=e35] [cursor=pointer]:
+            - /url: /student/assignments
+          - link "Nhật kí học tập" [ref=e36] [cursor=pointer]:
+            - /url: /student/journal
+      - main [ref=e37]:
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - generic [ref=e414]:
+              - paragraph [ref=e415]: "Chương 4: Vật lí hạt nhân · B21–B25"
+              - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=e416]
+              - paragraph [ref=e417]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+            - generic [ref=e418]:
+              - button "Chế độ trình chiếu" [ref=e419] [cursor=pointer]
+              - link "Toàn bộ kho học liệu" [ref=e420] [cursor=pointer]:
+                - /url: /hoc-lieu
+          - navigation "Chọn bài học" [ref=e421]:
+            - link "B21 Cấu trúc hạt nhân" [ref=e422] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B21
+              - generic [ref=e423]: B21
+              - strong [ref=e424]: Cấu trúc hạt nhân
+            - link "B22 Phản ứng hạt nhân" [ref=e425] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B22
+              - generic [ref=e426]: B22
+              - strong [ref=e427]: Phản ứng hạt nhân
+            - link "B23 Hiện tượng phóng xạ" [ref=e428] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B23
+              - generic [ref=e429]: B23
+              - strong [ref=e430]: Hiện tượng phóng xạ
+            - link "B24 Công nghiệp hạt nhân" [ref=e431] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B24
+              - generic [ref=e432]: B24
+              - strong [ref=e433]: Công nghiệp hạt nhân
+            - link "B25 Thực hành bán rã" [ref=e434] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B25
+              - generic [ref=e435]: B25
+              - strong [ref=e436]: Thực hành bán rã
+          - generic [ref=e437]:
+            - generic [ref=e438]: B24
+            - generic [ref=e439]:
+              - heading "Công nghiệp hạt nhân" [level=2] [ref=e440]
+              - paragraph [ref=e441]: Mô tả chuyển hóa năng lượng và đánh giá ứng dụng hạt nhân bằng cơ chế, lợi ích, giới hạn.
+          - paragraph [ref=e442]:
+            - link "Hỏi AI về bài B24 ↗" [ref=e443] [cursor=pointer]:
+              - /url: /hoc-lieu/ai?bai=B24
+            - generic [ref=e444]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+          - navigation "Cách học bài này" [ref=e445]:
+            - button "01 Đọc hình Chạm để khám phá" [ref=e446] [cursor=pointer]:
+              - generic [ref=e447]: "01"
+              - strong [ref=e448]: Đọc hình
+              - generic [ref=e449]: Chạm để khám phá
+            - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=e450] [cursor=pointer]:
+              - generic [ref=e451]: "02"
+              - strong [ref=e452]: Thao tác 3D
+              - generic [ref=e453]: Dự đoán rồi kiểm tra
+            - button "03 Xem video Theo câu hỏi dẫn dắt" [pressed] [ref=e454] [cursor=pointer]:
+              - generic [ref=e455]: "03"
+              - strong [ref=e456]: Xem video
+              - generic [ref=e457]: Theo câu hỏi dẫn dắt
+            - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=e458] [cursor=pointer]:
+              - generic [ref=e459]: "04"
+              - strong [ref=e460]: Ghi & giải thích
+              - generic [ref=e461]: Chuẩn bị cho giờ học
+          - generic [ref=e462]:
+            - region "Những vấn đề của năng lượng hạt nhân — M. V. Ramana và Sajan Saini" [ref=e518]:
+              - iframe [active] [ref=e532]:
+                - generic [active] [ref=f5e1]:
+                  - generic "Trình phát video YouTube" [ref=f5e3]:
+                    - generic [ref=f5e58]:
+                      - generic [ref=f5e59]: "Translator: Quoc Huy Le"
+                      - generic [ref=f5e61]: "Reviewer: Trinh Le"
+                  - generic [ref=f5e5]:
+                    - generic:
+                      - generic:
+                        - button "Ẩn các nút điều khiển trình phát" [ref=f5e14] [cursor=pointer]
+                        - generic [ref=f5e16]:
+                          - generic:
+                            - generic [ref=f5e19]:
+                              - generic [ref=f5e21]:
+                                - generic [ref=f5e22]:
+                                  - link "Những vấn đề của năng lượng hạt nhân - M. V. Ramana và Sajan Saini" [ref=f5e63] [cursor=pointer]:
+                                    - /url: https://www.youtube.com/watch?v=R7WPEYGr1Vs
+                                  - link "TED-Ed" [ref=f5e24] [cursor=pointer]:
+                                    - /url: /channel/UCsooa4yRKGN_zEE8iknghZA
+                                - generic [ref=f5e26]:
+                                  - button [ref=f5e27] [cursor=pointer]:
+                                    - img "thumbnail-image" [ref=f5e28]
+                                  - generic [ref=f5e30]:
+                                    - generic: TED-Ed
+                                    - generic: 22,9 Tr người đăng ký
+                              - generic [ref=f5e64]:
+                                - button "Tắt tiếng" [ref=f5e66] [cursor=pointer]:
+                                  - img "Tắt tiếng" [ref=f5e67]
+                                - button "Đã bật phụ đề" [pressed] [ref=f5e72] [cursor=pointer]
+                                - button "Cài đặt cách phát" [ref=f5e77] [cursor=pointer]
+                            - generic [ref=f5e82]:
+                              - button "Tua lại 10 giây" [ref=f5e83] [cursor=pointer]
+                              - button "Tạm dừng video" [ref=f5e85] [cursor=pointer]
+                              - button "Tua nhanh 10 giây" [ref=f5e89] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic [ref=f5e93]:
+                                - generic [ref=f5e94]:
+                                  - text: 0:00
+                                  - generic [ref=f5e95]: Thời lượng đã trôi qua 0 seconds
+                                - text: /
+                                - generic [ref=f5e96]:
+                                  - text: 8:06
+                                  - generic [ref=f5e97]: Thời lượng 8 minutes, 6 seconds
+                              - button "Chuyển sang chế độ toàn màn hình" [ref=f5e101] [cursor=pointer]
+                          - slider "Thanh tua" [ref=f5e107] [cursor=pointer]
+                          - generic:
+                            - generic [ref=f5e31]:
+                              - button "Sao chép liên kết" [ref=f5e116] [cursor=pointer]
+                              - generic [ref=f5e42]:
+                                - button "Video khác" [ref=f5e126] [cursor=pointer]
+                                - link "Xem trên YouTube" [ref=f5e45] [cursor=pointer]:
+                                  - /url: https://www.youtube.com/watch?v=R7WPEYGr1Vs
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=uXaP43Zbz7U&feature=endscreen
+                                          - generic: 4:45
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Tại sao không thứ gì dính vào Teflon? - Ashwini Bharathula 9 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=uXaP43Zbz7U&feature=endscreen
+                                                - heading "Tại sao không thứ gì dính vào Teflon? - Ashwini Bharathula" [level=3]
+                                                - generic: 9 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=x7KKkElpyKQ&feature=endscreen
+                                          - generic: 6:15
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - 'link "Which is better: Soap or hand sanitizer? - Alex Rosenthal and Pall Thordarson 6 năm trước"':
+                                                - /url: https://www.youtube.com/watch?v=x7KKkElpyKQ&feature=endscreen
+                                                - 'heading "Which is better: Soap or hand sanitizer? - Alex Rosenthal and Pall Thordarson" [level=3]'
+                                                - generic: 6 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=EtiC0DVewa4&feature=endscreen
+                                          - generic: 7:10
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "The biggest myths about Neanderthals - Bruce Hardy 7 tháng trước":
+                                                - /url: https://www.youtube.com/watch?v=EtiC0DVewa4&feature=endscreen
+                                                - heading "The biggest myths about Neanderthals - Bruce Hardy" [level=3]
+                                                - generic: 7 tháng trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=yQP4UJhNn0I&feature=endscreen
+                                          - generic: 5:28
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Just How Small is an Atom? 14 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=yQP4UJhNn0I&feature=endscreen
+                                                - heading "Just How Small is an Atom?" [level=3]
+                                                - generic: 14 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=JMdO5KyjwAw&feature=endscreen
+                                          - generic: 5:38
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Dịch chuyển tức thời liệu có khả thi? - Sajan Saini 9 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=JMdO5KyjwAw&feature=endscreen
+                                                - heading "Dịch chuyển tức thời liệu có khả thi? - Sajan Saini" [level=3]
+                                                - generic: 9 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=Al-30Z-aH8M&feature=endscreen
+                                          - generic: 4:10
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "The treadmill's dark and twisted past - Conor Heffernan 11 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=Al-30Z-aH8M&feature=endscreen
+                                                - heading "The treadmill's dark and twisted past - Conor Heffernan" [level=3]
+                                                - generic: 11 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=w6JFRi0Qm_s&feature=endscreen
+                                          - generic: 5:04
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Người phụ nữ thiên tài Marie Curie - Shohini Ghose 9 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=w6JFRi0Qm_s&feature=endscreen
+                                                - heading "Người phụ nữ thiên tài Marie Curie - Shohini Ghose" [level=3]
+                                                - generic: 9 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=h2MlS09KJP4&feature=endscreen
+                                          - generic: 5:49
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Liệu chúng ta có thể tạo ra vật chất tối? - Rolf Landua 9 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=h2MlS09KJP4&feature=endscreen
+                                                - heading "Liệu chúng ta có thể tạo ra vật chất tối? - Rolf Landua" [level=3]
+                                                - generic: 9 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=2tM1LFFxeKg&feature=endscreen
+                                          - generic: 4:20
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "Cơ phát triển như thế nào? - Jeffrey Siegel 10 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=2tM1LFFxeKg&feature=endscreen
+                                                - heading "Cơ phát triển như thế nào? - Jeffrey Siegel" [level=3]
+                                                - generic: 10 năm trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=N2uQWfV6Jr4&feature=endscreen
+                                          - generic: 5:26
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "4 ways to fix your attention span - Shannon Odell 12 ngày trước":
+                                                - /url: https://www.youtube.com/watch?v=N2uQWfV6Jr4&feature=endscreen
+                                                - heading "4 ways to fix your attention span - Shannon Odell" [level=3]
+                                                - generic: 12 ngày trước
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link:
+                                          - /url: https://www.youtube.com/watch?v=xKxrkht7CpY&feature=endscreen
+                                          - generic: 4:59
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - link "How do solar panels work? - Richard Komp 10 năm trước":
+                                                - /url: https://www.youtube.com/watch?v=xKxrkht7CpY&feature=endscreen
+                                                - heading "How do solar panels work? - Richard Komp" [level=3]
+                                                - generic: 10 năm trước
+              - generic [ref=e526]:
+                - strong [ref=e527]: Xem có nhiệm vụ
+                - paragraph [ref=e528]: Dừng ở lò phản ứng, turbine và máy phát. Ghi chuỗi chuyển hóa năng lượng. Các số liệu thị phần trong video năm 2017 không đại diện cho hiện tại.
+              - paragraph [ref=e529]: Video tiếng Anh; câu hỏi và hướng dẫn bằng tiếng Việt. Chọn phụ đề trong trình phát nếu tác giả cung cấp. Nếu video không phát tại đây, dùng liên kết nguồn.
+              - link "Xem trên YouTube ↗" [ref=e530] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=R7WPEYGr1Vs
+              - button "Đóng video" [ref=e533] [cursor=pointer]
+            - generic [ref=e509]:
+              - generic [ref=e510]: Theo câu hỏi dẫn dắt
+              - 'button "Tiếp: Ghi & giải thích" [ref=e531] [cursor=pointer]'
+          - group [ref=e512]:
+            - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=e513] [cursor=pointer]
+          - group [ref=e514]:
+            - generic "Nguồn học liệu" [ref=e515] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=e516]:
+      - button "Mở khung AI học tập" [ref=e517] [cursor=pointer]: AI
+  - alert [ref=e143]: Học liệu Vật lí hạt nhân

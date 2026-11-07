@@ -1,0 +1,109 @@
+PART word/document.xml
+P0000 Quy trình thiết kế học liệu số tích hợp trí tuệ nhân tạo hỗ trợ năng lực tự học trong dạy học chủ đề “Vật lí hạt nhân” lớp 12 theo mô hình lớp học đảo ngược.
+P0002 TÊN BÀI BẰNG TIẾNG VIỆT
+P0003 (Tên bài tiếng Việt: Font Times New Roman; Đậm; Cỡ chữ 13; cách trên, cách dưới: 0 pt)
+P0004 TÊN BÀI BẰNG TIẾNG ANH
+P0005 (Tên bài tiếng Anh: Font Times New Roman; Không đậm; Cỡ chữ 9.5; cách trên, cách dưới: 0 pt)
+P0007 PGS.TS. Nguyễn Văn A1, 
+P0008 TS. Nguyễn Thị B2, 
+P0009 ThS. Vũ Văn C3,+
+P0011 1Trường Đại học Sư phạm - Đại học Đà Nẵng; 
+P0012 2Trường Đại học Sư phạm Hà Nội 2; 
+P0013 3Trường Đại học Vinh; 
+P0014 +Tác giả liên hệ ● Email: … (và số điện thoại)
+P0018 Article history
+P0019 Received: …/…/2026
+P0020 Accepted: …/…/2026
+P0021 Published: …/…/2026
+P0023 Keywords (3-5 từ khóa)
+P0024 Keyword 1, keyword 2, keyword 3, keyword 4
+P0026 Từ khóa (3-5 từ khóa)
+P0027 Từ khóa 1, từ khóa 2, từ khóa 3, từ khóa 4
+P0029 ABSTRACT
+P0030 (Dịch tương ứng nội dung phần tóm tắt tiếng Việt sang tiếng Anh)
+P0031 Context: …
+P0032 Result: …
+P0033 Discussion: … 
+P0035 TÓM TẮT
+P0036 Bối cảnh: Trả lời câu hỏi “Tại sao lại tiến hành nghiên cứu này (từ lí luận, từ thực tiễn,…)”. Sử dụng phương pháp nghiên cứu gì?
+P0037 Kết quả: Nghiên cứu này cho thấy/chỉ ra rằng/phát hiện ra rằng…
+P0038 Bàn luận: Nêu ý nghĩa của kết quả nghiên cứu (trong nghiên cứu, thực tiễn, chính sách,…), những đề xuất, hướng nghiên cứu tiếp theo, liên quan,…
+P0040 1. Mở đầu
+P0041 Gợi ý về cấu trúc: Phần Mở đầu nên ít nhất gồm 03 đoạn. 
+P0042 Đoạn văn thứ nhất đặt vấn đề và bối cảnh nghiên cứu, chẳng hạn có thể theo trình tự: Bắt đầu từ bối cảnh rộng (lĩnh vực, xu hướng, yêu cầu thực tiễn hoặc lý luận); Sau đó thu hẹp dần về vấn đề cụ thể mà bài báo quan tâm; Có thể dẫn chứng bằng nghiên cứu quốc tế, chính sách, hoặc thực tiễn. 
+P0043 Đoạn văn thứ hai, tổng quan nghiên cứu (mục tiêu trả lời cho câu hỏi: Chúng ta đã biết gì về vấn đề này?). Chú ý, không liệt kê Tác giả A (2018) … Tác giả B (2025)… mà nên tập trung theo tiến trình: Cách tiếp cận; kết quả chính. Chẳng hạn “Các nghiên cứu trước đây về … có thể được chia thành ba hướng chính. Hướng thứ nhất tập trung vào … và cho thấy rằng …Hướng thứ hai nhấn mạnh …Gần đây, một số nghiên cứu tiếp cận theo …Từ đó chỉ ra khoảng trống nghiên cứu (chẳng hạn như thiếu nghiên cứu trong bối cảnh/đối tượng cụ thể; chưa kết hợp cách tiếp cận A và B; kết quả còn thiếu nhất quán; thiếu nghiên cứu thực nghiệm/định lượng/định tính).
+P0044 Đoạn văn thứ ba chỉ ra chỉ ra mục tiêu, câu hỏi và đóng góp của nghiên cứu và tiến trình nội dung của bài báo. Chẳng hạn, “Trên cơ sở đó, nghiên cứu này nhằm…/tập trung trả lời các câu hỏi sau:…/kì vọng đóng góp … bằng cách …
+P0045 2. Phương pháp nghiên cứu
+P0046 Gợi ý về cấu trúc: Thiết kế nghiên cứu (định tính, định lượng, hỗn hợp…) cần được mô tả rõ ràng, và vì sao lại chọn cách thiết kế nghiên cứu như vậy. Mẫu nghiên cứu, công cụ thu thập dữ liệu và quy trình thực hiện cần được mô tả đầy đủ và rõ ràng. Các phương pháp phân tích dữ liệu cần phù hợp và được lựa chọn trên cơ sở khoa học. Phần phương pháp có đảm bảo tính tin cậy, giá trị và khả năng tái lập của nghiên cứu. 
+P0047 3. Kết quả nghiên cứu
+P0048 3.1. Tên tiểu mục (có thể chia tiếp thành các tiểu mục nhỏ hơn, chẳng hạn: 3.1.1., 3.1.2., 3.1.3.)
+P0049 3.2. Tên tiểu mục (có thể chia tiếp thành các tiểu mục nhỏ hơn, chẳng hạn: 3.2.1., 3.2.2., 3.2.3.)
+P0050 3.3. Tên tiểu mục (có thể chia tiếp thành các tiểu mục nhỏ hơn, chẳng hạn: 3.3.1., 3.3.2., 3.3.3.)
+P0051 4. Kết luận và bình luận
+P0053 Sau phần Kết luận và bình luận, tác giả cần kê khai những thông tin liên quan vào bảng dưới đây.
+P0054 Tuyên bố về vai trò của các tác giả: (Áp dụng với bài báo có từ 02 tác giả trở lên. Với bài báo chỉ có duy nhất một tác giả thì nội dung này không cần kê khai)
+P0055 Ví dụ: Nguyễn Văn A: Xây dựng ý tưởng nghiên cứu, Thiết kế phương pháp nghiên cứu. Nguyễn Thị B, Vũ Văn C: Phân tích dữ liệu, Viết bản thảo ban đầu. Nguyễn Văn A: Trực quan hoá dữ liệu, Viết bản thảo ban đầu. Nguyễn Văn A: Giám sát, chỉ đạo quá trình nghiên cứu. Nguyễn Văn A, Vũ Văn C: Chỉnh sửa và phản biện bản thảo. Nguyễn Văn A, Nguyễn Thị B: Thực hiện nghiên cứu và thu thập dữ liệu, Chỉnh sửa và phản biện bản thảo.
+P0056 Chú ý: Chỉ lựa chọn các vai trò như trong hướng dẫn tại đây.
+P0058 Tuyên bố về GenAI và Quyền tác giả: Ví dụ, có thể chọn mẫu câu như sau: 
+P0059 “Trong quá trình chuẩn bị bản thảo này, tác giả (các tác giả) đã sử dụng [tên công cụ, phiên bản] cho [mục đích]. Các tác giả chịu hoàn toàn trách nhiệm…” (nếu sử dụng AI).
+P0060 “Trong quá trình chuẩn bị bản thảo này, tác giả (các tác giả) không sử dụng công cụ AI nào” (nếu không sử dụng AI).
+P0062 Tuyên bố về xung đột lợi ích: Ví dụ, có thể chọn một số mẫu câu như sau: 
+P0063 “Các tác giả tuyên bố không có xung đột lợi ích”. 
+P0064 “Tác giả A đã nhận được tài trợ nghiên cứu từ Trường/Viện X. Tác giả B đã nhận được thù lao từ Công ty Y…”
+P0066 Thông tin tài trợ: Ví dụ, có thể chọn một số mẫu câu như sau: 
+P0067 “Nghiên cứu này không nhận được tài trợ từ bên ngoài.” hoặc “Nghiên cứu này được tài trợ bởi [Cơ quan] theo số hiệu tài trợ/mã số:…”.
+P0069 Lời cảm ơn (nếu có): Tác giả (nhóm tác giả) cảm ơn sự tài trợ của … qua đề tài với mã số: …
+P0071 Tài liệu tham khảo
+P0072 Ví dụ:
+P0073 Calago, M., Urgino, E., Del Campo, W., & Pimentel, J. (2024). Investigating the Effects of Different Distance Learning Modalities on Student Academic Performance in Technology Education Programs. Journal of Contemporary Educational Policies and Practices, 8(3), 274-283. https://doi.org/10.52296/vje.2024.407
+P0074 Lee, M., & Louis, K. S. (2019). Mapping a strong school culture and linking it to sustainable school improvement. Teaching and Teacher Education, 81, 84-96. https://doi.org/10.1016/j.tate.2019.02.001
+P0075 Nguyễn Lăng Bình (chủ biên), Đỗ Hương Trà, Nguyễn Phương Hồng, Cao Thị Thặng (2017). Dạy và học tích cực. NXB Đại học Sư phạm.
+P0076 Phạm Hồng Quang (2015). Các biện pháp tổ chức tự học ở trường phổ thông dân tộc nội trú nhằm nâng cao chất lượng đào tạo. Đề tài Khoa học và Công nghệ cấp Bộ GD-ĐT, mã số: B97-03-15.
+P0077 Pham, H.-H., & Nguyen, L.-C. (2025). Training Research Skills for High School Students in Vietnam: A Case Study. Journal of Contemporary Educational Policies and Practices, 9(1), 1-6. https://doi.org/10.52296/vje.2025.509 
+P0078 Nguyễn Ngọc Bích, Đậu Thị Như Quỳnh, Nguyễn Thanh Huyền, Hồ Ngọc Huyền (2026). Một số yếu tố ảnh hưởng đến năng lực số của sinh viên sư phạm Toán tại các trường đại học. Tạp chí Giáo dục, 26(01), 53-58. https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/4657 
+P0080 Quy định: - Viết tài liệu và trích dẫn tài liệu theo chuẩn APA 7th (có thể tham khảo hướng dẫn về cách trình bày, cách trích dẫn tài liệu tham khảo tại https://guides.library.uq.edu.au/referencing/apa7).
+P0081 - Đối với tài liệu tiếng Việt, tên tác giả được giữ nguyên mà không cần viết tắt như tài liệu tiếng Anh.
+P0082 - Tất cả các tài liệu được trích dẫn phải có trong phần Tài liệu tham khảo và ngược lại.
+P0083 - Tài liệu phải chính xác, tìm được, không ngụy tạo.
+P0084 - Tối thiểu 07 tài liệu, trong đó ít nhất 02 bài báo khoa học xuất bản trong 5 năm gần đây.
+P0085 - Nên tham khảo các bài báo quốc tế, có chỉ số DOI và các bài báo của Tạp chí Giáo dục tại địa chỉ https://tcgd.tapchigiaoduc.edu.vn và trên tạp chí Vietnam Journal of Education (VJE - ISSN: 2588-1477, e-ISSN: 2815-5572 - https://vje.vn).
+P0087 Về quy cách trình bày, thể thức văn bản:
+P0089 Yêu cầu về khổ giấy, số chữ, font chữ,…
+P0090 Lưu ý tác giả gửi bài: 
+P0091 - Tối đa 6.000 chữ, 
+P0092 - Tối thiểu 4.000 chữ
+P0093 - Quy cách trình bày theo quy định (như ở đây).
+P0095 Quy cách trình bày bản thảo:
+P0096 - Khổ A4
+P0097 - Lề trên: 3.5; lề dưới: 3.8
+P0098 - lề trái: 2.5; lề phải: 2.5
+P0099 - Header: 2.5
+P0100 - Footer: 2.5
+P0101 Về font chữ: 
+P0102 - Font: Times New Roman
+P0103 - Cỡ chữ: 10.5pt
+P0104 - Cách dòng: single
+P0105 - Cách trên, cách dưới: 0pt
+P0106 - Thụt vào đầu dòng: 0.5 cm
+P0109 Cài đặt khổ giấy (Page Setup):
+P0112   
+P0114 3.53.82.52.53.53.82.52.5
+P0119 3.5
+P0120 3.8
+P0121 2.5
+P0122 2.5
+P0127 3.5
+P0128 3.8
+P0129 2.5
+P0130 2.5
+P0133 Phông chữ (Font):
+P0136    
+P0141 Căn dòng, đoạn văn (Paragraph):
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/header1.xml
+P0000 VJE
+P0001 Tạp chí Giáo dục
+P0002 ISSN: 2354-0753
+PART word/footer1.xml
+P0000 1

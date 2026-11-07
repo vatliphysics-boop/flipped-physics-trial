@@ -1,0 +1,185 @@
+Thiết kế học liệu số có hỗ trợ AI cho lớp học đảo ngược chủ đề Vật lí hạt nhân lớp 12
+
+Võ Đoàn Đăng Khôi¹, Nguyễn Bảo Thy¹, Bùi Ngọc Xuân Phương¹
+
+¹Khoa Sư phạm Khoa học Tự nhiên, Trường Đại học Sài Gòn, Việt Nam
+
+Tác giả liên hệ: Vatliphysics@gmail.com
+
+Tóm tắt
+
+Bài báo trình bày thiết kế kho học liệu số cho các bài B21–B25 thuộc chủ đề Vật lí hạt nhân lớp 12. Nghiên cứu được giới hạn ở pha phân tích, thiết kế và kiến tạo theo định hướng lí thuyết, kèm kiểm tra nội bộ trước sử dụng. Tài liệu chương trình, sách giáo khoa và nghiên cứu về lớp học đảo ngược được dùng để xác định mục tiêu, nhiệm vụ và sản phẩm của ba pha học tập. Bản mẫu có 78 mục học liệu, 17 mô phỏng 3D, năm infographic tương tác, bốn đề tự luyện và bàn soạn kế hoạch với nhiệm vụ riêng cho giáo viên, học sinh. Các phép kiểm tra cụ thể gồm bảo toàn số khối và điện tích trong phân hạch, quy luật bán rã và quy ước khối lượng khi tính năng lượng liên kết. Kiểm tra phần mềm đạt 29 ca; ảnh chụp giao diện minh họa các chức năng đã xây dựng. Luồng giao và nộp nhiệm vụ qua tài khoản còn cần hoàn thiện cơ sở dữ liệu và kiểm thử. Chưa có dữ liệu học sinh hoặc thẩm định độc lập; kết quả phản ánh sản phẩm thiết kế, chưa chứng minh hiệu quả dạy học.
+
+Từ khóa: học liệu số; lớp học đảo ngược; Vật lí hạt nhân; nghiên cứu thiết kế giáo dục; tự học.
+
+Abstract
+
+This paper reports the design of a digital resource repository for lessons B21–B25 in Grade 12 nuclear physics. The study is limited to theory-informed analysis, design and construction, with internal checks before use. Curriculum documents, a supplied textbook and flipped learning research informed the learning objectives, tasks and products across three phases. The prototype contains 78 resource entries, 17 interactive 3D simulations, five interactive infographics, four practice papers and a lesson planning workspace with separate teacher and student tasks. Concrete checks address conservation of mass number and charge in fission, radioactive decay and consistent mass conventions in binding energy calculations. Twenty-nine software tests passed, and interface screenshots document the implemented features. Account-based assignment and submission workflows require database completion and verification. No student outcome data or independent expert appraisal are reported; the findings concern design products rather than teaching effectiveness.
+
+Keywords: digital learning resources; flipped classroom; nuclear physics; educational design research; self-directed learning.
+
+1 Đặt vấn đề
+
+Trong chủ đề Vật lí hạt nhân, học sinh phải liên hệ kí hiệu hạt nhân, phương trình phản ứng, đồ thị và ứng dụng thực tế. Nhiều quá trình không thể quan sát trực tiếp trong lớp học phổ thông. Nghiên cứu này lấy nội dung hạt nhân và phóng xạ trong chương trình môn Vật lí làm căn cứ, chọn phạm vi B21–B25 của bộ Kết nối tri thức với cuộc sống để xây dựng học liệu (Bộ Giáo dục và Đào tạo, 2018; Vũ et al., 2024). Mục tiêu thiết kế là giúp giáo viên giao nhiệm vụ rõ ràng và giúp học sinh tạo sản phẩm từ thao tác, thay vì chỉ mở tài liệu.
+
+Lớp học đảo ngược tổ chức việc chuẩn bị trước giờ và vận dụng kiến thức trong giờ học. Tổng hợp 114 nghiên cứu của van Alten et al. (2019) ghi nhận hiệu ứng tích cực nhỏ đối với kết quả học tập, đồng thời cho thấy khác biệt đáng kể giữa các nghiên cứu. Liu et al. (2024), qua tổng quan 22 nghiên cứu thực nghiệm, nhấn mạnh việc kết hợp hướng dẫn và thực hành để hỗ trợ tự điều chỉnh học tập. Các kết quả này cung cấp căn cứ thiết kế, không thay thế bằng chứng về hiệu quả của sản phẩm đang xây dựng.
+
+Ở Việt Nam, Mai et al. (2024) đã xây dựng học liệu số cho nội dung Động lượng lớp 10 theo mô hình lớp học đảo ngược. Nghiên cứu hiện tại lựa chọn một chủ đề khác, đồng thời thiết kế thao tác 3D, nhiệm vụ quan sát và công cụ biên soạn kế hoạch trong cùng một kho. Câu hỏi nghiên cứu là: có thể tổ chức học liệu B21–B25 thành sản phẩm nào để giáo viên lựa chọn, điều chỉnh nhiệm vụ và học sinh quan sát, giải thích, tự kiểm tra; sản phẩm đã được kiểm tra đến mức nào trước sử dụng?
+
+2 Phương pháp nghiên cứu
+
+2 1 Phạm vi và tư liệu thiết kế
+
+Nghiên cứu áp dụng định hướng nghiên cứu thiết kế giáo dục có cơ sở lí thuyết, tham khảo McKenney và Reeves (2019). Báo cáo giới hạn ở ba hoạt động: phân tích vấn đề và điều kiện; thiết kế giải pháp; kiến tạo và kiểm tra nội bộ sản phẩm trước sử dụng. Chưa thực hiện chu trình triển khai, đánh giá và cải tiến dựa trên dữ liệu lớp học; do đó không mô tả nghiên cứu này như một nghiên cứu thực nghiệm đã hoàn tất.
+
+Tư liệu gồm chương trình môn Vật lí, bản SGK được cung cấp, yêu cầu thiết kế học liệu, tài liệu về lớp học đảo ngược và nguồn kiến thức vật lí. Bản SGK sử dụng ghi “bản mẫu tháng 1/2024”; việc áp dụng trên lớp cần rà soát với bản sách đang dùng. Phiên bản sản phẩm được kiểm tra ngày 04/10/2026. Đơn vị phân tích là mục học liệu, hoạt động học, trường sản phẩm và chức năng phần mềm; không có mẫu học sinh trong báo cáo này.
+
+2 2 Quy trình phân tích thiết kế và kiến tạo
+
+Ở bước phân tích, các yêu cầu được chuyển thành ma trận nội dung, thao tác và bằng chứng dự kiến. Khó khăn được xác định từ đặc điểm nội dung và điều kiện thiết kế; chưa tiến hành khảo sát để khẳng định nhu cầu của một quần thể giáo viên. Ở bước thiết kế, mỗi hoạt động có mục tiêu, nhiệm vụ, học liệu, sản phẩm và tiêu chí nhận xét. Ở bước kiến tạo, các chức năng được triển khai rồi sửa theo kết quả đối chiếu nguồn, tính lại số liệu và kiểm tra giao diện.
+
+Bảng 1. Nội dung và sản phẩm học tập dự kiến trong phạm vi B21–B25
+
+AI được dùng hỗ trợ dự thảo nội dung, câu hỏi và mã của học liệu. Công thức, số liệu và thông tin dẫn nguồn phải được đối chiếu lại; AI không cung cấp dữ liệu thực nghiệm và không quyết định điểm chính thức. Cách sử dụng này đặt trách nhiệm kiểm tra ở người thiết kế và giáo viên, phù hợp định hướng coi con người giữ vai trò quyết định trong giáo dục có AI (Miao & Holmes, 2023).
+
+2 3 Cách kiểm tra và giới hạn bằng chứng
+
+Kiểm tra nội bộ gồm: đối chiếu nội dung với nguồn; tính lại các trường hợp định lượng; kiểm tra tự động quy tắc dữ liệu và chấm phần khách quan; thao tác trình duyệt ở chiều rộng 900 px và 390 px; kiểm tra đọc trạng thái cơ sở dữ liệu. Mỗi nhận xét được gắn với kết quả có thể kiểm tra lại. Ảnh trong bài là ảnh chụp giao diện bản mẫu ngày 04/10/2026, không phải bài làm học sinh. Kiểm tra nội bộ không được gọi là ý kiến chuyên gia độc lập hay bằng chứng giá trị của công cụ đánh giá.
+
+3 Kết quả thiết kế
+
+3 1 Kho học liệu và đường truy cập
+
+Kho mở tập hợp 78 mục được gắn bài và loại học liệu: 17 mô phỏng 3D, sáu mục ảnh hoặc sơ đồ, năm minh họa động, 11 mục video, 18 tài liệu hoặc phiếu, 17 câu hỏi hoặc hoạt động nhóm và bốn đề kiểm tra mẫu. Đây là số mục trong danh mục, không phải 78 nội dung hoàn toàn khác nhau; một số mục liên kết tới nguồn ngoài hoặc cùng học liệu được dùng ở nhiều vị trí. Menu xổ và bộ lọc giúp chọn bài, loại và mục đích sử dụng (Hình 1).
+
+Hình 1. Kho mở với menu học liệu và các lối vào theo bài B21–B25.
+
+Giáo viên có thể chuyển học liệu đang xem sang bàn soạn kế hoạch. Học sinh có thể mở kho để tự luyện. Hoạt động công khai và thao tác lưu trên trình duyệt được phân biệt với nhiệm vụ được giao trong lớp có tài khoản; việc xem kho không tự chứng minh học sinh đã hoàn thành nhiệm vụ học tập.
+
+3 2 Hình thức tổ chức lớp học đảo ngược
+
+Tài liệu của University of Texas at El Paso (n.d.) nêu sáu cách tổ chức lớp học đảo ngược. Bản mẫu chọn bốn cách để xây dựng hướng dẫn và mẫu kế hoạch: học trước rồi luyện tập; minh họa rồi thực hành; thảo luận; làm việc nhóm (Hình 2). Học hoàn toàn trực tuyến và học sinh tạo video chưa được triển khai đầy đủ. Đây là lựa chọn thiết kế của nghiên cứu, không phải danh sách hình thức bắt buộc của Bộ Giáo dục và Đào tạo.
+
+Hình 2. Bốn lựa chọn tổ chức có hướng dẫn và mẫu kế hoạch để điều chỉnh.
+
+Học trước rồi luyện tập được minh họa bằng B23: dự đoán số hạt ở nhà, xử lí bảng và giải thích trên lớp. Minh họa rồi thực hành được minh họa bằng B25: xem hướng dẫn, thao tác và trình bày kết quả. B24 sử dụng thảo luận theo vai hoặc sản phẩm nhóm. Video, mô phỏng, infographic và phiếu là loại học liệu có thể kết hợp trong các hình thức này, không phải các hình thức lớp học riêng.
+
+3 3 Infographic tương tác và cách dùng hình
+
+Năm infographic của B21–B25 có các điểm chọn để mở phần quan sát, giải thích và câu hỏi. Ở B22, hình thể hiện neutron tới, U-236 kích thích và hai mảnh phân hạch; hai dòng phép cộng giúp học sinh kiểm tra số khối và điện tích (Hình 3). Nội dung phương trình được đối chiếu ví dụ trong SGK, trang in 100–101 (Vũ et al., 2024).
+
+Hình 3. Infographic B22 thể hiện một kênh phân hạch và các điểm tương tác.
+
+Hình có bản PNG để chèn vào bài giảng hoặc phiếu, bản SVG để chỉnh sửa bằng phần mềm hỗ trợ và chế độ xem lớn. Nhãn nút nêu công dụng của từng định dạng. Màu và kích thước được quy ước; hình không được dùng làm phép đo cấu trúc hay khoảng cách thực của hạt nhân.
+
+3 4 Mô phỏng phân hạch trong không gian 3D
+
+Học sinh nhấn bắt đầu rồi quan sát bốn bước: neutron tới, hấp thụ, biến dạng và tách mảnh. Có thể tạm dừng, đặt lại, xem lại thời điểm và đổi góc nhìn. Một kênh được chọn để minh họa, không đại diện cho mọi sản phẩm phân hạch (Vũ et al., 2024; Urone & Hinrichs, 2022, mục 32.6).
+
+Hình 4. Cảnh sau phân hạch với hai mảnh Y-95, I-138 và ba neutron tự do.
+
+Mô hình sử dụng 236 nucleon. Trước phản ứng, 235 + 1 = 236 và điện tích là 92; sau phản ứng, 95 + 138 + 3 = 236 và 39 + 53 = 92. Học sinh đếm neutron và giải thích khả năng neutron thoát ra hoặc bị hấp thụ. Với hệ số nhân k > 1, mô hình thể hiện sự tăng qua các thế hệ; không dùng điều kiện này để tự kết luận xảy ra vụ nổ.
+
+3 5 Video nguồn kèm nhiệm vụ quan sát
+
+Năm video YouTube được bổ sung theo bài, bên cạnh các liên kết bài giảng và video buồng sương. Trình phát chỉ kết nối YouTube khi học sinh mở; tên video, kênh và liên kết nguồn được giữ lại. Ví dụ B22 dùng video của FuseSchool – Global Education (n.d.) với nhiệm vụ nhận diện neutron tới, mảnh phân hạch và neutron sinh ra (Hình 5).
+
+Hình 5. Video B22 và nhiệm vụ quan sát bằng tiếng Việt trước khi mở trình phát.
+
+Các video được chọn là tiếng Anh, còn câu hỏi và hướng dẫn là tiếng Việt. Giáo viên cần kiểm tra khả năng hiểu ngôn ngữ và phụ đề trước khi giao. Tên và kênh của năm video đã được đối chiếu qua thông tin YouTube; video B22 đã được thử phát. Không suy rộng phép kiểm tra này thành việc mọi video đều phát ổn định trên mọi mạng hoặc thiết bị. Trường hợp không nhúng được có liên kết mở nguồn.
+
+3 6 Đồ thị bán rã và phép kiểm tra định lượng
+
+B23 cho thay đổi chu kì bán rã T và số hạt ban đầu N₀, đồng thời cập nhật đồ thị và bảng. Mô hình dùng quy luật hàm mũ; độ phóng xạ được liên hệ với số hạt qua H = λN, trong đó λ = ln 2/T (Urone & Hinrichs, 2022, mục 31.5). Số liệu trên Hình 6 là giá trị tính của mô hình.
+
+Hình 6. Đồ thị và bảng khi N₀ = 1.000 và T = 30 s trong hoạt động B23.
+
+Với N₀ = 1.000, T = 30 s, giá trị tại t = 30 s là 500, sau 2T là 250 và sau 3T là 125. Khi tăng T lên 60 s, giá trị tại cùng t = 30 s khoảng 707,1; tăng N₀ gấp đôi sẽ tăng giá trị này gấp đôi. Đây là các trường hợp kiểm tra phép tính và phản hồi giao diện. Tham số của cảnh 3D được điều chỉnh riêng với bảng định lượng và được thông báo trên giao diện.
+
+3 7 Quy ước khối lượng và năng lượng liên kết
+
+Hoạt động B25 dùng thống nhất khối lượng nguyên tử trung hòa. Công thức độ hụt khối sử dụng khối lượng nguyên tử ¹H thay cho khối lượng proton; bỏ qua năng lượng liên kết electron. Khối lượng được đối chiếu bảng A.1 và công thức ở mục 31.6 của Urone và Hinrichs (2022).
+
+Hình 7. Các bước tính độ hụt khối và năng lượng liên kết của U-235.
+
+Ví dụ U-235 có Z = 92, N = 143, khối lượng nguyên tử 235,043924 u. Với mH = 1,007825 u và mn = 1,008665 u, tổng khối lượng là 236,958990 u, độ hụt khối 1,915066 u; dùng 931,5 MeV cho mỗi u cho E ≈ 1.783,9 MeV và E/A ≈ 7,59 MeV/nucleon. Giao diện làm tròn độ hụt khối thành 1,91507 u. Kiểm tra này đã dẫn đến sửa lỗi trộn hai quy ước khối lượng; không phải phép đo mới.
+
+3 8 Bàn soạn kế hoạch và nhiệm vụ của hai vai
+
+Bàn soạn có năm mẫu bài và kế hoạch trống. Giáo viên có thể sửa mục tiêu, thời lượng, học liệu, nhiệm vụ, sản phẩm, tiêu chí và hỗ trợ; mỗi hoạt động có trường riêng cho giáo viên và học sinh. Ở ví dụ thảo luận B24, giáo viên phân vai và yêu cầu bằng chứng, còn học sinh trình bày, phản biện và điều chỉnh kết luận (Hình 8).
+
+Hình 8. Nhiệm vụ giáo viên và học sinh trong kế hoạch thảo luận B24.
+
+Trước giờ, giáo viên chọn nguồn và câu hỏi; học sinh chuẩn bị lập luận cá nhân. Trong giờ, hai vai cùng làm việc với sản phẩm nhưng có nhiệm vụ khác nhau. Sau giờ, giáo viên nhận xét, học sinh sửa giải thích và nêu điều cần học tiếp. Mẫu B24 còn dùng nguồn NIBIB để phân biệt PET với SPECT và nguồn IAEA cho ứng dụng thực phẩm (International Atomic Energy Agency, n.d.; National Institute of Biomedical Imaging and Bioengineering, n.d.). Kế hoạch lưu trên thiết bị có thể tiếp tục chỉnh sửa; lưu tài khoản và đưa vào lớp chưa được xác nhận vận hành.
+
+3 9 Bản ghi quan sát và phản tư tự học
+
+Bản ghi gồm dự đoán, điều quan sát, giải thích và câu hỏi mang đến lớp (Hình 9). Thiết kế hướng tới việc lưu dấu quá trình chuẩn bị và kiểm tra cách hiểu. Cơ sở lí thuyết là tự điều chỉnh học tập và sự cần thiết của hướng dẫn trong lớp đảo ngược (Zimmerman, 2002; Liu et al., 2024).
+
+Hình 9. Bốn trường của bản ghi quan sát; giao diện trống, chưa có dữ liệu học sinh.
+
+Ví dụ nhiệm vụ B22 yêu cầu ghi số neutron dự đoán, số quan sát ở bước cuối và cách kiểm tra phương trình. Giáo viên có thể nhận xét sự khác nhau giữa dự đoán và giải thích, thay vì căn cứ riêng số lần nhấn nút. Khung đề xuất theo dõi bốn biểu hiện: đặt mục tiêu hoặc kế hoạch; theo dõi; giải thích có nguồn; tự điều chỉnh. Đây là khung thiết kế chưa kiểm định, không được dùng để tuyên bố mức tăng năng lực tự học. Bản ghi ở kho mở tự lưu trên trình duyệt, chưa tự gửi cho giáo viên.
+
+3 10 Đề tự luyện giữa kỳ và cuối kỳ theo chủ đề
+
+Kho có hai mã đề giữa kỳ trong phạm vi B21–B23 và hai mã đề cuối kỳ trong phạm vi B21–B25. Mỗi đề gồm 18 câu, thang 10 điểm; phần khách quan tối đa tám điểm, tự luận hai điểm cần giáo viên chấm. Thời gian mẫu là 45 phút và 60 phút. Hình 10 minh họa một lượt mở đề cuối kỳ, chưa chọn đáp án.
+
+Hình 10. Giao diện đề cuối kỳ mã A với phạm vi, thời gian và câu hỏi B21.
+
+Câu minh họa yêu cầu tìm số neutron khi A = 23 và Z = 11; đáp số là 12. Các ca kiểm tra chấm điểm xét câu bỏ trống, đúng–sai từng ý, dấu phẩy thập phân và dung sai đáp số. Ma trận và hướng dẫn chấm được cung cấp để giáo viên rà soát. Đề công khai là tài liệu tự luyện theo chủ đề, chưa là công cụ thực nghiệm có độ tin cậy và độ giá trị đã xác lập; không đại diện cho toàn bộ học kỳ Vật lí 12.
+
+3 11 Hỗ trợ học tập và xử lí học liệu bằng AI cục bộ
+
+Bản mẫu bổ sung nút AI tròn ở góc phải trang học tập. Học sinh mở khung nhỏ, chọn bài B21–B25 và đặt câu hỏi mà không rời học liệu (Hình 11). Mô hình Qwen3 4B Instruct chạy qua Ollama trên máy chủ của hệ thống, không dùng khóa của dịch vụ AI thương mại; thông số mô hình được công bố tại trang phân phối (Ollama, n.d.). Liên kết Gemini và ChatGPT là lựa chọn mở dịch vụ bên ngoài, không phải hai mô hình được nhúng vào khung chat.
+
+Hình 11. Khung AI ở bài B23 trong lượt kiểm tra nội bộ; câu hỏi do người kiểm tra nhập, không phải dữ liệu học sinh.
+
+Chế độ gợi ý yêu cầu AI chọn mã đoạn kiến thức và đặt một câu hỏi tiếp theo; hệ thống trích nguyên văn đoạn đã chọn để hạn chế việc làm thay. Chế độ giải thích tạo phản hồi từ bản tóm tắt bài học, không đọc hồ sơ, điểm hoặc bài nộp của lớp. Lượt thử carbon-14 cho N = 14 − 6 = 8; lượt thử bán rã với N₀ = 800 sau 2T cho giá trị trung bình 200. Các lượt thử chỉ kiểm tra những trường hợp đã nêu, chưa xác lập độ chính xác của AI trên toàn bộ câu hỏi.
+
+Giáo viên có chức năng đọc TXT, DOCX và PDF có văn bản để tóm tắt, rút ý chính hoặc gợi ý câu hỏi. Văn bản trích xuất được hiển thị trước khi xử lí; phản hồi kèm các đoạn làm căn cứ và được ghi là bản nháp. Đã thử ba tác vụ với kiến thức phóng xạ và xác nhận yêu cầu chưa đăng nhập bị từ chối; chưa kiểm thử toàn bộ luồng bằng tài khoản giáo viên thật. Phản hồi vẫn có thể thiếu điều kiện áp dụng hoặc diễn đạt chưa chính xác. Giới hạn một yêu cầu tạo phản hồi đồng thời trên máy thử 8 GB chưa chứng minh khả năng phục vụ cả lớp. Việc kiểm tra và quyết định sử dụng thuộc giáo viên (Miao & Holmes, 2023).
+
+3 12 Kết quả kiểm tra nội bộ và việc cần hoàn thiện
+
+Bảng 2. Bằng chứng kiểm tra sản phẩm đến ngày 04/10/2026
+
+Các lỗi được phát hiện và sửa gồm trộn khối lượng nguyên tử với khối lượng hạt nhân ở B25, giải thích k > 1 quá mức, diễn đạt chưa rõ sự khác nhau giữa PET và SPECT, cùng bố cục lựa chọn đáp án trên màn hình hẹp. Việc ghi lại lỗi và căn cứ sửa cho thấy quá trình kiểm tra đã tác động tới sản phẩm; số ca đạt chỉ xác nhận các tình huống đã xét.
+
+4 Thảo luận
+
+Đóng góp của sản phẩm là kết nối thao tác trực quan với nhiệm vụ và bằng chứng học tập, đồng thời để giáo viên điều chỉnh kế hoạch theo lớp. Ví dụ phân hạch yêu cầu học sinh kiểm tra hai tổng bảo toàn; đồ thị bán rã yêu cầu giữ một tham số và thay tham số còn lại; bản ghi yêu cầu giải thích điều quan sát. Các thiết kế này cụ thể hóa định hướng hỗ trợ học tập, nhưng chưa đủ để kết luận tăng hứng thú, thành tích hay năng lực tự học. Kết quả tổng quan của van Alten et al. (2019) và Liu et al. (2024) càng cho thấy cần đánh giá trong bối cảnh sử dụng thực tế.
+
+Trước khi sử dụng trong thực nghiệm sư phạm, cần hoàn thiện luồng tài khoản, giao và nộp; tổ chức thẩm định nội dung, mức phù hợp nhiệm vụ và tiêu chí đánh giá; kiểm tra thiết bị, mạng và ngôn ngữ video ở lớp dự kiến. Sau đó mới xác lập người tham gia, kế hoạch thu thập dữ liệu và công cụ đánh giá phù hợp. Các thông tin này là công việc tiếp theo, không được trình bày như đã hoàn thành. Phạm vi báo cáo hiện tại phù hợp pha thiết kế trước sử dụng theo McKenney và Reeves (2019).
+
+5 Kết luận
+
+Nghiên cứu đã kiến tạo bản mẫu học liệu B21–B25 với kho truy cập theo bài, mô phỏng 3D, hình tương tác, video có nhiệm vụ, bản ghi, đề tự luyện và bàn soạn kế hoạch phân rõ hai vai. Bài báo cung cấp ảnh giao diện và các phép kiểm tra cụ thể thay cho nhận định hiệu quả chung. Sản phẩm đã qua kiểm tra nội bộ và còn cần hoàn thiện vận hành tài khoản, thẩm định độc lập trước triển khai trên lớp. Chưa có cơ sở để báo cáo kết quả thực nghiệm hoặc khẳng định tác động tới học sinh.
+
+Tài liệu tham khảo
+
+Bộ Giáo dục và Đào tạo. (2018). Chương trình giáo dục phổ thông môn Vật lí (Ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT). https://thcsandong.haiphong.edu.vn/van-ban-bo-gddt/chuong-trinh-giao-duc-pho-thong-mon-vat-ly-ban-hanh-kem-theo-thong-tu-so-322018/vbctmb/20343/91436
+
+FuseSchool – Global Education. (n.d.). What is nuclear fission? | Radioactivity | Physics | FuseSchool [Video]. YouTube. https://www.youtube.com/watch?v=D91T-B-PVE0
+
+International Atomic Energy Agency. (n.d.). Food irradiation. https://www.iaea.org/topics/food-irradiation
+
+Liu, L., Hew, K. F., & Du, J. (2024). Design principles for supporting self-regulated learning in flipped classrooms: A systematic review. International Journal of Educational Research, 124, Article 102319. https://doi.org/10.1016/j.ijer.2024.102319
+
+Mai, H. P., Hồ, V. T., Phan, T. T., Phạm, T. P. U., & Nguyễn, T. M. D. (2024). Xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung Động lượng – Vật lí 10 theo mô hình lớp học đảo ngược. TNU Journal of Science and Technology, 229(01/S), 197–206. https://doi.org/10.34238/tnu-jst.9209
+
+McKenney, S., & Reeves, T. C. (2019). Conducting educational design research (2nd ed.). Routledge. https://www.routledge.com/Conducting-Educational-Design-Research-2nd-Edition/McKenney-Reeves/p/book/9781138095564
+
+Miao, F., & Holmes, W. (2023). Guidance for generative AI in education and research. UNESCO. https://doi.org/10.54675/EWZM9535
+
+National Institute of Biomedical Imaging and Bioengineering. (n.d.). Nuclear medicine. https://www.nibib.nih.gov/science-education/science-topics/nuclear-medicine
+
+Ollama. (n.d.). qwen3:4b-instruct-2507-q4_K_M. https://ollama.com/library/qwen3:4b-instruct-2507-q4_K_M
+
+University of Texas at El Paso. (n.d.). Flipped classroom models. https://www.utep.edu/technologysupport/_Files/docs/Flipping-the-Class-Models.pdf
+
+Urone, P. P., & Hinrichs, R. (2022). College physics (2nd ed.). OpenStax. https://openstax.org/details/books/college-physics-2e
+
+van Alten, D. C. D., Phielix, C., Janssen, J., & Kester, L. (2019). Effects of flipping the classroom on learning outcomes and satisfaction: A meta-analysis. Educational Research Review, 28, Article 100281. https://doi.org/10.1016/j.edurev.2019.05.003
+
+Vũ, V. H., Nguyễn, V. B., Trần, N. C., Phạm, K. C., Đặng, T. H., Tưởng, D. H., & Bùi, G. T. (2024). Vật lí 12 (Kết nối tri thức với cuộc sống; bản mẫu tháng 1/2024). Nhà xuất bản Giáo dục Việt Nam. 
+
+Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory Into Practice, 41(2), 64–70. https://doi.org/10.1207/s15430421tip4102_2

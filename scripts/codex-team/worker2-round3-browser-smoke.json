@@ -1,0 +1,11 @@
+{
+  "id": "worker2-round3-browser-smoke",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 240,
+  "previous_runs": [
+    "worker2-round2"
+  ],
+  "browser_mcp": true,
+  "task": "Xác nhận khắc phục blocker W2-02-01. Dùng MCP team_browser mở http://localhost:3001/hoc-lieu, snapshot rồi chụp ảnh desktop. Đổi 390x844 rồi chụp ảnh mobile. Chỉ lượt smoke trình duyệt, không tuyên bố nghiệm thu, không đăng nhập/ghi DB. Nêu bằng chứng đường dẫn ảnh, tiêu đề trang và tool errors nếu có. Không khởi chạy browser qua shell."
+}

@@ -1,3 +1,7 @@
+import questionImages from "@/data/question-images.json";
+import { SUPPLEMENTARY_NUCLEAR_MATERIALS } from "./nuclear-learning-content";
+import { EXTENDED_NUCLEAR_MATERIALS } from "./extended-nuclear-materials";
+import { NUCLEAR_LAB_LESSONS, NUCLEAR_VIDEO_METADATA, nuclearLabUrl, nuclearVideoUrl } from "./nuclear-lab-lessons";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
 export type MaterialType =
@@ -7,6 +11,7 @@ export type MaterialType =
   | "lecture_video"
   | "simulation"
   | "document"
+  | "assessment"
   | "colab";
 
 export type MaterialCategory =
@@ -27,6 +32,12 @@ export type MaterialItem = {
   content_url: string;        // Storage URL, direct web URL, or component key
   storage_path?: string | null;
   metadata?: {
+    workspace?: "quiz" | "mindmap" | "roleplay" | "game" | "assessment" | "teaching-guide" | "remediation" | "rubric" | "infographic" | "nucleus";
+    examId?: string;
+    guideId?: string;
+    recommendedPhase?: "before_class" | "in_class" | "after_class";
+    language?: string;
+    verifiedAt?: string;
     activityKey?: string;     // Key used in FixedPhysicsActivityRenderer
     durationMinutes?: number;
     fileSizeBytes?: number;
@@ -50,6 +61,7 @@ export type PathwayStep = {
   instructions: string;
   step_order: number;
   is_required: boolean;
+  is_published?: boolean;
   step_type: MaterialType | "checkpoint" | "exercise" | "reflection";
   config?: Record<string, unknown>;
   material?: MaterialItem | null;
@@ -59,18 +71,47 @@ export type PathwayStep = {
 // CANONICAL SYSTEM MATERIALS (Học liệu chuẩn hóa SGK Vật lí 12 KNTT)
 // ============================================================
 export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
+  ...NUCLEAR_LAB_LESSONS.flatMap((lesson): MaterialItem[] => {
+    const common = {
+      category: "nuclear_physics" as const,
+      lesson_tag: lesson.code,
+      is_published: true,
+      is_system: true,
+      created_at: "2026-11-05T00:00:00Z",
+    };
+    return [{
+      ...common,
+      id: `system-nuclear-video-${lesson.code.toLowerCase()}`,
+      title: `Video ${lesson.code} · ${lesson.title}`,
+      description: lesson.videoTask,
+      material_type: "lecture_video",
+      content_url: nuclearVideoUrl(lesson.code),
+      metadata: { language: "vi", recommendedPhase: "before_class", mimeType: "video/mp4", durationMinutes: Math.round(NUCLEAR_VIDEO_METADATA[lesson.code].durationSeconds / 60 * 100) / 100 },
+    }, {
+      ...common,
+      id: `system-nucleus-model-${lesson.code.toLowerCase()}`,
+      title: `Mô hình 3D ${lesson.code} · ${lesson.isotopeLabel}`,
+      description: lesson.observation,
+      material_type: "simulation",
+      content_url: nuclearLabUrl(lesson.code, "mo-hinh"),
+      metadata: { workspace: "nucleus", recommendedPhase: "in_class" },
+    }];
+  }),
+  ...questionImages.map((image): MaterialItem => ({ id: `system-question-image-${image.id}`, title: `Hình câu hỏi: ${image.title}`, description: image.description, material_type: "image", category: "nuclear_physics", lesson_tag: image.lesson, content_url: image.url, metadata: { author: image.source, recommendedPhase: "in_class" }, is_published: true, is_system: true, created_at: "2026-10-05T00:00:00Z" })),
+  ...EXTENDED_NUCLEAR_MATERIALS,
+  ...SUPPLEMENTARY_NUCLEAR_MATERIALS,
   // --- B21: Cấu trúc hạt nhân ---
   {
     id: "system-sim-rutherford",
     title: "Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford",
-    description: "Khảo sát chùm hạt alpha bắn qua lá vàng siêu mỏng. Rút ra sự tồn tại của hạt nhân mang điện dương và kích thước nguyên tử rỗng.",
+    description: "So sánh hai quỹ đạo alpha quanh một hạt nhân vàng. Đổi tham số va chạm hoặc động năng và giải thích sự thay đổi góc tán xạ.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B21",
     content_url: "activity:rutherford_alpha_scattering",
     metadata: {
       activityKey: "rutherford_alpha_scattering",
-      sourceBook: "Hình 21.3 SGK KNTT tr. 91-92",
+      sourceBook: "SGK Vật lí 12 KNTT tr. 91–92, Hình 21.2–21.3",
     },
     is_published: true,
     is_system: true,
@@ -79,7 +120,7 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-sim-nuclear-builder",
     title: "Mô phỏng: Cấu tạo hạt nhân nguyên tử (Proton & Neutron)",
-    description: "Tương tác kéo thả bổ sung proton và neutron để cấu tạo nên hạt nhân nguyên tử, xác định điện tích Z và số khối A.",
+    description: "Điều chỉnh số proton và neutron để cấu tạo nên hạt nhân nguyên tử, xác định điện tích Z và số khối A.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B21",
@@ -160,7 +201,7 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-sim-nuclear-fission",
     title: "Mô phỏng: Phản ứng phân hạch Uranium-235 và phản ứng dây chuyền",
-    description: "Kích hoạt neutron chậm bắn phá U-235 sinh 2-3 neutron thứ cấp. Khảo sát điều kiện duy trì phản ứng dây chuyền với hệ số k.",
+    description: "Chạy từng bước U-235 → U-236* → Y-95 + I-138 + 3 neutron đúng ví dụ SGK. Xoay 3D, xem lại thời điểm, kiểm tra bảo toàn A/Z và so sánh dây chuyền theo k.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B22",
@@ -175,8 +216,8 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   },
   {
     id: "system-sim-nuclear-fusion",
-    title: "Mô phỏng: Phản ứng tổng hợp hạt nhân (Nhiệt hạch) trong Mặt Trời",
-    description: "Khảo sát điều kiện nhiệt độ hàng chục triệu độ và áp suất cực lớn để kết hợp hai hạt nhân nhẹ H-2 và H-3 thành Heli.",
+    title: "Mô phỏng: Phản ứng tổng hợp hạt nhân D–T (Nhiệt hạch)",
+    description: "So sánh điều kiện hợp nhất deuterium và tritium tạo helium-4 và neutron. Ví dụ D–T khác chuỗi proton–proton chủ yếu trong Mặt trời.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B22",
@@ -194,7 +235,7 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-sim-geiger-decay",
     title: "Mô phỏng: Ống đếm Geiger và tính ngẫu nhiên của phân rã phóng xạ",
-    description: "Đo xung đếm ngẫu nhiên của mẫu phóng xạ theo thời gian. Minh chứng tính tự phát, không phụ thuộc vào tác nhân bên ngoài.",
+    description: "Tạo số đếm ngẫu nhiên theo mô hình, lặp quan sát để so sánh sự dao động. Đây là dữ liệu mô phỏng, không phải phép đo nguồn thật.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B23",
@@ -226,7 +267,7 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-sim-half-life",
     title: "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T",
-    description: "Mô phỏng số hạt còn lại N(t) = N0.2^(-t/T). Vẽ đồ thị suy giảm hàm mũ và xác định chu kì bán rã.",
+    description: "Theo dõi từng hạt phân rã, số ghi nhận trong khoảng đo và số hạt còn lại. Thay số hạt ban đầu hoặc chu kì để đối chiếu lượt ngẫu nhiên với đường kì vọng.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B23",
@@ -292,7 +333,7 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-sim-reactor-control",
     title: "Mô phỏng: Điều khiển thanh hấp thụ neutron trong lò phản ứng",
-    description: "Thao tác nâng hạ thanh điều khiển (Cadmium/Boron) để duy trì hệ số nhân neutron k = 1 ổn định công suất lò phát điện.",
+    description: "So sánh ba mức cắm thanh hấp thụ neutron trong mô hình định tính. Theo dõi xu hướng qua các thế hệ và phân biệt với quá trình truyền nhiệt của lò nước áp lực; không dùng để dự báo vận hành thực tế.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B24",
@@ -308,7 +349,7 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-sim-nuclear-medicine",
     title: "Mô phỏng: Ứng dụng đồng vị phóng xạ trong Y học (Chẩn đoán & Xạ trị)",
-    description: "Khảo sát nguyên lí ghi hình SPECT/PET bằng chất đánh dấu phóng xạ I-131, Tc-99m và xạ trị tiêu diệt khối u.",
+    description: "Phân biệt PET dùng chất đánh dấu phát positron (ví dụ F-18), SPECT ghi photon gamma (ví dụ Tc-99m) và điều trị bằng dược chất phóng xạ.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B24",
@@ -342,7 +383,7 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-sim-practice-lab",
     title: "Mô phỏng: Thực hành phân tích dữ liệu phân rã phóng xạ H(t)",
-    description: "Lập bảng số liệu, vẽ đường cong lý thuyết khớp thực nghiệm theo Bảng 25.1 SGK để tìm độ phóng xạ H0 và chu kì bán rã T.",
+    description: "Đọc độ phóng xạ ban đầu trong Bảng 25.1 SGK, ước lượng chu kì bán rã từ mốc nửa ban đầu rồi so sánh với đường lí thuyết.",
     material_type: "simulation",
     category: "nuclear_physics",
     lesson_tag: "B25",
@@ -360,13 +401,13 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-doc-sgk-chapter4",
     title: "Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân",
-    description: "Toàn văn nội dung chuẩn hóa Chương IV (Bài 21 đến Bài 25) gồm lí thuyết, câu hỏi thảo luận, bài tập và bảng số liệu.",
+    description: "Bản trích trang in 90–122 từ tệp SGK người dùng cung cấp; gồm B21–B25, lí thuyết, câu hỏi và bảng số liệu.",
     material_type: "document",
     category: "nuclear_physics",
     lesson_tag: "general",
-    content_url: "/SGK VẬT LÍ 12 KNTT.pdf",
+    content_url: "/learning/SGK-chuong-IV.pdf",
     metadata: {
-      fileSizeBytes: 75373179,
+
       sourceBook: "SGK Vật lí 12 Kết nối tri thức với cuộc sống (tr. 90-122)",
     },
     is_published: true,
@@ -376,11 +417,11 @@ export const CANONICAL_SYSTEM_MATERIALS: MaterialItem[] = [
   {
     id: "system-doc-b21-worksheet",
     title: "Phiếu hướng dẫn tự học: Bài 21 — Cấu trúc hạt nhân",
-    description: "Phiếu học tập tự học tại nhà gồm mục tiêu, 5 câu hỏi tự lực điền khuyết và 3 câu hỏi tự chẩn đoán có phản hồi tức thì.",
+    description: "Phiếu học tập tự học tại nhà gồm mục tiêu, nhiệm vụ ba giai đoạn và 3 câu hỏi tự chẩn đoán có phản hồi tức thì.",
     material_type: "document",
     category: "nuclear_physics",
     lesson_tag: "B21",
-    content_url: "worksheet:b21_self_study",
+    content_url: "/learning/B21-worksheet.pdf",
     metadata: {
       sourceBook: "Thiết kế chuẩn hóa theo tiến trình đảo ngược B21",
     },
@@ -481,6 +522,77 @@ export async function getCombinedMaterialBank(
   return list;
 }
 
+export function resolvePathwayStepMaterial(s: {
+  id: string;
+  material_id?: string | null;
+  title: string;
+  instructions?: string | null;
+  step_type: PathwayStep["step_type"];
+  is_published?: boolean | null;
+  config?: Record<string, unknown> | null;
+  material_bank?: MaterialItem | MaterialItem[] | null;
+  created_at?: string | null;
+}): MaterialItem {
+  const rawBank = Array.isArray(s.material_bank) ? s.material_bank[0] : s.material_bank;
+  const cfg = (s.config && typeof s.config === "object" ? s.config : {}) as Record<string, unknown>;
+  const canonicalId = typeof cfg.canonical_material_id === "string" ? cfg.canonical_material_id : null;
+  const cfgUrl = typeof cfg.content_url === "string" ? cfg.content_url : "";
+
+  const canonical =
+    (canonicalId ? CANONICAL_SYSTEM_MATERIALS.find((m) => m.id === canonicalId) : undefined) ??
+    (s.material_id ? CANONICAL_SYSTEM_MATERIALS.find((m) => m.id === s.material_id) : undefined) ??
+    (cfgUrl ? CANONICAL_SYSTEM_MATERIALS.find((m) => m.content_url === cfgUrl) : undefined);
+
+  const tagSource = `${canonical?.lesson_tag ?? ""} ${canonicalId ?? ""} ${cfgUrl} ${s.title ?? ""}`;
+  const tagMatch = tagSource.match(/\b(B2[1-5])\b/i);
+  const inferredTag = canonical?.lesson_tag ?? (tagMatch ? tagMatch[1].toUpperCase() : undefined);
+
+  const validTypes: MaterialType[] = [
+    "image",
+    "animation",
+    "real_video",
+    "lecture_video",
+    "simulation",
+    "document",
+    "assessment",
+    "colab",
+  ];
+  const mappedType: MaterialType = validTypes.includes(s.step_type as MaterialType)
+    ? (s.step_type as MaterialType)
+    : canonical?.material_type ?? "document";
+
+  if (rawBank) {
+    return {
+      ...rawBank,
+      lesson_tag: rawBank.lesson_tag || inferredTag,
+      metadata: {
+        ...(canonical?.metadata ?? {}),
+        ...(rawBank.metadata ?? {}),
+      },
+    };
+  }
+
+  if (canonical) {
+    return {
+      ...canonical,
+      lesson_tag: canonical.lesson_tag || inferredTag,
+    };
+  }
+
+  return {
+    id: canonicalId || s.material_id || s.id,
+    title: s.title,
+    description: s.instructions || "",
+    material_type: mappedType,
+    category: "nuclear_physics",
+    lesson_tag: inferredTag,
+    content_url: cfgUrl,
+    is_published: Boolean(s.is_published),
+    is_system: Boolean(canonicalId),
+    created_at: s.created_at || "2026-10-01T00:00:00Z",
+  };
+}
+
 export async function getLessonPathway(
   supabase: SupabaseClient,
   lessonId: string,
@@ -494,7 +606,7 @@ export async function getLessonPathway(
       .eq("phase", phase)
       .order("step_order", { ascending: true });
 
-    if (!error && steps && steps.length > 0) {
+    if (!error && steps) {
       return steps.map((s) => ({
         id: s.id,
         lesson_id: s.lesson_id,
@@ -504,9 +616,10 @@ export async function getLessonPathway(
         instructions: s.instructions || "",
         step_order: s.step_order,
         is_required: s.is_required,
+        is_published: s.is_published,
         step_type: s.step_type,
         config: s.config,
-        material: s.material_bank || null,
+        material: resolvePathwayStepMaterial(s),
       }));
     }
   } catch {

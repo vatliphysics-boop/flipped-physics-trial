@@ -1,0 +1,85 @@
+
+> flipped-physics@0.1.0 build
+> next build
+
+▲ Next.js 16.3.5 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 41s
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 112s
+  Running TypeScript ...
+✓ Finished writing to filesystem cache in 25.2s
+✓ Finished filesystem cache database compaction in 62s
+  Finished TypeScript in 3.5min ...
+  Collecting page data using 5 workers ...
+  Generating static pages using 5 workers (0/44) ...
+  Generating static pages using 5 workers (11/44) 
+  Generating static pages using 5 workers (22/44) 
+  Generating static pages using 5 workers (33/44) 
+✓ Generating static pages using 5 workers (44/44) in 3.4s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/ai/document
+├ ƒ /api/ai/preparation
+├ ƒ /api/ai/status
+├ ƒ /api/ai/student
+├ ƒ /api/ai/teacher
+├ ƒ /api/ai/teacher-demo
+├ ƒ /api/book-bank
+├ ƒ /api/book-bank/asset
+├ ƒ /api/question-bank
+├ ƒ /api/word-download
+├ ƒ /auth/confirm
+├ ○ /auth/verified
+├ ○ /demo-lesson
+├ ○ /gioi-thieu
+├ ƒ /hoc-lieu
+├ ƒ /hoc-lieu/ai
+├ ○ /hoc-lieu/ai-giao-vien
+├ ƒ /hoc-lieu/chuong-trinh
+├ ○ /hoc-lieu/lop-hoc-dao-nguoc
+├ ƒ /hoc-lieu/phong-hat-nhan
+├ ƒ /hoc-lieu/soan-ke-hoach
+├ ƒ /hoc-lieu/truc-quan
+├ ○ /login
+├ ○ /register
+├ ƒ /student
+├ ƒ /student/ai
+├ ƒ /student/assignments
+├ ƒ /student/classes
+├ ƒ /student/curriculum
+├ ƒ /student/curriculum/[chapterCode]
+├ ƒ /student/journal
+├ ƒ /student/lessons/[lessonId]
+├ ƒ /student/lessons/[lessonId]/after-class
+├ ƒ /student/lessons/[lessonId]/before-class
+├ ƒ /student/lessons/[lessonId]/in-class
+├ ƒ /student/materials
+├ ƒ /teacher
+├ ƒ /teacher/ai
+├ ƒ /teacher/classes
+├ ƒ /teacher/classes/[classId]
+├ ƒ /teacher/classes/[classId]/curriculum
+├ ƒ /teacher/classes/new
+├ ƒ /teacher/curriculum
+├ ƒ /teacher/curriculum/[chapterCode]
+├ ƒ /teacher/lessons
+├ ƒ /teacher/lessons/[lessonId]
+├ ƒ /teacher/lessons/[lessonId]/after-class
+├ ƒ /teacher/lessons/[lessonId]/before-class
+├ ƒ /teacher/lessons/[lessonId]/in-class
+├ ƒ /teacher/lessons/[lessonId]/ket-qua
+├ ƒ /teacher/materials
+├ ƒ /teacher/plans
+└ ƒ /teacher/students
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,7 @@
+{
+  "id": "worker2-round0",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 900,
+  "task": "Vòng 0: đọc đầy đủ căn cứ. Xác minh có thể dùng trình duyệt thực trên http://localhost:3001 bằng công cụ đang có. Có bundled Node/playwright ở /Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules; quyền read-only. Không cài công cụ, không ghi workspace. Nếu dùng được, thao tác luồng công khai giáo viên/học sinh, học liệu/3D/chatbot, desktop/mobile/keyboard; evidence ảnh có thể đưa qua output công cụ nếu hỗ trợ, không giả ảnh. Nếu không dùng được, ghi rõ lỗi công cụ. Không đăng ký tài khoản hoặc ghi DB chưa xác minh. Cho báo cáo các vấn đề có căn cứ; ghi blocker tài khoản thử. Đây là kiểm tra quyền truy cập thực và đánh giá đầu, chưa sửa DOCX. Không chỉ trả plan."
+}

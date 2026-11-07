@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-05T11:56:09.315Z",
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+  "viewport": [
+    1440,
+    900
+  ],
+  "image": {
+    "x": 325,
+    "y": 293.078125,
+    "width": 1040,
+    "height": 606.65625,
+    "top": 293.078125,
+    "right": 1365,
+    "bottom": 899.734375,
+    "left": 325
+  },
+  "pins": [
+    {
+      "label": "Điểm 1: Hấp thụ neutron",
+      "pressed": "true",
+      "rect": {
+        "x": 443.1875,
+        "y": 464.140625,
+        "width": 34,
+        "height": 34,
+        "top": 464.140625,
+        "right": 477.1875,
+        "bottom": 498.140625,
+        "left": 443.1875
+      }
+    },
+    {
+      "label": "Điểm 2: Tách thành hai mảnh",
+      "pressed": "false",
+      "rect": {
+        "x": 1025.59375,
+        "y": 439.875,
+        "width": 34,
+        "height": 34,
+        "top": 439.875,
+        "right": 1059.59375,
+        "bottom": 473.875,
+        "left": 1025.59375
+      }
+    },
+    {
+      "label": "Điểm 3: Năng lượng & dây chuyền",
+      "pressed": "false",
+      "rect": {
+        "x": 1223.1875,
+        "y": 494.46875,
+        "width": 34,
+        "height": 34,
+        "top": 494.46875,
+        "right": 1257.1875,
+        "bottom": 528.46875,
+        "left": 1223.1875
+      }
+    }
+  ]
+}

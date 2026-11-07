@@ -1,0 +1,21 @@
+Browser tab: 3, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/login".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/login
+	15 container Vui lòng điền vào trường này. 
+	16 heading Học liệu số Vật lí 12, Value: 2
+		17 text Học liệu số Vật lí 12
+	18 text Nền tảng hỗ trợ giáo viên tổ chức lớp học đảo ngược khoa học, hiệu quả và chủ động.
+	2 heading Đăng nhập, Value: 1
+		3 text Đăng nhập
+	4 text Truy cập không gian làm việc của bạn
+	5 container
+		6 text Giáo viên Học sinh Email
+		7 text field (settable) Email
+		8 text Mật khẩu
+		9 text field (settable) Mật khẩu
+		10 button Đăng nhập
+	11 container
+		12 text Chưa có tài khoản? 
+		13 link Description: Đăng ký ngay, Value: localhost:3001/register
+	14 link Description: ← Quay lại trang chủ, Value: localhost:3001/
+
+The focused UI element is 7 text field (settable) Email

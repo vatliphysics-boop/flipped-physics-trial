@@ -1,0 +1,168 @@
+/login {
+  scrollY: 0,
+  main: [
+    {
+      tag: 'MAIN',
+      class: 'auth-frame-module__Llu-8G__page',
+      rect: [Object],
+      display: 'grid',
+      position: 'static',
+      overflow: 'visible',
+      align: 'start',
+      height: '950px'
+    },
+    {
+      tag: 'DIV',
+      class: 'auth-frame-module__Llu-8G__frame',
+      rect: [Object],
+      display: 'grid',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '774.391px'
+    },
+    {
+      tag: 'ASIDE',
+      class: 'auth-frame-module__Llu-8G__introduction',
+      rect: [Object],
+      display: 'flex',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '95.1406px'
+    },
+    {
+      tag: 'DIV',
+      class: 'auth-frame-module__Llu-8G__content',
+      rect: [Object],
+      display: 'flex',
+      position: 'static',
+      overflow: 'visible',
+      align: 'center',
+      height: '677.25px'
+    },
+    {
+      tag: 'H1',
+      class: '',
+      rect: [Object],
+      display: 'block',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '31.25px'
+    }
+  ],
+  html: '<main class="auth-frame-module__Llu-8G__page"><div class="auth-frame-module__Llu-8G__frame"><aside class="auth-frame-module__Llu-8G__introduction" aria-label="Học liệu Vật lí 12"><a class="SiteChrome-module__uVRfBW__brand" aria-label="Vật lí Hạt nhân 12 · Trang chủ" href="/"><span class="SiteChrome-module__uVRfBW__mark" aria-hidden="true">α</span><span>Vật lí Hạt nhân 12</span></a><div class="auth'
+}
+/register {
+  scrollY: 0,
+  main: [
+    {
+      tag: 'MAIN',
+      class: 'auth-frame-module__Llu-8G__page',
+      rect: [Object],
+      display: 'grid',
+      position: 'static',
+      overflow: 'visible',
+      align: 'start',
+      height: '1175.36px'
+    },
+    {
+      tag: 'DIV',
+      class: 'auth-frame-module__Llu-8G__frame',
+      rect: [Object],
+      display: 'grid',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '1151.36px'
+    },
+    {
+      tag: 'ASIDE',
+      class: 'auth-frame-module__Llu-8G__introduction',
+      rect: [Object],
+      display: 'flex',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '95.1406px'
+    },
+    {
+      tag: 'DIV',
+      class: 'auth-frame-module__Llu-8G__content',
+      rect: [Object],
+      display: 'flex',
+      position: 'static',
+      overflow: 'visible',
+      align: 'center',
+      height: '1054.22px'
+    },
+    {
+      tag: 'H1',
+      class: '',
+      rect: [Object],
+      display: 'block',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '31.25px'
+    }
+  ],
+  html: '<main class="auth-frame-module__Llu-8G__page"><div class="auth-frame-module__Llu-8G__frame"><aside class="auth-frame-module__Llu-8G__introduction" aria-label="Học liệu Vật lí 12"><a class="SiteChrome-module__uVRfBW__brand" aria-label="Vật lí Hạt nhân 12 · Trang chủ" href="/"><span class="SiteChrome-module__uVRfBW__mark" aria-hidden="true">α</span><span>Vật lí Hạt nhân 12</span></a><div class="auth'
+}
+/auth/verified?status=success {
+  scrollY: 0,
+  main: [
+    {
+      tag: 'MAIN',
+      class: 'auth-frame-module__Llu-8G__page',
+      rect: [Object],
+      display: 'grid',
+      position: 'static',
+      overflow: 'visible',
+      align: 'start',
+      height: '950px'
+    },
+    {
+      tag: 'DIV',
+      class: 'auth-frame-module__Llu-8G__frame',
+      rect: [Object],
+      display: 'grid',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '534.297px'
+    },
+    {
+      tag: 'ASIDE',
+      class: 'auth-frame-module__Llu-8G__introduction',
+      rect: [Object],
+      display: 'flex',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '95.1406px'
+    },
+    {
+      tag: 'DIV',
+      class: 'auth-frame-module__Llu-8G__content',
+      rect: [Object],
+      display: 'flex',
+      position: 'static',
+      overflow: 'visible',
+      align: 'center',
+      height: '437.156px'
+    },
+    {
+      tag: 'H1',
+      class: '',
+      rect: [Object],
+      display: 'block',
+      position: 'static',
+      overflow: 'visible',
+      align: 'normal',
+      height: '62.5px'
+    }
+  ],
+  html: '<main class="auth-frame-module__Llu-8G__page"><div class="auth-frame-module__Llu-8G__frame"><aside class="auth-frame-module__Llu-8G__introduction" aria-label="Học liệu Vật lí 12"><a class="SiteChrome-module__uVRfBW__brand" aria-label="Vật lí Hạt nhân 12 · Trang chủ" href="/"><span class="SiteChrome-module__uVRfBW__mark" aria-hidden="true">α</span><span>Vật lí Hạt nhân 12</span></a><div class="auth'
+}

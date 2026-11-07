@@ -1,0 +1,262 @@
+001 
+002 ỦY BAN NHÂN DÂN
+003 THÀNH PHỐ HỒ CHÍ MINH
+004 TRƯỜNG ĐẠI HỌC SÀI GÒN
+005 
+006 
+007 
+008 
+009 
+010 BÁO CÁO TỔNG KẾT 
+011 ĐỀ TÀI NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN
+012 
+013 
+014 XÂY DỰNG VÀ SỬ DỤNG HỌC LIỆU SỐ CÓ SỰ HỖ TRỢ 
+015 CỦA TRÍ TUỆ NHÂN TẠO TRONG TỔ CHỨC DẠY HỌC THEO 
+016 MÔ HÌNH LỚP HỌC ĐẢO NGƯỢC NHẰM PHÁT TRIỂN NĂNG LỰC TỰ HỌC 
+017 CỦA HỌC SINH QUA CHỦ ĐỀ “VẬT LÝ HẠT NHÂN” VẬT LÝ 12 THPT
+018 Mã số: SV2026-
+019 
+020 Thuộc nhóm ngành khoa học: Khoa học Giáo dục
+021 Chủ nhiệm đề tài:
+022 Thành viên tham gia:
+023            
+024 
+025 
+026 Giảng viên hướng dẫn: PGS.TS.Nguyễn Thị Nhị
+027 
+028 
+029 
+030 Thành phố Hồ Chí Minh, 4/2027
+031 
+032 ỦY BAN NHÂN DÂN
+033 THÀNH PHỐ HỒ CHÍ MINH
+034 TRƯỜNG ĐẠI HỌC SÀI GÒN
+035 
+036 
+037 
+038 
+039 
+040 BÁO CÁO TỔNG KẾT 
+041 ĐỀ TÀI NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN
+042 
+043 
+044 XÂY DỰNG VÀ SỬ DỤNG HỌC LIỆU SỐ CÓ SỰ HỖ TRỢ 
+045 CỦA TRÍ TUỆ NHÂN TẠO TRONG TỔ CHỨC DẠY HỌC THEO 
+046 MÔ HÌNH LỚP HỌC ĐẢO NGƯỢC NHẰM PHÁT TRIỂN NĂNG LỰC TỰ HỌC 
+047 CỦA HỌC SINH QUA CHỦ ĐỀ “VẬT LÝ HẠT NHÂN” VẬT LÝ 12 THPT
+048 Mã số: SV2026-
+049 
+050 Xác nhận của Khoa
+051 
+052 Xác nhận của giảng viên hướng dẫn
+053       Chủ nhiệm đề tài
+054   
+055 
+056 PGS.TS.Nguyễn Thị Nhị
+057 
+058 
+059 
+060 Thành phố Hồ Chí Minh, 4/2027
+061 
+062 MỞ ĐẦU
+063 1. Lí do chọn đề tài
+064 1.1. Yêu cầu phát triển năng lực tự học trong giáo dục phổ thông
+065 1.2. Tiềm năng của học liệu số và mô hình lớp học đảo ngược
+066 1.3. Tiềm năng của trí tuệ nhân tạo trong xây dựng và sử dụng học liệu số
+067 1.4. Đặc điểm của nội dung chương “Vật lí hạt nhân” ở lớp 12
+068 1.5. Khoảng trống nghiên cứu
+069 2. Mục tiêu nghiên cứu
+070 2.1. Mục tiêu tổng quát
+071 Xây dựng và sử dụng hiệu quả học liệu số có hỗ trợ trí tuệ nhân tạo trong tổ chức dạy học theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học của học sinh lớp 12 qua chủ đề “Vật lí hạt nhân”.
+072 2.2. Mục tiêu cụ thể
+073 1. Hệ thống hóa cơ sở lí luận về học liệu số, trí tuệ nhân tạo trong giáo dục, lớp học đảo ngược và năng lực tự học.
+074 2. Khảo sát thực trạng sử dụng học liệu số, công cụ AI và tổ chức hoạt động tự học trong dạy học Vật lí lớp 12.
+075 3. Xây dựng khung năng lực tự học và các tiêu chí đánh giá năng lực tự học của học sinh.
+076 4. Xác định các nguyên tắc sử dụng AI an toàn, có kiểm soát trong dạy học Vật lí.
+077 5. Đề xuất quy trình xây dựng và sử dụng học liệu số có hỗ trợ AI trong dạy học Vật lí ở trường trung học phổ thông.
+078 6. Xây dựng hệ thống học liệu số có hỗ trợ AI cho chủ đề “Vật lí hạt nhân”.
+079 7. Thiết kế tiến trình dạy học theo mô hình lớp học đảo ngược có sử dụng học liệu số và trợ lí AI.
+080 8. Tổ chức thực nghiệm sư phạm để đánh giá tính khả thi và hiệu quả của giải pháp.
+081 4. Giả thuyết khoa học
+082 Nếu xây dựng được bộ học liệu số có hỗ trợ AI bảo đảm tính chính xác khoa học, tính sư phạm, khả năng cá nhân hóa, phản hồi kịp thời và an toàn dữ liệu; đồng thời tổ chức sử dụng theo tiến trình lớp học đảo ngược phù hợp, thì năng lực tự học của học sinh lớp 12 trong chủ đề “Vật lí hạt nhân” sẽ được phát triển.
+083 5. Nhiệm vụ nghiên cứu
+084 1. Tổng quan các nghiên cứu liên quan đến AI trong giáo dục, học liệu số, lớp học đảo ngược và năng lực tự học.
+085 2. Khảo sát thực trạng sử dụng học liệu số và AI của giáo viên, học sinh.
+086 3. Xây dựng khung năng lực tự học và bộ chỉ báo đánh giá.
+087 4. Xây dựng bộ tiêu chí đánh giá học liệu số có hỗ trợ AI.
+088 5. Phân tích nội dung và yêu cầu cần đạt của chủ đề “Vật lí hạt nhân”.
+089 6. Thiết kế hệ thống học liệu số.
+090 8. Thiết kế kế hoạch bài dạy theo mô hình lớp học đảo ngược.
+091 9. Thẩm định sản phẩm bằng ý kiến chuyên gia.
+092 10. Thử nghiệm quy mô nhỏ và điều chỉnh hệ thống.
+093 11. Tổ chức thực nghiệm sư phạm.
+094 12. Phân tích dữ liệu và đánh giá tác động.
+095 6. Đối tượng nghiên cứu vfa phạm vi nghiên cứu
+096 7. Phương pháp nghiên cứu
+097 8. Kết quả của đề tái
+098 9. Cấu trúc của đề tài
+099 Chương 1.
+100 Chương 2.
+101 Chương 3.
+102 
+103 
+104 
+105 CHƯƠNG 1.
+106 CƠ SỞ LÝ LUẬN VÀ THỰC TIỄN CỦA VIỆC XÂY DỰNG HỌC LIỆU SỐ VỚI SỰ HỖ TRỢ CỦA AI TRONG DẠY HỌC VẬT LÝ THEO MÔ HÌNH LỚP HỌC  ĐẢO NGƯỢC PHÁT TRIỂN NĂNG LỰC TỰ HỌC CỦA HỌC SINH Ở TRƯỜNG PHỔ THÔNG
+107 1.1. Tổng quan tình hình nghiên cứu liên quan đến đề tài
+108 1.1.1. Nghiên cứu trong nước về lớp học đảo ngược và phát triển năng lực tự học
+109 1.1.2. Nghiên cứu trong nước về học liệu số trong dạy học Vật lý
+110 1.1.3. Nghiên cứu trong nước về AI trong dạy học Vật lý
+111 1.1.4. Nghiên cứu trên thế giới về lớp học đảo ngược 
+112 1.1.5. Nghiên cứu trên thế giới về AI/Generative AI và hỗ trợ tự điều chỉnh việc học
+113 1.1.6. Nghiên cứu về khó khăn nhận thức và quan niệm sai trong Vật lý hạt nhân
+114 1.1.7. Đánh giá chung và xác định khoảng trống nghiên cứu
+115 1.2. Năng lực tự học của học sinh trong dạy học Vật lý
+116 1.2.1. Khái niệm năng lực, năng lực tự chủ và năng lực tự học
+117 1.2.2. Cấu trúc năng lực tự học của học sinh THPT
+118 1.2.3. Biểu hiện của năng lực tự học trong môn Vật lý
+119 1.2.4. Các mức độ và tiêu chí đánh giá năng lực tự học
+120 1.2.5. Con đường phát triển năng lực tự học trong dạy học Vật lý
+121 1.3. Học liệu số trong dạy học Vật lý
+122 1.3.1. Khái niệm và đặc điểm của học liệu số
+123 1.3.2. Các dạng học liệu số có thể sử dụng trong dạy học Vật lý
+124 1.3.3. Vai trò của học liệu số đối với hoạt động nhận thức trong môn Vật lý
+125 1.3.4. Yêu cầu sư phạm và khoa học đối với học liệu số Vật lý
+126 1.3.5. Yêu cầu đối với học liệu số dùng trong lớp học đảo ngược
+127 1.4. Trí tuệ nhân tạo và AI tạo sinh trong dạy học Vật lý
+128 1.4.1. Khái niệm AI, AI tạo sinh và các chức năng giáo dục có liên quan
+129 1.4.2. AI hỗ trợ giáo viên xây dựng học liệu số Vật lý
+130 1.4.3. AI hỗ trợ học sinh trong quá trình tự học
+131 1.4.4. Độ chính xác, an toàn, đạo đức và bảo vệ dữ liệu khi sử dụng AI
+132 1.5. Mô hình lớp học đảo ngược trong dạy học Vật lý
+133 1.5.1. Khái niệm và đặc trưng của mô hình lớp học đảo ngược
+134 1.5.2. Các giai đoạn của tiến trình lớp học đảo ngược
+135 1.5.3. Hoạt động của giáo viên và học sinh trong lớp học đảo ngược
+136 1.5.4. Điều kiện bảo đảm hiệu quả của lớp học đảo ngược
+137 1.5.5. Khả năng phát triển năng lực tự học thông qua lớp học đảo ngược
+138 1.6. Mối quan hệ giữa học liệu số, AI, lớp học đảo ngược và năng lực tự học
+139 1.6.1. Vai trò của học liệu số trong chu trình tự học
+140 1.6.2. Vai trò của AI trong việc cá nhân hóa hỗ trợ tự học
+141 1.6.3. Cơ chế phát triển năng lực tự học qua ba giai đoạn lớp học đảo ngược
+142 1.7. Thực trạng dạy học Vật lý, sử dụng học liệu số, AI và năng lực tự học ở trường THPT
+143 1.7.1. Mục đích và nội dung khảo sát thực trạng
+144 1.7.2. Đối tượng và phạm vi khảo sát
+145 1.7.3. Công cụ và phương pháp khảo sát
+146 1.7.4. Thực trạng sử dụng học liệu số và lớp học đảo ngược của giáo viên
+147 1.7.5. Thực trạng năng lực và thói quen tự học của học sinh
+148 1.7.6. Điều kiện thiết bị, Internet và thái độ đối với AI
+149 1.7.7. Đánh giá chung về thực trạng và vấn đề đặt ra cho đề tài
+150 1.8. Xây dựng và sử dụng bộ học liệu số trong dạy học Vật lý với sự hỗ trợ của AI phát triển năng lực tự học của học sinh theo mô hình lớp học đảo ngược
+151 1.8.1. Yêu cầu về xây dựng học liệu số
+152 - Bám sát yêu cầu cần đạt của Chương trình GDPT 2018 môn Vật lý
+153 - Hướng tới phát triển năng lực tự học của học sinh
+154 - Phù hợp đặc thù kiến thức Vật lý hạt nhân
+155 - Phù hợp tiến trình lớp học đảo ngược
+156 - Sử dụng AI có mục đích, có giới hạn và có kiểm duyệt
+157 - Bảo đảm tính khả thi, dễ tiếp cận và an toàn dữ liệu
+158 1.8.2. Nguyên tắc thiết kế bộ học liệu số với sự hỗ trợ của AI
+159 - Nguyên tắc bảo đảm tính khoa học và chính xác Vật lý
+160 - Nguyên tắc bảo đảm tính sư phạm và vừa sức
+161 - Nguyên tắc tăng cường trực quan hóa, tương tác và phản hồi
+162 - Nguyên tắc hỗ trợ phân hóa và cá nhân hóa
+163 - Nguyên tắc gắn học liệu với minh chứng năng lực tự học
+164 - Nguyên tắc bảo đảm đạo đức, minh bạch và trách nhiệm khi dùng AI
+165 1.8.3. Quy trình thiết kế bộ học liệu số với sự hỗ trợ của AI
+166 Bước 1: Phân tích yêu cầu cần đạt và cấu trúc nội dung
+167 Bước 2: Xác định biểu hiện năng lực tự học và minh chứng cần thu
+168 Bước 3: Xây dựng ma trận mục tiêu - nội dung - hoạt động - học liệu - AI - đánh giá
+169 Bước 4: Thiết kế và sản xuất các thành phần học liệu
+170 Bước 5: Kiểm duyệt khoa học - sư phạm, thử nghiệm nhỏ và chỉnh sửa
+171 Bước 6: Đóng gói, triển khai trên LMS và chuẩn hóa hướng dẫn sử dụng
+172 1.9. Quy trình sử dụng bộ học liệu theo mô hình lớp học đảo ngược
+173 1.9.1. Giai đoạn trước giờ học
+174 1.9.2. Giai đoạn trong giờ học
+175 1.9.3. Giai đoạn sau giờ học
+176 1.9.4. Cơ chế theo dõi và phản hồi trong toàn bộ tiến trình
+177 1.10. Kết luận Chương 1
+178 
+179 CHƯƠNG 2.
+180 XÂY DỰNG VÀ SỬ DỤNG BỘ HỌC LIỆU SỐ VỚI SỰ HỖ TRỢ CỦA AI TRONG DẠY HỌC CHƯƠNG “VẬT LÝ HẠT NHÂN” VẬT LÝ LỚP 12 Ở TRƯỜNG THPT THEO MÔ HÌNH LỚP HỌC ĐẢO NGƯỢC
+181 2.1. Phân tích Chương trình GDPT 2018 và nội dung Vật lý hạt nhân lớp 12
+182 2.1.1. Vị trí và yêu cầu cần đạt của nội dung Vật lý hạt nhân trong Vật lý 12
+183 2.1.2. Cấu trúc kiến thức của nội dung Vật lý hạt nhân
+184 2.1.3. Đặc điểm nhận thức và khó khăn học tập của học sinh
+185 2.1.4. Khả năng tích hợp học liệu số và AI vào từng mạch nội dung
+186 2.1.5. Ma trận sơ bộ mục tiêu - nội dung - hoạt động - đánh giá
+187 2.2. Cấu trúc bộ học liệu số của chương “Vật lý hạt nhân”
+188 2.2.1. Hướng dẫn học tập, mục tiêu và checklist tự học
+189 2.2.2. Video ngắn, hình ảnh động và infographic
+190 2.2.3. Mô phỏng và dữ liệu số
+191 2.2.4. Hệ thống câu hỏi tương tác và bài kiểm tra ngắn
+192 2.2.5. Hệ thống gợi ý và phản hồi có AI hỗ trợ
+193 2.2.6. Phiếu học tập số, nhật kí học tập và công cụ tự đánh giá
+194 2.2.7. Dữ liệu theo dõi và tài liệu hướng dẫn giáo viên
+195 2.3. Thiết kế học liệu số cho các mạch kiến thức Vật lý hạt nhân lớp 12
+196 2.3.1. Học liệu về cấu trúc hạt nhân và các đại lượng đặc trưng
+197 2.3.2. Học liệu về độ hụt khối và năng lượng liên kết
+198 2.3.3. Học liệu về phản ứng hạt nhân
+199 2.3.4. Học liệu về hiện tượng phóng xạ
+200 2.3.5. Học liệu về ứng dụng, công nghiệp hạt nhân và an toàn bức xạ
+201 2.4. Kế hoạch bài dạy 1: Cấu trúc hạt nhân - độ hụt khối và năng lượng liên kết
+202 2.4.1. Mục tiêu, yêu cầu cần đạt và chỉ báo năng lực tự học
+203 2.4.2. Hoạt động trước giờ học
+204 2.4.3. Hoạt động trong giờ học
+205 2.4.4. Hoạt động sau giờ học
+206 2.4.5. Kiểm tra, đánh giá và minh chứng năng lực tự học
+207 2.5. Kế hoạch bài dạy 2: Hiện tượng phóng xạ - định luật phóng xạ - chu kì bán rã
+208 2.5.1. Mục tiêu, yêu cầu cần đạt và chỉ báo năng lực tự học
+209 2.5.2. Hoạt động trước giờ học
+210 2.5.3. Hoạt động trong giờ học
+211 2.5.4. Hoạt động sau giờ học
+212 2.5.5. Kiểm tra, đánh giá và minh chứng năng lực tự học
+213 2.6. Kế hoạch bài dạy 3: Phản ứng hạt nhân - năng lượng - ứng dụng và an toàn bức xạ
+214 2.6.1. Mục tiêu, yêu cầu cần đạt và chỉ báo năng lực tự học
+215 2.6.2. Hoạt động trước giờ học
+216 2.6.3. Hoạt động trong giờ học
+217 2.6.4. Hoạt động sau giờ học
+218 2.6.5. Kiểm tra, đánh giá và minh chứng năng lực tự học
+219 2.7. Thử nghiệm và hoàn thiện bộ học liệu trước thực nghiệm 
+220 2.7.1. Kiểm duyệt nội dung Vật lý và sự phù hợp chương trình
+221 2.7.2. Kiểm duyệt thiết kế sư phạm và mức độ hỗ trợ tự học
+222 2.7.3. Kiểm thử kĩ thuật, khả năng truy cập và chức năng AI
+223 2.7.4. Chỉnh sửa và hoàn thiện phiên bản dùng cho thực nghiệm
+224 2.8. Kết luận Chương 2
+225 
+226 CHƯƠNG 3. THỰC NGHIỆM SƯ PHẠM
+227 3.1. Mục đích thực nghiệm sư phạm
+228 3.1.1. Đánh giá tính khả thi của bộ học liệu và tiến trình lớp học đảo ngược
+229 3.1.2. Đánh giá tác động đến năng lực tự học của học sinh
+230 3.1.3. Đánh giá kết quả học tập Vật lý hạt nhân như chỉ báo bổ trợ
+231 3.2. Nhiệm vụ thực nghiệm sư phạm
+232 3.2.1. Chuẩn bị kế hoạch, công cụ và điều kiện thực nghiệm
+233 3.2.2. Tổ chức dạy học ở nhóm thực nghiệm và nhóm đối chứng
+234 3.2.3. Thu thập dữ liệu trước, trong và sau can thiệp
+235 3.2.4. Xử lí, phân tích và đối chiếu kết quả
+236 3.3. Đối tượng, địa bàn, thời gian và nội dung thực nghiệm
+237 3.3.1. Đối tượng và địa bàn thực nghiệm
+238 3.3.2. Thời gian và nội dung can thiệp
+239 3.3.3. Giáo viên thực nghiệm và điều kiện tổ chức dạy học
+240 3.4. Thiết kế và phương pháp thực nghiệm
+241 3.4.1. Thiết kế bán thực nghiệm tiền kiểm - hậu kiểm có nhóm đối chứng
+242 3.4.2. Biến tác động, biến kết quả và các yếu tố cần kiểm soát
+243 3.4.3. Quy trình triển khai can thiệp
+244 3.5. Tiến trình tổ chức thực nghiệm và thu thập dữ liệu
+245 3.5.1. Giai đoạn trước thực nghiệm
+246 3.5.2. Giai đoạn trong thực nghiệm
+247 3.5.3. Giai đoạn sau thực nghiệm
+248 3.6. kết quả thực nghiệm
+249 3.6.1. Kết quả kiểm tra mức tương đương trước thực nghiệm
+250 3.6.2. Kết quả phát triển năng lực tự học
+251 3.6.3. Kết quả học tập nội dung Vật lý hạt nhân
+252 3.6.4. Kết quả về mức độ sử dụng học liệu và phản hồi của giáo viên, học sinh
+253 3.6.5. Bàn luận kết quả thực nghiệm
+254 3.6.6. Hạn chế của thực nghiệm và điều kiện áp dụng
+255 3.7. Kết luận Chương 3
+256 TÀI LIỆU THAM KHẢO
+257 
+258 
+259 
+260 
+261 PHỤ LỤC
+262 

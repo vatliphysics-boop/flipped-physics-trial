@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import Link from "next/link";
 import type { MaterialItem, MaterialType } from "@/lib/material-bank";
-import { FixedPhysicsActivityRenderer } from "@/components/physics/FixedPhysicsActivityRenderer";
-import type { CanonicalActivityKey } from "@/lib/curriculum";
+import { LearningResourcePreview } from "./LearningResourcePreview";
+import styles from "./MaterialBankViewer.module.css";
 import {
   createMaterialItemAction,
   updateMaterialItemAction,
@@ -17,7 +18,8 @@ const TYPE_LABELS: Record<MaterialType, { label: string; badgeClass: string; ico
   lecture_video: { label: "Video bài giảng", badgeClass: "badge-teal", icon: "🎬" },
   simulation: { label: "Mô phỏng", badgeClass: "badge-orange", icon: "⚛️" },
   document: { label: "PDF / Phiếu", badgeClass: "badge-amber", icon: "📄" },
-  colab: { label: "Google Colab", badgeClass: "badge-indigo", icon: "💻" },
+  colab: { label: "Câu hỏi & Hoạt động", badgeClass: "badge-indigo", icon: "💻" },
+  assessment: { label: "Đề giữa kỳ / Cuối kỳ", badgeClass: "badge-teal", icon: "📝" },
 };
 
 export function MaterialBankViewer({
@@ -50,7 +52,7 @@ export function MaterialBankViewer({
   });
 
   return (
-    <div className="material-bank-container">
+    <div className={`material-bank-container ${styles.container}`}>
       {/* Action Header */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px", flexWrap: "wrap", gap: "12px" }}>
         <div>
@@ -78,11 +80,12 @@ export function MaterialBankViewer({
       )}
 
       {/* Filter Tabs & Search Bar */}
-      <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "20px" }}>
-        <div style={{ display: "flex", gap: "8px", overflowX: "auto", paddingBottom: "4px" }} role="tablist">
+      <div className={styles.filters}>
+        <div className={styles.typeFilters} role="group" aria-label="Lọc theo loại học liệu">
           <button
             type="button"
             className={`btn small ${selectedType === "all" ? "primary" : ""}`}
+            aria-pressed={selectedType === "all"}
             onClick={() => setSelectedType("all")}
           >
             Tất cả ({materials.length})
@@ -94,6 +97,7 @@ export function MaterialBankViewer({
                 key={type}
                 type="button"
                 className={`btn small ${selectedType === type ? "primary" : ""}`}
+                aria-pressed={selectedType === type}
                 onClick={() => setSelectedType(type)}
               >
                 {TYPE_LABELS[type].icon} {TYPE_LABELS[type].label} ({count})
@@ -102,14 +106,16 @@ export function MaterialBankViewer({
           })}
         </div>
 
-        <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
+        <div className={styles.search}>
           <input
             type="search"
+            aria-label="Tìm học liệu theo tên, mô tả hoặc bài"
             placeholder="Tìm theo tên học liệu, mô tả hoặc bài (B21, B22...)"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             style={{
-              flex: 1,
+              flex: "1 1 260px",
+              minWidth: 0,
               padding: "8px 14px",
               borderRadius: "var(--radius-sm)",
               border: "1px solid var(--border-light)",
@@ -125,7 +131,7 @@ export function MaterialBankViewer({
       </div>
 
       {/* Materials List View (Compact, thin borders, generous whitespace) */}
-      <div className="card" style={{ padding: "0", overflow: "hidden" }}>
+      <div className={`card ${styles.list}`}>
         {filtered.length === 0 ? (
           <div style={{ padding: "48px 24px", textAlign: "center", color: "var(--text-muted)" }}>
             <p style={{ margin: "0 0 12px", fontSize: "16px" }}>Không tìm thấy học liệu nào phù hợp.</p>
@@ -142,27 +148,20 @@ export function MaterialBankViewer({
               return (
                 <div
                   key={item.id}
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    padding: "16px 20px",
-                    borderBottom: idx < filtered.length - 1 ? "1px solid var(--border-light)" : "none",
-                    gap: "16px",
-                    backgroundColor: idx % 2 === 0 ? "transparent" : "var(--bg-surface-elevated)",
-                  }}
+                  className={styles.row}
+                  style={{ borderBottom: idx < filtered.length - 1 ? "1px solid var(--border-light)" : "none" }}
                 >
-                  <div style={{ display: "flex", gap: "14px", alignItems: "flex-start", flex: 1 }}>
+                  <div className={styles.itemContent}>
                     <span style={{ fontSize: "20px", lineHeight: "1.2" }} title={typeInfo.label}>
                       {typeInfo.icon}
                     </span>
-                    <div style={{ flex: 1 }}>
+                    <div className={styles.itemText}>
                       <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px", flexWrap: "wrap" }}>
                         <strong style={{ fontSize: "15px", color: "var(--text-primary)" }}>{item.title}</strong>
                         <span className="badge small" style={{ fontSize: "11px" }}>{typeInfo.label}</span>
                         {item.lesson_tag && (
                           <span className="badge small" style={{ fontSize: "11px", backgroundColor: "var(--color-primary-soft)", color: "var(--color-primary)" }}>
-                            {item.lesson_tag}
+                            {item.lesson_tag === "general" ? "Chủ đề hạt nhân" : item.lesson_tag}
                           </span>
                         )}
                         {item.is_system ? (
@@ -175,7 +174,7 @@ export function MaterialBankViewer({
                           <span className="badge small" style={{ fontSize: "11px", color: "var(--text-muted)" }}>Bản nháp</span>
                         )}
                       </div>
-                      <p style={{ margin: "0 0 4px", fontSize: "13px", color: "var(--text-secondary)", lineHeight: "1.4" }}>
+                      <p style={{ margin: "0 0 4px", fontSize: "13px", color: "var(--text-secondary)", lineHeight: "1.65" }}>
                         {item.description}
                       </p>
                       {item.metadata?.sourceBook && (
@@ -186,7 +185,8 @@ export function MaterialBankViewer({
                     </div>
                   </div>
 
-                  <div style={{ display: "flex", gap: "8px", flexShrink: 0, alignItems: "center" }}>
+                  <div className={styles.itemActions}>
+                    <Link className="btn small" href={`/teacher/plans?material=${encodeURIComponent(item.id)}`}>Soạn kế hoạch</Link>
                     <button
                       type="button"
                       className="btn small"
@@ -248,7 +248,7 @@ export function MaterialBankViewer({
             right: 0,
             bottom: 0,
             backgroundColor: "rgba(0,0,0,0.6)",
-            zIndex: 100,
+            zIndex: 1000,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -289,55 +289,7 @@ export function MaterialBankViewer({
 
             {/* Dynamic Preview Content */}
             <div style={{ minHeight: "240px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-md)", padding: "16px", backgroundColor: "var(--bg-canvas)" }}>
-              {previewItem.material_type === "simulation" ? (
-                previewItem.metadata?.activityKey ? (
-                  <FixedPhysicsActivityRenderer activityKey={previewItem.metadata.activityKey as CanonicalActivityKey} />
-                ) : (
-                  <p style={{ textAlign: "center", color: "var(--text-muted)" }}>Mô phỏng: {previewItem.content_url}</p>
-                )
-              ) : previewItem.material_type === "image" || previewItem.material_type === "animation" ? (
-                <div style={{ textAlign: "center" }}>
-                  {previewItem.content_url.startsWith("http") || previewItem.content_url.startsWith("/") ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={previewItem.content_url}
-                      alt={previewItem.title}
-                      style={{ maxWidth: "100%", maxHeight: "500px", objectFit: "contain", borderRadius: "var(--radius-sm)" }}
-                    />
-                  ) : (
-                    <p style={{ color: "var(--text-muted)" }}>Đường dẫn ảnh: {previewItem.content_url}</p>
-                  )}
-                </div>
-              ) : previewItem.material_type === "lecture_video" || previewItem.material_type === "real_video" ? (
-                <div style={{ textAlign: "center" }}>
-                  {previewItem.content_url.endsWith(".mp4") || previewItem.content_url.endsWith(".webm") ? (
-                    <video controls style={{ width: "100%", maxHeight: "450px" }} src={previewItem.content_url}>
-                      Trình duyệt không hỗ trợ phát video.
-                    </video>
-                  ) : (
-                    <div>
-                      <p style={{ color: "var(--text-secondary)", marginBottom: "12px" }}>Video URL: {previewItem.content_url}</p>
-                      <a href={previewItem.content_url} target="_blank" rel="noopener noreferrer" className="btn primary">
-                        Mở video trên tab mới ↗
-                      </a>
-                    </div>
-                  )}
-                </div>
-              ) : previewItem.material_type === "document" ? (
-                <div style={{ textAlign: "center", padding: "32px 16px" }}>
-                  <p style={{ fontSize: "16px", marginBottom: "16px" }}>Tài liệu / Phiếu học tập chuẩn</p>
-                  <a href={previewItem.content_url} target="_blank" rel="noopener noreferrer" className="btn primary">
-                    Mở tệp PDF / Tài liệu ({previewItem.content_url}) ↗
-                  </a>
-                </div>
-              ) : previewItem.material_type === "colab" ? (
-                <div style={{ textAlign: "center", padding: "32px 16px" }}>
-                  <p style={{ fontSize: "16px", marginBottom: "16px" }}>Google Colab Notebook tương tác</p>
-                  <a href={previewItem.content_url} target="_blank" rel="noopener noreferrer" className="btn primary">
-                    Mở Google Colab ↗
-                  </a>
-                </div>
-              ) : null}
+              <LearningResourcePreview material={previewItem} />
             </div>
 
             <div style={{ marginTop: "16px", textAlign: "right" }}>
@@ -361,7 +313,7 @@ export function MaterialBankViewer({
             right: 0,
             bottom: 0,
             backgroundColor: "rgba(0,0,0,0.6)",
-            zIndex: 100,
+            zIndex: 1000,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -500,7 +452,7 @@ export function MaterialBankViewer({
                   />
                 </div>
 
-                <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                <div className={styles.checkbox}>
                   <input type="checkbox" id="is_published" name="is_published" value="true" defaultChecked />
                   <label htmlFor="is_published" style={{ fontSize: "13px" }}>
                     Duyệt và xuất bản ngay để giáo viên có thể xếp vào bài học
@@ -533,7 +485,7 @@ export function MaterialBankViewer({
             right: 0,
             bottom: 0,
             backgroundColor: "rgba(0,0,0,0.6)",
-            zIndex: 100,
+            zIndex: 1000,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
@@ -613,7 +565,7 @@ export function MaterialBankViewer({
                   />
                 </div>
 
-                <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                <div className={styles.checkbox}>
                   <input
                     type="checkbox"
                     id="edit-is_published"

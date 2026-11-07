@@ -1,0 +1,129 @@
+[
+  {
+    "lesson": "B21",
+    "question": "Trong hạt nhân carbon-14 có Z=6. Có bao nhiêu neutron và vì sao?",
+    "status": 200,
+    "seconds": 7.738,
+    "reply": "Trong hạt nhân carbon-14, số lượng neutron là 8. \n\nCó hai nguyên tắc chính để giải thích:\n\n1. Số lượng neutron (N) trong hạt nhân carbon-14 là 8, do Z = 6 (số lượng proton) và số lượng electron (N) là 2 (do là carbon-14, có 2 electron).\n\n2. Nguyên tử carbon-14 có Z = 6 và N = 8, vì vậy tổng số nucleon (A) là 14 (6 proton + 8 neutron).\n\n3. Khi phân tích hạt nhân carbon-14, chúng ta có thể thấy rằng số lượng proton (6) và số lượng electron (2) đều nằm ở hạt nhân, trong khi số lượng neutron (8) nằm ở bên ngoài hạt nhân.\n\n4. Điều này cho thấy rằng số lượng neutron không ảnh hưởng đến số lượng proton, và ngược lại, số lượng proton cũng không ảnh hưởng đến số lượng neutron. Điều này là do cấu trúc hạt nhân của nguyên tử carbon-14.\n\n5. Việc số lượng neutron là 8 cho thấy rằng trong hạt nhân carbon-14, số lượng proton và số lượng neutron đều là 6, nhưng số lượng neutron lớn hơn số lượng proton.",
+    "model": "qwen2.5:1.5b-instruct",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Nguyên tử gồm hạt nhân rất nhỏ và electron. Proton mang điện +e, neutron không mang điện; hạt nhân có điện tích +Ze."
+      },
+      {
+        "id": "H2",
+        "text": "Số khối A = Z + N. Kí hiệu hạt nhân ghi A ở trên và Z ở dưới bên trái kí hiệu nguyên tố. A là số nucleon, không phải khối lượng đo bằng kg."
+      },
+      {
+        "id": "H3",
+        "text": "Đồng vị có cùng Z nhưng khác N. Carbon-12, carbon-13 và carbon-14 đều có Z = 6, lần lượt có 6, 7 và 8 neutron."
+      },
+      {
+        "id": "H4",
+        "text": "Trong thí nghiệm Rutherford, phần lớn hạt α đi gần như thẳng; số rất ít lệch mạnh cho thấy điện tích dương và phần lớn khối lượng tập trung trong hạt nhân nhỏ."
+      },
+      {
+        "id": "H5",
+        "text": "Công thức gần đúng R = 1,2 × A^(1/3) fm, với 1 fm = 10^(-15) m. Đây là bán kính hạt nhân, khác bán kính nguyên tử."
+      },
+      {
+        "id": "H6",
+        "text": "Lực tương tác hạt nhân có tầm tác dụng rất ngắn. Mô hình cầu màu chỉ giúp đếm và hình dung, không mô tả đường chuyển động thật của nucleon."
+      }
+    ],
+    "title": "B21: Cấu trúc hạt nhân",
+    "href": "/hoc-lieu/truc-quan?bai=B21"
+  },
+  {
+    "lesson": "B22",
+    "question": "Phân hạch là gì và phải kiểm tra bảo toàn nào trong phương trình?",
+    "status": 200,
+    "seconds": 16,
+    "reply": "Phân hạch là quá trình trong vật lý hạt nhân và vật lý hạt nhân nguyên tử trong đó một hạt nhân nặng được tách thành các mảnh nhỏ hơn. Điều này thường xảy ra khi hạt nhân có khối lượng lớn hơn trung hòa trung bình (A > Z). \n\nĐể phân hạch xảy ra, các nguyên tắc sau cần được tuân thủ:\n\n1. **Tính tổng A và Z**: Tổng khối lượng (A) và tổng điện tích (Z) của hai hạt nhân trước và sau phân hạch cần phải bằng nhau. Điều này đảm bảo rằng tổng khối lượng và điện tích của hạt nhân vẫn được giữ nguyên.\n\n2. **Tính tổng khối lượng nguyên tử**: Khi phân hạch, tổng khối lượng nguyên tử của các hạt nhân sau phân hạch cần phải bằng tổng khối lượng nguyên tử của các hạt nhân trước phân hạch. Điều này đảm bảo rằng tổng khối lượng của hạt nhân không thay đổi.\n\n3. **Tính tổng số neutron**: Số neutron của hai hạt nhân trước và sau phân hạch cũng cần phải bằng nhau. Điều này đảm bảo rằng tổng số neutron của hạt nhân không thay đổi.\n\n4. **Tính tổng số proton**: Số proton của hai hạt nhân trước và sau phân hạch cũng cần phải bằng nhau. Điều này đảm bảo rằng tổng số proton của hạt nhân không thay đổi.\n\n5. **Tính tổng số electron**: Số electron của hai hạt nhân trước và sau phân hạch cũng cần phải bằng nhau. Điều này đảm bảo rằng tổng số electron của hạt nhân không thay đổi.\n\n6. **Tính tổng số neutron và proton**: Tổng số neutron và proton của hai hạt nhân trước và sau phân hạch cũng cần phải bằng nhau. Điều này đảm bảo rằng tổng số neutron và proton của hạt nhân không thay đổi.\n\n7. **Tính tổng số hạt nhân**: Tổng số hạt nhân của hai hạt nhân trước và sau phân hạch cũng cần phải bằng nhau. Điều này đảm bảo rằng tổng số hạt nhân của hạt nhân không thay đổi.\n\n8. **Tính tổng số hạt nhân nguyên tử**: Tổng số hạt nhân nguyên tử của hai hạt nhân trước và sau phân hạch cũng cần phải bằng nhau. Điều này đảm bảo rằng tổng số hạt nhân nguyên tử của hạt nhân không thay đổi.\n\n9. **Tính tổng số hạt nhân nguyên tử trung hòa**: Tổng số hạt nhân nguyên tử trung hòa của hai hạt nhân trước và sau phân hạch cũng cần phải bằng nhau. Điều này đảm bảo rằng tổng số hạt nhân nguyên tử trung hòa của hạt nhân không thay đổi.\n\n10.",
+    "model": "qwen2.5:1.5b-instruct",
+    "truncated": true,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Phản ứng hạt nhân biến đổi hạt nhân. Trong các phương trình phổ thông phải bảo toàn tổng số khối A và tổng điện tích Z; không suy ra từng nguyên tố hay số neutron đều bất biến."
+      },
+      {
+        "id": "H2",
+        "text": "Ví dụ: ⁴₂He + ¹⁴₇N → ¹⁷₈O + ¹₁p. Hai vế có tổng A = 18 và Z = 9."
+      },
+      {
+        "id": "H3",
+        "text": "Độ hụt khối Δm = Zm_p + (A − Z)m_n − m_hạt_nhân. Nếu bảng cho khối lượng nguyên tử trung hòa cần dùng khối lượng nguyên tử hydrogen và xử lí electron nhất quán."
+      },
+      {
+        "id": "H4",
+        "text": "Năng lượng liên kết E_lk = Δm c². Khi Δm tính theo u thì E_lk(MeV) ≈ Δm(u) × 931,5. Năng lượng liên kết riêng = E_lk/A, không phải E_lk/Z."
+      },
+      {
+        "id": "H5",
+        "text": "Vùng hạt nhân trung bình quanh sắt và nickel có năng lượng liên kết riêng lớn. Không dùng duy nhất số khối để kết luận mọi hạt nhân đều bền."
+      },
+      {
+        "id": "H6",
+        "text": "Phân hạch: hạt nhân nặng tách thành các mảnh nhẹ hơn và có thể sinh neutron tiếp tục gây phân hạch. k < 1: giảm; k ≈ 1: duy trì; k > 1: tăng trong mô hình dây chuyền."
+      },
+      {
+        "id": "H7",
+        "text": "Nhiệt hạch: các hạt nhân nhẹ kết hợp. Ví dụ D–T cho helium-4, neutron và khoảng 17,6 MeV. Mặt trời chủ yếu dùng chuỗi proton–proton, khác ví dụ D–T."
+      },
+      {
+        "id": "H8",
+        "text": "Q = (m_trước − m_sau)c². Q > 0 là tỏa năng lượng; Q < 0 cần cung cấp năng lượng, đồng thời còn phải thỏa điều kiện động học."
+      }
+    ],
+    "title": "B22: Phản ứng hạt nhân và năng lượng liên kết",
+    "href": "/hoc-lieu/truc-quan?bai=B22"
+  },
+  {
+    "lesson": "B24",
+    "question": "Hệ số nhân neutron k=1 có đảm bảo lò phản ứng an toàn tuyệt đối không?",
+    "status": 200,
+    "seconds": 15.479,
+    "reply": "Hệ số nhân neutron k=1 trong mô hình cân bằng theo thế hệ neutron (k=1) không đảm bảo lò phản ứng an toàn tuyệt đối. \n\nKhi k=1, hệ thống phản ứng không có sự điều chỉnh nào về số lượng neutron tiếp tục gây phản ứng. Điều này có thể dẫn đến các vấn đề an toàn như:\n\n1. Sự cố hạt nhân: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân, gây ra các hạt nhân không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n2. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt nhân phóng xạ không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n3. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt nhân phóng xạ không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n4. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt nhân phóng xạ không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n5. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt nhân phóng xạ không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n6. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt nhân phóng xạ không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n7. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt nhân phóng xạ không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n8. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt nhân phóng xạ không mong muốn bị phá vỡ, gây ra các hạt nhân phóng xạ không mong muốn.\n\n9. Sự cố hạt nhân hạt: Khi số lượng neutron không được điều chỉnh, có thể dẫn đến sự cố hạt nhân hạt, gây ra các hạt",
+    "model": "qwen2.5:1.5b-instruct",
+    "truncated": true,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Trong nhà máy điện hạt nhân, năng lượng từ phân hạch chuyển thành nhiệt, cơ năng turbine rồi điện năng máy phát. Không chuyển trực tiếp khối lượng thành dòng điện trong dây dẫn."
+      },
+      {
+        "id": "H2",
+        "text": "Ví dụ lò nước áp lực dùng vòng sơ cấp và thứ cấp tách biệt qua bộ trao đổi nhiệt. Mô hình này không đại diện cho mọi thiết kế lò."
+      },
+      {
+        "id": "H3",
+        "text": "Thanh điều khiển chứa vật liệu hấp thụ neutron; điều chỉnh số neutron tiếp tục gây phản ứng dây chuyền. k = 1 là mô hình cân bằng theo thế hệ neutron, không nói toàn bộ thiết bị đã an toàn."
+      },
+      {
+        "id": "H4",
+        "text": "Y học hạt nhân dùng chất đánh dấu để ghi nhận tín hiệu phát từ bên trong cơ thể. PET ghi cặp photon gamma sau hủy positron–electron; SPECT ghi photon gamma bằng hệ đầu thu khác."
+      },
+      {
+        "id": "H5",
+        "text": "Xạ trị nhằm tác động mô đích bằng bức xạ ion hóa; mục đích khác chẩn đoán. Nội dung ở đây chỉ giải thích nguyên lí, không hướng dẫn điều trị."
+      },
+      {
+        "id": "H6",
+        "text": "Chiếu xạ thực phẩm có thể giảm vi sinh vật, hạn chế côn trùng hoặc nảy mầm. Trong quy trình được kiểm soát, thực phẩm không trở thành nguồn phóng xạ."
+      },
+      {
+        "id": "H7",
+        "text": "Trong công nghiệp, sự suy giảm tia xuyên qua vật liệu giúp phát hiện bất thường; chất đánh dấu có thể theo dõi dòng chảy. Tín hiệu phải được diễn giải theo thiết bị và phép đo."
+      },
+      {
+        "id": "H8",
+        "text": "Đánh giá một dự án điện cần xem xét nguồn điện, chi phí, vận hành, chất thải, môi trường và sự tham gia của cộng đồng; không kết luận chỉ từ một hình mô phỏng."
+      }
+    ],
+    "title": "B24: Công nghiệp hạt nhân",
+    "href": "/hoc-lieu/truc-quan?bai=B24"
+  }
+]

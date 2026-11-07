@@ -1,5 +1,6 @@
 "use client";
 
+import styles from "./student-ui.module.css";
 import { useActionState } from "react";
 import { leaveClassAction, type JoinClassState } from "./actions";
 
@@ -25,28 +26,22 @@ function StudentClassRow({ classItem }: { classItem: StudentClass }) {
   }
 
   return (
-    <article className="list-row" style={{ padding: "24px 0", borderBottom: "1px solid var(--border-light)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-      <div className="list-row-content">
-        <h3 style={{ margin: "0 0 8px", fontSize: "18px", color: "var(--text-primary)", fontWeight: 600 }}>{classItem.name}</h3>
-        <p style={{ margin: "0 0 12px", color: "var(--text-secondary)", fontSize: "15px" }}>
+    <article className={`list-row ${styles.classRow}`}>
+      <div className={styles.classContent}>
+        <h3>{classItem.name}</h3>
+        <p>
           {classItem.description || "Chương trình Vật lí 12"}
         </p>
-        <div style={{ display: "flex", gap: "24px", fontSize: "13px", color: "var(--text-muted)", alignItems: "center" }}>
-          <span>Giáo viên: <strong>—</strong></span>
+        <div className={styles.classMeta}>
           <span>Mã lớp: <strong>{classItem.join_code}</strong></span>
-          <span style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-            Tiến độ: <strong>0%</strong>
-            <div style={{ width: "60px", height: "4px", backgroundColor: "var(--border-light)", borderRadius: "2px", overflow: "hidden" }}>
-              <div style={{ width: "0%", height: "100%", backgroundColor: "var(--color-accent)" }} />
-            </div>
-          </span>
+          <span>Đã tham gia: <time dateTime={classItem.joined_at}>{new Intl.DateTimeFormat("vi-VN", { dateStyle: "medium" }).format(new Date(classItem.joined_at))}</time></span>
         </div>
         {state.error && <p className="form-alert form-alert-error" style={{ marginTop: "12px", fontSize: "13px" }}>{state.error}</p>}
       </div>
       
-      <form action={formAction} onSubmit={handleSubmit} style={{ marginLeft: "24px", flexShrink: 0 }}>
+      <form action={formAction} onSubmit={handleSubmit}>
         <input type="hidden" name="class_id" value={classItem.id} />
-        <button className="btn" type="submit" disabled={pending} style={{ fontSize: "13px", padding: "6px 12px", color: "var(--text-muted)", backgroundColor: "transparent", border: "1px solid var(--border-dark)" }}>
+        <button className="btn" type="submit" disabled={pending}>
           {pending ? "Đang rời..." : "Rời lớp"}
         </button>
       </form>

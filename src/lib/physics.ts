@@ -4,6 +4,15 @@ export const HYDROGEN_ATOM_MASS_U = 1.007825;
 export const NEUTRON_MASS_U = 1.008665;
 export const CARBON14_HALF_LIFE_YEARS = 5730;
 
+/** Neutral-atom masses from OpenStax College Physics 2e, Appendix A. */
+export const BINDING_NUCLIDES = [
+  { name: '⁴He', a: 4, z: 2, mx: 4.002603, label: 'Helium-4' },
+  { name: '¹²C', a: 12, z: 6, mx: 12, label: 'Carbon-12' },
+  { name: '¹⁶O', a: 16, z: 8, mx: 15.994915, label: 'Oxygen-16' },
+  { name: '⁵⁶Fe', a: 56, z: 26, mx: 55.934939, label: 'Iron-56 (liên kết riêng lớn)' },
+  { name: '²³⁵U', a: 235, z: 92, mx: 235.043924, label: 'Uranium-235' },
+] as const;
+
 export function remainingFraction(time: number, halfLife: number) {
   return 2 ** (-time / halfLife);
 }

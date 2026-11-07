@@ -1,0 +1,36 @@
+✔ decay data preserves the fixed time axis and half-life populations (4.747833ms)
+✔ CSV records current parameters and explicitly identifies model data (0.516417ms)
+✔ The actual particles used by the 3D scene conserve A and Z in the SGK Y/I channel (1.200208ms)
+✔ Timeline shows absorption before deformation, then products, and stops at its end (0.130667ms)
+✔ Qualitative generations compare decreasing, steady and growing chains (0.275ms)
+✔ carbon isotopes keep the same Z but have distinct neutron counts (7.709833ms)
+✔ illustrated fission, fusion and alpha channels conserve total A and charge (0.298ms)
+✔ the normalized half-life illustration halves the expected parent population (0.087125ms)
+✔ web and video can reuse a fixed, count-correct nucleus layout for every supported nuclide (32.757333ms)
+✔ inconsistent counts cannot produce an illustrative layout (0.47375ms)
+✔ evidence preserves the learning record and rejects empty or excessive submissions (1.734208ms)
+✔ learning links reject executable and protocol-relative URLs (0.253291ms)
+✔ unfinished earlier required steps block later work; optional steps do not (0.12925ms)
+✔ decay halves at each T and dating inverts the same physical law (1.093834ms)
+✔ atomic mass convention gives a plausible helium-4 binding energy (0.280791ms)
+✔ B25 uses one mass convention for all five nuclides, including oxygen and uranium (0.264208ms)
+✔ simulated detector can produce zero events and reproducible nonnegative counts (0.221208ms)
+✔ published bank contains only checked book questions and compatible mathematics (65.775583ms)
+✔ duplicate source distractors stay out of exams and edited duplicates are rejected (6.733375ms)
+✔ matrix CSV with quoted decimal commas is parsed and validates positive counts (0.307125ms)
+✔ matrix matching can reassign broad slots to satisfy specific rows without duplicate questions (0.293958ms)
+✔ Office equations reject unsupported math and build true fractions and paired scripts (0.184125ms)
+✔ Word isotope equations use native prescripts instead of empty bases (34.280292ms)
+✔ 7991 level names match authored questions and specification retains requirements (3.584875ms)
+✔ true false questions always have exactly four source statements and aligned answers (0.229917ms)
+✔ splitting and same-topic grouping preserve every original statement exactly once (2.162083ms)
+✔ source coverage includes every workbook question and isolates source problems (1.821875ms)
+✔ category numbering remains stable through filters and images preserve proportions (0.375875ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 549.732708

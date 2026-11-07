@@ -1,0 +1,22 @@
+
+> nuclear-lesson-video-renderer@1.0.0 render
+> node render.mjs B22 B23 B24 B25
+
+Remotion bundle · 6%
+Remotion bundle · 21%
+Remotion bundle · 43%
+Remotion bundle · 65%
+Remotion bundle · 81%
+Remotion bundle · 100%
+B22 · render 165 khung chuyển động qua Remotion
+B22 · 120/165
+B22 · 1920×1080, 30 fps, 60.000000 s · b22.mp4
+B23 · render 165 khung chuyển động qua Remotion
+B23 · 120/165
+B23 · 1920×1080, 30 fps, 60.000000 s · b23.mp4
+B24 · render 165 khung chuyển động qua Remotion
+B24 · 120/165
+B24 · 1920×1080, 30 fps, 60.000000 s · b24.mp4
+B25 · render 165 khung chuyển động qua Remotion
+B25 · 120/165
+B25 · 1920×1080, 30 fps, 60.000000 s · b25.mp4

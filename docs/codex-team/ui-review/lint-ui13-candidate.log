@@ -1,0 +1,14 @@
+
+> flipped-physics@0.1.0 lint
+> eslint
+
+
+/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/src/components/PortalShell.tsx
+  139:21  warning  The ref value 'mobileTrigger.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'mobileTrigger.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/src/components/learning/StudentPhase3Assessment.tsx
+  43:7  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/set-state-in-effect')
+
+✖ 2 problems (0 errors, 2 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

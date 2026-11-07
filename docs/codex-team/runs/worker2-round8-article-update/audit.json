@@ -1,0 +1,13 @@
+{
+  "changed_parts": [
+    "word/document.xml"
+  ],
+  "media": 24,
+  "tables_xml": 3,
+  "paragraphs": 248,
+  "article_sha256": "cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826",
+  "sources": {
+    "ĐÃ SỬA - NCKH.docx": "706cc7065b146da7d90d582168439ebb61c3dc6f078b58e84adf5c1e9a3f4907",
+    "hd.docx": "fed08c644e78bc4121dc662e163c49dd05594b0b4ad05ab2a636a91de0b9980e"
+  }
+}

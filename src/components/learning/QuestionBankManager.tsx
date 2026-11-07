@@ -4,6 +4,8 @@ import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { extractQuestionsFromPdf, saveExtractedQuestions } from "@/app/teacher/pdf-action";
 import type { ParsedQuestion } from "@/app/teacher/pdf-action";
+import { legacyNuclearMath } from "@/lib/legacy-nuclear-math";
+import { RichPhysicsText } from "./RichPhysicsText";
 
 export type AssessmentQuestion = {
   id: string;
@@ -13,6 +15,8 @@ export type AssessmentQuestion = {
     prompt: string;
     options?: string[];
     correctAnswer: string;
+    sampleAnswer?: string;
+    explanation?: string;
     statements?: { text: string; isCorrect: boolean }[];
   };
   is_published: boolean;
@@ -53,7 +57,7 @@ export function QuestionBankManager({ lessonId, questions, availablePdfs = [] }:
     setType(q.question_type);
     setDifficulty(q.difficulty);
     setPrompt(q.content.prompt);
-    setAnswer(q.content.correctAnswer);
+    setAnswer(q.content.sampleAnswer ?? q.content.correctAnswer ?? "");
     setOptions(q.content.options || ["", "", "", ""]);
     setTfStatements(q.content.statements || [{text: "", isCorrect: true}, {text: "", isCorrect: false}]);
     setEditingId(q.id);
@@ -66,9 +70,12 @@ export function QuestionBankManager({ lessonId, questions, availablePdfs = [] }:
     if (type !== "true_false" && (!prompt || !answer)) return;
     if (type === "true_false" && (!prompt || tfStatements.length === 0)) return;
     setSaving(true);
-    const content = { 
+    const priorContent = questions.find(question => question.id === editingId)?.content;
+    const content = {
+      ...priorContent,
       prompt, 
       correctAnswer: type === "true_false" ? "Xem statements" : answer, 
+      sampleAnswer: type === "short_answer" ? answer : undefined,
       options: type === "single_choice" ? options : [],
       statements: type === "true_false" ? tfStatements : []
     };
@@ -431,12 +438,12 @@ export function QuestionBankManager({ lessonId, questions, availablePdfs = [] }:
                     <span style={{ fontSize: "11px", fontWeight: 600, padding: "2px 8px", borderRadius: "100px", backgroundColor: "var(--bg-surface-elevated)", color: "var(--text-secondary)" }}>{q.question_type}</span>
                   </div>
                 </div>
-                <p style={{ margin: "0 0 12px", fontSize: "14px", color: "var(--text-primary)" }}>{q.content.prompt}</p>
+                <div style={{ margin: "0 0 12px", fontSize: "14px", color: "var(--text-primary)" }}><RichPhysicsText compact content={legacyNuclearMath(q.content.prompt)} /></div>
                 
                 {q.question_type === "single_choice" && q.content.options && q.content.options.length > 0 && (
                   <ol style={{ paddingLeft: "20px", marginBottom: "12px", fontSize: "14px" }}>
                     {q.content.options.map((opt, idx) => (
-                      <li key={idx} style={{ marginBottom: "4px" }}>{opt}</li>
+                      <li key={idx} style={{ marginBottom: "4px" }}><RichPhysicsText compact content={legacyNuclearMath(opt)} /></li>
                     ))}
                   </ol>
                 )}
@@ -445,7 +452,7 @@ export function QuestionBankManager({ lessonId, questions, availablePdfs = [] }:
                   <ol style={{ paddingLeft: "20px", marginBottom: "12px", fontSize: "14px" }}>
                     {q.content.statements.map((stmt, idx) => (
                       <li key={idx} style={{ marginBottom: "4px" }}>
-                        {stmt.text} <strong style={{ color: stmt.isCorrect ? "var(--semantic-success)" : "var(--semantic-error)" }}>({stmt.isCorrect ? "Đúng" : "Sai"})</strong>
+                        <RichPhysicsText compact content={legacyNuclearMath(stmt.text)} /> <strong style={{ color: stmt.isCorrect ? "var(--semantic-success)" : "var(--semantic-error)" }}>({stmt.isCorrect ? "Đúng" : "Sai"})</strong>
                       </li>
                     ))}
                   </ol>
@@ -456,7 +463,7 @@ export function QuestionBankManager({ lessonId, questions, availablePdfs = [] }:
                   {q.question_type === "true_false" ? (
                     <p style={{ margin: 0, color: "var(--semantic-success)", fontSize: "14px", fontWeight: 500 }}>Xem phần phát biểu ở trên</p>
                   ) : (
-                    <p style={{ margin: 0, color: "var(--semantic-success)", fontSize: "14px", fontWeight: 500 }}>{q.content.correctAnswer}</p>
+                    <div style={{ margin: 0, color: "var(--semantic-success)", fontSize: "14px", fontWeight: 500 }}><RichPhysicsText compact content={legacyNuclearMath(q.content.sampleAnswer ?? q.content.correctAnswer ?? "")} /></div>
                   )}
                 </div>
                 <div style={{ display: "flex", gap: "8px", marginTop: "12px" }}>

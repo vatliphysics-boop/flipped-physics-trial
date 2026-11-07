@@ -1,0 +1,29 @@
+{
+  "route": "http://localhost:3001/register",
+  "size": [
+    390,
+    844
+  ],
+  "version": "UI11 not frozen",
+  "focus": "student",
+  "roles": [
+    {
+      "value": "teacher",
+      "checked": false,
+      "focus": false,
+      "label": [
+        143,
+        44
+      ]
+    },
+    {
+      "value": "student",
+      "checked": true,
+      "focus": true,
+      "label": [
+        143,
+        44
+      ]
+    }
+  ]
+}

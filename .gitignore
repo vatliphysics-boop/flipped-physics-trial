@@ -15,6 +15,7 @@
 
 # next.js
 /.next/
+/.next-ui/
 /out/
 
 # production
@@ -39,3 +40,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local AI runtime, model weights and private processing files
+/.local-ai/
+
+# Source book scans, OCR drafts and extracted figures stay on the local server
+/data/book-bank/
+/output/book-bank/
+
+# Reproducible local speech models, virtual environments and render intermediates
+/tmp/nuclear-voice/

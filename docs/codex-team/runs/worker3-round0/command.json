@@ -1,0 +1,23 @@
+{
+  "executable": "codex",
+  "args": [
+    "exec",
+    "-C",
+    "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09",
+    "-c",
+    "cli_auth_credentials_store=\"file\"",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "model_provider=\"openai\"",
+    "-s",
+    "read-only",
+    "--color",
+    "never",
+    "--json",
+    "-o",
+    "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker3-round0/report.md",
+    "-"
+  ],
+  "CODEX_HOME": "/Users/vodoandangkhoi/.codex-plus-3"
+}

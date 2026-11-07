@@ -1,0 +1,33 @@
+START B24
+B24 before-class teacher pathway loaded
+B24 in-class teacher pathway loaded
+B24 after-class teacher pathway loaded
+HTTP 404 /student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/before-class
+B24 before-class student phase opened
+B24 before-class student step saved after reload
+PASS B24 before-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B24 in-class student phase opened
+B24 in-class student step saved after reload
+PASS B24 in-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B24 after-class student phase opened
+B24 after-class student step saved after reload
+PASS B24 after-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+START B25
+B25 setting up from teacher card
+B25 teacher lesson opened
+B25 before-class teacher pathway loaded
+HTTP 404 /student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/before-class
+B25 draft remained private after actual video preview
+B25 in-class teacher pathway loaded
+B25 after-class teacher pathway loaded
+HTTP 404 /student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/before-class
+B25 before-class student phase opened
+B25 before-class student step saved after reload
+PASS B25 before-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B25 in-class student phase opened
+B25 in-class student step saved after reload
+PASS B25 in-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B25 after-class student phase opened
+B25 after-class student step saved after reload
+PASS B25 after-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+PASS: class QA only; second student outside the test class cannot access the lessons.

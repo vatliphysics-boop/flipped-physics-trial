@@ -1,0 +1,219 @@
+[
+  {
+    "lesson": "B21",
+    "question": "Trong hạt nhân carbon-14 có Z=6. Có bao nhiêu neutron và vì sao?",
+    "status": 200,
+    "seconds": 23.95,
+    "reply": "Trong hạt nhân carbon-14, Z = 6 (số proton), A = 14 (số khối). Theo [H2]: A = Z + N → N = A – Z = 14 – 6 = 8.  \nVậy có 8 neutron.  \nVì carbon-14 là đồng vị của carbon (Z = 6), nên số proton không đổi, chỉ số neutron thay đổi để tạo thành đồng vị khác.  \nCâu hỏi tự kiểm tra: Nếu một hạt nhân có A = 12 và Z = 6, thì số neutron là bao nhiêu?",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Nguyên tử gồm hạt nhân rất nhỏ và electron. Proton mang điện +e, neutron không mang điện; hạt nhân có điện tích +Ze."
+      },
+      {
+        "id": "H2",
+        "text": "Số khối A = Z + N. Kí hiệu hạt nhân ghi A ở trên và Z ở dưới bên trái kí hiệu nguyên tố. A là số nucleon, không phải khối lượng đo bằng kg."
+      },
+      {
+        "id": "H3",
+        "text": "Đồng vị có cùng Z nhưng khác N. Carbon-12, carbon-13 và carbon-14 đều có Z = 6, lần lượt có 6, 7 và 8 neutron."
+      },
+      {
+        "id": "H4",
+        "text": "Trong thí nghiệm Rutherford, phần lớn hạt α đi gần như thẳng; số rất ít lệch mạnh cho thấy điện tích dương và phần lớn khối lượng tập trung trong hạt nhân nhỏ."
+      },
+      {
+        "id": "H5",
+        "text": "Công thức gần đúng R = 1,2 × A^(1/3) fm, với 1 fm = 10^(-15) m. Đây là bán kính hạt nhân, khác bán kính nguyên tử."
+      },
+      {
+        "id": "H6",
+        "text": "Lực tương tác hạt nhân có tầm tác dụng rất ngắn. Mô hình cầu màu chỉ giúp đếm và hình dung, không mô tả đường chuyển động thật của nucleon."
+      }
+    ],
+    "title": "B21: Cấu trúc hạt nhân",
+    "href": "/hoc-lieu/truc-quan?bai=B21"
+  },
+  {
+    "lesson": "B22",
+    "question": "Phân hạch là gì và phải kiểm tra bảo toàn nào trong phương trình?",
+    "status": 200,
+    "seconds": 33.144,
+    "reply": "Phân hạch là quá trình hạt nhân nặng (như urani hoặc plutôn) tách thành các mảnh nhẹ hơn, kèm theo giải phóng năng lượng và neutron. Trong phương trình, phải kiểm tra bảo toàn **tổng số khối A** (số khối) và **tổng điện tích Z** (số proton).  \n\nVí dụ: \\(^{235}_{92}\\text{U} + ^1_0\\text{n} \\to ^{141}_{56}\\text{Ba} + ^{92}_{36}\\text{Kr} + 3^1_0\\text{n}\\).  \nTổng A trước = 235 + 1 = 236; tổng A sau = 141 + 92 + 3 = 236 → bảo toàn.  \nTổng Z trước = 92; tổng Z sau = 56 + 36 = 92 → bảo toàn.  \n\nCâu hỏi tự kiểm tra: Trong phương trình phân hạch, nếu tổng số khối trước không bằng tổng số khối sau thì điều gì xảy ra?",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Phản ứng hạt nhân biến đổi hạt nhân. Trong các phương trình phổ thông phải bảo toàn tổng số khối A và tổng điện tích Z; không suy ra từng nguyên tố hay số neutron đều bất biến."
+      },
+      {
+        "id": "H2",
+        "text": "Ví dụ: ⁴₂He + ¹⁴₇N → ¹⁷₈O + ¹₁p. Hai vế có tổng A = 18 và Z = 9."
+      },
+      {
+        "id": "H3",
+        "text": "Độ hụt khối Δm = Zm_p + (A − Z)m_n − m_hạt_nhân. Nếu bảng cho khối lượng nguyên tử trung hòa cần dùng khối lượng nguyên tử hydrogen và xử lí electron nhất quán."
+      },
+      {
+        "id": "H4",
+        "text": "Năng lượng liên kết E_lk = Δm c². Khi Δm tính theo u thì E_lk(MeV) ≈ Δm(u) × 931,5. Năng lượng liên kết riêng = E_lk/A, không phải E_lk/Z."
+      },
+      {
+        "id": "H5",
+        "text": "Vùng hạt nhân trung bình quanh sắt và nickel có năng lượng liên kết riêng lớn. Không dùng duy nhất số khối để kết luận mọi hạt nhân đều bền."
+      },
+      {
+        "id": "H6",
+        "text": "Phân hạch: hạt nhân nặng tách thành các mảnh nhẹ hơn và có thể sinh neutron tiếp tục gây phân hạch. k < 1: giảm; k ≈ 1: duy trì; k > 1: tăng trong mô hình dây chuyền."
+      },
+      {
+        "id": "H7",
+        "text": "Nhiệt hạch: các hạt nhân nhẹ kết hợp. Ví dụ D–T cho helium-4, neutron và khoảng 17,6 MeV. Mặt trời chủ yếu dùng chuỗi proton–proton, khác ví dụ D–T."
+      },
+      {
+        "id": "H8",
+        "text": "Q = (m_trước − m_sau)c². Q > 0 là tỏa năng lượng; Q < 0 cần cung cấp năng lượng, đồng thời còn phải thỏa điều kiện động học."
+      }
+    ],
+    "title": "B22: Phản ứng hạt nhân và năng lượng liên kết",
+    "href": "/hoc-lieu/truc-quan?bai=B22"
+  },
+  {
+    "lesson": "B23",
+    "question": "Một mẫu có 800 hạt. Sau 2 chu kì bán rã còn bao nhiêu hạt theo mô hình trung bình?",
+    "status": 200,
+    "seconds": 27.699,
+    "reply": "Theo mô hình trung bình, sau mỗi chu kì bán rã, số hạt còn lại giảm một nửa.  \n\nMẫu ban đầu có 800 hạt.  \nSau 1 chu kì bán rã: 800 ÷ 2 = 400 hạt.  \nSau 2 chu kì bán rã: 400 ÷ 2 = 200 hạt.  \n\nVậy sau 2 chu kì bán rã, còn **200 hạt**.  \n\nCâu hỏi tự kiểm tra: Nếu sau 1 chu kì bán rã còn 300 hạt, thì số hạt ban đầu là bao nhiêu?",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Phóng xạ là biến đổi tự phát của hạt nhân không bền. Không dự đoán chính xác lúc phân rã của một hạt riêng; có thể dự đoán phân bố thống kê của nhiều hạt."
+      },
+      {
+        "id": "H2",
+        "text": "α là hạt nhân helium-4 (2 proton, 2 neutron). Phân rã α làm A giảm 4 và Z giảm 2."
+      },
+      {
+        "id": "H3",
+        "text": "β⁻ là electron phát ra khi neutron biến đổi thành proton; A không đổi, Z tăng 1. β⁺ là positron, A không đổi và Z giảm 1; phản ứng còn có neutrino hoặc phản neutrino."
+      },
+      {
+        "id": "H4",
+        "text": "γ là photon năng lượng cao từ hạt nhân kích thích. Khi chỉ phát γ, A và Z không đổi."
+      },
+      {
+        "id": "H5",
+        "text": "Giấy có thể chặn α; nhôm làm suy giảm β; γ cần vật liệu dày như chì hoặc bê tông để suy giảm. Mức đâm xuyên phụ thuộc năng lượng và vật liệu, không phải giới hạn tuyệt đối."
+      },
+      {
+        "id": "H6",
+        "text": "N(t) = N₀ exp(−λt) = N₀ 2^(−t/T), λ = ln2/T. Sau mỗi T, số hạt chưa phân rã giảm một nửa so với đầu khoảng đó, không phải giảm một nửa N₀ mãi mãi."
+      },
+      {
+        "id": "H7",
+        "text": "Độ phóng xạ H = λN, đơn vị becquerel (Bq) = một phân rã mỗi giây. N là số hạt, H là tốc độ phân rã; không đổi lẫn các đại lượng này."
+      },
+      {
+        "id": "H8",
+        "text": "C-14 có T gần 5730 năm. Mẫu kín lí tưởng còn 25% so với ban đầu tương ứng 2T = 11460 năm; định tuổi khảo cổ thực còn cần hiệu chỉnh."
+      },
+      {
+        "id": "H9",
+        "text": "Nguyên tắc bảo vệ: giảm thời gian tiếp xúc, tăng khoảng cách, dùng che chắn phù hợp. Mô phỏng chỉ để học quan hệ định tính."
+      }
+    ],
+    "title": "B23: Hiện tượng phóng xạ",
+    "href": "/hoc-lieu/truc-quan?bai=B23"
+  },
+  {
+    "lesson": "B24",
+    "question": "Hệ số nhân neutron k=1 có đảm bảo lò phản ứng an toàn tuyệt đối không?",
+    "status": 200,
+    "seconds": 30.913,
+    "reply": "Không, k = 1 không đảm bảo lò phản ứng an toàn tuyệt đối.\n\nKhi k = 1, phản ứng dây chuyền duy trì ở mức cân bằng, nghĩa là số neutron tạo ra bằng số neutron bị hấp thụ hoặc mất. Tuy nhiên, điều này chỉ đảm bảo phản ứng không tăng mạnh, không có sự bùng nổ. Lò vẫn có thể không an toàn do các yếu tố khác như lỗi thiết bị, nhiệt độ cao, hoặc sự cố trong hệ thống điều khiển.\n\nVí dụ: Nếu thanh điều khiển bị hỏng, dù k = 1, phản ứng vẫn có thể mất kiểm soát nếu không có hệ thống an toàn phụ.\n\nCâu hỏi tự kiểm tra: Tại sao k = 1 không đủ để đảm bảo an toàn trong thực tế?",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Trong nhà máy điện hạt nhân, năng lượng từ phân hạch chuyển thành nhiệt, cơ năng turbine rồi điện năng máy phát. Không chuyển trực tiếp khối lượng thành dòng điện trong dây dẫn."
+      },
+      {
+        "id": "H2",
+        "text": "Ví dụ lò nước áp lực dùng vòng sơ cấp và thứ cấp tách biệt qua bộ trao đổi nhiệt. Mô hình này không đại diện cho mọi thiết kế lò."
+      },
+      {
+        "id": "H3",
+        "text": "Thanh điều khiển chứa vật liệu hấp thụ neutron; điều chỉnh số neutron tiếp tục gây phản ứng dây chuyền. k = 1 là mô hình cân bằng theo thế hệ neutron, không nói toàn bộ thiết bị đã an toàn."
+      },
+      {
+        "id": "H4",
+        "text": "Y học hạt nhân dùng chất đánh dấu để ghi nhận tín hiệu phát từ bên trong cơ thể. PET ghi cặp photon gamma sau hủy positron–electron; SPECT ghi photon gamma bằng hệ đầu thu khác."
+      },
+      {
+        "id": "H5",
+        "text": "Xạ trị nhằm tác động mô đích bằng bức xạ ion hóa; mục đích khác chẩn đoán. Nội dung ở đây chỉ giải thích nguyên lí, không hướng dẫn điều trị."
+      },
+      {
+        "id": "H6",
+        "text": "Chiếu xạ thực phẩm có thể giảm vi sinh vật, hạn chế côn trùng hoặc nảy mầm. Trong quy trình được kiểm soát, thực phẩm không trở thành nguồn phóng xạ."
+      },
+      {
+        "id": "H7",
+        "text": "Trong công nghiệp, sự suy giảm tia xuyên qua vật liệu giúp phát hiện bất thường; chất đánh dấu có thể theo dõi dòng chảy. Tín hiệu phải được diễn giải theo thiết bị và phép đo."
+      },
+      {
+        "id": "H8",
+        "text": "Đánh giá một dự án điện cần xem xét nguồn điện, chi phí, vận hành, chất thải, môi trường và sự tham gia của cộng đồng; không kết luận chỉ từ một hình mô phỏng."
+      }
+    ],
+    "title": "B24: Công nghiệp hạt nhân",
+    "href": "/hoc-lieu/truc-quan?bai=B24"
+  },
+  {
+    "lesson": "B25",
+    "question": "Cần xác định chu kì bán rã từ bảng số liệu H(t) thì bắt đầu từ đâu? Phân biệt H và N.",
+    "status": 200,
+    "seconds": 40.972,
+    "reply": "Để xác định chu kì bán rã từ bảng số liệu H(t), bạn bắt đầu từ việc **xác định đại lượng H** – đó là **số hoạt độ** (đơn vị Bq), tức là số lần phân rã xảy ra mỗi giây.  \n\nPhân biệt:  \n- **H** là hoạt độ (số hạt phân rã/giây), giảm theo thời gian.  \n- **N** là số hạt nhân còn lại (số hạt chưa phân rã), không đo trực tiếp, suy ra từ H.  \n\nBắt đầu từ dữ liệu H(t), bạn tìm thời điểm H giảm xuống còn **75,5 Bq** (giữa 30s và 60s), rồi dùng công thức mũ để ước lượng chu kì bán rã.  \n\nCâu hỏi tự kiểm tra: Nếu H giảm từ 151 Bq xuống 75,5 Bq trong 30s, thì chu kì bán rã là bao nhiêu?",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "truncated": false,
+    "sources": [
+      {
+        "id": "H1",
+        "text": "Giải bài hạt nhân theo trình tự: xác định đại lượng, ghi giả thiết, chọn định luật, đổi đơn vị, tính và kiểm tra tính hợp lí."
+      },
+      {
+        "id": "H2",
+        "text": "Đọc A, Z trước khi cân bằng phương trình. Với α: (4,2); neutron: (1,0); proton: (1,1); β⁻: (0,−1); β⁺: (0,+1)."
+      },
+      {
+        "id": "H3",
+        "text": "Với dữ liệu H(t), H giảm một nửa sau T trong mô hình một đồng vị. H₀ = 151 Bq, H(30 s) = 85 Bq và H(60 s) = 55 Bq nên thời điểm đạt H₀/2 = 75,5 Bq nằm giữa 30 và 60 s."
+      },
+      {
+        "id": "H4",
+        "text": "Có thể nội suy giữa hai điểm để có ước lượng sơ bộ, rồi thử đường cong mũ và xem sai khác. Nội suy không phải kết quả đo chính xác tuyệt đối."
+      },
+      {
+        "id": "H5",
+        "text": "Biến đổi ln(H/H₀) = −λt khi H > 0; đồ thị log có hệ số góc −λ, T = ln2/λ. Phải nêu cách xử lí sai số và nền đếm nếu có dữ liệu thực."
+      },
+      {
+        "id": "H6",
+        "text": "1 u c² ≈ 931,5 MeV; 1 MeV ≈ 1,602 × 10^(−13) J. Cộng khối lượng nhất quán, tránh trộn khối lượng nguyên tử với khối lượng hạt nhân."
+      },
+      {
+        "id": "H7",
+        "text": "Sản phẩm bài học gồm bảng số liệu, đồ thị có trục/đơn vị, phép tính và lời giải thích. Điểm trò chơi chỉ dùng tự kiểm tra, không tự chuyển thành điểm chính thức."
+      }
+    ],
+    "title": "B25: Ôn tập và phân tích số liệu hạt nhân",
+    "href": "/hoc-lieu/truc-quan?bai=B25"
+  }
+]

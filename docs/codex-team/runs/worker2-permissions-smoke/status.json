@@ -1,0 +1,55 @@
+{
+  "id": "worker2-permissions-smoke",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T08:11:26.111Z",
+  "status": "COMPLETED_PENDING_LEAD_REVIEW",
+  "session_ids": [
+    "01a10b1e-2450-7993-b5e2-3b6a9ec6d9a3"
+  ],
+  "exit_code": 0,
+  "allowed_files": [],
+  "timeout_seconds": 600,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/codex-team/worker-2/worker2-permissions-smoke": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-permissions-smoke/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/codex-team/worker-2/worker2-permissions-smoke",
+    "browser_cache": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/codex-team/worker-2/worker2-permissions-smoke/cache",
+    "browser_evidence": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/codex-team/worker-2/worker2-permissions-smoke/evidence"
+  },
+  "pid": 26750,
+  "signal": null,
+  "end": "2026-10-05T08:12:08.491Z",
+  "browser_temp": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/codex-team/worker-2/worker2-permissions-smoke",
+  "changed_files": [
+    "src/components/physics/B25Activities.tsx",
+    "src/lib/local-ai.ts",
+    "tests/local-ai.test.ts"
+  ],
+  "unexpected_changes": [
+    "src/components/physics/B25Activities.tsx",
+    "src/lib/local-ai.ts",
+    "tests/local-ai.test.ts"
+  ],
+  "protected_sources_unchanged": true
+}

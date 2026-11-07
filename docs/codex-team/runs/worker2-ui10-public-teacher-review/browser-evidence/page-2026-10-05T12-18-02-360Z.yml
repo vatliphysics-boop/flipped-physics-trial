@@ -1,0 +1,78 @@
+- generic [active] [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - banner [ref=f20e3]:
+      - generic [ref=f20e4]:
+        - link "Học liệu số Vật lí hạt nhân 12" [ref=f20e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=f20e7]:
+            - generic [ref=f20e24]:
+              - generic [ref=f20e25]: N=A−Z
+              - generic [ref=f20e26]: A=Z+N
+              - generic [ref=f20e27]: E=mc²
+              - generic [ref=f20e28]: Δm>0
+        - navigation [ref=f20e30]:
+          - link "Học liệu & 3D" [ref=f20e31] [cursor=pointer]:
+            - /url: /hoc-lieu
+          - link "Bài học minh họa" [ref=f20e32] [cursor=pointer]:
+            - /url: /demo-lesson
+          - link "Đăng nhập" [ref=f20e33] [cursor=pointer]:
+            - /url: /login
+          - link "Đăng ký" [ref=f20e34] [cursor=pointer]:
+            - /url: /register
+    - main [ref=f20e35]:
+      - generic [ref=f20e36]:
+        - generic [ref=f20e37]:
+          - generic [ref=f20e38]: VẬT LÍ 12 · LỚP HỌC ĐẢO NGƯỢC
+          - heading "Học liệu số Vật lí hạt nhân 12" [level=1] [ref=f20e39]: Học liệu sốVật lí hạt nhân 12
+          - paragraph [ref=f20e40]: Nền tảng hỗ trợ giáo viên tổ chức dạy học theo mô hình lớp học đảo ngược. Tối ưu hóa thời gian trên lớp, phát triển năng lực tự học của học sinh qua các hoạt động chuẩn bị, thảo luận và tự đánh giá.
+          - generic [ref=f20e41]:
+            - link "Mở học liệu & Thí nghiệm 3D" [ref=f20e42] [cursor=pointer]:
+              - /url: /hoc-lieu
+            - link "Dành cho giáo viên →" [ref=f20e43] [cursor=pointer]:
+              - /url: /teacher
+        - img [ref=f20e45]:
+          - generic [ref=f20e62]:
+            - generic [ref=f20e63]: N=A−Z
+            - generic [ref=f20e64]: A=Z+N
+            - generic [ref=f20e65]: E=mc²
+            - generic [ref=f20e66]: Δm>0
+      - generic [ref=f20e67]:
+        - generic [ref=f20e68]:
+          - heading "Tiến trình học tập" [level=2] [ref=f20e69]
+          - paragraph [ref=f20e70]: Mô hình lớp học đảo ngược được thiết kế chặt chẽ qua 3 giai đoạn.
+        - generic [ref=f20e71]:
+          - generic [ref=f20e72]:
+            - generic [ref=f20e73]: "01"
+            - generic [ref=f20e74]:
+              - heading "Trước giờ học" [level=3] [ref=f20e75]
+              - paragraph [ref=f20e76]: Video · Colab · câu hỏi cuối pha
+          - generic [ref=f20e77]:
+            - generic [ref=f20e78]: "02"
+            - generic [ref=f20e79]:
+              - heading "Trong giờ học" [level=3] [ref=f20e80]
+              - paragraph [ref=f20e81]: Mô phỏng · quan sát · thảo luận
+          - generic [ref=f20e82]:
+            - generic [ref=f20e83]: "03"
+            - generic [ref=f20e84]:
+              - heading "Sau giờ học" [level=3] [ref=f20e85]
+              - paragraph [ref=f20e86]: PDF · bài tập · đánh giá
+      - generic [ref=f20e88]:
+        - generic [ref=f20e89]:
+          - generic [ref=f20e90]: BÀI HỌC MINH HỌA
+          - heading "Bài 23 Hiện tượng phóng xạ" [level=2] [ref=f20e91]: Bài 23Hiện tượng phóng xạ
+          - generic [ref=f20e92]:
+            - generic [ref=f20e93]: Phân rã
+            - generic [ref=f20e94]: Chu kì bán rã
+            - generic [ref=f20e95]: Dữ liệu mô hình
+            - generic [ref=f20e96]: Ba pha học tập
+          - link "Xem bài học minh họa" [ref=f20e97] [cursor=pointer]:
+            - /url: /demo-lesson
+        - img [ref=f20e99]:
+          - generic [ref=f20e116]:
+            - generic [ref=f20e117]: N=A−Z
+            - generic [ref=f20e118]: A=Z+N
+            - generic [ref=f20e119]: E=mc²
+            - generic [ref=f20e120]: Δm>0
+    - contentinfo [ref=f20e121]:
+      - paragraph [ref=f20e123]: Học liệu số Vật lí hạt nhân 12 · Phiên bản MVP phục vụ nghiên cứu khoa học giáo dục.
+  - alert [ref=f20e124]

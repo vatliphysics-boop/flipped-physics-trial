@@ -1,0 +1,34 @@
+PART word/document.xml
+P0000 Đề kiểm tra Chương 4 Vật lí hạt nhân
+P0001 Vật lí 12   Thời gian 45 phút   Mã đề 101   10 điểm
+P0002 Họ và tên .......................................................... Lớp ................
+P0003 Câu 1 (0,5 điểm)
+P0004 Hạt nhân X có A = 23, Z = 11. Số neutron là bao nhiêu?
+P0005 A. 11
+P0006 B. 12
+P0007 C. 23
+P0008 D. 34
+P0009 Câu 2 (0,5 điểm)
+P0010 Số khối của hạt nhân II trong hình là bao nhiêu?
+P0012 A. 6
+P0013 B. 8
+P0014 C. 14
+P0015 D. 20
+P0016 Câu 3 (2 điểm)
+P0017 Xét mẫu phóng xạ có chu kì bán rã T không đổi.
+P0018 a) Sau mỗi T, số hạt nhân mẹ kì vọng còn lại giảm một nửa.   □ Đúng   □ Sai
+P0019 b) Có thể biết chính xác thời điểm phân rã của từng hạt.   □ Đúng   □ Sai
+P0020 c) H và N giảm theo cùng quy luật mũ với λ không đổi.   □ Đúng   □ Sai
+P0021 d) Sau 3T tất cả các hạt nhân mẹ đã phân rã.   □ Đúng   □ Sai
+P0022 Câu 4 (1 điểm)
+P0023 Sau 120 s, một mẫu còn 1/8 số hạt nhân mẹ ban đầu. Tính T.
+P0024 Trả lời ...........................................
+P0025 Câu 5 (1 điểm)
+P0026 Mẫu hữu cơ đã ngừng trao đổi carbon, tuổi 17190 năm; giả sử hoạt tính C-14 ban đầu như mẫu sống, T = 5730 năm. Hoạt tính còn bao nhiêu phần trăm?
+P0027 Trả lời ...........................................
+P0028 Câu 6 (5 điểm)
+P0029 Thiết kế cách xác định T từ bảng số hạt nhân mẹ theo thời gian. Nêu cách kiểm tra sai sót và một điều em sẽ điều chỉnh nếu câu trả lời ban đầu sai.
+P0030 ................................................................................................
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

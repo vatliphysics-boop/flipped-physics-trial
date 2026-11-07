@@ -1,0 +1,102 @@
+ minh dự kiến xây dựng ba kế hoạch dạy học cho chủ đề. Ma trận ở Bảng 2 và tiến trình ở Bảng 3 cung cấp cơ sở để biên soạn các kế hoạch đó, trong đó mỗi kế hoạch phải chỉ rõ mục tiêu, nhiệm vụ, học liệu, sản phẩm, phản hồi và đánh giá. Ba pha là ba thời điểm tổ chức trong mỗi kế hoạch; không được đồng nhất số pha với số kế hoạch. Việc chia nội dung thành ba kế hoạch và thời lượng cụ thể cần được hoàn thiện trước thực nghiệm.
+P0098 3.5 Website hỗ trợ tổ chức học liệu và nhiệm vụ
+P0099 Website phân vai giáo viên và học sinh, giữ danh mục chương trình và tổ chức bài học theo lớp. Giáo viên thiết lập bài, quản lí học liệu, câu hỏi, trạng thái xuất bản và thứ tự sử dụng. Không gian “Kho học liệu” hỗ trợ tìm, lọc theo loại và trạng thái; “Thiết kế tiến trình” hỗ trợ chọn lớp, bài và sắp xếp học liệu trong ba pha. Các chỉnh sửa giao diện hướng đến việc giáo viên tìm tài nguyên và tổ chức nhiệm vụ thuận tiện hơn; chưa có khảo sát người dùng để kết luận mức cải thiện.
+P0100 Học sinh có các tuyến trước, trong và sau giờ học, mô phỏng chạy trực tiếp, câu hỏi chốt pha, bài đánh giá và nhật kí. Nhật kí gồm kiến thức đã học, điều còn khó, mức tự tin và hành động tiếp theo. Việc lưu dữ liệu theo học sinh và bài cho phép đối chiếu quá trình với sản phẩm nếu vận hành được kiểm thử đầy đủ. Cơ chế hạn chế đáp án trước khi nộp và kiểm tra điều kiện chuyển pha được xây dựng để bảo vệ dữ liệu đánh giá.
+P0101 Giới hạn của bản mẫu cần được giữ rõ: kho trong phiên bản đối chiếu còn gắn tài nguyên với từng bài, các chức năng tái sử dụng độc lập và quản lí phiên bản mới được báo cáo ở hồ sơ khác; chưa xác nhận đầy đủ trạng thái triển khai. Một số phần hiển thị đã được sửa để học liệu không phụ thuộc riêng vào video, nhưng điều kiện hoàn thành và lưu tiến độ vẫn cần thử bằng tài khoản giáo viên, học sinh. Kết quả kiểm tra mã không chứng minh mọi học liệu đã phát được hoặc mọi luồng đã lưu đúng.
+P0102 AI đã hỗ trợ phác thảo nội dung, câu hỏi và lập trình trong quá trình phát triển. Phản hồi ở các hoạt động đã lập trình không được gọi là phản hồi tạo sinh. Những khả năng như gợi ý từng bước theo câu hỏi riêng, phân hóa tự động hoặc tổng hợp lỗi nhờ AI chỉ có thể báo cáo là đã tích hợp khi có luồng xử lí thực và kiểm thử. Trong phương án nghiên cứu, giáo viên kiểm duyệt và quyết định điểm chính thức; AI không thay thế trách nhiệm này.
+P0103 3.6 Định hướng đánh giá năng lực tự học
+P0104 Bộ công cụ đánh giá dự kiến kết hợp các biểu hiện ở Bảng 1 với sản phẩm thực hiện nhiệm vụ. Cần đánh giá cách học sinh chọn và thực hiện kế hoạch, xử lí thông tin, nhận biết lỗi và thay đổi cách học. Bài kiểm tra kiến thức cho biết mức nắm nội dung vật lí; rubric tự học cho biết cách học sinh quản lí quá trình. Hai loại kết quả có liên quan nhưng không thể dùng điểm trắc nghiệm thay toàn bộ kết luận về năng lực tự học.
+P0105 Bảng 4 Mô tả mức thực hiện đề xuất cho từng chỉ báo tự học
+P0106 Mức
+P0107 Mô tả chung
+P0108 Ví dụ với việc tự kiểm tra và điều chỉnh
+P0110 Chưa thể hiện rõ hành động hoặc sản phẩm đáp ứng nhiệm vụ, kể cả khi đã được gợi ý.
+P0111 Chưa nhận ra chỗ sai và chưa nêu việc cần làm lại.
+P0113 Thực hiện một phần nhiệm vụ khi có hướng dẫn; giải thích hoặc sản phẩm còn thiếu.
+P0114 Nhận ra lỗi nhờ giáo viên chỉ; sửa nhưng chưa giải thích được lí do.
+P0116 Thực hiện tương đối độc lập, có bằng chứng phù hợp; điều chỉnh được lỗi chính.
+P0117 Tự so sánh câu trả lời với bằng chứng, sửa lỗi và nêu được cách khắc phục.
+P0119 Chủ động lựa chọn cách thực hiện, giải thích quyết định và điều chỉnh dựa trên bằng chứng.
+P0120 Tự xác định nguyên nhân lỗi, chọn nhiệm vụ bổ sung và kiểm tra kết quả sau sửa.
+P0121 Bảng 4 là mô tả mức thực hiện do nghiên cứu đề xuất, chưa được kiểm định độ tin cậy hoặc giá trị đo lường. Khi hoàn thiện rubric, mỗi chỉ báo phải có ví dụ sản phẩm và quy tắc chấm riêng. Cần thu góp ý chuyên gia, thử với một nhóm nhỏ và đối chiếu chấm của các giáo viên trước thực nghiệm. Nhật kí và mức tự tin được dùng như thông tin tự báo cáo, kết hợp quan sát, bài làm và bản sửa để tránh suy ra năng lực chỉ từ lời tự nhận xét.
+P0122 4 Bàn luận và kết luận
+P0123 Kết quả thiết kế làm rõ mối liên hệ giữa học liệu, cách tổ chức lớp học đảo ngược và những biểu hiện tự học cần quan sát. Quy trình yêu cầu xác định mục tiêu trước khi tạo tài nguyên, đặt nhiệm vụ cùng học liệu và kiểm duyệt đầu ra AI trước khi sử dụng. Bảng 1 và Bảng 3 chuyển các gợi ý hỗ trợ tự điều chỉnh [8] thành công việc cụ thể của học sinh và giáo viên. Mối liên hệ này là căn cứ xây dựng can thiệp, chưa phải bằng chứng rằng năng lực đã phát triển.
+P0124 AI góp phần hỗ trợ khâu xây dựng, còn quyết định khoa học và sư phạm thuộc về giáo viên. Phạm vi ứng dụng phù hợp phải được xác định theo nhiệm vụ và dữ liệu thực sự có, như các tổng quan về AI và tự điều chỉnh gợi ý [10], [11]. Website cung cấp môi trường phân phối và theo dõi học liệu; hiệu quả phụ thuộc vào chất lượng nhiệm vụ, phản hồi và việc học sinh sử dụng bằng chứng, thay vì chỉ vào số lượng mô phỏng hoặc tài nguyên.
+P0125 Các giới hạn hiện tại gồm chưa có khảo sát thực trạng của đề tài, chưa thẩm định chuyên gia đầy đủ về học liệu và rubric, chưa kiểm thử trọn luồng của phiên bản triển khai, và chưa có thực nghiệm tiền kiểm, hậu kiểm. Bộ mô phỏng còn cần xem xét giới hạn biểu diễn và số liệu; các kế hoạch dạy học phải được hoàn thiện với thời lượng phù hợp. Do đó, bài báo không báo cáo số liệu hiệu quả hoặc khẳng định AI cá nhân hóa việc học.
+P0126 Nghiên cứu đã đề xuất quy trình xây dựng học liệu số có hỗ trợ AI, ma trận liên kết nhiệm vụ với biểu hiện tự học và phương án sử dụng bộ học liệu B21–B25 theo ba pha. Các sản phẩm thiết kế bám mục tiêu của thuyết minh về phát triển năng lực tự học trong chủ đề Vật lí hạt nhân lớp 12. Giai đoạn tiếp theo cần hoàn thiện ba kế hoạch dạy học, thẩm định công cụ, kiểm thử môi trường sử dụng và tổ chức thực nghiệm theo thiết kế đã thống nhất. Chỉ sau khi có dữ liệu quá trình và kết quả mới có thể đánh giá tác động bước đầu của bộ học liệu.
+P0127 Tuyên bố về sử dụng AI tạo sinh
+P0128 Tác giả sử dụng ChatGPT và Gemini/Antigravity để hỗ trợ phác thảo học liệu, câu hỏi, mã nguồn và biên tập. Tác giả chịu trách nhiệm kiểm tra nội dung khoa học, tài liệu tham khảo và bản thảo cuối; các chức năng AI trực tiếp cho học sinh được phân biệt với việc dùng AI trong quá trình xây dựng.
+P0130  DIFF tháng 12 năm [OLD 2018, → 2018.] Hà Nội, 2018. | 2018, Hà Nội, [OLD  → Việt Nam,] 2018.
+P0131 [2] A. I. Morales López and P. Tuzón Marco, “Misconceptions, knowledge, and attitudes towards the phenomenon of radioactivity,” Science & Education, vol. 31, no. 2, pp. 405–426, 2022, doi: 10.1007/s11191-021-00251-w.
+P0132  DIFF  [OLD [3]D. → [3] D.] C. D. van | satisfaction: A meta-analysis,” [OLD Educ. Res. Rev., → Educational Research Review,] vol. 28, p. | Rev., vol. 28, [OLD p. → Art. no.] 100281, 2019, doi:
+P0133 [4] P. Strelan, A. Osborn, and E. Palmer, “The flipped classroom: A meta-analysis of effects on student performance across disciplines and education levels,” Educational Research Review, vol. 30, Art. no. 100314, 2020, doi: 10.1016/j.edurev.2020.100314.
+P0134 [5] M. Tunggyshbay, N. Balta, and W. Admiraal, “Flipped classroom strategies and innovative teaching approaches in physics education: A systematic review,” Eurasia Journal of Mathematics, Science and Technology Education, vol. 19, no. 6, Art. no. em2283, 2023, doi: 10.29333/ejmste/13258.
+P0135  DIFF  [OLD [3] → [6]] M. X. Đào
+P0136  DIFF  [OLD [6] → [7]] M. H. Phương,
+P0137  DIFF  [OLD [7]L. → [8] L.] Liu, K. F. | A systematic review,” [OLD Int. J. Educ. Res., → International Journal of Educational Research,] vol. 124, p. | Res., vol. 124, [OLD p. → Art. no.] 102319, 2024, doi:
+P0138 [9] F. Almasri, “Exploring the impact of artificial intelligence in teaching and learning of science: A systematic review of empirical research,” Research in Science Education, vol. 54, no. 5, pp. 977–997, 2024, doi: 10.1007/s11165-024-10176-3.
+P0139 [10] S. K. Banihashem, M. Bond, N. Bergdahl, H. Khosravi, and O. Noroozi, “A systematic mapping review at the intersection of artificial intelligence and self-regulated learning,” International Journal of Educational Technology in Higher Education, vol. 22, Art. no. 50, 2025, doi: 10.1186/s41239-025-00548-8.
+P0140 [11] Q. Xia, Q. Liu, A. Tlili, and T. K. F. Chiu, “A systematic literature review on designing self-regulated learning using generative artificial intelligence and its future research directions,” Computers & Education, vol. 240, Art. no. 105465, 2026, doi: 10.1016/j.compedu.2025.105465.
+P0141  DIFF  [OLD [10]F. → [12] F.] Miao and W. | Holmes, Guidance for [OLD generative → Generative] AI in education | generative AI in [OLD education → Education] and research. UNESCO, | in education and [OLD research. → Research. Paris, France:] UNESCO, 2023. doi: | research. UNESCO, 2023. [OLD doi: 10.54675/EWZM9535. → ] 
+P0142 [13] V. V. Hùng et al., Vật lí 12 thuộc bộ sách Kết nối tri thức với cuộc sống. Hà Nội, Việt Nam: Nhà xuất bản Giáo dục Việt Nam, 2024.
+P0000 Tên và mục tiêu được chỉnh theo thuyết minh. Dùng “đề xuất sử dụng” vì chưa có dữ liệu thực nghiệm để báo cáo đã sử dụng và phát triển năng lực. Bản này thay trọng tâm kiểm kê mã bằng quy trình thiết kế và tổ chức dạy học.
+P0001 Bám mục 12 của thuyết minh: phương pháp hỗn hợp, định lượng chính. Đã bỏ việc trình bày toàn đề tài như nghiên cứu thiết kế giáo dục theo McKenney và Reeves; đây chỉ là bài báo về phần thiết kế của đề tài.
+P0002 Thuyết minh chưa thống nhất quy mô: mục 10 ghi 01 trường, 02 lớp; mục 11 ghi một số trường; mục 12.4 ghi hai lớp thực nghiệm và hai lớp đối chứng. Bài báo giữ thiết kế tiền–hậu kiểm có đối chứng, không tự chốt số lớp. Bảng tiến độ còn ghi 11/2026–12/2027 và 12/2027–01/2027 trong khi toàn đề tài dự kiến 10/2026–4/2027; cần sửa các mốc này trong thuyết minh.
+P0003 Đã giữ yêu cầu ba kế hoạch dạy học trong mục đóng góp dự kiến của thuyết minh. Chưa tự gán B21–B25 thành ba kế hoạch hoàn chỉnh vì tư liệu chưa xác nhận cách chia và thời lượng; không khẳng định sản phẩm này đã hoàn thành.
+P0004 Phần này thu gọn các chi tiết lập trình của bản trước. Bản ZIP 28/9 có migration 017 nhưng không có migration 018; nhật kí riêng báo 017/018 chưa áp dụng lên DEV và mô tả fallback chưa thấy trong ZIP. Các tên tệp và lỗi RPC giữ ở nhận xét, không dùng làm trọng tâm kết quả dạy học.
+P0005 Trước khi nộp cần xác nhận thông tin tác giả, xung đột lợi ích và tài trợ theo quy định của tạp chí. Thuyết minh ghi dự trù 12.000.000 đồng, không có căn cứ coi đây là kinh phí đã được nhận. Không tự bổ sung đồng tác giả từ danh sách thành viên khi chưa có xác nhận.
+
+FILE tmp/report-template/superseded/BAI_BAO_TRUOC_KHI_DOI_MAU.docx
+P0000 Thiết kế học liệu số có hỗ trợ AI cho lớp học đảo ngược chủ đề Vật lí hạt nhân lớp 12
+P0001 Võ Đoàn Đăng Khôi¹, Nguyễn Bảo Thy¹, Bùi Ngọc Xuân Phương¹
+P0002 ¹Khoa Sư phạm Khoa học Tự nhiên, Trường Đại học Sài Gòn, Việt Nam
+P0003 Tác giả liên hệ: Vatliphysics@gmail.com
+P0004 Tóm tắt
+P0005 Bài báo trình bày thiết kế kho học liệu số cho các bài B21–B25 thuộc chủ đề Vật lí hạt nhân lớp 12. Nghiên cứu được giới hạn ở pha phân tích, thiết kế và kiến tạo theo định hướng lí thuyết, kèm kiểm tra nội bộ trước sử dụng. Tài liệu chương trình, sách giáo khoa và nghiên cứu về lớp học đảo ngược được dùng để xác định mục tiêu, nhiệm vụ và sản phẩm của ba pha học tập. Bản mẫu có 78 mục học liệu, 17 mô phỏng 3D, năm infographic tương tác, bốn đề tự luyện và bàn soạn kế hoạch với nhiệm vụ riêng cho giáo viên, học sinh. Các phép kiểm tra cụ thể gồm bảo toàn số khối và điện tích trong phân hạch, quy luật bán rã và quy ước khối lượng khi tính năng lượng liên kết. Kiểm tra phần mềm đạt 29 ca; ảnh chụp giao diện minh họa các chức năng đã xây dựng. Luồng giao và nộp nhiệm vụ qua tài khoản còn cần hoàn thiện cơ sở dữ liệu và kiểm thử. Chưa có dữ liệu học sinh hoặc thẩm định độc lập; kết quả phản ánh sản phẩm thiết kế, chưa chứng minh hiệu quả dạy học.
+P0006 Từ khóa: học liệu số; lớp học đảo ngược; Vật lí hạt nhân; nghiên cứu thiết kế giáo dục; tự học.
+P0007 Abstract
+P0008 This paper reports the design of a digital resource repository for lessons B21–B25 in Grade 12 nuclear physics. The study is limited to theory-informed analysis, design and construction, with internal checks before use. Curriculum documents, a supplied textbook and flipped learning research informed the learning objectives, tasks and products across three phases. The prototype contains 78 resource entries, 17 interactive 3D simulations, five interactive infographics, four practice papers and a lesson planning workspace with separate teacher and student tasks. Concrete checks address conservation of mass number and charge in fission, radioactive decay and consistent mass conventions in binding energy calculations. Twenty-nine software tests passed, and interface screenshots document the implemented features. Account-based assignment and submission workflows require database completion and verification. No student outcome data or independent expert appraisal are reported; the findings concern design products rather than teaching effectiveness.
+P0009 Keywords: digital learning resources; flipped classroom; nuclear physics; educational design research; self-directed learning.
+P0011 1 Đặt vấn đề
+P0012 Trong chủ đề Vật lí hạt nhân, học sinh phải liên hệ kí hiệu hạt nhân, phương trình phản ứng, đồ thị và ứng dụng thực tế. Nhiều quá trình không thể quan sát trực tiếp trong lớp học phổ thông. Nghiên cứu này lấy nội dung hạt nhân và phóng xạ trong chương trình môn Vật lí làm căn cứ, chọn phạm vi B21–B25 của bộ Kết nối tri thức với cuộc sống để xây dựng học liệu (Bộ Giáo dục và Đào tạo, 2018; Vũ et al., 2024). Mục tiêu thiết kế là giúp giáo viên giao nhiệm vụ rõ ràng và giúp học sinh tạo sản phẩm từ thao tác, thay vì chỉ mở tài liệu.
+P0013 Lớp học đảo ngược tổ chức việc chuẩn bị trước giờ và vận dụng kiến thức trong giờ học. Tổng hợp 114 nghiên cứu của van Alten et al. (2019) ghi nhận hiệu ứng tích cực nhỏ đối với kết quả học tập, đồng thời cho thấy khác biệt đáng kể giữa các nghiên cứu. Liu et al. (2024), qua tổng quan 22 nghiên cứu thực nghiệm, nhấn mạnh việc kết hợp hướng dẫn và thực hành để hỗ trợ tự điều chỉnh học tập. Các kết quả này cung cấp căn cứ thiết kế, không thay thế bằng chứng về hiệu quả của sản phẩm đang xây dựng.
+P0014 Ở Việt Nam, Mai et al. (2024) đã xây dựng học liệu số cho nội dung Động lượng lớp 10 theo mô hình lớp học đảo ngược. Nghiên cứu hiện tại lựa chọn một chủ đề khác, đồng thời thiết kế thao tác 3D, nhiệm vụ quan sát và công cụ biên soạn kế hoạch trong cùng một kho. Câu hỏi nghiên cứu là: có thể tổ chức học liệu B21–B25 thành sản phẩm nào để giáo viên lựa chọn, điều chỉnh nhiệm vụ và học sinh quan sát, giải thích, tự kiểm tra; sản phẩm đã được kiểm tra đến mức nào trước sử dụng?
+P0016 2 1 Phạm vi và tư liệu thiết kế
+P0017 Nghiên cứu áp dụng định hướng nghiên cứu thiết kế giáo dục có cơ sở lí thuyết, tham khảo McKenney và Reeves (2019). Báo cáo giới hạn ở ba hoạt động: phân tích vấn đề và điều kiện; thiết kế giải pháp; kiến tạo và kiểm tra nội bộ sản phẩm trước sử dụng. Chưa thực hiện chu trình triển khai, đánh giá và cải tiến dựa trên dữ liệu lớp học; do đó không mô tả nghiên cứu này như một nghiên cứu thực nghiệm đã hoàn tất.
+P0020 2 2 Quy trình phân tích thiết kế và kiến tạo
+P0021 Ở bước phân tích, các yêu cầu được chuyển thành ma trận nội dung, thao tác và bằng chứng dự kiến. Khó khăn được xác định từ đặc điểm nội dung và điều kiện thiết kế; chưa tiến hành khảo sát để khẳng định nhu cầu của một quần thể giáo viên. Ở bước thiết kế, mỗi hoạt động có mục tiêu, nhiệm vụ, học liệu, sản phẩm và tiêu chí nhận xét. Ở bước kiến tạo, các chức năng được triển khai rồi sửa theo kết quả đối chiếu nguồn, tính lại số liệu và kiểm tra giao diện.
+P0027 Thay Z, N; quan sát tán xạ α và đồng vị.
+P0028 Bảng A–Z–N và giải thích đường đi của α.
+P0031 Phương trình và hai phép kiểm tra bảo toàn.
+P0033 Đổi T, N₀; đọc bảng và đồ thị; phân biệt các tia.
+P0036 Theo dõi chuyển hóa năng lượng; thảo luận ứng dụng.
+P0039 Ước lượng T từ H(t); cân bằng và kiểm tra phép tính.
+P0042 AI được dùng hỗ trợ dự thảo nội dung, câu hỏi và mã của học liệu. Công thức, số liệu và thông tin dẫn nguồn phải được đối chiếu lại; AI không cung cấp dữ liệu thực nghiệm và không quyết định điểm chính thức. Cách sử dụng này đặt trách nhiệm kiểm tra ở người thiết kế và giáo viên, phù hợp định hướng coi con người giữ vai trò quyết định trong giáo dục có AI (Miao & Holmes, 2023).
+P0043 2 3 Cách kiểm tra và giới hạn bằng chứng
+P0046 3 Kết quả thiết kế
+P0047 3 1 Kho học liệu và đường truy cập
+P0053 3 2 Hình thức tổ chức lớp học đảo ngược
+P0059 3 3 Infographic tương tác và cách dùng hình
+P0065 3 4 Mô phỏng phân hạch trong không gian 3D
+P0067 01n + 92235U → 92236U* → 3995Y + 53138I + 301n
+P0072 3 5 Video nguồn kèm nhiệm vụ quan sát
+P0078 3 6 Đồ thị bán rã và phép kiểm tra định lượng
+P0079  DIFF  [OLD Hoạt động → ] B23 cho thay | quy luật hàm [OLD mũ để biểu diễn số hạt còn lại theo thời gian; → mũ;] độ phóng xạ | số hạt qua [OLD hằng số phóng xạ → H = λN, trong đó λ = ln 2/T] (Urone & Hinrichs, | tính của mô [OLD hình, không phải số liệu đo thực nghiệm. → hình.] 
+P0080 N(t) = N0 × 2−t/T
+P0085 3 7 Quy ước khối lượng và năng lượng liên kết
+P0087 Δm = ZmH + (A − Z)mn − mnguyên tử;   E = Δmc2
+P0090 Ví dụ U-235 có Z = 92, N = 143, khối lượng nguyên tử 235,043924 u. Với mH = 1,007825 u và mn = 1,008665 u, tổng khối lượng là 236,958990 u, độ hụt khối 1,915066 u; dùng 931,5 MeV cho mỗi u cho E ≈ 1.783,9 MeV và E/A ≈ 7,59 MeV/nucleon. Giao diện làm tròn độ hụt khối thành 1,91507 u. Kiểm tra này đã dẫn đến sửa lỗi trộn hai quy ước khối lượng; không phải phép đo mới.
+P0092 3 8 Bàn soạn kế hoạch và nhiệm vụ của hai vai
+P0098 3 9 Bản ghi quan sát và phản tư tự học
+P0104 3 10 Đề tự luyện giữa kỳ và cuối kỳ theo chủ đề
+P0105  DIFF mã đề giữa [OLD kì → kỳ] trong phạm vi | mã đề cuối [OLD kì → kỳ] trong phạm vi | mở đề cuối [OLD kì, → kỳ,] chưa chọn đáp
+P0107 Hình 10. Giao diện đề cuối kỳ mã A với phạm vi, thời gian và câu hỏi B21.
+P0110 3 11 Hỗ trợ học tập và xử lí học liệu bằng AI cục bộ
+P0111 Bản mẫu bổ sung nút AI tròn ở góc phải trang học tập. Học sinh mở khung nhỏ, chọn bài B21–B25 và đặt câu hỏi mà không rời học liệu (Hình 11). Mô hình Qwen3 4B Instruct chạy qua Ollama trên máy chủ của hệ thống, không dùng khóa của dịch vụ AI thương mại; thông số mô hình được công bố tại trang phân phối (Ollama, n.d.). Liên kết Gemini và ChatGPT là lựa chọn mở dịch vụ bên ngoài, không phải hai mô hình được nhúng vào khung chat.
+P0113  DIFF Hình 11. Khung [OLD hỏi → AI ở] bài B23 trong | B23 trong lượt [OLD thử → kiểm tra] nội bộ; câu | người kiểm tra [OLD nhập. → nhập, không phải dữ liệu học sinh.] 
+P0114 Chế độ gợi ý yêu cầu AI chọn mã đoạn kiến thức và đặt một câu hỏi tiếp theo; hệ thống trích nguyên văn đoạn đã chọn để hạn chế việc làm thay. Chế độ giải thích tạo phản hồi từ bản tóm tắt bài học, không đọc hồ sơ, điểm hoặc bài nộp của lớp. Lượt thử carbon-14 cho N = 14 − 6 = 8; lượt thử bán rã với N₀ = 800 sau 2T cho giá trị trung bình 200. Các lượt thử chỉ kiểm tra những trường hợp đã nêu, chưa xác lập độ chính xác của AI trên toàn bộ câu hỏi.
+P0115 Giáo viên có chức năng đọc TXT, DOCX và PDF có văn bản để tóm tắt, rút ý chính hoặc gợi ý câu hỏi. Văn bản trích xuất được hiển thị trước khi xử lí; phản hồi kèm các đoạn làm căn cứ và được ghi là bản nháp. Đã thử ba tác vụ với kiến thức phóng xạ và xác nhận yêu cầu chưa đăng nhập bị từ chối; chưa kiểm thử toàn bộ luồng bằng tài khoản giáo viên thật. Phản hồi vẫn có thể thiếu điều kiện áp dụng hoặc diễn đạt chưa chính xác. Giới hạn một yêu cầu tạo phản hồi đồng thời trên máy thử 8 GB chưa chứng minh khả năng phục vụ cả lớp. Việc kiểm tra và quyết định sử dụng thuộc giáo viên (Miao & Holmes, 2023).
+P0117 3 12 Kết quả kiểm tra nội bộ và việc cần hoàn thiện
+P0123 Bảo toàn A/Z; bán rã; cùng quy ước khối lượng cho năm hạt nhân.
+P0124 Đối chiếu các ví dụ, chưa là thẩm định toàn bộ bởi chuyên gia độc lập.
+P0126 29/29 ca kiểm

@@ -1,0 +1,3 @@
+PASS: teacher can open the 3D model and cut away the front before saving.
+PASS: real model previews, no auto-publication, draft persists and stays hidden from the student.
+RESTORED: B23 fixture draft removed.

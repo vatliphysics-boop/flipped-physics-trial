@@ -1,0 +1,587 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Hướng dẫn" [ref=e9] [cursor=pointer]
+        - generic [ref=e13]:
+          - link "Trang chủ YouTube" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]: VN
+        - button "Bỏ qua điều hướng" [ref=e24] [cursor=pointer]
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Tìm kiếm" [expanded] [ref=e34]
+              - button [ref=e37] [cursor=pointer]
+            - button "Search" [ref=e38] [cursor=pointer]
+        - generic [ref=e43]:
+          - button "Tìm kiếm bằng giọng nói" [ref=e45] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e50]:
+        - button "Cài đặt" [ref=e55] [cursor=pointer]
+        - link "Đăng nhập" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dvi%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DD91T-B-PVE0&hl=vi&ec=65620
+  - main [ref=e66]:
+    - generic [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e72]:
+          - generic [ref=e75] [cursor=pointer]
+          - complementary [ref=e76]:
+            - generic "Trình phát video YouTube" [active] [ref=e79]:
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - slider "Thanh trượt tìm kiếm" [disabled] [ref=e84]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - slider "Nhấp vào hoặc cuộn bảng điều khiển để tua chính xác" [disabled]
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - button "Tạm dừng (k)" [ref=e95] [cursor=pointer]
+                    - generic [ref=e96]:
+                      - button "Tắt tiếng (m)" [ref=e98] [cursor=pointer]
+                      - slider "Âm lượng":
+                        - generic [ref=e99] [cursor=pointer]
+                    - button "0 Phút 0 Giây / 0 Phút 18 Giây" [ref=e102] [cursor=pointer]: 0:00 / 0:18
+                  - generic [ref=e103]:
+                    - generic [ref=e104]:
+                      - button "Không có phụ đề" [ref=e105] [cursor=pointer]
+                      - button "Cài đặt" [ref=e107] [cursor=pointer]
+                    - generic [ref=e108]:
+                      - button "Chế độ rạp chiếu phim (t)" [ref=e109] [cursor=pointer]
+                      - button "Toàn màn hình (f)" [ref=e110] [cursor=pointer]
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e114]:
+              - heading "What Is Nuclear Fission? | Radioactivity | Physics | FuseSchool" [level=1] [ref=e117]
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - link [ref=e121] [cursor=pointer]:
+                      - /url: /@fuseschool
+                      - img "FuseSchool - Global Education" [ref=e123]
+                    - generic [ref=e124]:
+                      - generic [ref=e125]:
+                        - generic "FuseSchool - Global Education" [ref=e128]:
+                          - link "FuseSchool - Global Education" [ref=e129] [cursor=pointer]:
+                            - /url: /@fuseschool
+                        - img "Đã xác minh" [ref=e134]
+                      - generic "932 nghìn người đăng ký" [ref=e138]: 932 N người đăng ký
+                  - button "Đăng ký FuseSchool - Global Education." [ref=e144] [cursor=pointer]:
+                    - generic: Đăng ký
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - generic [ref=e156]:
+                      - button "cùng 1.962 người khác thích video này" [ref=e160] [cursor=pointer]:
+                        - generic: 1,9 N
+                      - button "Không thích video này" [ref=e167] [cursor=pointer]
+                    - button "Chia sẻ" [ref=e173] [cursor=pointer]
+                  - generic [ref=e179]:
+                    - button "Tải xuống" [ref=e181] [cursor=pointer]
+                    - tooltip "tooltip"
+                  - button "Thao tác khác" [ref=e186] [cursor=pointer]
+              - generic [ref=e192] [cursor=pointer]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: 304 N lượt xem 13 năm trước
+                  - tooltip "tooltip"
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: How does a nuclear reactor provide energy? What causes a nuclear meltdown? And how do we make this safe? All of these questions are answered in this 'Radioactivity' video from The Fuse School GCSE / K12.
+                    - generic: …
+                  - button "...thêm" [ref=e201]
+            - text: •
+          - heading "Bình luận" [level=2] [ref=e208]
+      - generic [ref=e287]:
+        - generic [ref=e289] [cursor=pointer]:
+          - link [ref=e290]:
+            - /url: /watch?v=3nvkHjn1ETU
+            - img [ref=e296]:
+              - generic [ref=e297]: 4:47
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - 'heading "Nuclear Fission v Nuclear Fusion: Differences and Similarities Explained" [level=3] [ref=e301]':
+                - 'link "Nuclear Fission v Nuclear Fusion: Differences and Similarities Explained 4 phút, 47 giây" [ref=e302]':
+                  - /url: /watch?v=3nvkHjn1ETU
+                  - text: "Nuclear Fission v Nuclear Fusion: Differences and Similarities Explained"
+              - generic [ref=e304]:
+                - group [ref=e305]:
+                  - generic [ref=e306]: Science ABC
+                  - generic "Đã xác minh" [ref=e307]
+                - group [ref=e310]:
+                  - generic "250 nghìn lượt xem" [ref=e314]: 250 N
+                  - generic "2 năm trước" [ref=e315]
+            - button "Thao tác khác" [ref=e318]
+        - generic [ref=e323] [cursor=pointer]:
+          - link [ref=e324]:
+            - /url: /watch?v=1U6Nzcv9Vws&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e330]:
+              - generic [ref=e331]: 4:51
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - heading "Nuclear Reactor - Understanding how it works | Physics Elearnin" [level=3] [ref=e335]:
+                - link "Nuclear Reactor - Understanding how it works | Physics Elearnin 4 phút, 51 giây" [ref=e336]:
+                  - /url: /watch?v=1U6Nzcv9Vws&pp=ugUEEgJlbg%3D%3D
+                  - text: Nuclear Reactor - Understanding how it works | Physics Elearnin
+              - generic [ref=e338]:
+                - group [ref=e339]:
+                  - generic [ref=e340]: Elearnin
+                - group [ref=e341]:
+                  - generic "4,9 triệu lượt xem" [ref=e345]: 4,9 Tr
+                  - generic "13 năm trước" [ref=e346]
+            - button "Thao tác khác" [ref=e349]
+        - generic [ref=e354] [cursor=pointer]:
+          - link [ref=e355]:
+            - /url: /watch?v=VAMwPG5MzUs
+            - img [ref=e361]:
+              - generic [ref=e362]: 3:06
+          - generic [ref=e364]:
+            - generic [ref=e365]:
+              - heading "Black Holes | Radioactivity | Physics | FuseSchool" [level=3] [ref=e366]:
+                - link "Black Holes | Radioactivity | Physics | FuseSchool 3 phút, 6 giây" [ref=e367]:
+                  - /url: /watch?v=VAMwPG5MzUs
+                  - text: Black Holes | Radioactivity | Physics | FuseSchool
+              - generic [ref=e369]:
+                - group [ref=e370]:
+                  - generic [ref=e371]: FuseSchool - Global Education
+                  - generic "Đã xác minh" [ref=e372]
+                - group [ref=e375]:
+                  - generic "48 nghìn lượt xem" [ref=e379]: 48 N
+                  - generic "13 năm trước" [ref=e380]
+            - button "Thao tác khác" [ref=e383]
+        - generic [ref=e388] [cursor=pointer]:
+          - link [ref=e389]:
+            - /url: /watch?v=dGr8VaITKbA
+            - img [ref=e395]:
+              - generic [ref=e396]: 4:54
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - heading "How close are we to powering the world with nuclear fusion? - George Zaidan" [level=3] [ref=e400]:
+                - link "How close are we to powering the world with nuclear fusion? - George Zaidan 4 phút, 54 giây" [ref=e401]:
+                  - /url: /watch?v=dGr8VaITKbA
+                  - text: How close are we to powering the world with nuclear fusion? - George Zaidan
+              - generic [ref=e403]:
+                - group [ref=e404]:
+                  - generic [ref=e405]: TED-Ed
+                  - generic "Đã xác minh" [ref=e406]
+                - group [ref=e409]:
+                  - generic "461 nghìn lượt xem" [ref=e413]: 461 N
+                  - generic "2 năm trước" [ref=e414]
+            - button "Thao tác khác" [ref=e417]
+        - generic [ref=e422] [cursor=pointer]:
+          - link [ref=e423]:
+            - /url: /watch?v=u-umbBkZNC0
+            - img [ref=e429]:
+              - generic [ref=e430]: 7:26
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - heading "Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021" [level=3] [ref=e434]:
+                - link "Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021 7 phút, 26 giây" [ref=e435]:
+                  - /url: /watch?v=u-umbBkZNC0
+                  - text: Mưa axit là gì ? Mưa axit có thể ăn mòn tất cả ? | Hoạt Hình Khoa Học Vui 2021
+              - generic [ref=e437]:
+                - group [ref=e438]:
+                  - generic [ref=e439]: Hoạt Hình Khám Phá Khoa Học Cùng Dr.Binocs
+                  - generic "Đã xác minh" [ref=e440]
+                - group [ref=e443]:
+                  - generic "322 nghìn lượt xem" [ref=e447]: 322 N
+                  - generic "5 năm trước" [ref=e448]
+            - button "Thao tác khác" [ref=e451]
+        - generic [ref=e456] [cursor=pointer]:
+          - link [ref=e457]:
+            - /url: /watch?v=fwhjCw-IUu0&pp=ugUHEgVlbi1HQg%3D%3D
+            - img [ref=e463]:
+              - generic [ref=e464]: 3:47
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - heading "Atomic theory | Matter | Physics | FuseSchool" [level=3] [ref=e468]:
+                - link "Atomic theory | Matter | Physics | FuseSchool 3 phút, 47 giây" [ref=e469]:
+                  - /url: /watch?v=fwhjCw-IUu0&pp=ugUHEgVlbi1HQg%3D%3D
+                  - text: Atomic theory | Matter | Physics | FuseSchool
+              - generic [ref=e471]:
+                - group [ref=e472]:
+                  - generic [ref=e473]: FuseSchool - Global Education
+                  - generic "Đã xác minh" [ref=e474]
+                - group [ref=e477]:
+                  - generic "153 nghìn lượt xem" [ref=e481]: 153 N
+                  - generic "7 năm trước" [ref=e482]
+            - button "Thao tác khác" [ref=e485]
+        - generic [ref=e490] [cursor=pointer]:
+          - link [ref=e491]:
+            - /url: /watch?v=zI2vRwFKnHQ
+            - img [ref=e497]:
+              - generic [ref=e498]: 5:21
+          - generic [ref=e500]:
+            - generic [ref=e501]:
+              - heading "Is radiation dangerous? - Matt Anticole" [level=3] [ref=e502]:
+                - link "Is radiation dangerous? - Matt Anticole 5 phút, 21 giây" [ref=e503]:
+                  - /url: /watch?v=zI2vRwFKnHQ
+                  - text: Is radiation dangerous? - Matt Anticole
+              - generic [ref=e505]:
+                - group [ref=e506]:
+                  - generic [ref=e507]: TED-Ed
+                  - generic "Đã xác minh" [ref=e508]
+                - group [ref=e511]:
+                  - generic "2,9 triệu lượt xem" [ref=e515]: 2,9 Tr
+                  - generic "10 năm trước" [ref=e516]
+            - button "Thao tác khác" [ref=e519]
+        - generic [ref=e524] [cursor=pointer]:
+          - link [ref=e525]:
+            - /url: /watch?v=HVZbChlRiOU&pp=ugUEEgJ2aQ%3D%3D
+            - img [ref=e531]:
+              - generic [ref=e532]: 9:33
+          - generic [ref=e534]:
+            - generic [ref=e535]:
+              - heading "Lịch sử Năng lượng Hạt Nhân - EZ Sử" [level=3] [ref=e536]:
+                - link "Lịch sử Năng lượng Hạt Nhân - EZ Sử 9 phút, 33 giây" [ref=e537]:
+                  - /url: /watch?v=HVZbChlRiOU&pp=ugUEEgJ2aQ%3D%3D
+                  - text: Lịch sử Năng lượng Hạt Nhân - EZ Sử
+              - generic [ref=e539]:
+                - group [ref=e540]:
+                  - generic [ref=e541]: EZ Sử
+                - group [ref=e542]:
+                  - generic "865 nghìn lượt xem" [ref=e546]: 865 N
+                  - generic "2 năm trước" [ref=e547]
+            - button "Thao tác khác" [ref=e550]
+        - generic [ref=e555] [cursor=pointer]:
+          - link [ref=e556]:
+            - /url: /watch?v=rcOFV4y5z8c
+            - img [ref=e562]:
+              - generic [ref=e563]: 4:44
+          - generic [ref=e565]:
+            - generic [ref=e566]:
+              - 'heading "Nuclear Energy Explained: How does it work? 1/3" [level=3] [ref=e567]':
+                - 'link "Nuclear Energy Explained: How does it work? 1/3 4 phút, 44 giây" [ref=e568]':
+                  - /url: /watch?v=rcOFV4y5z8c
+                  - text: "Nuclear Energy Explained: How does it work? 1/3"
+              - generic [ref=e570]:
+                - group [ref=e571]:
+                  - generic [ref=e572]: Kurzgesagt – In a Nutshell
+                  - generic "Đã xác minh" [ref=e573]
+                - group [ref=e576]:
+                  - generic "8,1 triệu lượt xem" [ref=e580]: 8,1 Tr
+                  - generic "11 năm trước" [ref=e581]
+            - button "Thao tác khác" [ref=e584]
+        - generic [ref=e589] [cursor=pointer]:
+          - link [ref=e590]:
+            - /url: /watch?v=WiGVTYYoN1U
+            - img [ref=e596]:
+              - generic [ref=e597]: 5:27
+          - generic [ref=e599]:
+            - generic [ref=e600]:
+              - heading "Ai phát minh ra bóng đèn ? Thomas Edison hay một ai khác ? | Hoạt Hình Khoa Học Vui 2021" [level=3] [ref=e601]:
+                - link "Ai phát minh ra bóng đèn ? Thomas Edison hay một ai khác ? | Hoạt Hình Khoa Học Vui 2021 5 phút, 27 giây" [ref=e602]:
+                  - /url: /watch?v=WiGVTYYoN1U
+                  - text: Ai phát minh ra bóng đèn ? Thomas Edison hay một ai khác ? | Hoạt Hình Khoa Học Vui 2021
+              - generic [ref=e604]:
+                - group [ref=e605]:
+                  - generic [ref=e606]: Hoạt Hình Khám Phá Khoa Học Cùng Dr.Binocs
+                  - generic "Đã xác minh" [ref=e607]
+                - group [ref=e610]:
+                  - generic "252 nghìn lượt xem" [ref=e614]: 252 N
+                  - generic "5 năm trước" [ref=e615]
+            - button "Thao tác khác" [ref=e618]
+        - generic [ref=e623] [cursor=pointer]:
+          - link [ref=e624]:
+            - /url: /watch?v=_pY5HeZpNr8&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e630]:
+              - generic [ref=e631]: 8:59
+          - generic [ref=e633]:
+            - generic [ref=e634]:
+              - heading "Nuclear Fission" [level=3] [ref=e635]:
+                - link "Nuclear Fission 8 phút, 59 giây" [ref=e636]:
+                  - /url: /watch?v=_pY5HeZpNr8&pp=ugUEEgJlbg%3D%3D
+                  - text: Nuclear Fission
+              - generic [ref=e638]:
+                - group [ref=e639]:
+                  - generic [ref=e640]: Tyler DeWitt
+                  - generic "Đã xác minh" [ref=e641]
+                - group [ref=e644]:
+                  - generic "518 nghìn lượt xem" [ref=e648]: 518 N
+                  - generic "14 năm trước" [ref=e649]
+            - button "Thao tác khác" [ref=e652]
+        - generic [ref=e657] [cursor=pointer]:
+          - link [ref=e658]:
+            - /url: /watch?v=JXNVcD4uGro
+            - generic [ref=e659]:
+              - img [ref=e664]:
+                - generic [ref=e665]: 8:28
+              - img [ref=e668]:
+                - generic [ref=e669]: Mới
+          - generic [ref=e671]:
+            - generic [ref=e672]:
+              - 'heading "How Airflow Really Works: The Physics You Need to Know" [level=3] [ref=e673]':
+                - 'link "How Airflow Really Works: The Physics You Need to Know 8 phút, 28 giây" [ref=e674]':
+                  - /url: /watch?v=JXNVcD4uGro
+                  - text: "How Airflow Really Works: The Physics You Need to Know"
+              - generic [ref=e676]:
+                - group [ref=e677]:
+                  - generic [ref=e678]: The Respiratory Response
+                - group [ref=e679]:
+                  - generic "27 lượt xem" [ref=e683]: "27"
+                  - generic "5 ngày trước" [ref=e684]
+            - button "Thao tác khác" [ref=e687]
+        - generic [ref=e692] [cursor=pointer]:
+          - link [ref=e693]:
+            - /url: /watch?v=oFdR_yMKOCw
+            - img [ref=e699]:
+              - generic [ref=e700]: 10:56
+          - generic [ref=e702]:
+            - generic [ref=e703]:
+              - heading "Radiation and Radioactive Decay" [level=3] [ref=e704]:
+                - link "Radiation and Radioactive Decay 10 phút, 56 giây" [ref=e705]:
+                  - /url: /watch?v=oFdR_yMKOCw
+                  - text: Radiation and Radioactive Decay
+              - generic [ref=e707]:
+                - group [ref=e708]:
+                  - generic [ref=e709]: Bozeman Science
+                - group [ref=e710]:
+                  - generic "443 nghìn lượt xem" [ref=e714]: 443 N
+                  - generic "15 năm trước" [ref=e715]
+            - button "Thao tác khác" [ref=e718]
+        - generic [ref=e723] [cursor=pointer]:
+          - link [ref=e724]:
+            - /url: /watch?v=fYuVzbIu_8o&pp=ugUHEgVlbi1VUw%3D%3D
+            - img [ref=e730]:
+              - generic [ref=e731]: 9:52
+          - generic [ref=e733]:
+            - generic [ref=e734]:
+              - 'heading "Nuclear Bomb: How it Works in detail. Atomic vs Hydrogen bomb (H-bomb)" [level=3] [ref=e735]':
+                - 'link "Nuclear Bomb: How it Works in detail. Atomic vs Hydrogen bomb (H-bomb) 9 phút, 52 giây" [ref=e736]':
+                  - /url: /watch?v=fYuVzbIu_8o&pp=ugUHEgVlbi1VUw%3D%3D
+                  - text: "Nuclear Bomb: How it Works in detail. Atomic vs Hydrogen bomb (H-bomb)"
+              - generic [ref=e738]:
+                - group [ref=e739]:
+                  - generic [ref=e740]: Arvin Ash
+                  - generic "Đã xác minh" [ref=e741]
+                - group [ref=e744]:
+                  - generic "4 triệu lượt xem" [ref=e748]: 4 Tr
+                  - generic "7 năm trước" [ref=e749]
+                - group [ref=e750]:
+                  - generic [ref=e751]: Hoạt động gây quỹ
+            - button "Thao tác khác" [ref=e757]
+        - generic [ref=e762] [cursor=pointer]:
+          - link [ref=e763]:
+            - /url: /watch?v=Hy8fB32GZoc&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e769]:
+              - generic [ref=e770]: 7:53
+          - generic [ref=e772]:
+            - generic [ref=e773]:
+              - heading "Nuclear Fusion Explained" [level=3] [ref=e774]:
+                - link "Nuclear Fusion Explained 7 phút, 53 giây" [ref=e775]:
+                  - /url: /watch?v=Hy8fB32GZoc&pp=ugUEEgJlbg%3D%3D
+                  - text: Nuclear Fusion Explained
+              - generic [ref=e777]:
+                - group [ref=e778]:
+                  - generic [ref=e779]: ClickView
+                  - generic "Đã xác minh" [ref=e780]
+                - group [ref=e783]:
+                  - generic "327 nghìn lượt xem" [ref=e787]: 327 N
+                  - generic "5 năm trước" [ref=e788]
+            - button "Thao tác khác" [ref=e791]
+        - generic [ref=e796] [cursor=pointer]:
+          - link [ref=e797]:
+            - /url: /watch?v=-Zo4hHk-dH4
+            - img [ref=e803]:
+              - generic [ref=e804]: 6:10
+          - generic [ref=e806]:
+            - generic [ref=e807]:
+              - heading "Điều gì xảy ra khi ta sống trong bầu không khí ô nhiễm ? | Hoạt Hình Khoa Học Vui 2021" [level=3] [ref=e808]:
+                - link "Điều gì xảy ra khi ta sống trong bầu không khí ô nhiễm ? | Hoạt Hình Khoa Học Vui 2021 6 phút, 10 giây" [ref=e809]:
+                  - /url: /watch?v=-Zo4hHk-dH4
+                  - text: Điều gì xảy ra khi ta sống trong bầu không khí ô nhiễm ? | Hoạt Hình Khoa Học Vui 2021
+              - generic [ref=e811]:
+                - group [ref=e812]:
+                  - generic [ref=e813]: Hoạt Hình Khám Phá Khoa Học Cùng Dr.Binocs
+                  - generic "Đã xác minh" [ref=e814]
+                - group [ref=e817]:
+                  - generic "399 nghìn lượt xem" [ref=e821]: 399 N
+                  - generic "5 năm trước" [ref=e822]
+            - button "Thao tác khác" [ref=e825]
+        - generic [ref=e830] [cursor=pointer]:
+          - link [ref=e831]:
+            - /url: /watch?v=I42V3WGc01U
+            - img [ref=e837]:
+              - generic [ref=e838]: 8:33
+          - generic [ref=e840]:
+            - generic [ref=e841]:
+              - 'heading "How Nuclear Bombs are Made? #nuclear #iran #israel" [level=3] [ref=e842]':
+                - 'link "How Nuclear Bombs are Made? #nuclear #iran #israel 8 phút, 33 giây" [ref=e843]':
+                  - /url: /watch?v=I42V3WGc01U
+                  - text: "How Nuclear Bombs are Made? #nuclear #iran #israel"
+              - generic [ref=e845]:
+                - group [ref=e846]:
+                  - generic [ref=e847]: AiTelly
+                  - generic "Đã xác minh" [ref=e848]
+                - group [ref=e851]:
+                  - generic "3,7 triệu lượt xem" [ref=e855]: 3,7 Tr
+                  - generic "1 năm trước" [ref=e856]
+            - button "Thao tác khác" [ref=e859]
+        - generic [ref=e864] [cursor=pointer]:
+          - link [ref=e865]:
+            - /url: /watch?v=mBdVK4cqiFs
+            - img [ref=e871]:
+              - generic [ref=e872]: 3:44
+          - generic [ref=e874]:
+            - generic [ref=e875]:
+              - heading "Physics - Nuclear Fission reaction explained - Physics" [level=3] [ref=e876]:
+                - link "Physics - Nuclear Fission reaction explained - Physics 3 phút, 44 giây" [ref=e877]:
+                  - /url: /watch?v=mBdVK4cqiFs
+                  - text: Physics - Nuclear Fission reaction explained - Physics
+              - generic [ref=e879]:
+                - group [ref=e880]:
+                  - generic [ref=e881]: Elearnin
+                - group [ref=e882]:
+                  - generic "1,2 triệu lượt xem" [ref=e886]: 1,2 Tr
+                  - generic "13 năm trước" [ref=e887]
+            - button "Thao tác khác" [ref=e890]
+        - generic [ref=e895] [cursor=pointer]:
+          - link [ref=e896]:
+            - /url: /watch?v=mZsaaturR6E&pp=0gcJCS0MAYcqIYzv
+            - img [ref=e902]:
+              - generic [ref=e903]: 6:16
+          - generic [ref=e905]:
+            - generic [ref=e906]:
+              - heading "Giải thích Năng lượng Hợp hạch - Tương lai hay Thất bại" [level=3] [ref=e907]:
+                - link "Giải thích Năng lượng Hợp hạch - Tương lai hay Thất bại 6 phút, 16 giây" [ref=e908]:
+                  - /url: /watch?v=mZsaaturR6E&pp=0gcJCS0MAYcqIYzv
+                  - text: Giải thích Năng lượng Hợp hạch - Tương lai hay Thất bại
+              - generic [ref=e910]:
+                - group [ref=e911]:
+                  - generic [ref=e912]: Kurzgesagt – In a Nutshell
+                  - generic "Đã xác minh" [ref=e913]
+                - group [ref=e916]:
+                  - generic "15 triệu lượt xem" [ref=e920]: 15 Tr
+                  - generic "9 năm trước" [ref=e921]
+            - button "Thao tác khác" [ref=e924]
+        - generic [ref=e929] [cursor=pointer]:
+          - link [ref=e930]:
+            - /url: /watch?v=onkW8BF5I3Q&pp=ugUHEgVlbi1HQg%3D%3D
+            - img [ref=e936]:
+              - generic [ref=e937]: 3:37
+          - generic [ref=e939]:
+            - generic [ref=e940]:
+              - heading "GCSE Physics Revision \"Nuclear Fission and Nuclear Fusion\" (Triple)" [level=3] [ref=e941]:
+                - link "GCSE Physics Revision \"Nuclear Fission and Nuclear Fusion\" (Triple) 3 phút, 37 giây" [ref=e942]:
+                  - /url: /watch?v=onkW8BF5I3Q&pp=ugUHEgVlbi1HQg%3D%3D
+                  - text: GCSE Physics Revision "Nuclear Fission and Nuclear Fusion" (Triple)
+              - generic [ref=e944]:
+                - group [ref=e945]:
+                  - generic [ref=e946]: Freesciencelessons
+                  - generic "Đã xác minh" [ref=e947]
+                - group [ref=e950]:
+                  - generic "448 nghìn lượt xem" [ref=e954]: 448 N
+                  - generic "9 năm trước" [ref=e955]
+            - button "Thao tác khác" [ref=e958]
+        - generic [ref=e963] [cursor=pointer]:
+          - link [ref=e964]:
+            - /url: /watch?v=_UwexvaCMWA&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e970]:
+              - generic [ref=e971]: 4:48
+          - generic [ref=e973]:
+            - generic [ref=e974]:
+              - heading "How Nuclear Power Plants Work / Nuclear Energy (Animation)" [level=3] [ref=e975]:
+                - link "How Nuclear Power Plants Work / Nuclear Energy (Animation) 4 phút, 48 giây" [ref=e976]:
+                  - /url: /watch?v=_UwexvaCMWA&pp=ugUEEgJlbg%3D%3D
+                  - text: How Nuclear Power Plants Work / Nuclear Energy (Animation)
+              - generic [ref=e978]:
+                - group [ref=e979]:
+                  - generic [ref=e980]: Thomas Schwenke
+                  - generic "Đã xác minh" [ref=e981]
+                - group [ref=e984]:
+                  - generic "2,6 triệu lượt xem" [ref=e988]: 2,6 Tr
+                  - generic "13 năm trước" [ref=e989]
+            - button "Thao tác khác" [ref=e992]
+        - generic [ref=e997] [cursor=pointer]:
+          - link [ref=e998]:
+            - /url: /watch?v=jpDRfaWYk3I
+            - img [ref=e1004]:
+              - generic [ref=e1005]: 4:08
+          - generic [ref=e1007]:
+            - generic [ref=e1008]:
+              - heading "How does a nuclear power plant work?" [level=3] [ref=e1009]:
+                - link "How does a nuclear power plant work? 4 phút, 8 giây" [ref=e1010]:
+                  - /url: /watch?v=jpDRfaWYk3I
+                  - text: How does a nuclear power plant work?
+              - generic [ref=e1012]:
+                - group [ref=e1013]:
+                  - generic [ref=e1014]: ENGIE Belgium
+                - group [ref=e1015]:
+                  - generic "721 nghìn lượt xem" [ref=e1019]: 721 N
+                  - generic "5 năm trước" [ref=e1020]
+            - button "Thao tác khác" [ref=e1023]
+        - generic [ref=e1028] [cursor=pointer]:
+          - link [ref=e1029]:
+            - /url: /watch?v=KWAsz59F8gA
+            - img [ref=e1035]:
+              - generic [ref=e1036]: 9:58
+          - generic [ref=e1038]:
+            - generic [ref=e1039]:
+              - 'heading "Nuclear Chemistry: Crash Course Chemistry #38" [level=3] [ref=e1040]':
+                - 'link "Nuclear Chemistry: Crash Course Chemistry #38 9 phút, 58 giây" [ref=e1041]':
+                  - /url: /watch?v=KWAsz59F8gA
+                  - text: "Nuclear Chemistry: Crash Course Chemistry #38"
+              - generic [ref=e1043]:
+                - group [ref=e1044]:
+                  - generic [ref=e1045]: CrashCourse
+                  - generic "Đã xác minh" [ref=e1046]
+                - group [ref=e1049]:
+                  - generic "2,2 triệu lượt xem" [ref=e1053]: 2,2 Tr
+                  - generic "12 năm trước" [ref=e1054]
+            - button "Thao tác khác" [ref=e1057]
+        - generic [ref=e1062] [cursor=pointer]:
+          - link [ref=e1063]:
+            - /url: /watch?v=Cb8NX3HiS4U&pp=ugUEEgJlbg%3D%3D
+            - img [ref=e1069]:
+              - generic [ref=e1070]: 3:20
+          - generic [ref=e1072]:
+            - generic [ref=e1073]:
+              - heading "Nuclear Fusion | Fusion energy explained with Hydrogen atom example | Physics animation video" [level=3] [ref=e1074]:
+                - link "Nuclear Fusion | Fusion energy explained with Hydrogen atom example | Physics animation video 3 phút, 20 giây" [ref=e1075]:
+                  - /url: /watch?v=Cb8NX3HiS4U&pp=ugUEEgJlbg%3D%3D
+                  - text: Nuclear Fusion | Fusion energy explained with Hydrogen atom example | Physics animation video
+              - generic [ref=e1077]:
+                - group [ref=e1078]:
+                  - generic [ref=e1079]: Elearnin
+                - group [ref=e1080]:
+                  - generic "856 nghìn lượt xem" [ref=e1084]: 856 N
+                  - generic "13 năm trước" [ref=e1085]
+            - button "Thao tác khác" [ref=e1088]
+        - generic [ref=e1093] [cursor=pointer]:
+          - link [ref=e1094]:
+            - /url: /watch?v=O9BWnvGcQ58
+            - img [ref=e1100]:
+              - generic [ref=e1101]: 4:24
+          - generic [ref=e1103]:
+            - generic [ref=e1104]:
+              - heading "Nuclear Fission | Radioactivity | Physics | FuseSchool" [level=3] [ref=e1105]:
+                - link "Nuclear Fission | Radioactivity | Physics | FuseSchool 4 phút, 24 giây" [ref=e1106]:
+                  - /url: /watch?v=O9BWnvGcQ58
+                  - text: Nuclear Fission | Radioactivity | Physics | FuseSchool
+              - generic [ref=e1108]:
+                - group [ref=e1109]:
+                  - generic [ref=e1110]: FuseSchool - Global Education
+                  - generic "Đã xác minh" [ref=e1111]
+                - group [ref=e1114]:
+                  - generic "33 nghìn lượt xem" [ref=e1118]: 33 N
+                  - generic "6 năm trước" [ref=e1119]
+            - button "Thao tác khác" [ref=e1122]
+        - generic [ref=e1127] [cursor=pointer]:
+          - link [ref=e1128]:
+            - /url: /watch?v=4BkOUOK0XzM
+            - img [ref=e1134]:
+              - generic [ref=e1135]: 9:39
+          - generic [ref=e1137]:
+            - generic [ref=e1138]:
+              - heading "We Went Inside the Largest Nuclear Fusion Reactor" [level=3] [ref=e1139]:
+                - link "We Went Inside the Largest Nuclear Fusion Reactor 9 phút, 39 giây" [ref=e1140]:
+                  - /url: /watch?v=4BkOUOK0XzM
+                  - text: We Went Inside the Largest Nuclear Fusion Reactor
+              - generic [ref=e1142]:
+                - group [ref=e1143]:
+                  - generic [ref=e1144]: The B1M
+                  - generic "Đã xác minh" [ref=e1145]
+                - group [ref=e1148]:
+                  - generic "4,1 triệu lượt xem" [ref=e1152]: 4,1 Tr
+                  - generic "4 năm trước" [ref=e1153]
+            - button "Thao tác khác" [ref=e1156]

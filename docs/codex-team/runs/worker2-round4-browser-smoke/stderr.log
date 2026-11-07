@@ -1,0 +1,1 @@
+2026-10-05T08:19:44.307502Z ERROR codex_core::tools::router: error=unable to locate image at `/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-EFaijB/evidence/desktop.png`: No such file or directory (os error 2)

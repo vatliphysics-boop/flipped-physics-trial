@@ -1,0 +1,46 @@
+PART word/document.xml
+P0000 Công thức Vật lí 12 biên soạn bằng Equation
+P0001 20 công thức được biên soạn từ ảnh SGK Vật lí 12 Kết nối tri thức. Mỗi công thức kèm vùng ảnh và số trang để kiểm tra. Công thức Equation có thể chỉnh sửa trong Word và sao chép sang PowerPoint hoặc Excel bản máy tính. Đây là phần đã biên soạn, chưa bao gồm toàn bộ công thức của ba sách.
+P0002 Công thức 1   Trang sách 20   Trang PDF 22
+P0004 Q=mcΔ T
+P0005 Công thức 2   Trang sách 24   Trang PDF 26
+P0007 Q=λ m
+P0008 Công thức 3   Trang sách 27   Trang PDF 29
+P0010 Q=Lm
+P0011 Công thức 4   Trang sách 39   Trang PDF 41
+P0013 pV=hằng số
+P0014 Công thức 5   Trang sách 39   Trang PDF 41
+P0016 p1 V1=p2 V2
+P0017 Công thức 6   Trang sách 46   Trang PDF 48
+P0019 pV=nRT
+P0020 Công thức 7   Trang sách 47   Trang PDF 49
+P0022 pV=nRT
+P0023 Công thức 8   Trang sách 63   Trang PDF 65
+P0025 F=BILsinα
+P0026 Công thức 9   Trang sách 66   Trang PDF 68
+P0028 Φ=BScosα
+P0029 Công thức 10   Trang sách 72   Trang PDF 74
+P0031 e=E0cos(ω t+φ0)
+P0032 Công thức 11   Trang sách 72   Trang PDF 74
+P0034 Φ=BScosα=BScosω t
+P0035 Công thức 12   Trang sách 73   Trang PDF 75
+P0037 u=U0cos(ω t+φu) (V)
+P0038 Công thức 13   Trang sách 74   Trang PDF 76
+P0040 i=I0cos(ω t+φi) (A)
+P0041 Công thức 14   Trang sách 99   Trang PDF 101
+P0043 E=mc2
+P0044 Công thức 15   Trang sách 99   Trang PDF 101
+P0046 Elk=E2-E1=[Zmp+(A-Z)mn-mX]c2=Δ mc2
+P0047 Công thức 16   Trang sách 107   Trang PDF 109
+P0049 Nt=N0 2-tT
+P0050 Công thức 17   Trang sách 109   Trang PDF 111
+P0052 Nt=N0 e-λ t
+P0053 Công thức 18   Trang sách 109   Trang PDF 111
+P0055 Ht=H0 e-λ t
+P0056 Công thức 19   Trang sách 113   Trang PDF 115
+P0058 Nt=N0 2-tT=N0 e-λ t
+P0059 Công thức 20   Trang sách 113   Trang PDF 115
+P0061 Ht=λ Nt=H0 e-λ t
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

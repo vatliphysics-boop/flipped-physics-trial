@@ -1,0 +1,14 @@
+Browser tab: 4, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/student/lessons/00000000-0000-4000-8000-000000000001/in-class".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/student/lessons/00000000-0000-4000-8000-000000000001/in-class
+	2 container
+		3 container main-content
+			4 text HỌC LIỆU VẬT LÍ 12 · 404
+			5 heading Chưa thể mở nội dung này, Value: 1
+				6 text Chưa thể mở nội dung này
+			7 text Liên kết có thể không còn phù hợp, hoặc nội dung chỉ dành cho thành viên lớp học. Nếu đây là bài giáo viên giao, hãy đăng nhập đúng tài khoản và mở lại từ lớp học của bạn.
+			8 container Tiếp tục sử dụng học liệu
+				9 link Description: Đăng nhập lớp học, Value: localhost:3001/login
+				10 link Description: Mở kho học liệu, Value: localhost:3001/hoc-lieu
+				11 link Description: Về trang chủ, Value: localhost:3001/
+
+The focused UI element is 1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/student/lessons/00000000-0000-4000-8000-000000000001/in-class

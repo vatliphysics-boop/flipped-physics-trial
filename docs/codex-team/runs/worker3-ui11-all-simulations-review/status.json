@@ -1,0 +1,77 @@
+{
+  "id": "worker3-ui11-all-simulations-review",
+  "worker": 3,
+  "mode": "review",
+  "start": "2026-10-05T12:15:36.303Z",
+  "status": "TIMED_OUT",
+  "session_ids": [
+    "01a10bfd-b071-7882-bf9a-df39d5a3f987"
+  ],
+  "exit_code": null,
+  "allowed_files": [],
+  "timeout_seconds": 1500,
+  "auth": {
+    "worker": 3,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-3",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker3-ui11-all-simulations-review/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence"
+  },
+  "pid": 41471,
+  "signal": "SIGTERM",
+  "end": "2026-10-05T12:40:37.409Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr",
+  "changed_files": [
+    "scripts/curate-workbook-nuclear.py",
+    "src/app/student/StudentShell.tsx",
+    "src/app/teacher/classes/new/page.tsx",
+    "src/components/PortalShell.tsx",
+    "src/components/learning/InteractiveInfographic.tsx",
+    "src/data/nuclear-learning.json",
+    "src/data/unified-question-bank.json",
+    "src/data/workbook-nuclear-transcriptions.json",
+    "src/lib/local-ai.ts",
+    "src/lib/unified-question-bank.ts",
+    "tests/unified-question-bank.test.ts",
+    "scripts/codex-team/worker2-ui11-infographic-plans-ai-review.json",
+    "src/app/not-found.tsx",
+    "src/components/learning/B25ModelData.tsx"
+  ],
+  "unexpected_changes": [
+    "scripts/curate-workbook-nuclear.py",
+    "src/app/student/StudentShell.tsx",
+    "src/app/teacher/classes/new/page.tsx",
+    "src/components/PortalShell.tsx",
+    "src/components/learning/InteractiveInfographic.tsx",
+    "src/data/nuclear-learning.json",
+    "src/data/unified-question-bank.json",
+    "src/data/workbook-nuclear-transcriptions.json",
+    "src/lib/local-ai.ts",
+    "src/lib/unified-question-bank.ts",
+    "tests/unified-question-bank.test.ts",
+    "scripts/codex-team/worker2-ui11-infographic-plans-ai-review.json",
+    "src/app/not-found.tsx",
+    "src/components/learning/B25ModelData.tsx"
+  ],
+  "protected_sources_unchanged": true
+}

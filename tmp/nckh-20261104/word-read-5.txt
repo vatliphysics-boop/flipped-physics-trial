@@ -1,0 +1,334 @@
+ tra đạt; build đạt; lint không có lỗi, còn một cảnh báo có sẵn.
+P0127 Không thay thế kiểm thử tài khoản và nghiên cứu trên lớp.
+P0129 Chụp 11 giao diện; đề kiểm tra ở 390 px không tràn ngang sau sửa.
+P0130 Không suy rộng cho mọi thiết bị và công nghệ hỗ trợ.
+P0132 Năm tên/kênh được xác nhận; B22 thử phát; lưu/tải lại bản ghi và kế hoạch đã kiểm tra.
+P0133 Chưa thử phát tất cả video; tải Blob chưa được xác nhận trên trình duyệt kiểm tra.
+P0134 Giao và nộp qua lớp
+P0135 API cơ sở dữ liệu trả PGRST205 ở bảng lộ trình, tiến độ và kế hoạch.
+P0136 Cần hoàn thiện migration/schema và kiểm thử hai vai có tài khoản thật.
+P0139 Chưa có ý kiến chuyên gia độc lập, dữ liệu học sinh hoặc kết quả hiệu quả.
+P0142 4 Thảo luận
+P0145 5 Kết luận
+P0146 Nghiên cứu đã kiến tạo bản mẫu học liệu B21–B25 với kho truy cập theo bài, mô phỏng 3D, hình tương tác, video có nhiệm vụ, bản ghi, đề tự luyện và bàn soạn kế hoạch phân rõ hai vai. Bài báo cung cấp ảnh giao diện và các phép kiểm tra cụ thể thay cho nhận định hiệu quả chung. Sản phẩm đã qua kiểm tra nội bộ và còn cần hoàn thiện vận hành tài khoản, thẩm định độc lập trước triển khai trên lớp. Chưa có cơ sở để báo cáo kết quả thực nghiệm hoặc khẳng định tác động tới học sinh.
+P0158  DIFF  [OLD [12]University → University] of Texas at | Texas at El [OLD Paso, “Flipped → Paso. (n.d.). Flipped] classroom models.” [Online]. | Paso, “Flipped classroom [OLD models.” [Online]. Available: → models.] https://www.utep.edu/technologysupport/_Files/docs/Flipping-the-Class-Models.pdf
+P0000 Nhóm xác nhận thứ tự tác giả, đơn vị và tác giả liên hệ trước khi nộp.
+P0001 Cô/nhóm xác nhận vai trò giảng viên hướng dẫn và điều kiện ghi tên tác giả; không suy từ thuyết minh.
+P0002 Từng tác giả xác nhận có hoặc không có xung đột lợi ích để điền tuyên bố.
+P0003 Nhóm xác nhận nguồn tài trợ và mã đề tài nếu có; chưa điền khi chưa có chứng từ.
+P0004 Nhóm xác nhận tên công cụ AI đã sử dụng và phạm vi hỗ trợ thực tế trước khi nộp.
+
+FILE tmp/report-template/superseded/Bài báó 1 - Khôi.docx
+P0000 Quy trình thiết kế học liệu số tích hợp trí tuệ nhân tạo hỗ trợ năng lực tự học trong dạy học chủ đề “Vật lí hạt nhân” lớp 12 theo mô hình lớp học đảo ngược.
+P0002 TÊN BÀI BẰNG TIẾNG VIỆT
+P0003 (Tên bài tiếng Việt: Font Times New Roman; Đậm; Cỡ chữ 13; cách trên, cách dưới: 0 pt)
+P0004 TÊN BÀI BẰNG TIẾNG ANH
+P0005 (Tên bài tiếng Anh: Font Times New Roman; Không đậm; Cỡ chữ 9.5; cách trên, cách dưới: 0 pt)
+P0007 PGS.TS. Nguyễn Văn A1, 
+P0008 TS. Nguyễn Thị B2, 
+P0009 ThS. Vũ Văn C3,+
+P0011 1Trường Đại học Sư phạm - Đại học Đà Nẵng; 
+P0012 2Trường Đại học Sư phạm Hà Nội 2; 
+P0013 3Trường Đại học Vinh; 
+P0014 +Tác giả liên hệ ● Email: … (và số điện thoại)
+P0023 Keywords (3-5 từ khóa)
+P0024 Keyword 1, keyword 2, keyword 3, keyword 4
+P0026 Từ khóa (3-5 từ khóa)
+P0027 Từ khóa 1, từ khóa 2, từ khóa 3, từ khóa 4
+P0030 (Dịch tương ứng nội dung phần tóm tắt tiếng Việt sang tiếng Anh)
+P0031 Context: …
+P0032 Result: …
+P0033 Discussion: … 
+P0036 Bối cảnh: Trả lời câu hỏi “Tại sao lại tiến hành nghiên cứu này (từ lí luận, từ thực tiễn,…)”. Sử dụng phương pháp nghiên cứu gì?
+P0037 Kết quả: Nghiên cứu này cho thấy/chỉ ra rằng/phát hiện ra rằng…
+P0038 Bàn luận: Nêu ý nghĩa của kết quả nghiên cứu (trong nghiên cứu, thực tiễn, chính sách,…), những đề xuất, hướng nghiên cứu tiếp theo, liên quan,…
+P0041 Gợi ý về cấu trúc: Phần Mở đầu nên ít nhất gồm 03 đoạn. 
+P0042 Đoạn văn thứ nhất đặt vấn đề và bối cảnh nghiên cứu, chẳng hạn có thể theo trình tự: Bắt đầu từ bối cảnh rộng (lĩnh vực, xu hướng, yêu cầu thực tiễn hoặc lý luận); Sau đó thu hẹp dần về vấn đề cụ thể mà bài báo quan tâm; Có thể dẫn chứng bằng nghiên cứu quốc tế, chính sách, hoặc thực tiễn. 
+P0043 Đoạn văn thứ hai, tổng quan nghiên cứu (mục tiêu trả lời cho câu hỏi: Chúng ta đã biết gì về vấn đề này?). Chú ý, không liệt kê Tác giả A (2018) … Tác giả B (2025)… mà nên tập trung theo tiến trình: Cách tiếp cận; kết quả chính. Chẳng hạn “Các nghiên cứu trước đây về … có thể được chia thành ba hướng chính. Hướng thứ nhất tập trung vào … và cho thấy rằng …Hướng thứ hai nhấn mạnh …Gần đây, một số nghiên cứu tiếp cận theo …Từ đó chỉ ra khoảng trống nghiên cứu (chẳng hạn như thiếu nghiên cứu trong bối cảnh/đối tượng cụ thể; chưa kết hợp cách tiếp cận A và B; kết quả còn thiếu nhất quán; thiếu nghiên cứu thực nghiệm/định lượng/định tính).
+P0044 Đoạn văn thứ ba chỉ ra chỉ ra mục tiêu, câu hỏi và đóng góp của nghiên cứu và tiến trình nội dung của bài báo. Chẳng hạn, “Trên cơ sở đó, nghiên cứu này nhằm…/tập trung trả lời các câu hỏi sau:…/kì vọng đóng góp … bằng cách …
+P0045 2. Phương pháp nghiên cứu
+P0046 Gợi ý về cấu trúc: Thiết kế nghiên cứu (định tính, định lượng, hỗn hợp…) cần được mô tả rõ ràng, và vì sao lại chọn cách thiết kế nghiên cứu như vậy. Mẫu nghiên cứu, công cụ thu thập dữ liệu và quy trình thực hiện cần được mô tả đầy đủ và rõ ràng. Các phương pháp phân tích dữ liệu cần phù hợp và được lựa chọn trên cơ sở khoa học. Phần phương pháp có đảm bảo tính tin cậy, giá trị và khả năng tái lập của nghiên cứu. 
+P0048 3.1. Tên tiểu mục (có thể chia tiếp thành các tiểu mục nhỏ hơn, chẳng hạn: 3.1.1., 3.1.2., 3.1.3.)
+P0049 3.2. Tên tiểu mục (có thể chia tiếp thành các tiểu mục nhỏ hơn, chẳng hạn: 3.2.1., 3.2.2., 3.2.3.)
+P0050 3.3. Tên tiểu mục (có thể chia tiếp thành các tiểu mục nhỏ hơn, chẳng hạn: 3.3.1., 3.3.2., 3.3.3.)
+P0053 Sau phần Kết luận và bình luận, tác giả cần kê khai những thông tin liên quan vào bảng dưới đây.
+P0054 Tuyên bố về vai trò của các tác giả: (Áp dụng với bài báo có từ 02 tác giả trở lên. Với bài báo chỉ có duy nhất một tác giả thì nội dung này không cần kê khai)
+P0055 Ví dụ: Nguyễn Văn A: Xây dựng ý tưởng nghiên cứu, Thiết kế phương pháp nghiên cứu. Nguyễn Thị B, Vũ Văn C: Phân tích dữ liệu, Viết bản thảo ban đầu. Nguyễn Văn A: Trực quan hoá dữ liệu, Viết bản thảo ban đầu. Nguyễn Văn A: Giám sát, chỉ đạo quá trình nghiên cứu. Nguyễn Văn A, Vũ Văn C: Chỉnh sửa và phản biện bản thảo. Nguyễn Văn A, Nguyễn Thị B: Thực hiện nghiên cứu và thu thập dữ liệu, Chỉnh sửa và phản biện bản thảo.
+P0056 Chú ý: Chỉ lựa chọn các vai trò như trong hướng dẫn tại đây.
+P0058 Tuyên bố về GenAI và Quyền tác giả: Ví dụ, có thể chọn mẫu câu như sau: 
+P0059 “Trong quá trình chuẩn bị bản thảo này, tác giả (các tác giả) đã sử dụng [tên công cụ, phiên bản] cho [mục đích]. Các tác giả chịu hoàn toàn trách nhiệm…” (nếu sử dụng AI).
+P0060  DIFF (các tác giả) [OLD đã → không] sử dụng [tên | đã sử dụng [OLD [tên → ] công cụ, phiên | dụng [tên công [OLD cụ, phiên bản] cho [mục đích]. Các tác giả chịu hoàn toàn trách nhiệm…” → cụ AI nào”] (nếu sử dụng | trách nhiệm…” (nếu [OLD  → không] sử dụng AI).
+P0062 Tuyên bố về xung đột lợi ích: Ví dụ, có thể chọn một số mẫu câu như sau: 
+P0063 “Các tác giả tuyên bố không có xung đột lợi ích”. 
+P0064 “Tác giả A đã nhận được tài trợ nghiên cứu từ Trường/Viện X. Tác giả B đã nhận được thù lao từ Công ty Y…”
+P0066 Thông tin tài trợ: Ví dụ, có thể chọn một số mẫu câu như sau: 
+P0067 “Nghiên cứu này không nhận được tài trợ từ bên ngoài.” hoặc “Nghiên cứu này được tài trợ bởi [Cơ quan] theo số hiệu tài trợ/mã số:…”.
+P0069 Lời cảm ơn (nếu có): Tác giả (nhóm tác giả) cảm ơn sự tài trợ của … qua đề tài với mã số: …
+P0072 Ví dụ:
+P0073 Calago, M., Urgino, E., Del Campo, W., & Pimentel, J. (2024). Investigating the Effects of Different Distance Learning Modalities on Student Academic Performance in Technology Education Programs. Journal of Contemporary Educational Policies and Practices, 8(3), 274-283. https://doi.org/10.52296/vje.2024.407
+P0074 Lee, M., & Louis, K. S. (2019). Mapping a strong school culture and linking it to sustainable school improvement. Teaching and Teacher Education, 81, 84-96. https://doi.org/10.1016/j.tate.2019.02.001
+P0075 Nguyễn Lăng Bình (chủ biên), Đỗ Hương Trà, Nguyễn Phương Hồng, Cao Thị Thặng (2017). Dạy và học tích cực. NXB Đại học Sư phạm.
+P0076 Phạm Hồng Quang (2015). Các biện pháp tổ chức tự học ở trường phổ thông dân tộc nội trú nhằm nâng cao chất lượng đào tạo. Đề tài Khoa học và Công nghệ cấp Bộ GD-ĐT, mã số: B97-03-15.
+P0077 Pham, H.-H., & Nguyen, L.-C. (2025). Training Research Skills for High School Students in Vietnam: A Case Study. Journal of Contemporary Educational Policies and Practices, 9(1), 1-6. https://doi.org/10.52296/vje.2025.509 
+P0078 Nguyễn Ngọc Bích, Đậu Thị Như Quỳnh, Nguyễn Thanh Huyền, Hồ Ngọc Huyền (2026). Một số yếu tố ảnh hưởng đến năng lực số của sinh viên sư phạm Toán tại các trường đại học. Tạp chí Giáo dục, 26(01), 53-58. https://tcgd.tapchigiaoduc.edu.vn/index.php/tapchi/article/view/4657 
+P0080 Quy định: - Viết tài liệu và trích dẫn tài liệu theo chuẩn APA 7th (có thể tham khảo hướng dẫn về cách trình bày, cách trích dẫn tài liệu tham khảo tại https://guides.library.uq.edu.au/referencing/apa7).
+P0081 - Đối với tài liệu tiếng Việt, tên tác giả được giữ nguyên mà không cần viết tắt như tài liệu tiếng Anh.
+P0082 - Tất cả các tài liệu được trích dẫn phải có trong phần Tài liệu tham khảo và ngược lại.
+P0083 - Tài liệu phải chính xác, tìm được, không ngụy tạo.
+P0084 - Tối thiểu 07 tài liệu, trong đó ít nhất 02 bài báo khoa học xuất bản trong 5 năm gần đây.
+P0085 - Nên tham khảo các bài báo quốc tế, có chỉ số DOI và các bài báo của Tạp chí Giáo dục tại địa chỉ https://tcgd.tapchigiaoduc.edu.vn và trên tạp chí Vietnam Journal of Education (VJE - ISSN: 2588-1477, e-ISSN: 2815-5572 - https://vje.vn).
+P0087 Về quy cách trình bày, thể thức văn bản:
+P0089 Yêu cầu về khổ giấy, số chữ, font chữ,…
+P0090 Lưu ý tác giả gửi bài: 
+P0091 - Tối đa 6.000 chữ, 
+P0092 - Tối thiểu 4.000 chữ
+P0093 - Quy cách trình bày theo quy định (như ở đây).
+P0095 Quy cách trình bày bản thảo:
+P0096 - Khổ A4
+P0097 - Lề trên: 3.5; lề dưới: 3.8
+P0098 - lề trái: 2.5; lề phải: 2.5
+P0099 - Header: 2.5
+P0100 - Footer: 2.5
+P0101 Về font chữ: 
+P0102 - Font: Times New Roman
+P0103 - Cỡ chữ: 10.5pt
+P0104 - Cách dòng: single
+P0105 - Cách trên, cách dưới: 0pt
+P0106 - Thụt vào đầu dòng: 0.5 cm
+P0109 Cài đặt khổ giấy (Page Setup):
+P0114 3.53.82.52.53.53.82.52.5
+P0119 3.5
+P0120 3.8
+P0121 2.5
+P0133 Phông chữ (Font):
+P0136    
+P0141 Căn dòng, đoạn văn (Paragraph):
+
+FILE tmp/report-template/export-qa/worksheet.docx
+P0000 PHIẾU HỌC TẬP BA PHA B23
+P0001 Nhầm phần còn lại và phần đã phân rã
+P0002 Mục tiêu: Xác định phần còn lại và đã phân rã sau các chu kì bán rã.
+P0003 Họ và tên: .................................... Lớp/nhóm: ........................
+P0004 1. Trước giờ học
+P0005 Đọc học liệu được giao, ghi dự đoán và một câu hỏi chưa hiểu. Trả lời trước khi xem mô phỏng.
+P0006 Sản phẩm: Dự đoán ban đầu và câu hỏi mang đến lớp.
+P0007 Câu 1. Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0009 A. 25%
+P0010 B. 50%
+P0011 C. 75%
+P0012 D. 100%
+P0013  DIFF  [OLD ................................................................................................ → ........................................................................................................] 
+P0015 Ghi dự đoán / quan sát / điều cần sửa:
+P0018 2. Trong giờ học
+P0019 Nhóm dùng chung thiết bị, luân phiên người thao tác và người ghi; mỗi học sinh ghi kết luận riêng. Với N₀ = 800, dự đoán N sau 1T, 2T, 3T trước khi chạy mô phỏng. Lập bảng N còn lại và N đã phân rã. Đối chiếu đồ thị với dự đoán rồi sửa lời giải thích ban đầu.
+P0020 Sản phẩm: Phiếu dự đoán → quan sát → giải thích → điều tự sửa; ghi rõ điều kiện mô hình.
+P0021 Câu 2. Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0023 A. 100
+P0024 B. 200
+P0025 C. 400
+P0026 D. 600
+P0032 3. Sau giờ học
+P0033 Làm câu vận dụng, đối chiếu với dự đoán. Viết một điều đã sửa và việc sẽ làm tiếp để kiểm tra cách hiểu.
+P0034 Sản phẩm: Lời giải có giải thích, bản sửa lỗi và bước học tiếp.
+P0035 Câu 3. Giá trị trung bình của ba lượt đếm trong hình là bao nhiêu?
+P0037 A. 18
+P0038 B. 19
+P0039 C. 20
+P0040 D. 22
+P0046 Tự kiểm tra: □ Có dự đoán  □ Có bằng chứng  □ Đã giải thích  □ Ghi điều tự sửa
+
+FILE tmp/report-template/export-qa/exam.docx
+P0000 Đề cuối kỳ trong chủ đề Vật lí hạt nhân
+P0001 Vật lí 12 · Phạm vi B21, B22, B23, B24, B25 · Mã đề 101
+P0002 Thời gian 60 phút · 20 câu · Tổng 10 điểm
+P0003 Họ và tên: ........................................................... Lớp: ................
+P0004 Dữ kiện và hình là mô hình phục vụ câu hỏi. Đề giữa kỳ/cuối kỳ chỉ bao phủ chủ đề hạt nhân đã chọn; giáo viên điều chỉnh theo kế hoạch của lớp.
+P0005 Câu 1. (0,5 điểm) Để dùng sơ đồ này trong câu hỏi, điều kiện nào cần nêu rõ?
+P0007 A. Khả năng đâm xuyên còn phụ thuộc năng lượng bức xạ và vật liệu
+P0008 B. Chỉ màu tia là đủ
+P0009 C. Kích thước tia vẽ bằng kích thước thật
+P0010 D. Sơ đồ cho liều thật
+P0011 Câu 2. (0,5 điểm) Việc một số rất ít hạt alpha bật ngược gợi ý điều gì?
+P0013 A. Điện tích dương phân bố đều
+P0014 B. Nguyên tử là khối đặc
+P0015 C. Electron chứa gần hết khối lượng
+P0016 D. Vùng điện tích dương tập trung trong hạt nhân rất nhỏ
+P0017 Câu 3. (0,5 điểm) Số neutron của hạt nhân II trong hình là bao nhiêu?
+P0021 C. 8
+P0022 D. 14
+P0023 Câu 4. (0,5 điểm) Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0026 B. 75%
+P0027 C. 50%
+P0029 Câu 5. (0,5 điểm) Bộ phận nào biến cơ năng quay thành điện năng?
+P0031 A. Turbine
+P0032 B. Lò phản ứng
+P0033 C. Máy phát điện
+P0034 D. Bộ trao đổi nhiệt
+P0035 Câu 6. (0,5 điểm) Dưới các giả thiết trong hình, cường độ tại 2 r so với tại r gần bằng bao nhiêu?
+P0037 A. 4
+P0038 B. 1/2
+P0039 C. 2
+P0040 D. 1/4
+P0041 Câu 7. (0,5 điểm) Hạt nhân nào có năng lượng liên kết riêng lớn nhất trong hình?
+P0043 A. Cả ba bằng nhau
+P0044 B. Fe-56
+P0045 C. He-4
+P0046 D. U-235
+P0047 Câu 8. (0,5 điểm) Giá trị trung bình của ba lượt đếm trong hình là bao nhiêu?
+P0049 A. 20
+P0050 B. 18
+P0051 C. 19
+P0053 Câu 9. (0,5 điểm) Dựa vào màu chú giải, hai hạt nhân trong hình có quan hệ nào?
+P0055 A. Khác Z và khác N
+P0056 B. Cùng Z, khác N
+P0057 C. Cùng A, khác Z
+P0058 D. Cùng N, khác Z
+P0059 Câu 10. (0,5 điểm) Với nhánh trong hình, số neutron sinh ra cần có để bảo toàn A là bao nhiêu?
+P0061 A. 1
+P0062 B. 3
+P0064 D. 4
+P0065 Câu 11. (0,5 điểm) Khi nào không thể áp dụng trực tiếp tỉ số lí tưởng 1/4 trong hình?
+P0067 A. Nguồn trải rộng hoặc hấp thụ và nền đáng kể
+P0068 B. Giữ cùng nguồn và điều kiện lí tưởng
+P0069 C. Khoảng cách tăng từ r lên 2 r ở mô hình lí tưởng
+P0070 D. Nguồn điểm, bỏ qua hấp thụ và nền
+P0071 Câu 12. (0,5 điểm) Trình tự chuyển hóa năng lượng nào phù hợp sơ đồ?
+P0073 A. Hạt nhân→nhiệt→cơ→điện
+P0074 B. Nhiệt→điện→hạt nhân→cơ
+P0075 C. Cơ→hạt nhân→điện→nhiệt
+P0076 D. Điện→hạt nhân→nhiệt→cơ
+P0077 Câu 13. (0,5 điểm) Trung bình số đếm sau trừ nền mỗi lượt trong hình là bao nhiêu?
+P0079 A. 50
+P0080 B. 46
+P0081 C. 42
+P0082 D. 40
+P0083 Câu 14. (0,5 điểm) Phát biểu nào phù hợp phần minh họa tia gamma?
+P0085 A. Gamma không tương tác với vật chất
+P0086 B. Mọi gamma bị nhôm mỏng chắn hết
+P0087 C. Một tờ giấy chắn hết gamma
+P0088 D. Gamma bị suy giảm qua vật liệu chắn, không xem là bị chắn tuyệt đối
+P0089 Câu 15. (0,5 điểm) Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0091 A. 400
+P0092 B. 100
+P0093 C. 200
+P0095 Câu 16. (0,5 điểm) Sơ đồ đường đi này có cho phép suy chính xác tỉ lệ hạt bật ngược không?
+P0097 A. Có, tỉ lệ là 2/3
+P0098 B. Có, vì vẽ một đường bật ngược
+P0099 C. Không, hình không biểu diễn tần suất đo
+P0100 D. Có, tỉ lệ là 1/3
+P0101 Câu 17. (0,5 điểm) Ba lượt đếm khác nhau ở cùng điều kiện phù hợp với nhận xét nào?
+P0103 A. Phân rã có tính ngẫu nhiên, số đếm có thể dao động
+P0104 B. Số đếm phải bằng nhau tuyệt đối
+P0105 C. Chu kì bán rã đổi ở mỗi lượt
+P0106 D. Máy đếm chắc chắn hỏng
+P0107 Câu 18. (0,5 điểm) Trung bình tốc độ đếm sau trừ nền là bao nhiêu?
+P0109 A. 4,2 số đếm/s
+P0110 B. 0,21 số đếm/s
+P0111 C. 2,1 số đếm/s
+P0112 D. 42 số đếm/s
+P0113 Câu 19. (0,5 điểm) Nhận xét nào đúng về nhánh phản ứng được minh họa?
+P0115 A. Mọi lần phân hạch U-235 đều có hai mảnh như hình
+P0116 B. Số khối mỗi mảnh bằng 235
+P0117 C. Không có năng lượng tỏa ra
+P0118 D. Đây là một nhánh minh họa; phân hạch có thể tạo các mảnh khác
+P0119 Câu 20. (0,5 điểm) Từ dữ kiện hình, năng lượng liên kết tổng của He-4 gần bằng bao nhiêu?
+P0121 A. 28,28MeV
+P0122 B. 7,07MeV
+P0123 C. 1,77MeV
+P0124 D. 56,56MeV
+P0127 Vật lí 12 · Phạm vi B21, B22, B23, B24, B25 · Mã đề 102
+P0131 Câu 1. (0,5 điểm) Trình tự chuyển hóa năng lượng nào phù hợp sơ đồ?
+P0133 A. Điện→hạt nhân→nhiệt→cơ
+P0134 B. Cơ→hạt nhân→điện→nhiệt
+P0135 C. Nhiệt→điện→hạt nhân→cơ
+P0136 D. Hạt nhân→nhiệt→cơ→điện
+P0137 Câu 2. (0,5 điểm) Sơ đồ đường đi này có cho phép suy chính xác tỉ lệ hạt bật ngược không?
+P0139 A. Không, hình không biểu diễn tần suất đo
+P0140 B. Có, tỉ lệ là 1/3
+P0141 C. Có, tỉ lệ là 2/3
+P0142 D. Có, vì vẽ một đường bật ngược
+P0143 Câu 3. (0,5 điểm) Nhận xét nào đúng về nhánh phản ứng được minh họa?
+P0145 A. Không có năng lượng tỏa ra
+P0146 B. Đây là một nhánh minh họa; phân hạch có thể tạo các mảnh khác
+P0147 C. Mọi lần phân hạch U-235 đều có hai mảnh như hình
+P0148 D. Số khối mỗi mảnh bằng 235
+P0149 Câu 4. (0,5 điểm) Với nhánh trong hình, số neutron sinh ra cần có để bảo toàn A là bao nhiêu?
+P0152 B. 1
+P0154 D. 3
+P0155 Câu 5. (0,5 điểm) Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0157 A. 50%
+P0158 B. 25%
+P0159 C. 100%
+P0160 D. 75%
+P0161 Câu 6. (0,5 điểm) Từ dữ kiện hình, năng lượng liên kết tổng của He-4 gần bằng bao nhiêu?
+P0164 B. 56,56MeV
+P0165 C. 7,07MeV
+P0166 D. 1,77MeV
+P0167 Câu 7. (0,5 điểm) Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0169 A. 600
+P0170 B. 400
+P0172 D. 100
+P0173 Câu 8. (0,5 điểm) Trung bình tốc độ đếm sau trừ nền là bao nhiêu?
+P0179 Câu 9. (0,5 điểm) Giá trị trung bình của ba lượt đếm trong hình là bao nhiêu?
+P0181 A. 19
+P0182 B. 20
+P0183 C. 18
+P0185 Câu 10. (0,5 điểm) Khi nào không thể áp dụng trực tiếp tỉ số lí tưởng 1/4 trong hình?
+P0187 A. Nguồn điểm, bỏ qua hấp thụ và nền
+P0188 B. Nguồn trải rộng hoặc hấp thụ và nền đáng kể
+P0190 D. Giữ cùng nguồn và điều kiện lí tưởng
+P0191 Câu 11. (0,5 điểm) Ba lượt đếm khác nhau ở cùng điều kiện phù hợp với nhận xét nào?
+P0193 A. Máy đếm chắc chắn hỏng
+P0194 B. Chu kì bán rã đổi ở mỗi lượt
+P0195 C. Phân rã có tính ngẫu nhiên, số đếm có thể dao động
+P0196 D. Số đếm phải bằng nhau tuyệt đối
+P0197 Câu 12. (0,5 điểm) Bộ phận nào biến cơ năng quay thành điện năng?
+P0199 A. Lò phản ứng
+P0200 B. Bộ trao đổi nhiệt
+P0202 D. Turbine
+P0203 Câu 13. (0,5 điểm) Dựa vào màu chú giải, hai hạt nhân trong hình có quan hệ nào?
+P0205 A. Cùng A, khác Z
+P0207 C. Khác Z và khác N
+P0209 Câu 14. (0,5 điểm) Dưới các giả thiết trong hình, cường độ tại 2 r so với tại r gần bằng bao nhiêu?
+P0211 A. 1/2
+P0212 B. 1/4
+P0213 C. 4
+P0214 D. 2
+P0215 Câu 15. (0,5 điểm) Phát biểu nào phù hợp phần minh họa tia gamma?
+P0217 A. Một tờ giấy chắn hết gamma
+P0219 C. Gamma không tương tác với vật chất
+P0221 Câu 16. (0,5 điểm) Việc một số rất ít hạt alpha bật ngược gợi ý điều gì?
+P0223 A. Nguyên tử là khối đặc
+P0224 B. Electron chứa gần hết khối lượng
+P0225 C. Vùng điện tích dương tập trung trong hạt nhân rất nhỏ
+P0226 D. Điện tích dương phân bố đều
+P0227 Câu 17. (0,5 điểm) Trung bình số đếm sau trừ nền mỗi lượt trong hình là bao nhiêu?
+P0229 A. 40
+P0230 B. 42
+P0231 C. 50
+P0232 D. 46
+P0233 Câu 18. (0,5 điểm) Để dùng sơ đồ này trong câu hỏi, điều kiện nào cần nêu rõ?
+P0235 A. Chỉ màu tia là đủ
+P0236 B. Kích thước tia vẽ bằng kích thước thật
+P0237 C. Sơ đồ cho liều thật
+P0238 D. Khả năng đâm xuyên còn phụ thuộc năng lượng bức xạ và vật liệu
+P0239 Câu 19. (0,5 điểm) Số neutron của hạt nhân II trong hình là bao nhiêu?
+P0242 B. 14
+P0243 C. 12
+P0244 D. 8
+P0245 Câu 20. (0,5 điểm) Hạt nhân nào có năng lượng liên kết riêng lớn nhất trong hình?
+P0247 A. U-235
+P0249 C. Cả ba bằng nhau
+P0250 D. He-4
+
+FILE tmp/report-template/export-qa/upload-sample.docx
+P0000 Đề thử đọc hình
+P0001 Vật lí 12 · Phạm vi B23 · Mã đề 101
+P0002 Thời gian 15 phút · 2 câu · Tổng 2 điểm
+P0005 Câu 1. (1 điểm) Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0007 A. 200
+P0009 C. 100
+P0011 Câu 2. (1 điểm) Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0015 C. 25%
+
+FILE tmp/report-template/export-qa/answers

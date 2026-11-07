@@ -1,0 +1,28 @@
+PART word/document.xml
+P0000 GIAI ĐOẠN 1: TRƯỚC GIỜ HỌC (Tự học tại nhà)
+P0001 Mục tiêu: Giúp học sinh tự khám phá kiến thức nền tảng, hình thành biểu tượng về cấu trúc hạt nhân, hiện tượng phóng xạ và năng lượng hạt nhân.
+P0002 1. Video hoạt hình khoa học ngắn (Animation/Screencast):
+P0003 Nội dung: Giải thích trực quan sự phân rã phóng xạ, chuỗi phản ứng dây chuyền trong lò phản ứng hạt nhân, hoặc quá trình tổng hợp hạt nhân trong Mặt Trời.
+P0004 Công cụ gợi ý: TED-Ed videos, Kurzgesagt (có phụ đề tiếng Việt), hoặc video do giáo viên tự quay màn hình bảng tương tác.
+P0005 2. Mô phỏng tương tác trực tuyến (Interactive Simulations):
+P0006 Nội dung: Học sinh tự tay kéo thả các hạt proton/neutron để tạo hạt nhân, đo chu kỳ bán rã, hoặc cho các nguyên tử Uranium va chạm để quan sát phản ứng phân hạch.
+P0007 Công cụ gợi ý: PhET Interactive Simulations (Các bài mô phỏng như Nuclear Fission, Alpha Decay, Beta Decay).
+P0008 3. Infographic tương tác & Sơ đồ cấu trúc lịch sử:
+P0009 Nội dung: Bảng hệ thống hóa các loại phóng xạ ($\alpha, \beta, \gamma$) kèm theo tính chất, khả năng đâm xuyên dưới dạng đồ họa trực quan, kèm link nhúng để khám phá sâu hơn.
+P0010 Công cụ gợi ý: Canva, Genially.
+P0011 4. Phiếu học tập số & Trắc nghiệm chẩn đoán nhanh:
+P0012 Nội dung: Các câu hỏi kiểm tra mức độ hiểu bài sau khi xem video/mô phỏng, có hệ thống phản hồi tự động (feedback) ngay lập tức giúp học sinh biết mình sai ở đâu.
+P0013 Công cụ gợi ý: Google Forms, Quizizz, Nearpod.
+P0014 5. Video từng bài giảng
+P0016 GIAI ĐOẠN 2: TRONG GIỜ HỌC (Thảo luận, Xử lý dữ liệu & Vận dụng)
+P0017 Mục tiêu: Đào sâu bản chất, xử lý số liệu thực tế, giải quyết các vấn đề thực tiễn (an toàn bức xạ, năng lượng hạt nhân sạch hay nguy hiểm).
+P0018 1. Bộ dữ liệu thí nghiệm thực tế ảo / Xử lý số liệu (Data Analysis):
+P0019 Nội dung: Cung cấp bảng số liệu về số hạt còn lại theo thời gian từ một thí nghiệm mô phỏng. Học sinh làm việc nhóm trên bảng tính (Excel/Google Sheets) để vẽ đồ thị hàm số mũ của định luật phóng xạ và tính chu kỳ bán rã $T$.
+P0020 2. Bản đồ tư duy cộng tác nhóm (Collaborative Mindmap):
+P0021 Nội dung: Thảo luận và tổng hợp các ứng dụng của đồng vị phóng xạ trong y học (chữa bệnh ung thư), nông nghiệp (chiếu xạ bảo quản thực phẩm) và công nghiệp.
+P0022 Công cụ gợi ý: Padlet, Miro, hoặc Google Jamboard.
+P0023 3. Mô hình trò chơi đóng vai / Tình huống giả định (Role-playing / Case Study):
+P0024 Nội dung: Bài tập tình huống: "Chính quyền địa phương đang cân nhắc xây dựng một nhà máy điện hạt nhân. Nhóm của bạn đại diện cho ai (Nhà khoa học, Người dân địa phương, Chuyên gia kinh tế, Nhà môi trường)? Hãy bảo vệ quan điểm của mình bằng các kiến thức về năng lượng liên kết và an toàn hạt nhân."
+P0025 4. Trò chơi ôn tập cạnh tranh (Gamification):
+P0026 Nội dung: Củng cố các công thức tính độ hụt khối, năng lượng liên kết, năng lượng phản ứng hạt nhân ($\Delta E = \Delta m \cdot c^2$) qua trò chơi đồng đội kịch tính.
+P0027 Công cụ gợi ý: Kahoot!, Blooket, hoặc Quizizz dạng Live.

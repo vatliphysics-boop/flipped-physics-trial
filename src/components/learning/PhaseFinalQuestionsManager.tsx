@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
+import { legacyNuclearMath } from "@/lib/legacy-nuclear-math";
+import { RichPhysicsText } from "./RichPhysicsText";
 
 export type FinalQuestion = {
   id: string;
@@ -115,7 +117,7 @@ export function PhaseFinalQuestionsManager({ lessonId, phase, questions }: { les
             <div key={q.id} style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", padding: "16px", border: "1px solid var(--border-light)", borderRadius: "var(--radius-sm)", backgroundColor: "var(--bg-surface)" }}>
               <div style={{ flex: 1, paddingRight: "16px" }}>
                 <strong style={{ display: "block", marginBottom: "8px", color: "var(--text-primary)" }}>Câu {i + 1}</strong>
-                <p style={{ margin: "0 0 8px", fontSize: "14px" }}>{q.question_text}</p>
+                <div style={{ margin: "0 0 8px", fontSize: "14px" }}><RichPhysicsText compact content={legacyNuclearMath(q.question_text)} /></div>
                 <div style={{ fontSize: "13px", color: "var(--text-secondary)" }}>
                   <span style={{ color: "var(--semantic-success)", fontWeight: 500 }}>ĐÁP ÁN:</span> {q.correct_answer}
                 </div>

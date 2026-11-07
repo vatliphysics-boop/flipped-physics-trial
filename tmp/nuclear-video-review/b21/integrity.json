@@ -1,0 +1,38 @@
+[
+  {
+    "seconds": 0,
+    "frames": 64,
+    "maxDifference": "0.21",
+    "damaged": []
+  },
+  {
+    "seconds": 12,
+    "frames": 64,
+    "maxDifference": "0.18",
+    "damaged": []
+  },
+  {
+    "seconds": 24,
+    "frames": 64,
+    "maxDifference": "0.74",
+    "damaged": []
+  },
+  {
+    "seconds": 36,
+    "frames": 64,
+    "maxDifference": "0.76",
+    "damaged": []
+  },
+  {
+    "seconds": 48,
+    "frames": 64,
+    "maxDifference": "0.12",
+    "damaged": []
+  },
+  {
+    "seconds": 60,
+    "frames": 64,
+    "maxDifference": "0.60",
+    "damaged": []
+  }
+]

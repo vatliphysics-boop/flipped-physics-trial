@@ -1,0 +1,6 @@
+PASS: B21 starts on demand, plays and seeks on mobile (72s).
+PASS: B22 starts on demand, plays and seeks on mobile (60s).
+PASS: B23 starts on demand, plays and seeks on mobile (60s).
+PASS: B24 starts on demand, plays and seeks on mobile (60s).
+PASS: B25 starts on demand, plays and seeks on mobile (60s).
+PASS: teacher plays and seeks the generated MP4 in preview (72s).

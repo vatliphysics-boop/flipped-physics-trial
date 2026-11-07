@@ -1,0 +1,15 @@
+Browser tab: 4, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/hoc-lieu/truc-quan?bai=B25".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 158-160
+~				144 pop up button (collapsed, settable) Bài học, Value: B25 · Ôn tập và phân tích số liệu hạt nhân, Secondary Actions: Expand
+~				153 pop up button (collapsed, settable) Cách hỗ trợ, Value: Gợi ý từng bước, Secondary Actions: Expand
+~				170 text Em
++				171 text Hãy hướng dẫn em làm bánh mì tại nhà.
++				172 text AI cục bộ
++				173 text Câu hỏi này chưa có liên hệ rõ với Vật lí hạt nhân B21–B25. Em hãy hỏi giáo viên phụ trách hoặc nêu rõ phần kiến thức hạt nhân em cần hỗ trợ. Thầy/cô có thể giúp em chọn nguồn phù hợp.
++				174 button (collapsed) Đoạn học liệu AI được cung cấp, Secondary Actions: Expand
++					175 text Đoạn học liệu AI được cung cấp
+~				166 text entry area (settable) Câu hỏi của em
+~				167 button Trao đổi mới
+~				168 button (disabled) Gửi
+The focused UI element is 1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/hoc-lieu/truc-quan?bai=B25

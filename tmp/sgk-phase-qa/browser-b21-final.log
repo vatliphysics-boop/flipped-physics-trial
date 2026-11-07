@@ -1,0 +1,5 @@
+START B21
+PASS B21 before-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+PASS B21 in-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+PASS B21 after-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+PASS: class QA only; second student outside the test class cannot access the lessons.

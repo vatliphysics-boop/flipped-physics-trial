@@ -1,0 +1,61 @@
+{
+  "id": "worker2-round5-retest",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T08:59:10.865Z",
+  "status": "TIMED_OUT",
+  "session_ids": [
+    "01a10b49-dfdb-7260-b169-318c7d3f513e"
+  ],
+  "exit_code": null,
+  "allowed_files": [],
+  "timeout_seconds": 1200,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-round5-retest/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn/evidence"
+  },
+  "pid": 32200,
+  "signal": "SIGTERM",
+  "end": "2026-10-05T09:19:13.156Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn",
+  "changed_files": [
+    "scripts/codex-team/run.mjs",
+    "src/data/nuclear-learning.json",
+    "src/lib/visual-learning.ts",
+    "scripts/codex-team/README.md",
+    "scripts/codex-team/worker3-round6-video-review.json",
+    "scripts/codex-team/worker3-round7-video-retest-fix.json"
+  ],
+  "unexpected_changes": [
+    "scripts/codex-team/run.mjs",
+    "src/data/nuclear-learning.json",
+    "src/lib/visual-learning.ts",
+    "scripts/codex-team/README.md",
+    "scripts/codex-team/worker3-round6-video-review.json",
+    "scripts/codex-team/worker3-round7-video-retest-fix.json"
+  ],
+  "protected_sources_unchanged": true
+}

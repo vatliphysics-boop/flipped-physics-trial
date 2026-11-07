@@ -1,0 +1,59 @@
+(node:97459) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/src/lib/rutherford-model.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ compares controlled impacts and exposes finite detector bearing separately (8.628334ms)
+✔ the trajectory conserves energy and angular momentum across the allowed model domain (23.635041ms)
+✔ the time derivative matches Coulomb acceleration and a head-on hit turns back (0.273125ms)
+✔ rejects unsupported settings and clamps valid playback time at both boundaries (0.563958ms)
+(node:97460) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/decay-data.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ decay data preserves the fixed time axis and half-life populations (0.931375ms)
+✔ CSV records current parameters and explicitly identifies model data (0.747209ms)
+(node:97461) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/fission-model.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ The actual particles used by the 3D scene conserve A and Z in the SGK Y/I channel (9.525875ms)
+✔ Timeline shows absorption before deformation, then products, and stops at its end (13.24225ms)
+✔ Qualitative generations compare decreasing, steady and growing chains (1.831209ms)
+✔ Incident-neutron control and shared coordinates give a stationary comparison and moving products (0.539292ms)
+✔ AME2020 channel release is computed from rest masses, not the nominal fission average (0.119959ms)
+(node:97462) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/nuclear-science.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ carbon isotopes keep the same Z but have distinct neutron counts (1.918083ms)
+✔ illustrated fission, fusion and alpha channels conserve total A and charge (1.088375ms)
+✔ the normalized half-life illustration halves the expected parent population (0.079917ms)
+(node:97463) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/nuclear-sequence.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ the lab titles and legacy numbered lesson names resolve to the same five modules (2.323416ms)
+✔ each phase has distinct evidence requirements and the main simulation belongs to its own lesson (7.803416ms)
+✔ legacy assessment presentation renders key formulae without changing marked-up content (1.191166ms)
+(node:97464) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/process-models.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ seeded lifetimes reproduce and half-life scales the same realization (1.132ms)
+✔ each event is counted once, counts conserve initial sample and do not force half at T (4.296209ms)
+✔ invalid decay and observation conditions are rejected (0.324667ms)
+✔ B25 keeps all source points independent of theory and brackets half activity (0.174125ms)
+(node:97465) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/reactor-model.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ reactor comparison shares a starting index and changes trend with schematic rod insertion (0.479542ms)
+✔ heat and water sequence has distinct stages and a bounded end (0.395459ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 430.089167

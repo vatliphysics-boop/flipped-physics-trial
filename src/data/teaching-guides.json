@@ -1,0 +1,255 @@
+{
+  "guides": [
+    {
+      "code": "B21",
+      "title": "Cấu trúc hạt nhân",
+      "goals": [
+        "Giải thích kết luận từ tán xạ α",
+        "Xác định Z, N, A và đồng vị",
+        "Ước lượng kích thước hạt nhân"
+      ],
+      "before": [
+        "Dự đoán đường đi của hạt α trước khi nhấn bắt đầu. Thử ba khoảng cách tới tâm; xoay góc nhìn để đối chiếu.",
+        "Tạo carbon-12 và carbon-14; ghi Z, N, A, điện tích mỗi hạt nhân.",
+        "Tính R của carbon-12, so sánh với uranium-238; viết một câu hỏi mang đến lớp."
+      ],
+      "during": [
+        "Nhóm giải thích vì sao mô hình điện tích dương phân bố đều khó giải thích hạt α bật ngược.",
+        "Lập bảng Z, N, A cho silicon-28, carbon-14 và uranium-238; kiểm tra chéo giữa hai bạn.",
+        "Đọc sơ đồ Rutherford, phân biệt lá kim loại thật với hạt nhân phóng đại trong mô phỏng."
+      ],
+      "after": [
+        "Viết kết luận về cấu trúc nguyên tử bằng hai bằng chứng quan sát.",
+        "Tạo ví dụ hai đồng vị và một cặp hạt nhân không phải đồng vị; giải thích.",
+        "Tự sửa một lỗi nhầm giữa số khối, khối lượng và số neutron."
+      ],
+      "approach": "Khởi động bằng nhận định về nguyên tử, yêu cầu dự đoán đường hạt α. Nhóm thay đổi khoảng cách hạt tới tâm, so sánh góc nhìn và viết lập luận từ kết quả. Chốt Z, N, A rồi dùng các đồng vị carbon để kiểm tra cách hiểu.",
+      "support": "Cung cấp bảng ba cột Z–N–A cho học sinh cần hỗ trợ; nhóm hoàn thành sớm so sánh tỉ số bán kính theo A^(1/3).",
+      "product": "Bảng quan sát Rutherford và bảng Z–N–A của ba đồng vị.",
+      "misconceptions": [
+        [
+          "Đồng vị có cùng số khối A.",
+          "Đồng vị có cùng Z, khác N nên khác A. Hãy so sánh C-12, C-13 và C-14."
+        ],
+        [
+          "Hạt α lệch mạnh vì va vào electron.",
+          "Lập luận Rutherford gắn với vùng điện tích dương và khối lượng tập trung trong hạt nhân nhỏ."
+        ],
+        [
+          "Bán kính hạt nhân tăng gấp đôi nếu A tăng gấp đôi.",
+          "R tỉ lệ A^(1/3), nên tỉ số là 2^(1/3), khoảng 1,26."
+        ]
+      ]
+    },
+    {
+      "code": "B22",
+      "title": "Phản ứng hạt nhân và năng lượng liên kết",
+      "goals": [
+        "Cân bằng A và Z",
+        "Tính độ hụt khối và năng lượng liên kết",
+        "Phân biệt phân hạch và nhiệt hạch"
+      ],
+      "before": [
+        "Quan sát hai nhánh sau phản ứng α + nitrogen-14. Điền A, Z của oxygen và proton.",
+        "So sánh E_lk/A của helium-4, sắt-56 và uranium-235 ở bảng mô phỏng.",
+        "Thử mức năng lượng tới thấp/cao trong nhiệt hạch; ghi giới hạn của mô hình."
+      ],
+      "during": [
+        "Giải Δm = 0,030 u cho hạt nhân A = 4. Tính E_lk và E_lk/A, ghi đúng đơn vị.",
+        "Nhóm so sánh phân hạch và nhiệt hạch theo hạt ban đầu, sản phẩm, điều kiện và năng lượng.",
+        "Điều chỉnh thanh hấp thụ trong mô hình; giải thích điều gì làm số neutron tiếp tục phản ứng thay đổi."
+      ],
+      "after": [
+        "Tự tạo một phương trình còn thiếu một hạt, xác định A và Z của hạt đó.",
+        "Với m_trước − m_sau = 0,010 u, xác định dấu Q và năng lượng tỏa ra.",
+        "Sửa phát biểu ‘năng lượng liên kết càng lớn thì mọi hạt nhân càng bền’ bằng tiêu chí phù hợp."
+      ],
+      "approach": "Nhóm cân bằng A và Z trước khi tìm hạt còn thiếu. Tiếp theo đối chiếu quy ước khối lượng nguyên tử/hạt nhân, tính Δm, E liên kết và E/A. Dùng cảnh phân hạch và D–T để giải thích năng lượng tỏa ra.",
+      "support": "Cho nhóm cần hỗ trợ mẫu bảng tổng A, Z; nhóm nâng cao so sánh Q của phản ứng với năng lượng liên kết của từng hạt nhân.",
+      "product": "Hai phương trình cân bằng, một bài tính có đơn vị và lời giải thích phân hạch/tổng hợp.",
+      "misconceptions": [
+        [
+          "Năng lượng liên kết tổng càng lớn thì luôn càng bền.",
+          "Để so sánh mức liên kết trung bình, xem E liên kết riêng E/A; không so sánh chỉ tổng E."
+        ],
+        [
+          "Tổng khối lượng nghỉ được bảo toàn trong mọi phản ứng.",
+          "Năng lượng toàn phần được bảo toàn; chênh lệch khối lượng nghỉ có thể chuyển thành động năng hoặc bức xạ."
+        ],
+        [
+          "Ví dụ D–T là chuỗi phản ứng chính trong Mặt trời.",
+          "D–T là ví dụ hợp nhất dùng trong bài; chuỗi proton–proton giữ vai trò chính trong Mặt trời."
+        ]
+      ]
+    },
+    {
+      "code": "B23",
+      "title": "Hiện tượng phóng xạ",
+      "goals": [
+        "So sánh α, β, γ",
+        "Đọc định luật phân rã và chu kì bán rã",
+        "Xử lí dữ liệu đếm và tuổi mẫu"
+      ],
+      "before": [
+        "Chạy máy đếm ít nhất ba lần với cùng điều kiện; ghi ba kết quả và nhận xét độ dao động.",
+        "Thử α, β, γ qua các tấm chắn; so sánh mà không suy ra liều thực.",
+        "Với N₀ = 800 và T = 30 s, dự đoán N tại 0, 30, 60, 90 s trước khi mở đồ thị."
+      ],
+      "during": [
+        "Bảng mô hình: t(s) = 0,30,60,90; N = 800,400,200,100. Vẽ N(t); tính λ với cùng đơn vị giây.",
+        "Giải thích vì sao kết quả đếm từng khoảng ngắn dao động dù đường lí thuyết trơn.",
+        "Một mẫu còn 12,5% C-14 ban đầu: tính số chu kì bán rã và tuổi trong giả thiết mẫu kín."
+      ],
+      "after": [
+        "Phân biệt ‘25% đã phân rã’ với ‘còn 25%’; tính thời gian cho trường hợp thứ hai.",
+        "Viết phương trình phân rã α của uranium-238 và β⁻ của carbon-14.",
+        "Ghi một giới hạn của mô hình N(t) và một lỗi đã tự sửa."
+      ],
+      "approach": "Trước lớp học sinh dự đoán N sau 1T, 2T, 3T. Trong lớp quan sát 64 hạt, đối chiếu số kì vọng với đồ thị và lặp số đếm Geiger. Nhóm giải thích sự khác nhau giữa quy luật thống kê và thời điểm phân rã từng hạt.",
+      "support": "Cung cấp bảng N₀, N₀/2, N₀/4 cho nhóm cần hỗ trợ; nhóm nâng cao suy T từ hai điểm và phân biệt H với N.",
+      "product": "Bảng N(t), đường cong, giải thích sự ngẫu nhiên và bản sửa dự đoán.",
+      "misconceptions": [
+        [
+          "Sau một T, tất cả các hạt đều đã phân rã.",
+          "Sau T, kì vọng còn N₀/2 hạt nhân mẹ. Sau 3T vẫn còn N₀/8."
+        ],
+        [
+          "Mỗi giây máy đếm bắt buộc phải ghi nhận một hạt.",
+          "Số đếm ngẫu nhiên có thể bằng 0; so sánh nhiều lượt thay vì suy từ một lượt."
+        ],
+        [
+          "N và H có cùng đơn vị.",
+          "N là số hạt nhân, H = λN có đơn vị Bq; λ có đơn vị s⁻¹ khi T theo giây."
+        ]
+      ]
+    },
+    {
+      "code": "B24",
+      "title": "Công nghiệp hạt nhân",
+      "goals": [
+        "Mô tả chuyển hóa năng lượng",
+        "Phân biệt chẩn đoán và xạ trị",
+        "Đánh giá ứng dụng bằng chứng khoa học"
+      ],
+      "before": [
+        "Theo dõi hai vòng nước trong sơ đồ 3D; ghi nơi truyền nhiệt và nơi phát điện.",
+        "Chọn PET và xạ trị; giải thích hướng đi của tín hiệu và mục đích mỗi chế độ.",
+        "Đọc nguồn IAEA về chiếu xạ thực phẩm; nêu một ứng dụng và một hiểu nhầm thường gặp."
+      ],
+      "during": [
+        "Tạo bản đồ tư duy bốn nhánh: năng lượng, y học, nông nghiệp, công nghiệp; mỗi nhánh có cơ chế, lợi ích và giới hạn.",
+        "Đóng vai nhà khoa học, cư dân, chuyên gia kinh tế hoặc nhà môi trường khi thảo luận nhà máy điện giả định; mỗi ý kiến phải có dẫn chứng.",
+        "Nhóm phản biện một nhận định bằng sơ đồ chuyển hóa năng lượng và nguồn đã đọc; ghi điều chưa có dữ liệu."
+      ],
+      "after": [
+        "Viết đoạn 150–200 từ giải thích một ứng dụng; nêu cơ chế, lợi ích, điều kiện áp dụng và nguồn.",
+        "Phân biệt thực phẩm được chiếu xạ với thực phẩm nhiễm chất phóng xạ.",
+        "Tự đánh giá đóng góp nhóm bằng một sản phẩm cụ thể và một điều cần cải thiện."
+      ],
+      "approach": "Nhóm theo dõi dòng năng lượng qua lò, bộ trao đổi nhiệt, turbine và máy phát. Sau đó chia vai nghiên cứu y học, thực phẩm, công nghiệp; phân biệt mục tiêu, cơ chế, lợi ích và giới hạn. Dùng đóng vai để phản biện dựa trên nguồn.",
+      "support": "Cho nhóm cần hỗ trợ thẻ “nguồn–cơ chế–mục tiêu”; nhóm nâng cao đối chiếu PET với SPECT và xạ trị, ghi nguồn cho từng kết luận.",
+      "product": "Sơ đồ dòng năng lượng và bảng ứng dụng có nguồn, lợi ích, giới hạn.",
+      "misconceptions": [
+        [
+          "Hai vòng nước trong nhà máy phải trộn với nhau để truyền nhiệt.",
+          "Bộ trao đổi nhiệt truyền năng lượng qua bề mặt ngăn cách; hai vòng nước tách biệt trong mô hình."
+        ],
+        [
+          "PET và xạ trị có cùng mục tiêu.",
+          "PET dùng ghi hình từ chất đánh dấu; xạ trị tác động năng lượng lên mô đích để điều trị."
+        ],
+        [
+          "Chiếu xạ đúng quy trình biến thực phẩm thành nguồn phóng xạ.",
+          "Chiếu xạ bảo quản không đồng nghĩa tạo phóng xạ trong thực phẩm; không suy quy trình an toàn từ màu hay hoạt cảnh."
+        ]
+      ]
+    },
+    {
+      "code": "B25",
+      "title": "Ôn tập và phân tích số liệu hạt nhân",
+      "goals": [
+        "Ước lượng T từ dữ liệu",
+        "Giải bài toán năng lượng với đơn vị đúng",
+        "Trình bày lời giải và tự kiểm tra"
+      ],
+      "before": [
+        "Ôn ba công thức A = Z + N, E = Δm c², N = N₀ 2^(−t/T); ghi điều kiện sử dụng.",
+        "Dự đoán T từ H₀ = 151 Bq và hai điểm 30 s, 60 s; chưa nhấn hiện đường khớp.",
+        "Tự làm ba câu chẩn đoán; ghi lí do cho mỗi lựa chọn."
+      ],
+      "during": [
+        "Dùng mô phỏng phân tích để thay đổi T và so sánh đường lí thuyết với bảng SGK; ghi ít nhất ba giá trị T đã thử.",
+        "Luân phiên nhóm A và B trả lời bộ câu hỏi; giải thích sau mỗi lượt, điểm chỉ lưu trong phiên học.",
+        "Mỗi bạn kiểm tra lời giải của bạn khác theo bốn tiêu chí: định luật, đơn vị, tính toán, nhận xét sai số."
+      ],
+      "after": [
+        "Nộp một lời giải hoàn chỉnh cho bài định tuổi hoặc năng lượng phản ứng.",
+        "Đối chiếu kết quả với câu chẩn đoán, ghi lỗi ban đầu và cách sửa.",
+        "Lập kế hoạch ôn lại nội dung chưa hiểu; tải phiếu học tập để lưu hoặc in."
+      ],
+      "approach": "Nhóm phân tích bảng H(t) của SGK, xác định H₀/2 rồi tìm khoảng chứa T. Dùng notebook hoặc bảng tính để so sánh mô hình; yêu cầu ghi dữ liệu nguồn, giả thiết, đơn vị và lí do sai khác. Cuối cùng chọn đề mẫu phù hợp tiến độ.",
+      "support": "Cung cấp trục và mức H₀/2 cho nhóm cần hỗ trợ; nhóm nâng cao ước lượng T từ nhiều cặp điểm rồi so sánh độ nhạy.",
+      "product": "Bảng, đồ thị có đơn vị; khoảng/ước lượng T và giải thích sai số.",
+      "misconceptions": [
+        [
+          "H(30 s) = 85 Bq, nên T = 30 s khi H₀ = 151 Bq.",
+          "Mức bán rã là 75,5 Bq; 85 Bq chưa tới mức đó. Với H(60 s) = 55 Bq, suy ra 30 s < T < 60 s."
+        ],
+        [
+          "Phải chỉnh số liệu để mọi điểm khớp đường mũ.",
+          "Giữ dữ liệu gốc, ghi sai số và cách khớp; không thay dữ liệu để đẹp đồ thị."
+        ],
+        [
+          "Đường mô phỏng mượt chính là kết quả đo mới.",
+          "Đường mô phỏng là giá trị từ mô hình; bảng SGK có nguồn riêng. Báo cáo phải phân biệt hai loại dữ liệu."
+        ]
+      ]
+    }
+  ],
+  "rubric": [
+    {
+      "id": "goal",
+      "title": "Xác định mục tiêu và lập kế hoạch",
+      "evidence": "Mục tiêu, thời lượng dự kiến và học liệu đã chọn.",
+      "levels": [
+        "Chưa nêu mục tiêu cụ thể.",
+        "Nêu mục tiêu nhưng chưa có cách thực hiện.",
+        "Nêu mục tiêu, chọn học liệu và phân chia thời gian.",
+        "Điều chỉnh mục tiêu/kế hoạch có lí do sau khi đối chiếu kết quả."
+      ]
+    },
+    {
+      "id": "monitor",
+      "title": "Theo dõi và kiểm tra cách hiểu",
+      "evidence": "Dự đoán, bảng quan sát, kết quả tự kiểm tra.",
+      "levels": [
+        "Chưa có bản ghi quan sát.",
+        "Có bản ghi nhưng chưa đối chiếu dự đoán.",
+        "Đối chiếu dự đoán với quan sát và chỉ ra sai khác.",
+        "Chủ động lặp/thay đổi điều kiện và kiểm tra lại lập luận."
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Giải thích và sử dụng nguồn",
+      "evidence": "Lời giải có công thức, đơn vị và nguồn.",
+      "levels": [
+        "Nêu kết quả chưa giải thích.",
+        "Có giải thích nhưng thiếu căn cứ hoặc đơn vị.",
+        "Dùng căn cứ vật lí, đơn vị và nguồn phù hợp.",
+        "So sánh nguồn/mô hình, nêu giả thiết và giới hạn kết luận."
+      ]
+    },
+    {
+      "id": "adjust",
+      "title": "Tự đánh giá và điều chỉnh",
+      "evidence": "Bản sửa lỗi và hành động học tiếp.",
+      "levels": [
+        "Chưa xác định điều cần sửa.",
+        "Nêu khó khăn chung chung.",
+        "Chỉ ra lỗi cụ thể và đề xuất hành động sửa.",
+        "Thực hiện sửa, kiểm tra kết quả và ghi bước tiếp theo."
+      ]
+    }
+  ]
+}

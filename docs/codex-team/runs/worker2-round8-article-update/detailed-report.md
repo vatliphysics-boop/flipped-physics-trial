@@ -1,0 +1,15 @@
+# Worker 2 cập nhật bài báo
+
+Đã đọc toàn bộ ba trích xuất và hướng dẫn trong yêu cầu, skill Documents và tasks/create_edit. Chỉ sửa DOCX bài báo; không thao tác web, tài khoản, DB hoặc code. B25 vòng 8 đang chạy tại thời điểm chuẩn bị. Đang sửa có chọn lọc OOXML để giữ nguyên media, bảng, styles, header/footer. Baseline: 248 đoạn, 24 media, 3 bảng XML (gồm 2 bảng nội dung và bảng bố cục). QA/render chưa hoàn tất.
+
+## Hoàn tất
+
+Đã đọc báo cáo B25 vòng 8 sau khi hoàn tất, trước lưu bản cuối. Cập nhật 61/61 trong tóm tắt/kết quả/giới hạn; giữ 58 là lịch sử. Bảng 2 phân biệt PGRST205 cũ với ENOTFOUND hiện tại, không kết luận thiếu bảng. Bổ sung CSV và ba ca tham số, AI giới hạn phạm vi, sửa overlay phát triển, hướng dẫn đáp án trống, tiêu chí/TXT và tên video B24, lịch sử B21, mapping 15/15 và giới hạn pháp lí. Video B21–B24 vòng 7, B25 vòng 8 có ca phát/dừng/tiếp tục đoạn ngắn; không xác lập cùng hash, xem hết hoặc hiểu của người học. Giữ AI phản biện riêng với kỹ thuật và nghiên cứu người thật chưa thực hiện; tổng CHƯA ĐẠT, chưa hai lượt đầy đủ cuối.
+
+Audit ZIP trước/sau: duy nhất word/document.xml thay đổi; danh sách thành phần ZIP nguyên vẹn. 24 media, 3 bảng XML, 248 đoạn; styles/relationships/header/footer/footnotes/endnotes byte-identical. Hai bảng nội dung và bảng bố cục giữ nguyên. Công thức OMML, tác giả, hình và trích dẫn nghiên cứu giữ nguyên; citation chương trình đổi URL sang CSDL Bộ. Hash hai nguồn bất biến khớp yêu cầu; audit.json ghi hash DOCX cuối. Không rebuild từ trích xuất. Backup bổ sung article-before.docx trong TMP.
+
+Actual tests vòng này: đối chiếu hồ sơ và log tests-round7 (61 pass/0 fail), TECHNICAL_VERIFICATION và build chạy lại cuối; kiểm ZIP/hashes; render bằng bundled Python/render_docx.py và bundled LibreOffice; trực tiếp mở view_image original đủ page-1.png đến page-25.png sau sửa cuối. Tổng 25 trang; không trang trắng, clipping, glyph lỗi hoặc caption bị tách khỏi hình. Bảng 1 và 2 tiếp trang có header lặp. Một lần sửa định dạng phần thân abstract để giữ nhãn đậm, bổ sung kết quả B25 rồi render lại; marker chỉ chạy một lần thành công. Renderer mặc định /private/tmp bị chặn; wrapper TMP giữ nguyên renderer và resolver LibreOffice bundled. Không dùng LibreOffice desktop.
+
+QA: qa/BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.pdf và 25 PNG. Đã kiểm đủ trang, không dựng ảnh mới. Không có vấn đề sản phẩm mới được tái hiện trong vòng authoring; không tạo ID/severity giả. Hai vấn đề video W3-VID-01/02 và acceptance nằm trong báo cáo Worker3 vòng8 đã đọc; giới hạn liên quan được giữ trong bài.
+
+Giới hạn: không chạy lại tests/build, không thao tác trình duyệt trong vòng này, không tài khoản thử/giao–nộp/DB, không nghiên cứu GV/HS thật. Bằng chứng web là hồ sơ các lượt trước và B25 vòng8, không dùng đọc code thay thao tác. Hash web tham chiếu b1e5369bc393ec547e4441c6d28eec3baefe570c5ef8c235af40718727c6fec8; không xác nhận hai full review cùng hash. Nguồn ngoài mới không truy cập lại, Curie chỉ metadata theo hồ sơ. Chờ trưởng nhóm kiểm độc lập và tích hợp báo cáo; chỉ DOCX được ghi workspace, mọi script/backup/QA/báo cáo trong TMP.

@@ -1,0 +1,311 @@
+001 
+002 ỦY BAN NHÂN DÂN
+003 THÀNH PHỐ HỒ CHÍ MINH
+004 TRƯỜNG ĐẠI HỌC SÀI GÒN
+005 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+006 Độc lập – Tự do – Hạnh phúc
+007 
+008 Thành phố Hồ Chí Minh, ngày 04 tháng 9 năm 2026
+009  
+010 THUYẾT MINH ĐỀ TÀI NGHIÊN CỨU KHOA HỌC 
+011 CẤP TRƯỜNG CỦA SINH VIÊN
+012 
+013 1. Tên đề tài:
+014 Xây dựng và sử dụng học liệu số có hỗ trợ trí tuệ nhân tạo trong tổ chức dạy học theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học của học sinh qua chủ đề “Vật lí hạt nhân” môn Vật lí lớp 12 ở trường THPT
+015 Mã số đề tài: 
+016 2. Lĩnh vực nghiên cứu:
+017 Khoa học Tự nhiên
+018 ☐
+019 Khoa học Kỹ thuật và Công nghệ
+020 ☐
+021 Khoa học Y, dược
+022 ☐
+023 Khoa học Nông nghiệp
+024 ☐
+025 Khoa học Xã hội
+026 ☒
+027 Khoa học Nhân văn
+028 ☐
+029 Loại đề tài:     ☐ A          ☒ B1          ☐ B2          ☐ C
+030 3. Thời gian thực hiện: 7 tháng (Từ tháng 10/2026 đến tháng 4/2027)
+031 4. Chủ nhiệm đề tài
+032 Họ và tên: Võ Đoàn Đăng Khôi
+033 Chương trình đào tạo: Sư phạm Vật lý
+034 MSSV: 3124020013
+035 Lớp: DLI1241
+036 Khoa: Khoa Sư phạm Khoa học Tự nhiên
+037 Điện thoại di động: 0852282243
+038 Email: Vatliphysics@gmail.com
+039 5. Các thành viên tham gia thực hiện đề tài(cần ghi rõ nhiệm vụ của từng người, kể cả chủ nhiệm đề tài)
+040 STT
+041 Họ và tên
+042 Đơn vị (MSSV, lớp, CTĐT)
+043 Nội dung nghiên cứu cụ thể được giao
+044 Chữ ký
+045 1
+046 Võ Đoàn Đăng Khôi
+047 3124020013, DLI1241
+048 Quản lí chung; Xây dượng thuyết minh đề tài; tổng quan nghiên cứu; xây dựng khung lí luận; thiết kế học liệu và tiến trình dạy học; điều phối thực nghiệm; phân tích dữ liệu; viết báo cáo và bài báo.
+049 
+050 2
+051 Nguyễn Bảo Thy
+052 3125020007, DLI1251
+053 Phân tích chương trình, nội dung chủ đề Vật lí hạt nhân; xây dựng ma trận mục tiêu - nội dung - hoạt động - đánh giá; kiểm chứng tính chính xác khoa học.
+054 
+055 3
+056 Bùi Ngọc Xuân Phương
+057 3125020003, DLI1251
+058 Thiết kế video, mô phỏng, câu hỏi tương tác và học liệu trên LMS; quản lí phiên bản và hồ sơ kiểm duyệt nội dung do AI hỗ trợ tạo.
+059 
+060 6. Mô tả năng lực nghiên cứu chủ nhiệm và các thành viên
+061 Nhóm nghiên cứu gồm sinh viên thuộc ngành Sư phạm Vật lí/Khoa học giáo dục, có kiến thức nền về Vật lí đại cương, Vật lí hạt nhân, lí luận và phương pháp dạy học bộ môn; có khả năng phân tích Chương trình giáo dục phổ thông 2018 và thiết kế hoạt động học theo định hướng phát triển năng lực.
+062 Về công nghệ, nhóm có khả năng sử dụng các công cụ thiết kế bài giảng, xử lí hình ảnh - âm thanh - video, xây dựng câu hỏi trực tuyến, quản lí học liệu trên hệ thống LMS và khai thác công cụ trí tuệ nhân tạo ở mức hỗ trợ. 
+063 Về nghiên cứu, nhóm có khả năng thực hiện tổng quan tài liệu, khảo sát bằng bảng hỏi, xây dựng công cụ đánh giá, tổ chức thực nghiệm sư phạm, xử lí thống kê cơ bản và phân tích dữ liệu định tính. Trong quá trình thực hiện, nhóm làm việc dưới sự hướng dẫn của giảng viên chuyên ngành Lí luận và phương pháp dạy học Vật lí có nhiều kinh nghiệm trong nghiên cứu và dạy học.
+064 7. Cán bộ hướng dẫn sinh viên thực hiện đề tài
+065 Họ và tên
+066 số ĐTDĐ
+067 Khoa
+068 Chữ ký
+069 PGS.TS Nguyễn Thị Nhị
+070 0983564456
+071 Sư phạm KHTN
+072 
+073 
+074 8. Tình hình nghiên cứu liên quan đến đề tài 
+075 8.1. Tình hình nghiên cứu trong nước
+076 Trong những năm gần đây, cùng với việc triển khai Chương trình giáo dục phổ thông 2018, nghiên cứu về đổi mới phương pháp dạy học, chuyển đổi số và phát triển năng lực người học ngày càng được quan tâm ở Việt Nam. Chương trình giáo dục phổ thông môn Vật lí xác định bên cạnh việc hình thành và phát triển năng lực vật lí, quá trình dạy học cần góp phần phát triển các năng lực chung, trong đó có năng lực tự chủ và tự học [1]. Định hướng này tạo cơ sở cho việc nghiên cứu các mô hình dạy học tăng cường vai trò chủ động của học sinh,   đặc biệt là dạy học kết hợp, lớp học đảo ngược và khai thác học liệu số.
+077 Một trong những hướng nghiên cứu được quan tâm là mô hình lớp học đảo ngược (Flipped Classroom). Lê Thị Phượng và Bùi Phương Anh [2] đã phân tích khả năng vận dụng mô hình lớp học đảo ngược nhằm phát triển năng lực tự học của học sinh. Theo mô hình này, một phần nội dung tiếp nhận kiến thức được chuyển ra ngoài lớp học; học sinh chủ động nghiên cứu tài liệu trước, trong khi thời gian trên lớp được ưu tiên cho trao đổi, giải quyết vấn đề, vận dụng kiến thức và nhận phản hồi từ giáo viên. Nghiên cứu đã chỉ ra tiềm năng của mô hình trong việc tăng tính chủ động và trách nhiệm học tập của học sinh. Tuy nhiên, ở giai đoạn đầu, các nghiên cứu chủ yếu tập trung xây dựng cơ sở lí luận và quy trình tổ chức, chưa gắn nhiều với các công nghệ thông minh có khả năng hỗ trợ cá nhân hóa hoạt động tự học.
+078 Ở hướng kết hợp học liệu điện tử với lớp học đảo ngược, Mai Xuân Đào và Phan Đồng Châu Thủy [3] đã xây dựng các nguyên tắc thiết kế, sử dụng học liệu điện tử và công cụ đánh giá năng lực tự học của học sinh THPT. Kết quả thực nghiệm tại các trường THPT ở Tân Uyên, Bình Dương cho thấy việc sử dụng học liệu điện tử theo mô hình lớp học đảo ngược có tính khả thi và có thể hỗ trợ phát triển năng lực tự học. Công trình này có ý nghĩa quan trọng vì đã chuyển từ việc nghiên cứu riêng mô hình lớp học đảo ngược sang thiết kế một hệ thống học liệu phục vụ hoạt động học trước – học trên lớp. Tuy nhiên, đối tượng nghiên cứu thuộc lĩnh vực Hóa học và học liệu được xây dựng theo mô hình học liệu điện tử truyền thống, chưa tích hợp các chức năng của trí tuệ nhân tạo.
+079 Trong dạy học Vật lí, Nguyễn Thị Ngọc Lan và cộng sự [4] nghiên cứu sử dụng mô hình Blended Learning nhằm phát triển năng lực tự học cho học sinh THPT. Nhóm tác giả đã xây dựng hệ thống E-learning phục vụ dạy học Vật lí và tiến hành thực nghiệm với 255 học sinh THPT tại tỉnh Quảng Trị. Kết quả cho thấy mô hình kết hợp giữa học trực tuyến và học trực tiếp có khả năng hỗ trợ hoạt động tự học và góp phần nâng cao chất lượng dạy học Vật lí. Công trình này cung cấp bằng chứng thực nghiệm đáng chú ý về mối quan hệ giữa môi trường học tập số và sự phát triển năng lực tự học trong môn Vật lí; tuy nhiên, mô hình được nghiên cứu là Blended Learning nói chung, chưa tập trung cụ thể vào lớp học đảo ngược và chưa khai thác AI như một công cụ hỗ trợ tự học.
+080 Một số nghiên cứu tiếp tục vận dụng lớp học đảo ngược vào các nội dung Vật lí cụ thể. Nguyễn Thanh Nga và Đoàn Thị Thu Trang [5] đã tổ chức dạy học một số kiến thức thuộc chương “Âm học” theo mô hình lớp học đảo ngược. Kết quả cho thấy mô hình không chỉ hỗ trợ phát triển năng lực khoa học tự nhiên mà còn tạo điều kiện hình thành các năng lực chung như tự chủ và tự học, giải quyết vấn đề, giao tiếp và hợp tác. Điều này cho thấy lớp học đảo ngược phù hợp với đặc trưng của dạy học Vật lí khi học sinh có thể tiếp cận kiến thức cơ bản trước ở nhà để dành thời gian trên lớp cho quan sát, thảo luận, thực hành và giải quyết nhiệm vụ nhận thức.
+081 Đặc biệt gần với hướng nghiên cứu của đề tài là công trình của Mai Hoàng Phương và cộng sự [6] về xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung “Động lượng” – Vật lí 10 theo mô hình lớp học đảo ngược. Các tác giả thiết kế học liệu trên hệ thống Moodle, lấy ý kiến của 22 giáo viên phổ thông và tiến hành thử nghiệm với học sinh lớp 10. Học sinh được nghiên cứu học liệu, trả lời câu hỏi và thực hiện bài kiểm tra trước giờ học; thời gian trên lớp được dành cho tương tác, thảo luận và củng cố kiến thức. Kết quả bước đầu cho thấy sự kết hợp giữa học liệu số và lớp học đảo ngược có khả năng nâng cao tính tự chủ và tự học của học sinh. Đây là công trình có mức độ tương đồng khá cao với đề tài đang đề xuất. Tuy nhiên, nghiên cứu tập trung vào Vật lí 10, chưa đề cập chủ đề Vật lí hạt nhân và chưa tích hợp AI vào học liệu hoặc tiến trình hỗ trợ tự học. Bản thân các tác giả cũng mới ghi nhận kết quả thực nghiệm ở mức bước đầu.
+082 Ở một hướng khác, Lê Thị Cẩm Tú và Lê Thị Thu Hà [7] đề xuất quy trình sử dụng học liệu số trong dạy học Vật lí 10 nhằm phát triển năng lực vận dụng kiến thức, kĩ năng của học sinh. Nghiên cứu khẳng định học liệu số không chỉ là phương tiện truyền tải nội dung mà cần được tổ chức gắn với nhiệm vụ học tập và mục tiêu phát triển năng lực. Tuy nhiên, năng lực được tập trung đánh giá là năng lực vận dụng kiến thức, kĩ năng chứ chưa phải năng lực tự học; đồng thời, nghiên cứu chưa khai thác lớp học đảo ngược và AI.
+083 Các nghiên cứu về trí tuệ nhân tạo trong dạy học Vật lí ở Việt Nam mới phát triển mạnh trong thời gian gần đây. Nguyễn Thị Thu Thủy, Nguyễn Thị Trúc Linh và Hồ Sỹ Chương [8] nghiên cứu các biện pháp kích thích hứng thú học tập Vật lí với sự hỗ trợ của các công cụ AI. Công trình cho thấy AI có thể được khai thác để tạo học liệu, hỗ trợ tương tác, phản hồi và đa dạng hóa hoạt động học tập. Tuy nhiên, hướng nghiên cứu này chủ yếu tập trung vào việc đề xuất các biện pháp sư phạm và hứng thú học tập, chưa nghiên cứu AI như một bộ phận có cấu trúc trong hệ thống học liệu số nhằm hỗ trợ các thành tố của năng lực tự học. Điều này cho thấy nghiên cứu AI trong giáo dục Vật lí ở Việt Nam đang phát triển nhưng còn cần thêm các nghiên cứu thực nghiệm gắn AI với những mô hình dạy học cụ thể.
+084 Đối với riêng Vật lí hạt nhân lớp 12, đây là một nội dung có đặc điểm khác biệt so với nhiều phần kiến thức Vật lí phổ thông khác. Lê Anh Đức, Huỳnh Thị Yến Nhi và Nguyễn Thị Thu Hương [9] nhận định các nội dung về vật lí hạt nhân, phóng xạ và vật lí lượng tử liên quan đến những đối tượng vi mô, có tính trừu tượng cao; đồng thời chương trình hiện hành hạn chế về các thí nghiệm trực tiếp có thể minh họa và kiểm chứng các khái niệm này. Nhóm tác giả đề xuất tích hợp lịch sử vật lí để giúp học sinh tiếp cận kiến thức thuận lợi hơn. Kết quả này gợi ý rằng chủ đề Vật lí hạt nhân đặc biệt phù hợp với việc sử dụng các dạng học liệu số như mô phỏng, hình ảnh động, video, câu hỏi tương tác và các công cụ hỗ trợ giải thích, phản hồi.
+085 Đánh giá chung về tình hình nghiên cứu trong nước: các công trình đã tạo được những cơ sở quan trọng cho đề tài ở bốn phương diện: (i) khẳng định khả năng phát triển năng lực tự học thông qua các môi trường học tập số; (ii) xây dựng và vận dụng mô hình lớp học đảo ngược ở trường phổ thông; (iii) xây dựng học liệu số trong dạy học Vật lí; và (iv) bước đầu khai thác AI trong dạy học Vật lí. Tuy nhiên, trong phạm vi các tài liệu đã khảo sát, chưa thấy một nghiên cứu tích hợp đồng thời học liệu số có hỗ trợ AI, mô hình lớp học đảo ngược, phát triển năng lực tự học và nội dung Vật lí hạt nhân lớp 12 thành một hệ thống dạy học thống nhất. Đặc biệt, còn thiếu các nghiên cứu xác định rõ AI hỗ trợ học sinh ở khâu nào của quá trình tự học, chẳng hạn xác định mục tiêu, lập kế hoạch học tập, tiếp nhận và xử lí thông tin, tự kiểm tra, nhận phản hồi và tự điều chỉnh hoạt động học tập. Đây là khoảng trống mà đề tài có thể tiếp tục nghiên cứu.
+086 8.2. Tình hình nghiên cứu trên thế giới
+087 Trên thế giới, lớp học đảo ngược đã được nghiên cứu khá rộng rãi. Bergmann và Sams [10] là những tác giả có đóng góp quan trọng trong việc phổ biến mô hình này, với đặc trưng cơ bản là chuyển hoạt động tiếp nhận kiến thức ban đầu ra ngoài lớp học và sử dụng thời gian trực tiếp cho các hoạt động học tập tích cực. Các nghiên cứu sau đó cho thấy hiệu quả của lớp học đảo ngược không đơn thuần xuất phát từ việc học sinh “xem video trước ở nhà”, mà phụ thuộc đáng kể vào thiết kế nhiệm vụ trước lớp, cơ chế kiểm tra việc chuẩn bị, hoạt động tương tác và giải quyết vấn đề trên lớp.
+088 Van Alten và cộng sự [11] thực hiện phân tích tổng hợp 114 nghiên cứu so sánh lớp học đảo ngược và lớp học truyền thống. Kết quả cho thấy lớp học đảo ngược tạo ra tác động tích cực, dù ở mức nhỏ, đối với kết quả học tập; hiệu quả có xu hướng cao hơn khi thời gian học trực tiếp không bị cắt giảm và khi thiết kế có các bài kiểm tra ngắn để kiểm soát việc học trước lớp. Nghiên cứu đồng thời không phát hiện tác động rõ ràng lên mức độ hài lòng của người học, cho thấy việc “đảo ngược” lớp học tự thân chưa đảm bảo hiệu quả nếu thiếu thiết kế sư phạm phù hợp.
+089 Ở quy mô lớn hơn, Strelan, Osborn và Palmer [12] tổng hợp 198 nghiên cứu với 33.678 người học và ghi nhận tác động tích cực ở mức trung bình của lớp học đảo ngược đối với kết quả học tập (Hedges' (g=0,50)). Đáng chú ý, 174 nghiên cứu trong mẫu được thực hiện ở giáo dục đại học,   trong khi chỉ có 21 nghiên cứu ở trung học và 3 nghiên cứu ở tiểu học. Các tác giả kết luận rằng một thành tố quan trọng tạo nên hiệu quả của mô hình là cơ hội dành cho học tập tích cực và giải quyết vấn đề có cấu trúc, thay vì chỉ thay thế bài giảng trực tiếp bằng video. Đây cũng là một hạn chế của cơ sở bằng chứng hiện có khi kết quả nghiên cứu ở học sinh phổ thông còn ít hơn đáng kể so với giáo dục đại học.
+090 Riêng đối với giáo dục Vật lí, Tunggyshbay, Balta và Admiraal [13] thực hiện tổng quan hệ thống 30 công trình về lớp học đảo ngược trong dạy học Vật lí. Kết quả cho thấy mô hình được vận dụng với nhiều loại hoạt động trước và trong lớp, đồng thời phần lớn các nghiên cứu ghi nhận ảnh hưởng tích cực đến quá trình học tập. Tuy nhiên, các cách tổ chức và công cụ được sử dụng khá đa dạng, cho thấy hiệu quả phụ thuộc vào thiết kế dạy học và bối cảnh cụ thể.
+091 Một vấn đề đặc biệt quan trọng của lớp học đảo ngược là khả năng tự điều chỉnh việc học. Trong tài liệu quốc tế, khái niệm self-regulated learning (SRL) thường được sử dụng. SRL không hoàn toàn đồng nhất với khái niệm “năng lực tự học” trong Chương trình giáo dục phổ thông Việt Nam, nhưng có nhiều thành tố tương đồng, đặc biệt là xác định mục tiêu, lựa chọn chiến lược, theo dõi tiến độ, tự đánh giá và điều chỉnh hoạt động học tập. Liu, Hew và Du [14] tổng quan 22 nghiên cứu thực nghiệm về hỗ trợ SRL trong lớp học đảo ngược và phát hiện kết quả của các biện pháp hỗ trợ còn không đồng nhất. Trong 22 nghiên cứu được tổng hợp, 19 nghiên cứu thực hiện ở giáo dục đại học, chỉ 2 ở trung học và 1 ở tiểu học. Các tác giả nhấn mạnh muốn phát triển SRL trong lớp học đảo ngược cần kết hợp hướng dẫn với cơ hội thực hành tự điều chỉnh, thay vì mặc nhiên cho rằng việc giao học liệu cho học sinh tự học trước lớp sẽ tự động hình thành năng lực này.
+092 Song song với sự phát triển của lớp học đảo ngược, AI trong giáo dục khoa học đang trở thành một hướng nghiên cứu lớn. Tổng quan hệ thống của Almasri [15] trên 74 nghiên cứu thực nghiệm cho thấy AI đã được sử dụng trong giáo dục khoa học với nhiều chức năng như xây dựng môi trường học tập thích ứng, hỗ trợ đánh giá, tạo câu hỏi, cung cấp phản hồi và dự đoán kết quả học tập. Các kết quả này cho thấy AI có tiềm năng chuyển học liệu số từ dạng tài nguyên tương đối tĩnh sang môi trường có khả năng tương tác và phản hồi theo nhu cầu của người học. Tuy nhiên, hiệu quả của AI phụ thuộc mạnh vào thiết kế sư phạm, đặc điểm người học và cách giáo viên tổ chức sử dụng công nghệ.
+093 Mối quan hệ trực tiếp giữa AI và khả năng tự điều chỉnh việc học cũng đã được nghiên cứu. Banihashem và cộng sự [16] tổng hợp 84 nghiên cứu tại giao điểm giữa AI và SRL. Các ứng dụng phổ biến gồm hệ thống thích ứng và cá nhân hóa, dự đoán và lập hồ sơ người học, hệ thống gia sư thông minh, đánh giá và phản hồi. Tuy nhiên, các nghiên cứu tập trung chủ yếu ở giáo dục đại học, trong khi số nghiên cứu đối với học sinh phổ thông còn hạn chế. Bên cạnh đó, nhiều công trình tập trung mạnh vào các khía cạnh nhận thức và siêu nhận thức, trong khi những yếu tố như động cơ và cảm xúc của quá trình tự điều chỉnh chưa được khảo sát tương xứng.
+094 Sự xuất hiện của AI tạo sinh (Generative AI) mở rộng hơn nữa khả năng hỗ trợ tự học. Xia, Liu, Tlili và Chiu [17], qua tổng quan 73 công trình, xác định sáu nhóm khả năng sư phạm của GenAI đối với SRL, gồm: hỗ trợ cá nhân hóa mục tiêu học tập; tìm kiếm, phân tích và tích hợp tài nguyên; theo dõi và đánh giá tiến độ; đề xuất chiến lược học tập; ghi nhận tiến trình và cung cấp phản hồi; tạo ý tưởng và ví dụ mới. Những chức năng này có sự tương thích cao với tiến trình tự học của học sinh và có thể được tích hợp vào học liệu số ở các giai đoạn trước lớp – trong lớp – sau lớp. Tuy nhiên, tổng quan cũng chỉ ra rằng cơ chế tác động của GenAI đến SRL vẫn chưa hoàn toàn rõ ràng và giáo viên còn gặp khó khăn trong việc tích hợp AI vào thiết kế dạy học một cách có hệ thống.
+095 Đối với Vật lí hạt nhân và hiện tượng phóng xạ, nghiên cứu quốc tế cho thấy học sinh thường gặp nhiều khó khăn về nhận thức. Morales López và Tuzón Marco [18], khảo sát 191 học sinh trung học và 29 giáo sinh Vật lí – Hóa học, phát hiện nhiều quan niệm sai liên quan đến bản chất phóng xạ; ở các trình độ thấp, người học còn có xu hướng đồng nhất phóng xạ với nguy hiểm, sự phá hủy hoặc các sự cố hạt nhân. Điều này cho thấy việc dạy Vật lí hạt nhân không chỉ cần truyền đạt các công thức mà còn cần hỗ trợ hình thành biểu tượng khoa học chính xác và khắc phục các quan niệm sai. Cardoso và cộng sự [19] cũng ghi nhận những hạn chế trong hiểu biết của học sinh phổ thông về mô hình nguyên tử, bức xạ và phóng xạ, cho thấy nhu cầu sử dụng các hình thức trực quan hóa và tương tác để hỗ trợ học sinh tiếp cận các đối tượng, hiện tượng không thể quan sát trực tiếp.
+096 Việc đưa AI vào học liệu dành cho học sinh phổ thông đồng thời đặt ra các yêu cầu về độ chính xác, an toàn và đạo đức sử dụng. UNESCO [20] khuyến nghị việc sử dụng AI tạo sinh trong giáo dục cần theo định hướng lấy con người làm trung tâm, chú ý đến bảo vệ dữ liệu, độ tuổi người học, khả năng tiếp cận công bằng và đặc biệt là sự kiểm chứng của con người đối với nội dung do AI tạo ra. Vì vậy, trong dạy học Vật lí hạt nhân, AI không nên được sử dụng như nguồn tri thức tự động thay thế giáo viên hoặc sách giáo khoa mà cần được thiết kế như công cụ hỗ trợ có kiểm soát: gợi ý, đặt câu hỏi, cung cấp phản hồi, hỗ trợ tự đánh giá hoặc đề xuất cách tiếp cận; các nội dung khoa học cốt lõi phải được giáo viên kiểm chứng trước khi đưa vào học liệu.
+097 Đánh giá chung và xác định khoảng trống nghiên cứu: kết quả nghiên cứu quốc tế cho thấy ba nền tảng của đề tài đều có cơ sở khoa học: lớp học đảo ngược có khả năng cải thiện kết quả học tập khi được thiết kế phù hợp; hoạt động tự điều chỉnh/tự học là điều kiện quan trọng đối với thành công của lớp học đảo ngược; AI có tiềm năng hỗ trợ cá nhân hóa, phản hồi và quá trình tự điều chỉnh học tập. Đồng thời, nghiên cứu về Vật lí hạt nhân cho thấy đây là lĩnh vực có nhiều khái niệm trừu tượng và dễ xuất hiện quan niệm sai. Tuy nhiên, các hướng nghiên cứu hiện nay phần lớn mới xem xét từng mối quan hệ riêng lẻ, như lớp học đảo ngược với kết quả học tập, lớp học đảo ngược với SRL, AI với SRL hoặc những khó khăn trong học Vật lí hạt nhân. Số nghiên cứu tích hợp AI, học liệu số, lớp học đảo ngược, tự học, Vật lí hạt nhân ở bậc THPT còn rất hạn chế trong phạm vi nguồn tài liệu khảo sát.
+098 Từ đó, đề tài “Xây dựng và sử dụng học liệu số có hỗ trợ trí tuệ nhân tạo trong tổ chức dạy học theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học của học sinh qua chủ đề ‘Vật lí hạt nhân’ môn Vật lí lớp 12 ở trường THPT” có cơ sở khoa học và có khoảng trống nghiên cứu tương đối rõ. Điểm cần tập trung của đề tài không phải chỉ là “sử dụng AI” như một yếu tố công nghệ mới, mà là thiết kế có chủ đích hệ thống học liệu và tiến trình dạy học, trong đó mỗi chức năng của AI phải gắn với một hoạt động tự học cụ thể của học sinh. Theo đó, học liệu có thể hỗ trợ học sinh xác định mục tiêu và nhiệm vụ trước giờ học, tiếp cận nội dung đa phương tiện, trả lời câu hỏi định hướng, nhận phản hồi tức thời, tự kiểm tra mức độ hiểu bài và điều chỉnh việc học; còn thời gian trên lớp được dành cho giải quyết vấn đề, xử lí các quan niệm sai, thảo luận và vận dụng kiến thức. Hiệu quả của hệ thống cần được đánh giá không chỉ thông qua kết quả học tập mà đặc biệt thông qua các biểu hiện và thành tố của năng lực tự học trước và sau quá trình tác động.
+099 8.3. Danh mục tài liệu tham khảo
+100 [1] Bộ Giáo dục và Đào tạo, Chương trình giáo dục phổ thông môn Vật lí, ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT ngày 26 tháng 12 năm 2018, Hà Nội, 2018.
+101 [2] L. T. Phượng and B. P. Anh, “Dạy học theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học cho học sinh,” Tạp chí Quản lý Giáo dục, no. 10, pp. 1–8, 2017.
+102 [3] M. X. Đào and P. Đ. C. Thủy, “Xây dựng và sử dụng học liệu điện tử theo mô hình lớp học đảo ngược nhằm phát triển năng lực tự học cho học sinh THPT ở Tân Uyên, tỉnh Bình Dương,” Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh,   vol. 17, no. 8, pp. 1421–1429, 2020, doi: 10.54607/hcmue.js.17.8.2825(2020).
+103 [4] N. T. L. Nguyen, H. T. T. Le, N. T. Nguyễn, và T. M. Dang, "Sử dụng mô hình học tập kết hợp để nâng cao năng lực tự học môn Vật lý cho học sinh trung học,"  Vietnam Journal of Education, tập 4, số 1, trang 53–60, 2020, doi: 10.52296/vje.2020.8.
+104 [5] T. N. Nguyễn and T. T. T. Đoàn, “Tổ chức dạy học một số kiến thức chương ‘Âm học’ – Vật lí 7 theo mô hình lớp học đảo ngược nhằm phát triển năng lực khoa học tự nhiên của học sinh,” Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh,   vol. 20, no. 1, pp. 110–122, 2023, doi: 10.54607/hcmue.js.20.1.3156(2023).
+105 [6] M. H. Phương, H. V. Tài, P. T. Thúy, P. T. P. Uyên, and N. T. M. Duyên, “Xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung Động lượng – Vật lí 10 theo mô hình lớp học đảo ngược,” TNU Journal of Science and Technology, vol. 229, no. 01/S,   pp. 197–206, 2024, doi: 10.34238/tnu-jst.9209.
+106 [7] L. T. C. Tú and L. T. T. Hà, “Sử dụng học liệu số hỗ trợ dạy học Vật lí 10 theo hướng phát triển năng lực vận dụng kiến thức, kĩ năng đã học cho học sinh,” Tạp chí Giáo dục, vol. 24, no. 4, pp. 7–12, 2024.
+107 [8] N. T. T. Thủy, N. T. T. Linh, and H. S. Chương, “Một số biện pháp kích thích hứng thú học tập cho học sinh trong dạy học Vật lí với sự hỗ trợ của các công cụ trí tuệ nhân tạo,” Tạp chí Khoa học Trường Đại học Đồng Nai, vol. 211, no. 02,   pp. 1–15, 2026.
+108 [9] A. D. Le, T. Y. N. Huynh, và T. T. H. Nguyễn, "Tích hợp lịch sử vật lý nguyên tử và hạt nhân vào giảng dạy," Tạp chí Khoa học Đại học Giáo dục Thành phố Hồ Chí Minh, tập 23, số. SI1, trang 537–547, 2026, doi: 10.54607/hcmue.js.23.SI1.5418(2026).
+109 [10] J. Bergmann và A. Sams, Flip Your Classroom: Tiếp cận mọi học sinh trong mọi lớp mỗi ngày. Eugene, OR, Hoa Kỳ: Hiệp hội Quốc tế về Công nghệ trong Giáo dục, 2012.
+110 [11] D. C. D. VAN Alten, C. Phielix, J. Janssen, và L. Kester, "Ảnh hưởng của việc đảo ngược lớp học đến kết quả học tập và sự hài lòng: Phân tích tổng hợp," Educational Research Review, tập 28, Mục. số 100281, 2019, doi: 10.1016/j.edurev.2019.05.003.
+111 [12] P. Strelan, A. Osborn, và E. Palmer, "Lớp học đảo ngược: Phân tích tổng hợp ảnh hưởng đến hiệu suất học sinh giữa các ngành học và cấp độ giáo dục," Educational Research Review, tập 30, Bài. Số 100314, 2020, DOI: 10.1016/J.Edurev.2020.100314.
+112 [13] M. Tunggyshbay, N. Balta, và W. Admiraal, "Chiến lược lớp học đảo ngược và phương pháp giảng dạy sáng tạo trong giáo dục vật lý: Một tổng quan hệ thống," Eurasia Journal of Mathematics, Science and Technology Education, tập 19, số 6, Điều số. EM2283, 2023, DOI: 10.29333/EJMSTE/13258.
+113 [14] L. Liu, K. F. Hew, và J. Du, "Nguyên tắc thiết kế hỗ trợ học tập tự điều chỉnh trong lớp học đảo ngược: Tổng quan hệ thống," Tạp chí Nghiên cứu Giáo dục Quốc tế, tập 124, Mục. số 102319, 2024, doi: 10.1016/j.ijer.2024.102319.
+114 [15] F. Almasri, "Khám phá tác động của trí tuệ nhân tạo trong giảng dạy và học tập khoa học: Tổng quan hệ thống nghiên cứu thực nghiệm," Research in Science Education, tập 54, trang 977–997, 2024, doi: 10.1007/s11165-024-10176-3.
+115 [16] S. K. Banihashem, M. Bond, N. Bergdahl, H. Khosravi, và O. Noroozi, "Đánh giá bản đồ hệ thống tại giao điểm giữa trí tuệ nhân tạo và học tập tự điều chỉnh," Tạp chí Công nghệ Giáo dục Quốc tế trong Giáo dục Đại học, tập 22, Điều số 50, 2025, doi: 10.1186/s41239-025-00548-8.
+116 [17] Q. Xia, Q. Liu, A. Tlili, và T. K. F. Chiu, "Tổng quan tài liệu hệ thống về thiết kế học tập tự điều chỉnh sử dụng trí tuệ nhân tạo sinh và các hướng nghiên cứu tương lai của nó," Computers & Education, tập 240, Điều số 105465, 2026, doi: 10.1016/j.compedu.2025.105465.
+117 [18] A. I. Morales López và P. Tuzón Marco, "Những hiểu lầm, kiến thức và thái độ đối với hiện tượng phóng xạ," Science & Education, tập 31, trang 405–426, 2022, doi: 10.1007/s11191-021-00251-w.
+118 [19] P. S. S. Cardoso, M. C. S. Nunes, G. P. S. Silva, L. S. Braghittoni, và N. M. Trindade, "Quan niệm về học sinh trung học về mô hình nguyên tử, bức xạ và phóng xạ," Physics Education, tập 55, số 3, Điều số 035030, 2020.
+119 [20] F. Miao và W. Holmes, Hướng dẫn về AI Sinh tạo trong Giáo dục và Nghiên cứu. Paris, Pháp: UNESCO, 2023.
+120 9. Tính cấp thiết của đề tài 
+121 Chủ đề Vật lí hạt nhân lớp 12 chứa nhiều đối tượng vi mô, quá trình không thể quan sát trực tiếp và khái niệm định lượng trừu tượng như độ hụt khối, năng lượng liên kết, phóng xạ, phản ứng hạt nhân và an toàn bức xạ. Nếu chủ yếu giảng giải trên lớp, học sinh dễ học công thức rời rạc, thiếu thời gian xử lí dữ liệu, giải quyết vấn đề và liên hệ ứng dụng. Học liệu số có video ngắn, mô phỏng, câu hỏi tương tác và phản hồi tức thời có thể giúp học sinh chuẩn bị kiến thức nền trước giờ học, từ đó dành thời gian trên lớp cho hoạt động nhận thức bậc cao.
+122 Mô hình lớp học đảo ngược có bằng chứng tích cực đối với kết quả học tập và khả năng học tập tự chủ, nhưng hiệu quả phụ thuộc mạnh vào chất lượng nhiệm vụ trước lớp, cơ chế kiểm tra sự chuẩn bị, hỗ trợ tự điều chỉnh và hoạt động tích cực trong lớp [8]-[11]. Do đó, đề tài không chỉ tạo video mà xây dựng một hệ thống học liệu gắn với mục tiêu, nhiệm vụ, phản hồi, nhật kí học tập và dữ liệu tiến độ.
+123 AI có thể hỗ trợ tạo phiên bản câu hỏi, gợi ý từng bước, điều chỉnh ngôn ngữ, tạo phụ đề, tổng hợp lỗi thường gặp và cung cấp phản hồi sơ bộ. Tuy nhiên, AI cũng có thể tạo nội dung sai, thiên lệch hoặc làm học sinh phụ thuộc. Vì vậy, cần một mô hình “AI hỗ trợ - giáo viên kiểm duyệt - học sinh chịu trách nhiệm”, trong đó AI không thay thế việc suy luận, không tự động quyết định điểm chính thức và không tiếp nhận dữ liệu cá nhân nhạy cảm [3], [4], [13], [14].
+124 Đóng góp dự kiến của đề tài gồm: 
+125 (1) Quy trình thiết kế học liệu số và bộ học liệu số xây dựng theo Chương trình giáo dục phổ thông 2018; 
+126 (2) Hướng dẫn sử dụng AI tạo sinh để tạo học liệu số sử dụng trong dạy học ở trường THPT; 
+127 (3) 3 kế hoạch dạy học nội dung chương “Vật lý hạt nhân” theo tiến trình lớp học đảo ngược ba giai đoạn vơis sự hỗ trợ của học liệu số đã xây dựng; 
+128 (4) bộ công cụ đánh giá năng lực tự học trong dạy học theo mô hình lớp học đảo ngược với học liệu số; 
+129 (5)kết quả thử nghiệm tại một trường THPT.
+130 10. Mục tiêu đề tài 
+131 Mục tiêu chung
+132 Xây dựng và sử dụng bộ học liệu số được thiết kế với sự hỗ trợ của AI tạo sinh theo mô hình lớp học đảo ngược, nhằm phát triển năng lực tự học của học sinh trong dạy học chủ đề Vật lí hạt nhân lớp 12.
+133 Mục tiêu cụ thể
+134 – Hệ thống hóa cơ sở lí luận và thực tiễn về học liệu số, AI tạo sinh trong giáo dục, lớp học đảo ngược và năng lực tự học;
+135 – Nghiên cứu Chương trình giáo dục phổ thông 2018, Xây dựng ma trận mục tiêu - nội dung - hoạt động - đánh giá cho chủ đề Vật lí hạt nhân; xác định các biểu hiện năng lực tự học có thể quan sát và đo lường trong ba giai đoạn trước - trong - sau giờ học.
+136 – Đề xuất quy trình xây dựng học liệu số với sự hỗ trợ của AI và vận dụng thiết kế bộ học liệu số trong dạy học chủ đề “Vật lý hạt nhân” Vật lý lớp 12 với sự hỗ trợ của AI; 
+137 – Tổ chức bán thực nghiệm tại 01 trường với 02 lớp; đánh giá tác động bước đầu đến năng lực tự học của học sinh.
+138 Giả thuyết khoa học
+139 Nếu đề xuất được quy trình thiết kế bộ học liệu số với sự hỗ trợ của AI và vận dụng vào thiết kế bộ học liệu số trong dạy học chủ đề “Vật lý hạt nhân” đồng thời sử dụng theo tiến trình lớp học đảo ngược thì có thể phát triển năng lực tự học của học sinh.
+140 11. Đối tượng và phạm vi nghiên cứu 
+141 Đối tượng nghiên cứu
+142 Quá trình tổ chức dạy học chủ đề Vật lí hạt nhân lớp 12 bằng học liệu số có hỗ trợ AI theo mô hình lớp học đảo ngược; sự phát triển năng lực tự học của học sinh trong quá trình đó.
+143 Khách thể nghiên cứu
+144 Học sinh lớp 12 và giáo viên Vật lí tại trường THPT được lựa chọn để khảo sát, và thực nghiệm sư phạm.
+145 Phạm vi nội dung
+146 Các nội dung cốt lõi của chủ đề Vật lí hạt nhân trong Chương trình môn Vật lí lớp 12: cấu trúc hạt nhân; độ hụt khối và năng lượng liên kết; phản ứng hạt nhân; hiện tượng phóng xạ; ứng dụng, công nghiệp hạt nhân và an toàn phóng xạ. 
+147 Phạm vi thực nghiệm
+148 Tại một số trường THPT ở Thành phố Hồ Chí Minh.
+149 Giới hạn vai trò của AI
+150 AI chỉ hỗ trợ thiết kế hoặc cung cấp gợi ý, phản hồi sơ bộ, phân hóa câu hỏi và tổng hợp lỗi; giáo viên chịu trách nhiệm kiểm duyệt nội dung, quyết định hoạt động dạy học và đánh giá chính thức. Không nhập dữ liệu nhận dạng, hồ sơ cá nhân hoặc thông tin nhạy cảm của học sinh vào công cụ AI công cộng.
+151 12. Phương pháp nghiên cứu 
+152 12.1. Cách tiếp cận nghiên cứu
+153 Đề tài sử dụng phương pháp nghiên cứu hỗn hợp, trong đó định lượng giữ vai trò chính và định tính dùng để giải thích kết quả. 
+154 12.2. Nghiên cứu lí luận và phân tích nội dung
+155 Thu thập, phân tích và hệ thống hóa văn bản chương trình, tài liệu khoa học trong và ngoài nước về năng lực tự học, lớp học đảo ngược, học liệu số, AI trong giáo dục và phương pháp dạy học Vật lí. Phân tích yêu cầu cần đạt, cấu trúc kiến thức, khó khăn nhận thức và cơ hội sử dụng mô phỏng, dữ liệu, bài toán thực tiễn trong chủ đề Vật lí hạt nhân.
+156 12.3. Điều tra, khảo sát thực trạng
+157 Khảo sát giáo viên và học sinh về mức độ sử dụng học liệu số, thói quen tự học, điều kiện thiết bị - Internet, khó khăn khi học Vật lí hạt nhân và thái độ đối với AI. Dữ liệu được thu bằng bảng hỏi trực tuyến/kết hợp giấy, phỏng vấn bán cấu trúc và phân tích một số sản phẩm học tập. Mẫu khảo sát dự kiến gồm 20-30 giáo viên Vật lí và 150-250 học sinh lớp 12 ở các trường có điều kiện khác nhau.
+158 12.4. Thực nghiệm sư phạm
+159 Thiết kế bán thực nghiệm tiền kiểm - hậu kiểm có nhóm đối chứng. Hai lớp thực nghiệm học theo bộ học liệu số và tiến trình lớp học đảo ngược; hai lớp đối chứng học theo kế hoạch thông thường nhưng cùng yêu cầu cần đạt và thời lượng. Ưu tiên cùng một giáo viên hoặc giáo viên có kinh nghiệm tương đương; sử dụng chung ma trận kiểm tra. Can thiệp dự kiến kéo dài 6-8 tuần tương ứng toàn bộ chủ đề Vật lí hạt nhân.
+160 12.5. Xử lí và phân tích dữ liệu
+161 Sử dụng thống kê mô tả, kiểm tra độ tin cậy, … bằng phần mềm SPSS.
+162 12.6. Đạo đức nghiên cứu và bảo vệ dữ liệu
+163 Thông báo rõ mục đích, quyền rút lui và cách sử dụng dữ liệu. Dữ liệu được mã hóa bằng mã số, giới hạn người truy cập, lưu trữ trong thời gian xác định và công bố ở dạng tổng hợp. Không đưa họ tên, số điện thoại, địa chỉ, hình ảnh nhận dạng hoặc hồ sơ cá nhân của học sinh vào hệ thống AI công cộng; mọi nội dung và phản hồi AI đều có cơ chế báo lỗi và giáo viên kiểm tra [3], [4], [14].
+164 13. Nội dung nghiên cứu và tiến độ thực hiện
+165 13.1. Nội dung nghiên cứu (nêu rõ từng nội dung gắn với các mục tiêu cụ thể)
+166 Nội dung 1. Nghiên cứu cơ sở lí luận và thực tiễn về học liệu số có hỗ trợ AI, lớp học đảo ngược và năng lực tự học của học sinh trong dạy học Vật lý ở trường THPT
+167 Nội dung 2. Xây dựng và sử dụng bộ học liệu số có sự hỗ trợ của AI trong dạy học chủ đề “Vật lý hạt nhân” Vật lý lớp 12 ở trường THPT
+168 Nội dung 3. Thực nghiệm sư phạm; thu thập dữ liệu trước, trong và sau can thiệp; phân tích hiệu quả và các yếu tố ảnh hưởng.
+169 Nội dung 4. Hoàn thiện sản phẩm, viết bài báo, báo cáo tổng kết, hướng dẫn sử dụng và đề xuất khả năng chuyển giao.
+170 13.2. Tiến độ thực hiện
+171 STT
+172 Công việc chủ yếu
+173 Thời gian
+174 (bắt đầu-kết thúc)
+175 Người thực hiện
+176 Sản phẩm dự kiến
+177 1
+178 Hoàn thiện thuyết minh, đề cương; tổng quan tài liệu; xây dựng khung lí luận và câu hỏi nghiên cứu.
+179 10/2026
+180 Khôi, Thy và 
+181 Phương
+182 Thuyết minh đề tài; đề cương nghiên cứu; Cơ sở lý luận
+183 2
+184 Khảo sát thực trạng; phân tích chương trình, nội dung và khó khăn học tập chủ đề Vật lí hạt nhân.
+185 10/2026
+186 Khôi, Thy và 
+187 Phương
+188 Bảng hỏi; kết quả khảo sát; Kết quả phân tích nội dung chủ đề Vật lý hạt nhân
+189 3
+190 Đề xuất quy trình thiết kế học liệu số với sự hỗ trợ của AI
+191 10/2026-
+192 11/2026
+193 Khôi, Thy và 
+194 Phương
+195 Quy trình thiết kế học liêụ số
+196 4
+197 Thiết kế bộ học liệu số
+198 11/2026-
+199 12/2027
+200 Khôi, Thy và 
+201 Phương
+202 Bộ học liệu số
+203 5
+204 Thiết kế kế hoạch dạy học các nội dung chủ đề “Vật lý hạt nhân” theo mô hình lớp học đảo ngược với sự hỗ trợ của bộ học liệu số đã xây dựng
+205 12/2027-
+206 01/2027
+207 Khôi, Thy và 
+208 Phương
+209 Các kế hoạch dạy học
+210 6
+211 Thực nghiệm sư phạm
+212 01/2027-
+213 02/2027
+214 Khôi, Thy và 
+215 Phương
+216 Kết quả thực nghiệm
+217 7
+218 Viết bài báo và báo cáo tổng kết; hoàn thiện  học liệu, hướng dẫn; hoàn thiện hồ sơ nghiệm  thu
+219 03/2027-
+220 04/2027
+221 Chủ nhiệm và 
+222 toàn nhóm
+223 Bài báo
+224 Báo cáo tổng kết đề tài
+225 
+226 14. Sản phẩm khoa học và công nghệ của đề tài (Không kể Báo cáo tổng kết)
+227 STT
+228 Chủng loại
+229 sản phẩm
+230 Yêu cầu về chất lượng cần đạt của sản phẩm
+231 Số lượng
+232 (đơn vị)
+233 1
+234 Bài báo khoa học
+235       Bài báo có nội dung liên quan trực tiếp đến đề tài; được chấp nhận đăng hoặc đã đăng tại tạp chí khoa học đáp ứng điều kiện nghiệm thu đề tài theo quy định hiện hành của Trường.
+236 01 bài
+237 2
+238 Bộ học liệu số chủ đề Vật lí hạt nhân
+239       Đảm bảo về mặt khoa học, phù hợp với chương trình GDPT 2018
+240 01 bộ
+241 
+242 15. Khả năng ứng dụng và phát triển của đề tài
+243 Sản phẩm có thể áp dụng trực tiếp trong dạy học chủ đề Vật lí hạt nhân lớp 12 tại các trường THPT có hệ thống LMS hoặc sử dụng các nền tảng học tập phổ biến. 
+244 Quy trình thiết kế học liệu số có thể chuyển giao cho giáo viên Vật lí thông qua sinh hoạt chuyên môn, tập huấn hoặc cộng đồng học tập; có thể mở rộng sang các chủ đề khác như Vật lí lượng tử, điện từ trường, dao động - sóng. 
+245 Đối với Trường Đại học Sài Gòn, đề tài có thể tạo học liệu minh họa cho đào tạo sinh viên sư phạm Vật lý, thực hành thiết kế học liệu số và nghiên cứu phương pháp dạy học Vật lí. 
+246 
+247 6. Kinh phí thực hiện đề tài NCKH của sinh viên
+248 Tổng kinh phí: 12.000.000 đồngTrong đó: Ngân sách Nhà nước: 12.000.000 đồng; Các nguồn kinh phí khác: 0 đồngDự trù kinh phí theo các mục chi (dự kiến, điều chỉnh theo định mức và quy định tài chính của Trường Đại học Sài Gòn).Đơn vị tính: đồngSố tiền bằng chữ: Mười hai triệu đồng.
+249 
+250 TT
+251 Nội dung chi
+252 Kinh phí
+253 1
+254 Chi tiền công thực hiện đề tài
+255 12.000.000
+256 
+257 Thù lao chủ nhiệm đề tài, quản lí chung
+258 2.500.000
+259 
+260 xây dựng đề cương, ma trận và công cụ
+261 1.500.000
+262 
+263 Thu thập thông tin, điều tra, khảo sát hoặc thực nghiệm 
+264 2.000.000
+265 
+266 Viết nội dung 
+267 2.000.000
+268 
+269 Viết và phí xuất bản bài báo khoa học
+270 4.000.000
+271 2
+272 Chi phí khác: 
+273 0
+274 
+275 
+276 
+277 Tổng số
+278 12.000.000
+279 
+280                               
+281                                                                                         Ngày 04 tháng 9 năm 2026
+282 
+283 Xác nhận của Khoa
+284 (Ký và ghi rõ họ tên)
+285 Cán bộ hướng dẫn
+286 (Ký và ghi rõ họ tên)
+287 Chủ nhiệm đề tài
+288 (Ký và ghi rõ họ tên)
+289 
+290 
+291 
+292 
+293 
+294 
+295 
+296 
+297 
+298 
+299 
+300 
+301 DUYỆT CỦA TRƯỜNG ĐẠI HỌC SÀI GÒN
+302 KT. HIỆU TRƯỞNG
+303 PHÓ HIỆU TRƯỞNG
+304 
+305 
+306 
+307 
+308 
+309 
+310 PGS. TS. Lê Minh Triết
+311 

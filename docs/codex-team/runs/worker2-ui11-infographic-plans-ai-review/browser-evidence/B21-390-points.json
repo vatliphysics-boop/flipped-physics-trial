@@ -1,0 +1,74 @@
+{
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+  "size": [
+    390,
+    844
+  ],
+  "version": "UI11 not frozen",
+  "states": [
+    {
+      "label": "1. Phần lớn đi thẳng",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nNhiều hạt α qua lá vàng gần như không đổi hướng.\n\nGIẢI THÍCH\n\nPhần lớn thể tích nguyên tử không chứa vùng tập trung điện tích dương và khối lượng.",
+      "target": [
+        138,
+        64
+      ]
+    },
+    {
+      "label": "2. Một số lệch mạnh",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+      "target": [
+        138,
+        64
+      ]
+    },
+    {
+      "label": "3. Đọc số nucleon",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+      "target": [
+        288,
+        44
+      ]
+    },
+    {
+      "label": "1896 · Becquerel",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+      "target": [
+        249,
+        44
+      ]
+    },
+    {
+      "label": "1898 · Pierre và Marie Curie",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+      "target": [
+        249,
+        44
+      ]
+    },
+    {
+      "label": "1911 · Rutherford",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+      "target": [
+        249,
+        44
+      ]
+    },
+    {
+      "label": "1932 · Chadwick",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+      "target": [
+        249,
+        44
+      ]
+    }
+  ],
+  "overlays": 0
+}

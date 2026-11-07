@@ -1,0 +1,24 @@
+B21 {
+  codec: 'h264',
+  width: 1920,
+  height: 1080,
+  fps: 30,
+  frames: 2160,
+  seconds: 72,
+  bytes: 3324764
+} draft/output per-shot mean pixel difference { '0': 0.87, '12': 0.95, '24': 0.95, '36': 1.01, '48': 0.9, '60': 0.9 }
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: B22 expected a cut near 12s
+    at file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tmp/nuclear-video-qa/verify-transitions.mjs:39:7 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.21.0

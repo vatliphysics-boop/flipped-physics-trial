@@ -1,0 +1,21 @@
+- iframe [ref=e135]:
+  - generic [ref=f1e1]:
+    - generic "Trình phát video YouTube" [ref=f1e3]
+    - generic [ref=f1e5]:
+      - generic:
+        - generic:
+          - generic [ref=f1e6] [cursor=pointer]
+          - button "Phát video" [ref=f1e10] [cursor=pointer]
+          - button "Ẩn các nút điều khiển trình phát" [ref=f1e14] [cursor=pointer]
+          - generic [ref=f1e21]:
+            - generic [ref=f1e22]:
+              - link "Half-life | Physics | Khan Academy" [ref=f1e23] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=gDpyBifg6-s
+              - link "Khan Academy" [ref=f1e24] [cursor=pointer]:
+                - /url: /channel/UC4a-Gbdw7vOaccHmFo40b9g
+            - generic [ref=f1e26]:
+              - button [ref=f1e27] [cursor=pointer]:
+                - img "thumbnail-image" [ref=f1e28]
+              - generic [ref=f1e30]:
+                - generic: Khan Academy
+                - generic: 9,48 Tr người đăng ký

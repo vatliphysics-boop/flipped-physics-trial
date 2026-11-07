@@ -1,25 +1,30 @@
 import type { ReactNode } from "react";
 import { PortalShell, type PortalSection } from "@/components/PortalShell";
 import { LogoutButton } from "@/components/LogoutButton";
+import styles from "./student-ui.module.css";
+import { getStudentContext } from "@/lib/student-learning";
 
 export { type PortalSection } from "@/components/PortalShell";
 
-export function StudentShell({
+export async function StudentShell({
   active,
   title,
   description,
   eyebrow,
   children,
+  aiLessonCode,
 }: {
   active: PortalSection;
   title: string;
   description?: string;
   eyebrow?: string;
   children: ReactNode;
+  aiLessonCode?: string;
 }) {
+  await getStudentContext();
   const kicker = eyebrow ?? "Không gian học sinh";
   return (
-    <PortalShell role="student" active={active} account={<LogoutButton />}>
+    <PortalShell aiLessonCode={aiLessonCode} role="student" active={active} account={<LogoutButton />}>
       <header className="page-header">
         <div>
           <p className="page-kicker">{kicker}</p>
@@ -27,7 +32,7 @@ export function StudentShell({
           {description ? <p className="page-description">{description}</p> : null}
         </div>
       </header>
-      {children}
+      <div className={styles.workspace}>{children}</div>
     </PortalShell>
   );
 }

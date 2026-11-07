@@ -1,0 +1,1335 @@
+{
+  "time_utc": "2026-10-05T14:10:53.509157+00:00",
+  "baseline_sha256": "8e5dd3508c6730a6673687ab52fb765f55c4f820381b0884c6d700ce043c92f8",
+  "viewport_targets": [
+    "1440x900",
+    "1280x720",
+    "768x1024",
+    "390x844",
+    "360x800"
+  ],
+  "device_kind": "viewport giả lập; không thiết bị thật",
+  "routes": [
+    {
+      "route": "/demo-lesson",
+      "source": "src/app/demo-lesson/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/demo-before-1440x900.jpg",
+        "docs/codex-team/ui-review/lead-evidence/demo-before-390x844.jpg",
+        "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md"
+      ],
+      "issues": [
+        "UI-0002"
+      ],
+      "retest": "CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/hoc-lieu/ai",
+      "source": "src/app/hoc-lieu/ai/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "Ca drawer trên route B25; trang workspace /hoc-lieu/ai bản cuối W2 đang kiểm, chưa suy route workspace đạt",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/UI-0010-AI-after-390x844.jpg",
+        "docs/codex-team/ui-review/lead-evidence/AI-out-of-scope-360x800.jpg"
+      ],
+      "issues": [
+        "UI-0010"
+      ],
+      "retest": "Root sau sửa có ca thật; W2 đang kiểm",
+      "status": "CHƯA KIỂM route workspace; component drawer đã kiểm riêng trên B25"
+    },
+    {
+      "route": "/hoc-lieu/ai-giao-vien",
+      "source": "src/app/hoc-lieu/ai-giao-vien/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "B21–B25; bốn chương; lọc loại/nội dung dài; các tab công cụ theo chức năng",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "360x800",
+        "390x844",
+        "768x1024"
+      ],
+      "evidence": [
+        "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md"
+      ],
+      "issues": [],
+      "retest": "CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/hoc-lieu/chuong-trinh",
+      "source": "src/app/hoc-lieu/chuong-trinh/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "IV học liệu thực; I–III danh mục ngoài phạm vi. I–III mobile; IV desktop/tablet/mobile. Chưa desktop từng II/III.",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1280x720",
+        "1440x900",
+        "390x844",
+        "768x1024"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/curriculum-IV-1440x900-core-reviewed.jpg",
+        "docs/codex-team/ui-review/lead-evidence/curriculum-IV-390x844-core.jpg",
+        "docs/codex-team/ui-review/lead-evidence/curriculum-I-390x844-core.jpg",
+        "docs/codex-team/ui-review/lead-evidence/curriculum-II-390x844-core.jpg"
+      ],
+      "issues": [],
+      "retest": "root quan sát bản UI13; W2 chưa kiểm độc lập",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/hoc-lieu/lop-hoc-dao-nguoc",
+      "source": "src/app/hoc-lieu/lop-hoc-dao-nguoc/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "B21–B25; bốn chương; lọc loại/nội dung dài; các tab công cụ theo chức năng",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md"
+      ],
+      "issues": [],
+      "retest": "CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/hoc-lieu",
+      "source": "src/app/hoc-lieu/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "17/17 mô phỏng desktop/mobile; component phức tạp thêm size trung gian. Tham số và hành vi theo coverage-final, không suy mọi state.",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "1280x720",
+        "768x1024",
+        "390x844",
+        "360x800"
+      ],
+      "evidence": [
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/detailed-report.md",
+        "docs/codex-team/runs/worker3-ui11-all-simulations-review/all-evidence/coverage-final.json"
+      ],
+      "issues": [
+        "UI-0001",
+        "UI-0005",
+        "UI-0006",
+        "UI-0200",
+        "UI-0201",
+        "UI-0202"
+      ],
+      "retest": "Mã UI12b đã sửa; browser sau đang W3 UI13, W2 cuối CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN: 17 mô phỏng; kho/lọc trạng thái bổ sung theo report"
+    },
+    {
+      "route": "/hoc-lieu/soan-ke-hoach",
+      "source": "src/app/hoc-lieu/soan-ke-hoach/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "B21–B25; bốn chương; lọc loại/nội dung dài; các tab công cụ theo chức năng",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md"
+      ],
+      "issues": [],
+      "retest": "CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/hoc-lieu/truc-quan",
+      "source": "src/app/hoc-lieu/truc-quan/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "B21–B25; bốn chương; lọc loại/nội dung dài; các tab công cụ theo chức năng",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "1280x720",
+        "768x1024",
+        "390x844",
+        "360x800"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/UI-0001-B25-after-1440x900.jpg",
+        "docs/codex-team/runs/worker3-ui10-infographic-auth-fix/all-evidence/actual-tests.json",
+        "docs/codex-team/runs/worker2-ui11-infographic-plans-ai-review/detailed-report.md"
+      ],
+      "issues": [
+        "UI-0001",
+        "UI-0005",
+        "UI-0006"
+      ],
+      "retest": "W2 UI11 B25 một phần; chưa B21–24 và zoom/pan toàn phạm vi cuối",
+      "status": "ĐÃ KIỂM MỘT PHẦN; xem trạng thái/giới hạn"
+    },
+    {
+      "route": "/login",
+      "source": "src/app/login/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/login-before-390x844.jpg",
+        "docs/codex-team/ui-review/lead-evidence/login-required-390x844.jpg",
+        "docs/codex-team/ui-review/lead-evidence/login-before-1440x900.jpg",
+        "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md"
+      ],
+      "issues": [
+        "UI-0003",
+        "UI-0004"
+      ],
+      "retest": "CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/",
+      "source": "src/app/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1280x720",
+        "1440x900",
+        "360x800",
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/home-before-1280x720.jpg",
+        "docs/codex-team/ui-review/lead-evidence/home-before-390x844.jpg",
+        "docs/codex-team/ui-review/lead-evidence/home-before-1440x900.jpg",
+        "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md"
+      ],
+      "issues": [
+        "UI-0002",
+        "UI-0003"
+      ],
+      "retest": "CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/register",
+      "source": "src/app/register/page.tsx",
+      "role": "public",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "ban đầu",
+        "thao tác",
+        "trống/lỗi nếu chức năng hỗ trợ"
+      ],
+      "viewports_checked": [
+        "1440x900",
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/register-before-1440x900.jpg",
+        "docs/codex-team/ui-review/lead-evidence/register-before-390x844.jpg",
+        "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md"
+      ],
+      "issues": [
+        "UI-0003",
+        "UI-0004"
+      ],
+      "retest": "CHƯA KIỂM",
+      "status": "ĐÃ KIỂM MỘT PHẦN; phần chưa kiểm được ghi trong báo cáo ca"
+    },
+    {
+      "route": "/student/ai",
+      "source": "src/app/student/ai/page.tsx",
+      "role": "student",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_ai.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/assignments",
+      "source": "src/app/student/assignments/page.tsx",
+      "role": "student",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_assignments.txt"
+      ],
+      "issues": [
+        "UI-0008"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/classes",
+      "source": "src/app/student/classes/page.tsx",
+      "role": "student",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_classes.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/curriculum/[chapterCode]",
+      "source": "src/app/student/curriculum/[chapterCode]/page.tsx",
+      "role": "student",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_curriculum_IV.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/curriculum",
+      "source": "src/app/student/curriculum/page.tsx",
+      "role": "student",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_curriculum.txt"
+      ],
+      "issues": [
+        "UI-0008"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/journal",
+      "source": "src/app/student/journal/page.tsx",
+      "role": "student",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_journal.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/lessons/[lessonId]/after-class",
+      "source": "src/app/student/lessons/[lessonId]/after-class/page.tsx",
+      "role": "student",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_lessons_00000000-0000-4000-8000-000000000001_after-class.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/lessons/[lessonId]/before-class",
+      "source": "src/app/student/lessons/[lessonId]/before-class/page.tsx",
+      "role": "student",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_lessons_00000000-0000-4000-8000-000000000001_before-class.txt"
+      ],
+      "issues": [
+        "UI-0007"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/lessons/[lessonId]/in-class",
+      "source": "src/app/student/lessons/[lessonId]/in-class/page.tsx",
+      "role": "student",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_lessons_00000000-0000-4000-8000-000000000001_in-class.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/lessons/[lessonId]",
+      "source": "src/app/student/lessons/[lessonId]/page.tsx",
+      "role": "student",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_lessons_00000000-0000-4000-8000-000000000001.txt"
+      ],
+      "issues": [
+        "UI-0007"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student/materials",
+      "source": "src/app/student/materials/page.tsx",
+      "role": "student",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student_materials.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/student",
+      "source": "src/app/student/page.tsx",
+      "role": "student",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_student.txt"
+      ],
+      "issues": [
+        "UI-0007",
+        "UI-0008"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/ai",
+      "source": "src/app/teacher/ai/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_ai.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/classes/[classId]/curriculum",
+      "source": "src/app/teacher/classes/[classId]/curriculum/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_classes_00000000-0000-4000-8000-000000000002_curriculum.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/classes/[classId]",
+      "source": "src/app/teacher/classes/[classId]/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_classes_00000000-0000-4000-8000-000000000002.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/classes/new",
+      "source": "src/app/teacher/classes/new/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_classes_new.txt"
+      ],
+      "issues": [
+        "UI-0008"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/classes",
+      "source": "src/app/teacher/classes/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_classes.txt"
+      ],
+      "issues": [
+        "UI-0008"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/curriculum/[chapterCode]",
+      "source": "src/app/teacher/curriculum/[chapterCode]/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_curriculum_IV.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/curriculum",
+      "source": "src/app/teacher/curriculum/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_curriculum.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/lessons/[lessonId]/after-class",
+      "source": "src/app/teacher/lessons/[lessonId]/after-class/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_lessons_00000000-0000-4000-8000-000000000001_after-class.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/lessons/[lessonId]/before-class",
+      "source": "src/app/teacher/lessons/[lessonId]/before-class/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_lessons_00000000-0000-4000-8000-000000000001_before-class.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/lessons/[lessonId]/in-class",
+      "source": "src/app/teacher/lessons/[lessonId]/in-class/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_lessons_00000000-0000-4000-8000-000000000001_in-class.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/lessons/[lessonId]/ket-qua",
+      "source": "src/app/teacher/lessons/[lessonId]/ket-qua/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_lessons_00000000-0000-4000-8000-000000000001_ket-qua.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/lessons/[lessonId]",
+      "source": "src/app/teacher/lessons/[lessonId]/page.tsx",
+      "role": "teacher",
+      "dynamic": true,
+      "sampling": "hai vai/ba pha/dữ liệu dài và trống cần môi trường thử; chưa có ID thử",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_lessons_00000000-0000-4000-8000-000000000001.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/lessons",
+      "source": "src/app/teacher/lessons/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_lessons.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/materials",
+      "source": "src/app/teacher/materials/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_materials.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher",
+      "source": "src/app/teacher/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher.txt"
+      ],
+      "issues": [
+        "UI-0008"
+      ],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/plans",
+      "source": "src/app/teacher/plans/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_plans.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    },
+    {
+      "route": "/teacher/students",
+      "source": "src/app/teacher/students/page.tsx",
+      "role": "teacher",
+      "dynamic": false,
+      "sampling": "bố cục ban đầu và các hành động sẵn có",
+      "states": [
+        "chưa đăng nhập",
+        "có dữ liệu",
+        "trống",
+        "lỗi"
+      ],
+      "viewports_checked": [
+        "390x844"
+      ],
+      "evidence": [
+        "docs/codex-team/ui-review/lead-evidence/gate-_teacher_students.txt"
+      ],
+      "issues": [],
+      "retest": "Gate một phần root UI11; chưa W2",
+      "status": "ĐÃ MỞ trạng thái chưa đăng nhập; bên trong CHƯA KIỂM",
+      "unverified_states": [
+        "đăng nhập đúng/sai vai",
+        "có dữ liệu",
+        "trống thật",
+        "lỗi dữ liệu",
+        "lưu/giao–nộp/phân quyền"
+      ]
+    }
+  ],
+  "api_routes": [
+    "api/ai/document",
+    "api/ai/preparation",
+    "api/ai/status",
+    "api/ai/student",
+    "api/ai/teacher",
+    "api/ai/teacher-demo",
+    "api/book-bank/asset",
+    "api/book-bank",
+    "api/question-bank",
+    "api/word-download",
+    "auth/confirm"
+  ],
+  "not_present": [
+    "Không tìm thấy route quản trị trong src/app"
+  ],
+  "private_data_policy": "Không đăng nhập/ghi Supabase chưa xác minh; chỉ kiểm gate/redirect; UI dữ liệu giả phải ghi rõ",
+  "complex_components": [
+    "PortalShell menu/drawer/AIStudyHelp",
+    "LearningLibrary lọc/tìm/chọn tài nguyên/preview",
+    "InteractiveInfographic B21–B25/zoom/15 điểm",
+    "17 Simulation3D và GuidedFissionLab",
+    "TeacherWorkroom/TeachingPlanStudio/phiếu/đề/ma trận/xuất",
+    "HalfLifeDiscovery/đồ thị/notebook/B24 nhóm/B25 game",
+    "Login/Register native validation/error/pending",
+    "Video/chuyển bài/nguồn/phản hồi/ghi quan sát"
+  ],
+  "actual_checks": [
+    {
+      "name": "demo-before-1440x900",
+      "state": "initial/ba pha công khai",
+      "height": 900,
+      "route": "/demo-lesson",
+      "scrollWidth": 1440,
+      "viewportScale": 1,
+      "width": 1440,
+      "time": "2026-10-05T11:59:02.929Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "demo-before-390x844",
+      "state": "initial/ba pha công khai",
+      "height": 844,
+      "route": "/demo-lesson",
+      "scrollWidth": 390,
+      "viewportScale": 1,
+      "width": 390,
+      "time": "2026-10-05T11:59:03.133Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "UI-0001-B25-after-1440x900",
+      "state": "B25 tổng quan; nút số ngoài hình, trước kiểm lại độc lập",
+      "height": 900,
+      "route": "/hoc-lieu/truc-quan?bai=B25",
+      "scale": 1,
+      "scrollWidth": 1440,
+      "width": 1440,
+      "time": "2026-10-05T12:16:08.012Z",
+      "observer": "Codex chính/CUA",
+      "version": "UI10 integration in progress; not frozen",
+      "viewport_kind": "giả lập"
+    },
+    {
+      "name": "login-before-390x844",
+      "state": "initial",
+      "height": 844,
+      "route": "/login",
+      "scrollWidth": 390,
+      "viewportScale": 1,
+      "width": 390,
+      "time": "2026-10-05T11:59:35.159Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "login-required-390x844",
+      "state": "submit empty: native validation; no request to DB",
+      "height": 844,
+      "route": "/login",
+      "scrollWidth": 390,
+      "viewportScale": 1,
+      "width": 390,
+      "time": "2026-10-05T11:59:35.513Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "login-before-1440x900",
+      "state": "Form sau submit trống; có tooltip required của trình duyệt",
+      "height": 900,
+      "route": "/login",
+      "scrollWidth": 1440,
+      "viewportScale": 1,
+      "width": 1440,
+      "time": "2026-10-05T11:59:35.659Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "home-before-1280x720",
+      "state": "initial",
+      "height": 720,
+      "route": "/",
+      "scrollWidth": 1280,
+      "viewportScale": 1,
+      "width": 1280,
+      "time": "2026-10-05T11:57:45.761Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "home-before-390x844",
+      "state": "initial",
+      "height": 844,
+      "route": "/",
+      "scrollWidth": 390,
+      "viewportScale": 1,
+      "width": 390,
+      "time": "2026-10-05T11:57:45.922Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "home-before-1440x900",
+      "state": "initial",
+      "height": 900,
+      "route": "/",
+      "scrollWidth": 1440,
+      "viewportScale": 1,
+      "width": 1440,
+      "time": "2026-10-05T11:58:48.626Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "register-before-1440x900",
+      "state": "initial",
+      "height": 900,
+      "route": "/register",
+      "scrollWidth": 1440,
+      "viewportScale": 1,
+      "width": 1440,
+      "time": "2026-10-05T11:59:58.806Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    },
+    {
+      "name": "register-before-390x844",
+      "state": "initial/first Tab",
+      "height": 844,
+      "route": "/register",
+      "scrollWidth": 390,
+      "viewportScale": 1,
+      "width": 390,
+      "time": "2026-10-05T11:59:59.176Z",
+      "version": "ui-review/version-baseline.json",
+      "observer": "lead"
+    }
+  ],
+  "candidate_version": "898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2",
+  "final_review_rounds_completed": 0,
+  "limitations": [
+    "29 route riêng chỉ mở gate không đăng nhập; bên trong, dữ liệu trống/lỗi/thành công, giao–nộp và phân quyền thật CHƯA KIỂM.",
+    "Viewport giả lập, không thiết bị thật; browser zoom thật/thiết bị cảm ứng/screen reader CHƯA KIỂM.",
+    "Lượt W3 UI11 timeout nhưng có report 112 nhóm; W2 UI11 timeout chỉ B25 một phần; không tính hai lượt cuối.",
+    "Ảnh native bị cắt sai kích thước có annotation trong evidence-index; không dùng thay ảnh đủ khung.",
+    "W2 chưa xem mọi ảnh W3 sau sửa; bài báo chưa cập nhật UI13."
+  ]
+}

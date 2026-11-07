@@ -1,0 +1,124 @@
+PART word/document.xml
+P0000 Phiếu học tập ba pha
+P0001 Thí nghiệm tán xạ hạt alpha
+P0002 Vật lí 12 · Chương 4 Vật lí hạt nhân · B21
+P0003 Họ và tên ........................................................ Lớp .......... Nhóm ..........
+P0004 1 Hướng dẫn sử dụng phiếu học tập
+P0005 Phiếu gồm nhiệm vụ trước giờ học, trong giờ học và sau giờ học. Hoàn thành phần chuẩn bị trước khi đến lớp; giữ phiếu để tiếp tục trao đổi và tự làm phần vận dụng.
+P0006 Mục tiêu
+P0007 Rút ra sự tồn tại và đánh giá kích thước hạt nhân từ kết quả thí nghiệm tán xạ hạt alpha.
+P0008 Mô tả mô hình đơn giản của nguyên tử gồm proton, neutron và electron.
+P0009 Thời gian và cách thực hiện
+P0010 Trước giờ học: 15 phút. Câu trả lời cá nhân và một nội dung cần trao đổi trên lớp.
+P0011 Trong giờ học: 40 phút. Lời giải có các bước và căn cứ; kết luận của nhóm sau trao đổi.
+P0012 Sau giờ học: 15 phút. Bài làm cá nhân có giải thích, một điều tự sửa và cách kiểm tra lại.
+P0013 Đọc nhiệm vụ của từng pha rồi làm các câu hỏi ngay bên dưới. Ghi cách làm và căn cứ vào khung trả lời. Khi chưa hiểu, ghi cụ thể chỗ cần hỗ trợ; khi đã hiểu, ghi cách kiểm tra kết quả.
+P0014 Trước khi làm, xem rubrics ở phần 3 để biết tiêu chí. Trong giờ học, mỗi bạn vẫn ghi bài làm riêng sau khi trao đổi nhóm. Sau giờ học, hoàn thành phần vận dụng và nộp phiếu theo thời hạn giáo viên giao.
+P0015 Học liệu sử dụng
+P0016 Trước giờ học: B21 · Kiến thức và phiếu học tập ba giai đoạn
+P0017 Trong giờ học: Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford
+P0018 Sau giờ học: B21 · Sửa ba lỗi thường gặp
+P0020 2 Phiếu học tập cho học sinh
+P0021 Pha 1 Trước giờ học
+P0022 Thời gian dự kiến: 15 phút
+P0023 Mục tiêu của pha: Chuẩn bị kiến thức và xác định điều chưa hiểu trước khi đến lớp.
+P0024 Việc cần làm
+P0025 1. Đọc học liệu Cấu trúc hạt nhân, xem cách bố trí nguồn alpha, lá vàng và màn quan sát.
+P0026 2. Đọc câu hỏi và hình trong phần này; mô tả cách các nhà khoa học thu được bằng chứng về hạt nhân.
+P0027 3. Ghi một chi tiết về thí nghiệm mà em chưa giải thích được.
+P0028 Câu 1
+P0029 Các nhà khoa học đã làm thế nào để phát hiện hạt nhân có kích thước nhỏ hơn nhiều so với nguyên tử, dù không thể quan sát bằng kính hiển vi quang học?
+P0031 Bài làm của em
+P0032 ................................................................................................
+P0033 ................................................................................................
+P0034 ................................................................................................
+P0035 ................................................................................................
+P0036 ................................................................................................
+P0038 Sản phẩm cần hoàn thành
+P0039 Câu trả lời cá nhân và một nội dung cần trao đổi trên lớp.
+P0040 Tự kiểm tra: Trả lời đúng yêu cầu; ghi điều chưa hiểu hoặc căn cứ của cách trả lời.
+P0041 Điều em chưa hiểu hoặc căn cứ của câu trả lời:
+P0042 ................................................................................................
+P0043 ................................................................................................
+P0045 Pha 2 Trong giờ học
+P0046 Thời gian dự kiến: 40 phút
+P0047 Mục tiêu của pha: Kiểm tra và giải thích kết quả bằng dữ kiện, hình và học liệu của bài.
+P0048 Việc cần làm
+P0049 1. Quan sát hình và mô phỏng tán xạ: xác định vị trí nguồn, lá vàng và màn quan sát.
+P0050 2. Trao đổi câu hỏi trong phần này: liên hệ tần suất đốm sáng với đường đi của hạt alpha.
+P0051 3. Mỗi bạn viết kết luận riêng; nhóm kiểm tra căn cứ từ hình và dữ kiện.
+P0052 Câu 2
+P0053 Dựa vào thí nghiệm tán xạ hạt alpha: tần suất đốm sáng lớn nhất tại vị trí (1), đối diện nguồn phát trong Hình 21.2b, chứng tỏ điều gì?
+P0055 Bài làm của em
+P0056 ................................................................................................
+P0057 ................................................................................................
+P0058 ................................................................................................
+P0059 ................................................................................................
+P0060 ................................................................................................
+P0062 Sản phẩm cần hoàn thành
+P0063 Lời giải có các bước và căn cứ; kết luận của nhóm sau trao đổi.
+P0064 Tự kiểm tra: Sử dụng đúng dữ kiện, kí hiệu và đơn vị; giải thích được cách làm và điều đã sửa.
+P0065 Kết luận của em sau trao đổi và điều đã sửa:
+P0066 ................................................................................................
+P0067 ................................................................................................
+P0069 Pha 3 Sau giờ học
+P0070 Thời gian dự kiến: 15 phút
+P0071 Mục tiêu của pha: Vận dụng kiến thức và tự kiểm tra lời giải.
+P0072 Việc cần làm
+P0073 1. Tự làm câu hỏi trong phần này, dùng tương tác điện và cấu trúc nguyên tử để giải thích.
+P0074 2. Đối chiếu với kết luận đã ghi trong giờ học; sửa chỗ chưa đúng.
+P0075 3. Ghi điều đã sửa và bằng chứng dùng để kiểm tra cách giải thích mới.
+P0076 Câu 3
+P0077 Tại sao có một số hạt alpha đổi hướng chuyển động khi đi qua lá vàng?
+P0079 Bài làm của em
+P0080 ................................................................................................
+P0081 ................................................................................................
+P0082 ................................................................................................
+P0083 ................................................................................................
+P0084 ................................................................................................
+P0086 Sản phẩm cần hoàn thành
+P0087 Bài làm cá nhân có giải thích, một điều tự sửa và cách kiểm tra lại.
+P0088 Tự kiểm tra: Lời giải đúng yêu cầu; kết quả có đơn vị nếu cần; nêu được cách tự kiểm tra.
+P0089 Điều em đã sửa hoặc cách em kiểm tra kết quả:
+P0090 ................................................................................................
+P0091 ................................................................................................
+P0093 3 Rubrics đánh giá
+P0094 Chọn một mức cho mỗi tiêu chí dựa trên bài làm và phần tự kiểm tra. Học sinh tự đánh giá trước; giáo viên đối chiếu sản phẩm và ghi nhận xét, hướng dẫn sửa.
+P0095 Tiêu chí
+P0096 Hoàn thành tốt
+P0097 Đạt yêu cầu
+P0098 Cần bổ sung
+P0099 Chưa có sản phẩm
+P0100 Chuẩn bị trước giờ học
+P0101 Trả lời có căn cứ; nêu rõ điều chưa hiểu hoặc giải thích vì sao đã hiểu.
+P0102 Có câu trả lời và nội dung cần trao đổi; còn thiếu căn cứ.
+P0103 Câu trả lời thiếu ý; chưa xác định được điều cần trao đổi.
+P0104 Chưa có phần chuẩn bị.
+P0105 Giải thích và sử dụng dữ kiện
+P0106 Lời giải đúng; chỉ rõ dữ kiện, hình hoặc công thức làm căn cứ.
+P0107 Cách làm phù hợp; còn một thiếu sót nhỏ về diễn giải hoặc đơn vị.
+P0108 Có hướng giải nhưng dùng dữ kiện, kiến thức hoặc đơn vị chưa đúng.
+P0109 Chưa có lời giải hoặc chưa nêu được cách làm.
+P0110 Vận dụng sau giờ học
+P0111 Bài làm đúng, đủ các bước và kiểm tra được kết quả.
+P0112 Giải quyết yêu cầu chính; còn thiếu một bước hoặc cách kiểm tra.
+P0113 Mới làm được một phần; còn lỗi kiến thức hoặc phép tính.
+P0114 Chưa thực hiện bài vận dụng.
+P0115 Tự kiểm tra và điều chỉnh
+P0116 Nêu rõ điều đã sửa hoặc căn cứ xác nhận lời giải; có cách kiểm tra lại.
+P0117 Có tự kiểm tra và điều chỉnh nhưng giải thích còn ngắn.
+P0118 Chỉ ghi đã sửa/đã hiểu, chưa chỉ ra nội dung và cách kiểm tra.
+P0119 Chưa có phần tự kiểm tra.
+P0121 Chuẩn bị trước giờ học: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0122 Giải thích và sử dụng dữ kiện: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0123 Vận dụng sau giờ học: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0124 Tự kiểm tra và điều chỉnh: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0125 Nhận xét và việc cần làm tiếp
+P0126 Điểm đã làm được: ............................................................................
+P0127 Nội dung cần sửa: ..............................................................................
+P0128 Cách sửa và thời hạn hoàn thành: ......................................................
+PART word/footer1.xml
+P0000 Trang 
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

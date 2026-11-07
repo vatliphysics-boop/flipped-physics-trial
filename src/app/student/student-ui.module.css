@@ -1,0 +1,50 @@
+.workspace { min-width: 0; }
+.workspace :global(.student-paper), .workspace :global(.student-card), .workspace :global(.student-empty) { border-radius: 12px; }
+.workspace :global(.student-empty) { padding-inline: 24px; }
+.workspace :global(.journal-entry-header) { flex-wrap: wrap; gap: 12px; }
+.workspace :global(.student-overview-lesson) { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0; border-bottom: 1px solid var(--border-light); }
+.workspace :global(.student-overview-lesson h3) { min-width: 0; flex: 1 1 220px; margin: 0; font-size: 16px; line-height: 1.5; }
+.classes { width: min(100%, 800px); margin-inline: auto; padding-block: 12px 24px; }
+.joinCard { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 24px; align-items: center; margin-bottom: 32px; }
+.joinCard h2 { margin: 0 0 8px; font-size: 18px; line-height: 1.4; }
+.joinCard p { margin: 0; font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+.joinForm { display: flex; gap: 10px; align-items: flex-start; min-width: 0; }
+.joinField { flex: 1; min-width: 0; }
+.joinField label { display: block; margin-bottom: 6px; color: var(--text-primary); font-size: 13px; font-weight: 600; }
+.joinField input { width: 100%; height: 44px; padding: 10px 12px; border-radius: 9px; border: 1px solid var(--border-dark); background: var(--bg-surface); font-size: 15px; color: var(--text-primary); }
+.joinForm button { margin-top: 25px; min-height: 44px; padding-inline: 16px; white-space: nowrap; }
+.classRow { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; padding: 24px 0; border-bottom: 1px solid var(--border-light); }
+.classContent { min-width: 0; }
+.classContent h3 { margin: 0 0 8px; font-size: 18px; font-weight: 650; line-height: 1.4; overflow-wrap: anywhere; }
+.classContent p { margin: 0 0 12px; font-size: 14px; line-height: 1.6; color: var(--text-secondary); }
+.classMeta { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--text-secondary); font-size: 13px; }
+.classMeta strong { color: var(--text-primary); font-weight: 600; }
+.classRow form { flex-shrink: 0; }
+.classRow form button { min-height: 40px; font-size: 13px; }
+.lessonHeader { max-width: 1000px; margin: 0 auto; padding: 0 24px; color: var(--text-primary); }
+.breadcrumb { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 9px; margin: 4px 0 22px; color: var(--text-secondary); font-size: 13px; }
+.breadcrumb a { color: inherit; text-underline-offset: 3px; }
+.breadcrumb span[aria-hidden] { color: var(--text-muted); }
+.lessonHeader h1 { font-size: clamp(25px, 3vw, 32px); line-height: 1.25; margin: 0 0 14px; letter-spacing: -.025em; font-weight: 700; }
+.description { max-width: 800px; margin: 0 0 20px; line-height: 1.65; font-size: 15px; color: var(--text-secondary); }
+.aiEntry { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 0 0 24px; font-size: 13px; color: var(--text-secondary); }
+.phaseNav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-bottom: 32px; }
+.phase { display: flex; gap: 10px; align-items: center; padding: 14px; border: 1px solid var(--border-light); border-radius: 9px; color: var(--text-secondary); background: var(--bg-surface); text-decoration: none; min-width: 0; }
+.phase:hover { border-color: var(--color-primary); }
+.phaseActive { background: var(--color-primary-soft, #e9f4f4); color: var(--color-primary, #116b70); border-color: var(--color-primary, #116b70); }
+.phaseLocked { background: var(--bg-page, #f3f7fa); color: var(--text-muted); }
+.phaseNumber { font-size: 12px; font-weight: 700; flex-shrink: 0; }
+.phaseText { min-width: 0; display: grid; gap: 4px; }
+.phaseText strong { font-size: 14px; font-weight: 600; line-height: 1.35; }
+.phaseText small { font-size: 12px; line-height: 1.3; }
+@media (max-width: 700px) {
+ .joinCard { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+ .classRow { flex-wrap: wrap; gap: 14px; }
+ .classRow form { margin-left: auto; }
+ .lessonHeader { padding-inline: 0; }
+ .phaseNav { gap: 7px; }
+ .phase { padding: 12px 8px; flex-direction: column; align-items: flex-start; gap: 7px; }
+ .phaseText strong { font-size: 13px; }
+ .workspace :global(.journal-entry-header) + :global(.student-callout) { padding: 18px; }
+}
+@media (max-width: 360px) { .joinForm { flex-direction: column; } .joinField { width: 100%; } .joinForm button { width: 100%; margin-top: 0; } }

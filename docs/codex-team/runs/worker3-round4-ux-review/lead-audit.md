@@ -1,0 +1,1 @@
+Trưởng nhóm thu hồi 6 ảnh do Worker 3 tạo ở root vào browser-evidence; giữ toàn bộ ảnh. Không sửa/xóa dữ liệu đang có. Mã khoa học/CSV/chat đổi đồng thời do trưởng nhóm, không quy cho Worker 3. Browser MCP chạy host có thể ghi ảnh ngoài sandbox CLI; các lượt sau cwd MCP trỏ evidence và yêu cầu tên tuyệt đối.

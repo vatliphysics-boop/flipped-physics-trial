@@ -16,7 +16,8 @@ import { SupabaseClient } from "@supabase/supabase-js";
  *    t = 0: 151; t=30: 85; t=60: 55; t=120: 31; t=180: 22; t=240: 15; t=300: 11; t=360: 9.
  *    Bài 1: Lực nào làm lệch hạt alpha trong lá vàng? → Lực đẩy tĩnh điện từ hạt nhân vàng.
  *    Bài 2: Vẽ đồ thị H(t), ước lượng chu kì bán rã.
- *    Bài 3: Mẫu gỗ cổ: 240 phân rã/phút, T(¹⁴C) = 5730 năm; 25 g ¹⁴C trong 12 g ¹²C; tỉ lệ sinh vật sống 10¹²:1.
+ *    Bài 3: Mẫu gỗ cổ: 240 phân rã/phút, T(¹⁴C) = 5730 năm, 25 g carbon gồm ¹²C và ¹⁴C.
+ *    Tỉ lệ số nguyên tử ¹²C : ¹⁴C khi sinh vật còn sống là 10¹² : 1.
  *    Bài 4: Nhà máy 1400 MW, hiệu suất 36%, mỗi phân hạch 200 MeV.
  *  - Trang 122: Hình 25.3 – Khu nạp nguyên liệu Trung tâm chiếu xạ Hà Nội.
  *    Hình 25.4 – Máy gia tốc tại Trung tâm chiếu xạ Hà Nội.
@@ -79,7 +80,7 @@ Câu 4: Nêu 3 biện pháp an toàn khi làm việc với nguồn phóng xạ.
 PHẦN 3 – BÀI TẬP NHANH
 
 1. Tính N của hạt nhân ²³⁸U: N = ___
-2. Hạt nhân bền hơn: ⁵⁶Fe (Elkr ≈ 8,8 MeV/nu) hay ²³⁵U (Elkr ≈ 7,6 MeV/nu)? ___
+2. Hạt nhân nào có năng lượng liên kết trên mỗi nucleon lớn hơn: ⁵⁶Fe (khoảng 8,8 MeV mỗi nucleon) hay ²³⁵U (khoảng 7,6 MeV mỗi nucleon)? ___
 3. Sau 2 chu kì bán rã, số hạt nhân còn lại là N₀/___
 4. Đơn vị Bq là gì? ___ phân rã/___
 5. Phân rã β⁻ làm Z thay đổi như thế nào? Z → Z + ___
@@ -87,12 +88,12 @@ PHẦN 3 – BÀI TẬP NHANH
 ──────────────────────────────────────────────────
 PHẦN 4 – LỖI SAI ĐIỂN HÌNH CẦN TRÁNH
 
-❌ Nhầm khối lượng hạt nhân với khối lượng nguyên tử (thêm khối lượng electron)
-   → Trong phần lớn bài toán SGK 12, m_hạt_nhân ≈ m_nguyên_tử (electron nhẹ)
-   → Khi cần chính xác: m_HN = m_nguyên_tử − Z × m_e
+❌ Trộn khối lượng hạt nhân và khối lượng nguyên tử trung hòa
+   → Với khối lượng hạt nhân, dùng khối lượng proton tự do và neutron.
+   → Với khối lượng nguyên tử, thay khối lượng proton bằng khối lượng nguyên tử hydrogen, bỏ qua hiệu chỉnh năng lượng liên kết electron ở mức bài tập.
 
 ❌ Nhầm "bảo toàn khối lượng" với "bảo toàn số khối"
-   → Số khối A ĐƯỢC bảo toàn. Khối lượng KHÔNG bảo toàn (Δm → năng lượng).
+   → Tổng số nucleon và tổng điện tích được bảo toàn. Tổng khối lượng nghỉ có thể thay đổi, còn năng lượng toàn phần được bảo toàn trong hệ kín.
 
 ❌ Quên đơn vị khi tính năng lượng
    → Δm [u] × 931,5 = E [MeV]; Δm [kg] × c² = E [J]; 1 MeV = 1,6 × 10⁻¹³ J
@@ -153,11 +154,12 @@ Bước 2: Từ đồ thị, ước lượng chu kì bán rã T:
   • T ≈ ___ s
 
 Bước 3: Kiểm tra bằng tính toán:
-  Dùng H(30) = 85 và H(0) = 151:
-  H(T)/H(0) = 1/2 → 151 × 2^(-30/T) = 85,5 → T = 30 × log₂(151/85) ≈ 30 × ___ ≈ ___ s
+  Giả sử hàm mũ đi qua H(0) = 151 Bq và H(30 s) = 85 Bq:
+  \\[T=\\frac{30\\,\\mathrm{s}}{\\log_2(151/85)}\\approx36{,}2\\,\\mathrm{s}\\]
+  So sánh với giá trị đọc đồ thị (nội suy tuyến tính khoảng 39,5 s). Hai phương pháp có giả định khác nhau và bảng không khớp một hàm mũ chính xác ở mọi điểm.
 
-Bước 4: So sánh T tìm được với Bảng 23.2 SGK (các đồng vị phóng xạ đã biết):
-  T ≈ ___ s ≈ ___ phút. Đây có thể là đồng vị nào? ___
+Bước 4: Nêu giới hạn của kết quả:
+  T ≈ ___ s ≈ ___ phút theo phương pháp em chọn. Chỉ một ước lượng chu kì bán rã không đủ để xác định đồng vị.
 
 Câu hỏi phân tích:
 1. Tại sao H(t) ở các thời điểm t = 300 và t = 360 vẫn còn giảm (không về 0)?
@@ -197,7 +199,7 @@ Máy xạ trị dùng ⁶⁰Co: T = 5,3 năm.
 Bảo dưỡng khi H giảm 7%; thay nguồn khi H giảm 50%.
 
 Bước 1: Tính t_bảo_dưỡng (khi H_t = 93% H₀):
-  H₀ − H_t)/H₀ = 7% → H_t = 0,93 H₀
+  (H₀ − H_t)/H₀ = 7% → H_t = 0,93 H₀
   t_bd = T × log₂(H₀/H_t) = T × log₂(1/0,93) = T × log₂(100/93)
   log₂(100/93) = log(100/93)/log(2) ≈ log(1,075)/0,301 ≈ ___ / ___ ≈ ___
   t_bd ≈ 5,3 năm × ___ ≈ ___ tháng ≈ 6,65 tháng (theo SGK)
@@ -232,8 +234,8 @@ Lý luận:
       lesson_id: lessonId,
       phase: "in_class",
       question_text:
-        "Từ Bảng 25.1 SGK (H₀ = 151 Bq; H(30s) = 85 Bq), ước lượng chu kì bán rã T của đồng vị này (làm tròn đến chục giây gần nhất).",
-      correct_answer: "Khoảng 50–60 giây",
+        "Từ Bảng 25.1 SGK, H(0) = 151 Bq, H(30 s) = 85 Bq và H(60 s) = 55 Bq. Nội suy tuyến tính giữa 30 s và 60 s tại mức H₀/2, rồi làm tròn đến chục giây. Ghi đáp án theo dạng số kèm đơn vị giây.",
+      correct_answer: "40 giây",
       sort_order: 1,
     },
     {
@@ -278,17 +280,19 @@ Cho Bảng 25.1 – Đo độ phóng xạ theo thời gian:
 | H (Bq) | 151 | 85 | 55 | 31  | 22  | 15  | 11  | 9   |
 
 a) Vẽ đồ thị H(t) (trục X: t (s), trục Y: H (Bq)).
-b) Ước lượng T: Tìm t khi H = H₀/2 = 75,5 Bq → từ bảng hoặc đồ thị, T ≈ 30–32 s.
-   (Lưu ý: Đây là bài thực nghiệm nên T không chính xác tuyệt đối.)
-c) Tính λ = ln2/T ≈ 0,693/30 ≈ 0,023 s⁻¹
+b) Ước lượng T: Mức 75,5 Bq nằm giữa H(30 s) và H(60 s). Nội suy tuyến tính được khoảng 39,5 s.
+   Ghi phương pháp và đơn vị. Giá trị đọc đồ thị phụ thuộc cách nối hoặc khớp các điểm.
+c) Dùng T ≈ 39,5 s, hằng số phóng xạ ước lượng khoảng 0,0175 s⁻¹.
 
 Bài 3 (SGK B25, Bài 3, trang 121) – Định tuổi C-14:
 Mẫu gỗ cổ: 240 phân rã/phút; T(¹⁴C) = 5730 năm.
-Trong 25 g ¹²C của mẫu gỗ, tỉ lệ ¹⁴C/¹²C khi sinh vật còn sống là 10¹²:1.
+Mẫu có 25 g carbon gồm ¹²C và ¹⁴C. Tỉ lệ số nguyên tử ¹²C : ¹⁴C khi sinh vật còn sống là 10¹² : 1. Vì ¹⁴C rất ít, lấy gần đúng khối lượng ¹²C là 25 g.
 
 a) Tính số nguyên tử ¹⁴C trong mẫu gỗ cổ:
-   H_cổ = 240 phân rã/phút = 4 Bq
-   N_cổ = H_cổ / λ = 4 / (0,693/5730 × 365 × 24 × 3600) ≈ ___
+   Trong bài tập, giả sử số đếm đã được hiệu chỉnh và biểu thị số phân rã. Độ phóng xạ mẫu là 4 Bq.
+   Đổi 5.730 năm thành giây, dùng 365 ngày mỗi năm.
+   \\[T_{\\mathrm{s}}=5730\\cdot365\\cdot24\\cdot3600\\,\\mathrm{s},\\qquad
+   \\lambda=\\frac{\\ln2}{T_{\\mathrm{s}}},\\qquad N_{\\mathrm{cổ}}=\\frac{H_{\\mathrm{cổ}}}{\\lambda}\\approx1{,}04\\times10^{12}\\]
 
 b) Tính số nguyên tử ¹⁴C trong 25 g ¹²C khi còn sống:
    N(¹²C) = 25/12 × 6,02×10²³ ≈ 1,254×10²⁴
@@ -299,11 +303,12 @@ c) Tính tuổi mẫu gỗ:
 
 Bài 5 (SGK B25, Bài 5, trang 122) – Chiếu xạ tại Trung tâm chiếu xạ Hà Nội:
 ⁶⁰Co, T = 5,3 năm. Tháng 1/2022: thời gian chiếu xạ = 150 phút.
-Hỏi: Tháng 6/2024 (sau 2,5 năm), thời gian chiếu xạ cần là bao nhiêu?
+Hỏi: Tháng 6/2024 (sau khoảng 29 tháng), thời gian chiếu xạ cần là bao nhiêu?
 
-Hướng dẫn: Để cùng liều chiếu xạ, t_chiếu xạ × H = hằng số.
-H(t) = H₀ × 2^(-t/T) → H(2,5) = H₀ × 2^(-2,5/5,3)
-t_mới = t_cũ × H₀/H_mới = 150 × 2^(2,5/5,3) ≈ 150 × 2^(0,472) ≈ 150 × ___ ≈ ___ phút
+Hướng dẫn: Với cùng liều, hình học và điều kiện thiết bị, giả sử tốc độ chiếu tỉ lệ với độ phóng xạ.
+\\[t_{\\mathrm{mới}}=t_{\\mathrm{cũ}}\\cdot\\frac{H_0}{H_{\\mathrm{mới}}}
+=150\\cdot2^{\\frac{29}{12\\cdot5{,}3}}\\,\\mathrm{phút}\\approx206\\,\\mathrm{phút}\\]
+Đây là ước lượng theo tháng trong điều kiện của đề bài.
 
 ──────────────────────────────────────────────────
 II. BÀI TẬP TỰ LUYỆN (tương đương mức vận dụng cao)
@@ -363,14 +368,14 @@ b) Bệnh nhân nặng 60 kg, cần liều 0,1 mCi/kg. Tính tổng liều cần
       difficulty: "van_dung",
       content: {
         prompt:
-          "Biết khối lượng hạt nhân ¹²C là 12,0000 u. Biết mp = 1,00728 u; mn = 1,00866 u; 1u = 931,5 MeV/c². Năng lượng liên kết của hạt nhân ¹²C là:",
+          "Khối lượng nguyên tử trung hòa ¹²C bằng 12 u. Cho khối lượng nguyên tử hydrogen bằng 1,007825 u, khối lượng neutron bằng 1,008665 u và 1 u tương đương 931,5 MeV/c². Bỏ qua hiệu chỉnh năng lượng liên kết electron. Năng lượng liên kết của hạt nhân ¹²C gần nhất với giá trị nào?",
         options: [
-          "Elk ≈ 89,4 MeV (Elkr ≈ 7,45 MeV/nucleon).",
-          "Elk ≈ 92,4 MeV.",
-          "Elk ≈ 7,45 MeV.",
-          "Elk ≈ 7,68 MeV (Elkr ≈ 7,68 MeV/nucleon).",
+          "89,1 MeV.",
+          "92,16 MeV.",
+          "7,68 MeV.",
+          "0,09894 MeV.",
         ],
-        correctAnswer: "Elk ≈ 89,4 MeV (Elkr ≈ 7,45 MeV/nucleon).",
+        correctAnswer: "92,16 MeV.",
       },
       sort_order: 3,
       is_published: true,
@@ -410,7 +415,7 @@ b) Bệnh nhân nặng 60 kg, cần liều 0,1 mCi/kg. Tính tổng liều cần
             text: "Độ hụt khối Δm = 0 có nghĩa là hạt nhân rất bền vững.",
             correctValue: false,
             explanation:
-              "Sai. Δm = 0 nghĩa là hạt nhân có năng lượng liên kết Elk = 0, tức là KHÔNG bền vững (dễ phân rã). Hạt nhân bền là hạt có Δm > 0 (và Elkr lớn).",
+              "Sai. Độ hụt khối bằng 0 tương ứng năng lượng liên kết bằng 0 so với các nucleon tự do. Độ bền đối với một kênh phân rã cần xét điều kiện riêng, không suy ra chỉ từ năng lượng liên kết.",
           },
           {
             text: "Theo bài tập 5 SGK (tr.122), thời gian chiếu xạ cần tăng lên sau khi nguồn ⁶⁰Co suy giảm, vì cần bù lại độ phóng xạ giảm.",
@@ -430,10 +435,10 @@ b) Bệnh nhân nặng 60 kg, cần liều 0,1 mCi/kg. Tính tổng liều cần
       difficulty: "van_dung",
       content: {
         prompt:
-          "Dựa vào Bảng 25.1 (SGK trang 121): t(s) = 0/30/60/120/180 → H(Bq) = 151/85/55/31/22. Ước lượng chu kì bán rã T bằng cách tìm t khi H ≈ H₀/2. Giải thích cách em đọc T từ bảng hoặc đồ thị.",
+          "Dựa vào Bảng 25.1 (SGK trang 121), tại 0 s, 30 s, 60 s, 120 s và 180 s, độ phóng xạ lần lượt là 151, 85, 55, 31 và 22 Bq. Ước lượng chu kì bán rã. Giải thích cách em đọc T từ bảng hoặc đồ thị.",
         sampleAnswer:
-          "H₀/2 = 151/2 ≈ 75,5 Bq. Từ bảng, H(30s) = 85 (lớn hơn 75,5) và H(60s) = 55 (nhỏ hơn 75,5), nên T nằm trong khoảng 30–60 giây. Nội suy tuyến tính: T ≈ 30 + (85−75,5)/(85−55) × 30 ≈ 30 + 9,5 ≈ 39,5 ≈ 40 s (ước lượng). Hoặc dùng phép tính: 2^(-30/T) = 85/151 → T = 30/log₂(151/85) ≈ 52 s.",
-        keywords: ["H₀/2", "75,5 Bq", "nội suy", "30-60 giây", "log₂"],
+          "Một nửa độ phóng xạ ban đầu là 75,5 Bq, nằm giữa 85 Bq tại 30 s và 55 Bq tại 60 s. Nội suy tuyến tính cho khoảng 39,5 s. Nếu giả sử đường hàm mũ đi qua điểm đầu và điểm ở 30 s, ước lượng là 36,2 s. Cần ghi phương pháp và xem xét độ lệch giữa mô hình và bảng.",
+        keywords: ["75,5 Bq", "nội suy", "39,5", "36,2"],
       },
       sort_order: 6,
       is_published: true,

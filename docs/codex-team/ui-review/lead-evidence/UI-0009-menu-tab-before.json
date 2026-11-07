@@ -1,0 +1,50 @@
+[
+  {
+    "href": "/student",
+    "in_menu": true,
+    "tag": "A",
+    "text": "Tổng quan"
+  },
+  {
+    "href": "/student/classes",
+    "in_menu": true,
+    "tag": "A",
+    "text": "Lớp học của em"
+  },
+  {
+    "href": null,
+    "in_menu": true,
+    "tag": "BUTTON",
+    "text": "Chương trình Vật lí 12▼"
+  },
+  {
+    "href": "/student/assignments",
+    "in_menu": true,
+    "tag": "A",
+    "text": "Bài tập và kiểm tra"
+  },
+  {
+    "href": "/student/journal",
+    "in_menu": true,
+    "tag": "A",
+    "text": "Nhật kí học tập"
+  },
+  {
+    "href": "?bai=B21",
+    "in_menu": false,
+    "tag": "A",
+    "text": "B21 · Cấu trúc hạt nhân"
+  },
+  {
+    "href": "?bai=B22",
+    "in_menu": false,
+    "tag": "A",
+    "text": "B22 · Phản ứng hạt nhân và năng lượng liên kết"
+  },
+  {
+    "href": "?bai=B23",
+    "in_menu": false,
+    "tag": "A",
+    "text": "B23 · Hiện tượng phóng xạ"
+  }
+]

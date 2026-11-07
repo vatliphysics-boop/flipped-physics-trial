@@ -1,0 +1,764 @@
+[
+  {
+    "name": "home-before-1280x720",
+    "state": "initial",
+    "height": 720,
+    "route": "/",
+    "scrollWidth": 1280,
+    "viewportScale": 1,
+    "width": 1280,
+    "time": "2026-10-05T11:57:45.761Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      1280,
+      720
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "home-before-390x844",
+    "state": "initial",
+    "height": 844,
+    "route": "/",
+    "scrollWidth": 390,
+    "viewportScale": 1,
+    "width": 390,
+    "time": "2026-10-05T11:57:45.922Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "home-before-1440x900",
+    "state": "initial",
+    "height": 900,
+    "route": "/",
+    "scrollWidth": 1440,
+    "viewportScale": 1,
+    "width": 1440,
+    "time": "2026-10-05T11:58:48.626Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "demo-before-1440x900",
+    "state": "initial/ba pha công khai",
+    "height": 900,
+    "route": "/demo-lesson",
+    "scrollWidth": 1440,
+    "viewportScale": 1,
+    "width": 1440,
+    "time": "2026-10-05T11:59:02.929Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "demo-before-390x844",
+    "state": "initial/ba pha công khai",
+    "height": 844,
+    "route": "/demo-lesson",
+    "scrollWidth": 390,
+    "viewportScale": 1,
+    "width": 390,
+    "time": "2026-10-05T11:59:03.133Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "login-before-390x844",
+    "state": "initial",
+    "height": 844,
+    "route": "/login",
+    "scrollWidth": 390,
+    "viewportScale": 1,
+    "width": 390,
+    "time": "2026-10-05T11:59:35.159Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "login-required-390x844",
+    "state": "submit empty: native validation; no request to DB",
+    "height": 844,
+    "route": "/login",
+    "scrollWidth": 390,
+    "viewportScale": 1,
+    "width": 390,
+    "time": "2026-10-05T11:59:35.513Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "login-before-1440x900",
+    "state": "Form sau submit trống; tooltip required của trình duyệt",
+    "height": 900,
+    "route": "/login",
+    "scrollWidth": 1440,
+    "viewportScale": 1,
+    "width": 1440,
+    "time": "2026-10-05T11:59:35.659Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "register-before-1440x900",
+    "state": "initial",
+    "height": 900,
+    "route": "/register",
+    "scrollWidth": 1440,
+    "viewportScale": 1,
+    "width": 1440,
+    "time": "2026-10-05T11:59:58.806Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "register-before-390x844",
+    "state": "initial/first Tab",
+    "height": 844,
+    "route": "/register",
+    "scrollWidth": 390,
+    "viewportScale": 1,
+    "width": 390,
+    "time": "2026-10-05T11:59:59.176Z",
+    "version": "ui-review/version-baseline.json",
+    "observer": "lead",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "student-gate-390x844",
+    "state": "404 mặc định trước sửa; không phải chuyển đăng nhập",
+    "height": 844,
+    "route": "/student/lessons/00000000-0000-4000-8000-000000000001/before-class",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:12:38.694Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "UI-0001-B25-after-1440x900",
+    "state": "B25 tổng quan; nút số ngoài hình, trước kiểm lại độc lập",
+    "height": 900,
+    "route": "/hoc-lieu/truc-quan?bai=B25",
+    "scale": 1,
+    "scrollWidth": 1440,
+    "width": 1440,
+    "time": "2026-10-05T12:16:08.012Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "UI-0007-not-found-after-390x844",
+    "state": "Không mở được bài: hướng dẫn tiếng Việt và đường tiếp tục",
+    "height": 844,
+    "route": "/student/lessons/00000000-0000-4000-8000-000000000001/before-class",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:20:20.936Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "UI-0007-not-found-after-1440x900",
+    "state": "Thông báo không thể mở nội dung trên desktop",
+    "height": 900,
+    "route": "/student/lessons/00000000-0000-4000-8000-000000000001/before-class",
+    "scale": 1,
+    "scrollWidth": 1440,
+    "width": 1440,
+    "time": "2026-10-05T12:20:22.489Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "AI-drawer-input-390x844",
+    "state": "Câu hỏi học tập thử; AI cục bộ chưa sẵn sàng",
+    "height": 844,
+    "route": "/hoc-lieu/ai?bai=B25",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:27:46.560Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "AI-error-390x844",
+    "state": "Kết quả gửi câu hỏi thử khi AI cục bộ chưa sẵn sàng",
+    "height": 844,
+    "route": "/hoc-lieu/ai?bai=B25",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:28:26.400Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "UI-0009-menu-tab-before-390x844",
+    "state": "Menu aria-modal mở nhưng Tab ra nội dung nền",
+    "height": 844,
+    "route": "/hoc-lieu/ai?bai=B25",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:28:57.282Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "UI-0009-menu-tab-after-390x844",
+    "state": "Menu mở: Tab/Shift+Tab giữ focus trong menu",
+    "height": 844,
+    "route": "/hoc-lieu/ai?bai=B25",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:30:32.724Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "AI-live-result-390x844",
+    "state": "Kết quả thực tế câu hỏi thử B25 sau khi khởi động AI",
+    "height": 844,
+    "route": "/hoc-lieu/ai?bai=B25",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:34:29.151Z",
+    "observer": "Codex chính/CUA",
+    "version": "UI10 integration in progress; not frozen",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "UI-0010-AI-after-390x844",
+    "state": "AI sau sửa: phân biệt đoạn tham khảo với dữ kiện đề và quan hệ N/H",
+    "height": 844,
+    "route": "/hoc-lieu/ai?bai=B25",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:45:04.279Z",
+    "observer": "Codex chính/CUA",
+    "version_manifest": "version-ui12-lead.json",
+    "version_state": "UI12/HMR; manifest tham chiếu, chưa frozen",
+    "viewport_kind": "giả lập",
+    "version_reference_sha256": "ba7bcb7fe70b863a6561f9c9178e626f9d78f9affcf3c9fd911478cf958794fb",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "B25-table-after-390x844",
+    "state": "B25 bảng HTML/công thức bằng chữ, disclosure đã mở",
+    "height": 844,
+    "route": "/hoc-lieu/truc-quan?bai=B25",
+    "scale": 1,
+    "scrollWidth": 390,
+    "width": 390,
+    "time": "2026-10-05T12:45:36.766Z",
+    "observer": "Codex chính/CUA",
+    "version_manifest": "version-ui12-lead.json",
+    "version_state": "UI12/HMR; manifest tham chiếu, chưa frozen",
+    "viewport_kind": "giả lập",
+    "version_reference_sha256": "ba7bcb7fe70b863a6561f9c9178e626f9d78f9affcf3c9fd911478cf958794fb",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "B25-table-after-360x800",
+    "state": "B25 bảng HTML đọc ở360px; không tràn document",
+    "height": 800,
+    "route": "/hoc-lieu/truc-quan?bai=B25",
+    "scale": 1,
+    "scrollWidth": 360,
+    "width": 360,
+    "time": "2026-10-05T12:45:37.472Z",
+    "observer": "Codex chính/CUA",
+    "version_manifest": "version-ui12-lead.json",
+    "version_state": "UI12/HMR; manifest tham chiếu, chưa frozen",
+    "viewport_kind": "giả lập",
+    "version_reference_sha256": "ba7bcb7fe70b863a6561f9c9178e626f9d78f9affcf3c9fd911478cf958794fb",
+    "image_pixels": [
+      360,
+      800
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "B25-table-unit-360x800",
+    "state": "Đọc đơn vị và giới hạn mô hình ở360px",
+    "height": 800,
+    "route": "/hoc-lieu/truc-quan?bai=B25",
+    "scale": 1,
+    "scrollWidth": 360,
+    "width": 360,
+    "time": "2026-10-05T12:47:27.508Z",
+    "observer": "Codex chính/CUA",
+    "version_manifest": "version-ui12-lead.json",
+    "version_state": "UI12/HMR; manifest tham chiếu, chưa frozen",
+    "viewport_kind": "giả lập",
+    "version_reference_sha256": "ba7bcb7fe70b863a6561f9c9178e626f9d78f9affcf3c9fd911478cf958794fb",
+    "image_pixels": [
+      360,
+      800
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "AI-out-of-scope-360x800",
+    "state": "B25 khung AI trả lời câu hỏi ngoài phạm vi; ảnh trùng, không dùng nghiệm thu curriculum",
+    "height": 800,
+    "route": "/hoc-lieu/truc-quan?bai=B25",
+    "scale": 1,
+    "scrollWidth": 360,
+    "width": 360,
+    "time": "2026-10-05T12:54:39.418Z",
+    "observer": "Codex chính/CUA",
+    "version_manifest": "version-ui12-lead.json",
+    "workspace_web_sha256": "ba7bcb7fe70b863a6561f9c9178e626f9d78f9affcf3c9fd911478cf958794fb",
+    "version_state": "UI12 đang kiểm tra, chưa frozen",
+    "viewport_kind": "giả lập",
+    "correction": "Hàm chụp cũ giữ tab4; URL/viewport actual đã đối chiếu. Không tính ca danh mục.",
+    "image_pixels": [
+      360,
+      800
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "AI-out-of-scope-360x800-duplicate-1",
+    "state": "B25 khung AI trả lời câu hỏi ngoài phạm vi; ảnh trùng, không dùng nghiệm thu curriculum",
+    "height": 800,
+    "route": "/hoc-lieu/truc-quan?bai=B25",
+    "scale": 1,
+    "scrollWidth": 360,
+    "width": 360,
+    "time": "2026-10-05T12:54:39.716Z",
+    "observer": "Codex chính/CUA",
+    "version_manifest": "version-ui12-lead.json",
+    "workspace_web_sha256": "ba7bcb7fe70b863a6561f9c9178e626f9d78f9affcf3c9fd911478cf958794fb",
+    "version_state": "UI12 đang kiểm tra, chưa frozen",
+    "viewport_kind": "giả lập",
+    "correction": "Hàm chụp cũ giữ tab4; URL/viewport actual đã đối chiếu. Không tính ca danh mục.",
+    "image_pixels": [
+      360,
+      800
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "AI-out-of-scope-360x800-duplicate-2",
+    "state": "B25 khung AI trả lời câu hỏi ngoài phạm vi; ảnh trùng, không dùng nghiệm thu curriculum",
+    "height": 800,
+    "route": "/hoc-lieu/truc-quan?bai=B25",
+    "scale": 1,
+    "scrollWidth": 360,
+    "width": 360,
+    "time": "2026-10-05T12:54:40.022Z",
+    "observer": "Codex chính/CUA",
+    "version_manifest": "version-ui12-lead.json",
+    "workspace_web_sha256": "ba7bcb7fe70b863a6561f9c9178e626f9d78f9affcf3c9fd911478cf958794fb",
+    "version_state": "UI12 đang kiểm tra, chưa frozen",
+    "viewport_kind": "giả lập",
+    "correction": "Hàm chụp cũ giữ tab4; URL/viewport actual đã đối chiếu. Không tính ca danh mục.",
+    "image_pixels": [
+      360,
+      800
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "curriculum-IV-768x1024",
+    "state": "Danh mục Chương IV có năm link bài",
+    "height": 1024,
+    "route": "/hoc-lieu/chuong-trinh?chuong=IV",
+    "scale": 1,
+    "scrollWidth": 768,
+    "width": 768,
+    "tab_id": "5",
+    "time": "2026-10-05T12:56:02.737Z",
+    "observer": "Codex chính/CUA",
+    "version_state": "UI12/HMR; chưa frozen, manifest tham chiếu version-ui12-lead.json",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      768,
+      994
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "curriculum-IV-1440x900",
+    "state": "Danh mục Chương IV desktop",
+    "height": 900,
+    "route": "/hoc-lieu/chuong-trinh?chuong=IV",
+    "scale": 1,
+    "scrollWidth": 1440,
+    "width": 1440,
+    "tab_id": "5",
+    "time": "2026-10-05T12:56:03.340Z",
+    "observer": "Codex chính/CUA",
+    "version_state": "UI12/HMR; chưa frozen, manifest tham chiếu version-ui12-lead.json",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      675,
+      874
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "curriculum-IV-1280x720",
+    "state": "Danh mục Chương IV trình chiếu",
+    "height": 720,
+    "route": "/hoc-lieu/chuong-trinh?chuong=IV",
+    "scale": 1,
+    "scrollWidth": 1280,
+    "width": 1280,
+    "tab_id": "5",
+    "time": "2026-10-05T12:56:03.720Z",
+    "observer": "Codex chính/CUA",
+    "version_state": "UI12/HMR; chưa frozen, manifest tham chiếu version-ui12-lead.json",
+    "viewport_kind": "giả lập",
+    "image_pixels": [
+      1280,
+      720
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "curriculum-IV-1440x900-core-reviewed",
+    "route": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=IV",
+    "state": "IV năm bài B21–B25; initial; core full viewport",
+    "viewport": {
+      "height": 900,
+      "scale": 1,
+      "scrollWidth": 1440,
+      "url": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=IV",
+      "width": 1440
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:06:50.132Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-IV-1440x900-core-reviewed.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-IV-1440x900-core-reviewed.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": true
+  },
+  {
+    "name": "curriculum-IV-768x1024-core",
+    "route": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=IV",
+    "state": "IV initial; tablet",
+    "viewport": {
+      "height": 1024,
+      "scale": 1,
+      "scrollWidth": 768,
+      "url": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=IV",
+      "width": 768
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:07:00.771Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-IV-768x1024-core.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-IV-768x1024-core.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      768,
+      994
+    ],
+    "pixel_dimensions_match_viewport": false,
+    "image_limitation": "Ảnh bị cắt/sai số khung so với viewport DOM; giữ để truy nguyên, không dùng chứng minh toàn viewport đạt."
+  },
+  {
+    "name": "curriculum-IV-390x844-core",
+    "route": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=IV",
+    "state": "IV initial; phone; long Vietnamese title wraps",
+    "viewport": {
+      "height": 844,
+      "scale": 1,
+      "scrollWidth": 390,
+      "url": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=IV",
+      "width": 390
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:07:29.329Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-IV-390x844-core.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-IV-390x844-core.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": true
+  },
+  {
+    "name": "curriculum-I-390x844-core",
+    "route": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=I",
+    "state": "I danh mục, ghi rõ chưa có học liệu ngoài đề tài",
+    "viewport": {
+      "height": 844,
+      "scale": 1,
+      "scrollWidth": 390,
+      "url": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=I",
+      "width": 390
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:08:14.188Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-I-390x844-core.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-I-390x844-core.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": true
+  },
+  {
+    "name": "curriculum-II-390x844-core",
+    "route": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=II",
+    "state": "II danh mục ngoài phạm vi, điều hướng I→II",
+    "viewport": {
+      "height": 844,
+      "scale": 1,
+      "scrollWidth": 390,
+      "url": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=II",
+      "width": 390
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:08:46.310Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-II-390x844-core.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-II-390x844-core.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": true
+  },
+  {
+    "name": "curriculum-III-390x844-core",
+    "route": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=III",
+    "state": "III danh mục ngoài phạm vi, chuyển II→III",
+    "viewport": {
+      "height": 844,
+      "scale": 1,
+      "scrollWidth": 390,
+      "url": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=III",
+      "width": 390
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:11:07.258Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-III-390x844-core.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-III-390x844-core.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": true
+  },
+  {
+    "name": "curriculum-I-1440x900-core",
+    "route": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=I",
+    "state": "I danh mục ngoài phạm vi; desktop",
+    "viewport": {
+      "height": 900,
+      "scale": 1,
+      "scrollWidth": 1440,
+      "url": "http://localhost:3001/hoc-lieu/chuong-trinh?chuong=I",
+      "width": 1440
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:12:15.588Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-I-1440x900-core.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/curriculum-I-1440x900-core.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      1440,
+      900
+    ],
+    "pixel_dimensions_match_viewport": true
+  },
+  {
+    "name": "UI-0200-builder-after-390x844-core",
+    "route": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#resource-system-sim-nuclear-builder",
+    "state": "start/pause, marker 1 và chú giải Z=6 N=6 A=12",
+    "viewport": {
+      "height": 844,
+      "scale": 1,
+      "scrollWidth": 390,
+      "url": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#resource-system-sim-nuclear-builder",
+      "width": 390
+    },
+    "tab_id": "5",
+    "time_utc": "2026-10-05T14:12:40.628Z",
+    "version": "UI13 candidate 898fe3bf4e0d220b37a92ba938b242e16d71d488a821d043625ed8d3694c05e2; development HMR",
+    "device_kind": "viewport giả lập",
+    "image": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/UI-0200-builder-after-390x844-core.jpg",
+    "snapshot": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/ui-review/lead-evidence/UI-0200-builder-after-390x844-core.txt",
+    "capture_api": "core tab.screenshot fullPage=false",
+    "observer": "Codex chính; đã mở ảnh khi phát kết quả",
+    "image_pixels": [
+      390,
+      844
+    ],
+    "pixel_dimensions_match_viewport": true
+  }
+]

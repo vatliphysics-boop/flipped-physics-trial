@@ -1,0 +1,5 @@
+# Root UI12 — các bổ sung sau UI11
+
+Không phải phiên bản frozen. Root sửa PortalShell: menu Tabtrap/inert/focusclose/Escape trảtrigger; before/after390vàfocusJSON ởlead-evidence. UI0009 chờW2. Root bổsungB25ModelData HTMLdisclosure dưới explanation:4rows0/8001/4002/2003/100, công thứcN(t),λ,H, t/T khôngđơnvị/Tgiây→Bq vàgiới hạnmôhình. Worker3 chỉ trìnhbàyzoom khôngsửa science. Root thêm B25 theory quan hệN/H (H8), giữH1–H7; hinttemplate phânbiệt vídụhọcliệuvớidữkiệnđề. UI0010 before actualAItríchH3vớiH0151BqtrongkhicâuhỏinêuN0800; khôngphảiđoAIgâyhiệuquảhọc. DịchvụOllama binary/model đã có, rootkhởilocalhostPID43302; khôngcloud/APIkey/DB. Cầnthửlạigợiý B25/outscope vàxemảnh. Chatbot giải thích tựdo vẫn cógiớihạnAI; khôngkhẳngđịnhđạtngữnghĩatoànbộ.
+
+Đãloại1câunguồntrùng khỏiunified212, giữtranscriptiondraft. Tests question-bank11/11; fulltestsUI11 làtrướcthêmAIguidance/table/menu, chờtechfinal. W2UI11 hiệnđangthửphạmvihình/plan/AI/rootguards; W3UI11 đang17môphỏng. Hashui12lead dùngcùngalgorithm mapweb nhưngcófilemới; khôngquycácthayđổirootchoworkerreadonly.

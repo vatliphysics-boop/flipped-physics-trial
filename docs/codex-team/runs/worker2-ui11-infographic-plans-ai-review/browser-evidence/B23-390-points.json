@@ -1,0 +1,38 @@
+{
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+  "size": [
+    390,
+    844
+  ],
+  "version": "UI11 not frozen",
+  "states": [
+    {
+      "label": "1. α và giấy",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nĐường α dừng ở tấm giấy trong hình minh họa.\n\nGIẢI THÍCH\n\nα là hạt nhân helium-4 mang điện +2e; khi phân rã α, A giảm 4 và Z giảm 2.",
+      "target": [
+        138,
+        44
+      ]
+    },
+    {
+      "label": "2. β và nhôm",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+      "target": [
+        138,
+        44
+      ]
+    },
+    {
+      "label": "3. γ suy giảm",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nĐường γ qua chì được vẽ nhạt hơn, còn tín hiệu phía sau.\n\nGIẢI THÍCH\n\nγ là photon năng lượng cao. Chì/bê tông làm suy giảm cường độ; phát γ riêng lẻ không đổi A và Z.",
+      "target": [
+        288,
+        44
+      ]
+    }
+  ],
+  "overlays": 0
+}

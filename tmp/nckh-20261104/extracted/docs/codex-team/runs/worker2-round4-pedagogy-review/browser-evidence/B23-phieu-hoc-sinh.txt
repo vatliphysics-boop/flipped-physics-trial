@@ -1,0 +1,123 @@
+PART word/document.xml
+P0000 Phiếu học tập ba pha
+P0001 Chu kì bán rã
+P0002 Vật lí 12 · Chương 4 Vật lí hạt nhân · B23
+P0003 Họ và tên ........................................................ Lớp .......... Nhóm ..........
+P0004 1 Hướng dẫn sử dụng phiếu học tập
+P0005 Phiếu gồm nhiệm vụ trước giờ học, trong giờ học và sau giờ học. Hoàn thành phần chuẩn bị trước khi đến lớp; giữ phiếu để tiếp tục trao đổi và tự làm phần vận dụng.
+P0006 Mục tiêu
+P0007 Định nghĩa chu kì bán rã.
+P0008 Vận dụng công thức x = x₀e⁻λᵗ với độ phóng xạ, số hạt chưa phân rã hoặc tốc độ số hạt đếm được.
+P0009 Thời gian và cách thực hiện
+P0010 Trước giờ học: 15 phút. Câu trả lời cá nhân và một nội dung cần trao đổi trên lớp.
+P0011 Trong giờ học: 40 phút. Lời giải có các bước và căn cứ; kết luận của nhóm sau trao đổi.
+P0012 Sau giờ học: 15 phút. Bài làm cá nhân có giải thích, một điều tự sửa và cách kiểm tra lại.
+P0013 Đọc nhiệm vụ của từng pha rồi làm các câu hỏi ngay bên dưới. Ghi cách làm và căn cứ vào khung trả lời. Khi chưa hiểu, ghi cụ thể chỗ cần hỗ trợ; khi đã hiểu, ghi cách kiểm tra kết quả.
+P0014 Trước khi làm, xem rubrics ở phần 3 để biết tiêu chí. Trong giờ học, mỗi bạn vẫn ghi bài làm riêng sau khi trao đổi nhóm. Sau giờ học, hoàn thành phần vận dụng và nộp phiếu theo thời hạn giáo viên giao.
+P0015 Học liệu sử dụng
+P0016 Trước giờ học: B23 · Kiến thức và phiếu học tập ba giai đoạn
+P0017 Trong giờ học: Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T
+P0018 Sau giờ học: B23 · Sửa ba lỗi thường gặp
+P0020 2 Phiếu học tập cho học sinh
+P0021 Pha 1 Trước giờ học
+P0022 Thời gian dự kiến: 15 phút
+P0023 Mục tiêu của pha: Chuẩn bị kiến thức và xác định điều chưa hiểu trước khi đến lớp.
+P0024 Việc cần làm
+P0025 1. Đọc mục chu kì bán rã trong học liệu Phóng xạ.
+P0026 2. Trả lời câu hỏi: nêu rõ đại lượng giảm còn một nửa và ý nghĩa của chu kì T.
+P0027 3. Ghi một điều chưa hiểu để mang đến lớp.
+P0028 Câu 1
+P0029 Phát biểu định nghĩa chu kì bán rã.
+P0030 Bài làm của em
+P0031 ................................................................................................
+P0032 ................................................................................................
+P0033 ................................................................................................
+P0034 ................................................................................................
+P0035 ................................................................................................
+P0037 Sản phẩm cần hoàn thành
+P0038 Câu trả lời cá nhân và một nội dung cần trao đổi trên lớp.
+P0039 Tự kiểm tra: Trả lời đúng yêu cầu; ghi điều chưa hiểu hoặc căn cứ của cách trả lời.
+P0040 Điều em chưa hiểu hoặc căn cứ của câu trả lời:
+P0041 ................................................................................................
+P0042 ................................................................................................
+P0044 Pha 2 Trong giờ học
+P0045 Thời gian dự kiến: 40 phút
+P0046 Mục tiêu của pha: Kiểm tra và giải thích kết quả bằng dữ kiện, hình và học liệu của bài.
+P0047 Việc cần làm
+P0048 1. Đọc dữ kiện bài tập; phân biệt tỉ lệ đã phân rã và tỉ lệ còn lại.
+P0049 2. Mở mô phỏng bán rã; so sánh phần còn lại sau 1T và 2T để kiểm tra cách hiểu.
+P0050 3. Lập biểu thức liên hệ thời gian, phần còn lại và T rồi giải bài. Nhóm đối chiếu phép tính, mỗi bạn ghi kết luận riêng.
+P0051 Câu 2
+P0052 Đồng vị 815O sau 244 s có 75% số hạt nhân ban đầu đã phân rã. Tính chu kì bán rã.
+P0053 Bài làm của em
+P0054 ................................................................................................
+P0055 ................................................................................................
+P0056 ................................................................................................
+P0057 ................................................................................................
+P0058 ................................................................................................
+P0060 Sản phẩm cần hoàn thành
+P0061 Lời giải có các bước và căn cứ; kết luận của nhóm sau trao đổi.
+P0062 Tự kiểm tra: Sử dụng đúng dữ kiện, kí hiệu và đơn vị; giải thích được cách làm và điều đã sửa.
+P0063 Kết luận của em sau trao đổi và điều đã sửa:
+P0064 ................................................................................................
+P0065 ................................................................................................
+P0067 Pha 3 Sau giờ học
+P0068 Thời gian dự kiến: 15 phút
+P0069 Mục tiêu của pha: Vận dụng kiến thức và tự kiểm tra lời giải.
+P0070 Việc cần làm
+P0071 1. Tự làm bài: lập tỉ số lượng đồng vị còn lại so với ban đầu cho từng trường hợp.
+P0072 2. Dùng công thức bán rã tìm thời gian; trình bày phép tính và đơn vị.
+P0073 3. Kiểm tra trường hợp nào cần nhiều thời gian hơn; ghi điều đã sửa hoặc cách kiểm tra kết quả.
+P0074 Câu 3
+P0075 Dược chất Flortaucipir chứa 918F có chu kì bán rã khoảng 110 phút. Sau bao lâu lượng đồng vị giảm còn 10% và 1% lúc đầu?
+P0076 Bài làm của em
+P0077 ................................................................................................
+P0078 ................................................................................................
+P0079 ................................................................................................
+P0080 ................................................................................................
+P0081 ................................................................................................
+P0083 Sản phẩm cần hoàn thành
+P0084 Bài làm cá nhân có giải thích, một điều tự sửa và cách kiểm tra lại.
+P0085 Tự kiểm tra: Lời giải đúng yêu cầu; kết quả có đơn vị nếu cần; nêu được cách tự kiểm tra.
+P0086 Điều em đã sửa hoặc cách em kiểm tra kết quả:
+P0087 ................................................................................................
+P0088 ................................................................................................
+P0090 3 Rubrics đánh giá
+P0091 Chọn một mức cho mỗi tiêu chí dựa trên bài làm và phần tự kiểm tra. Học sinh tự đánh giá trước; giáo viên đối chiếu sản phẩm và ghi nhận xét, hướng dẫn sửa.
+P0092 Tiêu chí
+P0093 Hoàn thành tốt
+P0094 Đạt yêu cầu
+P0095 Cần bổ sung
+P0096 Chưa có sản phẩm
+P0097 Chuẩn bị trước giờ học
+P0098 Trả lời có căn cứ; nêu rõ điều chưa hiểu hoặc giải thích vì sao đã hiểu.
+P0099 Có câu trả lời và nội dung cần trao đổi; còn thiếu căn cứ.
+P0100 Câu trả lời thiếu ý; chưa xác định được điều cần trao đổi.
+P0101 Chưa có phần chuẩn bị.
+P0102 Giải thích và sử dụng dữ kiện
+P0103 Lời giải đúng; chỉ rõ dữ kiện, hình hoặc công thức làm căn cứ.
+P0104 Cách làm phù hợp; còn một thiếu sót nhỏ về diễn giải hoặc đơn vị.
+P0105 Có hướng giải nhưng dùng dữ kiện, kiến thức hoặc đơn vị chưa đúng.
+P0106 Chưa có lời giải hoặc chưa nêu được cách làm.
+P0107 Vận dụng sau giờ học
+P0108 Bài làm đúng, đủ các bước và kiểm tra được kết quả.
+P0109 Giải quyết yêu cầu chính; còn thiếu một bước hoặc cách kiểm tra.
+P0110 Mới làm được một phần; còn lỗi kiến thức hoặc phép tính.
+P0111 Chưa thực hiện bài vận dụng.
+P0112 Tự kiểm tra và điều chỉnh
+P0113 Nêu rõ điều đã sửa hoặc căn cứ xác nhận lời giải; có cách kiểm tra lại.
+P0114 Có tự kiểm tra và điều chỉnh nhưng giải thích còn ngắn.
+P0115 Chỉ ghi đã sửa/đã hiểu, chưa chỉ ra nội dung và cách kiểm tra.
+P0116 Chưa có phần tự kiểm tra.
+P0118 Chuẩn bị trước giờ học: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0119 Giải thích và sử dụng dữ kiện: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0120 Vận dụng sau giờ học: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0121 Tự kiểm tra và điều chỉnh: Học sinh chọn mức ............ Giáo viên chọn mức ............
+P0122 Nhận xét và việc cần làm tiếp
+P0123 Điểm đã làm được: ............................................................................
+P0124 Nội dung cần sửa: ..............................................................................
+P0125 Cách sửa và thời hạn hoàn thành: ......................................................
+PART word/footer1.xml
+P0000 Trang 
+PART word/footnotes.xml
+PART word/endnotes.xml

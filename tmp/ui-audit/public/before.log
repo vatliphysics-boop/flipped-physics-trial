@@ -1,0 +1,46 @@
+home 1366 200 1366 0
+library 1366 200 1366 0
+lab-b21 1366 200 1366 0
+lab-b22 1366 200 1366 0
+lab-b23 1366 200 1366 0
+lab-b24 1366 200 1366 0
+lab-b25 1366 200 1366 0
+visual-studio 1366 200 1366 0
+ERROR video 1366 locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Mở video B21', exact: true })[22m
+
+infographic-history 1366 200 1366 0
+demo 1366 200 1366 0
+curriculum 1366 200 1366 0
+student-ai 1366 200 1366 0
+teacher-tools 1366 200 1366 0
+worksheet 1366 200 1366 0
+prepare-lesson 1366 200 1366 0
+plan-editor 1366 200 1366 0
+flipped-guide 1366 200 1366 0
+assessment-catalog 1366 200 1366 0
+document-catalog 1366 200 1366 0
+home 390 200 390 0
+library 390 200 390 0
+lab-b21 390 200 390 0
+lab-b22 390 200 390 0
+lab-b23 390 200 390 0
+lab-b24 390 200 390 0
+lab-b25 390 200 390 0
+visual-studio 390 200 390 0
+ERROR video 390 locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Mở video B21', exact: true })[22m
+
+infographic-history 390 200 390 0
+demo 390 200 390 0
+curriculum 390 200 390 0
+student-ai 390 200 390 0
+teacher-tools 390 200 390 0
+worksheet 390 200 390 0
+prepare-lesson 390 200 390 0
+plan-editor 390 200 390 0
+flipped-guide 390 200 390 0
+assessment-catalog 390 200 390 0
+document-catalog 390 200 390 0

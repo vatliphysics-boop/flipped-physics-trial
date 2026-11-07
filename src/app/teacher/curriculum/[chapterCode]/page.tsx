@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TeacherShell } from "../../TeacherShell";
 import { getTeacherClasses, getTeacherContext } from "../../data";
-import { getCurriculumChapter, CHAPTER_TOPIC_TITLES, type CurriculumChapterCode } from "@/lib/curriculum";
+import { getCurriculumChapter, CHAPTER_TOPIC_TITLES, getCurriculumLessonByTitle, type CurriculumChapterCode } from "@/lib/curriculum";
 import { ChapterIllustration, chapterDescriptions, chapterTones } from "@/components/learning/LessonLearningCard";
 import { LEARNING_PHASES, type LearningPhase } from "@/lib/learning-phases";
 import { SetupLessonButton } from "../../SetupLessonButton";
@@ -48,7 +48,7 @@ export default async function TeacherChapterPage({ params, searchParams }: { par
 
   // Map DB lessons by title (normalized) so we can match to fixed curriculum lessons.
   const lessonsByTitle = new Map(
-    (lessons ?? []).map((lesson) => [lesson.title.trim().toLowerCase(), lesson]),
+    (lessons ?? []).map((lesson) => [getCurriculumLessonByTitle(lesson.title, chapter.code)?.code ?? "", lesson]),
   );
 
   const materialCounts = new Map<string, Partial<Record<LearningPhase, number>>>();
@@ -80,7 +80,7 @@ export default async function TeacherChapterPage({ params, searchParams }: { par
         {chapter.lessons.map((fixedLesson) => {
           // Match DB lesson by title (normalized). The DB lesson for "phóng xạ" maps to
           // the fixed curriculum lesson "Hiện tượng phóng xạ" (B23).
-          const lesson = lessonsByTitle.get(fixedLesson.title.trim().toLowerCase());
+          const lesson = lessonsByTitle.get(fixedLesson.code);
           const counts = lesson ? (materialCounts.get(lesson.id) ?? {}) : {};
           const totalMaterials = Object.values(counts).reduce((s, n) => s + (n ?? 0), 0);
           return (

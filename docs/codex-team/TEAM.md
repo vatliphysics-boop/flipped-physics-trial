@@ -1,0 +1,13 @@
+# Phối hợp ba tài khoản
+
+Trưởng nhóm trong ứng dụng chịu trách nhiệm nội dung, học liệu, chatbot, mô hình khoa học, hoạt động học và tích hợp file chung. Worker 2 dùng `$HOME/.codex-plus-2`, đánh giá thực tế và duy nhất sửa `BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx`. Worker 3 dùng `$HOME/.codex-plus-3`, sửa UX/hiển thị/thao tác theo danh sách file từng job. Không có worker thay thế bằng tài khoản trưởng nhóm.
+
+Hai tài liệu căn cứ bất biến: `hd.docx` và tên thực tế `ĐÃ SỬA - NCKH.docx`. Tên thứ hai khác thứ tự tên người dùng nêu; nội dung là thuyết minh đề tài Vật lí hạt nhân lớp 12 THPT, đề ngày 04/09/2026. Hash và trích xuất đầy đủ lưu trong source-manifest.json. Các số người tham gia trong tổng quan tài liệu thuộc nghiên cứu được trích, không phải mẫu thử của web này.
+
+Mỗi job có quyền read-only khi review; workspace-write chỉ khi fix/article. Danh sách file được giao là hợp đồng sửa, có khóa worker và khóa từng file cùng audit hash; profile filesystem CLI giới hạn đúng file được giao và thư mục báo cáo/tạm. Browser MCP chạy ở host nên cwd được đặt trong evidence; luôn dùng filename tuyệt đối tại evidence và kiểm tra audit sau lượt. Trưởng nhóm xem mọi thay đổi bất ngờ trước tích hợp. Không chạy job cùng worker chồng nhau. Không xóa khóa còn tiến trình sống. Không commit thay đổi sẵn có, reset, clean hoặc tác động DB thật.
+
+Vòng: Worker 2 review → trưởng nhóm phân vấn đề khoa học/UX → trưởng nhóm và Worker 3 sửa file độc lập → Worker 2 review lại. Mỗi vấn đề cần ID/mức/trang/cách tái hiện/bằng chứng/căn cứ/tác động/tiêu chí đóng. Hai lượt review cuối liên tiếp phải cùng hash phiên bản, không lỗi mới ảnh hưởng nghiệm thu. COMPLETED_PENDING_LEAD_REVIEW chỉ có nghĩa CLI xong; không có nghĩa web đạt.
+
+Nếu auth/hạn mức/browser/dữ liệu thử bị chặn: ghi CHƯA ĐẠT và checkpoint, không tạo kết quả kiểm thử giả. Không coi cổng Supabase đang cấu hình là môi trường phát triển đã xác minh. Chỉ dùng tài khoản/dữ liệu thử được xác định rõ; chưa được phép ghi dữ liệu lên hệ thống chưa xác minh.
+
+DOCX: Worker 2 đọc skill Documents tại `/Users/vodoandangkhoi/.codex/plugins/cache/openai-primary-runtime/documents/26.905.11957/skills/documents/SKILL.md`; sao lưu trước sửa, giữ cấu trúc, bảng/hình/trích dẫn/định dạng còn đúng, cập nhật có căn cứ. Runtime Python: `/Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`; Node `/Users/vodoandangkhoi/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node`. Render bằng script của skill, chỉ dùng LibreOffice bundled nếu có; không dùng LibreOffice desktop. Phân biệt test kỹ thuật, phản biện AI và thực nghiệm người thật.

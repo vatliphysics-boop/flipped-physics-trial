@@ -1,0 +1,45 @@
+B21 {
+  codec: 'h264',
+  width: 1920,
+  height: 1080,
+  fps: 30,
+  frames: 2160,
+  seconds: 72,
+  bytes: 3324764
+} draft/output per-shot mean pixel difference { '0': 0.87, '12': 0.95, '24': 0.95, '36': 1.01, '48': 0.9, '60': 0.9 }
+B22 {
+  codec: 'h264',
+  width: 1920,
+  height: 1080,
+  fps: 30,
+  frames: 1800,
+  seconds: 60,
+  bytes: 2306417
+} draft/output per-shot mean pixel difference { '0': 1.04, '12': 1.09, '24': 1.08, '36': 0.99, '48': 1.05 }
+B23 {
+  codec: 'h264',
+  width: 1920,
+  height: 1080,
+  fps: 30,
+  frames: 1800,
+  seconds: 60,
+  bytes: 2322760
+} draft/output per-shot mean pixel difference { '0': 1.03, '12': 0.94, '24': 1, '36': 0.84, '48': 0.95 }
+B24 {
+  codec: 'h264',
+  width: 1920,
+  height: 1080,
+  fps: 30,
+  frames: 1800,
+  seconds: 60,
+  bytes: 2361421
+} draft/output per-shot mean pixel difference { '0': 1.06, '12': 1.08, '24': 1.04, '36': 1.1, '48': 1.1 }
+B25 {
+  codec: 'h264',
+  width: 1920,
+  height: 1080,
+  fps: 30,
+  frames: 1800,
+  seconds: 60,
+  bytes: 2100646
+} draft/output per-shot mean pixel difference { '0': 0.96, '12': 0.92, '24': 0.98, '36': 0.97, '48': 1.04 }

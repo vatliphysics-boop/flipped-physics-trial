@@ -1,0 +1,13 @@
+START B22
+B22 before-class teacher pathway loaded
+B22 in-class teacher pathway loaded
+B22 after-class teacher pathway loaded
+HTTP 404 /student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8/before-class
+B22 before-class student phase opened
+B22 before-class student step saved after reload
+PASS B22 before-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B22 in-class student phase opened
+B22 in-class student step saved after reload
+PASS B22 in-class: học sinh nộp, tải lại giữ dữ liệu, giáo viên đọc đúng minh chứng.
+B22 after-class student phase opened
+B22 after-class student step saved after reload

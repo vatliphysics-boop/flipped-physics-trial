@@ -1,0 +1,502 @@
+[
+  {
+    "id": "moet2018",
+    "type": "report",
+    "title": "Chương trình giáo dục phổ thông môn Vật lí",
+    "author": [
+      {
+        "literal": "Bộ Giáo dục và Đào tạo"
+      }
+    ],
+    "URL": "https://thcsandong.haiphong.edu.vn/van-ban-bo-gddt/chuong-trinh-giao-duc-pho-thong-mon-vat-ly-ban-hanh-kem-theo-thong-tu-so-322018/vbctmb/20343/91436",
+    "note": "Ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    }
+  },
+  {
+    "id": "fuseschool",
+    "type": "motion_picture",
+    "title": "What is nuclear fission? | Radioactivity | Physics | FuseSchool",
+    "author": [
+      {
+        "literal": "FuseSchool – Global Education"
+      }
+    ],
+    "publisher": "YouTube",
+    "URL": "https://www.youtube.com/watch?v=D91T-B-PVE0"
+  },
+  {
+    "id": "iaea",
+    "type": "webpage",
+    "title": "Food irradiation",
+    "author": [
+      {
+        "literal": "International Atomic Energy Agency"
+      }
+    ],
+    "URL": "https://www.iaea.org/topics/food-irradiation"
+  },
+  {
+    "id": "liu2024",
+    "type": "article-journal",
+    "title": "Design principles for supporting self-regulated learning in flipped classrooms: A systematic review",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Lejia"
+      },
+      {
+        "family": "Hew",
+        "given": "Khe Foon"
+      },
+      {
+        "family": "Du",
+        "given": "Jiahui"
+      }
+    ],
+    "container-title": "International Journal of Educational Research",
+    "volume": "124",
+    "page": "102319",
+    "DOI": "10.1016/j.ijer.2024.102319",
+    "URL": "https://www.sciencedirect.com/science/article/abs/pii/S0883035524000065",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "id": "mai2024",
+    "type": "article-journal",
+    "title": "Xây dựng và sử dụng học liệu số hỗ trợ dạy học mạch nội dung Động lượng – Vật lí 10 theo mô hình lớp học đảo ngược",
+    "author": [
+      {
+        "family": "Mai",
+        "given": "Hoàng Phương"
+      },
+      {
+        "family": "Hồ",
+        "given": "Văn Tài"
+      },
+      {
+        "family": "Phan",
+        "given": "Thanh Thúy"
+      },
+      {
+        "family": "Phạm",
+        "given": "Thụy Phương Uyên"
+      },
+      {
+        "family": "Nguyễn",
+        "given": "Thị Mỹ Duyên"
+      }
+    ],
+    "container-title": "TNU Journal of Science and Technology",
+    "volume": "229",
+    "issue": "01/S",
+    "page": "197–206",
+    "DOI": "10.34238/tnu-jst.9209",
+    "URL": "https://jst.tnu.edu.vn/jst/article/view/9209",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "id": "mckenney2019",
+    "type": "book",
+    "title": "Conducting educational design research",
+    "author": [
+      {
+        "family": "McKenney",
+        "given": "Susan"
+      },
+      {
+        "family": "Reeves",
+        "given": "Thomas C."
+      }
+    ],
+    "publisher": "Routledge",
+    "edition": "2",
+    "URL": "https://www.routledge.com/Conducting-Educational-Design-Research-2nd-Edition/McKenney-Reeves/p/book/9781138095564",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  },
+  {
+    "id": "miao2023",
+    "type": "book",
+    "title": "Guidance for generative AI in education and research",
+    "author": [
+      {
+        "family": "Miao",
+        "given": "Fengchun"
+      },
+      {
+        "family": "Holmes",
+        "given": "Wayne"
+      }
+    ],
+    "publisher": "UNESCO",
+    "DOI": "10.54675/EWZM9535",
+    "URL": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    }
+  },
+  {
+    "id": "nibib",
+    "type": "webpage",
+    "title": "Nuclear medicine",
+    "author": [
+      {
+        "literal": "National Institute of Biomedical Imaging and Bioengineering"
+      }
+    ],
+    "URL": "https://www.nibib.nih.gov/science-education/science-topics/nuclear-medicine"
+  },
+  {
+    "id": "ollama",
+    "type": "webpage",
+    "title": "qwen3:4b-instruct-2507-q4_K_M",
+    "author": [
+      {
+        "literal": "Ollama"
+      }
+    ],
+    "URL": "https://ollama.com/library/qwen3:4b-instruct-2507-q4_K_M"
+  },
+  {
+    "id": "urone2022",
+    "type": "book",
+    "title": "College physics",
+    "author": [
+      {
+        "family": "Urone",
+        "given": "Paul Peter"
+      },
+      {
+        "family": "Hinrichs",
+        "given": "Roger"
+      }
+    ],
+    "publisher": "OpenStax",
+    "edition": "2",
+    "URL": "https://openstax.org/details/books/college-physics-2e",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vanalten2019",
+    "type": "article-journal",
+    "title": "Effects of flipping the classroom on learning outcomes and satisfaction: A meta-analysis",
+    "author": [
+      {
+        "family": "van Alten",
+        "given": "David C. D."
+      },
+      {
+        "family": "Phielix",
+        "given": "Chris"
+      },
+      {
+        "family": "Janssen",
+        "given": "Jeroen"
+      },
+      {
+        "family": "Kester",
+        "given": "Liesbeth"
+      }
+    ],
+    "container-title": "Educational Research Review",
+    "volume": "28",
+    "page": "100281",
+    "DOI": "10.1016/j.edurev.2019.05.003",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S1747938X18305694",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  },
+  {
+    "id": "vu2024",
+    "type": "book",
+    "title": "Vật lí 12",
+    "author": [
+      {
+        "family": "Vũ",
+        "given": "Văn Hùng"
+      },
+      {
+        "family": "Nguyễn",
+        "given": "Văn Biên"
+      },
+      {
+        "family": "Trần",
+        "given": "Ngọc Chất"
+      },
+      {
+        "family": "Phạm",
+        "given": "Kim Chung"
+      },
+      {
+        "family": "Đặng",
+        "given": "Thanh Hải"
+      },
+      {
+        "family": "Tưởng",
+        "given": "Duy Hải"
+      },
+      {
+        "family": "Bùi",
+        "given": "Gia Thịnh"
+      }
+    ],
+    "publisher": "Nhà xuất bản Giáo dục Việt Nam",
+    "note": "Kết nối tri thức với cuộc sống; bản mẫu tháng 1/2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "id": "zimmerman2002",
+    "type": "article-journal",
+    "title": "Becoming a self-regulated learner: An overview",
+    "author": [
+      {
+        "family": "Zimmerman",
+        "given": "Barry J."
+      }
+    ],
+    "container-title": "Theory Into Practice",
+    "volume": "41",
+    "issue": "2",
+    "page": "64–70",
+    "DOI": "10.1207/s15430421tip4102_2",
+    "URL": "https://www.tandfonline.com/doi/abs/10.1207/s15430421tip4102_2",
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    }
+  },
+  {
+    "id": "miao2024teachers",
+    "type": "book",
+    "title": "AI competency framework for teachers",
+    "author": [
+      {
+        "family": "Miao",
+        "given": "Fengchun"
+      },
+      {
+        "family": "Cukurova",
+        "given": "Mutlu"
+      }
+    ],
+    "publisher": "UNESCO",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "URL": "https://www.unesco.org/en/articles/ai-competency-framework-teachers"
+  },
+  {
+    "id": "roy2024",
+    "type": "report",
+    "title": "ChatGPT in lesson preparation: A Teacher Choices trial",
+    "author": [
+      {
+        "family": "Roy",
+        "given": "Palak"
+      },
+      {
+        "family": "Poet",
+        "given": "Helen"
+      },
+      {
+        "family": "Staunton",
+        "given": "Ruth"
+      },
+      {
+        "family": "Aston",
+        "given": "Katherine"
+      },
+      {
+        "family": "Thomas",
+        "given": "David"
+      }
+    ],
+    "publisher": "Education Endowment Foundation",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "URL": "https://d2tic4wvo1iusb.cloudfront.net/production/documents/projects/chatgpt_in_lesson_planning_-_evaluation_report.pdf"
+  },
+  {
+    "id": "moet2020plan",
+    "type": "report",
+    "title": "Khung kế hoạch bài dạy",
+    "author": [
+      {
+        "literal": "Bộ Giáo dục và Đào tạo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          18
+        ]
+      ]
+    },
+    "note": "Phụ lục IV kèm Công văn số 5512/BGDĐT-GDTrH ngày 18/12/2020; đối chiếu bản do người dùng cung cấp"
+  },
+  {
+    "id": "moet2024assessment",
+    "type": "report",
+    "title": "Công văn số 7991/BGDĐT-GDTrH về thực hiện kiểm tra, đánh giá đối với cấp THCS, THPT",
+    "author": [
+      {
+        "literal": "Bộ Giáo dục và Đào tạo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          17
+        ]
+      ]
+    },
+    "note": "Phụ lục ma trận và bản đặc tả; đối chiếu ba trang bản do người dùng cung cấp"
+  },
+  {
+    "id": "huynh2026nuclear",
+    "type": "article-journal",
+    "title": "Tích hợp lịch sử vật lí nguyên tử và hạt nhân trong giảng dạy",
+    "author": [
+      {
+        "family": "Huỳnh",
+        "given": "Thị Yến Nhi"
+      },
+      {
+        "family": "Nguyễn",
+        "given": "Thị Thu Hương"
+      },
+      {
+        "family": "Lê",
+        "given": "Anh Đức"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": "Tạp chí Khoa học Trường Đại học Sư phạm Thành phố Hồ Chí Minh",
+    "volume": "23",
+    "issue": "SI1",
+    "page": "537–547",
+    "DOI": "10.54607/hcmue.js.23.SI1.5418(2026)",
+    "URL": "https://journal.hcmue.edu.vn/index.php/hcmuejos/article/download/5418/3902/22620"
+  },
+  {
+    "id": "bishop2013",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Bishop",
+        "given": "Jacob Lowell"
+      },
+      {
+        "family": "Verleger",
+        "given": "Matthew A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          23
+        ]
+      ]
+    },
+    "title": "The flipped classroom: A survey of the research",
+    "container-title": "2013 ASEE Annual Conference & Exposition",
+    "publisher": "ASEE Conferences",
+    "event-place": "Atlanta, Georgia",
+    "page": "23.1200.1–23.1200.18",
+    "DOI": "10.18260/1-2--22585",
+    "URL": "https://peer.asee.org/the-flipped-classroom-a-survey-of-the-research"
+  },
+  {
+    "id": "krathwohl2002",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Krathwohl",
+        "given": "David R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2002
+        ]
+      ]
+    },
+    "title": "A revision of Bloom’s taxonomy: An overview",
+    "container-title": "Theory Into Practice",
+    "volume": "41",
+    "issue": "4",
+    "page": "212–218",
+    "DOI": "10.1207/s15430421tip4104_2",
+    "URL": "https://www.tandfonline.com/doi/abs/10.1207/s15430421tip4104_2"
+  }
+]

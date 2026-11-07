@@ -1,0 +1,17 @@
+{
+  "id": "worker3-ui13-mcp-focused-retest",
+  "worker": 3,
+  "mode": "review",
+  "timeout_seconds": 1500,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [
+    "worker3-ui12b-label-camera-chart-fix"
+  ],
+  "context_files": [
+    "docs/codex-team/runs/worker3-ui12b-label-camera-chart-fix/detailed-report.md",
+    "docs/codex-team/ui-review/version-ui13-candidate.json",
+    "docs/codex-team/ui-review/simulations.json"
+  ],
+  "task": "Chỉ kiểm tra thực tế UI0200/0201/0202 đã sửa; code candidate frozen UI13, root không sửa mã trong review. UI12b đã timeout, Chrome shell SIGABRT và không có ảnh sau, report trước nói đang chạy KHÔNG phải ca đạt. ĐỔI CÁCH: dùng MCP team_browser browser_navigate/resize/click/press_key/evaluate/take_screenshot. Tuyệt đối KHÔNG khởi Chrome bằng shell hoặc lặp launch SIGABRT. Probe đầu một route +start/pause+ảnh mở view_image, nếu MCP cũng không dùng được viết kịch bản cụ thể rồi báo BLOCKED_BROWSER. Ưu tiên 1) radiation-properties/safety 360,390,1440: start/pause bốn preset min/max slider 3D, chọn modes, về toàn cảnh; ảnh camera/legend thực tế không cắt đích/marker. Thêm1280/768 nếu đủ; từng ca chưa làm ghi rõ. 2) builder/isotope/geiger/reactor390 &1440 đọc marker/legend và thay tham số, tên/đơn vị/công thức không đổi; 3) binding-energy 360/390/768/1280/1440 Tab/Enter/Space chọnFe56/U235,pressed/status/checklist đúng và>=44hit. Xem ảnh before UI11 all-evidence và ảnh after thật bằng view_image; ghi danh sách ảnh đã mở. Chỉ review, không sửa 3 file; lỗi còn căn cứ báoUI-020x với bước/ảnh/acceptance. Lưu draft report sau từng nhóm và kết thúc trước25phút, không quét lại112groups hoặc tất cả17sim nếu chưa xong3issue. Không gọi AI/DB/login/env/auth secrets. Trạng thái toàn website vẫn CHƯA ĐẠT; exit0 chỉ khi report thật đã viết, không ngồi chờ khởi chạy lỗi."
+}

@@ -1,0 +1,22 @@
+[
+ {"id":"sgk-kntt-e1124","latex":"Q=mc\\Delta T"},
+ {"id":"sgk-kntt-e1130","latex":"Q=\\lambda m"},
+ {"id":"sgk-kntt-e1136","latex":"Q=Lm"},
+ {"id":"sgk-kntt-e1167","latex":"pV=\\text{hằng số}"},
+ {"id":"sgk-kntt-e1168","latex":"p_1 V_1=p_2 V_2"},
+ {"id":"sgk-kntt-e1200","latex":"pV=nRT"},
+ {"id":"sgk-kntt-e1202","latex":"pV=nRT"},
+ {"id":"sgk-kntt-e1241","latex":"F=BIL\\sin\\alpha"},
+ {"id":"sgk-kntt-e1253","latex":"\\Phi=BS\\cos\\alpha"},
+ {"id":"sgk-kntt-e1262","latex":"e=E_0\\cos(\\omega t+\\varphi_0)"},
+ {"id":"sgk-kntt-e1267","latex":"\\Phi=BS\\cos\\alpha=BS\\cos\\omega t"},
+ {"id":"sgk-kntt-e1270","latex":"u=U_0\\cos(\\omega t+\\varphi_u)\\text{ (V)}"},
+ {"id":"sgk-kntt-e1274","latex":"i=I_0\\cos(\\omega t+\\varphi_i)\\text{ (A)}"},
+ {"id":"sgk-kntt-e1317","latex":"E=mc^2"},
+ {"id":"sgk-kntt-e1322","latex":"E_{lk}=E_2-E_1=[Zm_p+(A-Z)m_n-m_X]c^2=\\Delta mc^2"},
+ {"id":"sgk-kntt-e1330","latex":"N_t=N_0 2^{-\\frac{t}{T}}"},
+ {"id":"sgk-kntt-e1338","latex":"N_t=N_0 e^{-\\lambda t}"},
+ {"id":"sgk-kntt-e1339","latex":"H_t=H_0 e^{-\\lambda t}"},
+ {"id":"sgk-kntt-e1346","latex":"N_t=N_0 2^{-\\frac{t}{T}}=N_0 e^{-\\lambda t}"},
+ {"id":"sgk-kntt-e1348","latex":"H_t=\\lambda N_t=H_0 e^{-\\lambda t}"}
+]

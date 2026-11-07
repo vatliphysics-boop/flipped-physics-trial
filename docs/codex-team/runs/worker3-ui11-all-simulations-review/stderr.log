@@ -1,0 +1,5 @@
+2026-10-05T12:15:58.280858Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=seatbelt reason=operation_not_permitted path=unknown
+2026-10-05T12:17:45.310967Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=seatbelt reason=operation_not_permitted path=unknown
+2026-10-05T12:17:52.366854Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=seatbelt reason=operation_not_permitted path=unknown
+2026-10-05T12:18:50.035209Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=seatbelt reason=operation_not_permitted path=unknown
+2026-10-05T12:39:28.902009Z ERROR codex_core::tools::router: error=unable to locate image at `/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/energy-1440.png`: No such file or directory (os error 2)

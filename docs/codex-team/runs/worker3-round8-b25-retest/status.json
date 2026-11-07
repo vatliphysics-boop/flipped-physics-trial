@@ -1,0 +1,76 @@
+{
+  "id": "worker3-round8-b25-retest",
+  "worker": 3,
+  "mode": "review",
+  "start": "2026-10-05T09:35:19.610Z",
+  "status": "COMPLETED_PENDING_LEAD_REVIEW",
+  "session_ids": [
+    "01a10b6a-f3a0-7e90-93a6-ba6274787fa8"
+  ],
+  "exit_code": 0,
+  "allowed_files": [],
+  "timeout_seconds": 900,
+  "auth": {
+    "worker": 3,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-3",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-f5BQC8": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker3-round8-b25-retest/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow",
+        "www.youtube.com": "allow",
+        "www.youtube-nocookie.com": "allow",
+        "i.ytimg.com": "allow",
+        "fonts.gstatic.com": "allow",
+        "rr1---sn-8qj-nbo6d.googlevideo.com": "allow",
+        "rr1---sn-q4flrnl6.googlevideo.com": "allow",
+        "rr2---sn-8qj-i5ody.googlevideo.com": "allow",
+        "rr2---sn-8qj-nbo6d.googlevideo.com": "allow",
+        "rr2---sn-q4fzen7l.googlevideo.com": "allow",
+        "rr3---sn-hgn7rnee.googlevideo.com": "allow",
+        "rr3---sn-q4flrnez.googlevideo.com": "allow",
+        "rr3---sn-t0a7lnee.googlevideo.com": "allow",
+        "rr4---sn-8qj-i5ody.googlevideo.com": "allow",
+        "rr4---sn-8qj-i5oks.googlevideo.com": "allow",
+        "rr5---sn-8qj-i5ok6.googlevideo.com": "allow",
+        "rr6---sn-8qj-i5o6d.googlevideo.com": "allow",
+        "rr6---sn-8qj-nboey.googlevideo.com": "allow",
+        "rr7---sn-8qj-nboey.googlevideo.com": "allow",
+        "rr8---sn-8qj-i5o66.googlevideo.com": "allow",
+        "www.gstatic.com": "allow",
+        "yt3.ggpht.com": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-f5BQC8",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-f5BQC8/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-f5BQC8/evidence"
+  },
+  "pid": 35776,
+  "signal": null,
+  "end": "2026-10-05T09:41:18.324Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-f5BQC8",
+  "changed_files": [
+    "BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx",
+    "src/components/learning/VisualLearningStudio.tsx",
+    "scripts/codex-team/worker2-round8-article-update.json"
+  ],
+  "unexpected_changes": [
+    "BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx",
+    "src/components/learning/VisualLearningStudio.tsx",
+    "scripts/codex-team/worker2-round8-article-update.json"
+  ],
+  "protected_sources_unchanged": true
+}

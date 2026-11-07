@@ -1,0 +1,24 @@
+{
+  "base": "http://127.0.0.1:3476",
+  "report": [
+    {
+      "width": 1366,
+      "guidedFission": true,
+      "webgl": true,
+      "pause": true,
+      "resume": true,
+      "conservedProducts": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "guidedFission": true,
+      "webgl": true,
+      "pause": true,
+      "resume": true,
+      "conservedProducts": true,
+      "noOverflow": true
+    }
+  ],
+  "errors": []
+}

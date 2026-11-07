@@ -1,0 +1,590 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - link "Đi đến nội dung chính" [ref=f14e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f14e4]:
+      - generic [ref=f14e5]:
+        - button "Mở menu" [ref=f14e6] [cursor=pointer]:
+          - generic [ref=f14e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f14e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f14e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f14e12]:
+      - generic [ref=f14e14]:
+        - paragraph [ref=f14e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f14e16]
+        - paragraph [ref=f14e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f14e18]:
+        - group "Công việc của giáo viên" [ref=f14e19]:
+          - button "Ngân hàng đề" [pressed] [ref=f14e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f14e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f14e22] [cursor=pointer]
+        - generic [ref=f14e24]:
+          - heading "Ngân hàng đề Chương 4 Vật lí hạt nhân" [level=2] [ref=f14e25]
+          - paragraph [ref=f14e26]: Câu hỏi được biên soạn từ ba sách đã cung cấp, giữ yêu cầu và dữ kiện của bài gốc. Nhãn Bloom thể hiện thao tác nhận thức cần thực hiện. Các câu hỏi dùng chung một ngân hàng. Nội dung dạng chữ, công thức LaTeX. Khi xuất Word, công thức chuyển thành Equation có thể chỉnh sửa.
+          - navigation "Năm mục ngân hàng đề" [ref=f14e27]:
+            - button "Ngân hàng đề trắc nghiệm" [ref=f14e28] [cursor=pointer]
+            - button "Ngân hàng đề đúng sai" [ref=f14e29] [cursor=pointer]
+            - button "Ngân hàng đề trả lời ngắn" [ref=f14e30] [cursor=pointer]
+            - button "Ngân hàng đề tự luận" [ref=f14e31] [cursor=pointer]
+            - button "Up ma trận đề và xuất ra đề file Word" [active] [pressed] [ref=f14e32] [cursor=pointer]
+          - status
+          - generic [ref=f14e3661]:
+            - heading "Tải ma trận và tạo đề Word" [level=3] [ref=f14e3662]
+            - list [ref=f14e3663]:
+              - listitem [ref=f14e3664]: Nhập ma trận hoặc thêm bài và loại câu bên dưới.
+              - listitem [ref=f14e3665]:
+                - text: Nhấn
+                - strong [ref=f14e3666]: Chọn câu theo ma trận
+                - text: ", xem nội dung và đáp án."
+              - listitem [ref=f14e3667]:
+                - text: Đánh dấu đã kiểm tra rồi nhấn
+                - strong [ref=f14e3668]: Xuất đề file Word
+                - text: . Nếu tệp chưa tải xuống, dùng liên kết tải lại.
+            - paragraph [ref=f14e3669]: "Hỗ trợ CSV, JSON và bảng trong DOCX hoặc XLSX. Ma trận cần năm cột: Bài/chủ đề, Loại câu, Mức độ, Số câu, Điểm mỗi câu. Chọn câu đã kiểm tra; hệ thống báo rõ khi ngân hàng chưa đủ."
+            - generic [ref=f14e3670]:
+              - button "Tải mẫu ma trận" [ref=f14e3671] [cursor=pointer]
+              - generic [ref=f14e3672]:
+                - text: Up ma trận đề
+                - button "Up ma trận đề" [ref=f14e3673]
+            - generic [ref=f14e3674]:
+              - generic [ref=f14e3675]:
+                - text: Tên đề
+                - textbox "Tên đề" [ref=f14e3676]: Đề kiểm tra Chương 4 Vật lí hạt nhân
+              - generic [ref=f14e3677]:
+                - text: Thời gian (phút)
+                - spinbutton "Thời gian (phút)" [ref=f14e3678]: "45"
+              - generic [ref=f14e3679]:
+                - text: Mã lần chọn câu
+                - textbox "Mã lần chọn câu" [ref=f14e3680]: DE-01
+              - generic [ref=f14e3681]:
+                - text: Số mã đề
+                - combobox "Số mã đề" [ref=f14e3682]:
+                  - option "1" [selected]
+                  - option "2"
+                  - option "3"
+                  - option "4"
+            - generic [ref=f14e3683]:
+              - paragraph [ref=f14e3684]: Mỗi bài có bốn ô loại câu. Thêm các loại cần dùng; trong từng loại có thể thêm mức độ khác. Một bài có thể có cả trắc nghiệm và tự luận.
+              - region "Ma trận bài B21" [ref=f14e3685]:
+                - generic [ref=f14e3686]:
+                  - generic [ref=f14e3687]:
+                    - heading "B21 · Cấu trúc hạt nhân" [level=4] [ref=f14e3688]
+                    - generic [ref=f14e3689]: 2 câu · 1 điểm
+                  - button "Bỏ bài B21" [ref=f14e3690] [cursor=pointer]
+                - generic [ref=f14e3691]:
+                  - article [ref=f14e3692]:
+                    - heading "trắc nghiệm" [level=5] [ref=f14e3693]
+                    - generic [ref=f14e3694]:
+                      - generic [ref=f14e3695]:
+                        - text: Mức độ
+                        - combobox "Mức độ B21 trắc nghiệm dòng 1" [ref=f14e3696]:
+                          - option "Biết" [selected]
+                          - option "Hiểu"
+                          - option "Vận dụng"
+                      - generic [ref=f14e3697]:
+                        - generic [ref=f14e3698]:
+                          - text: Số câu
+                          - spinbutton "Số câu B21 trắc nghiệm dòng 1" [ref=f14e3699]: "2"
+                        - generic [ref=f14e3700]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B21 trắc nghiệm dòng 1" [ref=f14e3701]: "0.5"
+                      - generic [ref=f14e3702]: Ngân hàng có 4 câu phù hợp
+                      - button "Bỏ B21 trắc nghiệm dòng 1" [ref=f14e3703] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f14e3704] [cursor=pointer]
+                  - article [ref=f14e3705]:
+                    - heading "đúng sai" [level=5] [ref=f14e3706]
+                    - generic [ref=f14e3707]: Mỗi câu gồm bốn ý a–d.
+                    - button "Thêm vào bài" [ref=f14e3708] [cursor=pointer]
+                    - generic [ref=f14e3709]: Chưa chọn loại này.
+                  - article [ref=f14e3710]:
+                    - heading "trả lời ngắn" [level=5] [ref=f14e3711]
+                    - button "Thêm vào bài" [ref=f14e3712] [cursor=pointer]
+                    - generic [ref=f14e3713]: Chưa chọn loại này.
+                  - article [ref=f14e3714]:
+                    - heading "tự luận" [level=5] [ref=f14e3715]
+                    - button "Thêm vào bài" [ref=f14e3716] [cursor=pointer]
+                    - generic [ref=f14e3717]: Chưa chọn loại này.
+              - region "Ma trận bài B23" [ref=f14e3718]:
+                - generic [ref=f14e3719]:
+                  - generic [ref=f14e3720]:
+                    - heading "B23 · Phóng xạ" [level=4] [ref=f14e3721]
+                    - generic [ref=f14e3722]: 4 câu · 9 điểm
+                  - button "Bỏ bài B23" [ref=f14e3723] [cursor=pointer]
+                - generic [ref=f14e3724]:
+                  - article [ref=f14e3725]:
+                    - heading "trắc nghiệm" [level=5] [ref=f14e3726]
+                    - button "Thêm vào bài" [ref=f14e3727] [cursor=pointer]
+                    - generic [ref=f14e3728]: Chưa chọn loại này.
+                  - article [ref=f14e3729]:
+                    - heading "đúng sai" [level=5] [ref=f14e3730]
+                    - generic [ref=f14e3731]: Mỗi câu gồm bốn ý a–d.
+                    - generic [ref=f14e3732]:
+                      - generic [ref=f14e3733]:
+                        - text: Mức độ
+                        - combobox "Mức độ B23 đúng sai dòng 2" [ref=f14e3734]:
+                          - option "Biết"
+                          - option "Hiểu" [selected]
+                          - option "Vận dụng"
+                      - generic [ref=f14e3735]:
+                        - generic [ref=f14e3736]:
+                          - text: Số câu
+                          - spinbutton "Số câu B23 đúng sai dòng 2" [ref=f14e3737]: "1"
+                        - generic [ref=f14e3738]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B23 đúng sai dòng 2" [ref=f14e3739]: "2"
+                      - generic [ref=f14e3740]: Ngân hàng có 2 câu phù hợp
+                      - button "Bỏ B23 đúng sai dòng 2" [ref=f14e3741] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f14e3742] [cursor=pointer]
+                  - article [ref=f14e3743]:
+                    - heading "trả lời ngắn" [level=5] [ref=f14e3744]
+                    - generic [ref=f14e3745]:
+                      - generic [ref=f14e3746]:
+                        - text: Mức độ
+                        - combobox "Mức độ B23 trả lời ngắn dòng 3" [ref=f14e3747]:
+                          - option "Biết"
+                          - option "Hiểu"
+                          - option "Vận dụng" [selected]
+                      - generic [ref=f14e3748]:
+                        - generic [ref=f14e3749]:
+                          - text: Số câu
+                          - spinbutton "Số câu B23 trả lời ngắn dòng 3" [ref=f14e3750]: "2"
+                        - generic [ref=f14e3751]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B23 trả lời ngắn dòng 3" [ref=f14e3752]: "1"
+                      - generic [ref=f14e3753]: Ngân hàng có 9 câu phù hợp
+                      - button "Bỏ B23 trả lời ngắn dòng 3" [ref=f14e3754] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f14e3755] [cursor=pointer]
+                  - article [ref=f14e3756]:
+                    - heading "tự luận" [level=5] [ref=f14e3757]
+                    - generic [ref=f14e3758]:
+                      - generic [ref=f14e3759]:
+                        - text: Mức độ
+                        - combobox "Mức độ B23 tự luận dòng 4" [ref=f14e3760]:
+                          - option "Biết"
+                          - option "Hiểu"
+                          - option "Vận dụng" [selected]
+                      - generic [ref=f14e3761]:
+                        - generic [ref=f14e3762]:
+                          - text: Số câu
+                          - spinbutton "Số câu B23 tự luận dòng 4" [ref=f14e3763]: "1"
+                        - generic [ref=f14e3764]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B23 tự luận dòng 4" [ref=f14e3765]: "5"
+                      - generic [ref=f14e3766]: Ngân hàng có 20 câu phù hợp
+                      - button "Bỏ B23 tự luận dòng 4" [ref=f14e3767] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f14e3768] [cursor=pointer]
+              - generic [ref=f14e3769]:
+                - generic [ref=f14e3770]:
+                  - text: Thêm bài vào đề
+                  - combobox "Thêm bài vào đề" [ref=f14e3771]:
+                    - option "B22 · Phản ứng hạt nhân và năng lượng liên kết" [selected]
+                    - option "B24 · Công nghiệp hạt nhân"
+                    - option "B25 · Bài tập về vật lí hạt nhân"
+                - button "Thêm bài" [ref=f14e3772] [cursor=pointer]
+            - paragraph [ref=f14e3773]: 6 câu · Tổng 10 điểm
+            - group [ref=f14e3774]:
+              - generic "Yêu cầu cần đạt và bản đặc tả" [ref=f14e3775]
+            - generic [ref=f14e3776]:
+              - heading "Phân bố điểm" [level=3] [ref=f14e3777]
+              - paragraph [ref=f14e3778]: "trắc nghiệm: 10% · đúng sai: 20% · trả lời ngắn: 20% · tự luận: 50%"
+              - paragraph [ref=f14e3779]: "Biết: 10% · Hiểu: 20% · Vận dụng: 70%"
+              - paragraph [ref=f14e3780]: "Phụ lục Công văn 7991 có mẫu tham khảo: loại câu 30–20–20–30%, mức độ Biết–Hiểu–Vận dụng 40–30–30%. Phân bố hiện tại được ghi ở trên để giáo viên đối chiếu với kế hoạch kiểm tra của trường."
+            - button "Chọn câu theo ma trận" [ref=f14e3781] [cursor=pointer]
+            - heading "Đề đã chọn" [level=3] [ref=f14e3782]
+            - generic [ref=f14e3783]:
+              - paragraph [ref=f14e3784]:
+                - strong [ref=f14e3785]: Câu 1 · 0,5 điểm · B21
+              - generic [ref=f14e3786]: Các nguyên tử là nguyên tử đồng vị khi hạt nhân của chúng có
+              - paragraph [ref=f14e3787]:
+                - text: A.
+                - generic [ref=f14e3788]: cùng số proton.
+              - paragraph [ref=f14e3789]:
+                - text: B.
+                - generic [ref=f14e3790]: cùng số neutron.
+              - paragraph [ref=f14e3791]:
+                - text: C.
+                - generic [ref=f14e3792]: cùng số neutron.
+              - paragraph [ref=f14e3793]:
+                - text: D.
+                - generic [ref=f14e3794]: cùng khối lượng.
+              - group [ref=f14e3795]:
+                - generic "Đáp án và hướng dẫn chấm câu 1" [ref=f14e3796]
+            - generic [ref=f14e3797]:
+              - paragraph [ref=f14e3798]:
+                - strong [ref=f14e3799]: Câu 2 · 0,5 điểm · B21
+              - generic [ref=f14e3800]: Hạt nhân nguyên tử gồm
+              - paragraph [ref=f14e3801]:
+                - text: A.
+                - generic [ref=f14e3802]: electron và proton.
+              - paragraph [ref=f14e3803]:
+                - text: B.
+                - generic [ref=f14e3804]: neutron và proton.
+              - paragraph [ref=f14e3805]:
+                - text: C.
+                - generic [ref=f14e3806]: neutron và electron.
+              - paragraph [ref=f14e3807]:
+                - text: D.
+                - generic [ref=f14e3808]: electron và pozitron.
+              - group [ref=f14e3809]:
+                - generic "Đáp án và hướng dẫn chấm câu 2" [ref=f14e3810]
+            - generic [ref=f14e3811]:
+              - paragraph [ref=f14e3812]:
+                - strong [ref=f14e3813]: Câu 3 · 2 điểm · B23
+              - generic [ref=f14e3814]: Đánh dấu (x) vào các cột đúng hoặc sai tương ứng với các nội dung trong bảng dưới đây.
+              - paragraph [ref=f14e3815]:
+                - text: a)
+                - generic [ref=f14e3816]:
+                  - text: "Các loại tia phóng xạ chính: tia alpha là hạt nhân"
+                  - generic [ref=f14e3818]:
+                    - math [ref=f14e3820]:
+                      - generic [ref=f14e3822]:
+                        - generic [ref=f14e3823]:
+                          - generic [ref=f14e3824]: "2"
+                          - generic [ref=f14e3825]: "4"
+                        - generic [ref=f14e3826]:
+                          - generic [ref=f14e3827]: H
+                          - generic [ref=f14e3828]: e
+                    - generic [ref=f14e3830]:
+                      - generic [ref=f14e3835]:
+                        - generic [ref=f14e3836]: "2"
+                        - generic [ref=f14e3838]: "4"
+                      - generic [ref=f14e3843]: He
+                  - text: phóng ra từ hạt nhân phân rã, tốc độ khoảng
+                  - generic [ref=f14e3845]:
+                    - math [ref=f14e3847]:
+                      - generic [ref=f14e3849]:
+                        - generic [ref=f14e3850]: "2"
+                        - generic [ref=f14e3851]: ×
+                        - generic [ref=f14e3852]:
+                          - generic [ref=f14e3853]: "10"
+                          - generic [ref=f14e3854]: "7"
+                    - generic [ref=f14e3855]:
+                      - generic [ref=f14e3856]: 2 ×
+                      - generic [ref=f14e3857]:
+                        - text: "1"
+                        - generic [ref=f14e3858]:
+                          - text: "0"
+                          - generic [ref=f14e3859]: "7"
+                  - text: m/s; tia beta− (hoặc beta+) là dòng các hạt
+                  - generic [ref=f14e3865]:
+                    - math [ref=f14e3867]:
+                      - generic [ref=f14e3869]:
+                        - generic [ref=f14e3870]:
+                          - generic [ref=f14e3871]:
+                            - generic [ref=f14e3872]: −
+                            - generic [ref=f14e3873]: "1"
+                          - generic [ref=f14e3874]: "0"
+                        - generic [ref=f14e3875]: e
+                    - generic [ref=f14e3877]:
+                      - generic [ref=f14e3882]:
+                        - generic [ref=f14e3883]: −1
+                        - generic [ref=f14e3885]: "0"
+                      - text: e
+                  - text: (hoặc
+                  - generic [ref=f14e3891]:
+                    - math [ref=f14e3893]:
+                      - generic [ref=f14e3895]:
+                        - generic [ref=f14e3896]:
+                          - generic [ref=f14e3897]: "1"
+                          - generic [ref=f14e3898]: "0"
+                        - generic [ref=f14e3899]: e
+                    - generic [ref=f14e3901]:
+                      - generic [ref=f14e3906]:
+                        - generic [ref=f14e3907]: "1"
+                        - generic [ref=f14e3909]: "0"
+                      - text: e
+                  - text: ), tốc độ xấp xỉ ánh sáng; tia gamma là sóng điện từ có bước sóng rất ngắn, cỡ nhỏ hơn
+                  - generic [ref=f14e3915]:
+                    - math [ref=f14e3917]:
+                      - generic [ref=f14e3920]:
+                        - generic [ref=f14e3921]: "10"
+                        - generic [ref=f14e3922]:
+                          - generic [ref=f14e3923]: −
+                          - generic [ref=f14e3924]: "11"
+                    - generic [ref=f14e3926]:
+                      - text: "1"
+                      - generic [ref=f14e3927]:
+                        - text: "0"
+                        - generic [ref=f14e3928]: −11
+                  - text: m.
+              - paragraph [ref=f14e3934]:
+                - text: b)
+                - generic [ref=f14e3935]: Tia gamma là chùm hạt mang điện dương và có khả năng đâm xuyên rất lớn.
+              - paragraph [ref=f14e3936]:
+                - text: c)
+                - generic [ref=f14e3937]:
+                  - text: Số hạt chưa phân rã
+                  - generic [ref=f14e3939]:
+                    - math [ref=f14e3941]:
+                      - generic [ref=f14e3944]:
+                        - generic [ref=f14e3945]: "N"
+                        - generic [ref=f14e3946]: t
+                    - generic [ref=f14e3949]:
+                      - text: "N"
+                      - generic [ref=f14e3950]: t
+                  - text: tại t và số hạt ban đầu
+                  - generic [ref=f14e3959]:
+                    - math [ref=f14e3961]:
+                      - generic [ref=f14e3964]:
+                        - generic [ref=f14e3965]: "N"
+                        - generic [ref=f14e3966]: "0"
+                    - generic [ref=f14e3969]:
+                      - text: "N"
+                      - generic [ref=f14e3970]: "0"
+                  - text: liên hệ theo
+                  - generic [ref=f14e3979]:
+                    - math [ref=f14e3981]:
+                      - generic [ref=f14e3983]:
+                        - generic [ref=f14e3984]:
+                          - generic [ref=f14e3985]: "N"
+                          - generic [ref=f14e3986]: t
+                        - generic [ref=f14e3987]: =
+                        - generic [ref=f14e3988]:
+                          - generic [ref=f14e3989]: "N"
+                          - generic [ref=f14e3990]: "0"
+                        - generic [ref=f14e3991]:
+                          - generic [ref=f14e3992]: "2"
+                          - generic [ref=f14e3993]:
+                            - generic [ref=f14e3994]: −
+                            - generic [ref=f14e3995]: t
+                            - generic [ref=f14e3996]: /
+                            - generic [ref=f14e3997]: T
+                        - generic [ref=f14e3998]: =
+                        - generic [ref=f14e3999]:
+                          - generic [ref=f14e4000]: "N"
+                          - generic [ref=f14e4001]: "0"
+                        - generic [ref=f14e4002]:
+                          - generic [ref=f14e4003]: e
+                          - generic [ref=f14e4004]:
+                            - generic [ref=f14e4005]: −
+                            - generic [ref=f14e4006]: λ
+                            - generic [ref=f14e4007]: t
+                    - generic [ref=f14e4008]:
+                      - generic [ref=f14e4009]:
+                        - generic [ref=f14e4010]:
+                          - text: "N"
+                          - generic [ref=f14e4011]: t
+                        - text: =
+                      - generic [ref=f14e4019]:
+                        - generic [ref=f14e4020]:
+                          - text: "N"
+                          - generic [ref=f14e4021]: "0"
+                        - generic [ref=f14e4029]:
+                          - text: "2"
+                          - generic [ref=f14e4030]: −t/T
+                        - text: =
+                      - generic [ref=f14e4036]:
+                        - generic [ref=f14e4037]:
+                          - text: "N"
+                          - generic [ref=f14e4038]: "0"
+                        - generic [ref=f14e4046]:
+                          - text: e
+                          - generic [ref=f14e4047]: −λt
+                  - text: ;
+                  - generic [ref=f14e4054]:
+                    - math [ref=f14e4056]:
+                      - generic [ref=f14e4058]:
+                        - generic [ref=f14e4059]: λ
+                        - generic [ref=f14e4060]: =
+                        - generic [ref=f14e4061]: ln
+                        - generic: ⁡
+                        - generic [ref=f14e4062]: "2"
+                        - generic [ref=f14e4063]: /
+                        - generic [ref=f14e4064]: T
+                    - generic [ref=f14e4065]:
+                      - generic [ref=f14e4066]: λ =
+                      - generic [ref=f14e4067]: ln 2/T
+                  - text: là hằng số phóng xạ, T là chu kì bán rã.
+              - paragraph [ref=f14e4068]:
+                - text: d)
+                - generic [ref=f14e4069]:
+                  - text: Độ phóng xạ H đặc trưng tính phóng xạ mạnh hay yếu của một lượng chất phóng xạ, bằng số hạt nhân phân rã trong một giây;
+                  - generic [ref=f14e4071]:
+                    - math [ref=f14e4073]:
+                      - generic [ref=f14e4075]:
+                        - generic [ref=f14e4076]:
+                          - generic [ref=f14e4077]: H
+                          - generic [ref=f14e4078]: t
+                        - generic [ref=f14e4079]: =
+                        - generic [ref=f14e4080]: λ
+                        - generic [ref=f14e4081]:
+                          - generic [ref=f14e4082]: "N"
+                          - generic [ref=f14e4083]: t
+                        - generic [ref=f14e4084]: =
+                        - generic [ref=f14e4085]:
+                          - generic [ref=f14e4086]: H
+                          - generic [ref=f14e4087]: "0"
+                        - generic [ref=f14e4088]:
+                          - generic [ref=f14e4089]: e
+                          - generic [ref=f14e4090]:
+                            - generic [ref=f14e4091]: −
+                            - generic [ref=f14e4092]: λ
+                            - generic [ref=f14e4093]: t
+                    - generic [ref=f14e4094]:
+                      - generic [ref=f14e4095]:
+                        - generic [ref=f14e4096]:
+                          - text: H
+                          - generic [ref=f14e4097]: t
+                        - text: =
+                      - generic [ref=f14e4105]:
+                        - text: λ
+                        - generic [ref=f14e4106]:
+                          - text: "N"
+                          - generic [ref=f14e4107]: t
+                        - text: =
+                      - generic [ref=f14e4115]:
+                        - generic [ref=f14e4116]:
+                          - text: H
+                          - generic [ref=f14e4117]: "0"
+                        - generic [ref=f14e4125]:
+                          - text: e
+                          - generic [ref=f14e4126]: −λt
+                  - text: .
+              - group [ref=f14e4132]:
+                - generic "Đáp án và hướng dẫn chấm câu 3" [ref=f14e4133]
+            - generic [ref=f14e4134]:
+              - paragraph [ref=f14e4135]:
+                - strong [ref=f14e4136]: Câu 4 · 1 điểm · B23
+              - generic [ref=f14e4137]:
+                - text: Po-210 là nguồn năng lượng được nêu trong bài về máy phát nhiệt điện đồng vị RTG. T=138 ngày, phân rã alpha tạo
+                - generic [ref=f14e4139]:
+                  - math [ref=f14e4141]:
+                    - generic [ref=f14e4143]:
+                      - generic [ref=f14e4144]:
+                        - generic [ref=f14e4145]: "82"
+                        - generic [ref=f14e4146]: "206"
+                      - generic [ref=f14e4147]:
+                        - generic [ref=f14e4148]: P
+                        - generic [ref=f14e4149]: b
+                  - generic [ref=f14e4151]:
+                    - generic [ref=f14e4156]:
+                      - generic [ref=f14e4157]: "82"
+                      - generic [ref=f14e4159]: "206"
+                    - generic [ref=f14e4164]: Pb
+                - text: . Mẫu polonium ban đầu nguyên chất; tại
+                - generic [ref=f14e4166]:
+                  - math [ref=f14e4168]:
+                    - generic [ref=f14e4171]:
+                      - generic [ref=f14e4172]: t
+                      - generic [ref=f14e4173]: "1"
+                  - generic [ref=f14e4176]:
+                    - text: t
+                    - generic [ref=f14e4177]: "1"
+                - text: ", tỉ số số hạt Pb tạo thành với số hạt Po còn lại bằng 15. Tại"
+                - generic [ref=f14e4186]:
+                  - math [ref=f14e4188]:
+                    - generic [ref=f14e4190]:
+                      - generic [ref=f14e4191]:
+                        - generic [ref=f14e4192]: t
+                        - generic [ref=f14e4193]: "2"
+                      - generic [ref=f14e4194]: =
+                      - generic [ref=f14e4195]:
+                        - generic [ref=f14e4196]: t
+                        - generic [ref=f14e4197]: "1"
+                      - generic [ref=f14e4198]: +
+                      - generic [ref=f14e4199]: "966"
+                  - generic [ref=f14e4200]:
+                    - generic [ref=f14e4201]:
+                      - generic [ref=f14e4202]:
+                        - text: t
+                        - generic [ref=f14e4203]: "2"
+                      - text: =
+                    - generic [ref=f14e4211]:
+                      - generic [ref=f14e4212]:
+                        - text: t
+                        - generic [ref=f14e4213]: "1"
+                      - text: +
+                    - generic [ref=f14e4221]: "966"
+                - text: ngày, tỉ số này bằng bao nhiêu?
+              - group [ref=f14e4222]:
+                - generic "Đáp án và hướng dẫn chấm câu 4" [ref=f14e4223]
+            - generic [ref=f14e4224]:
+              - paragraph [ref=f14e4225]:
+                - strong [ref=f14e4226]: Câu 5 · 1 điểm · B23
+              - generic [ref=f14e4227]:
+                - text: Sau 1 năm, trong 1 miligam
+                - generic [ref=f14e4229]:
+                  - math [ref=f14e4231]:
+                    - generic [ref=f14e4233]:
+                      - generic [ref=f14e4234]: "144"
+                      - generic [ref=f14e4236]:
+                        - generic [ref=f14e4237]: C
+                        - generic [ref=f14e4238]: e
+                  - generic [ref=f14e4240]:
+                    - generic [ref=f14e4241]: "144"
+                    - generic [ref=f14e4248]: Ce
+                - text: có
+                - generic [ref=f14e4250]:
+                  - math [ref=f14e4252]:
+                    - generic [ref=f14e4254]:
+                      - generic [ref=f14e4255]: 2,5
+                      - generic [ref=f14e4256]: ×
+                      - generic [ref=f14e4257]:
+                        - generic [ref=f14e4258]: "10"
+                        - generic [ref=f14e4259]: "18"
+                  - generic [ref=f14e4260]:
+                    - generic [ref=f14e4261]:
+                      - text: "2"
+                      - generic [ref=f14e4262]: ","
+                      - text: 5 ×
+                    - generic [ref=f14e4263]:
+                      - text: "1"
+                      - generic [ref=f14e4264]:
+                        - text: "0"
+                        - generic [ref=f14e4265]: "18"
+                - text: hạt bị phân rã. Chu kì bán rã Ce-144 bằng bao nhiêu?
+              - group [ref=f14e4271]:
+                - generic "Đáp án và hướng dẫn chấm câu 5" [ref=f14e4272]
+            - generic [ref=f14e4273]:
+              - paragraph [ref=f14e4274]:
+                - strong [ref=f14e4275]: Câu 6 · 5 điểm · B23
+              - generic [ref=f14e4276]:
+                - text: Bình ion hóa gồm bình khí đơn phân tử và hai điện cực kim loại đặt hiệu điện thế 2 kV. Khí bị ion hóa nhờ phóng xạ thì có dòng điện; đo bằng ampe kế rất nhạy (Hình IV.1). a) Vẽ đồ thị độ phóng xạ mẫu
+                - generic [ref=f14e4278]:
+                  - math [ref=f14e4280]:
+                    - generic [ref=f14e4282]:
+                      - generic [ref=f14e4283]: "220"
+                      - generic [ref=f14e4285]:
+                        - generic [ref=f14e4286]: R
+                        - generic [ref=f14e4287]: "n"
+                  - generic [ref=f14e4289]:
+                    - generic [ref=f14e4290]: "220"
+                    - generic [ref=f14e4297]: Rn
+                - text: theo thời gian, ban đầu
+                - generic [ref=f14e4299]:
+                  - math [ref=f14e4301]:
+                    - generic [ref=f14e4304]:
+                      - generic [ref=f14e4305]: H
+                      - generic [ref=f14e4306]: "0"
+                  - generic [ref=f14e4309]:
+                    - text: H
+                    - generic [ref=f14e4310]: "0"
+                - text: . b) Xác định T của Rn-220. c) Cần tối thiểu 1 mL khí Rn-220 ở điều kiện tiêu chuẩn. Ước tính khối lượng tối thiểu bình từ chất
+                - generic [ref=f14e4319]:
+                  - math [ref=f14e4321]:
+                    - generic [ref=f14e4323]:
+                      - generic [ref=f14e4324]: "228"
+                      - generic [ref=f14e4326]:
+                        - generic [ref=f14e4327]: T
+                        - generic [ref=f14e4328]: h
+                  - generic [ref=f14e4330]:
+                    - generic [ref=f14e4331]: "228"
+                    - generic [ref=f14e4338]: Th
+                - text: để duy trì hoạt độ không đổi của Rn-220 trước thí nghiệm. Th-228 phân rã alpha, T=1,9 năm thành Ra-224; Ra-224 phân rã alpha, T=3,6 ngày thành Rn-220.
+              - img "Hình minh họa của bài" [ref=f14e4339]
+              - group [ref=f14e4340]:
+                - generic "Đáp án và hướng dẫn chấm câu 6" [ref=f14e4341]
+            - generic [ref=f14e4342]:
+              - heading "Kiểm tra đề và tải Word" [level=3] [ref=f14e4343]
+              - paragraph [ref=f14e4344]: Xem từng câu và đáp án, sau đó đánh dấu xác nhận để bật nút xuất Word.
+              - generic [ref=f14e4345]:
+                - checkbox "Đã kiểm tra nội dung, công thức, hình minh họa, đáp án và điểm của đề." [ref=f14e4346]
+                - text: Đã kiểm tra nội dung, công thức, hình minh họa, đáp án và điểm của đề.
+              - generic [ref=f14e4347]:
+                - button "Xuất đề file Word" [disabled] [ref=f14e4348] [cursor=pointer]
+                - button "Xuất đáp án file Word" [disabled] [ref=f14e4349] [cursor=pointer]
+                - button "Xuất ma trận và bản đặc tả Word" [disabled] [ref=f14e4350] [cursor=pointer]
+              - status
+  - alert [ref=f14e49]

@@ -1,0 +1,114 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - link "Đi đến nội dung chính" [ref=f4e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - button "Mở menu" [ref=f4e6] [cursor=pointer]:
+          - generic [ref=f4e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f4e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=f4e10] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f4e12]:
+      - generic [ref=f4e13]:
+        - generic [ref=f4e14]:
+          - generic [ref=f4e15]:
+            - paragraph [ref=f4e16]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=f4e17]
+            - paragraph [ref=f4e18]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=f4e19]:
+            - button "Chế độ trình chiếu" [ref=f4e20] [cursor=pointer]
+            - link "Toàn bộ kho học liệu" [ref=f4e21] [cursor=pointer]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=f4e22]:
+          - link "B21 Cấu trúc hạt nhân" [ref=f4e23] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=f4e24]: B21
+            - strong [ref=f4e25]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=f4e26] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=f4e27]: B22
+            - strong [ref=f4e28]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=f4e29] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=f4e30]: B23
+            - strong [ref=f4e31]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=f4e32] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=f4e33]: B24
+            - strong [ref=f4e34]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=f4e35] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=f4e36]: B25
+            - strong [ref=f4e37]: Thực hành bán rã
+        - generic [ref=f4e38]:
+          - generic [ref=f4e39]: B23
+          - generic [ref=f4e40]:
+            - heading "Hiện tượng phóng xạ" [level=2] [ref=f4e41]
+            - paragraph [ref=f4e42]: Nhận biết tính chất α, β, γ; giải thích tính ngẫu nhiên và đọc định luật phóng xạ.
+        - paragraph [ref=f4e43]:
+          - link "Hỏi AI về bài B23 ↗" [ref=f4e44] [cursor=pointer]:
+            - /url: /hoc-lieu/ai?bai=B23
+          - generic [ref=f4e45]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=f4e46]:
+          - button "01 Đọc hình Chạm để khám phá" [ref=f4e47] [cursor=pointer]:
+            - generic [ref=f4e48]: "01"
+            - strong [ref=f4e49]: Đọc hình
+            - generic [ref=f4e50]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=f4e51] [cursor=pointer]:
+            - generic [ref=f4e52]: "02"
+            - strong [ref=f4e53]: Thao tác 3D
+            - generic [ref=f4e54]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=f4e55] [cursor=pointer]:
+            - generic [ref=f4e56]: "03"
+            - strong [ref=f4e57]: Xem video
+            - generic [ref=f4e58]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [active] [pressed] [ref=f4e59] [cursor=pointer]:
+            - generic [ref=f4e60]: "04"
+            - strong [ref=f4e61]: Ghi & giải thích
+            - generic [ref=f4e62]: Chuẩn bị cho giờ học
+        - generic [ref=f4e63]:
+          - generic [ref=f4e129]:
+            - generic [ref=f4e130]:
+              - generic [ref=f4e131]:
+                - generic [ref=f4e132]: Ghi kết quả học tập
+                - heading "Bản ghi quan sát của em" [level=3] [ref=f4e133]
+              - generic [ref=f4e134]:
+                - button "Tải bản ghi TXT" [ref=f4e135] [cursor=pointer]
+                - button "Sao chép bản ghi" [ref=f4e136] [cursor=pointer]
+            - paragraph [ref=f4e137]: Tự lưu trên trình duyệt này. Dùng bản ghi khi thảo luận trên lớp; đăng nhập lớp học để thực hiện nhiệm vụ được giao.
+            - generic [ref=f4e138]:
+              - generic [ref=f4e139]:
+                - text: Dự đoán trước khi xem
+                - textbox "Dự đoán trước khi xem" [ref=f4e140]:
+                  - /placeholder: Em nghĩ điều gì sẽ xảy ra?
+                  - text: "W2 thử: sau 2T còn N0/4."
+              - generic [ref=f4e141]:
+                - text: Điều em quan sát thấy
+                - textbox "Điều em quan sát thấy" [ref=f4e142]:
+                  - /placeholder: Nêu một chi tiết hoặc số liệu nhìn thấy…
+                  - text: "W2 thử: gamma suy giảm qua chì, không bị chặn tuyệt đối."
+              - generic [ref=f4e143]:
+                - text: Giải thích kết quả
+                - textbox "Giải thích kết quả" [ref=f4e144]:
+                  - /placeholder: Chi tiết đó liên hệ với công thức / khái niệm nào?
+                  - text: "W2 thử: N=N0*2^(-t/T); 2^(-2)=1/4."
+              - generic [ref=f4e145]:
+                - text: Câu hỏi em muốn mang đến lớp
+                - textbox "Câu hỏi em muốn mang đến lớp" [ref=f4e146]:
+                  - /placeholder: Em còn chưa rõ điều gì?
+            - button "Xóa bản ghi của bài này" [ref=f4e147] [cursor=pointer]
+          - generic [ref=f4e109]:
+            - generic [ref=f4e110]: Chuẩn bị cho giờ học
+            - button "Xem lại infographic" [ref=f4e148] [cursor=pointer]
+        - group [ref=f4e112]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=f4e113] [cursor=pointer]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=f4e114]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=f4e115]:
+          - generic "Nguồn học liệu" [ref=f4e116] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=f4e117]:
+      - button "Mở khung AI học tập" [ref=f4e118] [cursor=pointer]: AI
+  - button "Open Next.js Dev Tools" [ref=f4e124] [cursor=pointer]
+  - alert [ref=f4e128]

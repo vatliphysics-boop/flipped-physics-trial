@@ -1,0 +1,17 @@
+{
+  "a_docx": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/templates/BAO_KHOA_HOC_DANG_KHOI.docx",
+  "b_docx": "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx",
+  "pages_a": 12,
+  "pages_b": 13,
+  "changed_pages": [
+    1,
+    2,
+    3,
+    5,
+    10,
+    11,
+    12,
+    13
+  ],
+  "num_changed_pages": 8
+}

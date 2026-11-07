@@ -23,10 +23,19 @@ export function CopyJoinCodeButton({ code }: { code: string }) {
 
   return (
     <span className="teacher-class-code-actions">
-      <button type="button" className="btn teacher-class-copy" onClick={copyCode} aria-label={`Sao chép mã tham gia ${code}`}>
-        {status === "copied" ? "Đã sao chép" : "Sao chép"}
+      <button
+        type="button"
+        className={`btn small teacher-class-copy ${status === "copied" ? "is-copied" : ""}`}
+        onClick={copyCode}
+        aria-label={`Sao chép mã tham gia ${code}`}
+      >
+        {status === "copied" ? "✓ Đã sao chép" : "📋 Sao chép mã"}
       </button>
-      {status === "error" && <span className="teacher-class-copy-error" role="status">Không thể sao chép. Hãy chọn mã để sao chép thủ công.</span>}
+      {status === "error" && (
+        <span className="teacher-class-copy-error" role="status">
+          Không thể sao chép. Hãy chọn mã để sao chép thủ công.
+        </span>
+      )}
     </span>
   );
 }

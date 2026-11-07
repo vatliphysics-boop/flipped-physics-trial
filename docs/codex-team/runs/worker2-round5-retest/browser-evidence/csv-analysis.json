@@ -1,0 +1,32 @@
+[
+  {
+    "file": "/private/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn/evidence/B23-ban-ra-N0-1000-T-30s.csv",
+    "rows": 61,
+    "first": 0.0,
+    "last": 360.0,
+    "N30": 500.0,
+    "N60": 250.0,
+    "estimated_T": 30.0,
+    "max_error": 4.999999999588667e-07
+  },
+  {
+    "file": "/private/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn/evidence/B23-ban-ra-N0-1000-T-60s.csv",
+    "rows": 61,
+    "first": 0.0,
+    "last": 360.0,
+    "N30": 707.106781,
+    "N60": 500.0,
+    "estimated_T": 60.0,
+    "max_error": 4.985173518434749e-07
+  },
+  {
+    "file": "/private/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-bEGJWn/evidence/B23-ban-ra-N0-2000-T-60s.csv",
+    "rows": 61,
+    "first": 0.0,
+    "last": 360.0,
+    "N30": 1414.213562,
+    "N60": 1000.0,
+    "estimated_T": 60.0,
+    "max_error": 4.985173518434749e-07
+  }
+]

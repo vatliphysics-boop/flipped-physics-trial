@@ -1,0 +1,14 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.evaluate: Error: No decoded speech signal: {"currentTime":0,"paused":false,"readyState":4,"audioBytes":65,"context":"running","muted":false,"source":"http://127.0.0.1:3477/videos/nuclear-lessons/b21.mp4"}
+    at assertLocal (eval at evaluate (:370:30), <anonymous>:2:59)
+    at eval (eval at evaluate (:370:30), <anonymous>:31:5)
+    at async <anonymous>:396:30
+    at verifyPlayer (/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/narrated-videos-browser.mjs:28:31)
+    at async file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/narrated-videos-browser.mjs:111:7 {
+  log: []
+}
+
+Node.js v24.21.0

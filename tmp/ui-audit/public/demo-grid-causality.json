@@ -1,0 +1,44 @@
+{
+  "note": "Ephemeral DOM style patch checks cause before R4; not final production evidence.",
+  "report": [
+    {
+      "phase": 1,
+      "before": {
+        "document": 320,
+        "inner": 320
+      },
+      "after": {
+        "document": 320,
+        "inner": 320
+      },
+      "controlCount": 75,
+      "overflowControls": []
+    },
+    {
+      "phase": 2,
+      "before": {
+        "document": 344,
+        "inner": 344
+      },
+      "after": {
+        "document": 320,
+        "inner": 320
+      },
+      "controlCount": 27,
+      "overflowControls": []
+    },
+    {
+      "phase": 3,
+      "before": {
+        "document": 320,
+        "inner": 320
+      },
+      "after": {
+        "document": 320,
+        "inner": 320
+      },
+      "controlCount": 37,
+      "overflowControls": []
+    }
+  ]
+}

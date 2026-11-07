@@ -1,0 +1,21 @@
+Browser tab: 4, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/student/curriculum".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/student/curriculum
+	2 link Description: Đi đến nội dung chính, Value: localhost:3001/student/curriculum#main-content
+	3 container
+		4 button (collapsed) Description: Mở menu, Secondary Actions: Expand
+		5 link Description: Học liệu Vật lí 12, Value: localhost:3001/student
+		6 button Đăng xuất
+	7 container main-content
+		8 container
+			9 text VẬT LÍ 12
+			10 heading Chương trình học, Value: 1
+				11 text Chương trình học
+			12 text 4 chương · 25 bài học theo cấu trúc chương trình giáo dục phổ thông.
+		13 link Description: 01 VẬT LÍ NHIỆT 7 bài học →, Value: localhost:3001/student/curriculum/I
+		14 link Description: 02 KHÍ LÍ TƯỞNG 6 bài học →, Value: localhost:3001/student/curriculum/II
+		15 link Description: 03 TỪ TRƯỜNG 7 bài học →, Value: localhost:3001/student/curriculum/III
+		16 link Description: 04 VẬT LÍ HẠT NHÂN 5 bài học →, Value: localhost:3001/student/curriculum/IV
+	17 container AI hỗ trợ học tập
+		18 button (collapsed) Description: Mở khung AI học tập, Secondary Actions: Expand
+
+The focused UI element is 4 button (collapsed) Description: Mở menu, Secondary Actions: Expand

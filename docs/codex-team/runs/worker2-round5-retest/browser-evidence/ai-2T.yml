@@ -1,0 +1,49 @@
+- complementary "AI hỗ trợ học tập" [ref=e463]:
+  - region [ref=e542]:
+    - generic [ref=e543]:
+      - generic [ref=e544]:
+        - heading "Hỏi AI về bài học" [level=2] [ref=e545]
+        - generic [ref=e546]: AI cục bộ · Sẵn sàng
+      - button "Đóng khung AI" [active] [ref=e547] [cursor=pointer]: ×
+    - generic [ref=e548]:
+      - generic [ref=e549]:
+        - text: Bài học
+        - combobox "Bài học" [ref=e550]:
+          - option "B21 · Cấu trúc hạt nhân"
+          - option "B22 · Phản ứng hạt nhân và năng lượng liên kết"
+          - option "B23 · Hiện tượng phóng xạ" [selected]
+          - option "B24 · Công nghiệp hạt nhân"
+          - option "B25 · Ôn tập và phân tích số liệu hạt nhân"
+      - generic [ref=e551]:
+        - text: Cách hỗ trợ
+        - combobox "Cách hỗ trợ" [ref=e552]:
+          - option "Gợi ý từng bước" [selected]
+          - option "Giải thích"
+    - log "Cuộc trao đổi với AI" [ref=e553]:
+      - generic [ref=e554]:
+        - strong [ref=e555]: Em
+        - paragraph [ref=e556]: Em muốn biết cách làm bánh.
+      - generic [ref=e557]:
+        - strong [ref=e558]: AI cục bộ
+        - paragraph [ref=e559]: Câu hỏi này chưa có liên hệ rõ với Vật lí hạt nhân B21–B25. Em hãy hỏi giáo viên phụ trách hoặc nêu rõ phần kiến thức hạt nhân em cần hỗ trợ. Thầy/cô có thể giúp em chọn nguồn phù hợp.
+      - generic [ref=e560]:
+        - strong [ref=e561]: Em
+        - paragraph [ref=e562]: Sau hai chu kì bán rã 2T, số hạt còn lại bằng bao nhiêu phần ban đầu? Gợi ý để em tự suy luận.
+      - generic [ref=e563]:
+        - strong [ref=e564]: AI cục bộ
+        - paragraph [ref=e565]: "[H6] N(t) = N₀ exp(−λt) = N₀ 2^(−t/T), λ = ln2/T. Sau mỗi T, số hạt chưa phân rã giảm một nửa so với đầu khoảng đó, không phải giảm một nửa N₀ mãi mãi. Sau hai chu kì bán rã, số hạt còn lại bằng bao nhiêu phần so với ban đầu?"
+      - group [ref=e566]:
+        - generic "Đoạn học liệu AI được cung cấp" [ref=e567] [cursor=pointer]
+      - group [ref=e568]:
+        - generic "Liên kết Gemini / ChatGPT" [ref=e569] [cursor=pointer]
+      - link "Ghi lại câu hỏi và điều em hiểu →" [ref=e570] [cursor=pointer]:
+        - /url: /hoc-lieu/ai?bai=B23
+    - generic [ref=e571]:
+      - text: Câu hỏi của em
+      - textbox "Câu hỏi của em" [ref=e572]:
+        - /placeholder: Nhập câu hỏi về bài học…
+      - generic [ref=e573]:
+        - button "Trao đổi mới" [ref=e574] [cursor=pointer]
+        - button "Gửi" [disabled] [ref=e575]
+      - generic [ref=e576]: Không nhập thông tin cá nhân. AI có thể trả lời sai.
+  - button "Thu gọn khung AI học tập" [expanded] [ref=e577] [cursor=pointer]: AI

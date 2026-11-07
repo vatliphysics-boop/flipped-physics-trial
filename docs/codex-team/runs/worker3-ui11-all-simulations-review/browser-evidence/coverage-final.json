@@ -1,0 +1,1349 @@
+[
+  {
+    "id": "system-sim-rutherford",
+    "title": "Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford",
+    "lesson": "B21",
+    "activity_key": "rutherford_alpha_scattering",
+    "url": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-rutherford#resource-system-sim-rutherford",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "Bắn một hạt α",
+        "Bắn chùm 150 hạt",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "Bắn một hạt α",
+        "Bắn chùm 200 hạt",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-rutherford-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-rutherford-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-rutherford-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-rutherford-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-rutherford-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-rutherford-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-nuclear-builder",
+    "title": "Mô phỏng: Cấu tạo hạt nhân nguyên tử (Proton & Neutron)",
+    "lesson": "B21",
+    "activity_key": "nuclear_structure_builder",
+    "url": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#resource-system-sim-nuclear-builder",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-builder-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-builder-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-builder-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-builder-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-builder-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-builder-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-isotope-size",
+    "title": "Mô phỏng: Đồng vị và kích thước hạt nhân",
+    "lesson": "B21",
+    "activity_key": "isotope_and_nuclear_size",
+    "url": "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-isotope-size#resource-system-sim-isotope-size",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-isotope-size-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-isotope-size-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-isotope-size-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-isotope-size-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-isotope-size-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-isotope-size-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-reaction-balancer",
+    "title": "Mô phỏng: Cân bằng phản ứng hạt nhân & Buồng sương Blackett",
+    "lesson": "B22",
+    "activity_key": "nuclear_reaction_balancer",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-reaction-balancer#resource-system-sim-reaction-balancer",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "1280": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "768": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "360": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reaction-balancer-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reaction-balancer-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reaction-balancer-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reaction-balancer-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reaction-balancer-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reaction-balancer-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-binding-energy",
+    "title": "Mô phỏng: Độ hụt khối và năng lượng liên kết riêng (Elkr)",
+    "lesson": "B22",
+    "activity_key": "binding_energy_lab",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-binding-energy#resource-system-sim-binding-energy",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-binding-energy-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-binding-energy-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-binding-energy-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-binding-energy-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-binding-energy-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-binding-energy-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-nuclear-fission",
+    "title": "Mô phỏng: Phản ứng phân hạch Uranium-235 và phản ứng dây chuyền",
+    "lesson": "B22",
+    "activity_key": "nuclear_fission",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-nuclear-fission#resource-system-sim-nuclear-fission",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "1280": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "768": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "360": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fission-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fission-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fission-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fission-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fission-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fission-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-nuclear-fusion",
+    "title": "Mô phỏng: Phản ứng tổng hợp hạt nhân D–T (Nhiệt hạch)",
+    "lesson": "B22",
+    "activity_key": "nuclear_fusion",
+    "url": "http://localhost:3001/hoc-lieu?bai=B22&resource=system-sim-nuclear-fusion#resource-system-sim-nuclear-fusion",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "Bắn chậm (Động năng nhỏ)",
+        "Bắn rất nhanh (Nhiệt độ siêu cao)",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "Bắn chậm (Động năng nhỏ)",
+        "Bắn rất nhanh (Nhiệt độ siêu cao)",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fusion-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fusion-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fusion-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fusion-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fusion-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-fusion-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-geiger-decay",
+    "title": "Mô phỏng: Ống đếm Geiger và tính ngẫu nhiên của phân rã phóng xạ",
+    "lesson": "B23",
+    "activity_key": "geiger_random_decay",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-geiger-decay#resource-system-sim-geiger-decay",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "Bắt đầu đếm (5 giây)",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-geiger-decay-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-geiger-decay-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-geiger-decay-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-geiger-decay-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-geiger-decay-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-geiger-decay-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-radiation-properties",
+    "title": "Mô phỏng: Bản chất và độ đâm xuyên của tia phóng xạ (Alpha, Beta, Gamma)",
+    "lesson": "B23",
+    "activity_key": "radiation_properties",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-radiation-properties#resource-system-sim-radiation-properties",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-properties-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-properties-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-properties-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-properties-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-properties-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-properties-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-half-life",
+    "title": "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T",
+    "lesson": "B23",
+    "activity_key": "radioactive_decay_half_life",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-half-life#resource-system-sim-half-life",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "1280": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "768": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "360": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "range 2 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-half-life-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-half-life-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-half-life-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-half-life-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-half-life-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-half-life-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-carbon14-dating",
+    "title": "Mô phỏng: Vận dụng đồng vị Carbon-14 định tuổi cổ vật",
+    "lesson": "B23",
+    "activity_key": "carbon14_dating",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-carbon14-dating#resource-system-sim-carbon14-dating",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-carbon14-dating-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-carbon14-dating-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-carbon14-dating-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-carbon14-dating-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-carbon14-dating-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-carbon14-dating-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-radiation-safety",
+    "title": "Mô phỏng & Bài tập tình huống: An toàn phóng xạ (Khoảng cách, Thời gian, Che chắn)",
+    "lesson": "B23",
+    "activity_key": "radiation_safety",
+    "url": "http://localhost:3001/hoc-lieu?bai=B23&resource=system-sim-radiation-safety#resource-system-sim-radiation-safety",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-safety-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-safety-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-safety-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-safety-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-safety-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-safety-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-nuclear-power",
+    "title": "Mô phỏng: Sơ đồ chu chuyển năng lượng nhà máy điện hạt nhân",
+    "lesson": "B24",
+    "activity_key": "nuclear_power_energy_flow",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-nuclear-power#resource-system-sim-nuclear-power",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "1280": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "768": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "360": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-power-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-power-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-power-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-power-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-power-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-power-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-reactor-control",
+    "title": "Mô phỏng: Điều khiển thanh hấp thụ neutron trong lò phản ứng",
+    "lesson": "B24",
+    "activity_key": "reactor_control_concept",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-reactor-control#resource-system-sim-reactor-control",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reactor-control-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reactor-control-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reactor-control-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reactor-control-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reactor-control-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-reactor-control-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-nuclear-medicine",
+    "title": "Mô phỏng: Ứng dụng đồng vị phóng xạ trong Y học (Chẩn đoán & Xạ trị)",
+    "lesson": "B24",
+    "activity_key": "nuclear_medicine",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-nuclear-medicine#resource-system-sim-nuclear-medicine",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-medicine-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-medicine-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-medicine-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-medicine-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-medicine-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-nuclear-medicine-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-radiation-applications",
+    "title": "Mô phỏng: Chiếu xạ bảo quản thực phẩm & Ứng dụng công nghiệp",
+    "lesson": "B24",
+    "activity_key": "radiation_applications",
+    "url": "http://localhost:3001/hoc-lieu?bai=B24&resource=system-sim-radiation-applications#resource-system-sim-radiation-applications",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "select 0 1",
+        "select 1 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-applications-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-applications-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-applications-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-applications-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-applications-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-radiation-applications-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  },
+  {
+    "id": "system-sim-practice-lab",
+    "title": "Mô phỏng: Thực hành phân tích dữ liệu phân rã phóng xạ H(t)",
+    "lesson": "B25",
+    "activity_key": "nuclear_physics_practice_lab",
+    "url": "http://localhost:3001/hoc-lieu?bai=B25&resource=system-sim-practice-lab#resource-system-sim-practice-lab",
+    "viewport_cases": [
+      [
+        1440,
+        900
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        360,
+        800
+      ]
+    ],
+    "actions": {
+      "1440": [
+        "start",
+        "pause",
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "390": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "1280": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "768": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ],
+      "360": [
+        "Phía trước",
+        "Từ trên",
+        "Bên cạnh",
+        "Phối cảnh",
+        "range 0 ArrowRight",
+        "range 1 ArrowRight",
+        "select 0 1",
+        "camera drag/wheel",
+        "resume",
+        "reset 3D"
+      ]
+    },
+    "initial_and_active_viewport_images": {
+      "1440": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-practice-lab-1440-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-practice-lab-1440-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-practice-lab-1440-section.png"
+      },
+      "390": {
+        "initial": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-practice-lab-390-initial.png",
+        "active": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-practice-lab-390-active.png",
+        "section": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w3-x7ZyQr/evidence/system-sim-practice-lab-390-section.png"
+      }
+    },
+    "images_opened": [
+      "1440-active",
+      "390-active",
+      "390-section",
+      "390-fresh"
+    ],
+    "scientific_accuracy": "CHƯA KIỂM CHỨNG độc lập; chuyển root",
+    "ui_acceptance": "CHƯA ĐẠT tổng; thao tác đã thực hiện không đồng nghĩa mọi trạng thái đạt"
+  }
+]

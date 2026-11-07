@@ -1,0 +1,4 @@
+{
+  "lesson": "8d4d729c-4600-47ed-857b-7effb4962200",
+  "instructions": "### Hướng dẫn tự học và dự đoán trước giờ học\nMục tiêu: Nêu được định luật phóng xạ, viết đúng kí hiệu hạt nhân \\({}^{238}_{92}\\mathrm{U}\\) và phân biệt các tia \\(\\alpha,\\ \\beta^{-},\\ \\gamma\\).\n- Đọc phiếu học tập và ghi nhận quy luật số hạt chưa phân rã: \\(N(t)=N_0\\,2^{-t/T}\\).\n- So sánh tốc độ phân rã qua hằng số phóng xạ và độ phóng xạ:\n\\[\\lambda=\\frac{\\ln 2}{T},\\qquad H=\\lambda N\\]\n- Vận dụng tính tỉ số \\(\\frac{N}{N_0}=2^{-t/T}\\) khi \\(t=2T\\).\nSản phẩm: Hoàn thành dự đoán vào ô phản hồi bên dưới trước khi đến lớp."
+}

@@ -1,0 +1,9 @@
+ffconcat version 1.0
+file f0000.jpg
+option framerate 30
+duration 0.066666667
+file f0063.jpg
+option framerate 30
+duration 0.933333333
+file f0063.jpg
+option framerate 30

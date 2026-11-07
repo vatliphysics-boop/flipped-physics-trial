@@ -1,0 +1,24 @@
+        Nội dung                                                                            Yêu cầu cần đạt
+                                 – Thảo luận   để thiết  kế phương  án  hoặc  lựa  chọn   phương  án  và  thực  hiện  phương   án,  khảo  sát  được
+                                 đoạn mạch xoay chiều RLC mắc nối tiếp bằng dụng cụ thực hành.
+Máy biến áp                      – Nêu được nguyên tắc hoạt động của máy biến áp.
+                                 –  Nêu         được          ưu         điểm          của          dòng điện          và         điện          áp          xoay          chiều          trong          truyền          tải         năng          lượng         điện         về
+                                 phương diện khoa học và kinh tế.
+                                 – Thảo    luận    để đánh    giá    được    vai    trò    của    máy    biến    áp    trong    việc    giảm    hao    phí    năng    lượng    điện    khi
+                                 truyền dòng điện đi xa.
+Chỉnh lưu dòng điện              – Thực hiện  thí  nghiệm,  vẽ được đồ thị biểu  diễn  quan hệ giữa dòng điện  chạy  qua diode bán dẫn và
+xoay chiều                       điện áp giữa hai cực của nó.
+                                 – Vẽ được mạch chỉnh lưu nửa chu kì sử dụng diode.
+                                 – Vẽ được mạch chỉnh lưu cả chu kì sử dụng cầu chỉnh lưu.
+                                 – So sánh được đồ thị chỉnh lưu nửa chu kì và chỉnh lưu cả chu kì.
+Chuyên đề 12.2. Một số ứng dụng vật lí trong chẩn đoán y học
+Bản chất và cách                 – Nêu được cách tạo ra tia X, cách điều khiển tia X, sự suy giảm tia X.
+tạo ra tia X                     – Thảo luận để đánh giá được vai trò của tia X trong đời sống và trong khoa học.
+Chẩn đoán bằng tia X             – Mô tả được sơ lược cách chụp ảnh bằng tia X.
+                                 – Từ tranh ảnh (tài liệu  đa phương tiện) thảo luận để rút ra được một  số cách  cải  thiện ảnh chụp bằng
+                                 tia X: giảm liều chiếu, cải thiện độ sắc nét, cải thiện độ tương phản.
+Chẩn đoán bằng                   – Nêu được sơ lược cách tạo siêu âm.
+siêu âm                          – Nêu được sơ lược cách tạo ra hình ảnh siêu âm các cấu trúc bên trong cơ thể.
+
+
+                                                                                     29

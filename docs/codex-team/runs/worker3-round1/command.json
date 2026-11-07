@@ -1,0 +1,31 @@
+{
+  "executable": "codex",
+  "args": [
+    "exec",
+    "--ignore-user-config",
+    "--strict-config",
+    "-C",
+    "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09",
+    "-c",
+    "cli_auth_credentials_store=\"file\"",
+    "-c",
+    "approval_policy=\"never\"",
+    "-c",
+    "model_provider=\"openai\"",
+    "-c",
+    "default_permissions=\"team-review\"",
+    "-c",
+    "permissions.team-review.extends=\":read-only\"",
+    "-c",
+    "permissions.team-review.network.enabled=true",
+    "-c",
+    "permissions.team-review.filesystem.\"/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/codex-team-worker3-round1-JZqYI0\"=\"write\"",
+    "--color",
+    "never",
+    "--json",
+    "-o",
+    "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker3-round1/report.md",
+    "-"
+  ],
+  "CODEX_HOME": "/Users/vodoandangkhoi/.codex-plus-3"
+}

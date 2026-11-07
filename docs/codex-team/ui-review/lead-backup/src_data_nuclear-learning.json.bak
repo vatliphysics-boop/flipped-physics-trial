@@ -1,0 +1,314 @@
+[
+  {
+    "code": "B21",
+    "title": "Cấu trúc hạt nhân",
+    "goals": [
+      "Giải thích kết luận từ tán xạ α",
+      "Xác định Z, N, A và đồng vị",
+      "Ước lượng kích thước hạt nhân"
+    ],
+    "theory": [
+      "Nguyên tử gồm hạt nhân rất nhỏ và electron. Proton mang điện +e, neutron không mang điện; hạt nhân có điện tích +Ze.",
+      "Số khối A = Z + N. Kí hiệu hạt nhân ghi A ở trên và Z ở dưới bên trái kí hiệu nguyên tố. A là số nucleon, không phải khối lượng đo bằng kg.",
+      "Đồng vị có cùng Z nhưng khác N. Carbon-12, carbon-13 và carbon-14 đều có Z = 6, lần lượt có 6, 7 và 8 neutron.",
+      "Trong thí nghiệm Rutherford, phần lớn hạt α đi gần như thẳng; số rất ít lệch mạnh cho thấy điện tích dương và phần lớn khối lượng tập trung trong hạt nhân nhỏ.",
+      "Công thức gần đúng R = 1,2 × A^(1/3) fm, với 1 fm = 10^(-15) m. Đây là bán kính hạt nhân, khác bán kính nguyên tử.",
+      "Lực tương tác hạt nhân có tầm tác dụng rất ngắn. Mô hình cầu màu chỉ giúp đếm và hình dung, không mô tả đường chuyển động thật của nucleon."
+    ],
+    "before": [
+      "Dự đoán đường đi của hạt α trước khi nhấn bắt đầu. Thử ba khoảng cách tới tâm; xoay góc nhìn để đối chiếu.",
+      "Tạo carbon-12 và carbon-14; ghi Z, N, A, điện tích mỗi hạt nhân.",
+      "Tính R của carbon-12, so sánh với uranium-238; viết một câu hỏi mang đến lớp."
+    ],
+    "during": [
+      "Nhóm giải thích vì sao mô hình điện tích dương phân bố đều khó giải thích hạt α bật ngược.",
+      "Lập bảng Z, N, A cho silicon-28, carbon-14 và uranium-238; kiểm tra chéo giữa hai bạn.",
+      "Đọc sơ đồ Rutherford, phân biệt lá kim loại thật với hạt nhân phóng đại trong mô phỏng."
+    ],
+    "after": [
+      "Viết kết luận về cấu trúc nguyên tử bằng hai bằng chứng quan sát.",
+      "Tạo ví dụ hai đồng vị và một cặp hạt nhân không phải đồng vị; giải thích.",
+      "Tự sửa một lỗi nhầm giữa số khối, khối lượng và số neutron."
+    ],
+    "quiz": [
+      {
+        "question": "Carbon-14 có Z = 6. Số neutron là bao nhiêu?",
+        "options": ["6", "8", "14"],
+        "answer": 1,
+        "explanation": "N = A − Z = 14 − 6 = 8."
+      },
+      {
+        "question": "Hai đồng vị của một nguyên tố có đại lượng nào giống nhau?",
+        "options": ["Số neutron", "Số khối", "Số proton"],
+        "answer": 2,
+        "explanation": "Z quyết định nguyên tố; đồng vị khác số neutron."
+      },
+      {
+        "question": "Hạt α lệch mạnh khi đi gần vùng nào?",
+        "options": [
+          "Gần hạt nhân mang điện dương",
+          "Bất kì vùng nào đều như nhau",
+          "Chỉ khi gặp electron đứng yên"
+        ],
+        "answer": 0,
+        "explanation": "Tương tác điện với hạt nhân tập trung điện tích dương làm hạt α lệch mạnh."
+      }
+    ],
+    "video": "https://www.khanacademy.org/science/in-in-class-12th-physics-india/nuclei/in-in-nuclear-physics/v/nuclear-stability-and-nuclear-equations",
+    "videoTitle": "Khan Academy - Nuclear stability and nuclear equations",
+    "videoPrompt": "Ghi lại cách đọc kí hiệu hạt nhân và quy tắc bảo toàn A, Z. Video tiếng Anh; dùng hướng dẫn tiếng Việt này để tự ghi chú.",
+    "source": "https://phet.colorado.edu/en/simulations/rutherford-scattering"
+  },
+  {
+    "code": "B22",
+    "title": "Phản ứng hạt nhân và năng lượng liên kết",
+    "goals": [
+      "Cân bằng A và Z",
+      "Tính độ hụt khối và năng lượng liên kết",
+      "Phân biệt phân hạch và nhiệt hạch"
+    ],
+    "theory": [
+      "Phản ứng hạt nhân biến đổi hạt nhân. Trong các phương trình phổ thông phải bảo toàn tổng số khối A và tổng điện tích Z; không suy ra từng nguyên tố hay số neutron đều bất biến.",
+      "Ví dụ: ⁴₂He + ¹⁴₇N → ¹⁷₈O + ¹₁p. Hai vế có tổng A = 18 và Z = 9.",
+      "Độ hụt khối Δm = Zm_p + (A − Z)m_n − m_hạt_nhân. Nếu bảng cho khối lượng nguyên tử trung hòa cần dùng khối lượng nguyên tử hydrogen và xử lí electron nhất quán.",
+      "Năng lượng liên kết E_lk = Δm c². Khi Δm tính theo u thì E_lk(MeV) ≈ Δm(u) × 931,5. Năng lượng liên kết riêng = E_lk/A, không phải E_lk/Z.",
+      "Vùng hạt nhân trung bình quanh sắt và nickel có năng lượng liên kết riêng lớn. Không dùng duy nhất số khối để kết luận mọi hạt nhân đều bền.",
+      "Phân hạch: hạt nhân nặng tách thành các mảnh nhẹ hơn và có thể sinh neutron tiếp tục gây phân hạch. k < 1: giảm; k ≈ 1: duy trì; k > 1: tăng trong mô hình dây chuyền.",
+      "Nhiệt hạch: các hạt nhân nhẹ kết hợp. Ví dụ D–T cho helium-4, neutron và khoảng 17,6 MeV. Mặt trời chủ yếu dùng chuỗi proton–proton, khác ví dụ D–T.",
+      "Q = (m_trước − m_sau)c². Q > 0 là tỏa năng lượng; Q < 0 cần cung cấp năng lượng, đồng thời còn phải thỏa điều kiện động học."
+    ],
+    "before": [
+      "Quan sát hai nhánh sau phản ứng α + nitrogen-14. Điền A, Z của oxygen và proton.",
+      "So sánh E_lk/A của helium-4, sắt-56 và uranium-235 ở bảng mô phỏng.",
+      "Thử mức năng lượng tới thấp/cao trong nhiệt hạch; ghi giới hạn của mô hình."
+    ],
+    "during": [
+      "Giải Δm = 0,030 u cho hạt nhân A = 4. Tính E_lk và E_lk/A, ghi đúng đơn vị.",
+      "Nhóm so sánh phân hạch và nhiệt hạch theo hạt ban đầu, sản phẩm, điều kiện và năng lượng.",
+      "Điều chỉnh thanh hấp thụ trong mô hình; giải thích điều gì làm số neutron tiếp tục phản ứng thay đổi."
+    ],
+    "after": [
+      "Tự tạo một phương trình còn thiếu một hạt, xác định A và Z của hạt đó.",
+      "Với m_trước − m_sau = 0,010 u, xác định dấu Q và năng lượng tỏa ra.",
+      "Sửa phát biểu ‘năng lượng liên kết càng lớn thì mọi hạt nhân càng bền’ bằng tiêu chí phù hợp."
+    ],
+    "quiz": [
+      {
+        "question": "Độ hụt khối 0,010 u tương ứng năng lượng liên kết bao nhiêu?",
+        "options": ["0,010 MeV", "9,315 MeV", "931,5 MeV"],
+        "answer": 1,
+        "explanation": "E = 0,010 × 931,5 = 9,315 MeV."
+      },
+      {
+        "question": "Trong phản ứng ⁴₂He + ¹⁴₇N → X + ¹₁p, X có (A, Z) nào?",
+        "options": ["(17,8)", "(18,9)", "(13,6)"],
+        "answer": 0,
+        "explanation": "A_X = 4 + 14 − 1 = 17; Z_X = 2 + 7 − 1 = 8."
+      },
+      {
+        "question": "Khi Q > 0, phản ứng có đặc điểm gì?",
+        "options": [
+          "Cần thu năng lượng Q",
+          "Không thay đổi năng lượng",
+          "Tỏa năng lượng Q"
+        ],
+        "answer": 2,
+        "explanation": "Khối lượng nghỉ ban đầu lớn hơn cuối; chênh lệch xuất hiện dưới dạng năng lượng của sản phẩm."
+      }
+    ],
+    "video": "https://www.khanacademy.org/v/mass-defect-and-binding-energy",
+    "videoTitle": "Khan Academy - Mass defect and binding energy",
+    "videoPrompt": "Dừng sau ví dụ helium: giải thích vì sao khối lượng hạt nhân nhỏ hơn tổng khối lượng các nucleon tự do. Video tiếng Anh, kèm câu hỏi tiếng Việt.",
+    "source": "https://www.khanacademy.org/v/mass-defect-and-binding-energy"
+  },
+  {
+    "code": "B23",
+    "title": "Hiện tượng phóng xạ",
+    "goals": [
+      "So sánh α, β, γ",
+      "Đọc định luật phân rã và chu kì bán rã",
+      "Xử lí dữ liệu đếm và tuổi mẫu"
+    ],
+    "theory": [
+      "Phóng xạ là biến đổi tự phát của hạt nhân không bền. Không dự đoán chính xác lúc phân rã của một hạt riêng; có thể dự đoán phân bố thống kê của nhiều hạt.",
+      "α là hạt nhân helium-4 (2 proton, 2 neutron). Phân rã α làm A giảm 4 và Z giảm 2.",
+      "β⁻ là electron phát ra khi neutron biến đổi thành proton; A không đổi, Z tăng 1. β⁺ là positron, A không đổi và Z giảm 1; phản ứng còn có neutrino hoặc phản neutrino.",
+      "γ là photon năng lượng cao từ hạt nhân kích thích. Khi chỉ phát γ, A và Z không đổi.",
+      "Giấy có thể chặn α; nhôm làm suy giảm β; γ cần vật liệu dày như chì hoặc bê tông để suy giảm. Mức đâm xuyên phụ thuộc năng lượng và vật liệu, không phải giới hạn tuyệt đối.",
+      "N(t) = N₀ exp(−λt) = N₀ 2^(−t/T), λ = ln2/T. Sau mỗi T, số hạt chưa phân rã giảm một nửa so với đầu khoảng đó, không phải giảm một nửa N₀ mãi mãi.",
+      "Độ phóng xạ H = λN, đơn vị becquerel (Bq) = một phân rã mỗi giây. N là số hạt, H là tốc độ phân rã; không đổi lẫn các đại lượng này.",
+      "C-14 có T gần 5730 năm. Mẫu kín lí tưởng còn 25% so với ban đầu tương ứng 2T = 11460 năm; định tuổi khảo cổ thực còn cần hiệu chỉnh.",
+      "Nguyên tắc bảo vệ: giảm thời gian tiếp xúc, tăng khoảng cách, dùng che chắn phù hợp. Mô phỏng chỉ để học quan hệ định tính."
+    ],
+    "before": [
+      "Chạy máy đếm ít nhất ba lần với cùng điều kiện; ghi ba kết quả và nhận xét độ dao động.",
+      "Thử α, β, γ qua các tấm chắn; so sánh mà không suy ra liều thực.",
+      "Với N₀ = 800 và T = 30 s, dự đoán N tại 0, 30, 60, 90 s trước khi mở đồ thị."
+    ],
+    "during": [
+      "Bảng mô hình: t(s) = 0,30,60,90; N = 800,400,200,100. Vẽ N(t); tính λ với cùng đơn vị giây.",
+      "Giải thích vì sao kết quả đếm từng khoảng ngắn dao động dù đường lí thuyết trơn.",
+      "Một mẫu còn 12,5% C-14 ban đầu: tính số chu kì bán rã và tuổi trong giả thiết mẫu kín."
+    ],
+    "after": [
+      "Phân biệt ‘25% đã phân rã’ với ‘còn 25%’; tính thời gian cho trường hợp thứ hai.",
+      "Viết phương trình phân rã α của uranium-238 và β⁻ của carbon-14.",
+      "Ghi một giới hạn của mô hình N(t) và một lỗi đã tự sửa."
+    ],
+    "quiz": [
+      {
+        "question": "N₀ = 800. Sau 3 chu kì bán rã còn bao nhiêu hạt theo lí thuyết?",
+        "options": ["400", "200", "100"],
+        "answer": 2,
+        "explanation": "N = 800 × 2^(−3) = 100."
+      },
+      {
+        "question": "Phân rã β⁻ biến đổi A và Z thế nào?",
+        "options": [
+          "A không đổi, Z tăng 1",
+          "A giảm 4, Z giảm 2",
+          "A và Z đều không đổi"
+        ],
+        "answer": 0,
+        "explanation": "Neutron chuyển thành proton, electron và phản neutrino; số nucleon giữ nguyên."
+      },
+      {
+        "question": "Một mẫu lí tưởng còn 25% C-14 ban đầu có tuổi gần bao nhiêu?",
+        "options": ["5730 năm", "11460 năm", "22920 năm"],
+        "answer": 1,
+        "explanation": "25% = 1/4 = 2^(−2), tức 2 × 5730 = 11460 năm trong mô hình mẫu kín."
+      }
+    ],
+    "video": "https://www.khanacademy.org/science/hs-chemistry/x2613d8165d88df5e:nuclear-chemistry-hs/x2613d8165d88df5e:radioactive-decay/v/intro-to-radioactive-decay",
+    "videoTitle": "Khan Academy - Introduction to radioactive decay",
+    "videoPrompt": "Đối chiếu từng loại phân rã với bảng A, Z. Tự ghi chú tiếng Việt; không mặc định nguồn có phụ đề tiếng Việt.",
+    "source": "https://www.khanacademy.org/science/in-in-class-12th-physics-india/nuclei"
+  },
+  {
+    "code": "B24",
+    "title": "Công nghiệp hạt nhân",
+    "goals": [
+      "Mô tả chuyển hóa năng lượng",
+      "Phân biệt chẩn đoán và xạ trị",
+      "Đánh giá ứng dụng bằng chứng khoa học"
+    ],
+    "theory": [
+      "Trong nhà máy điện hạt nhân, năng lượng từ phân hạch chuyển thành nhiệt, cơ năng turbine rồi điện năng máy phát. Không chuyển trực tiếp khối lượng thành dòng điện trong dây dẫn.",
+      "Ví dụ lò nước áp lực dùng vòng sơ cấp và thứ cấp tách biệt qua bộ trao đổi nhiệt. Mô hình này không đại diện cho mọi thiết kế lò.",
+      "Thanh điều khiển chứa vật liệu hấp thụ neutron; điều chỉnh số neutron tiếp tục gây phản ứng dây chuyền. k = 1 là mô hình cân bằng theo thế hệ neutron, không nói toàn bộ thiết bị đã an toàn.",
+      "Y học hạt nhân dùng chất đánh dấu để ghi nhận tín hiệu phát từ bên trong cơ thể. PET ghi cặp photon gamma sau hủy positron–electron; SPECT ghi photon gamma bằng hệ đầu thu khác.",
+      "Xạ trị nhằm tác động mô đích bằng bức xạ ion hóa; mục đích khác chẩn đoán. Nội dung ở đây chỉ giải thích nguyên lí, không hướng dẫn điều trị.",
+      "Chiếu xạ thực phẩm có thể giảm vi sinh vật, hạn chế côn trùng hoặc nảy mầm. Trong quy trình được kiểm soát, thực phẩm không trở thành nguồn phóng xạ.",
+      "Trong công nghiệp, sự suy giảm tia xuyên qua vật liệu giúp phát hiện bất thường; chất đánh dấu có thể theo dõi dòng chảy. Tín hiệu phải được diễn giải theo thiết bị và phép đo.",
+      "Đánh giá một dự án điện cần xem xét nguồn điện, chi phí, vận hành, chất thải, môi trường và sự tham gia của cộng đồng; không kết luận chỉ từ một hình mô phỏng."
+    ],
+    "before": [
+      "Theo dõi hai vòng nước trong sơ đồ 3D; ghi nơi truyền nhiệt và nơi phát điện.",
+      "Chọn PET và xạ trị; giải thích hướng đi của tín hiệu và mục đích mỗi chế độ.",
+      "Đọc nguồn IAEA về chiếu xạ thực phẩm; nêu một ứng dụng và một hiểu nhầm thường gặp."
+    ],
+    "during": [
+      "Tạo bản đồ tư duy bốn nhánh: năng lượng, y học, nông nghiệp, công nghiệp; mỗi nhánh có cơ chế, lợi ích và giới hạn.",
+      "Đóng vai nhà khoa học, cư dân, chuyên gia kinh tế hoặc nhà môi trường khi thảo luận nhà máy điện giả định; mỗi ý kiến phải có dẫn chứng.",
+      "Nhóm phản biện một nhận định bằng sơ đồ chuyển hóa năng lượng và nguồn đã đọc; ghi điều chưa có dữ liệu."
+    ],
+    "after": [
+      "Viết đoạn 150–200 từ giải thích một ứng dụng; nêu cơ chế, lợi ích, điều kiện áp dụng và nguồn.",
+      "Phân biệt thực phẩm được chiếu xạ với thực phẩm nhiễm chất phóng xạ.",
+      "Tự đánh giá đóng góp nhóm bằng một sản phẩm cụ thể và một điều cần cải thiện."
+    ],
+    "quiz": [
+      {
+        "question": "Chuỗi chuyển hóa chính trong nhà máy điện hạt nhân là gì?",
+        "options": [
+          "Hạt nhân → nhiệt → cơ → điện",
+          "Điện → hạt nhân → nhiệt",
+          "Hạt nhân → điện trực tiếp"
+        ],
+        "answer": 0,
+        "explanation": "Nhiệt tạo hơi hoặc truyền cho môi chất, turbine quay, máy phát tạo điện."
+      },
+      {
+        "question": "PET và xạ trị khác nhau chủ yếu ở đâu?",
+        "options": [
+          "PET luôn chữa bệnh, xạ trị chỉ chụp ảnh",
+          "PET ghi tín hiệu chẩn đoán, xạ trị tác động mô đích",
+          "Cả hai đều là cùng một phép đo"
+        ],
+        "answer": 1,
+        "explanation": "Mục đích và cấu hình thiết bị khác nhau; đây là so sánh nguyên lí."
+      },
+      {
+        "question": "Chiếu xạ thực phẩm đúng quy trình có làm thực phẩm thành nguồn phóng xạ không?",
+        "options": ["Luôn có", "Chỉ khi bảo quản lạnh", "Không"],
+        "answer": 2,
+        "explanation": "Chiếu xạ đúng quy trình không đồng nghĩa với nhiễm chất phóng xạ; IAEA giải thích ứng dụng và tiêu chuẩn kiểm soát."
+      }
+    ],
+    "video": "https://ed.ted.com/lessons/what-are-the-challenges-of-nuclear-power-m-v-ramana-and-sajan-saini",
+    "videoTitle": "TED-Ed - Những vấn đề của năng lượng hạt nhân — M. V. Ramana và Sajan Saini",
+    "videoPrompt": "Vẽ lại chuỗi chuyển hóa năng lượng, sau đó liệt kê hai vấn đề video nêu cần cân nhắc. Nguồn tiếng Anh; hướng dẫn này bằng tiếng Việt.",
+    "source": "https://www.iaea.org/topics/food-irradiation"
+  },
+  {
+    "code": "B25",
+    "title": "Ôn tập và phân tích số liệu hạt nhân",
+    "goals": [
+      "Ước lượng T từ dữ liệu",
+      "Giải bài toán năng lượng với đơn vị đúng",
+      "Trình bày lời giải và tự kiểm tra"
+    ],
+    "theory": [
+      "Giải bài hạt nhân theo trình tự: xác định đại lượng, ghi giả thiết, chọn định luật, đổi đơn vị, tính và kiểm tra tính hợp lí.",
+      "Đọc A, Z trước khi cân bằng phương trình. Với α: (4,2); neutron: (1,0); proton: (1,1); β⁻: (0,−1); β⁺: (0,+1).",
+      "Với dữ liệu H(t), H giảm một nửa sau T trong mô hình một đồng vị. H₀ = 151 Bq, H(30 s) = 85 Bq và H(60 s) = 55 Bq nên thời điểm đạt H₀/2 = 75,5 Bq nằm giữa 30 và 60 s.",
+      "Có thể nội suy giữa hai điểm để có ước lượng sơ bộ, rồi thử đường cong mũ và xem sai khác. Nội suy không phải kết quả đo chính xác tuyệt đối.",
+      "Biến đổi ln(H/H₀) = −λt khi H > 0; đồ thị log có hệ số góc −λ, T = ln2/λ. Phải nêu cách xử lí sai số và nền đếm nếu có dữ liệu thực.",
+      "1 u c² ≈ 931,5 MeV; 1 MeV ≈ 1,602 × 10^(−13) J. Cộng khối lượng nhất quán, tránh trộn khối lượng nguyên tử với khối lượng hạt nhân.",
+      "Sản phẩm bài học gồm bảng số liệu, đồ thị có trục/đơn vị, phép tính và lời giải thích. Điểm trò chơi chỉ dùng tự kiểm tra, không tự chuyển thành điểm chính thức."
+    ],
+    "before": [
+      "Ôn ba công thức A = Z + N, E = Δm c², N = N₀ 2^(−t/T); ghi điều kiện sử dụng.",
+      "Dự đoán T từ H₀ = 151 Bq và hai điểm 30 s, 60 s; chưa nhấn hiện đường khớp.",
+      "Tự làm ba câu chẩn đoán; ghi lí do cho mỗi lựa chọn."
+    ],
+    "during": [
+      "Dùng mô phỏng phân tích để thay đổi T và so sánh đường lí thuyết với bảng SGK; ghi ít nhất ba giá trị T đã thử.",
+      "Luân phiên nhóm A và B trả lời bộ câu hỏi; giải thích sau mỗi lượt, điểm chỉ lưu trong phiên học.",
+      "Mỗi bạn kiểm tra lời giải của bạn khác theo bốn tiêu chí: định luật, đơn vị, tính toán, nhận xét sai số."
+    ],
+    "after": [
+      "Nộp một lời giải hoàn chỉnh cho bài định tuổi hoặc năng lượng phản ứng.",
+      "Đối chiếu kết quả với câu chẩn đoán, ghi lỗi ban đầu và cách sửa.",
+      "Lập kế hoạch ôn lại nội dung chưa hiểu; tải phiếu học tập để lưu hoặc in."
+    ],
+    "quiz": [
+      {
+        "question": "H₀ = 151 Bq, H(30 s) = 85 Bq, H(60 s) = 55 Bq. T nằm ở đâu?",
+        "options": ["Nhỏ hơn 30 s", "Giữa 30 và 60 s", "Lớn hơn 60 s"],
+        "answer": 1,
+        "explanation": "75,5 Bq nằm giữa 85 và 55 Bq, nên thời điểm đạt một nửa nằm giữa 30 và 60 s."
+      },
+      {
+        "question": "1 MeV gần bằng bao nhiêu joule?",
+        "options": ["1,602 × 10^(−13) J", "931,5 J", "1,602 × 10^(13) J"],
+        "answer": 0,
+        "explanation": "1 eV = 1,602 × 10^(−19) J; nhân 10^6 để đổi MeV sang J."
+      },
+      {
+        "question": "Đồ thị phân rã cần ghi gì để người khác kiểm tra được?",
+        "options": [
+          "Chỉ màu đường",
+          "Chỉ tên học sinh",
+          "Đại lượng, đơn vị các trục và nguồn dữ liệu"
+        ],
+        "answer": 2,
+        "explanation": "Trục và nguồn giúp phân biệt số hạt, độ phóng xạ, dữ liệu mô phỏng và dữ liệu thực nghiệm."
+      }
+    ],
+    "video": "https://www.khanacademy.org/v/binding-energy-graph",
+    "videoTitle": "Khan Academy - Binding energy graph",
+    "videoPrompt": "Phân biệt năng lượng liên kết với năng lượng liên kết riêng; ghi cách đọc hai trục của đồ thị. Video tiếng Anh.",
+    "source": "https://www.khanacademy.org/v/binding-energy-graph"
+  }
+]

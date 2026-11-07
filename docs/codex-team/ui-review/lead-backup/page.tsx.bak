@@ -1,0 +1,80 @@
+import Link from "next/link";
+import { PublicShell } from "./PublicShell";
+import { NuclearScienceIllustration } from "@/components/learning/NuclearScienceIllustration";
+
+export default function Home() {
+  return (
+    <PublicShell>
+      <section className="public-hero">
+        <div className="public-hero-content">
+          <span className="public-eyebrow">VẬT LÍ 12 · LỚP HỌC ĐẢO NGƯỢC</span>
+          <h1 className="public-h1">Học liệu số<br/>Vật lí hạt nhân 12</h1>
+          <p className="public-description">
+            Nền tảng hỗ trợ giáo viên tổ chức dạy học theo mô hình lớp học đảo ngược. 
+            Tối ưu hóa thời gian trên lớp, phát triển năng lực tự học của học sinh qua các 
+            hoạt động chuẩn bị, thảo luận và tự đánh giá.
+          </p>
+          <div className="public-actions">
+            <Link href="/hoc-lieu" className="btn primary">Mở học liệu & Thí nghiệm 3D</Link>
+            <Link href="/teacher" className="public-link-text">Dành cho giáo viên →</Link>
+          </div>
+        </div>
+        <div className="public-hero-art">
+          <NuclearScienceIllustration className="public-hero-svg" />
+        </div>
+      </section>
+
+      <section className="public-section">
+        <div className="public-section-header">
+          <h2>Tiến trình học tập</h2>
+          <p>Mô hình lớp học đảo ngược được thiết kế chặt chẽ qua 3 giai đoạn.</p>
+        </div>
+        
+        <div className="public-timeline">
+          <div className="timeline-step">
+            <span className="step-num">01</span>
+            <div className="step-content">
+              <h3>Trước giờ học</h3>
+              <p>Video · Colab · câu hỏi cuối pha</p>
+            </div>
+          </div>
+          <div className="timeline-divider"></div>
+          <div className="timeline-step">
+            <span className="step-num">02</span>
+            <div className="step-content">
+              <h3>Trong giờ học</h3>
+              <p>Mô phỏng · quan sát · thảo luận</p>
+            </div>
+          </div>
+          <div className="timeline-divider"></div>
+          <div className="timeline-step">
+            <span className="step-num">03</span>
+            <div className="step-content">
+              <h3>Sau giờ học</h3>
+              <p>PDF · bài tập · đánh giá</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="public-section public-section-featured">
+        <div className="featured-card">
+          <div className="featured-content">
+            <span className="public-eyebrow">BÀI HỌC MINH HỌA</span>
+            <h2>Bài 21<br/>Cấu tạo hạt nhân</h2>
+            <div className="featured-tags">
+              <span>Z – N – A</span>
+              <span>Đồng vị</span>
+              <span>Cấu tạo hạt nhân</span>
+              <span>Bán kính hạt nhân</span>
+            </div>
+            <Link href="/demo-lesson" className="btn primary">Xem bài học minh họa</Link>
+          </div>
+          <div className="featured-art">
+             <NuclearScienceIllustration className="featured-svg" />
+          </div>
+        </div>
+      </section>
+    </PublicShell>
+  );
+}

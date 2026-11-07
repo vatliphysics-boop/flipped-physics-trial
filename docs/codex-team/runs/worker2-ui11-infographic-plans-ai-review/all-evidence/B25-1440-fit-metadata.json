@@ -1,0 +1,49 @@
+{
+  "route": "/hoc-lieu/truc-quan?bai=B25",
+  "size": [
+    1440,
+    900
+  ],
+  "buttons": [
+    {
+      "text": "Phóng to hình",
+      "rect": {
+        "w": 125.25,
+        "h": 44
+      }
+    },
+    {
+      "text": "1. Bảng số liệu",
+      "rect": {
+        "w": 126.28125,
+        "h": 45
+      }
+    },
+    {
+      "text": "2. Đọc đồ thị",
+      "rect": {
+        "w": 117,
+        "h": 45
+      }
+    },
+    {
+      "text": "3. Phân biệt N và H",
+      "rect": {
+        "w": 157.296875,
+        "h": 45
+      }
+    },
+    {
+      "text": "Kiểm tra nhận định",
+      "rect": {
+        "w": 147.265625,
+        "h": 39
+      }
+    }
+  ],
+  "img": [
+    1040,
+    607
+  ],
+  "overlays": 0
+}

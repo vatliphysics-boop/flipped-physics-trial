@@ -2,38 +2,11 @@
 
 import { useState, useTransition } from "react";
 import { PhysicsActivityList } from "@/components/physics/FixedPhysicsActivityRenderer";
+import { getNuclearSequence } from "@/lib/nuclear-learning-sequence";
 import type { NuclearPhysicsLessonCode } from "@/lib/curriculum";
 import { StudentColabViewer, type StudentColabMaterial } from "./StudentColabViewer";
 import { StudentPhaseFinalQuestions, type FinalQuestion } from "./StudentPhaseFinalQuestions";
 import { declareSimulationCompletedAction } from "@/app/student/actions";
-
-function renderGroupActivities(lessonCode: string) {
-  switch (lessonCode) {
-    case "B23":
-      return (
-        <article className="student-paper" style={{ marginBottom: "48px", borderLeft: "4px solid var(--color-primary)" }}>
-          <h2 style={{ fontSize: "24px", marginBottom: "8px" }}>Xử lý dữ liệu bán rã theo nhóm</h2>
-          <p style={{ color: "var(--text-secondary)", marginBottom: "16px" }}>Nhóm em hãy dùng dữ liệu từ thí nghiệm mô phỏng để lập bảng tính, vẽ đồ thị và xác định chu kì bán rã T. Nếu giáo viên có cung cấp link Google Sheets, em có thể truy cập ở mục Phiếu học tập bên dưới.</p>
-        </article>
-      );
-    case "B24":
-      return (
-        <article className="student-paper" style={{ marginBottom: "48px", borderLeft: "4px solid var(--color-primary)" }}>
-          <h2 style={{ fontSize: "24px", marginBottom: "8px" }}>Đóng vai nhà máy điện & Thảo luận ứng dụng</h2>
-          <p style={{ color: "var(--text-secondary)", marginBottom: "16px" }}>Thực hành phân vai (Nhà khoa học, Người dân, Chuyên gia kinh tế, Nhà môi trường) để bảo vệ quan điểm về nhà máy điện hạt nhân. Sử dụng bản đồ tư duy để tổng hợp ý kiến nếu giáo viên có cung cấp liên kết.</p>
-        </article>
-      );
-    case "B25":
-      return (
-        <article className="student-paper" style={{ marginBottom: "48px", borderLeft: "4px solid var(--color-primary)" }}>
-          <h2 style={{ fontSize: "24px", marginBottom: "8px" }}>Ôn tập công thức theo đội</h2>
-          <p style={{ color: "var(--text-secondary)", marginBottom: "16px" }}>Chuẩn bị tham gia trò chơi kịch tính (Kahoot!, Blooket,...) để củng cố công thức độ hụt khối và năng lượng phản ứng. Link tham gia sẽ được giáo viên chiếu trên lớp hoặc đính kèm dưới đây.</p>
-        </article>
-      );
-    default:
-      return null;
-  }
-}
 
 export function StudentInClassProgression({
   lessonCode,
@@ -44,6 +17,7 @@ export function StudentInClassProgression({
   allVideosCompleted,
   phaseCompleted,
   simulationCompleted,
+  assignedMainActivity,
 }: {
   lessonCode: NuclearPhysicsLessonCode;
   lessonId: string;
@@ -53,30 +27,45 @@ export function StudentInClassProgression({
   allVideosCompleted: boolean;
   phaseCompleted: boolean;
   simulationCompleted: boolean;
+  assignedMainActivity: boolean;
 }) {
   const [localSimCompleted, setLocalSimCompleted] = useState(false);
   const [isPending, startTransition] = useTransition();
+  const [saveError, setSaveError] = useState("");
 
+  const mainActivity = getNuclearSequence(lessonCode)?.activity;
   const simCompleted = simulationCompleted || localSimCompleted;
 
-  const allColabsCompleted = colabs.every(c => c.is_complete);
-  const allRequiredCompleted = allVideosCompleted && allColabsCompleted && simCompleted;
+  const allRequiredCompleted = allVideosCompleted && simCompleted;
 
   function handleCompleteAll() {
     if (simCompleted || isPending) return;
-    setLocalSimCompleted(true);
+    setSaveError("");
     startTransition(async () => {
-      await declareSimulationCompletedAction({ lessonId });
+      try {
+        const result = await declareSimulationCompletedAction({ lessonId });
+        if (result.success) setLocalSimCompleted(true);
+        else setSaveError(result.error ?? "Chưa lưu được tiến độ. Em hãy thử lại.");
+      } catch { setSaveError("Chưa lưu được tiến độ. Em hãy thử lại."); }
     });
   }
 
   return (
     <>
       <section className="physics-lab-container" style={{ padding: "0 0 48px" }}>
-        <PhysicsActivityList 
-          lessonCode={lessonCode} 
-          onCompleteAll={handleCompleteAll} 
-        />
+        {assignedMainActivity && mainActivity ? <>
+          {!simCompleted && <div className="student-paper">
+            <p>Hoàn thành hoạt động chính và nộp bằng chứng ở bước giáo viên giao, sau đó xác nhận để mở câu hỏi chốt.</p>
+            <button type="button" className="btn primary" onClick={handleCompleteAll} disabled={!allVideosCompleted || isPending}>
+              {isPending ? "Đang lưu…" : "Xác nhận hoàn thành hoạt động chính"}
+            </button>
+          </div>}
+          {lessonCode !== "B25" && <details>
+            <summary>Hoạt động khám phá thêm (tự chọn)</summary>
+            <PhysicsActivityList lessonCode={lessonCode} omitActivity={mainActivity} />
+          </details>}
+        </> : <PhysicsActivityList lessonCode={lessonCode} requiredActivity={mainActivity} onCompleteAll={simCompleted ? undefined : handleCompleteAll} />}
+        {saveError && <p role="alert">{saveError}</p>}
         {simCompleted && !phaseCompleted && (
           <div style={{ textAlign: "center", marginTop: "16px", color: "var(--semantic-success)" }}>
             ✓ Đã hoàn thành mô phỏng {isPending ? "(đang lưu...)" : ""}
@@ -85,8 +74,6 @@ export function StudentInClassProgression({
       </section>
       
       <section className="content-list" style={{ marginTop: "48px" }}>
-        {renderGroupActivities(lessonCode)}
-        
         {videosNode}
 
         {colabs.map(colab => (
@@ -103,9 +90,10 @@ export function StudentInClassProgression({
         />
       )}
 
+      {allRequiredCompleted && finalQs.length !== 2 && !phaseCompleted && <p role="status">Chưa có đủ câu hỏi chốt. Nếu vừa lưu hoạt động, hãy tải lại trang hoặc báo giáo viên.</p>}
       {(!allRequiredCompleted) && (
         <div style={{ textAlign: "center", marginTop: "48px", padding: "24px", color: "var(--text-muted)", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-md)" }}>
-          <p>Em cần hoàn thành mô phỏng và tất cả học liệu để mở khóa câu hỏi chốt kiến thức.</p>
+          <p>Em cần xác nhận hoạt động chính và hoàn thành các nhiệm vụ bắt buộc để mở câu hỏi chốt.</p>
         </div>
       )}
     </>

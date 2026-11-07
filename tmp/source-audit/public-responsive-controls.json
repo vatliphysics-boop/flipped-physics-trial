@@ -1,0 +1,49 @@
+{
+  "metrics": [
+    {
+      "width": 390,
+      "code": "B21",
+      "pageWidth": 390,
+      "scrollWidth": 390,
+      "formulaCount": 4,
+      "formulaClips": [],
+      "overflowElements": [],
+      "errors": [],
+      "diagnostics": []
+    },
+    {
+      "width": 1366,
+      "code": "home",
+      "errors": [
+        "locator.innerText: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('h1').first()\u001b[22m\n"
+      ],
+      "diagnostics": []
+    },
+    {
+      "width": 1366,
+      "code": "B25",
+      "pageWidth": 1366,
+      "scrollWidth": 1366,
+      "formulaCount": 4,
+      "formulaClips": [],
+      "overflowElements": [],
+      "errors": [],
+      "diagnostics": []
+    }
+  ],
+  "internal": [],
+  "external": [
+    [
+      "https://nucleus.iaea.org/Pages/livechart-of-nuclides-av.aspx",
+      "IAEA · LiveChart of Nuclides"
+    ],
+    [
+      "https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ascii=ascii&ele=C",
+      "NIST · Isotopic Compositions for Carbon"
+    ],
+    [
+      "https://physics.nist.gov/cgi-bin/cuu/Results?search_for=atomic+mass+constant+energy+equivalent+in+MeV",
+      "NIST · CODATA 2022"
+    ]
+  ]
+}

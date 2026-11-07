@@ -1,0 +1,4 @@
+PASS B23/B25 1366px: timeline, pause/reset, repeat seed, parameter comparison, source table, layout
+PASS B23/B25 390px: timeline, pause/reset, repeat seed, parameter comparison, source table, layout
+PASS B23/B25 320px: timeline, pause/reset, repeat seed, parameter comparison, source table, layout
+PASS B23/B25 768px: timeline, pause/reset, repeat seed, parameter comparison, source table, layout

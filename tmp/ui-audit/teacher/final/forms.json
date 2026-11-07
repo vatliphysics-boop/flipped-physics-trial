@@ -1,0 +1,134 @@
+[
+  {
+    "name": "material-add",
+    "width": 1366,
+    "layout": {
+      "height": 950,
+      "viewport": 950,
+      "form": {
+        "x": 408,
+        "y": 267.078125,
+        "width": 550,
+        "height": 471.828125,
+        "top": 267.078125,
+        "right": 958,
+        "bottom": 738.90625,
+        "left": 408
+      },
+      "lastButton": {
+        "x": 840.3125,
+        "y": 694.90625,
+        "width": 117.6875,
+        "height": 44,
+        "top": 694.90625,
+        "right": 958,
+        "bottom": 738.90625,
+        "left": 840.3125
+      }
+    }
+  },
+  {
+    "name": "plan-editor",
+    "width": 1366,
+    "scrollWidth": 1366
+  },
+  {
+    "name": "material-add",
+    "width": 768,
+    "layout": {
+      "height": 1024,
+      "viewport": 1024,
+      "form": {
+        "x": 109,
+        "y": 304.078125,
+        "width": 550,
+        "height": 471.828125,
+        "top": 304.078125,
+        "right": 659,
+        "bottom": 775.90625,
+        "left": 109
+      },
+      "lastButton": {
+        "x": 541.3125,
+        "y": 731.90625,
+        "width": 117.6875,
+        "height": 44,
+        "top": 731.90625,
+        "right": 659,
+        "bottom": 775.90625,
+        "left": 541.3125
+      }
+    }
+  },
+  {
+    "name": "plan-editor",
+    "width": 768,
+    "scrollWidth": 768
+  },
+  {
+    "name": "material-add",
+    "width": 390,
+    "layout": {
+      "height": 844,
+      "viewport": 844,
+      "form": {
+        "x": 45,
+        "y": 194.0625,
+        "width": 300,
+        "height": 511.859375,
+        "top": 194.0625,
+        "right": 345,
+        "bottom": 705.921875,
+        "left": 45
+      },
+      "lastButton": {
+        "x": 227.3125,
+        "y": 661.921875,
+        "width": 117.6875,
+        "height": 44,
+        "top": 661.921875,
+        "right": 345,
+        "bottom": 705.921875,
+        "left": 227.3125
+      }
+    }
+  },
+  {
+    "name": "plan-editor",
+    "width": 390,
+    "scrollWidth": 390
+  },
+  {
+    "name": "material-add",
+    "width": 320,
+    "layout": {
+      "height": 844,
+      "viewport": 844,
+      "form": {
+        "x": 45,
+        "y": 175.515625,
+        "width": 230,
+        "height": 552.140625,
+        "top": 175.515625,
+        "right": 275,
+        "bottom": 727.65625,
+        "left": 45
+      },
+      "lastButton": {
+        "x": 157.3125,
+        "y": 683.65625,
+        "width": 117.6875,
+        "height": 44,
+        "top": 683.65625,
+        "right": 275,
+        "bottom": 727.65625,
+        "left": 157.3125
+      }
+    }
+  },
+  {
+    "name": "plan-editor",
+    "width": 320,
+    "scrollWidth": 320
+  }
+]

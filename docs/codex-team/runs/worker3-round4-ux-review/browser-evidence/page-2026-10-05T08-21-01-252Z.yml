@@ -1,0 +1,338 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e131] [cursor=pointer]
+  - alert [ref=e135]: "Chương 4: Vật lí hạt nhân"
+  - generic [ref=e136]:
+    - link "Đi đến nội dung chính" [ref=e137] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e138]:
+      - generic [ref=e139]:
+        - button "Ẩn menu" [expanded] [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]: ☰
+        - link "Học liệu Vật lí 12" [ref=e142] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=e144] [cursor=pointer]:
+        - /url: /login
+    - generic [ref=e145]:
+      - complementary "Thanh điều hướng" [ref=e146]:
+        - navigation "Điều hướng chính" [ref=e147]:
+          - generic [ref=e148]:
+            - button "Học liệu" [expanded] [ref=e149] [cursor=pointer]:
+              - text: Học liệu
+              - generic [ref=e150]: ▲
+            - generic "Danh mục học liệu" [ref=e151]:
+              - link "Học theo hình · 3D · Video" [ref=e152] [cursor=pointer]:
+                - /url: /hoc-lieu/truc-quan
+              - link "Hình thức lớp học đảo ngược" [ref=e153] [cursor=pointer]:
+                - /url: /hoc-lieu/lop-hoc-dao-nguoc
+              - link "Tất cả học liệu" [ref=e154] [cursor=pointer]:
+                - /url: /hoc-lieu
+              - link "Ảnh tĩnh & Sơ đồ" [ref=e155] [cursor=pointer]:
+                - /url: /hoc-lieu?type=image
+              - link "Ảnh động & Minh họa" [ref=e156] [cursor=pointer]:
+                - /url: /hoc-lieu?type=animation
+              - link "Video thực tế / Thí nghiệm" [ref=e157] [cursor=pointer]:
+                - /url: /hoc-lieu?type=real_video
+              - link "Video bài giảng" [ref=e158] [cursor=pointer]:
+                - /url: /hoc-lieu?type=lecture_video
+              - link "Thí nghiệm 3D tương tác" [ref=e159] [cursor=pointer]:
+                - /url: /hoc-lieu?type=simulation
+              - link "PDF / Phiếu học tập" [ref=e160] [cursor=pointer]:
+                - /url: /hoc-lieu?type=document
+              - link "Câu hỏi & Nhiệm vụ" [ref=e161] [cursor=pointer]:
+                - /url: /hoc-lieu?type=colab
+              - link "Đề giữa kỳ & Cuối kỳ" [ref=e162] [cursor=pointer]:
+                - /url: /hoc-lieu?type=assessment
+          - link "Học với AI" [ref=e163] [cursor=pointer]:
+            - /url: /hoc-lieu/ai
+          - link "Tổng quan" [ref=e164] [cursor=pointer]:
+            - /url: /student
+          - link "Lớp học của em" [ref=e165] [cursor=pointer]:
+            - /url: /student/classes
+          - button "Chương trình Vật lí 12" [ref=e167] [cursor=pointer]:
+            - text: Chương trình Vật lí 12
+            - generic [ref=e168]: ▼
+          - link "Bài tập và kiểm tra" [ref=e169] [cursor=pointer]:
+            - /url: /student/assignments
+          - link "Nhật kí học tập" [ref=e170] [cursor=pointer]:
+            - /url: /student/journal
+      - main [ref=e171]:
+        - generic [ref=e173]:
+          - paragraph [ref=e174]: Vật lí 12 · B21–B25
+          - 'heading "Chương 4: Vật lí hạt nhân" [level=1] [ref=e175]'
+          - paragraph [ref=e176]: "B21–B25: thí nghiệm 3D nhiều góc nhìn, kiến thức, video, phiếu học tập và hoạt động nhóm. Kết quả ở đây dùng tự luyện; nộp bài qua lớp học sau khi đăng nhập."
+        - paragraph [ref=e177]:
+          - link "Cách tổ chức lớp học · Việc của giáo viên và học sinh" [ref=e178] [cursor=pointer]:
+            - /url: /hoc-lieu/lop-hoc-dao-nguoc
+        - generic [ref=e179]:
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - generic [ref=e182]: "Chương 4: Vật lí hạt nhân · B21–B25"
+              - heading "Học liệu theo bài" [level=2] [ref=e183]
+              - paragraph [ref=e184]: Chọn bài để mở hình minh họa, mô phỏng, video và bản ghi học tập.
+            - link "Mở học liệu B22" [ref=e185] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B22
+          - navigation "Mở học liệu theo bài" [ref=e186]:
+            - link "B21 Cấu trúc hạt nhân Hình · 3D · Video · Bản ghi ↗" [ref=e187] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B21
+              - generic [ref=e188]: B21
+              - strong [ref=e189]: Cấu trúc hạt nhân
+              - generic [ref=e190]: Hình · 3D · Video · Bản ghi ↗
+            - link "B22 Phản ứng hạt nhân Hình · 3D · Video · Bản ghi ↗" [ref=e191] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B22
+              - generic [ref=e192]: B22
+              - strong [ref=e193]: Phản ứng hạt nhân
+              - generic [ref=e194]: Hình · 3D · Video · Bản ghi ↗
+            - link "B23 Hiện tượng phóng xạ Hình · 3D · Video · Bản ghi ↗" [ref=e195] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B23
+              - generic [ref=e196]: B23
+              - strong [ref=e197]: Hiện tượng phóng xạ
+              - generic [ref=e198]: Hình · 3D · Video · Bản ghi ↗
+            - link "B24 Công nghiệp hạt nhân Hình · 3D · Video · Bản ghi ↗" [ref=e199] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B24
+              - generic [ref=e200]: B24
+              - strong [ref=e201]: Công nghiệp hạt nhân
+              - generic [ref=e202]: Hình · 3D · Video · Bản ghi ↗
+            - link "B25 Thực hành bán rã Hình · 3D · Video · Bản ghi ↗" [ref=e203] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B25
+              - generic [ref=e204]: B25
+              - strong [ref=e205]: Thực hành bán rã
+              - generic [ref=e206]: Hình · 3D · Video · Bản ghi ↗
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - strong [ref=e209]: Kế hoạch dạy học của giáo viên
+              - paragraph [ref=e210]: Chọn học liệu từ kho, chỉnh mục tiêu và nhiệm vụ, thiết kế sản phẩm/đánh giá cho ba pha. Có 5 mẫu B21–B25 để sửa và lưu riêng.
+            - link "Soạn kế hoạch dạy học" [ref=e211] [cursor=pointer]:
+              - /url: /hoc-lieu/soan-ke-hoach
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - text: Tìm học liệu
+              - searchbox "Tìm học liệu" [ref=e214]
+            - generic [ref=e215]:
+              - text: Bài học
+              - combobox "Bài học" [ref=e216]:
+                - option "B21–B25 · Vật lí hạt nhân"
+                - option "B21"
+                - option "B22"
+                - option "B23"
+                - option "B24"
+                - option "B25" [selected]
+          - generic "Lọc theo nhu cầu" [ref=e217]:
+            - button "Mọi mục đích" [pressed] [ref=e218] [cursor=pointer]
+            - button "Tự học trước giờ" [ref=e219] [cursor=pointer]
+            - button "Khám phá trên lớp" [ref=e220] [cursor=pointer]
+            - button "Ôn tập & kiểm tra" [ref=e221] [cursor=pointer]
+            - generic [ref=e222]:
+              - checkbox "Học liệu đã lưu (0)" [ref=e223]
+              - text: Học liệu đã lưu (0)
+          - generic "Lọc loại học liệu" [ref=e224]:
+            - button "Tất cả học liệu (89)" [pressed] [ref=e225] [cursor=pointer]:
+              - text: Tất cả học liệu
+              - generic [ref=e226]: (89)
+            - button "Thí nghiệm 3D (17)" [ref=e227] [cursor=pointer]:
+              - text: Thí nghiệm 3D
+              - generic [ref=e228]: (17)
+            - button "Ảnh & Sơ đồ (17)" [ref=e229] [cursor=pointer]:
+              - text: Ảnh & Sơ đồ
+              - generic [ref=e230]: (17)
+            - button "Minh họa động (5)" [ref=e231] [cursor=pointer]:
+              - text: Minh họa động
+              - generic [ref=e232]: (5)
+            - button "Video thực tế (1)" [ref=e233] [cursor=pointer]:
+              - text: Video thực tế
+              - generic [ref=e234]: (1)
+            - button "Video bài giảng (10)" [ref=e235] [cursor=pointer]:
+              - text: Video bài giảng
+              - generic [ref=e236]: (10)
+            - button "PDF & Phiếu học tập (18)" [ref=e237] [cursor=pointer]:
+              - text: PDF & Phiếu học tập
+              - generic [ref=e238]: (18)
+            - button "Câu hỏi & Hoạt động nhóm (17)" [ref=e239] [cursor=pointer]:
+              - text: Câu hỏi & Hoạt động nhóm
+              - generic [ref=e240]: (17)
+            - button "Đề giữa kỳ & Cuối kỳ (4)" [ref=e241] [cursor=pointer]:
+              - text: Đề giữa kỳ & Cuối kỳ
+              - generic [ref=e242]: (4)
+          - status [ref=e243]: 20 học liệu phù hợp. Nhấn tên học liệu để mở nội dung và thao tác.
+          - generic [ref=e244]:
+            - article [ref=e1507]:
+              - generic [ref=e1508]:
+                - 'button "B25 · Ảnh & Sơ đồ Hình câu hỏi: So sánh hai khoảng cách tới nguồn Sơ đồ nguồn điểm để xét tỉ số cường độ ở r và 2r dưới các giả thiết được ghi." [ref=e1509] [cursor=pointer]':
+                  - generic [ref=e1510]:
+                    - generic [ref=e1511]: B25 · Ảnh & Sơ đồ
+                    - strong [ref=e1512]: "Hình câu hỏi: So sánh hai khoảng cách tới nguồn"
+                    - generic [ref=e1513]: Sơ đồ nguồn điểm để xét tỉ số cường độ ở r và 2r dưới các giả thiết được ghi.
+                  - generic [ref=e1514]: +
+                - 'button "Lưu Hình câu hỏi: So sánh hai khoảng cách tới nguồn" [ref=e1515] [cursor=pointer]': ☆
+            - article [ref=e1516]:
+              - generic [ref=e1517]:
+                - 'button "B25 · Ảnh & Sơ đồ Hình câu hỏi: Số đếm mô phỏng và bức xạ nền Bốn lượt mô phỏng 44,48,40,52; nền 4 trong20s; dùng luyện đọc dữ liệu, không suy liều." [ref=e1518] [cursor=pointer]':
+                  - generic [ref=e1519]:
+                    - generic [ref=e1520]: B25 · Ảnh & Sơ đồ
+                    - strong [ref=e1521]: "Hình câu hỏi: Số đếm mô phỏng và bức xạ nền"
+                    - generic [ref=e1522]: Bốn lượt mô phỏng 44,48,40,52; nền 4 trong20s; dùng luyện đọc dữ liệu, không suy liều.
+                  - generic [ref=e1523]: +
+                - 'button "Lưu Hình câu hỏi: Số đếm mô phỏng và bức xạ nền" [ref=e1524] [cursor=pointer]': ☆
+            - article [ref=e344]:
+              - generic [ref=e345]:
+                - button "Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ Đề giữa kỳ · Mã A · Vật lí hạt nhân 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới." [ref=e346] [cursor=pointer]:
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ
+                    - strong [ref=e349]: Đề giữa kỳ · Mã A · Vật lí hạt nhân
+                    - generic [ref=e350]: 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                  - generic [ref=e351]: +
+                - button "Lưu Đề giữa kỳ · Mã A · Vật lí hạt nhân" [ref=e352] [cursor=pointer]: ☆
+            - article [ref=e353]:
+              - generic [ref=e354]:
+                - button "Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ Đề giữa kỳ · Mã B · Vật lí hạt nhân 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới." [ref=e355] [cursor=pointer]:
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ
+                    - strong [ref=e358]: Đề giữa kỳ · Mã B · Vật lí hạt nhân
+                    - generic [ref=e359]: 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                  - generic [ref=e360]: +
+                - button "Lưu Đề giữa kỳ · Mã B · Vật lí hạt nhân" [ref=e361] [cursor=pointer]: ☆
+            - article [ref=e362]:
+              - generic [ref=e363]:
+                - button "Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ Đề cuối kỳ · Mã A · Vật lí hạt nhân 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới." [ref=e364] [cursor=pointer]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ
+                    - strong [ref=e367]: Đề cuối kỳ · Mã A · Vật lí hạt nhân
+                    - generic [ref=e368]: 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                  - generic [ref=e369]: +
+                - button "Lưu Đề cuối kỳ · Mã A · Vật lí hạt nhân" [ref=e370] [cursor=pointer]: ☆
+            - article [ref=e371]:
+              - generic [ref=e372]:
+                - button "Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ Đề cuối kỳ · Mã B · Vật lí hạt nhân 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới." [ref=e373] [cursor=pointer]:
+                  - generic [ref=e374]:
+                    - generic [ref=e375]: Chủ đề hạt nhân · Đề giữa kỳ & Cuối kỳ
+                    - strong [ref=e376]: Đề cuối kỳ · Mã B · Vật lí hạt nhân
+                    - generic [ref=e377]: 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                  - generic [ref=e378]: +
+                - button "Lưu Đề cuối kỳ · Mã B · Vật lí hạt nhân" [ref=e379] [cursor=pointer]: ☆
+            - article [ref=e1525]:
+              - generic [ref=e1526]:
+                - button "B25 · PDF & Phiếu học tập B25 · Gợi ý kế hoạch, phân hóa và sản phẩm học tập Nhóm phân tích bảng H(t) của SGK, xác định H₀/2 rồi tìm khoảng chứa T. Dùng notebook hoặc bảng tính để so sánh mô hình; yêu cầu ghi dữ liệu nguồn, giả thiết, đơn vị và lí do sai khác. Cuối cùng chọn đề mẫu phù hợp tiến độ. Giáo viên có thể chọn mẫu và chỉnh sửa trong bàn soạn kế hoạch." [ref=e1527] [cursor=pointer]:
+                  - generic [ref=e1528]:
+                    - generic [ref=e1529]: B25 · PDF & Phiếu học tập
+                    - strong [ref=e1530]: B25 · Gợi ý kế hoạch, phân hóa và sản phẩm học tập
+                    - generic [ref=e1531]: Nhóm phân tích bảng H(t) của SGK, xác định H₀/2 rồi tìm khoảng chứa T. Dùng notebook hoặc bảng tính để so sánh mô hình; yêu cầu ghi dữ liệu nguồn, giả thiết, đơn vị và lí do sai khác. Cuối cùng chọn đề mẫu phù hợp tiến độ. Giáo viên có thể chọn mẫu và chỉnh sửa trong bàn soạn kế hoạch.
+                  - generic [ref=e1532]: +
+                - button "Lưu B25 · Gợi ý kế hoạch, phân hóa và sản phẩm học tập" [ref=e1533] [cursor=pointer]: ☆
+            - article [ref=e1534]:
+              - generic [ref=e1535]:
+                - button "B25 · Câu hỏi & Hoạt động nhóm B25 · Sửa ba lỗi thường gặp Dự đoán, giải thích và đối chiếu ba nhận định sai; viết cách sửa và hành động học tiếp. Có hướng dẫn phản hồi, không gán điểm chính thức." [ref=e1536] [cursor=pointer]:
+                  - generic [ref=e1537]:
+                    - generic [ref=e1538]: B25 · Câu hỏi & Hoạt động nhóm
+                    - strong [ref=e1539]: B25 · Sửa ba lỗi thường gặp
+                    - generic [ref=e1540]: Dự đoán, giải thích và đối chiếu ba nhận định sai; viết cách sửa và hành động học tiếp. Có hướng dẫn phản hồi, không gán điểm chính thức.
+                  - generic [ref=e1541]: +
+                - button "Lưu B25 · Sửa ba lỗi thường gặp" [ref=e1542] [cursor=pointer]: ☆
+            - article [ref=e470]:
+              - generic [ref=e471]:
+                - 'button "Chủ đề hạt nhân · Câu hỏi & Hoạt động nhóm Phiếu quan sát và phản tư năng lực tự học Bốn chỉ báo: mục tiêu/kế hoạch, theo dõi, giải thích có nguồn, tự điều chỉnh. Ghi mức biểu hiện và bằng chứng; khung đề xuất theo bài báo, chưa là thang đo đã kiểm định." [ref=e472] [cursor=pointer]':
+                  - generic [ref=e473]:
+                    - generic [ref=e474]: Chủ đề hạt nhân · Câu hỏi & Hoạt động nhóm
+                    - strong [ref=e475]: Phiếu quan sát và phản tư năng lực tự học
+                    - generic [ref=e476]: "Bốn chỉ báo: mục tiêu/kế hoạch, theo dõi, giải thích có nguồn, tự điều chỉnh. Ghi mức biểu hiện và bằng chứng; khung đề xuất theo bài báo, chưa là thang đo đã kiểm định."
+                  - generic [ref=e477]: +
+                - button "Lưu Phiếu quan sát và phản tư năng lực tự học" [ref=e478] [cursor=pointer]: ☆
+            - article [ref=e1543]:
+              - generic [ref=e1544]:
+                - button "B25 · PDF & Phiếu học tập OpenStax · Chu kì bán rã và độ phóng xạ Đọc quan hệ N(t), H và T rồi phân biệt số hạt với số phân rã mỗi giây. Dùng hai điểm dữ liệu mẫu để ước lượng T, ghi đơn vị và giới hạn của cách tính." [ref=e1545] [cursor=pointer]:
+                  - generic [ref=e1546]:
+                    - generic [ref=e1547]: B25 · PDF & Phiếu học tập
+                    - strong [ref=e1548]: OpenStax · Chu kì bán rã và độ phóng xạ
+                    - generic [ref=e1549]: Đọc quan hệ N(t), H và T rồi phân biệt số hạt với số phân rã mỗi giây. Dùng hai điểm dữ liệu mẫu để ước lượng T, ghi đơn vị và giới hạn của cách tính.
+                  - generic [ref=e1550]: +
+                - button "Lưu OpenStax · Chu kì bán rã và độ phóng xạ" [ref=e1551] [cursor=pointer]: ☆
+            - article [ref=e1552]:
+              - generic [ref=e1553]:
+                - button "B25 · PDF & Phiếu học tập B25 · Kiến thức và phiếu học tập ba giai đoạn Ước lượng T từ dữ liệu; Giải bài toán năng lượng với đơn vị đúng; Trình bày lời giải và tự kiểm tra. Có phần ghi dự đoán, quan sát, tự đánh giá và câu hỏi chẩn đoán." [ref=e1554] [cursor=pointer]:
+                  - generic [ref=e1555]:
+                    - generic [ref=e1556]: B25 · PDF & Phiếu học tập
+                    - strong [ref=e1557]: B25 · Kiến thức và phiếu học tập ba giai đoạn
+                    - generic [ref=e1558]: Ước lượng T từ dữ liệu; Giải bài toán năng lượng với đơn vị đúng; Trình bày lời giải và tự kiểm tra. Có phần ghi dự đoán, quan sát, tự đánh giá và câu hỏi chẩn đoán.
+                  - generic [ref=e1559]: +
+                - button "Lưu B25 · Kiến thức và phiếu học tập ba giai đoạn" [ref=e1560] [cursor=pointer]: ☆
+            - article [ref=e1561]:
+              - generic [ref=e1562]:
+                - button "B25 · Ảnh & Sơ đồ B25 · Infographic tương tác Chọn các điểm trên hình để xem giải thích và trả lời câu hỏi. Có thể tải hình để trình chiếu." [ref=e1563] [cursor=pointer]:
+                  - generic [ref=e1564]:
+                    - generic [ref=e1565]: B25 · Ảnh & Sơ đồ
+                    - strong [ref=e1566]: B25 · Infographic tương tác
+                    - generic [ref=e1567]: Chọn các điểm trên hình để xem giải thích và trả lời câu hỏi. Có thể tải hình để trình chiếu.
+                  - generic [ref=e1568]: +
+                - button "Lưu B25 · Infographic tương tác" [ref=e1569] [cursor=pointer]: ☆
+            - article [ref=e1570]:
+              - generic [ref=e1571]:
+                - button "B25 · Minh họa động B25 · Minh họa động quá trình Quan sát sự thay đổi trên sơ đồ động rồi đối chiếu với thí nghiệm 3D. Kích thước và thời gian quy ước." [ref=e1572] [cursor=pointer]:
+                  - generic [ref=e1573]:
+                    - generic [ref=e1574]: B25 · Minh họa động
+                    - strong [ref=e1575]: B25 · Minh họa động quá trình
+                    - generic [ref=e1576]: Quan sát sự thay đổi trên sơ đồ động rồi đối chiếu với thí nghiệm 3D. Kích thước và thời gian quy ước.
+                  - generic [ref=e1577]: +
+                - button "Lưu B25 · Minh họa động quá trình" [ref=e1578] [cursor=pointer]: ☆
+            - article [ref=e1579]:
+              - generic [ref=e1580]:
+                - button "B25 · Video bài giảng B25 · Khan Academy - Binding energy graph Phân biệt năng lượng liên kết với năng lượng liên kết riêng; ghi cách đọc hai trục của đồ thị. Video tiếng Anh." [ref=e1581] [cursor=pointer]:
+                  - generic [ref=e1582]:
+                    - generic [ref=e1583]: B25 · Video bài giảng
+                    - strong [ref=e1584]: B25 · Khan Academy - Binding energy graph
+                    - generic [ref=e1585]: Phân biệt năng lượng liên kết với năng lượng liên kết riêng; ghi cách đọc hai trục của đồ thị. Video tiếng Anh.
+                  - generic [ref=e1586]: +
+                - button "Lưu B25 · Khan Academy - Binding energy graph" [ref=e1587] [cursor=pointer]: ☆
+            - article [ref=e1588]:
+              - generic [ref=e1589]:
+                - button "B25 · Câu hỏi & Hoạt động nhóm B25 · Câu hỏi chẩn đoán có phản hồi Ba câu kiểm tra kiến thức; chọn đáp án, kiểm tra và đọc lời giải. Kết quả tự luyện không phải điểm lớp học." [ref=e1590] [cursor=pointer]:
+                  - generic [ref=e1591]:
+                    - generic [ref=e1592]: B25 · Câu hỏi & Hoạt động nhóm
+                    - strong [ref=e1593]: B25 · Câu hỏi chẩn đoán có phản hồi
+                    - generic [ref=e1594]: Ba câu kiểm tra kiến thức; chọn đáp án, kiểm tra và đọc lời giải. Kết quả tự luyện không phải điểm lớp học.
+                  - generic [ref=e1595]: +
+                - button "Lưu B25 · Câu hỏi chẩn đoán có phản hồi" [ref=e1596] [cursor=pointer]: ☆
+            - article [ref=e1597]:
+              - generic [ref=e1598]:
+                - 'button "B25 · Video bài giảng B25 · YouTube: Half-life Dừng sau mỗi chu kì bán rã. Từ 800 hạt, dự đoán số còn lại sau 1T, 2T, 3T; phân biệt số hạt N với tốc độ phân rã H." [ref=e1599] [cursor=pointer]':
+                  - generic [ref=e1600]:
+                    - generic [ref=e1601]: B25 · Video bài giảng
+                    - strong [ref=e1602]: "B25 · YouTube: Half-life"
+                    - generic [ref=e1603]: Dừng sau mỗi chu kì bán rã. Từ 800 hạt, dự đoán số còn lại sau 1T, 2T, 3T; phân biệt số hạt N với tốc độ phân rã H.
+                  - generic [ref=e1604]: +
+                - 'button "Lưu B25 · YouTube: Half-life" [ref=e1605] [cursor=pointer]': ☆
+            - article [ref=e1606]:
+              - generic [ref=e1607]:
+                - button "B25 · Câu hỏi & Hoạt động nhóm B25 · Trò chơi ôn tập luân phiên hai đội 15 câu ôn tập cho hai đội dùng chung thiết bị, có lời giải và điểm trong phiên học; không có phòng chơi đồng bộ qua mạng." [ref=e1608] [cursor=pointer]:
+                  - generic [ref=e1609]:
+                    - generic [ref=e1610]: B25 · Câu hỏi & Hoạt động nhóm
+                    - strong [ref=e1611]: B25 · Trò chơi ôn tập luân phiên hai đội
+                    - generic [ref=e1612]: 15 câu ôn tập cho hai đội dùng chung thiết bị, có lời giải và điểm trong phiên học; không có phòng chơi đồng bộ qua mạng.
+                  - generic [ref=e1613]: +
+                - button "Lưu B25 · Trò chơi ôn tập luân phiên hai đội" [ref=e1614] [cursor=pointer]: ☆
+            - article [ref=e1615]:
+              - generic [ref=e1616]:
+                - button "B25 · Câu hỏi & Hoạt động nhóm B23–B25 · Notebook xử lí dữ liệu phân rã Tải notebook Python, mở trong Jupyter hoặc tải lên Google Colab; vẽ đường cong mũ và ước lượng T từ bảng mẫu. Dữ liệu minh họa được ghi rõ." [ref=e1617] [cursor=pointer]:
+                  - generic [ref=e1618]:
+                    - generic [ref=e1619]: B25 · Câu hỏi & Hoạt động nhóm
+                    - strong [ref=e1620]: B23–B25 · Notebook xử lí dữ liệu phân rã
+                    - generic [ref=e1621]: Tải notebook Python, mở trong Jupyter hoặc tải lên Google Colab; vẽ đường cong mũ và ước lượng T từ bảng mẫu. Dữ liệu minh họa được ghi rõ.
+                  - generic [ref=e1622]: +
+                - button "Lưu B23–B25 · Notebook xử lí dữ liệu phân rã" [ref=e1623] [cursor=pointer]: ☆
+            - article [ref=e1624]:
+              - generic [ref=e1625]:
+                - 'button "B25 · Thí nghiệm 3D Mô phỏng: Thực hành phân tích dữ liệu phân rã phóng xạ H(t) Lập bảng số liệu, vẽ đường cong lý thuyết khớp thực nghiệm theo Bảng 25.1 SGK để tìm độ phóng xạ H0 và chu kì bán rã T." [ref=e1626] [cursor=pointer]':
+                  - generic [ref=e1627]:
+                    - generic [ref=e1628]: B25 · Thí nghiệm 3D
+                    - strong [ref=e1629]: "Mô phỏng: Thực hành phân tích dữ liệu phân rã phóng xạ H(t)"
+                    - generic [ref=e1630]: Lập bảng số liệu, vẽ đường cong lý thuyết khớp thực nghiệm theo Bảng 25.1 SGK để tìm độ phóng xạ H0 và chu kì bán rã T.
+                  - generic [ref=e1631]: +
+                - 'button "Lưu Mô phỏng: Thực hành phân tích dữ liệu phân rã phóng xạ H(t)" [ref=e1632] [cursor=pointer]': ☆
+            - article [ref=e1028]:
+              - generic [ref=e1029]:
+                - 'button "Chủ đề hạt nhân · PDF & Phiếu học tập Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân Bản trích trang in 90–122 từ tệp SGK người dùng cung cấp; gồm B21–B25, lí thuyết, câu hỏi và bảng số liệu." [ref=e1030] [cursor=pointer]':
+                  - generic [ref=e1031]:
+                    - generic [ref=e1032]: Chủ đề hạt nhân · PDF & Phiếu học tập
+                    - strong [ref=e1033]: "Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân"
+                    - generic [ref=e1034]: Bản trích trang in 90–122 từ tệp SGK người dùng cung cấp; gồm B21–B25, lí thuyết, câu hỏi và bảng số liệu.
+                  - generic [ref=e1035]: +
+                - 'button "Lưu Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân" [ref=e1036] [cursor=pointer]': ☆
+    - complementary "AI hỗ trợ học tập" [ref=e1046]:
+      - button "Mở khung AI học tập" [ref=e1047] [cursor=pointer]: AI

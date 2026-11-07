@@ -1,0 +1,607 @@
+- generic [ref=f6e1]:
+  - button "Open Next.js Dev Tools" [ref=f6e131] [cursor=pointer]
+  - alert [ref=f6e135]: Soạn kế hoạch dạy học
+  - generic [ref=f6e1060]:
+    - link "Đi đến nội dung chính" [ref=f6e1061] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f6e1062]:
+      - generic [ref=f6e1063]:
+        - button "Mở menu" [active] [ref=f6e1064] [cursor=pointer]:
+          - generic [ref=f6e1065]: ☰
+        - link "Học liệu Vật lí 12" [ref=f6e1066] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f6e1068] [cursor=pointer]:
+        - /url: /teacher/plans
+    - main [ref=f6e1070]:
+      - generic [ref=f6e1072]:
+        - paragraph [ref=f6e1073]: Kho học liệu · Bàn soạn mở
+        - heading "Soạn kế hoạch dạy học" [level=1] [ref=f6e1074]
+        - paragraph [ref=f6e1075]: Mục tiêu – học liệu – hoạt động – sản phẩm – đánh giá trong ba pha trước, trong và sau giờ học.
+      - generic [ref=f6e1076]:
+        - generic [ref=f6e1077]:
+          - generic [ref=f6e1078]:
+            - generic [ref=f6e1079]:
+              - text: Hình thức của mẫu kế hoạch mới
+              - combobox "Hình thức của mẫu kế hoạch mới" [ref=f6e1080]:
+                - option "Học trước – luyện tập trên lớp" [selected]
+                - option "Minh họa – thực hành"
+                - option "Thảo luận"
+                - option "Làm việc nhóm"
+            - paragraph [ref=f6e1081]: Chọn hình thức rồi nhấn Mẫu B21–B25 bên dưới để mở bản mới. Kế hoạch đang soạn không đổi khi chọn ở đây.
+          - link "Xem các hình thức và việc của hai bên" [ref=f6e1082] [cursor=pointer]:
+            - /url: /hoc-lieu/lop-hoc-dao-nguoc
+        - generic [ref=f6e1083]:
+          - paragraph [ref=f6e1084]:
+            - text: Biên soạn kế hoạch cá nhân từ kho B21–B25. Kế hoạch trên thiết bị và kế hoạch trong tài khoản được ghi rõ khi lưu; thao tác đưa vào lớp tạo các bước
+            - strong [ref=f6e1085]: bản nháp
+            - text: để giáo viên rà soát.
+          - link "Quay lại kho học liệu" [ref=f6e1086] [cursor=pointer]:
+            - /url: /hoc-lieu
+        - paragraph [ref=f6e1087]:
+          - text: Bàn soạn mở lưu trên trình duyệt hiện tại.
+          - link "Đăng nhập giáo viên" [ref=f6e1088] [cursor=pointer]:
+            - /url: /teacher/plans
+          - text: để dùng kho riêng, lưu tài khoản và đưa kế hoạch vào bài học.
+        - generic [ref=f6e1089]:
+          - generic [ref=f6e1090]:
+            - text: Mở kế hoạch đã lưu
+            - combobox "Mở kế hoạch đã lưu" [ref=f6e1091]:
+              - option "Bản đang soạn mới" [selected]
+          - button "Tạo kế hoạch trống" [ref=f6e1092] [cursor=pointer]
+          - button "Mẫu B21" [ref=f6e1093] [cursor=pointer]
+          - button "Mẫu B22" [ref=f6e1094] [cursor=pointer]
+          - button "Mẫu B23" [ref=f6e1095] [cursor=pointer]
+          - button "Mẫu B24" [ref=f6e1096] [cursor=pointer]
+          - button "Mẫu B25" [ref=f6e1097] [cursor=pointer]
+        - generic [ref=f6e1098]:
+          - text: Nhập bản kế hoạch JSON
+          - button "Nhập bản kế hoạch JSON" [ref=f6e1099]
+        - generic [ref=f6e1100]:
+          - text: Hình thức ghi trong kế hoạch
+          - combobox "Hình thức ghi trong kế hoạch" [ref=f6e1101]:
+            - option "Chưa chọn"
+            - option "Học trước – luyện tập trên lớp" [selected]
+            - option "Minh họa – thực hành"
+            - option "Thảo luận"
+            - option "Làm việc nhóm"
+        - paragraph [ref=f6e1102]: Khi đổi tên hình thức, cần chỉnh nhiệm vụ của giáo viên và học sinh bên dưới cho phù hợp.
+        - group [ref=f6e1103]:
+          - generic "Kiểm tra việc của giáo viên và học sinh" [ref=f6e1104] [cursor=pointer]
+        - group [ref=f6e1105]:
+          - generic "Kiểm tra cấu trúc kế hoạch bài dạy" [ref=f6e1106]
+        - generic [ref=f6e1107]:
+          - generic [ref=f6e1108]:
+            - text: Tên kế hoạch
+            - textbox "Tên kế hoạch" [ref=f6e1109]: B23 · Kế hoạch Hiện tượng phóng xạ
+          - generic [ref=f6e1110]:
+            - text: Phạm vi bài học
+            - combobox "Phạm vi bài học" [ref=f6e1111]:
+              - option "Toàn chủ đề B21–B25"
+              - option "B21"
+              - option "B22"
+              - option "B23" [selected]
+              - option "B24"
+              - option "B25"
+          - generic [ref=f6e1112]:
+            - text: Bối cảnh lớp và điều kiện
+            - textbox "Bối cảnh lớp và điều kiện" [ref=f6e1113]:
+              - /placeholder: Trình độ lớp, số nhóm, thiết bị và thời lượng
+          - generic [ref=f6e1114]:
+            - text: Mục tiêu chung
+            - textbox "Mục tiêu chung" [ref=f6e1115]: So sánh α, β, γ Đọc định luật phân rã và chu kì bán rã Xử lí dữ liệu đếm và tuổi mẫu
+          - generic [ref=f6e1116]:
+            - text: Mục tiêu kiến thức
+            - textbox "Mục tiêu kiến thức" [ref=f6e1117]: So sánh α, β, γ Đọc định luật phân rã và chu kì bán rã Xử lí dữ liệu đếm và tuổi mẫu
+          - generic [ref=f6e1118]:
+            - text: Mục tiêu năng lực
+            - textbox "Mục tiêu năng lực" [ref=f6e1119]: "Nhận thức vật lí: giải thích khái niệm và quan hệ bằng kí hiệu, sơ đồ. Tìm hiểu thế giới tự nhiên dưới góc độ vật lí: nêu dự đoán, thu thập dữ liệu mô phỏng và đối chiếu với dự đoán. Tự chủ và tự học: lập mục tiêu, ghi điều chưa hiểu và điều chỉnh cách học sau phản hồi."
+          - generic [ref=f6e1120]:
+            - text: Mục tiêu phẩm chất
+            - textbox "Mục tiêu phẩm chất" [ref=f6e1121]: Trung thực khi ghi dữ liệu mô phỏng và nguồn tài liệu; chịu trách nhiệm về phần việc cá nhân; tôn trọng ý kiến của bạn trong thảo luận.
+          - generic [ref=f6e1122]:
+            - text: Thiết bị dạy học và học liệu
+            - textbox "Thiết bị dạy học và học liệu" [ref=f6e1123]: Thiết bị có trình duyệt/WebGL; phiếu học tập; phân công nhóm và phương án dùng chung thiết bị.
+        - generic [ref=f6e1124]:
+          - button "Lưu trên thiết bị" [ref=f6e1125] [cursor=pointer]
+          - button "Tải JSON để chỉnh sửa tiếp" [ref=f6e1126] [cursor=pointer]
+          - button "Xuất kế hoạch để in" [ref=f6e1127] [cursor=pointer]
+          - button "Tạo bản sao để sáng tạo" [ref=f6e1128] [cursor=pointer]
+        - status
+        - generic [ref=f6e1129]:
+          - complementary "Chọn học liệu cho kế hoạch" [ref=f6e1130]:
+            - heading "Chọn và phối hợp học liệu" [level=2] [ref=f6e1131]
+            - generic [ref=f6e1132]:
+              - text: Đưa vào pha
+              - combobox "Đưa vào pha" [ref=f6e1133]:
+                - option "Trước giờ học"
+                - option "Trong giờ học" [selected]
+                - option "Sau giờ học"
+            - generic [ref=f6e1134]:
+              - text: Hoạt động nhận học liệu
+              - combobox "Hoạt động nhận học liệu" [ref=f6e1135]:
+                - option "Tạo hoạt động mới từ học liệu" [selected]
+                - option "Khám phá, thảo luận và giải thích"
+            - generic [ref=f6e1136]:
+              - text: Tìm trong kho
+              - searchbox "Tìm trong kho" [ref=f6e1137]
+            - generic [ref=f6e1138]:
+              - text: Loại học liệu
+              - combobox "Loại học liệu" [ref=f6e1139]:
+                - option "Tất cả" [selected]
+                - option "Thí nghiệm 3D"
+                - option "Tài liệu / Phiếu / Hướng dẫn"
+                - option "Đề giữa kỳ / Cuối kỳ"
+                - option "Hoạt động tương tác"
+                - option "Video bài giảng"
+                - option "Video thực tế"
+                - option "Sơ đồ"
+                - option "Minh họa động"
+            - paragraph [ref=f6e1140]: 24 học liệu phù hợp phạm vi B23.
+            - generic [ref=f6e1141]:
+              - article [ref=f6e1142]:
+                - strong [ref=f6e1143]: "Hình câu hỏi: Số hạt nhân mẹ còn lại theo thời gian"
+                - generic [ref=f6e1144]: B23 · Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi.
+                - paragraph [ref=f6e1145]: Đường N(t) lí thuyết, giá trị trung bình; không phải dữ liệu đo thực tế.
+                - generic [ref=f6e1146]:
+                  - button "Xem học liệu" [ref=f6e1147] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1148] [cursor=pointer]
+              - article [ref=f6e1149]:
+                - strong [ref=f6e1150]: "Hình câu hỏi: Ba lượt đếm trong cùng điều kiện"
+                - generic [ref=f6e1151]: B23 · Nhóm thiết kế học liệu; sơ đồ và dữ liệu mô hình được mô tả trong từng câu hỏi.
+                - paragraph [ref=f6e1152]: Dữ liệu mô phỏng cố định 18, 22, 20 số đếm trong 10 giây; không phải phép đo thật.
+                - generic [ref=f6e1153]:
+                  - button "Xem học liệu" [ref=f6e1154] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1155] [cursor=pointer]
+              - article [ref=f6e1156]:
+                - strong [ref=f6e1157]: Đề giữa kỳ · Mã A · Vật lí hạt nhân
+                - generic [ref=f6e1158]: Chủ đề hạt nhân · Dự án Học liệu Vật lí 12
+                - paragraph [ref=f6e1159]: 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                - generic [ref=f6e1160]:
+                  - button "Xem học liệu" [ref=f6e1161] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1162] [cursor=pointer]
+              - article [ref=f6e1163]:
+                - strong [ref=f6e1164]: Đề giữa kỳ · Mã B · Vật lí hạt nhân
+                - generic [ref=f6e1165]: Chủ đề hạt nhân · Dự án Học liệu Vật lí 12
+                - paragraph [ref=f6e1166]: 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                - generic [ref=f6e1167]:
+                  - button "Xem học liệu" [ref=f6e1168] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1169] [cursor=pointer]
+              - article [ref=f6e1170]:
+                - strong [ref=f6e1171]: Đề cuối kỳ · Mã A · Vật lí hạt nhân
+                - generic [ref=f6e1172]: Chủ đề hạt nhân · Dự án Học liệu Vật lí 12
+                - paragraph [ref=f6e1173]: 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                - generic [ref=f6e1174]:
+                  - button "Xem học liệu" [ref=f6e1175] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1176] [cursor=pointer]
+              - article [ref=f6e1177]:
+                - strong [ref=f6e1178]: Đề cuối kỳ · Mã B · Vật lí hạt nhân
+                - generic [ref=f6e1179]: Chủ đề hạt nhân · Dự án Học liệu Vật lí 12
+                - paragraph [ref=f6e1180]: 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+                - generic [ref=f6e1181]:
+                  - button "Xem học liệu" [ref=f6e1182] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1183] [cursor=pointer]
+              - article [ref=f6e1184]:
+                - strong [ref=f6e1185]: B23 · Gợi ý kế hoạch, phân hóa và sản phẩm học tập
+                - generic [ref=f6e1186]: B23 · Dự án Học liệu Vật lí 12
+                - paragraph [ref=f6e1187]: Trước lớp học sinh dự đoán N sau 1T, 2T, 3T. Trong lớp quan sát 64 hạt, đối chiếu số kì vọng với đồ thị và lặp số đếm Geiger. Nhóm giải thích sự khác nhau giữa quy luật thống kê và thời điểm phân rã từng hạt. Giáo viên có thể chọn mẫu và chỉnh sửa trong bàn soạn kế hoạch.
+                - generic [ref=f6e1188]:
+                  - button "Xem học liệu" [ref=f6e1189] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1190] [cursor=pointer]
+              - article [ref=f6e1191]:
+                - strong [ref=f6e1192]: B23 · Sửa ba lỗi thường gặp
+                - generic [ref=f6e1193]: B23 · Kho học liệu
+                - paragraph [ref=f6e1194]: Dự đoán, giải thích và đối chiếu ba nhận định sai; viết cách sửa và hành động học tiếp. Có hướng dẫn phản hồi, không gán điểm chính thức.
+                - generic [ref=f6e1195]:
+                  - button "Xem học liệu" [ref=f6e1196] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1197] [cursor=pointer]
+              - article [ref=f6e1198]:
+                - strong [ref=f6e1199]: Phiếu quan sát và phản tư năng lực tự học
+                - generic [ref=f6e1200]: Chủ đề hạt nhân · Kho học liệu
+                - paragraph [ref=f6e1201]: "Bốn chỉ báo: mục tiêu/kế hoạch, theo dõi, giải thích có nguồn, tự điều chỉnh. Ghi mức biểu hiện và bằng chứng; khung đề xuất theo bài báo, chưa là thang đo đã kiểm định."
+                - generic [ref=f6e1202]:
+                  - button "Xem học liệu" [ref=f6e1203] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1204] [cursor=pointer]
+              - article [ref=f6e1205]:
+                - strong [ref=f6e1206]: OpenStax · Phân rã và định luật bảo toàn
+                - generic [ref=f6e1207]: B23 · OpenStax, College Physics 2e
+                - paragraph [ref=f6e1208]: Đối chiếu biến đổi A, Z khi phát α, β⁻ và γ. Chọn một phương trình và tự kiểm tra tổng A, Z trước/sau; không cần học các chi tiết vượt phạm vi SGK.
+                - generic [ref=f6e1209]:
+                  - button "Xem học liệu" [ref=f6e1210] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1211] [cursor=pointer]
+              - article [ref=f6e1212]:
+                - strong [ref=f6e1213]: CERN · Đọc vết hạt trong buồng sương
+                - generic [ref=f6e1214]: B23 · CERN Educational Resources
+                - paragraph [ref=f6e1215]: Dùng trang hướng dẫn và video nguồn để ghi đặc điểm vết hạt. Giải thích vì sao hình ảnh vết chưa đủ để xác định chắc chắn loại hạt. Hoạt động của kho là quan sát tài liệu/video; thực hành thiết bị thật cần giáo viên tổ chức.
+                - generic [ref=f6e1216]:
+                  - button "Xem học liệu" [ref=f6e1217] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1218] [cursor=pointer]
+              - article [ref=f6e1219]:
+                - strong [ref=f6e1220]: B23 · Kiến thức và phiếu học tập ba giai đoạn
+                - generic [ref=f6e1221]: B23 · Học liệu Vật lí 12
+                - paragraph [ref=f6e1222]: So sánh α, β, γ; Đọc định luật phân rã và chu kì bán rã; Xử lí dữ liệu đếm và tuổi mẫu. Có phần ghi dự đoán, quan sát, tự đánh giá và câu hỏi chẩn đoán.
+                - generic [ref=f6e1223]:
+                  - button "Xem học liệu" [ref=f6e1224] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1225] [cursor=pointer]
+              - article [ref=f6e1226]:
+                - strong [ref=f6e1227]: B23 · Infographic tương tác
+                - generic [ref=f6e1228]: B23 · Học liệu Vật lí 12 · đồ họa vector gốc
+                - paragraph [ref=f6e1229]: Chọn các điểm trên hình để xem giải thích và trả lời câu hỏi. Có thể tải hình để trình chiếu.
+                - generic [ref=f6e1230]:
+                  - button "Xem học liệu" [ref=f6e1231] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1232] [cursor=pointer]
+              - article [ref=f6e1233]:
+                - strong [ref=f6e1234]: B23 · Minh họa động quá trình
+                - generic [ref=f6e1235]: B23 · Kho học liệu
+                - paragraph [ref=f6e1236]: Quan sát sự thay đổi trên sơ đồ động rồi đối chiếu với thí nghiệm 3D. Kích thước và thời gian quy ước.
+                - generic [ref=f6e1237]:
+                  - button "Xem học liệu" [ref=f6e1238] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1239] [cursor=pointer]
+              - article [ref=f6e1240]:
+                - strong [ref=f6e1241]: B23 · Khan Academy - Introduction to radioactive decay
+                - generic [ref=f6e1242]: B23 · Khan Academy
+                - paragraph [ref=f6e1243]: Đối chiếu từng loại phân rã với bảng A, Z. Tự ghi chú tiếng Việt; không mặc định nguồn có phụ đề tiếng Việt.
+                - generic [ref=f6e1244]:
+                  - button "Xem học liệu" [ref=f6e1245] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1246] [cursor=pointer]
+              - article [ref=f6e1247]:
+                - strong [ref=f6e1248]: B23 · Câu hỏi chẩn đoán có phản hồi
+                - generic [ref=f6e1249]: B23 · Kho học liệu
+                - paragraph [ref=f6e1250]: Ba câu kiểm tra kiến thức; chọn đáp án, kiểm tra và đọc lời giải. Kết quả tự luyện không phải điểm lớp học.
+                - generic [ref=f6e1251]:
+                  - button "Xem học liệu" [ref=f6e1252] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1253] [cursor=pointer]
+              - article [ref=f6e1254]:
+                - strong [ref=f6e1255]: "B23 · YouTube: Intro to radioactive decay"
+                - generic [ref=f6e1256]: B23 · Khan Academy
+                - paragraph [ref=f6e1257]: "Lập bảng ba loại bức xạ: bản chất, biến đổi A/Z, đặc điểm đâm xuyên. Tìm một chỗ video dùng cách biểu diễn khác sơ đồ của em."
+                - generic [ref=f6e1258]:
+                  - button "Xem học liệu" [ref=f6e1259] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1260] [cursor=pointer]
+              - article [ref=f6e1261]:
+                - strong [ref=f6e1262]: Video thực tế · Vết hạt trong buồng sương CERN
+                - generic [ref=f6e1263]: B23 · CERN
+                - paragraph [ref=f6e1264]: Video buồng sương do CERN giới thiệu. Quan sát các vết có độ dài và bề dày khác nhau; không coi từng vết là xác định chắc chắn loại hạt khi thiếu thông tin đo.
+                - generic [ref=f6e1265]:
+                  - button "Xem học liệu" [ref=f6e1266] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1267] [cursor=pointer]
+              - article [ref=f6e1268]:
+                - strong [ref=f6e1269]: "Mô phỏng: Ống đếm Geiger và tính ngẫu nhiên của phân rã phóng xạ"
+                - generic [ref=f6e1270]: B23 · Kho học liệu
+                - paragraph [ref=f6e1271]: Tạo số đếm ngẫu nhiên theo mô hình, lặp quan sát để so sánh sự dao động. Đây là dữ liệu mô phỏng, không phải phép đo nguồn thật.
+                - generic [ref=f6e1272]:
+                  - button "Xem học liệu" [ref=f6e1273] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1274] [cursor=pointer]
+              - article [ref=f6e1275]:
+                - strong [ref=f6e1276]: "Mô phỏng: Bản chất và độ đâm xuyên của tia phóng xạ (Alpha, Beta, Gamma)"
+                - generic [ref=f6e1277]: B23 · Kho học liệu
+                - paragraph [ref=f6e1278]: Kiểm tra khả năng đâm xuyên qua giấy, nhôm, chì và sự lệch hướng trong điện trường / từ trường của 3 loại tia.
+                - generic [ref=f6e1279]:
+                  - button "Xem học liệu" [ref=f6e1280] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1281] [cursor=pointer]
+              - article [ref=f6e1282]:
+                - strong [ref=f6e1283]: "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T"
+                - generic [ref=f6e1284]: B23 · Kho học liệu
+                - paragraph [ref=f6e1285]: Mô phỏng số hạt còn lại N(t) = N0.2^(-t/T). Vẽ đồ thị suy giảm hàm mũ và xác định chu kì bán rã.
+                - generic [ref=f6e1286]:
+                  - button "Xem học liệu" [ref=f6e1287] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1288] [cursor=pointer]
+              - article [ref=f6e1289]:
+                - strong [ref=f6e1290]: "Mô phỏng: Vận dụng đồng vị Carbon-14 định tuổi cổ vật"
+                - generic [ref=f6e1291]: B23 · Kho học liệu
+                - paragraph [ref=f6e1292]: Phân tích tỉ lệ C-14/C-12 trong mẫu gỗ cổ khảo cổ học để tính niên đại lịch sử dựa trên chu kì T = 5730 năm.
+                - generic [ref=f6e1293]:
+                  - button "Xem học liệu" [ref=f6e1294] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1295] [cursor=pointer]
+              - article [ref=f6e1296]:
+                - strong [ref=f6e1297]: "Mô phỏng & Bài tập tình huống: An toàn phóng xạ (Khoảng cách, Thời gian, Che chắn)"
+                - generic [ref=f6e1298]: B23 · Kho học liệu
+                - paragraph [ref=f6e1299]: "Mô phỏng thực hành các nguyên tắc ALARA: Giảm thời gian tiếp xúc, Tăng khoảng cách, Tăng độ dày lớp chắn bảo vệ."
+                - generic [ref=f6e1300]:
+                  - button "Xem học liệu" [ref=f6e1301] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1302] [cursor=pointer]
+              - article [ref=f6e1303]:
+                - strong [ref=f6e1304]: "Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân"
+                - generic [ref=f6e1305]: Chủ đề hạt nhân · Kho học liệu
+                - paragraph [ref=f6e1306]: Bản trích trang in 90–122 từ tệp SGK người dùng cung cấp; gồm B21–B25, lí thuyết, câu hỏi và bảng số liệu.
+                - generic [ref=f6e1307]:
+                  - button "Xem học liệu" [ref=f6e1308] [cursor=pointer]
+                  - button "Thêm vào trong giờ học" [ref=f6e1309] [cursor=pointer]
+            - group [ref=f6e1310]:
+              - generic "Thêm học liệu hoặc liên kết của riêng tôi" [ref=f6e1311] [cursor=pointer]
+              - option "Thí nghiệm 3D"
+              - option "Tài liệu / Phiếu / Hướng dẫn" [selected]
+              - option "Đề giữa kỳ / Cuối kỳ"
+              - option "Hoạt động tương tác"
+              - option "Video bài giảng"
+              - option "Video thực tế"
+              - option "Sơ đồ"
+              - option "Minh họa động"
+          - generic [ref=f6e1312]:
+            - generic [ref=f6e1313]:
+              - heading "Trước giờ học 20 phút" [level=2] [ref=f6e1314]:
+                - text: Trước giờ học
+                - generic [ref=f6e1315]: 20 phút
+              - paragraph [ref=f6e1316]: Mục tiêu, dự đoán và chuẩn bị kiến thức.
+              - article [ref=f6e1317]:
+                - generic [ref=f6e1318]:
+                  - strong [ref=f6e1319]: Hoạt động 1
+                  - button "Đưa hoạt động 1 lên trong Trước giờ học" [disabled] [ref=f6e1320] [cursor=pointer]: ↑ Lên
+                  - button "Đưa hoạt động 1 xuống trong Trước giờ học" [disabled] [ref=f6e1321] [cursor=pointer]: ↓ Xuống
+                  - button "Bỏ hoạt động" [ref=f6e1322] [cursor=pointer]
+                - generic [ref=f6e1323]:
+                  - text: Tên hoạt động
+                  - textbox "Tên hoạt động" [ref=f6e1324]: Chuẩn bị và dự đoán
+                - generic [ref=f6e1325]:
+                  - generic [ref=f6e1326]:
+                    - text: Thời lượng (phút)
+                    - spinbutton "Thời lượng (phút)" [ref=f6e1327]: "20"
+                  - generic [ref=f6e1328]:
+                    - text: Chuyển pha
+                    - combobox "Chuyển pha" [ref=f6e1329]:
+                      - option "Trước giờ học" [selected]
+                      - option "Trong giờ học"
+                      - option "Sau giờ học"
+                - generic [ref=f6e1330]:
+                  - text: Loại hoạt động
+                  - combobox "Loại hoạt động" [ref=f6e1331]:
+                    - option "Chưa chọn"
+                    - option "Mở đầu" [selected]
+                    - option "Hình thành kiến thức"
+                    - option "Luyện tập"
+                    - option "Vận dụng"
+                - generic [ref=f6e1332]:
+                  - text: Mục tiêu hoạt động
+                  - textbox "Mục tiêu hoạt động" [ref=f6e1333]: So sánh α, β, γ
+                - generic [ref=f6e1334]:
+                  - text: Nội dung nhiệm vụ
+                  - textbox "Nội dung nhiệm vụ" [ref=f6e1335]: Chạy máy đếm ít nhất ba lần với cùng điều kiện; ghi ba kết quả và nhận xét độ dao động. Thử α, β, γ qua các tấm chắn; so sánh mà không suy ra liều thực. Với N₀ = 800 và T = 30 s, dự đoán N tại 0, 30, 60, 90 s trước khi mở đồ thị.
+                - generic [ref=f6e1336]:
+                  - text: Tổ chức thực hiện — Giao nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Giao nhiệm vụ" [ref=f6e1337]: "Giáo viên giao nhiệm vụ: Đọc hoặc xem học liệu, trả lời câu hỏi chẩn đoán; ghi điều chưa hiểu trước giờ học. Chạy máy đếm ít nhất ba lần với cùng điều kiện; ghi ba kết quả và nhận xét độ dao động. Thử α, β, γ qua các tấm chắn; so sánh mà không suy ra liều thực. Với N₀ = 800 và T = 30 s, dự đoán N tại 0, 30, 60, 90 s trước khi mở đồ thị. Thông báo sản phẩm và tiêu chí đánh giá."
+                - generic [ref=f6e1338]:
+                  - text: Tổ chức thực hiện — Thực hiện nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Thực hiện nhiệm vụ" [ref=f6e1339]: "Học sinh thực hiện nhiệm vụ với học liệu đã gắn, ghi kết quả và điều chưa hiểu. Giáo viên theo dõi, hỗ trợ: Cung cấp bảng N₀, N₀/2, N₀/4 cho nhóm cần hỗ trợ; nhóm nâng cao suy T từ hai điểm và phân biệt H với N."
+                - generic [ref=f6e1340]:
+                  - text: Tổ chức thực hiện — Báo cáo và thảo luận
+                  - textbox "Tổ chức thực hiện — Báo cáo và thảo luận" [ref=f6e1341]: Giáo viên chọn sản phẩm để trao đổi; học sinh trình bày căn cứ, so sánh kết quả và phản hồi cho bạn. Nhiệm vụ ngoài lớp được thảo luận ở thời điểm do giáo viên bố trí.
+                - generic [ref=f6e1342]:
+                  - text: Tổ chức thực hiện — Kết luận và nhận định
+                  - textbox "Tổ chức thực hiện — Kết luận và nhận định" [ref=f6e1343]: "Giáo viên nhận xét sản phẩm theo tiêu chí: Đối chiếu mục tiêu, bảng ghi và lời giải; nhận xét bằng chứng tự học, chưa quy thành điểm năng lực. Học sinh ghi kết luận và chỉnh sửa sản phẩm."
+                - generic [ref=f6e1344]:
+                  - text: Việc của giáo viên
+                  - textbox "Việc của giáo viên" [ref=f6e1345]: Chọn video, phiếu và câu hỏi ngắn; giao mục tiêu, thời lượng; xem câu trả lời để chọn nội dung cần hỗ trợ.
+                - generic [ref=f6e1346]:
+                  - text: Nhiệm vụ học sinh được giao
+                  - textbox "Nhiệm vụ học sinh được giao" [ref=f6e1347]: Đọc hoặc xem học liệu, trả lời câu hỏi chẩn đoán; ghi điều chưa hiểu trước giờ học. Chạy máy đếm ít nhất ba lần với cùng điều kiện; ghi ba kết quả và nhận xét độ dao động. Thử α, β, γ qua các tấm chắn; so sánh mà không suy ra liều thực. Với N₀ = 800 và T = 30 s, dự đoán N tại 0, 30, 60, 90 s trước khi mở đồ thị.
+                - generic [ref=f6e1348]:
+                  - text: Sản phẩm / Bằng chứng học tập
+                  - textbox "Sản phẩm / Bằng chứng học tập" [ref=f6e1349]: Bảng N(t), đường cong, giải thích sự ngẫu nhiên và bản sửa dự đoán. Câu trả lời cá nhân và câu hỏi cần trao đổi.
+                - generic [ref=f6e1350]:
+                  - text: Tiêu chí và cách đánh giá
+                  - textbox "Tiêu chí và cách đánh giá" [ref=f6e1351]: Đối chiếu mục tiêu, bảng ghi và lời giải; nhận xét bằng chứng tự học, chưa quy thành điểm năng lực.
+                - generic [ref=f6e1352]:
+                  - text: Phân hóa / Hỗ trợ
+                  - textbox "Phân hóa / Hỗ trợ" [ref=f6e1353]: Cung cấp bảng N₀, N₀/2, N₀/4 cho nhóm cần hỗ trợ; nhóm nâng cao suy T từ hai điểm và phân biệt H với N.
+                - list [ref=f6e1354]:
+                  - listitem [ref=f6e1355]:
+                    - generic [ref=f6e1356]: B23 · Kiến thức và phiếu học tập ba giai đoạn
+                    - button "Bỏ học liệu B23 · Kiến thức và phiếu học tập ba giai đoạn" [ref=f6e1357] [cursor=pointer]: Bỏ
+                  - listitem [ref=f6e1358]:
+                    - generic [ref=f6e1359]: "B23 · YouTube: Intro to radioactive decay"
+                    - 'button "Bỏ học liệu B23 · YouTube: Intro to radioactive decay" [ref=f6e1360] [cursor=pointer]': Bỏ
+                  - listitem [ref=f6e1361]:
+                    - generic [ref=f6e1362]: B23 · Câu hỏi chẩn đoán có phản hồi
+                    - button "Bỏ học liệu B23 · Câu hỏi chẩn đoán có phản hồi" [ref=f6e1363] [cursor=pointer]: Bỏ
+                - button "Chọn thêm học liệu cho hoạt động" [ref=f6e1364] [cursor=pointer]
+              - button "+ Thêm hoạt động · Trước giờ học" [ref=f6e1365] [cursor=pointer]
+            - generic [ref=f6e1366]:
+              - heading "Trong giờ học 35 phút" [level=2] [ref=f6e1367]:
+                - text: Trong giờ học
+                - generic [ref=f6e1368]: 35 phút
+              - paragraph [ref=f6e1369]: Thao tác, thảo luận và giải thích bằng bằng chứng.
+              - article [ref=f6e1370]:
+                - generic [ref=f6e1371]:
+                  - strong [ref=f6e1372]: Hoạt động 1
+                  - button "Đưa hoạt động 1 lên trong Trong giờ học" [disabled] [ref=f6e1373] [cursor=pointer]: ↑ Lên
+                  - button "Đưa hoạt động 1 xuống trong Trong giờ học" [disabled] [ref=f6e1374] [cursor=pointer]: ↓ Xuống
+                  - button "Bỏ hoạt động" [ref=f6e1375] [cursor=pointer]
+                - generic [ref=f6e1376]:
+                  - text: Tên hoạt động
+                  - textbox "Tên hoạt động" [ref=f6e1377]: Khám phá, thảo luận và giải thích
+                - generic [ref=f6e1378]:
+                  - generic [ref=f6e1379]:
+                    - text: Thời lượng (phút)
+                    - spinbutton "Thời lượng (phút)" [ref=f6e1380]: "35"
+                  - generic [ref=f6e1381]:
+                    - text: Chuyển pha
+                    - combobox "Chuyển pha" [ref=f6e1382]:
+                      - option "Trước giờ học"
+                      - option "Trong giờ học" [selected]
+                      - option "Sau giờ học"
+                - generic [ref=f6e1383]:
+                  - text: Loại hoạt động
+                  - combobox "Loại hoạt động" [ref=f6e1384]:
+                    - option "Chưa chọn"
+                    - option "Mở đầu"
+                    - option "Hình thành kiến thức" [selected]
+                    - option "Luyện tập"
+                    - option "Vận dụng"
+                - generic [ref=f6e1385]:
+                  - text: Mục tiêu hoạt động
+                  - textbox "Mục tiêu hoạt động" [ref=f6e1386]: Đọc định luật phân rã và chu kì bán rã
+                - generic [ref=f6e1387]:
+                  - text: Nội dung nhiệm vụ
+                  - textbox "Nội dung nhiệm vụ" [ref=f6e1388]: "Bảng mô hình: t(s) = 0,30,60,90; N = 800,400,200,100. Vẽ N(t); tính λ với cùng đơn vị giây. Giải thích vì sao kết quả đếm từng khoảng ngắn dao động dù đường lí thuyết trơn. Một mẫu còn 12,5% C-14 ban đầu: tính số chu kì bán rã và tuổi trong giả thiết mẫu kín."
+                - generic [ref=f6e1389]:
+                  - text: Tổ chức thực hiện — Giao nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Giao nhiệm vụ" [ref=f6e1390]: "Giáo viên giao nhiệm vụ: Giải bài, thử mô phỏng, trao đổi cách giải và sửa lỗi theo phản hồi. Bảng mô hình: t(s) = 0,30,60,90; N = 800,400,200,100. Vẽ N(t); tính λ với cùng đơn vị giây. Giải thích vì sao kết quả đếm từng khoảng ngắn dao động dù đường lí thuyết trơn. Một mẫu còn 12,5% C-14 ban đầu: tính số chu kì bán rã và tuổi trong giả thiết mẫu kín. Thông báo sản phẩm và tiêu chí đánh giá."
+                - generic [ref=f6e1391]:
+                  - text: Tổ chức thực hiện — Thực hiện nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Thực hiện nhiệm vụ" [ref=f6e1392]: "Học sinh thực hiện nhiệm vụ với học liệu đã gắn, ghi kết quả và điều chưa hiểu. Giáo viên theo dõi, hỗ trợ: Cung cấp bảng N₀, N₀/2, N₀/4 cho nhóm cần hỗ trợ; nhóm nâng cao suy T từ hai điểm và phân biệt H với N."
+                - generic [ref=f6e1393]:
+                  - text: Tổ chức thực hiện — Báo cáo và thảo luận
+                  - textbox "Tổ chức thực hiện — Báo cáo và thảo luận" [ref=f6e1394]: Giáo viên chọn sản phẩm để trao đổi; học sinh trình bày căn cứ, so sánh kết quả và phản hồi cho bạn. Nhiệm vụ ngoài lớp được thảo luận ở thời điểm do giáo viên bố trí.
+                - generic [ref=f6e1395]:
+                  - text: Tổ chức thực hiện — Kết luận và nhận định
+                  - textbox "Tổ chức thực hiện — Kết luận và nhận định" [ref=f6e1396]: "Giáo viên nhận xét sản phẩm theo tiêu chí: Đối chiếu mục tiêu, bảng ghi và lời giải; nhận xét bằng chứng tự học, chưa quy thành điểm năng lực. Học sinh ghi kết luận và chỉnh sửa sản phẩm."
+                - generic [ref=f6e1397]:
+                  - text: Việc của giáo viên
+                  - textbox "Việc của giáo viên" [ref=f6e1398]: Tổ chức luyện tập từ lỗi đã phát hiện; hỏi cách giải, hỗ trợ học sinh và chốt kiến thức.
+                - generic [ref=f6e1399]:
+                  - text: Nhiệm vụ học sinh được giao
+                  - textbox "Nhiệm vụ học sinh được giao" [ref=f6e1400]: "Giải bài, thử mô phỏng, trao đổi cách giải và sửa lỗi theo phản hồi. Bảng mô hình: t(s) = 0,30,60,90; N = 800,400,200,100. Vẽ N(t); tính λ với cùng đơn vị giây. Giải thích vì sao kết quả đếm từng khoảng ngắn dao động dù đường lí thuyết trơn. Một mẫu còn 12,5% C-14 ban đầu: tính số chu kì bán rã và tuổi trong giả thiết mẫu kín."
+                - generic [ref=f6e1401]:
+                  - text: Sản phẩm / Bằng chứng học tập
+                  - textbox "Sản phẩm / Bằng chứng học tập" [ref=f6e1402]: Bảng N(t), đường cong, giải thích sự ngẫu nhiên và bản sửa dự đoán. Bài giải hoặc bảng quan sát kèm lời giải thích.
+                - generic [ref=f6e1403]:
+                  - text: Tiêu chí và cách đánh giá
+                  - textbox "Tiêu chí và cách đánh giá" [ref=f6e1404]: Đối chiếu mục tiêu, bảng ghi và lời giải; nhận xét bằng chứng tự học, chưa quy thành điểm năng lực.
+                - generic [ref=f6e1405]:
+                  - text: Phân hóa / Hỗ trợ
+                  - textbox "Phân hóa / Hỗ trợ" [ref=f6e1406]: Cung cấp bảng N₀, N₀/2, N₀/4 cho nhóm cần hỗ trợ; nhóm nâng cao suy T từ hai điểm và phân biệt H với N.
+                - list [ref=f6e1407]:
+                  - listitem [ref=f6e1408]:
+                    - generic [ref=f6e1409]: "Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T"
+                    - 'button "Bỏ học liệu Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T" [ref=f6e1410] [cursor=pointer]': Bỏ
+                - button "Chọn thêm học liệu cho hoạt động" [ref=f6e1411] [cursor=pointer]
+              - button "+ Thêm hoạt động · Trong giờ học" [ref=f6e1412] [cursor=pointer]
+            - generic [ref=f6e1413]:
+              - heading "Sau giờ học 25 phút" [level=2] [ref=f6e1414]:
+                - text: Sau giờ học
+                - generic [ref=f6e1415]: 25 phút
+              - paragraph [ref=f6e1416]: Tự kiểm tra, sửa lỗi và hành động học tiếp.
+              - article [ref=f6e1417]:
+                - generic [ref=f6e1418]:
+                  - strong [ref=f6e1419]: Hoạt động 1
+                  - button "Đưa hoạt động 1 lên trong Sau giờ học" [disabled] [ref=f6e1420] [cursor=pointer]: ↑ Lên
+                  - button "Đưa hoạt động 1 xuống trong Sau giờ học" [ref=f6e1421] [cursor=pointer]: ↓ Xuống
+                  - button "Bỏ hoạt động" [ref=f6e1422] [cursor=pointer]
+                - generic [ref=f6e1423]:
+                  - text: Tên hoạt động
+                  - textbox "Tên hoạt động" [ref=f6e1424]: Tự kiểm tra và sửa lỗi
+                - generic [ref=f6e1425]:
+                  - generic [ref=f6e1426]:
+                    - text: Thời lượng (phút)
+                    - spinbutton "Thời lượng (phút)" [ref=f6e1427]: "15"
+                  - generic [ref=f6e1428]:
+                    - text: Chuyển pha
+                    - combobox "Chuyển pha" [ref=f6e1429]:
+                      - option "Trước giờ học"
+                      - option "Trong giờ học"
+                      - option "Sau giờ học" [selected]
+                - generic [ref=f6e1430]:
+                  - text: Loại hoạt động
+                  - combobox "Loại hoạt động" [ref=f6e1431]:
+                    - option "Chưa chọn"
+                    - option "Mở đầu"
+                    - option "Hình thành kiến thức"
+                    - option "Luyện tập" [selected]
+                    - option "Vận dụng"
+                - generic [ref=f6e1432]:
+                  - text: Mục tiêu hoạt động
+                  - textbox "Mục tiêu hoạt động" [ref=f6e1433]: Xử lí dữ liệu đếm và tuổi mẫu
+                - generic [ref=f6e1434]:
+                  - text: Nội dung nhiệm vụ
+                  - textbox "Nội dung nhiệm vụ" [ref=f6e1435]: Phân biệt ‘25% đã phân rã’ với ‘còn 25%’; tính thời gian cho trường hợp thứ hai. Viết phương trình phân rã α của uranium-238 và β⁻ của carbon-14. Ghi một giới hạn của mô hình N(t) và một lỗi đã tự sửa.
+                - generic [ref=f6e1436]:
+                  - text: Tổ chức thực hiện — Giao nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Giao nhiệm vụ" [ref=f6e1437]: "Giáo viên giao nhiệm vụ: Tự kiểm tra, sửa nhận định sai và ghi cách điều chỉnh việc học. Phân biệt ‘25% đã phân rã’ với ‘còn 25%’; tính thời gian cho trường hợp thứ hai. Viết phương trình phân rã α của uranium-238 và β⁻ của carbon-14. Ghi một giới hạn của mô hình N(t) và một lỗi đã tự sửa. Thông báo sản phẩm và tiêu chí đánh giá."
+                - generic [ref=f6e1438]:
+                  - text: Tổ chức thực hiện — Thực hiện nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Thực hiện nhiệm vụ" [ref=f6e1439]: "Học sinh thực hiện nhiệm vụ với học liệu đã gắn, ghi kết quả và điều chưa hiểu. Giáo viên theo dõi, hỗ trợ: Cung cấp bảng N₀, N₀/2, N₀/4 cho nhóm cần hỗ trợ; nhóm nâng cao suy T từ hai điểm và phân biệt H với N."
+                - generic [ref=f6e1440]:
+                  - text: Tổ chức thực hiện — Báo cáo và thảo luận
+                  - textbox "Tổ chức thực hiện — Báo cáo và thảo luận" [ref=f6e1441]: Giáo viên chọn sản phẩm để trao đổi; học sinh trình bày căn cứ, so sánh kết quả và phản hồi cho bạn. Nhiệm vụ ngoài lớp được thảo luận ở thời điểm do giáo viên bố trí.
+                - generic [ref=f6e1442]:
+                  - text: Tổ chức thực hiện — Kết luận và nhận định
+                  - textbox "Tổ chức thực hiện — Kết luận và nhận định" [ref=f6e1443]: "Giáo viên nhận xét sản phẩm theo tiêu chí: Đối chiếu mục tiêu, bảng ghi và lời giải; nhận xét bằng chứng tự học, chưa quy thành điểm năng lực. Học sinh ghi kết luận và chỉnh sửa sản phẩm."
+                - generic [ref=f6e1444]:
+                  - text: Việc của giáo viên
+                  - textbox "Việc của giáo viên" [ref=f6e1445]: Giao câu hỏi vận dụng; nhận xét sản phẩm và đề nghị việc cần học tiếp.
+                - generic [ref=f6e1446]:
+                  - text: Nhiệm vụ học sinh được giao
+                  - textbox "Nhiệm vụ học sinh được giao" [ref=f6e1447]: Tự kiểm tra, sửa nhận định sai và ghi cách điều chỉnh việc học. Phân biệt ‘25% đã phân rã’ với ‘còn 25%’; tính thời gian cho trường hợp thứ hai. Viết phương trình phân rã α của uranium-238 và β⁻ của carbon-14. Ghi một giới hạn của mô hình N(t) và một lỗi đã tự sửa.
+                - generic [ref=f6e1448]:
+                  - text: Sản phẩm / Bằng chứng học tập
+                  - textbox "Sản phẩm / Bằng chứng học tập" [ref=f6e1449]: Bảng N(t), đường cong, giải thích sự ngẫu nhiên và bản sửa dự đoán. Bài sửa và nhật kí tự học.
+                - generic [ref=f6e1450]:
+                  - text: Tiêu chí và cách đánh giá
+                  - textbox "Tiêu chí và cách đánh giá" [ref=f6e1451]: Đối chiếu mục tiêu, bảng ghi và lời giải; nhận xét bằng chứng tự học, chưa quy thành điểm năng lực.
+                - generic [ref=f6e1452]:
+                  - text: Phân hóa / Hỗ trợ
+                  - textbox "Phân hóa / Hỗ trợ" [ref=f6e1453]: Cung cấp bảng N₀, N₀/2, N₀/4 cho nhóm cần hỗ trợ; nhóm nâng cao suy T từ hai điểm và phân biệt H với N.
+                - list [ref=f6e1454]:
+                  - listitem [ref=f6e1455]:
+                    - generic [ref=f6e1456]: B23 · Sửa ba lỗi thường gặp
+                    - button "Bỏ học liệu B23 · Sửa ba lỗi thường gặp" [ref=f6e1457] [cursor=pointer]: Bỏ
+                - button "Chọn thêm học liệu cho hoạt động" [ref=f6e1458] [cursor=pointer]
+              - article [ref=f6e1459]:
+                - generic [ref=f6e1460]:
+                  - strong [ref=f6e1461]: Hoạt động 2
+                  - button "Đưa hoạt động 2 lên trong Sau giờ học" [ref=f6e1462] [cursor=pointer]: ↑ Lên
+                  - button "Đưa hoạt động 2 xuống trong Sau giờ học" [disabled] [ref=f6e1463] [cursor=pointer]: ↓ Xuống
+                  - button "Bỏ hoạt động" [ref=f6e1464] [cursor=pointer]
+                - generic [ref=f6e1465]:
+                  - text: Tên hoạt động
+                  - textbox "Tên hoạt động" [ref=f6e1466]: Vận dụng kiến thức vào tình huống thực tiễn
+                - generic [ref=f6e1467]:
+                  - generic [ref=f6e1468]:
+                    - text: Thời lượng (phút)
+                    - spinbutton "Thời lượng (phút)" [ref=f6e1469]: "10"
+                  - generic [ref=f6e1470]:
+                    - text: Chuyển pha
+                    - combobox "Chuyển pha" [ref=f6e1471]:
+                      - option "Trước giờ học"
+                      - option "Trong giờ học"
+                      - option "Sau giờ học" [selected]
+                - generic [ref=f6e1472]:
+                  - text: Loại hoạt động
+                  - combobox "Loại hoạt động" [ref=f6e1473]:
+                    - option "Chưa chọn"
+                    - option "Mở đầu"
+                    - option "Hình thành kiến thức"
+                    - option "Luyện tập"
+                    - option "Vận dụng" [selected]
+                - generic [ref=f6e1474]:
+                  - text: Mục tiêu hoạt động
+                  - textbox "Mục tiêu hoạt động" [ref=f6e1475]: Vận dụng kiến thức hạt nhân để giải thích một tình huống; tự kiểm tra căn cứ và điều chỉnh câu trả lời.
+                - generic [ref=f6e1476]:
+                  - text: Nội dung nhiệm vụ
+                  - textbox "Nội dung nhiệm vụ" [ref=f6e1477]: Quan sát mô phỏng an toàn bức xạ; thay đổi thời gian, khoảng cách và che chắn. Giải thích biện pháp giảm tiếp xúc trong tình huống giả định bằng các nguyên tắc đã học.
+                - generic [ref=f6e1478]:
+                  - text: Tổ chức thực hiện — Giao nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Giao nhiệm vụ" [ref=f6e1479]: "Giáo viên giao nhiệm vụ: Quan sát mô phỏng an toàn bức xạ; thay đổi thời gian, khoảng cách và che chắn. Giải thích biện pháp giảm tiếp xúc trong tình huống giả định bằng các nguyên tắc đã học. Thông báo sản phẩm và tiêu chí đánh giá."
+                - generic [ref=f6e1480]:
+                  - text: Tổ chức thực hiện — Thực hiện nhiệm vụ
+                  - textbox "Tổ chức thực hiện — Thực hiện nhiệm vụ" [ref=f6e1481]: "Học sinh thực hiện nhiệm vụ với học liệu đã gắn, ghi kết quả và điều chưa hiểu. Giáo viên theo dõi, hỗ trợ: Nhóm cần hỗ trợ dùng sơ đồ và câu hỏi định hướng của học liệu đã gắn; nhóm nâng cao nêu thêm giới hạn của mô hình và căn cứ cho kết luận."
+                - generic [ref=f6e1482]:
+                  - text: Tổ chức thực hiện — Báo cáo và thảo luận
+                  - textbox "Tổ chức thực hiện — Báo cáo và thảo luận" [ref=f6e1483]: Giáo viên chọn sản phẩm để trao đổi; học sinh trình bày căn cứ, so sánh kết quả và phản hồi cho bạn. Nhiệm vụ ngoài lớp được thảo luận ở thời điểm do giáo viên bố trí.
+                - generic [ref=f6e1484]:
+                  - text: Tổ chức thực hiện — Kết luận và nhận định
+                  - textbox "Tổ chức thực hiện — Kết luận và nhận định" [ref=f6e1485]: "Giáo viên nhận xét sản phẩm theo tiêu chí: Đúng kiến thức; nguồn rõ; giải thích gắn với tình huống; ghi được cách tự sửa. Học sinh ghi kết luận và chỉnh sửa sản phẩm."
+                - generic [ref=f6e1486]:
+                  - text: Việc của giáo viên
+                  - textbox "Việc của giáo viên" [ref=f6e1487]: Giao nhiệm vụ, công bố yêu cầu sản phẩm; nhận xét căn cứ khoa học và góp ý điều cần chỉnh.
+                - generic [ref=f6e1488]:
+                  - text: Nhiệm vụ học sinh được giao
+                  - textbox "Nhiệm vụ học sinh được giao" [ref=f6e1489]: Quan sát mô phỏng an toàn bức xạ; thay đổi thời gian, khoảng cách và che chắn. Giải thích biện pháp giảm tiếp xúc trong tình huống giả định bằng các nguyên tắc đã học.
+                - generic [ref=f6e1490]:
+                  - text: Sản phẩm / Bằng chứng học tập
+                  - textbox "Sản phẩm / Bằng chứng học tập" [ref=f6e1491]: Bản giải thích cá nhân có nguồn, kết luận và điều cần điều chỉnh.
+                - generic [ref=f6e1492]:
+                  - text: Tiêu chí và cách đánh giá
+                  - textbox "Tiêu chí và cách đánh giá" [ref=f6e1493]: Đúng kiến thức; nguồn rõ; giải thích gắn với tình huống; ghi được cách tự sửa.
+                - generic [ref=f6e1494]:
+                  - text: Phân hóa / Hỗ trợ
+                  - textbox "Phân hóa / Hỗ trợ" [ref=f6e1495]: Nhóm cần hỗ trợ dùng sơ đồ và câu hỏi định hướng của học liệu đã gắn; nhóm nâng cao nêu thêm giới hạn của mô hình và căn cứ cho kết luận.
+                - list [ref=f6e1496]:
+                  - listitem [ref=f6e1497]:
+                    - generic [ref=f6e1498]: "Mô phỏng & Bài tập tình huống: An toàn phóng xạ (Khoảng cách, Thời gian, Che chắn)"
+                    - 'button "Bỏ học liệu Mô phỏng & Bài tập tình huống: An toàn phóng xạ (Khoảng cách, Thời gian, Che chắn)" [ref=f6e1499] [cursor=pointer]': Bỏ
+                - button "Chọn thêm học liệu cho hoạt động" [ref=f6e1500] [cursor=pointer]
+              - button "+ Thêm hoạt động · Sau giờ học" [ref=f6e1501] [cursor=pointer]
+        - generic [ref=f6e1502]:
+          - text: Điều chỉnh sau dạy học
+          - textbox "Điều chỉnh sau dạy học" [ref=f6e1503]:
+            - /placeholder: Điều đạt được, khó khăn, bằng chứng và điều chỉnh lần dạy tiếp theo…

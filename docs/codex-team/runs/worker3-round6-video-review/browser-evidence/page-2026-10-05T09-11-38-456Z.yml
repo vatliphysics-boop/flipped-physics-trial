@@ -1,0 +1,173 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Đi đến nội dung chính" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Ẩn menu" [expanded] [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=e10] [cursor=pointer]:
+        - /url: /login
+    - generic [ref=e11]:
+      - complementary "Thanh điều hướng" [ref=e12]:
+        - navigation "Điều hướng chính" [ref=e13]:
+          - generic [ref=e14]:
+            - button "Học liệu" [expanded] [ref=e15] [cursor=pointer]:
+              - text: Học liệu
+              - generic [ref=e16]: ▲
+            - generic "Danh mục học liệu" [ref=e17]:
+              - link "Học theo hình · 3D · Video" [ref=e18] [cursor=pointer]:
+                - /url: /hoc-lieu/truc-quan
+              - link "Hình thức lớp học đảo ngược" [ref=e19] [cursor=pointer]:
+                - /url: /hoc-lieu/lop-hoc-dao-nguoc
+              - link "Tất cả học liệu" [ref=e20] [cursor=pointer]:
+                - /url: /hoc-lieu
+              - link "Ảnh tĩnh & Sơ đồ" [ref=e21] [cursor=pointer]:
+                - /url: /hoc-lieu?type=image
+              - link "Ảnh động & Minh họa" [ref=e22] [cursor=pointer]:
+                - /url: /hoc-lieu?type=animation
+              - link "Video thực tế / Thí nghiệm" [ref=e23] [cursor=pointer]:
+                - /url: /hoc-lieu?type=real_video
+              - link "Video bài giảng" [ref=e24] [cursor=pointer]:
+                - /url: /hoc-lieu?type=lecture_video
+              - link "Thí nghiệm 3D tương tác" [ref=e25] [cursor=pointer]:
+                - /url: /hoc-lieu?type=simulation
+              - link "PDF / Phiếu học tập" [ref=e26] [cursor=pointer]:
+                - /url: /hoc-lieu?type=document
+              - link "Câu hỏi & Nhiệm vụ" [ref=e27] [cursor=pointer]:
+                - /url: /hoc-lieu?type=colab
+              - link "Đề giữa kỳ & Cuối kỳ" [ref=e28] [cursor=pointer]:
+                - /url: /hoc-lieu?type=assessment
+          - link "Học với AI" [ref=e29] [cursor=pointer]:
+            - /url: /hoc-lieu/ai
+          - link "Tổng quan" [ref=e30] [cursor=pointer]:
+            - /url: /student
+          - link "Lớp học của em" [ref=e31] [cursor=pointer]:
+            - /url: /student/classes
+          - button "Chương trình Vật lí 12" [ref=e33] [cursor=pointer]:
+            - text: Chương trình Vật lí 12
+            - generic [ref=e34]: ▼
+          - link "Bài tập và kiểm tra" [ref=e35] [cursor=pointer]:
+            - /url: /student/assignments
+          - link "Nhật kí học tập" [ref=e36] [cursor=pointer]:
+            - /url: /student/journal
+      - main [ref=e37]:
+        - generic [ref=e766]:
+          - generic [ref=e767]:
+            - generic [ref=e768]:
+              - paragraph [ref=e769]: "Chương 4: Vật lí hạt nhân · B21–B25"
+              - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=e770]
+              - paragraph [ref=e771]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+            - generic [ref=e772]:
+              - button "Chế độ trình chiếu" [ref=e773] [cursor=pointer]
+              - link "Toàn bộ kho học liệu" [ref=e774] [cursor=pointer]:
+                - /url: /hoc-lieu
+          - navigation "Chọn bài học" [ref=e775]:
+            - link "B21 Cấu trúc hạt nhân" [ref=e776] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B21
+              - generic [ref=e777]: B21
+              - strong [ref=e778]: Cấu trúc hạt nhân
+            - link "B22 Phản ứng hạt nhân" [ref=e779] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B22
+              - generic [ref=e780]: B22
+              - strong [ref=e781]: Phản ứng hạt nhân
+            - link "B23 Hiện tượng phóng xạ" [ref=e782] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B23
+              - generic [ref=e783]: B23
+              - strong [ref=e784]: Hiện tượng phóng xạ
+            - link "B24 Công nghiệp hạt nhân" [ref=e785] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B24
+              - generic [ref=e786]: B24
+              - strong [ref=e787]: Công nghiệp hạt nhân
+            - link "B25 Thực hành bán rã" [ref=e788] [cursor=pointer]:
+              - /url: /hoc-lieu/truc-quan?bai=B25
+              - generic [ref=e789]: B25
+              - strong [ref=e790]: Thực hành bán rã
+          - generic [ref=e791]:
+            - generic [ref=e792]: B22
+            - generic [ref=e793]:
+              - heading "Phản ứng hạt nhân & năng lượng liên kết" [level=2] [ref=e794]
+              - paragraph [ref=e795]: Mô tả phân hạch, nhiệt hạch và dùng bảo toàn A, Z để kiểm tra phương trình.
+          - paragraph [ref=e796]:
+            - link "Hỏi AI về bài B22 ↗" [ref=e797] [cursor=pointer]:
+              - /url: /hoc-lieu/ai?bai=B22
+            - generic [ref=e798]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+          - navigation "Cách học bài này" [ref=e799]:
+            - button "01 Đọc hình Chạm để khám phá" [pressed] [ref=e800] [cursor=pointer]:
+              - generic [ref=e801]: "01"
+              - strong [ref=e802]: Đọc hình
+              - generic [ref=e803]: Chạm để khám phá
+            - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=e804] [cursor=pointer]:
+              - generic [ref=e805]: "02"
+              - strong [ref=e806]: Thao tác 3D
+              - generic [ref=e807]: Dự đoán rồi kiểm tra
+            - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=e808] [cursor=pointer]:
+              - generic [ref=e809]: "03"
+              - strong [ref=e810]: Xem video
+              - generic [ref=e811]: Theo câu hỏi dẫn dắt
+            - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=e812] [cursor=pointer]:
+              - generic [ref=e813]: "04"
+              - strong [ref=e814]: Ghi & giải thích
+              - generic [ref=e815]: Chuẩn bị cho giờ học
+          - generic [ref=e816]:
+            - region "Infographic Phản ứng hạt nhân & năng lượng liên kết" [ref=e817]:
+              - generic [ref=e818]:
+                - generic [ref=e819]: Chạm số trên hình hoặc chọn điểm bên dưới để đọc.
+                - button "Phóng to hình" [ref=e820] [cursor=pointer]
+              - region "Hình tổng quan" [ref=e821]:
+                - generic [ref=e822]:
+                  - 'img "Phản ứng hạt nhân & năng lượng liên kết. Hấp thụ neutron: U-235 nhận một neutron và trở thành U-236*. Tách thành hai mảnh: Trong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron. Năng lượng & dây chuyền: Mảnh phân hạch chuyển động; neutron có thể tiếp tục gây phân hạch." [ref=e823]'
+                  - 'button "Điểm 1: Hấp thụ neutron" [pressed] [ref=e824] [cursor=pointer]': "1"
+                  - 'button "Điểm 2: Tách thành hai mảnh" [ref=e825] [cursor=pointer]': "2"
+                  - 'button "Điểm 3: Năng lượng & dây chuyền" [ref=e826] [cursor=pointer]': "3"
+              - generic "Đọc từng điểm trên hình" [ref=e827]:
+                - button "1. Hấp thụ neutron" [pressed] [ref=e828] [cursor=pointer]
+                - button "2. Tách thành hai mảnh" [ref=e829] [cursor=pointer]
+                - button "3. Năng lượng & dây chuyền" [ref=e830] [cursor=pointer]
+              - generic [ref=e831]:
+                - generic [ref=e832]:
+                  - text: Quan sát
+                  - paragraph [ref=e833]: U-235 nhận một neutron và trở thành U-236*.
+                - generic [ref=e834]:
+                  - text: Giải thích
+                  - paragraph [ref=e835]: A tăng từ 235 lên 236; Z vẫn là 92. Dấu * chỉ trạng thái kích thích.
+              - group [ref=e836]:
+                - generic "Điểm dễ nhầm và giới hạn của hình" [ref=e837] [cursor=pointer]
+              - generic [ref=e838]:
+                - group "Sau khi U-235 hấp thụ một neutron, số proton của hạt nhân là bao nhiêu?" [ref=e839]:
+                  - generic [ref=e841]:
+                    - generic [ref=e842] [cursor=pointer]:
+                      - radio "93" [ref=e843]
+                      - generic [ref=e844]: "93"
+                    - generic [ref=e845] [cursor=pointer]:
+                      - radio "92" [ref=e846]
+                      - generic [ref=e847]: "92"
+                    - generic [ref=e848] [cursor=pointer]:
+                      - radio "236" [ref=e849]
+                      - generic [ref=e850]: "236"
+                - button "Kiểm tra nhận định" [disabled] [ref=e851] [cursor=pointer]
+              - group "Tải và xem hình minh họa" [ref=e852]:
+                - generic [ref=e853]:
+                  - link "Tải hình dùng trong bài giảng" [ref=e854] [cursor=pointer]:
+                    - /url: /illustrations/B22-diagram.png
+                  - paragraph [ref=e855]: Ảnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.
+                - generic [ref=e856]:
+                  - link "Tải hình để chỉnh sửa" [ref=e857] [cursor=pointer]:
+                    - /url: /illustrations/B22-diagram.svg
+                  - paragraph [ref=e858]: Hình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.
+                - generic [ref=e859]:
+                  - link "Xem hình lớn ↗" [ref=e860] [cursor=pointer]:
+                    - /url: /illustrations/B22-diagram.svg
+                  - paragraph [ref=e861]: Mở hình trong tab mới để đọc rõ chữ và xem các chi tiết.
+            - generic [ref=e862]:
+              - generic [ref=e863]: Chạm để khám phá
+              - 'button "Tiếp: Thao tác 3D" [ref=e864] [cursor=pointer]'
+          - group [ref=e865]:
+            - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=e866] [cursor=pointer]
+          - group [ref=e867]:
+            - generic "Nguồn học liệu" [ref=e868] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=e869]:
+      - button "Mở khung AI học tập" [ref=e870] [cursor=pointer]: AI
+  - alert [ref=e143]: Học liệu Vật lí hạt nhân

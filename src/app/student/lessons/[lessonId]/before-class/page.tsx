@@ -1,3 +1,6 @@
+import { HalfLifeDiscovery } from "@/components/learning/HalfLifeDiscovery";
+import { getStudentPathway } from "@/lib/student-pathway";
+import { StudentPathwayStepViewer } from "@/components/learning/StudentPathwayStepViewer";
 import { PortalShell } from "@/components/PortalShell";
 import { LogoutButton } from "@/components/LogoutButton";
 import { StudentLessonHeader } from "../../StudentLessonHeader";
@@ -13,9 +16,11 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
   const { lessonId } = await params;
   const { supabase, user, lesson, curriculum } = await getStudentLesson(lessonId);
   const { data: videos } = await supabase.from("lesson_materials").select("id, title, description, content_url, duration_minutes, instructions").eq("lesson_id", lessonId).eq("phase", "before_class").eq("material_type", "video").eq("is_published", true).order("sort_order").order("created_at");
-  const { data: colabs } = await supabase.from("lesson_materials").select("id, title, description, content_url").eq("lesson_id", lessonId).eq("phase", "before_class").in("material_type", ["worksheet", "colab", "quiz"]).eq("is_published", true).order("created_at");
+  const { data: colabs } = await supabase.from("lesson_materials").select("id, title, description, content_url, material_type, instructions").eq("lesson_id", lessonId).eq("phase", "before_class").in("material_type", ["worksheet", "colab", "quiz"]).eq("is_published", true).order("created_at");
   
   const phaseProgressObj = await checkPhaseAccess(lessonId, "before_class");
+  const pathway = await getStudentPathway(supabase, lessonId, user.id, "before_class");
+  const pathwayCompleted = !pathway.error && pathway.steps.every(step => !step.required || step.completed);
 
   const ids = [...(videos ?? []).map(v => v.id), ...(colabs ?? []).map(c => c.id)];
   
@@ -32,7 +37,7 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
   // Determine if all required materials are completed
   // For videos, checking if is_complete is true (set by db triggers when checkpoints are done and video ends).
   // Alternatively, just checking progressByMaterial.get(id)?.isComplete
-  const allMaterialsCompleted = ids.length === 0 || ids.every(id => progressByMaterial.get(id)?.isComplete);
+  const allMaterialsCompleted = pathwayCompleted && ids.filter(id => (videos ?? []).some(video => video.id === id) || (colabs ?? []).some(item => item.id === id && ["colab", "quiz"].includes(item.material_type))).every(id => progressByMaterial.get(id)?.isComplete);
 
   let finalQs: { id: string; question_text: string }[] | null = null;
   if (allMaterialsCompleted) {
@@ -52,20 +57,23 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
 
   // Clean title for header
   const cleanTitle = lesson.title.replace(/^Bài\s+\d+[.:]?\s*/i, "");
-  const hasMaterials = (videos?.length ?? 0) > 0 || (colabs?.length ?? 0) > 0;
+  const hasMaterials = (videos?.length ?? 0) > 0 || (colabs?.length ?? 0) > 0 || pathway.steps.length > 0 || Boolean(finalQs?.length);
 
   return (
-    <PortalShell role="student" active="lessons" account={<LogoutButton />}>
+    <PortalShell role="student" aiLessonCode={curriculum.code} active="lessons" account={<LogoutButton />}>
       <StudentLessonHeader 
         lessonId={lessonId}
         lessonTitle={cleanTitle}
         chapterCode={curriculum.chapterCode}
+        lessonCode={curriculum.code}
         description={lesson.learning_objectives || lesson.description}
         activePhase="before_class"
         phaseProgress={phaseProgressObj}
       />
       
       <div style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 24px" }}>
+        <StudentPathwayStepViewer phase="before_class" {...pathway} />
+        {curriculum.code === "B23" && !pathway.steps.some(step => step.activityKey === "radioactive_decay_half_life") && <HalfLifeDiscovery />}
         {curriculum.code === "B21" && (
           <section className="physics-lab-container" style={{ padding: "0 0 48px" }}>
             <h2 style={{ fontSize: "24px", marginBottom: "16px" }}>Mô phỏng khám phá</h2>
@@ -76,9 +84,9 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
           </section>
         )}
 
-        {!hasMaterials ? (
+        {!hasMaterials && pathway.steps.length === 0 ? (
           <section className="empty-state" style={{ padding: "64px 0", textAlign: "center", color: "var(--text-muted)" }}>
-            <h2 style={{ fontSize: "20px", color: "var(--text-primary)", marginBottom: "8px" }}>Chưa có học liệu được xuất bản</h2>
+            <h2 style={{ fontSize: "20px", color: "var(--text-primary)", marginBottom: "8px" }}>Chưa có học liệu bổ sung được xuất bản</h2>
             <p style={{ marginBottom: "24px" }}>Giáo viên chưa mở học liệu cho pha này.</p>
           </section>
         ) : (
@@ -132,6 +140,7 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
                   title: colab.title,
                   content_url: colab.content_url ?? "",
                   description: colab.description,
+                  instructions: colab.instructions,
                   is_complete: progressByMaterial.get(colab.id)?.isComplete ?? false
                 }}
               />
@@ -146,7 +155,7 @@ export default async function StudentBeforeClassPage({ params }: { params: Promi
               />
             )}
             
-            {(!allMaterialsCompleted && ids.length > 0) && (
+            {(!allMaterialsCompleted && (ids.length > 0 || pathway.steps.length > 0)) && (
               <div style={{ textAlign: "center", marginTop: "48px", padding: "24px", color: "var(--text-muted)", backgroundColor: "var(--bg-surface-elevated)", borderRadius: "var(--radius-md)" }}>
                 <p>Em cần hoàn thành các học liệu ở trên để mở khóa câu hỏi chốt kiến thức.</p>
               </div>

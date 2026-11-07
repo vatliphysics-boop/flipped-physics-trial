@@ -1,0 +1,6346 @@
+[
+  {
+    "case": "B25-1440-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:11.385Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": ""
+  },
+  {
+    "case": "B25-1440-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:11.415Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1440-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:11.829Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1440-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:11.862Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nH = λN có cùng xu hướng giảm khi λ không đổi.\n\nGIẢI THÍCH\n\nN là số hạt chưa phân rã. H có đơn vị Bq = phân rã/s; số đếm trên thiết bị còn phụ thuộc hiệu suất và phông.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1440-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:11.880Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1440-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:11.885Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1440-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:12.372Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      2076,
+      1211
+    ],
+    "region": [
+      1038,
+      558,
+      2076,
+      1211,
+      4,
+      4
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B25-1440-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:12.695Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B25-1280-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.178Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      880,
+      513
+    ],
+    "region": [
+      880,
+      513,
+      880,
+      513,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": ""
+  },
+  {
+    "case": "B25-1280-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.213Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      880,
+      513
+    ],
+    "region": [
+      880,
+      513,
+      880,
+      513,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1280-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.262Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      880,
+      513
+    ],
+    "region": [
+      880,
+      513,
+      880,
+      513,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1280-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.294Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      880,
+      513
+    ],
+    "region": [
+      880,
+      513,
+      880,
+      513,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nH = λN có cùng xu hướng giảm khi λ không đổi.\n\nGIẢI THÍCH\n\nN là số hạt chưa phân rã. H có đơn vị Bq = phân rã/s; số đếm trên thiết bị còn phụ thuộc hiệu suất và phông.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1280-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.301Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      880,
+      513
+    ],
+    "region": [
+      880,
+      513,
+      880,
+      513,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1280-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.303Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      880,
+      513
+    ],
+    "region": [
+      880,
+      513,
+      880,
+      513,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-1280-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.548Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      1756,
+      1024
+    ],
+    "region": [
+      878,
+      558,
+      1756,
+      1024,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B25-1280-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.694Z",
+    "viewport": [
+      1280,
+      720
+    ],
+    "image": [
+      880,
+      513
+    ],
+    "region": [
+      880,
+      513,
+      880,
+      513,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B25-768-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.922Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      638,
+      372
+    ],
+    "region": [
+      638,
+      372,
+      638,
+      372,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "menu-toggle mobile-toggle"
+  },
+  {
+    "case": "B25-768-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.957Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      638,
+      372
+    ],
+    "region": [
+      638,
+      372,
+      638,
+      372,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-768-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:13.992Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      638,
+      372
+    ],
+    "region": [
+      638,
+      372,
+      638,
+      372,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-768-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.025Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      638,
+      372
+    ],
+    "region": [
+      638,
+      372,
+      638,
+      372,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nH = λN có cùng xu hướng giảm khi λ không đổi.\n\nGIẢI THÍCH\n\nN là số hạt chưa phân rã. H có đơn vị Bq = phân rã/s; số đếm trên thiết bị còn phụ thuộc hiệu suất và phông.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-768-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.031Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      638,
+      372
+    ],
+    "region": [
+      638,
+      372,
+      638,
+      372,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-768-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.032Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      638,
+      372
+    ],
+    "region": [
+      638,
+      372,
+      638,
+      372,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-768-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.299Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      1272,
+      742
+    ],
+    "region": [
+      636,
+      558,
+      1272,
+      742,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B25-768-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.410Z",
+    "viewport": [
+      768,
+      1024
+    ],
+    "image": [
+      638,
+      372
+    ],
+    "region": [
+      638,
+      372,
+      638,
+      372,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 126.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 117,
+        "height": 45
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 157.296875,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B25-390-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.621Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "menu-toggle mobile-toggle"
+  },
+  {
+    "case": "B25-390-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.692Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-390-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.727Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-390-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.760Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nH = λN có cùng xu hướng giảm khi λ không đổi.\n\nGIẢI THÍCH\n\nN là số hạt chưa phân rã. H có đơn vị Bq = phân rã/s; số đếm trên thiết bị còn phụ thuộc hiệu suất và phông.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-390-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.766Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-390-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:14.768Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-390-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.046Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      1200,
+      700
+    ],
+    "region": [
+      294,
+      547,
+      1200,
+      700,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B25-390-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.161Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B25-360-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.467Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      266,
+      155
+    ],
+    "region": [
+      266,
+      155,
+      266,
+      155,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "menu-toggle mobile-toggle"
+  },
+  {
+    "case": "B25-360-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.541Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      266,
+      155
+    ],
+    "region": [
+      266,
+      155,
+      266,
+      155,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMô hình có N₀ = 800, N(T) = 400, N(2T) = 200.\n\nGIẢI THÍCH\n\nĐây là số hạt kì vọng của mô hình lí tưởng. Kết quả đếm thực tế dao động thống kê.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-360-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.578Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      266,
+      155
+    ],
+    "region": [
+      266,
+      155,
+      266,
+      155,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-360-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.608Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      266,
+      155
+    ],
+    "region": [
+      266,
+      155,
+      266,
+      155,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nH = λN có cùng xu hướng giảm khi λ không đổi.\n\nGIẢI THÍCH\n\nN là số hạt chưa phân rã. H có đơn vị Bq = phân rã/s; số đếm trên thiết bị còn phụ thuộc hiệu suất và phông.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-360-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.614Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      266,
+      155
+    ],
+    "region": [
+      266,
+      155,
+      266,
+      155,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-360-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.616Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      266,
+      155
+    ],
+    "region": [
+      266,
+      155,
+      266,
+      155,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B25-360-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.880Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      1200,
+      700
+    ],
+    "region": [
+      264,
+      518,
+      1200,
+      700,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B25-360-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+    "time": "2026-10-05T12:10:15.993Z",
+    "viewport": [
+      360,
+      800
+    ],
+    "image": [
+      266,
+      155
+    ],
+    "region": [
+      266,
+      155,
+      266,
+      155,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Bảng số liệu",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "2. Đọc đồ thị",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 123,
+        "height": 44
+      },
+      {
+        "text": "3. Phân biệt N và H",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 258,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường N(t) giảm theo hàm mũ; không phải đường thẳng.\n\nGIẢI THÍCH\n\nN(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B21-1440-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.297Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiều hạt α qua lá vàng gần như không đổi hướng.\n\nGIẢI THÍCH\n\nPhần lớn thể tích nguyên tử không chứa vùng tập trung điện tích dương và khối lượng.",
+    "focus": ""
+  },
+  {
+    "case": "B21-1440-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.323Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiều hạt α qua lá vàng gần như không đổi hướng.\n\nGIẢI THÍCH\n\nPhần lớn thể tích nguyên tử không chứa vùng tập trung điện tích dương và khối lượng.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-1440-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.358Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-1440-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.393Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-1440-point4",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.424Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-1440-point5",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.459Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-1440-point6",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.492Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-1440-point7",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.525Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-1440-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.533Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-1440-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.535Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-1440-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.780Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      2076,
+      1211
+    ],
+    "region": [
+      1038,
+      558,
+      2076,
+      1211,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B21-1440-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:16.910Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 160.28125,
+        "height": 45
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 164.421875,
+        "height": 45
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 150.171875,
+        "height": 45
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.3125,
+        "height": 45
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 212.671875,
+        "height": 45
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 143.03125,
+        "height": 45
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 140.765625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B21-390-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.164Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiều hạt α qua lá vàng gần như không đổi hướng.\n\nGIẢI THÍCH\n\nPhần lớn thể tích nguyên tử không chứa vùng tập trung điện tích dương và khối lượng.",
+    "focus": "menu-toggle mobile-toggle"
+  },
+  {
+    "case": "B21-390-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.190Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiều hạt α qua lá vàng gần như không đổi hướng.\n\nGIẢI THÍCH\n\nPhần lớn thể tích nguyên tử không chứa vùng tập trung điện tích dương và khối lượng.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-390-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.230Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-390-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.258Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-390-point4",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.290Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-390-point5",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.326Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-390-point6",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.360Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-390-point7",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.395Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt nhân C-12 gồm 6 proton và 6 neutron.\n\nGIẢI THÍCH\n\nA = Z + N = 12. C-14 vẫn có Z = 6 nhưng N = 8; hai hạt nhân là đồng vị.",
+    "focus": ""
+  },
+  {
+    "case": "B21-390-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.405Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-390-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.411Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B21-390-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.682Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      1200,
+      700
+    ],
+    "region": [
+      294,
+      547,
+      1200,
+      700,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B21-390-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B21",
+    "time": "2026-10-05T12:10:17.813Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phần lớn đi thẳng",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Một số lệch mạnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Đọc số nucleon",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      },
+      {
+        "text": "1896 · Becquerel",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1898 · Pierre và Marie Curie",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1911 · Rutherford",
+        "pressed": "false",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      },
+      {
+        "text": "1932 · Chadwick",
+        "pressed": "true",
+        "controls": "_R_24mrinebn5rlb_",
+        "width": 249,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHạt tới gần tâm bị lệch, một số rất ít bật ngược.\n\nGIẢI THÍCH\n\nĐiện tích dương tập trung trong hạt nhân nhỏ gây tương tác điện mạnh khi hạt α tới gần.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B22-1440-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.093Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nU-235 nhận một neutron và trở thành U-236*.\n\nGIẢI THÍCH\n\nA tăng từ 235 lên 236; Z vẫn là 92. Dấu * chỉ trạng thái kích thích.",
+    "focus": ""
+  },
+  {
+    "case": "B22-1440-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.131Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nU-235 nhận một neutron và trở thành U-236*.\n\nGIẢI THÍCH\n\nA tăng từ 235 lên 236; Z vẫn là 92. Dấu * chỉ trạng thái kích thích.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-1440-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.161Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-1440-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.193Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMảnh phân hạch chuyển động; neutron có thể tiếp tục gây phân hạch.\n\nGIẢI THÍCH\n\nNăng lượng tỏa ra gắn với chênh lệch khối lượng nghỉ. Số neutron tiếp tục phản ứng phụ thuộc hấp thụ và thoát ra.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-1440-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.199Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-1440-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.201Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-1440-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.482Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      2076,
+      1211
+    ],
+    "region": [
+      1038,
+      558,
+      2076,
+      1211,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B22-1440-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:18.628Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 152.578125,
+        "height": 45
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 183.28125,
+        "height": 45
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 215.0625,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B22-390-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.057Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nU-235 nhận một neutron và trở thành U-236*.\n\nGIẢI THÍCH\n\nA tăng từ 235 lên 236; Z vẫn là 92. Dấu * chỉ trạng thái kích thích.",
+    "focus": "menu-toggle mobile-toggle"
+  },
+  {
+    "case": "B22-390-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.130Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nU-235 nhận một neutron và trở thành U-236*.\n\nGIẢI THÍCH\n\nA tăng từ 235 lên 236; Z vẫn là 92. Dấu * chỉ trạng thái kích thích.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-390-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.162Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-390-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.192Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nMảnh phân hạch chuyển động; neutron có thể tiếp tục gây phân hạch.\n\nGIẢI THÍCH\n\nNăng lượng tỏa ra gắn với chênh lệch khối lượng nghỉ. Số neutron tiếp tục phản ứng phụ thuộc hấp thụ và thoát ra.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-390-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.200Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-390-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.201Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B22-390-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.484Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      1200,
+      700
+    ],
+    "region": [
+      294,
+      547,
+      1200,
+      700,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B22-390-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+    "time": "2026-10-05T12:10:19.613Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Hấp thụ neutron",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Tách thành hai mảnh",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Năng lượng & dây chuyền",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B23-1440-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:19.967Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường α dừng ở tấm giấy trong hình minh họa.\n\nGIẢI THÍCH\n\nα là hạt nhân helium-4 mang điện +2e; khi phân rã α, A giảm 4 và Z giảm 2.",
+    "focus": ""
+  },
+  {
+    "case": "B23-1440-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.011Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường α dừng ở tấm giấy trong hình minh họa.\n\nGIẢI THÍCH\n\nα là hạt nhân helium-4 mang điện +2e; khi phân rã α, A giảm 4 và Z giảm 2.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-1440-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.046Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-1440-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.076Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường γ qua chì được vẽ nhạt hơn, còn tín hiệu phía sau.\n\nGIẢI THÍCH\n\nγ là photon năng lượng cao. Chì/bê tông làm suy giảm cường độ; phát γ riêng lẻ không đổi A và Z.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-1440-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.085Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-1440-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.088Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-1440-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.366Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      2076,
+      1211
+    ],
+    "region": [
+      1038,
+      558,
+      2076,
+      1211,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B23-1440-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.494Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 105.109375,
+        "height": 45
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 116.78125,
+        "height": 45
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 118.953125,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B23-390-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.768Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường α dừng ở tấm giấy trong hình minh họa.\n\nGIẢI THÍCH\n\nα là hạt nhân helium-4 mang điện +2e; khi phân rã α, A giảm 4 và Z giảm 2.",
+    "focus": "menu-toggle mobile-toggle"
+  },
+  {
+    "case": "B23-390-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.845Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường α dừng ở tấm giấy trong hình minh họa.\n\nGIẢI THÍCH\n\nα là hạt nhân helium-4 mang điện +2e; khi phân rã α, A giảm 4 và Z giảm 2.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-390-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.878Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-390-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.909Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường γ qua chì được vẽ nhạt hơn, còn tín hiệu phía sau.\n\nGIẢI THÍCH\n\nγ là photon năng lượng cao. Chì/bê tông làm suy giảm cường độ; phát γ riêng lẻ không đổi A và Z.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-390-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.916Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-390-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:20.918Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B23-390-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:21.203Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      1200,
+      700
+    ],
+    "region": [
+      294,
+      547,
+      1200,
+      700,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B23-390-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B23",
+    "time": "2026-10-05T12:10:21.329Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. α và giấy",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "2. β và nhôm",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 44
+      },
+      {
+        "text": "3. γ suy giảm",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nĐường β xuyên qua giấy nhưng suy giảm trong nhôm.\n\nGIẢI THÍCH\n\nβ⁻ là electron, β⁺ là positron. A không đổi; Z tăng 1 với β⁻ hoặc giảm 1 với β⁺.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B24-1440-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:21.614Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiệt sinh ra trong lò được vòng sơ cấp mang tới bộ trao đổi nhiệt.\n\nGIẢI THÍCH\n\nThanh điều khiển hấp thụ neutron. Điện năng không được tạo ra trực tiếp trong nhiên liệu.",
+    "focus": ""
+  },
+  {
+    "case": "B24-1440-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:21.647Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiệt sinh ra trong lò được vòng sơ cấp mang tới bộ trao đổi nhiệt.\n\nGIẢI THÍCH\n\nThanh điều khiển hấp thụ neutron. Điện năng không được tạo ra trực tiếp trong nhiên liệu.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-1440-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:21.676Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-1440-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:21.709Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHơi làm quay turbine; turbine kéo máy phát.\n\nGIẢI THÍCH\n\nSau turbine, hơi ngưng tụ và quay lại vòng thứ cấp. Phân biệt dòng vật chất với dòng năng lượng.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-1440-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:21.715Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-1440-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:21.717Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-1440-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.000Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      2076,
+      1211
+    ],
+    "region": [
+      1038,
+      558,
+      2076,
+      1211,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B24-1440-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.128Z",
+    "viewport": [
+      1440,
+      900
+    ],
+    "image": [
+      1040,
+      607
+    ],
+    "region": [
+      1040,
+      607,
+      1040,
+      607,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 167.765625,
+        "height": 45
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138.515625,
+        "height": 45
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 151.84375,
+        "height": 45
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "btn small"
+  },
+  {
+    "case": "B24-390-fit",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.484Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiệt sinh ra trong lò được vòng sơ cấp mang tới bộ trao đổi nhiệt.\n\nGIẢI THÍCH\n\nThanh điều khiển hấp thụ neutron. Điện năng không được tạo ra trực tiếp trong nhiên liệu.",
+    "focus": "menu-toggle mobile-toggle"
+  },
+  {
+    "case": "B24-390-point1",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.547Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nNhiệt sinh ra trong lò được vòng sơ cấp mang tới bộ trao đổi nhiệt.\n\nGIẢI THÍCH\n\nThanh điều khiển hấp thụ neutron. Điện năng không được tạo ra trực tiếp trong nhiên liệu.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-390-point2",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.576Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-390-point3",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.611Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nHơi làm quay turbine; turbine kéo máy phát.\n\nGIẢI THÍCH\n\nSau turbine, hơi ngưng tụ và quay lại vòng thứ cấp. Phân biệt dòng vật chất với dòng năng lượng.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-390-TabEnter",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.618Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-390-Space",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.621Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "is-active"
+  },
+  {
+    "case": "B24-390-zoom-pan",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:22.897Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      1200,
+      700
+    ],
+    "region": [
+      294,
+      547,
+      1200,
+      700,
+      40,
+      40
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "infographic-viewport is-zoomed"
+  },
+  {
+    "case": "B24-390-fit-again",
+    "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B24",
+    "time": "2026-10-05T12:10:23.011Z",
+    "viewport": [
+      390,
+      844
+    ],
+    "image": [
+      296,
+      173
+    ],
+    "region": [
+      296,
+      173,
+      296,
+      173,
+      0,
+      0
+    ],
+    "overlay": 0,
+    "buttons": [
+      {
+        "text": "1. Phân hạch → nhiệt",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "2. Trao đổi nhiệt",
+        "pressed": "true",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 138,
+        "height": 64
+      },
+      {
+        "text": "3. Cơ năng → điện",
+        "pressed": "false",
+        "controls": "_R_mrinebn5rlb_-explanation",
+        "width": 288,
+        "height": 44
+      }
+    ],
+    "explanation": "QUAN SÁT\n\nVòng sơ cấp và thứ cấp trao đổi nhiệt qua bề mặt ngăn cách.\n\nGIẢI THÍCH\n\nVới mô hình lò nước áp lực, nước của hai vòng không trộn lẫn; vòng thứ cấp tạo hơi.",
+    "focus": "btn small"
+  },
+  {
+    "case": "login-1440-Tab",
+    "url": "http://localhost:3001/login",
+    "viewport": [
+      1440,
+      900
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      }
+    ]
+  },
+  {
+    "case": "login-1440-student",
+    "url": "http://localhost:3001/login",
+    "viewport": [
+      1440,
+      900
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      },
+      {
+        "value": "student",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      }
+    ]
+  },
+  {
+    "case": "login-1440-teacher",
+    "url": "http://localhost:3001/login",
+    "viewport": [
+      1440,
+      900
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(22, 166, 182) none 3px"
+      }
+    ]
+  },
+  {
+    "case": "login-390-Tab",
+    "url": "http://localhost:3001/login",
+    "viewport": [
+      390,
+      844
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      }
+    ]
+  },
+  {
+    "case": "login-390-student",
+    "url": "http://localhost:3001/login",
+    "viewport": [
+      390,
+      844
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      },
+      {
+        "value": "student",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      }
+    ]
+  },
+  {
+    "case": "login-390-teacher",
+    "url": "http://localhost:3001/login",
+    "viewport": [
+      390,
+      844
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(35, 145, 162) none 3px"
+      }
+    ]
+  },
+  {
+    "case": "register-1440-Tab",
+    "url": "http://localhost:3001/register",
+    "viewport": [
+      1440,
+      900
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      }
+    ]
+  },
+  {
+    "case": "register-1440-student",
+    "url": "http://localhost:3001/register",
+    "viewport": [
+      1440,
+      900
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      },
+      {
+        "value": "student",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      }
+    ]
+  },
+  {
+    "case": "register-1440-teacher",
+    "url": "http://localhost:3001/register",
+    "viewport": [
+      1440,
+      900
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          188,
+          44
+        ],
+        "outline": "rgb(29, 154, 171) none 3px"
+      }
+    ]
+  },
+  {
+    "case": "register-390-Tab",
+    "url": "http://localhost:3001/register",
+    "viewport": [
+      390,
+      844
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      }
+    ]
+  },
+  {
+    "case": "register-390-student",
+    "url": "http://localhost:3001/register",
+    "viewport": [
+      390,
+      844
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) none 3px"
+      },
+      {
+        "value": "student",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      }
+    ]
+  },
+  {
+    "case": "register-390-teacher",
+    "url": "http://localhost:3001/register",
+    "viewport": [
+      390,
+      844
+    ],
+    "radios": [
+      {
+        "value": "teacher",
+        "checked": true,
+        "focused": true,
+        "display": "block",
+        "focusVisible": true,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(71, 85, 105) solid 3px"
+      },
+      {
+        "value": "student",
+        "checked": false,
+        "focused": false,
+        "display": "block",
+        "focusVisible": false,
+        "labelSize": [
+          143,
+          44
+        ],
+        "outline": "rgb(35, 145, 162) none 3px"
+      }
+    ]
+  }
+]

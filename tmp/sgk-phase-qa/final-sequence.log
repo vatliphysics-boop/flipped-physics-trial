@@ -1,0 +1,11 @@
+✔ the lab titles and legacy numbered lesson names resolve to the same five modules (9.118917ms)
+✔ each phase has distinct evidence requirements and the main simulation belongs to its own lesson (68.969ms)
+✔ legacy assessment presentation renders key formulae without changing marked-up content (18.576417ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 755.833375

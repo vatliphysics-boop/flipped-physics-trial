@@ -1,0 +1,360 @@
+{
+  "baseUrl": "http://127.0.0.1:3476",
+  "browser": "system Google Chrome",
+  "date": "2026-11-06",
+  "groups": [
+    {
+      "group": "home",
+      "route": "/",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/home-1366.png",
+        "docs/previews/ui-consistency/before/home-390.png"
+      ]
+    },
+    {
+      "group": "library",
+      "route": "/hoc-lieu",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/library-1366.png",
+        "docs/previews/ui-consistency/before/library-390.png"
+      ]
+    },
+    {
+      "group": "lab-b21",
+      "route": "/hoc-lieu/phong-hat-nhan?bai=B21",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/lab-b21-1366.png",
+        "docs/previews/ui-consistency/before/lab-b21-390.png"
+      ]
+    },
+    {
+      "group": "lab-b22",
+      "route": "/hoc-lieu/phong-hat-nhan?bai=B22",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/lab-b22-1366.png",
+        "docs/previews/ui-consistency/before/lab-b22-390.png"
+      ]
+    },
+    {
+      "group": "lab-b23",
+      "route": "/hoc-lieu/phong-hat-nhan?bai=B23",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/lab-b23-1366.png",
+        "docs/previews/ui-consistency/before/lab-b23-390.png"
+      ]
+    },
+    {
+      "group": "lab-b24",
+      "route": "/hoc-lieu/phong-hat-nhan?bai=B24",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/lab-b24-1366.png",
+        "docs/previews/ui-consistency/before/lab-b24-390.png"
+      ]
+    },
+    {
+      "group": "lab-b25",
+      "route": "/hoc-lieu/phong-hat-nhan?bai=B25",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/lab-b25-1366.png",
+        "docs/previews/ui-consistency/before/lab-b25-390.png"
+      ]
+    },
+    {
+      "group": "visual-studio",
+      "route": "/hoc-lieu/truc-quan?bai=B21",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/visual-studio-1366.png",
+        "docs/previews/ui-consistency/before/visual-studio-390.png"
+      ]
+    },
+    {
+      "group": "video",
+      "route": "/hoc-lieu/phong-hat-nhan?bai=B21#video",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/video-1366.png",
+        "docs/previews/ui-consistency/before/video-390.png"
+      ]
+    },
+    {
+      "group": "infographic-history",
+      "route": "/gioi-thieu",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/infographic-history-1366.png",
+        "docs/previews/ui-consistency/before/infographic-history-390.png"
+      ]
+    },
+    {
+      "group": "demo",
+      "route": "/demo-lesson",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/demo-1366.png",
+        "docs/previews/ui-consistency/before/demo-390.png"
+      ]
+    },
+    {
+      "group": "curriculum",
+      "route": "/hoc-lieu/chuong-trinh",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/curriculum-1366.png",
+        "docs/previews/ui-consistency/before/curriculum-390.png"
+      ]
+    },
+    {
+      "group": "student-ai",
+      "route": "/hoc-lieu/ai",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked; chat opened; no prompt sent; inference availability unverified",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/student-ai-1366.png",
+        "docs/previews/ui-consistency/before/student-ai-390.png"
+      ]
+    },
+    {
+      "group": "teacher-tools",
+      "route": "/hoc-lieu/ai-giao-vien",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "guest UI checked; authenticated question data unavailable",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/teacher-tools-1366.png",
+        "docs/previews/ui-consistency/before/teacher-tools-390.png"
+      ]
+    },
+    {
+      "group": "worksheet",
+      "route": "/hoc-lieu/ai-giao-vien",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "guest UI checked; authenticated question data unavailable",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/worksheet-1366.png",
+        "docs/previews/ui-consistency/before/worksheet-390.png"
+      ]
+    },
+    {
+      "group": "prepare-lesson",
+      "route": "/hoc-lieu/ai-giao-vien",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "guest UI checked; authenticated question data unavailable",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/prepare-lesson-1366.png",
+        "docs/previews/ui-consistency/before/prepare-lesson-390.png"
+      ]
+    },
+    {
+      "group": "plan-editor",
+      "route": "/hoc-lieu/soan-ke-hoach",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/plan-editor-1366.png",
+        "docs/previews/ui-consistency/before/plan-editor-390.png"
+      ]
+    },
+    {
+      "group": "flipped-guide",
+      "route": "/hoc-lieu/lop-hoc-dao-nguoc",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/flipped-guide-1366.png",
+        "docs/previews/ui-consistency/before/flipped-guide-390.png"
+      ]
+    },
+    {
+      "group": "assessment-catalog",
+      "route": "/hoc-lieu?type=assessment",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/assessment-catalog-1366.png",
+        "docs/previews/ui-consistency/before/assessment-catalog-390.png"
+      ]
+    },
+    {
+      "group": "document-catalog",
+      "route": "/hoc-lieu?type=document",
+      "widths": [
+        1366,
+        390
+      ],
+      "http200": true,
+      "baselinePass": true,
+      "scope": "local UI checked",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/document-catalog-1366.png",
+        "docs/previews/ui-consistency/before/document-catalog-390.png"
+      ]
+    },
+    {
+      "group": "exam-matrix",
+      "route": "/hoc-lieu/ai-giao-vien → Up ma trận đề và xuất ra đề file Word",
+      "widths": [
+        1366,
+        390
+      ],
+      "baselinePass": true,
+      "scope": "matrix form opens; authenticated question data unavailable",
+      "beforeScreenshots": [
+        "docs/previews/ui-consistency/before/exam-matrix-1366.png",
+        "docs/previews/ui-consistency/before/exam-matrix-390.png"
+      ]
+    }
+  ],
+  "baselineHarnessCorrection": "Main report exact video accessible-name matcher was too narrow; corrected regex and recaptured both widths successfully in additional-before.json.",
+  "findings": [
+    {
+      "issue": "lab inherited white text on near-white physics-note",
+      "fix": "scoped light-gallery tokens + physics-note color",
+      "owner": "video_review"
+    },
+    {
+      "issue": "VisualStudio mobile lesson rail hides later lessons and nested padding reduces space",
+      "fix": "scoped responsive lesson grid + studio padding zero",
+      "owner": "video_review"
+    },
+    {
+      "issue": "VisualStudio and lesson-builder hardcoded black/gray surfaces diverge from shared tokens",
+      "fix": "scoped card/button tokens and builder neutral token substitution",
+      "owner": "video_review"
+    },
+    {
+      "issue": "public AI lacked H1",
+      "fix": "headingLevel1 only on public callsite; student keeps default H2",
+      "owner": "video_review"
+    },
+    {
+      "issue": "guest question bank has terminal loading after auth denied",
+      "fix": "reported to teacher owner sources",
+      "owner": "sources"
+    },
+    {
+      "issue": "guest pages mix student sidebar and public navigation",
+      "fix": "root shared-shell consolidation",
+      "owner": "root"
+    },
+    {
+      "issue": "Infographic B22 lesson button nowrap causes392px document at390px viewport",
+      "fix": "page-specific maxWidth100%, whiteSpace normal, aria-pressed state",
+      "owner": "video_review"
+    }
+  ],
+  "additionalVariantCoverage": "Studio B22–B25 and infographic B22–B25 at1366/390 (16 cases; variants-before.json). B22 infographic button exceeds mobile viewport by1.55px; page-specific wrap fix implemented, pending new production verification."
+}

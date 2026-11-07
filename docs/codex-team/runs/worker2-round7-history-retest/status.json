@@ -1,0 +1,47 @@
+{
+  "id": "worker2-round7-history-retest",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T09:27:24.242Z",
+  "status": "COMPLETED_PENDING_LEAD_REVIEW",
+  "session_ids": [
+    "01a10b63-b315-7420-a531-98adf7a4d509"
+  ],
+  "exit_code": 0,
+  "allowed_files": [],
+  "timeout_seconds": 600,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-GBa5PO": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-round7-history-retest/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-GBa5PO",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-GBa5PO/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-GBa5PO/evidence"
+  },
+  "pid": 35157,
+  "signal": null,
+  "end": "2026-10-05T09:31:54.600Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-GBa5PO",
+  "changed_files": [],
+  "unexpected_changes": [],
+  "protected_sources_unchanged": true
+}

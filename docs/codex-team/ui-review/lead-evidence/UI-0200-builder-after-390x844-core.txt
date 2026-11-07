@@ -1,0 +1,345 @@
+Browser tab: 5, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#resource-system-sim-nuclear-builder".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#resource-system-sim-nuclear-builder
+	2 link Description: Đi đến nội dung chính, Value: localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#main-content
+	3 container
+		4 button (collapsed) Description: Mở menu, Secondary Actions: Expand
+		5 link Description: Học liệu Vật lí 12, Value: localhost:3001/hoc-lieu
+		6 link Description: Đăng nhập lớp học, Value: localhost:3001/login
+	7 container main-content
+		8 container
+			9 text VẬT LÍ 12 · B21–B25
+			10 heading Chương 4: Vật lí hạt nhân, Value: 1
+				11 text Chương 4: Vật lí hạt nhân
+			12 text B21–B25: thí nghiệm 3D nhiều góc nhìn, kiến thức, video, phiếu học tập và hoạt động nhóm. Kết quả ở đây dùng tự luyện; nộp bài qua lớp học sau khi đăng nhập.
+		13 link Description: Cách tổ chức lớp học · Việc của giáo viên và học sinh, Value: localhost:3001/hoc-lieu/lop-hoc-dao-nguoc
+		14 container
+			15 text CHƯƠNG 4: VẬT LÍ HẠT NHÂN · B21–B25
+			16 heading Học liệu theo bài, Value: 2
+				17 text Học liệu theo bài
+			18 text Chọn bài để mở hình minh họa, mô phỏng, video và bản ghi học tập.
+			19 link Description: Mở học liệu B22, Value: localhost:3001/hoc-lieu/truc-quan?bai=B22
+			20 container Mở học liệu theo bài
+				21 link Description: B21 Cấu trúc hạt nhân Hình · 3D · Video · Bản ghi ↗, Value: localhost:3001/hoc-lieu/truc-quan?bai=B21
+				22 link Description: B22 Phản ứng hạt nhân Hình · 3D · Video · Bản ghi ↗, Value: localhost:3001/hoc-lieu/truc-quan?bai=B22
+				23 link Description: B23 Hiện tượng phóng xạ Hình · 3D · Video · Bản ghi ↗, Value: localhost:3001/hoc-lieu/truc-quan?bai=B23
+				24 link Description: B24 Công nghiệp hạt nhân Hình · 3D · Video · Bản ghi ↗, Value: localhost:3001/hoc-lieu/truc-quan?bai=B24
+				25 link Description: B25 Thực hành bán rã Hình · 3D · Video · Bản ghi ↗, Value: localhost:3001/hoc-lieu/truc-quan?bai=B25
+			26 text Kế hoạch dạy học của giáo viên Chọn học liệu từ kho, chỉnh mục tiêu và nhiệm vụ, thiết kế sản phẩm/đánh giá cho ba pha. Có 5 mẫu B21–B25 để sửa và lưu riêng.
+			27 link Description: Soạn kế hoạch dạy học, Value: localhost:3001/hoc-lieu/soan-ke-hoach
+			28 text Tìm học liệu
+			29 search text field (settable) Tìm học liệu
+			30 text Bài học
+			31 pop up button (collapsed, settable) Bài học, Value: B21, Secondary Actions: Expand
+				32 menu
+					33 B21–B25 · Vật lí hạt nhân
+					34 (selected) B21
+					35 B22
+					36 B23
+					37 B24
+					38 B25
+			39 container Lọc theo nhu cầu
+				40 checkbox Mọi mục đích, Value: 1
+				41 checkbox Tự học trước giờ, Value: 0
+				42 checkbox Khám phá trên lớp, Value: 0
+				43 checkbox Ôn tập & kiểm tra, Value: 0
+				44 checkbox (settable, integer) Description: Học liệu đã lưu (0), Value: 0
+			45 container Lọc loại học liệu
+				46 checkbox Tất cả học liệu (89), Value: 1
+					47 text Tất cả học liệu
+					48 text (
+					49 text 89
+					50 text )
+				51 checkbox Thí nghiệm 3D (17), Value: 0
+					52 text Thí nghiệm 3D
+					53 text (
+					54 text 17
+					55 text )
+				56 checkbox Ảnh & Sơ đồ (17), Value: 0
+					57 text Ảnh & Sơ đồ
+					58 text (
+					59 text 17
+					60 text )
+				61 checkbox Minh họa động (5), Value: 0
+					62 text Minh họa động
+					63 text (
+					64 text 5
+					65 text )
+				66 checkbox Video thực tế (1), Value: 0
+					67 text Video thực tế
+					68 text (
+					69 text 1
+					70 text )
+				71 checkbox Video bài giảng (10), Value: 0
+					72 text Video bài giảng
+					73 text (
+					74 text 10
+					75 text )
+				76 checkbox PDF & Phiếu học tập (18), Value: 0
+					77 text PDF & Phiếu học tập
+					78 text (
+					79 text 18
+					80 text )
+				81 checkbox Câu hỏi & Hoạt động nhóm (17), Value: 0
+					82 text Câu hỏi & Hoạt động nhóm
+					83 text (
+					84 text 17
+					85 text )
+				86 checkbox Đề giữa kỳ & Cuối kỳ (4), Value: 0
+					87 text Đề giữa kỳ & Cuối kỳ
+					88 text (
+					89 text 4
+					90 text )
+			91 text 24  học liệu phù hợp. Nhấn tên học liệu để mở nội dung và thao tác.
+			92 button (collapsed) Secondary Actions: Expand, B21 ·Ảnh & Sơ đồ Hình câu hỏi: Hai mô hình hạt nhân Đếm proton và neutron của hai mô hình; màu đỏ là proton, xanh là neutron.
+				93 container
+					94 text B21  · Ảnh & Sơ đồ
+				95 text Hình câu hỏi: Hai mô hình hạt nhân
+				96 text Đếm proton và neutron của hai mô hình; màu đỏ là proton, xanh là neutron.
+			97 checkbox Description: Lưu Hình câu hỏi: Hai mô hình hạt nhân, Value: 0
+			98 button (collapsed) Secondary Actions: Expand, B21 ·Ảnh & Sơ đồ Hình câu hỏi: Tán xạ hạt alpha qua lá vàng Ba đường đi minh họa; không biểu diễn tỉ lệ xác suất các đường đi.
+				99 container
+					100 text B21  · Ảnh & Sơ đồ
+				101 text Hình câu hỏi: Tán xạ hạt alpha qua lá vàng
+				102 text Ba đường đi minh họa; không biểu diễn tỉ lệ xác suất các đường đi.
+			103 checkbox Description: Lưu Hình câu hỏi: Tán xạ hạt alpha qua lá vàng, Value: 0
+			104 button (collapsed) Secondary Actions: Expand, Chủ đề hạt nhân ·Đề giữa kỳ & Cuối kỳ Đề giữa kỳ · Mã A · Vật lí hạt nhân 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+				105 container
+					106 text Chủ đề hạt nhân  · Đề giữa kỳ & Cuối kỳ
+				107 text Đề giữa kỳ · Mã A · Vật lí hạt nhân
+				108 text 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+			109 checkbox Description: Lưu Đề giữa kỳ · Mã A · Vật lí hạt nhân, Value: 0
+			110 button (collapsed) Secondary Actions: Expand, Chủ đề hạt nhân ·Đề giữa kỳ & Cuối kỳ Đề giữa kỳ · Mã B · Vật lí hạt nhân 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+				111 container
+					112 text Chủ đề hạt nhân  · Đề giữa kỳ & Cuối kỳ
+				113 text Đề giữa kỳ · Mã B · Vật lí hạt nhân
+				114 text 45 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+			115 checkbox Description: Lưu Đề giữa kỳ · Mã B · Vật lí hạt nhân, Value: 0
+			116 button (collapsed) Secondary Actions: Expand, Chủ đề hạt nhân ·Đề giữa kỳ & Cuối kỳ Đề cuối kỳ · Mã A · Vật lí hạt nhân 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+				117 container
+					118 text Chủ đề hạt nhân  · Đề giữa kỳ & Cuối kỳ
+				119 text Đề cuối kỳ · Mã A · Vật lí hạt nhân
+				120 text 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+			121 checkbox Description: Lưu Đề cuối kỳ · Mã A · Vật lí hạt nhân, Value: 0
+			122 button (collapsed) Secondary Actions: Expand, Chủ đề hạt nhân ·Đề giữa kỳ & Cuối kỳ Đề cuối kỳ · Mã B · Vật lí hạt nhân 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+				123 container
+					124 text Chủ đề hạt nhân  · Đề giữa kỳ & Cuối kỳ
+				125 text Đề cuối kỳ · Mã B · Vật lí hạt nhân
+				126 text 60 phút; trắc nghiệm, đúng–sai, trả lời số và tự luận. Có ma trận, đáp án, rubric, bản in. Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.
+			127 checkbox Description: Lưu Đề cuối kỳ · Mã B · Vật lí hạt nhân, Value: 0
+			128 button (collapsed) Secondary Actions: Expand, B21 ·PDF & Phiếu học tập B21 · Gợi ý kế hoạch, phân hóa và sản phẩm học tập Khởi động bằng nhận định về nguyên tử, yêu cầu dự đoán đường hạt α. Nhóm thay đổi khoảng cách hạt tới tâm, so sánh góc nhìn và viết lập luận từ kết quả. Chốt Z, N, A rồi dùng các đồng vị carbon để kiểm tra cách hiểu. Giáo viên có thể chọn mẫu và chỉnh sửa trong bàn soạn kế hoạch.
+				129 container
+					130 text B21  · PDF & Phiếu học tập
+				131 text B21 · Gợi ý kế hoạch, phân hóa và sản phẩm học tập
+				132 text Khởi động bằng nhận định về nguyên tử, yêu cầu dự đoán đường hạt α. Nhóm thay đổi khoảng cách hạt tới tâm, so sánh góc nhìn và viết lập luận từ kết quả. Chốt Z, N, A rồi dùng các đồng vị carbon để kiểm tra cách hiểu. Giáo viên có thể chọn mẫu và chỉnh sửa trong bàn soạn kế hoạch.
+			133 checkbox Description: Lưu B21 · Gợi ý kế hoạch, phân hóa và sản phẩm học tập, Value: 0
+			134 button (collapsed) Secondary Actions: Expand, B21 ·Câu hỏi & Hoạt động nhóm B21 · Sửa ba lỗi thường gặp Dự đoán, giải thích và đối chiếu ba nhận định sai; viết cách sửa và hành động học tiếp. Có hướng dẫn phản hồi, không gán điểm chính thức.
+				135 container
+					136 text B21  · Câu hỏi & Hoạt động nhóm
+				137 text B21 · Sửa ba lỗi thường gặp
+				138 text Dự đoán, giải thích và đối chiếu ba nhận định sai; viết cách sửa và hành động học tiếp. Có hướng dẫn phản hồi, không gán điểm chính thức.
+			139 checkbox Description: Lưu B21 · Sửa ba lỗi thường gặp, Value: 0
+			140 button (collapsed) Secondary Actions: Expand, Chủ đề hạt nhân ·Câu hỏi & Hoạt động nhóm Phiếu quan sát và phản tư năng lực tự học Bốn chỉ báo: mục tiêu/kế hoạch, theo dõi, giải thích có nguồn, tự điều chỉnh. Ghi mức biểu hiện và bằng chứng; khung đề xuất theo bài báo, chưa là thang đo đã kiểm định.
+				141 container
+					142 text Chủ đề hạt nhân  · Câu hỏi & Hoạt động nhóm
+				143 text Phiếu quan sát và phản tư năng lực tự học
+				144 text Bốn chỉ báo: mục tiêu/kế hoạch, theo dõi, giải thích có nguồn, tự điều chỉnh. Ghi mức biểu hiện và bằng chứng; khung đề xuất theo bài báo, chưa là thang đo đã kiểm định.
+			145 checkbox Description: Lưu Phiếu quan sát và phản tư năng lực tự học, Value: 0
+			146 button (collapsed) Secondary Actions: Expand, B21 ·Câu hỏi & Hoạt động nhóm PhET · Tán xạ Rutherford So sánh mô hình nguyên tử trên PhET với cảnh 3D của kho. Đổi điều kiện hạt tới, ghi nhận đường đi và giải thích vì sao một số hạt lệch mạnh.
+				147 container
+					148 text B21  · Câu hỏi & Hoạt động nhóm
+				149 text PhET · Tán xạ Rutherford
+				150 text So sánh mô hình nguyên tử trên PhET với cảnh 3D của kho. Đổi điều kiện hạt tới, ghi nhận đường đi và giải thích vì sao một số hạt lệch mạnh.
+			151 checkbox Description: Lưu PhET · Tán xạ Rutherford, Value: 0
+			152 button (collapsed) Secondary Actions: Expand, B21 ·Câu hỏi & Hoạt động nhóm PhET · Xây dựng hạt nhân Thay số proton và neutron; lập bảng Z–N–A. So sánh các đồng vị và ghi điều quan sát được về trạng thái hạt nhân.
+				153 container
+					154 text B21  · Câu hỏi & Hoạt động nhóm
+				155 text PhET · Xây dựng hạt nhân
+				156 text Thay số proton và neutron; lập bảng Z–N–A. So sánh các đồng vị và ghi điều quan sát được về trạng thái hạt nhân.
+			157 checkbox Description: Lưu PhET · Xây dựng hạt nhân, Value: 0
+			158 button (collapsed) Secondary Actions: Expand, B21 ·PDF & Phiếu học tập OpenStax · Cấu trúc hạt nhân và đồng vị Đọc kí hiệu A, Z, N và mô hình bán kính. Viết bằng tiếng Việt cách xác định N khi biết A, Z; nêu giả thiết của công thức bán kính gần đúng.
+				159 container
+					160 text B21  · PDF & Phiếu học tập
+				161 text OpenStax · Cấu trúc hạt nhân và đồng vị
+				162 text Đọc kí hiệu A, Z, N và mô hình bán kính. Viết bằng tiếng Việt cách xác định N khi biết A, Z; nêu giả thiết của công thức bán kính gần đúng.
+			163 checkbox Description: Lưu OpenStax · Cấu trúc hạt nhân và đồng vị, Value: 0
+			164 button (collapsed) Secondary Actions: Expand, B21 ·PDF & Phiếu học tập B21 · Kiến thức và phiếu học tập ba giai đoạn Giải thích kết luận từ tán xạ α; Xác định Z, N, A và đồng vị; Ước lượng kích thước hạt nhân. Có phần ghi dự đoán, quan sát, tự đánh giá và câu hỏi chẩn đoán.
+				165 container
+					166 text B21  · PDF & Phiếu học tập
+				167 text B21 · Kiến thức và phiếu học tập ba giai đoạn
+				168 text Giải thích kết luận từ tán xạ α; Xác định Z, N, A và đồng vị; Ước lượng kích thước hạt nhân. Có phần ghi dự đoán, quan sát, tự đánh giá và câu hỏi chẩn đoán.
+			169 checkbox Description: Lưu B21 · Kiến thức và phiếu học tập ba giai đoạn, Value: 0
+			170 button (collapsed) Secondary Actions: Expand, B21 ·Ảnh & Sơ đồ B21 · Infographic tương tác Chọn các điểm trên hình để xem giải thích và trả lời câu hỏi. Có thể tải hình để trình chiếu.
+				171 container
+					172 text B21  · Ảnh & Sơ đồ
+				173 text B21 · Infographic tương tác
+				174 text Chọn các điểm trên hình để xem giải thích và trả lời câu hỏi. Có thể tải hình để trình chiếu.
+			175 checkbox Description: Lưu B21 · Infographic tương tác, Value: 0
+			176 button (collapsed) Secondary Actions: Expand, B21 ·Minh họa động B21 · Minh họa động quá trình Quan sát sự thay đổi trên sơ đồ động rồi đối chiếu với thí nghiệm 3D. Kích thước và thời gian quy ước.
+				177 container
+					178 text B21  · Minh họa động
+				179 text B21 · Minh họa động quá trình
+				180 text Quan sát sự thay đổi trên sơ đồ động rồi đối chiếu với thí nghiệm 3D. Kích thước và thời gian quy ước.
+			181 checkbox Description: Lưu B21 · Minh họa động quá trình, Value: 0
+			182 button (collapsed) Secondary Actions: Expand, B21 ·Video bài giảng B21 · Khan Academy - Nuclear stability and nuclear equations Ghi lại cách đọc kí hiệu hạt nhân và quy tắc bảo toàn A, Z. Video tiếng Anh; dùng hướng dẫn tiếng Việt này để tự ghi chú.
+				183 container
+					184 text B21  · Video bài giảng
+				185 text B21 · Khan Academy - Nuclear stability and nuclear equations
+				186 text Ghi lại cách đọc kí hiệu hạt nhân và quy tắc bảo toàn A, Z. Video tiếng Anh; dùng hướng dẫn tiếng Việt này để tự ghi chú.
+			187 checkbox Description: Lưu B21 · Khan Academy - Nuclear stability and nuclear equations, Value: 0
+			188 button (collapsed) Secondary Actions: Expand, B21 ·Câu hỏi & Hoạt động nhóm B21 · Câu hỏi chẩn đoán có phản hồi Ba câu kiểm tra kiến thức; chọn đáp án, kiểm tra và đọc lời giải. Kết quả tự luyện không phải điểm lớp học.
+				189 container
+					190 text B21  · Câu hỏi & Hoạt động nhóm
+				191 text B21 · Câu hỏi chẩn đoán có phản hồi
+				192 text Ba câu kiểm tra kiến thức; chọn đáp án, kiểm tra và đọc lời giải. Kết quả tự luyện không phải điểm lớp học.
+			193 checkbox Description: Lưu B21 · Câu hỏi chẩn đoán có phản hồi, Value: 0
+			194 button (collapsed) Secondary Actions: Expand, B21 ·Video bài giảng B21 · YouTube: Rutherford’s gold foil experiment Dừng ở hình đường đi của hạt α. Vì sao phần lớn đi thẳng, còn một số rất ít lệch mạnh? Vẽ hai đường đi và ghi kết luận bằng tiếng Việt.
+				195 container
+					196 text B21  · Video bài giảng
+				197 text B21 · YouTube: Rutherford’s gold foil experiment
+				198 text Dừng ở hình đường đi của hạt α. Vì sao phần lớn đi thẳng, còn một số rất ít lệch mạnh? Vẽ hai đường đi và ghi kết luận bằng tiếng Việt.
+			199 checkbox Description: Lưu B21 · YouTube: Rutherford’s gold foil experiment, Value: 0
+			200 button (collapsed) Secondary Actions: Expand, B21 ·Thí nghiệm 3D Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford Quan sát mô hình 3D chùm hạt alpha bắn qua lá vàng siêu mỏng. Rút ra sự tồn tại của hạt nhân mang điện dương và kích thước nguyên tử rỗng.
+				201 container
+					202 text B21  · Thí nghiệm 3D
+				203 text Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford
+				204 text Quan sát mô hình 3D chùm hạt alpha bắn qua lá vàng siêu mỏng. Rút ra sự tồn tại của hạt nhân mang điện dương và kích thước nguyên tử rỗng.
+			205 checkbox Description: Lưu Mô phỏng: Thí nghiệm tán xạ hạt alpha Rutherford, Value: 0
+			206 button (expanded) Secondary Actions: Collapse, B21 ·Thí nghiệm 3D Mô phỏng: Cấu tạo hạt nhân nguyên tử (Proton & Neutron) Điều chỉnh số proton và neutron để cấu tạo nên hạt nhân nguyên tử, xác định điện tích Z và số khối A.
+				207 container
+					208 text B21  · Thí nghiệm 3D
+				209 text Mô phỏng: Cấu tạo hạt nhân nguyên tử (Proton & Neutron)
+				210 text Điều chỉnh số proton và neutron để cấu tạo nên hạt nhân nguyên tử, xác định điện tích Z và số khối A.
+			211 checkbox Description: Lưu Mô phỏng: Cấu tạo hạt nhân nguyên tử (Proton & Neutron), Value: 0
+			212 container resource-system-sim-nuclear-builder
+				213 container Thí nghiệm 3D tương tác
+					214 text Không gian thí nghiệm 3D
+					215 container
+						216 text Đã tạm dừng  · 0.3  s mô hình
+					217 image Không gian thí nghiệm 3D. Kéo để xoay, cuộn để phóng to; dùng nút góc nhìn nếu thao tác bằng bàn phím.
+					218 container Chú giải số trong cảnh 3D
+						219 text Chú giải số trong cảnh
+						220 content list
+							221 text Z = 6 · N = 6 · A = 12
+					222 button Tiếp tục
+					223 button Đặt lại thí nghiệm
+					224 container
+						225 text Tốc độ
+						226 pop up button (collapsed, settable) Tốc độ, Value: 1×, Secondary Actions: Expand
+							227 menu
+								228 0,5×
+								229 (selected) 1×
+								230 2×
+					231 button Về toàn cảnh
+					232 container Chọn góc nhìn
+						233 checkbox Phối cảnh, Value: 1
+						234 checkbox Phía trước, Value: 0
+						235 checkbox Từ trên, Value: 0
+						236 checkbox Bên cạnh, Value: 0
+					237 container
+						238 text Số proton Z :  6
+						239 slider (settable, integer) Số proton Z: 6, Value: 6
+					240 container
+						241 text Điều kiện thí nghiệm
+						242 pop up button (collapsed, settable) Điều kiện thí nghiệm, Value: N = Z, Secondary Actions: Expand
+							243 menu
+								244 (selected) N = Z
+								245 N = Z + 2
+								246 N = Z + 4
+					247 container
+						248 text Kéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. Đỏ: proton; xanh: neutron. Thay đổi Z và N để xây dựng hạt nhân; A = Z + N.  Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới.
+				249 heading Bảng thao tác, số liệu và câu hỏi, Value: 4
+					250 text Bảng thao tác, số liệu và câu hỏi
+				251 text Tham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.
+				252 text Thay đổi số proton (Z) và neutron (N) để tạo cấu hình hạt nhân, rồi đọc kí hiệu tương ứng.
+				253 text 🧱 Chu trình khám phá:
+				254 content list
+					255 container
+						256 text Dự đoán:  Silicon-28 có bao nhiêu proton và neutron?
+					257 container
+						258 text Thử:  Nhấn nút Si-28 rồi đọc Z, N, A.
+					259 container
+						260 text Quan sát:  Đổi Z hoặc N — nguyên tố và kí hiệu thay đổi ra sao?
+					261 container
+						262 text Giải thích:  Trả lời câu hỏi bên dưới.
+				263 container
+					264 text Số proton Z 6
+					265 slider (settable, integer) Số proton Z6, Value: 6
+				266 container
+					267 text Số neutron N 6
+					268 slider (settable, integer) Số neutron N6, Value: 6
+				269 button Si-28 (SGK)
+				270 button He-4
+				271 button C-12
+				272 container Description: Mô hình hạt nhân gồm 6 proton và 6 neutron. Hình không theo tỉ lệ thực., Help: Cấu tạo hạt nhân
+				273 container C, số khối 12, số proton 6
+					274 text 12
+					275 text 6
+					276 text C
+				277 container
+					278 text A = Z + N =  6  +  6  =  12
+				279 container
+					280 text Điện tích hạt nhân: + 6 e
+				281 text Proton mang điện +e · Neutron không mang điện
+				282 container
+					283 text Nguyên tố:  C  (Z =  6 )
+				284 definition list
+					285 container PROTON Z
+						286 text PROTON Z
+					287 text 6
+					288 container NEUTRON N
+						289 text NEUTRON N
+					290 text 6
+					291 container NUCLEON A
+						292 text NUCLEON A
+					293 text 12
+				294 text Tiêu chí hoàn thành:
+				295 content list
+					296 text Chọn Si-28 (Z = 14, N = 14)
+					297 text Thử đổi Z hoặc N để quan sát sự thay đổi
+					298 text Trả lời câu hỏi giải thích
+				299 container Nếu giữ Z và thêm một neutron, đại lượng nào thay đổi?
+					300 text Nếu giữ Z và thêm một neutron, đại lượng nào thay đổi?
+					301 container
+						302 radio button (settable, integer) Description: Số khối A tăng 1, nguyên tố giữ nguyên., Value: 0
+						303 text Số khối A tăng 1, nguyên tố giữ nguyên.
+					304 container
+						305 radio button (settable, integer) Description: Điện tích hạt nhân tăng thêm e., Value: 0
+						306 text Điện tích hạt nhân tăng thêm e.
+					307 container
+						308 radio button (settable, integer) Description: Nguyên tố đổi vì Z tăng., Value: 0
+						309 text Nguyên tố đổi vì Z tăng.
+				310 text Chưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.
+				311 button (disabled) Kiểm tra nhận định
+				312 text Đây là bộ dựng thành phần: cặp Z, N tuỳ chọn trong bộ dựng chưa chắc tồn tại hoặc bền trong tự nhiên. Hình biểu diễn các nucleon, không phải quỹ đạo thực.
+				313 link Description: Hỏi AI về bài B21 ↗, Value: localhost:3001/hoc-lieu/ai?bai=B21
+				314 text Ghi câu hỏi và cách làm trước khi trao đổi.
+				315 link Description: Đưa học liệu này vào kế hoạch riêng, Value: localhost:3001/hoc-lieu/soan-ke-hoach?material=system-sim-nuclear-builder
+				316 link Description: Liên kết mở học liệu này, Value: localhost:3001/hoc-lieu?bai=B21&resource=system-sim-nuclear-builder#resource-system-sim-nuclear-builder
+			317 button (collapsed) Secondary Actions: Expand, B21 ·Thí nghiệm 3D Mô phỏng: Đồng vị và kích thước hạt nhân Khảo sát các đồng vị Cacbon (C-12, C-13, C-14) và Uranium (U-235, U-238). Tính bán kính gần đúng R = 1,2.10^-15 A^(1/3) m.
+				318 container
+					319 text B21  · Thí nghiệm 3D
+				320 text Mô phỏng: Đồng vị và kích thước hạt nhân
+				321 text Khảo sát các đồng vị Cacbon (C-12, C-13, C-14) và Uranium (U-235, U-238). Tính bán kính gần đúng R = 1,2.10^-15 A^(1/3) m.
+			322 checkbox Description: Lưu Mô phỏng: Đồng vị và kích thước hạt nhân, Value: 0
+			323 button (collapsed) Secondary Actions: Expand, B21 ·Ảnh & Sơ đồ Sơ đồ nguyên lí: Thiết bị thí nghiệm tán xạ Rutherford Ảnh tĩnh cấu tạo buồng chân không, nguồn phóng xạ alpha, lá vàng và kính hiển vi huỳnh quang phát hiện vết sáng.
+				324 container
+					325 text B21  · Ảnh & Sơ đồ
+				326 text Sơ đồ nguyên lí: Thiết bị thí nghiệm tán xạ Rutherford
+				327 text Ảnh tĩnh cấu tạo buồng chân không, nguồn phóng xạ alpha, lá vàng và kính hiển vi huỳnh quang phát hiện vết sáng.
+			328 checkbox Description: Lưu Sơ đồ nguyên lí: Thiết bị thí nghiệm tán xạ Rutherford, Value: 0
+			329 button (collapsed) Secondary Actions: Expand, Chủ đề hạt nhân ·PDF & Phiếu học tập Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân Bản trích trang in 90–122 từ tệp SGK người dùng cung cấp; gồm B21–B25, lí thuyết, câu hỏi và bảng số liệu.
+				330 container
+					331 text Chủ đề hạt nhân  · PDF & Phiếu học tập
+				332 text Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân
+				333 text Bản trích trang in 90–122 từ tệp SGK người dùng cung cấp; gồm B21–B25, lí thuyết, câu hỏi và bảng số liệu.
+			334 checkbox Description: Lưu Tài liệu học tập: SGK Vật lí 12 KNTT — Chương IV Vật lí hạt nhân, Value: 0
+			335 button (collapsed) Secondary Actions: Expand, B21 ·PDF & Phiếu học tập Phiếu hướng dẫn tự học: Bài 21 — Cấu trúc hạt nhân Phiếu học tập tự học tại nhà gồm mục tiêu, nhiệm vụ ba giai đoạn và 3 câu hỏi tự chẩn đoán có phản hồi tức thì.
+				336 container
+					337 text B21  · PDF & Phiếu học tập
+				338 text Phiếu hướng dẫn tự học: Bài 21 — Cấu trúc hạt nhân
+				339 text Phiếu học tập tự học tại nhà gồm mục tiêu, nhiệm vụ ba giai đoạn và 3 câu hỏi tự chẩn đoán có phản hồi tức thì.
+			340 checkbox Description: Lưu Phiếu hướng dẫn tự học: Bài 21 — Cấu trúc hạt nhân, Value: 0
+	341 container AI hỗ trợ học tập
+		342 button (collapsed) Description: Mở khung AI học tập, Secondary Actions: Expand
+
+The focused UI element is 222 button Tiếp tục

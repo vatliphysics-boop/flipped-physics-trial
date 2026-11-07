@@ -1,0 +1,21 @@
+Browser tab: 3, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/register".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/register
+	5 heading Đăng ký tài khoản, Value: 1
+		6 text Đăng ký tài khoản
+	7 text Tạo không gian làm việc mới
+	8 container
+		9 text Giáo viên Học sinh Họ và tên
+		10 text field (settable) Họ và tên, ID: full_name
+		11 text Email
+		12 text field (settable) Email
+		13 text Mật khẩu
+		14 text field (settable) Mật khẩu
+		15 text Xác nhận mật khẩu
+		16 text field (settable) Xác nhận mật khẩu
+		17 button Tạo tài khoản
+	18 container
+		19 text Đã có tài khoản? 
+		20 link Description: Đăng nhập, Value: localhost:3001/login
+	21 link Description: ← Quay lại trang chủ, Value: localhost:3001/
+
+The focused UI element is 10 text field (settable) Họ và tên, ID: full_name

@@ -1,0 +1,191 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - link "Đi đến nội dung chính" [ref=f1e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - button "Mở menu" [ref=f1e245] [cursor=pointer]:
+          - generic [ref=f1e246]: ☰
+        - link "Học liệu Vật lí 12" [ref=f1e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=f1e10] [cursor=pointer]:
+        - /url: /login
+    - main [ref=f1e37]:
+      - generic [ref=f1e262]:
+        - generic [ref=f1e263]:
+          - generic [ref=f1e264]:
+            - paragraph [ref=f1e265]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=f1e266]
+            - paragraph [ref=f1e267]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=f1e268]:
+            - button "Chế độ trình chiếu" [ref=f1e269] [cursor=pointer]
+            - link "Toàn bộ kho học liệu" [ref=f1e270] [cursor=pointer]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=f1e271]:
+          - link "B21 Cấu trúc hạt nhân" [ref=f1e272] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=f1e273]: B21
+            - strong [ref=f1e274]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=f1e275] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=f1e276]: B22
+            - strong [ref=f1e277]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=f1e278] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=f1e279]: B23
+            - strong [ref=f1e280]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=f1e281] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=f1e282]: B24
+            - strong [ref=f1e283]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=f1e284] [cursor=pointer]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=f1e285]: B25
+            - strong [ref=f1e286]: Thực hành bán rã
+        - generic [ref=f1e287]:
+          - generic [ref=f1e288]: B23
+          - generic [ref=f1e289]:
+            - heading "Hiện tượng phóng xạ" [level=2] [ref=f1e290]
+            - paragraph [ref=f1e291]: Nhận biết tính chất α, β, γ; giải thích tính ngẫu nhiên và đọc định luật phóng xạ.
+        - paragraph [ref=f1e292]:
+          - link "Hỏi AI về bài B23 ↗" [ref=f1e293] [cursor=pointer]:
+            - /url: /hoc-lieu/ai?bai=B23
+          - generic [ref=f1e294]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=f1e295]:
+          - button "01 Đọc hình Chạm để khám phá" [ref=f1e296] [cursor=pointer]:
+            - generic [ref=f1e297]: "01"
+            - strong [ref=f1e298]: Đọc hình
+            - generic [ref=f1e299]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [pressed] [ref=f1e300] [cursor=pointer]:
+            - generic [ref=f1e301]: "02"
+            - strong [ref=f1e302]: Thao tác 3D
+            - generic [ref=f1e303]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=f1e304] [cursor=pointer]:
+            - generic [ref=f1e305]: "03"
+            - strong [ref=f1e306]: Xem video
+            - generic [ref=f1e307]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=f1e308] [cursor=pointer]:
+            - generic [ref=f1e309]: "04"
+            - strong [ref=f1e310]: Ghi & giải thích
+            - generic [ref=f1e311]: Chuẩn bị cho giờ học
+        - generic [ref=f1e312]:
+          - generic [ref=f1e368]:
+            - region "Thí nghiệm 3D tương tác" [ref=f1e369]:
+              - generic [ref=f1e370]:
+                - strong [ref=f1e371]: Không gian thí nghiệm 3D
+                - status [ref=f1e372]: Sẵn sàng · 0.0 s mô hình
+              - generic [ref=f1e374]:
+                - paragraph [ref=f1e375]: Nhấn bắt đầu để mở thiết bị và quan sát trong không gian 3D.
+                - button "Bắt đầu thí nghiệm 3D" [ref=f1e376] [cursor=pointer]
+              - generic [ref=f1e377]:
+                - button "Tiếp tục" [disabled] [ref=f1e378] [cursor=pointer]
+                - button "Đặt lại thí nghiệm" [ref=f1e379] [cursor=pointer]
+                - generic [ref=f1e380]:
+                  - text: Tốc độ
+                  - combobox "Tốc độ" [ref=f1e381]:
+                    - option "0,5×"
+                    - option "1×" [selected]
+                    - option "2×"
+              - generic "Chọn góc nhìn" [ref=f1e382]:
+                - button "Phối cảnh" [pressed] [ref=f1e383] [cursor=pointer]
+                - button "Phía trước" [ref=f1e384] [cursor=pointer]
+                - button "Từ trên" [ref=f1e385] [cursor=pointer]
+                - button "Bên cạnh" [ref=f1e386] [cursor=pointer]
+              - generic [ref=f1e387]:
+                - generic [ref=f1e388]:
+                  - text: "Bề dày tấm chắn (tương đối):"
+                  - strong [ref=f1e389]: "4"
+                - 'slider "Bề dày tấm chắn (tương đối): 4" [ref=f1e390] [cursor=pointer]': "4"
+              - generic [ref=f1e391]:
+                - text: Điều kiện thí nghiệm
+                - combobox "Điều kiện thí nghiệm" [ref=f1e392]:
+                  - option "α · chắn giấy" [selected]
+                  - option "β⁻ · chắn nhôm"
+                  - option "γ · chắn chì"
+              - paragraph [ref=f1e393]: "Kéo chuột/một ngón tay để xoay; cuộn chuột/chụm hai ngón để thu phóng. α: cụm 2p + 2n; β⁻: electron; γ: photon. Vật liệu chắn và đường đi là sơ đồ định tính; γ bị suy giảm, không dừng tuyệt đối. Kích thước, màu và thời gian được quy ước để quan sát. Các cảnh phát hạt/phản ứng lặp lại từng lượt; cảnh bán rã dừng ở 3T và cần đặt lại để chạy lần mới."
+            - heading "Bảng thao tác, số liệu và câu hỏi" [level=4] [ref=f1e394]
+            - paragraph [ref=f1e395]: Tham số của bảng dưới được điều chỉnh riêng để so sánh định lượng. Quan sát 3D rồi thực hiện các nhiệm vụ và kiểm tra nhận định để hoàn thành hoạt động.
+            - generic [ref=f1e396]:
+              - paragraph [ref=f1e397]: Khảo sát tính chất đâm xuyên và lệch hướng của tia α, β, γ trong điện trường và qua vật cản. Chọn loại tia để xem Hình 23.3 và 23.4 (SGK trang 105–106) tương tác.
+              - generic [ref=f1e398]:
+                - paragraph [ref=f1e399]:
+                  - strong [ref=f1e400]: "🔎 Chu trình khám phá:"
+                - list [ref=f1e401]:
+                  - listitem [ref=f1e402]:
+                    - strong [ref=f1e403]: "Chọn tia:"
+                    - text: Chuyển qua ít nhất 3 loại tia khác nhau.
+                  - listitem [ref=f1e404]:
+                    - strong [ref=f1e405]: "So sánh:"
+                    - text: Quan sát hướng lệch trong điện trường và khả năng đâm xuyên.
+                  - listitem [ref=f1e406]:
+                    - strong [ref=f1e407]: "Giải thích:"
+                    - text: Trả lời câu hỏi kiểm tra.
+              - generic [ref=f1e408]:
+                - button "Tia α ✓" [ref=f1e409] [cursor=pointer]
+                - button "Tia β⁻" [ref=f1e410] [cursor=pointer]
+                - button "Tia β⁺" [ref=f1e411] [cursor=pointer]
+                - button "Tia γ" [ref=f1e412] [cursor=pointer]
+              - generic [ref=f1e413]:
+                - generic [ref=f1e414]:
+                  - paragraph [ref=f1e415]: "Trong điện trường (Hình 23.3a SGK):"
+                  - img "Tia phóng xạ trong điện trường" [ref=f1e416]:
+                    - generic [ref=f1e418]: Cực + (dương)
+                    - generic [ref=f1e420]: Cực − (âm)
+                    - generic [ref=f1e422]: Tia α
+                  - paragraph [ref=f1e424]:
+                    - text: "Hướng lệch:"
+                    - strong [ref=f1e425]: Lệch về cực âm (bị hút bởi cực −)
+                - generic [ref=f1e426]:
+                  - paragraph [ref=f1e427]: "Qua vật cản (Hình 23.4 SGK):"
+                  - img "Khả năng đâm xuyên" [ref=f1e428]:
+                    - generic [ref=f1e430]: Giấy
+                    - generic [ref=f1e432]: Nhôm
+                    - generic [ref=f1e434]: Chì
+                    - generic [ref=f1e435]: ✗
+                    - generic [ref=f1e436]: Tia α
+                  - paragraph [ref=f1e437]:
+                    - text: "Bị chặn bởi:"
+                    - strong [ref=f1e438]: Tờ giấy hoặc da người
+              - generic [ref=f1e439]:
+                - paragraph [ref=f1e440]: Tia α
+                - paragraph [ref=f1e441]:
+                  - text: "Bản chất:"
+                  - strong [ref=f1e442]: Hạt nhân ⁴He
+                  - text: "| Điện tích:"
+                  - strong [ref=f1e443]: +2e
+                - paragraph [ref=f1e444]:
+                  - text: "Khả năng đâm xuyên:"
+                  - strong [ref=f1e445]: Vài cm trong không khí
+              - generic [ref=f1e446]:
+                - paragraph [ref=f1e447]:
+                  - strong [ref=f1e448]: "Tiêu chí hoàn thành:"
+                - list [ref=f1e449]:
+                  - listitem [ref=f1e450]: Xem ít nhất 3 loại tia (1/3)
+                  - listitem [ref=f1e451]: Trả lời câu hỏi kiểm tra
+              - generic [ref=f1e453]:
+                - group "Trong điện trường (Hình 23.3a SGK), tia nào bị lệch về phía cực DƯƠNG?" [ref=f1e454]:
+                  - generic [ref=f1e456]:
+                    - generic [ref=f1e457] [cursor=pointer]:
+                      - radio "Tia alpha (α)" [ref=f1e458]
+                      - generic [ref=f1e459]: Tia alpha (α)
+                    - generic [ref=f1e460] [cursor=pointer]:
+                      - radio "Tia beta trừ (β⁻)" [ref=f1e461]
+                      - generic [ref=f1e462]: Tia beta trừ (β⁻)
+                    - generic [ref=f1e463] [cursor=pointer]:
+                      - radio "Tia gamma (γ)" [ref=f1e464]
+                      - generic [ref=f1e465]: Tia gamma (γ)
+                - button "Kiểm tra nhận định" [disabled] [ref=f1e466] [cursor=pointer]
+              - paragraph [ref=f1e467]: Đây là mô hình giáo dục. Không thao tác với nguồn phóng xạ thật. Khả năng đâm xuyên và độ lệch chỉ mang tính định tính.
+          - generic [ref=f1e358]:
+            - generic [ref=f1e359]: Dự đoán rồi kiểm tra
+            - 'button "Tiếp: Xem video" [active] [ref=f1e468] [cursor=pointer]'
+        - group [ref=f1e361]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=f1e362] [cursor=pointer]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=f1e363]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=f1e364]:
+          - generic "Nguồn học liệu" [ref=f1e365] [cursor=pointer]
+    - complementary "AI hỗ trợ học tập" [ref=f1e366]:
+      - button "Mở khung AI học tập" [ref=f1e367] [cursor=pointer]: AI
+  - button "Open Next.js Dev Tools" [ref=f1e148] [cursor=pointer]
+  - alert [ref=f1e152]: Học liệu Vật lí hạt nhân

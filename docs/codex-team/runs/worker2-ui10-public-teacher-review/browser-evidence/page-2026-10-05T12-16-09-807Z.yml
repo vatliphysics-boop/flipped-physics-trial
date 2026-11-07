@@ -1,0 +1,195 @@
+- generic [ref=f19e1]:
+  - generic [ref=f19e2]:
+    - link "Đi đến nội dung chính" [ref=f19e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f19e4]:
+      - generic [ref=f19e5]:
+        - button "Mở menu" [ref=f19e6] [cursor=pointer]:
+          - generic [ref=f19e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f19e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f19e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f19e12]:
+      - generic [ref=f19e14]:
+        - paragraph [ref=f19e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f19e16]
+        - paragraph [ref=f19e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f19e18]:
+        - group "Công việc của giáo viên" [ref=f19e19]:
+          - button "Ngân hàng đề" [pressed] [ref=f19e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f19e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f19e22] [cursor=pointer]
+        - generic [ref=f19e24]:
+          - heading "Ngân hàng đề Chương 4 Vật lí hạt nhân" [level=2] [ref=f19e25]
+          - paragraph [ref=f19e26]: Câu hỏi được biên soạn từ ba sách đã cung cấp, giữ yêu cầu và dữ kiện của bài gốc. Nhãn Bloom thể hiện thao tác nhận thức cần thực hiện. Các câu hỏi dùng chung một ngân hàng. Nội dung dạng chữ, công thức LaTeX. Khi xuất Word, công thức chuyển thành Equation có thể chỉnh sửa.
+          - navigation "Năm mục ngân hàng đề" [ref=f19e27]:
+            - button "Ngân hàng đề trắc nghiệm" [ref=f19e28] [cursor=pointer]
+            - button "Ngân hàng đề đúng sai" [ref=f19e29] [cursor=pointer]
+            - button "Ngân hàng đề trả lời ngắn" [ref=f19e30] [cursor=pointer]
+            - button "Ngân hàng đề tự luận" [ref=f19e31] [cursor=pointer]
+            - button "Up ma trận đề và xuất ra đề file Word" [active] [pressed] [ref=f19e32] [cursor=pointer]
+          - status
+          - generic [ref=f19e50]:
+            - heading "Tải ma trận và tạo đề Word" [level=3] [ref=f19e51]
+            - list [ref=f19e52]:
+              - listitem [ref=f19e53]: Nhập ma trận hoặc thêm bài và loại câu bên dưới.
+              - listitem [ref=f19e54]:
+                - text: Nhấn
+                - strong [ref=f19e55]: Chọn câu theo ma trận
+                - text: ", xem nội dung và đáp án."
+              - listitem [ref=f19e56]:
+                - text: Đánh dấu đã kiểm tra rồi nhấn
+                - strong [ref=f19e57]: Xuất đề file Word
+                - text: . Nếu tệp chưa tải xuống, dùng liên kết tải lại.
+            - paragraph [ref=f19e58]: "Hỗ trợ CSV, JSON và bảng trong DOCX hoặc XLSX. Ma trận cần năm cột: Bài/chủ đề, Loại câu, Mức độ, Số câu, Điểm mỗi câu. Chọn câu đã kiểm tra; hệ thống báo rõ khi ngân hàng chưa đủ."
+            - generic [ref=f19e59]:
+              - button "Tải mẫu ma trận" [ref=f19e60] [cursor=pointer]
+              - generic [ref=f19e61]:
+                - text: Up ma trận đề
+                - button "Up ma trận đề" [ref=f19e62]
+            - generic [ref=f19e63]:
+              - generic [ref=f19e64]:
+                - text: Tên đề
+                - textbox "Tên đề" [ref=f19e65]: Đề kiểm tra Chương 4 Vật lí hạt nhân
+              - generic [ref=f19e66]:
+                - text: Thời gian (phút)
+                - spinbutton "Thời gian (phút)" [ref=f19e67]: "45"
+              - generic [ref=f19e68]:
+                - text: Mã lần chọn câu
+                - textbox "Mã lần chọn câu" [ref=f19e69]: DE-01
+              - generic [ref=f19e70]:
+                - text: Số mã đề
+                - combobox "Số mã đề" [ref=f19e71]:
+                  - option "1" [selected]
+                  - option "2"
+                  - option "3"
+                  - option "4"
+            - generic [ref=f19e72]:
+              - paragraph [ref=f19e73]: Mỗi bài có bốn ô loại câu. Thêm các loại cần dùng; trong từng loại có thể thêm mức độ khác. Một bài có thể có cả trắc nghiệm và tự luận.
+              - region "Ma trận bài B21" [ref=f19e74]:
+                - generic [ref=f19e75]:
+                  - generic [ref=f19e76]:
+                    - heading "B21 · Cấu trúc hạt nhân" [level=4] [ref=f19e77]
+                    - generic [ref=f19e78]: 2 câu · 1 điểm
+                  - button "Bỏ bài B21" [ref=f19e79] [cursor=pointer]
+                - generic [ref=f19e80]:
+                  - article [ref=f19e81]:
+                    - heading "trắc nghiệm" [level=5] [ref=f19e82]
+                    - generic [ref=f19e83]:
+                      - generic [ref=f19e84]:
+                        - text: Mức độ
+                        - combobox "Mức độ B21 trắc nghiệm dòng 1" [ref=f19e85]:
+                          - option "Biết" [selected]
+                          - option "Hiểu"
+                          - option "Vận dụng"
+                      - generic [ref=f19e86]:
+                        - generic [ref=f19e87]:
+                          - text: Số câu
+                          - spinbutton "Số câu B21 trắc nghiệm dòng 1" [ref=f19e88]: "2"
+                        - generic [ref=f19e89]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B21 trắc nghiệm dòng 1" [ref=f19e90]: "0.5"
+                      - generic [ref=f19e91]: Ngân hàng có 4 câu phù hợp
+                      - button "Bỏ B21 trắc nghiệm dòng 1" [ref=f19e92] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f19e93] [cursor=pointer]
+                  - article [ref=f19e94]:
+                    - heading "đúng sai" [level=5] [ref=f19e95]
+                    - generic [ref=f19e96]: Mỗi câu gồm bốn ý a–d.
+                    - button "Thêm vào bài" [ref=f19e97] [cursor=pointer]
+                    - generic [ref=f19e98]: Chưa chọn loại này.
+                  - article [ref=f19e99]:
+                    - heading "trả lời ngắn" [level=5] [ref=f19e100]
+                    - button "Thêm vào bài" [ref=f19e101] [cursor=pointer]
+                    - generic [ref=f19e102]: Chưa chọn loại này.
+                  - article [ref=f19e103]:
+                    - heading "tự luận" [level=5] [ref=f19e104]
+                    - button "Thêm vào bài" [ref=f19e105] [cursor=pointer]
+                    - generic [ref=f19e106]: Chưa chọn loại này.
+              - region "Ma trận bài B23" [ref=f19e107]:
+                - generic [ref=f19e108]:
+                  - generic [ref=f19e109]:
+                    - heading "B23 · Phóng xạ" [level=4] [ref=f19e110]
+                    - generic [ref=f19e111]: 4 câu · 9 điểm
+                  - button "Bỏ bài B23" [ref=f19e112] [cursor=pointer]
+                - generic [ref=f19e113]:
+                  - article [ref=f19e114]:
+                    - heading "trắc nghiệm" [level=5] [ref=f19e115]
+                    - button "Thêm vào bài" [ref=f19e116] [cursor=pointer]
+                    - generic [ref=f19e117]: Chưa chọn loại này.
+                  - article [ref=f19e118]:
+                    - heading "đúng sai" [level=5] [ref=f19e119]
+                    - generic [ref=f19e120]: Mỗi câu gồm bốn ý a–d.
+                    - generic [ref=f19e121]:
+                      - generic [ref=f19e122]:
+                        - text: Mức độ
+                        - combobox "Mức độ B23 đúng sai dòng 2" [ref=f19e123]:
+                          - option "Biết"
+                          - option "Hiểu" [selected]
+                          - option "Vận dụng"
+                      - generic [ref=f19e124]:
+                        - generic [ref=f19e125]:
+                          - text: Số câu
+                          - spinbutton "Số câu B23 đúng sai dòng 2" [ref=f19e126]: "1"
+                        - generic [ref=f19e127]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B23 đúng sai dòng 2" [ref=f19e128]: "2"
+                      - generic [ref=f19e129]: Ngân hàng có 2 câu phù hợp
+                      - button "Bỏ B23 đúng sai dòng 2" [ref=f19e130] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f19e131] [cursor=pointer]
+                  - article [ref=f19e132]:
+                    - heading "trả lời ngắn" [level=5] [ref=f19e133]
+                    - generic [ref=f19e134]:
+                      - generic [ref=f19e135]:
+                        - text: Mức độ
+                        - combobox "Mức độ B23 trả lời ngắn dòng 3" [ref=f19e136]:
+                          - option "Biết"
+                          - option "Hiểu"
+                          - option "Vận dụng" [selected]
+                      - generic [ref=f19e137]:
+                        - generic [ref=f19e138]:
+                          - text: Số câu
+                          - spinbutton "Số câu B23 trả lời ngắn dòng 3" [ref=f19e139]: "2"
+                        - generic [ref=f19e140]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B23 trả lời ngắn dòng 3" [ref=f19e141]: "1"
+                      - generic [ref=f19e142]: Ngân hàng có 9 câu phù hợp
+                      - button "Bỏ B23 trả lời ngắn dòng 3" [ref=f19e143] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f19e144] [cursor=pointer]
+                  - article [ref=f19e145]:
+                    - heading "tự luận" [level=5] [ref=f19e146]
+                    - generic [ref=f19e147]:
+                      - generic [ref=f19e148]:
+                        - text: Mức độ
+                        - combobox "Mức độ B23 tự luận dòng 4" [ref=f19e149]:
+                          - option "Biết"
+                          - option "Hiểu"
+                          - option "Vận dụng" [selected]
+                      - generic [ref=f19e150]:
+                        - generic [ref=f19e151]:
+                          - text: Số câu
+                          - spinbutton "Số câu B23 tự luận dòng 4" [ref=f19e152]: "1"
+                        - generic [ref=f19e153]:
+                          - text: Điểm/câu
+                          - spinbutton "Điểm/câu B23 tự luận dòng 4" [ref=f19e154]: "5"
+                      - generic [ref=f19e155]: Ngân hàng có 20 câu phù hợp
+                      - button "Bỏ B23 tự luận dòng 4" [ref=f19e156] [cursor=pointer]: Bỏ dòng này
+                    - button "Thêm mức độ" [ref=f19e157] [cursor=pointer]
+              - generic [ref=f19e158]:
+                - generic [ref=f19e159]:
+                  - text: Thêm bài vào đề
+                  - combobox "Thêm bài vào đề" [ref=f19e160]:
+                    - option "B22 · Phản ứng hạt nhân và năng lượng liên kết" [selected]
+                    - option "B24 · Công nghiệp hạt nhân"
+                    - option "B25 · Bài tập về vật lí hạt nhân"
+                - button "Thêm bài" [ref=f19e161] [cursor=pointer]
+            - paragraph [ref=f19e162]: 6 câu · Tổng 10 điểm
+            - group [ref=f19e163]:
+              - generic "Yêu cầu cần đạt và bản đặc tả" [ref=f19e164]
+            - generic [ref=f19e165]:
+              - heading "Phân bố điểm" [level=3] [ref=f19e166]
+              - paragraph [ref=f19e167]: "trắc nghiệm: 10% · đúng sai: 20% · trả lời ngắn: 20% · tự luận: 50%"
+              - paragraph [ref=f19e168]: "Biết: 10% · Hiểu: 20% · Vận dụng: 70%"
+              - paragraph [ref=f19e169]: "Phụ lục Công văn 7991 có mẫu tham khảo: loại câu 30–20–20–30%, mức độ Biết–Hiểu–Vận dụng 40–30–30%. Phân bố hiện tại được ghi ở trên để giáo viên đối chiếu với kế hoạch kiểm tra của trường."
+            - button "Chọn câu theo ma trận" [ref=f19e170] [cursor=pointer]
+  - alert [ref=f19e49]

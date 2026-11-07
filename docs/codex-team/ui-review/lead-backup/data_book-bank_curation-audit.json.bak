@@ -1,0 +1,9 @@
+{
+  "published": 213,
+  "sourceTasks": 232,
+  "checkedSourceTasks": 208,
+  "pending": 24,
+  "trueFalseQuestions": 12,
+  "trueFalsePendingStatements": 6,
+  "policy": "Only visually transcribed source questions; true/false questions have exactly four source statements, grouped within the same topic. Unpaired statements remain private."
+}

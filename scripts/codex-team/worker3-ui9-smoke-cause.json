@@ -1,0 +1,15 @@
+{
+  "mode": "review",
+  "timeout_seconds": 480,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [],
+  "context_files": [
+    "docs/codex-team/CHECKPOINT.md",
+    "docs/codex-team/USER_GUIDE.md",
+    "docs/codex-team/curriculum-matrix.md"
+  ],
+  "id": "worker3-ui9-smoke-cause",
+  "worker": 3,
+  "task": "Smoke/read-only và tìm nguyên nhân UI-0001 B25: /hoc-lieu/truc-quan?bai=B25 Đọc hình, số1 che tiêu đề Dữ liệu kì vọng. Chưa sửa mã trong job này. Chụp/xem ảnh1440x900,1280x720,768x1024,390x844,360x800; ít nhấtảnh before1440/390, có thời điểm/route/state. Kiểm tra pin của B21–B25 cùng cơ chế, chọn mẫu pin lên heading/formula/table/graph. Thử zoom hình/thu gọn và keyboard; thử browserzoom nếu MCP có cơ chế hợp lệ, không gọi evaluate thay đổi DOM để giả zoom. Đọc InteractiveInfographic.tsx, CSS và coordinates src/lib/visual-learning.ts, SVG; đọc Next guide trước đề xuất. Báo rootcause thực tế và phương án chung, file cần sửa CHÍNH XÁC, không tự đổi khoa học/coordinates trước thống nhất. Nêu control click area44px, ảnh responsive giữ đọc nội dung, pins không chèn thành phần. Nếu không dùng browser được, ghi log/blocker và kịch bản để root thực hiện. Report nháp sau ca đầu/final trongTMP; không chạy quá480s, kết thúc sớm khi đủ5size và5hình. KhôngDOCX/DB/env."
+}

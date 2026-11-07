@@ -1,0 +1,45 @@
+{
+  "base": "http://127.0.0.1:3477",
+  "results": [
+    {
+      "width": 320,
+      "pass": true,
+      "counts": [
+        "6",
+        "6",
+        "12"
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "pass": true,
+      "counts": [
+        "6",
+        "6",
+        "12"
+      ],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "pass": true,
+      "counts": [
+        "6",
+        "6",
+        "12"
+      ],
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "pass": true,
+      "counts": [
+        "6",
+        "6",
+        "12"
+      ],
+      "errors": []
+    }
+  ]
+}

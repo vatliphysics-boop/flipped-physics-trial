@@ -1,0 +1,6 @@
+import type { NextConfig } from "next";
+const nextConfig: NextConfig = {
+  serverExternalPackages: ["pdf-parse"],
+  outputFileTracingExcludes: { "/*": ["./data/book-bank/**/*", "./output/book-bank/**/*"] },
+};
+export default nextConfig;

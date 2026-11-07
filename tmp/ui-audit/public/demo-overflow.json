@@ -1,0 +1,412 @@
+[
+  {
+    "tag": "SECTION",
+    "cls": "",
+    "text": "Hoạt động 1.1 · Phòng thí nghiệm 3D Tương tác Trực tiếp (Raycasting + Tham số động)\nThao tác trực tiếp với vật thể 3D & ",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.1 · Phòng thí nghiệm 3D Tương tác Trực tiếp (Raycasting + Tham số động)\nThao tác trực tiếp với vật thể 3D & ",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "flex",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.1 · Phòng thí nghiệm 3D Tương tác Trực tiếp (Raycasting + Tham số động)\nThao tác trực tiếp với vật thể 3D & ",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.1 · Phòng thí nghiệm 3D Tương tác Trực tiếp (Raycasting + Tham số động)",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "H2",
+    "cls": "",
+    "text": "Thao tác trực tiếp với vật thể 3D & Quan sát công thức LaTeX thời gian thực",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "3 Tia α, β, γ trong từ trường\nTán xạ alpha Rutherford\nPhân hạch dây chuyền U-235\nLò phản ứng & Thanh điều khiển\nLưới bán",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "flex",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Đang tải không gian 3D…\n\nMở phiếu bài tập và câu hỏi kiểm tra",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "interactive-experiment",
+    "text": "Đang tải không gian 3D…\n\nMở phiếu bài tập và câu hỏi kiểm tra",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "P",
+    "cls": "",
+    "text": "Đang tải không gian 3D…",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DETAILS",
+    "cls": "",
+    "text": "Mở phiếu bài tập và câu hỏi kiểm tra",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Mô phỏng bổ trợ · Biểu đồ định lượng chu kì bán rã\nKhảo sát chi tiết đường cong phân rã theo từng chu kì T\n𝑁\n(\n𝑡\n)\n=\n\ud835",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Mô phỏng bổ trợ · Biểu đồ định lượng chu kì bán rã",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "H3",
+    "cls": "",
+    "text": "Khảo sát chi tiết đường cong phân rã theo từng chu kì T",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "𝑁\n(\n𝑡\n)\n=\n𝑁\n0\n⋅\n2\n−\n𝑡\n𝑇\n=\n𝑁\n0\n⋅\n𝑒\n−\n𝜆\n𝑡\nN(t)=N\n0\n\t​\n\n⋅2\n−\nT\nt\n\t​\n\n=N\n0\n\t​\n\n⋅e\n−λt",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "SECTION",
+    "cls": "student-paper half-life-discovery",
+    "text": "B23 · CHUẨN BỊ TRƯỚC GIỜ HỌC\n\nDự đoán và khám phá chu kì bán rã\nTrước khi thao tác, ghi dự đoán: với cùng N₀, khi T tăng",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "SECTION",
+    "cls": "",
+    "text": "Hoạt động 1.2 · Infographic động 3D theo từng mục SGK\nHệ thống hóa kiến thức trực quan (B23)\nB21\nB22\nB23\nB24\nB25\n01\nMục ",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.2 · Infographic động 3D theo từng mục SGK\nHệ thống hóa kiến thức trực quan (B23)\nB21\nB22\nB23\nB24\nB25",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "flex",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.2 · Infographic động 3D theo từng mục SGK\nHệ thống hóa kiến thức trực quan (B23)",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.2 · Infographic động 3D theo từng mục SGK",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "H2",
+    "cls": "",
+    "text": "Hệ thống hóa kiến thức trực quan (B23)",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "B21\nB22\nB23\nB24\nB25",
+    "x": 24,
+    "width": 302.875,
+    "right": 326.875,
+    "display": "flex",
+    "overflow": "visible"
+  },
+  {
+    "tag": "BUTTON",
+    "cls": "",
+    "text": "B25",
+    "x": 270.453125,
+    "width": 56.421875,
+    "right": 326.875,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "01\nMục I\n(3)\n02\nMục II\n(3)\nXem toàn bộ 2 mục\nMỤC I\nSGK tr. 104–107\nHIỆN TƯỢNG PHÓNG XẠ & BẢN CHẤT CÁC TIA\n\nKhám phá Becq",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "flex",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "01\nMục I\n(3)\n02\nMục II\n(3)\nXem toàn bộ 2 mục",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "flex",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "MỤC I\nSGK tr. 104–107\nHIỆN TƯỢNG PHÓNG XẠ & BẢN CHẤT CÁC TIA\n\nKhám phá Becquerel – Curie, bản chất 3 tia phóng xạ, khả n",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "SECTION",
+    "cls": "",
+    "text": "Hoạt động 1.3 · Sơ đồ cấu trúc lịch sử vật lí hạt nhân\nCác nhà khoa học gắn với chương trình Vật lí 12 (B23)\nBÀI 23 · HI",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.3 · Sơ đồ cấu trúc lịch sử vật lí hạt nhân\nCác nhà khoa học gắn với chương trình Vật lí 12 (B23)",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.3 · Sơ đồ cấu trúc lịch sử vật lí hạt nhân",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "H2",
+    "cls": "",
+    "text": "Các nhà khoa học gắn với chương trình Vật lí 12 (B23)",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "SECTION",
+    "cls": "",
+    "text": "BÀI 23 · HIỆN TƯỢNG PHÓNG XẠ (SGK TR. 104–112)\nChọn bài SGK:\nB21\nB22\nB23\nB24\nB25\nCác nhà khoa học trong Bài 23: Henri Be",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "SECTION",
+    "cls": "",
+    "text": "Hoạt động 1.4 · Phiếu học tập số & Trắc nghiệm chẩn đoán nhanh\nKiểm tra mức độ hiểu bài trước giờ học (Phản hồi tức thời",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.4 · Phiếu học tập số & Trắc nghiệm chẩn đoán nhanh\nKiểm tra mức độ hiểu bài trước giờ học (Phản hồi tức thời",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Hoạt động 1.4 · Phiếu học tập số & Trắc nghiệm chẩn đoán nhanh",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "H2",
+    "cls": "",
+    "text": "Kiểm tra mức độ hiểu bài trước giờ học (Phản hồi tức thời)",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "P",
+    "cls": "",
+    "text": "Chọn phương án trả lời để xem giải thích tự động ngay lập tức.",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Câu 1: Khi đi qua vùng có từ trường đều vuông góc với phương truyền, tia phóng xạ nào hoàn toàn không bị lệch quỹ đạo?\n\ud835",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "grid",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Câu 1: Khi đi qua vùng có từ trường đều vuông góc với phương truyền, tia phóng xạ nào hoàn toàn không bị lệch quỹ đạo?\n\ud835",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Câu 2: Một mẫu đồng vị phóng xạ Iodine-131 có chu kì bán rã T = 8 ngày và số hạt ban đầu N₀ = 1600 hạt. Sau thời gian t ",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Câu 3: Ba nguyên tắc cơ bản trong an toàn bức xạ hạt nhân gồm những yếu tố nào?\n𝐼\n∝\n1\n𝑟\n2\nI∝\nr\n2\n1\n\t​\n\nA. Tăng nhiệt đ",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "DIV",
+    "cls": "",
+    "text": "Tiếp tục sang Giai đoạn 2: Trong giờ học →",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "block",
+    "overflow": "visible"
+  },
+  {
+    "tag": "BUTTON",
+    "cls": "",
+    "text": "Tiếp tục sang Giai đoạn 2: Trong giờ học →",
+    "x": 24,
+    "width": 308,
+    "right": 332,
+    "display": "inline-block",
+    "overflow": "visible"
+  }
+]

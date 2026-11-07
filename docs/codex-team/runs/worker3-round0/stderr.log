@@ -1,0 +1,1 @@
+2026-10-05T07:59:59.690524Z  WARN codex_sandboxing::violation: recorded sandbox violation: resource=filesystem backend=seatbelt reason=policy_denied path=unknown

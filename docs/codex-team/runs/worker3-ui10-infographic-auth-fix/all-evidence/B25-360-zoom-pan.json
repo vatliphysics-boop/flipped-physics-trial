@@ -1,0 +1,46 @@
+{
+  "url": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+  "time": "2026-10-05T12:09:40.527Z",
+  "viewport": [
+    360,
+    800
+  ],
+  "image": [
+    1200,
+    700
+  ],
+  "region": [
+    264,
+    518,
+    1200,
+    700,
+    40,
+    40
+  ],
+  "overlay": 0,
+  "buttons": [
+    {
+      "text": "1. Bảng số liệu",
+      "pressed": "false",
+      "controls": "_R_mrinebn5rlb_-explanation",
+      "width": 123,
+      "height": 44
+    },
+    {
+      "text": "2. Đọc đồ thị",
+      "pressed": "false",
+      "controls": "_R_mrinebn5rlb_-explanation",
+      "width": 123,
+      "height": 44
+    },
+    {
+      "text": "3. Phân biệt N và H",
+      "pressed": "true",
+      "controls": "_R_mrinebn5rlb_-explanation",
+      "width": 258,
+      "height": 44
+    }
+  ],
+  "explanation": "QUAN SÁT\n\nH = λN có cùng xu hướng giảm khi λ không đổi.\n\nGIẢI THÍCH\n\nN là số hạt chưa phân rã. H có đơn vị Bq = phân rã/s; số đếm trên thiết bị còn phụ thuộc hiệu suất và phông.",
+  "focus": "infographic-viewport is-zoomed"
+}

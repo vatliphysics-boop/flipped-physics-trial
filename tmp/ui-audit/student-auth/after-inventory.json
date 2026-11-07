@@ -1,0 +1,4450 @@
+[
+  {
+    "id": "student-overview",
+    "path": "/student",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student",
+    "title": "Tổng quan học tập",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Tổng quan học tập",
+      "Hiện tượng phóng xạ",
+      "Bài học đã giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Tiếp tục học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Xem tất cả →",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-classes",
+    "path": "/student/classes",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/classes",
+    "title": "Lớp học của em",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Lớp học của em",
+      "Tham gia lớp mới"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-curriculum",
+    "path": "/student/curriculum",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum",
+    "title": "Chương trình học",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Chương trình học",
+      "VẬT LÍ NHIỆT",
+      "KHÍ LÍ TƯỞNG",
+      "TỪ TRƯỜNG",
+      "VẬT LÍ HẠT NHÂN"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "01VẬT LÍ NHIỆT7 bài học→",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "02KHÍ LÍ TƯỞNG6 bài học→",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "03TỪ TRƯỜNG7 bài học→",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "04VẬT LÍ HẠT NHÂN5 bài học→",
+        "href": "/student/curriculum/IV"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-chapter",
+    "path": "/student/curriculum/IV",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum/IV",
+    "title": "VẬT LÍ HẠT NHÂN",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "VẬT LÍ HẠT NHÂN",
+      "Vật lí hạt nhân"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "21Cấu trúc hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "22Phản ứng hạt nhân và năng lượng liên kếtChưa bắt đầu→",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "23Hiện tượng phóng xạChưa bắt đầu→",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "24Công nghiệp hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "25Bài tập về vật lí hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-before",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao",
+      "Dự đoán và khám phá chu kì bán rã"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-during",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-after",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-assessment",
+    "path": "/student/assignments",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/assignments",
+    "title": "Bài tập và kiểm tra",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Bài tập và kiểm tra"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-journal",
+    "path": "/student/journal",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/journal",
+    "title": "Nhật kí học tập",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Nhật kí học tập",
+      "Hiện tượng phóng xạ",
+      "Bài tập về vật lí hạt nhân",
+      "Phản ứng hạt nhân và năng lượng liên kết",
+      "Cấu trúc hạt nhân",
+      "Công nghiệp hạt nhân",
+      "Hiện tượng phóng xạ"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-ai",
+    "path": "/student/ai?bai=B23",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/ai?bai=B23",
+    "title": "Giải thích và gợi ý học tập",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Giải thích và gợi ý học tập",
+      "AI hỗ trợ học tập"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "B21 · Cấu trúc hạt nhân",
+        "href": "?bai=B21"
+      },
+      {
+        "text": "B22 · Phản ứng hạt nhân và năng lượng liên kết",
+        "href": "?bai=B22"
+      },
+      {
+        "text": "B23 · Hiện tượng phóng xạ",
+        "href": "?bai=B23"
+      },
+      {
+        "text": "B24 · Công nghiệp hạt nhân",
+        "href": "?bai=B24"
+      },
+      {
+        "text": "B25 · Ôn tập và phân tích số liệu hạt nhân",
+        "href": "?bai=B25"
+      },
+      {
+        "text": "Mở học liệu B23 để kiểm tra",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "Mở Gemini ↗",
+        "href": "https://gemini.google.com/app"
+      },
+      {
+        "text": "Mở ChatGPT ↗",
+        "href": "https://chatgpt.com/"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-materials",
+    "path": "/student/materials",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/materials",
+    "title": "Kho học liệu của em",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Kho học liệu của em",
+      "Học liệu theo bài"
+    ],
+    "links": [
+      {
+        "text": "Học theo hình · 3D · Video",
+        "href": "/hoc-lieu/truc-quan"
+      },
+      {
+        "text": "Hình thức lớp học đảo ngược",
+        "href": "/hoc-lieu/lop-hoc-dao-nguoc"
+      },
+      {
+        "text": "Tất cả học liệu",
+        "href": "/student/materials"
+      },
+      {
+        "text": "Ảnh tĩnh & Sơ đồ",
+        "href": "/student/materials?type=image"
+      },
+      {
+        "text": "Ảnh động & Minh họa",
+        "href": "/student/materials?type=animation"
+      },
+      {
+        "text": "Video thực tế / Thí nghiệm",
+        "href": "/student/materials?type=real_video"
+      },
+      {
+        "text": "Video bài giảng",
+        "href": "/student/materials?type=lecture_video"
+      },
+      {
+        "text": "Thí nghiệm 3D tương tác",
+        "href": "/student/materials?type=simulation"
+      },
+      {
+        "text": "PDF / Phiếu học tập",
+        "href": "/student/materials?type=document"
+      },
+      {
+        "text": "Câu hỏi & Nhiệm vụ",
+        "href": "/student/materials?type=colab"
+      },
+      {
+        "text": "Đề giữa kỳ & Cuối kỳ",
+        "href": "/student/materials?type=assessment"
+      },
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở học liệu B22",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B21Cấu trúc hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B21"
+      },
+      {
+        "text": "B22Phản ứng hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B23Hiện tượng phóng xạHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "B24Công nghiệp hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B24"
+      },
+      {
+        "text": "B25Bài tập hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B25"
+      },
+      {
+        "text": "Soạn kế hoạch dạy học",
+        "href": "/hoc-lieu/soan-ke-hoach"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "auth-login",
+    "path": "/login",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/login",
+    "title": "Đăng nhập hệ thống",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng nhập hệ thống"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng ký tài khoản mới",
+        "href": "/register"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      },
+      {
+        "text": "Xem tư liệu Infographic & Lịch sử công khai →",
+        "href": "/gioi-thieu"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-register",
+    "path": "/register",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/register",
+    "title": "Đăng ký tài khoản",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng ký tài khoản"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập ngay",
+        "href": "/login"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-verified",
+    "path": "/auth/verified?status=success",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=success",
+    "title": "Xác thực tài khoản thành công",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Xác thực tài khoản thành công"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập vào hệ thống →",
+        "href": "/login?verified=1"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-expired",
+    "path": "/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "width": 320,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "title": "Liên kết xác thực đã hết hạn",
+    "overflow": false,
+    "scrollWidth": 320,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Liên kết xác thực đã hết hạn"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Chuyển tới trang đăng nhập →",
+        "href": "/login"
+      },
+      {
+        "text": "Đăng ký lại tài khoản",
+        "href": "/register"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "student-overview",
+    "path": "/student",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student",
+    "title": "Tổng quan học tập",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Tổng quan học tập",
+      "Hiện tượng phóng xạ",
+      "Bài học đã giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Tiếp tục học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Xem tất cả →",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-classes",
+    "path": "/student/classes",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/classes",
+    "title": "Lớp học của em",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Lớp học của em",
+      "Tham gia lớp mới"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-curriculum",
+    "path": "/student/curriculum",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum",
+    "title": "Chương trình học",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Chương trình học",
+      "VẬT LÍ NHIỆT",
+      "KHÍ LÍ TƯỞNG",
+      "TỪ TRƯỜNG",
+      "VẬT LÍ HẠT NHÂN"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "01VẬT LÍ NHIỆT7 bài học→",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "02KHÍ LÍ TƯỞNG6 bài học→",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "03TỪ TRƯỜNG7 bài học→",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "04VẬT LÍ HẠT NHÂN5 bài học→",
+        "href": "/student/curriculum/IV"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-chapter",
+    "path": "/student/curriculum/IV",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum/IV",
+    "title": "VẬT LÍ HẠT NHÂN",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "VẬT LÍ HẠT NHÂN",
+      "Vật lí hạt nhân"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "21Cấu trúc hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "22Phản ứng hạt nhân và năng lượng liên kếtChưa bắt đầu→",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "23Hiện tượng phóng xạChưa bắt đầu→",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "24Công nghiệp hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "25Bài tập về vật lí hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-before",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao",
+      "Dự đoán và khám phá chu kì bán rã"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-during",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-after",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-assessment",
+    "path": "/student/assignments",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/assignments",
+    "title": "Bài tập và kiểm tra",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Bài tập và kiểm tra"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-journal",
+    "path": "/student/journal",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/journal",
+    "title": "Nhật kí học tập",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Nhật kí học tập",
+      "Hiện tượng phóng xạ",
+      "Bài tập về vật lí hạt nhân",
+      "Phản ứng hạt nhân và năng lượng liên kết",
+      "Cấu trúc hạt nhân",
+      "Công nghiệp hạt nhân",
+      "Hiện tượng phóng xạ"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-ai",
+    "path": "/student/ai?bai=B23",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/ai?bai=B23",
+    "title": "Giải thích và gợi ý học tập",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Giải thích và gợi ý học tập",
+      "AI hỗ trợ học tập"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "B21 · Cấu trúc hạt nhân",
+        "href": "?bai=B21"
+      },
+      {
+        "text": "B22 · Phản ứng hạt nhân và năng lượng liên kết",
+        "href": "?bai=B22"
+      },
+      {
+        "text": "B23 · Hiện tượng phóng xạ",
+        "href": "?bai=B23"
+      },
+      {
+        "text": "B24 · Công nghiệp hạt nhân",
+        "href": "?bai=B24"
+      },
+      {
+        "text": "B25 · Ôn tập và phân tích số liệu hạt nhân",
+        "href": "?bai=B25"
+      },
+      {
+        "text": "Mở học liệu B23 để kiểm tra",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "Mở Gemini ↗",
+        "href": "https://gemini.google.com/app"
+      },
+      {
+        "text": "Mở ChatGPT ↗",
+        "href": "https://chatgpt.com/"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-materials",
+    "path": "/student/materials",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/materials",
+    "title": "Kho học liệu của em",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Kho học liệu của em",
+      "Học liệu theo bài"
+    ],
+    "links": [
+      {
+        "text": "Học theo hình · 3D · Video",
+        "href": "/hoc-lieu/truc-quan"
+      },
+      {
+        "text": "Hình thức lớp học đảo ngược",
+        "href": "/hoc-lieu/lop-hoc-dao-nguoc"
+      },
+      {
+        "text": "Tất cả học liệu",
+        "href": "/student/materials"
+      },
+      {
+        "text": "Ảnh tĩnh & Sơ đồ",
+        "href": "/student/materials?type=image"
+      },
+      {
+        "text": "Ảnh động & Minh họa",
+        "href": "/student/materials?type=animation"
+      },
+      {
+        "text": "Video thực tế / Thí nghiệm",
+        "href": "/student/materials?type=real_video"
+      },
+      {
+        "text": "Video bài giảng",
+        "href": "/student/materials?type=lecture_video"
+      },
+      {
+        "text": "Thí nghiệm 3D tương tác",
+        "href": "/student/materials?type=simulation"
+      },
+      {
+        "text": "PDF / Phiếu học tập",
+        "href": "/student/materials?type=document"
+      },
+      {
+        "text": "Câu hỏi & Nhiệm vụ",
+        "href": "/student/materials?type=colab"
+      },
+      {
+        "text": "Đề giữa kỳ & Cuối kỳ",
+        "href": "/student/materials?type=assessment"
+      },
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở học liệu B22",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B21Cấu trúc hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B21"
+      },
+      {
+        "text": "B22Phản ứng hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B23Hiện tượng phóng xạHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "B24Công nghiệp hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B24"
+      },
+      {
+        "text": "B25Bài tập hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B25"
+      },
+      {
+        "text": "Soạn kế hoạch dạy học",
+        "href": "/hoc-lieu/soan-ke-hoach"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "auth-login",
+    "path": "/login",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/login",
+    "title": "Đăng nhập hệ thống",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng nhập hệ thống"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng ký tài khoản mới",
+        "href": "/register"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      },
+      {
+        "text": "Xem tư liệu Infographic & Lịch sử công khai →",
+        "href": "/gioi-thieu"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-register",
+    "path": "/register",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/register",
+    "title": "Đăng ký tài khoản",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng ký tài khoản"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập ngay",
+        "href": "/login"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-verified",
+    "path": "/auth/verified?status=success",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=success",
+    "title": "Xác thực tài khoản thành công",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Xác thực tài khoản thành công"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập vào hệ thống →",
+        "href": "/login?verified=1"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-expired",
+    "path": "/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "width": 390,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "title": "Liên kết xác thực đã hết hạn",
+    "overflow": false,
+    "scrollWidth": 390,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Liên kết xác thực đã hết hạn"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Chuyển tới trang đăng nhập →",
+        "href": "/login"
+      },
+      {
+        "text": "Đăng ký lại tài khoản",
+        "href": "/register"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "student-overview",
+    "path": "/student",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student",
+    "title": "Tổng quan học tập",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Tổng quan học tập",
+      "Hiện tượng phóng xạ",
+      "Bài học đã giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Tiếp tục học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Xem tất cả →",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-classes",
+    "path": "/student/classes",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/classes",
+    "title": "Lớp học của em",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Lớp học của em",
+      "Tham gia lớp mới"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-curriculum",
+    "path": "/student/curriculum",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum",
+    "title": "Chương trình học",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Chương trình học",
+      "VẬT LÍ NHIỆT",
+      "KHÍ LÍ TƯỞNG",
+      "TỪ TRƯỜNG",
+      "VẬT LÍ HẠT NHÂN"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "01VẬT LÍ NHIỆT7 bài học→",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "02KHÍ LÍ TƯỞNG6 bài học→",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "03TỪ TRƯỜNG7 bài học→",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "04VẬT LÍ HẠT NHÂN5 bài học→",
+        "href": "/student/curriculum/IV"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-chapter",
+    "path": "/student/curriculum/IV",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum/IV",
+    "title": "VẬT LÍ HẠT NHÂN",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "VẬT LÍ HẠT NHÂN",
+      "Vật lí hạt nhân"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "21Cấu trúc hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "22Phản ứng hạt nhân và năng lượng liên kếtChưa bắt đầu→",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "23Hiện tượng phóng xạChưa bắt đầu→",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "24Công nghiệp hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "25Bài tập về vật lí hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-before",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao",
+      "Dự đoán và khám phá chu kì bán rã"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-during",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-after",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-assessment",
+    "path": "/student/assignments",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/assignments",
+    "title": "Bài tập và kiểm tra",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Bài tập và kiểm tra"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-journal",
+    "path": "/student/journal",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/journal",
+    "title": "Nhật kí học tập",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Nhật kí học tập",
+      "Hiện tượng phóng xạ",
+      "Bài tập về vật lí hạt nhân",
+      "Phản ứng hạt nhân và năng lượng liên kết",
+      "Cấu trúc hạt nhân",
+      "Công nghiệp hạt nhân",
+      "Hiện tượng phóng xạ"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-ai",
+    "path": "/student/ai?bai=B23",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/ai?bai=B23",
+    "title": "Giải thích và gợi ý học tập",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Giải thích và gợi ý học tập",
+      "AI hỗ trợ học tập"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "B21 · Cấu trúc hạt nhân",
+        "href": "?bai=B21"
+      },
+      {
+        "text": "B22 · Phản ứng hạt nhân và năng lượng liên kết",
+        "href": "?bai=B22"
+      },
+      {
+        "text": "B23 · Hiện tượng phóng xạ",
+        "href": "?bai=B23"
+      },
+      {
+        "text": "B24 · Công nghiệp hạt nhân",
+        "href": "?bai=B24"
+      },
+      {
+        "text": "B25 · Ôn tập và phân tích số liệu hạt nhân",
+        "href": "?bai=B25"
+      },
+      {
+        "text": "Mở học liệu B23 để kiểm tra",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "Mở Gemini ↗",
+        "href": "https://gemini.google.com/app"
+      },
+      {
+        "text": "Mở ChatGPT ↗",
+        "href": "https://chatgpt.com/"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-materials",
+    "path": "/student/materials",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/materials",
+    "title": "Kho học liệu của em",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Kho học liệu của em",
+      "Học liệu theo bài"
+    ],
+    "links": [
+      {
+        "text": "Học theo hình · 3D · Video",
+        "href": "/hoc-lieu/truc-quan"
+      },
+      {
+        "text": "Hình thức lớp học đảo ngược",
+        "href": "/hoc-lieu/lop-hoc-dao-nguoc"
+      },
+      {
+        "text": "Tất cả học liệu",
+        "href": "/student/materials"
+      },
+      {
+        "text": "Ảnh tĩnh & Sơ đồ",
+        "href": "/student/materials?type=image"
+      },
+      {
+        "text": "Ảnh động & Minh họa",
+        "href": "/student/materials?type=animation"
+      },
+      {
+        "text": "Video thực tế / Thí nghiệm",
+        "href": "/student/materials?type=real_video"
+      },
+      {
+        "text": "Video bài giảng",
+        "href": "/student/materials?type=lecture_video"
+      },
+      {
+        "text": "Thí nghiệm 3D tương tác",
+        "href": "/student/materials?type=simulation"
+      },
+      {
+        "text": "PDF / Phiếu học tập",
+        "href": "/student/materials?type=document"
+      },
+      {
+        "text": "Câu hỏi & Nhiệm vụ",
+        "href": "/student/materials?type=colab"
+      },
+      {
+        "text": "Đề giữa kỳ & Cuối kỳ",
+        "href": "/student/materials?type=assessment"
+      },
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở học liệu B22",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B21Cấu trúc hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B21"
+      },
+      {
+        "text": "B22Phản ứng hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B23Hiện tượng phóng xạHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "B24Công nghiệp hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B24"
+      },
+      {
+        "text": "B25Bài tập hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B25"
+      },
+      {
+        "text": "Soạn kế hoạch dạy học",
+        "href": "/hoc-lieu/soan-ke-hoach"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "auth-login",
+    "path": "/login",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/login",
+    "title": "Đăng nhập hệ thống",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng nhập hệ thống"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng ký tài khoản mới",
+        "href": "/register"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      },
+      {
+        "text": "Xem tư liệu Infographic & Lịch sử công khai →",
+        "href": "/gioi-thieu"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-register",
+    "path": "/register",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/register",
+    "title": "Đăng ký tài khoản",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng ký tài khoản"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập ngay",
+        "href": "/login"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-verified",
+    "path": "/auth/verified?status=success",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=success",
+    "title": "Xác thực tài khoản thành công",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Xác thực tài khoản thành công"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập vào hệ thống →",
+        "href": "/login?verified=1"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-expired",
+    "path": "/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "width": 768,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "title": "Liên kết xác thực đã hết hạn",
+    "overflow": false,
+    "scrollWidth": 768,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Liên kết xác thực đã hết hạn"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Chuyển tới trang đăng nhập →",
+        "href": "/login"
+      },
+      {
+        "text": "Đăng ký lại tài khoản",
+        "href": "/register"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "student-overview",
+    "path": "/student",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student",
+    "title": "Tổng quan học tập",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Tổng quan học tập",
+      "Hiện tượng phóng xạ",
+      "Bài học đã giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Tiếp tục học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Xem tất cả →",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338"
+      },
+      {
+        "text": "Mở bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-classes",
+    "path": "/student/classes",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/classes",
+    "title": "Lớp học của em",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Lớp học của em",
+      "Tham gia lớp mới"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-curriculum",
+    "path": "/student/curriculum",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum",
+    "title": "Chương trình học",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Chương trình học",
+      "VẬT LÍ NHIỆT",
+      "KHÍ LÍ TƯỞNG",
+      "TỪ TRƯỜNG",
+      "VẬT LÍ HẠT NHÂN"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "01VẬT LÍ NHIỆT7 bài học→",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "02KHÍ LÍ TƯỞNG6 bài học→",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "03TỪ TRƯỜNG7 bài học→",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "04VẬT LÍ HẠT NHÂN5 bài học→",
+        "href": "/student/curriculum/IV"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-chapter",
+    "path": "/student/curriculum/IV",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/curriculum/IV",
+    "title": "VẬT LÍ HẠT NHÂN",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "VẬT LÍ HẠT NHÂN",
+      "Vật lí hạt nhân"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Tất cả chương",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "Chương 1: Vật lí nhiệt",
+        "href": "/student/curriculum/I"
+      },
+      {
+        "text": "Chương 2: Khí lí tưởng",
+        "href": "/student/curriculum/II"
+      },
+      {
+        "text": "Chương 3: Từ trường",
+        "href": "/student/curriculum/III"
+      },
+      {
+        "text": "Chương 4: Vật lí hạt nhân",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum"
+      },
+      {
+        "text": "21Cấu trúc hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "22Phản ứng hạt nhân và năng lượng liên kếtChưa bắt đầu→",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "23Hiện tượng phóng xạChưa bắt đầu→",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "24Công nghiệp hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "25Bài tập về vật lí hạt nhânChưa bắt đầu→",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-before",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao",
+      "Dự đoán và khám phá chu kì bán rã"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-during",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      },
+      {
+        "text": "OpenStax · Radioactive Decay",
+        "href": "https://openstax.org/books/university-physics-volume-3/pages/10-3-radioactive-decay"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-after",
+    "path": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class",
+    "title": "Hiện tượng phóng xạ",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Hiện tượng phóng xạ",
+      "Tiến trình giáo viên giao"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Vật lí 12",
+        "href": "/student"
+      },
+      {
+        "text": "Chương IV",
+        "href": "/student/curriculum/IV"
+      },
+      {
+        "text": "Học với AI · B23",
+        "href": "/student/ai?bai=B23"
+      },
+      {
+        "text": "01Trước giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/before-class"
+      },
+      {
+        "text": "02Trong giờ họcĐã hoàn thành",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/in-class"
+      },
+      {
+        "text": "03Sau giờ họcĐang xem",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-assessment",
+    "path": "/student/assignments",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/assignments",
+    "title": "Bài tập và kiểm tra",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Bài tập và kiểm tra"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/30a5f334-509a-498e-a73b-734d632b1338/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938/after-class"
+      },
+      {
+        "text": "Mở nhiệm vụ",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93/after-class"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-journal",
+    "path": "/student/journal",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/journal",
+    "title": "Nhật kí học tập",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Nhật kí học tập",
+      "Hiện tượng phóng xạ",
+      "Bài tập về vật lí hạt nhân",
+      "Phản ứng hạt nhân và năng lượng liên kết",
+      "Cấu trúc hạt nhân",
+      "Công nghiệp hạt nhân",
+      "Hiện tượng phóng xạ"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/2455fc0f-dfa2-4e56-9924-b887564a1a93"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/91c1fb49-b33f-4f1d-93cd-9de855ce7938"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/18bc4579-dd9b-4530-9439-3736ef994af8"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/69a09b43-e1e0-4643-99f5-efa28e3936bc"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/3d58d5d5-119f-4454-b982-a092255e8786"
+      },
+      {
+        "text": "Mở lại bài học →",
+        "href": "/student/lessons/8d4d729c-4600-47ed-857b-7effb4962200"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-ai",
+    "path": "/student/ai?bai=B23",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/ai?bai=B23",
+    "title": "Giải thích và gợi ý học tập",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Giải thích và gợi ý học tập",
+      "AI hỗ trợ học tập"
+    ],
+    "links": [
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "B21 · Cấu trúc hạt nhân",
+        "href": "?bai=B21"
+      },
+      {
+        "text": "B22 · Phản ứng hạt nhân và năng lượng liên kết",
+        "href": "?bai=B22"
+      },
+      {
+        "text": "B23 · Hiện tượng phóng xạ",
+        "href": "?bai=B23"
+      },
+      {
+        "text": "B24 · Công nghiệp hạt nhân",
+        "href": "?bai=B24"
+      },
+      {
+        "text": "B25 · Ôn tập và phân tích số liệu hạt nhân",
+        "href": "?bai=B25"
+      },
+      {
+        "text": "Mở học liệu B23 để kiểm tra",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "Mở Gemini ↗",
+        "href": "https://gemini.google.com/app"
+      },
+      {
+        "text": "Mở ChatGPT ↗",
+        "href": "https://chatgpt.com/"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "student-materials",
+    "path": "/student/materials",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/student/materials",
+    "title": "Kho học liệu của em",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Kho học liệu của em",
+      "Học liệu theo bài"
+    ],
+    "links": [
+      {
+        "text": "Học theo hình · 3D · Video",
+        "href": "/hoc-lieu/truc-quan"
+      },
+      {
+        "text": "Hình thức lớp học đảo ngược",
+        "href": "/hoc-lieu/lop-hoc-dao-nguoc"
+      },
+      {
+        "text": "Tất cả học liệu",
+        "href": "/student/materials"
+      },
+      {
+        "text": "Ảnh tĩnh & Sơ đồ",
+        "href": "/student/materials?type=image"
+      },
+      {
+        "text": "Ảnh động & Minh họa",
+        "href": "/student/materials?type=animation"
+      },
+      {
+        "text": "Video thực tế / Thí nghiệm",
+        "href": "/student/materials?type=real_video"
+      },
+      {
+        "text": "Video bài giảng",
+        "href": "/student/materials?type=lecture_video"
+      },
+      {
+        "text": "Thí nghiệm 3D tương tác",
+        "href": "/student/materials?type=simulation"
+      },
+      {
+        "text": "PDF / Phiếu học tập",
+        "href": "/student/materials?type=document"
+      },
+      {
+        "text": "Câu hỏi & Nhiệm vụ",
+        "href": "/student/materials?type=colab"
+      },
+      {
+        "text": "Đề giữa kỳ & Cuối kỳ",
+        "href": "/student/materials?type=assessment"
+      },
+      {
+        "text": "Học với AI",
+        "href": "/student/ai"
+      },
+      {
+        "text": "Tổng quan",
+        "href": "/student"
+      },
+      {
+        "text": "Lớp học của em",
+        "href": "/student/classes"
+      },
+      {
+        "text": "Bài tập và kiểm tra",
+        "href": "/student/assignments"
+      },
+      {
+        "text": "Nhật kí học tập",
+        "href": "/student/journal"
+      },
+      {
+        "text": "Kho học liệu công khai ↗",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Mở học liệu B22",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B21Cấu trúc hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B21"
+      },
+      {
+        "text": "B22Phản ứng hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B22"
+      },
+      {
+        "text": "B23Hiện tượng phóng xạHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B23"
+      },
+      {
+        "text": "B24Công nghiệp hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B24"
+      },
+      {
+        "text": "B25Bài tập hạt nhânHình · 3D · Video · Bản ghi ↗",
+        "href": "/hoc-lieu/truc-quan?bai=B25"
+      },
+      {
+        "text": "Soạn kế hoạch dạy học",
+        "href": "/hoc-lieu/soan-ke-hoach"
+      }
+    ],
+    "invalid": [
+      {
+        "text": "Đi đến nội dung chính",
+        "name": null,
+        "rect": {
+          "x": -9999,
+          "y": 0,
+          "width": 165.875,
+          "height": 24.796875,
+          "top": 0,
+          "right": -9833.125,
+          "bottom": 24.796875,
+          "left": -9999
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "auth-login",
+    "path": "/login",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/login",
+    "title": "Đăng nhập hệ thống",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng nhập hệ thống"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng ký tài khoản mới",
+        "href": "/register"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      },
+      {
+        "text": "Xem tư liệu Infographic & Lịch sử công khai →",
+        "href": "/gioi-thieu"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-register",
+    "path": "/register",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/register",
+    "title": "Đăng ký tài khoản",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Đăng ký tài khoản"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập ngay",
+        "href": "/login"
+      },
+      {
+        "text": "← Quay lại trang chủ",
+        "href": "/"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-verified",
+    "path": "/auth/verified?status=success",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=success",
+    "title": "Xác thực tài khoản thành công",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Xác thực tài khoản thành công"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Đăng nhập vào hệ thống →",
+        "href": "/login?verified=1"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  },
+  {
+    "id": "auth-expired",
+    "path": "/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "width": 1366,
+    "http": 200,
+    "url": "http://127.0.0.1:3477/auth/verified?status=error&message=Li%C3%AAn%20k%E1%BA%BFt%20%C4%91%C3%A3%20h%E1%BA%BFt%20h%E1%BA%A1n.",
+    "title": "Liên kết xác thực đã hết hạn",
+    "overflow": false,
+    "scrollWidth": 1366,
+    "headings": [
+      "Khám phá vật lí hạt nhân",
+      "Liên kết xác thực đã hết hạn"
+    ],
+    "links": [
+      {
+        "text": "αVật lí Hạt nhân 12",
+        "href": "/"
+      },
+      {
+        "text": "Khám phá học liệu công khai →",
+        "href": "/hoc-lieu"
+      },
+      {
+        "text": "Chuyển tới trang đăng nhập →",
+        "href": "/login"
+      },
+      {
+        "text": "Đăng ký lại tài khoản",
+        "href": "/register"
+      }
+    ],
+    "invalid": [],
+    "errors": []
+  }
+]

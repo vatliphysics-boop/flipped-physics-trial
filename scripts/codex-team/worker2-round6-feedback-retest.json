@@ -1,0 +1,17 @@
+{
+  "id": "worker2-round6-feedback-retest",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 900,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [
+    "worker2-round5-retest"
+  ],
+  "context_files": [
+    "docs/codex-team/runs/worker2-round5-retest/detailed-report.md",
+    "docs/codex-team/runs/worker2-round5-retest/lead-checkpoint.md",
+    "docs/codex-team/USER_GUIDE.md"
+  ],
+  "task": "Lượt trước đã hết thời gian. Lượt này chỉ 2 ca: (1) B21 Chẩn đoán cấu tạo hoặc infographic: chưa chọn đáp án có hướng dẫn rõ ngay và được nối aria-describedby; chọn sai/đúng vẫn có giải thích; thao tác bàn phím. (2) kho B24 đóng vai: bốn tiêu chí nhận xét hiện ngay, có cách tự/GV nhận xét, nhập một mẫu giả định và tải TXT chứa đủ tiêu chí và nội dung. Kiểm tra mobile390, ảnh xem thực tế. Không kiểm tra lịch sử, video, DB hoặc thêm nhiệm vụ khác trong lượt này. Chỉ phát hiện vấn đề có căn cứ ảnh hưởng 2 tiêu chí này; không mở rộng thẩm mỹ. Ghi bản báo cáo hoàn chỉnh ngắn gọn trong TMP ngay sau mỗi ca và hoàn thành không chờ thời hạn, dành tối đa khoảng3phút/ca. Mỗi vấn đề mãseveritypage stepsbằng chứngcăn cứtác độngtiêuchí sửa. Không đếm là hai lượt đầy đủ cuối. Worker3 chỉ đổi nhãn video B24 src/lib/visual-learning.ts; root sửa shared.tsx và NuclearLearningNotebook.tsx. Không đọc secrets/không sửa code hoặc DOCX/DB. Nếu có blocker công cụ ghi rõ và kết thúc với checkpoint thay vì lặp chờ."
+}

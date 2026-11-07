@@ -1,0 +1,253 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "title": "Học liệu sốVật lí hạt nhân 12",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/login",
+    "width": 1440,
+    "status": 200,
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "title": "Đăng nhập",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/register",
+    "width": 1440,
+    "status": 200,
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "title": "Đăng ký tài khoản",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/demo-lesson",
+    "width": 1440,
+    "status": 200,
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "title": "Hiện tượng phóng xạ",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "status": 200,
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "title": "Học liệu sốVật lí hạt nhân 12",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/login",
+    "width": 1024,
+    "status": 200,
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "title": "Đăng nhập",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/register",
+    "width": 1024,
+    "status": 200,
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "title": "Đăng ký tài khoản",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/demo-lesson",
+    "width": 1024,
+    "status": 200,
+    "viewport": 1024,
+    "scrollWidth": 1024,
+    "title": "Hiện tượng phóng xạ",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "viewport": 768,
+    "scrollWidth": 768,
+    "title": "Học liệu sốVật lí hạt nhân 12",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/login",
+    "width": 768,
+    "status": 200,
+    "viewport": 768,
+    "scrollWidth": 768,
+    "title": "Đăng nhập",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/register",
+    "width": 768,
+    "status": 200,
+    "viewport": 768,
+    "scrollWidth": 768,
+    "title": "Đăng ký tài khoản",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/demo-lesson",
+    "width": 768,
+    "status": 200,
+    "viewport": 768,
+    "scrollWidth": 768,
+    "title": "Hiện tượng phóng xạ",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "viewport": 390,
+    "scrollWidth": 390,
+    "title": "Học liệu sốVật lí hạt nhân 12",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/login",
+    "width": 390,
+    "status": 200,
+    "viewport": 390,
+    "scrollWidth": 390,
+    "title": "Đăng nhập",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/register",
+    "width": 390,
+    "status": 200,
+    "viewport": 390,
+    "scrollWidth": 390,
+    "title": "Đăng ký tài khoản",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/demo-lesson",
+    "width": 390,
+    "status": 200,
+    "viewport": 390,
+    "scrollWidth": 390,
+    "title": "Hiện tượng phóng xạ",
+    "overflow": [],
+    "errors": []
+  },
+  {
+    "route": "/teacher",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/teacher/classes",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/teacher/curriculum",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/teacher/curriculum/IV",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/student",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/student/curriculum",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/student/assignments",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/teacher/lessons/00000000-0000-0000-0000-000000000021/before-class",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/teacher/lessons/00000000-0000-0000-0000-000000000021/in-class",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/teacher/lessons/00000000-0000-0000-0000-000000000021/after-class",
+    "width": 1440,
+    "status": 200,
+    "finalPath": "/login",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/student/lessons/00000000-0000-0000-0000-000000000021/before-class",
+    "width": 1440,
+    "status": 404,
+    "finalPath": "/student/lessons/00000000-0000-0000-0000-000000000021/before-class",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/student/lessons/00000000-0000-0000-0000-000000000021/in-class",
+    "width": 1440,
+    "status": 404,
+    "finalPath": "/student/lessons/00000000-0000-0000-0000-000000000021/in-class",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  },
+  {
+    "route": "/student/lessons/00000000-0000-0000-0000-000000000021/after-class",
+    "width": 1440,
+    "status": 404,
+    "finalPath": "/student/lessons/00000000-0000-0000-0000-000000000021/after-class",
+    "evidence": "Logged-out redirect only; placeholder lesson ID, no real B21 session."
+  }
+]

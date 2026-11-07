@@ -1,0 +1,138 @@
+{
+  "input": "/Users/vodoandangkhoi/Downloads/BA\u0301O KHOA HO\u0323C \u0110A\u0306NG KHO\u0302I .docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 36,
+  "direct_paragraph_formatting_paragraphs": 79,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 112,
+      "text": "V\u00f5 \u0110o\u00e0n \u0110\u0103ng Kh\u00f4i1,+",
+      "style": "Normal"
+    },
+    {
+      "para_index": 113,
+      "text": "Nguy\u1ec5n B\u1ea3o Thy1",
+      "style": "Normal"
+    },
+    {
+      "para_index": 114,
+      "text": "B\u00f9i Ng\u1ecdc Xu\u00e2n Ph\u01b0\u01a1ng1",
+      "style": "Normal"
+    },
+    {
+      "para_index": 122,
+      "text": "Article history",
+      "style": "Normal"
+    },
+    {
+      "para_index": 127,
+      "text": "Keywords",
+      "style": "Normal"
+    },
+    {
+      "para_index": 130,
+      "text": "T\u1eeb kh\u00f3a",
+      "style": "Normal"
+    },
+    {
+      "para_index": 133,
+      "text": "ABSTRACT",
+      "style": "Normal"
+    },
+    {
+      "para_index": 138,
+      "text": "T\u00d3M T\u1eaeT",
+      "style": "Normal"
+    },
+    {
+      "para_index": 142,
+      "text": "B\u00e0i",
+      "style": "Normal"
+    },
+    {
+      "para_index": 143,
+      "text": "Tr\u1ecdng t\u00e2m v\u00e0 thao t\u00e1c",
+      "style": "Normal"
+    },
+    {
+      "para_index": 144,
+      "text": "S\u1ea3n ph\u1ea9m h\u1ecdc t\u1eadp d\u1ef1 ki\u1ebfn",
+      "style": "Normal"
+    },
+    {
+      "para_index": 160,
+      "text": "H\u1ea1ng m\u1ee5c",
+      "style": "Normal"
+    },
+    {
+      "para_index": 161,
+      "text": "B\u1eb1ng ch\u1ee9ng c\u1ee5 th\u1ec3",
+      "style": "Normal"
+    },
+    {
+      "para_index": 162,
+      "text": "Gi\u1edbi h\u1ea1n",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 24,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 29,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 37,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 44,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 51,
+        "text": "",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 25,
+        "run_text": "H\u00ecnh 1.",
+        "style": "Caption1"
+      },
+      {
+        "para_index": 30,
+        "run_text": "H\u00ecnh 2.",
+        "style": "Caption1"
+      },
+      {
+        "para_index": 38,
+        "run_text": "H\u00ecnh 3.",
+        "style": "Caption1"
+      },
+      {
+        "para_index": 45,
+        "run_text": "H\u00ecnh 4.",
+        "style": "Caption1"
+      },
+      {
+        "para_index": 52,
+        "run_text": "H\u00ecnh 5.",
+        "style": "Caption1"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

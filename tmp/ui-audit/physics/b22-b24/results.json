@@ -1,0 +1,137 @@
+{
+  "base": "http://127.0.0.1:3477",
+  "results": [
+    {
+      "code": "B22",
+      "width": 320,
+      "absentNeutron": true,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 320,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "separateCircuits": true,
+      "chainLabels": {
+        "chartWidthPx": 262,
+        "minimumFontPx": 15.906462296195652,
+        "labelBounds": true
+      },
+      "flowLabels": {
+        "chartWidthPx": 262,
+        "minimumFontPx": 15.906770833333333,
+        "labelBounds": true
+      }
+    },
+    {
+      "code": "B22",
+      "width": 390,
+      "absentNeutron": true,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 390,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "separateCircuits": true,
+      "chainLabels": {
+        "chartWidthPx": 332,
+        "minimumFontPx": 20.156462296195652,
+        "labelBounds": true
+      },
+      "flowLabels": {
+        "chartWidthPx": 332,
+        "minimumFontPx": 20.156770833333336,
+        "labelBounds": true
+      }
+    },
+    {
+      "code": "B22",
+      "width": 768,
+      "absentNeutron": true,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 768,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "separateCircuits": true,
+      "chainLabels": {
+        "chartWidthPx": 690,
+        "minimumFontPx": 18.263980263157894,
+        "labelBounds": true
+      },
+      "flowLabels": {
+        "chartWidthPx": 690,
+        "minimumFontPx": 17.249314692982455,
+        "labelBounds": true
+      }
+    },
+    {
+      "code": "B22",
+      "width": 1366,
+      "absentNeutron": true,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "fissionConserved": true,
+      "qMeV": 178,
+      "webgl": true
+    },
+    {
+      "code": "B24",
+      "width": 1366,
+      "raisedRodIndex": 3.84,
+      "insertedRodIndex": 0.13,
+      "paused": true,
+      "offscreenPause": true,
+      "manualResume": true,
+      "reset": true,
+      "separateCircuits": true,
+      "chainLabels": {
+        "chartWidthPx": 1106,
+        "minimumFontPx": 29.275904605263158,
+        "labelBounds": true
+      },
+      "flowLabels": {
+        "chartWidthPx": 1106,
+        "minimumFontPx": 27.649465460526315,
+        "labelBounds": true
+      }
+    }
+  ]
+}

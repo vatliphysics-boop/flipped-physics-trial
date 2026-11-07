@@ -1,0 +1,21 @@
+{
+  "timeout_seconds": 900,
+  "browser_mcp": true,
+  "previous_runs": [
+    "worker3-ui9-smoke-cause"
+  ],
+  "context_files": [
+    "docs/codex-team/ui-review/TEAM_HANDOFF.md",
+    "docs/codex-team/ui-review/coverage.md",
+    "docs/codex-team/USER_GUIDE.md",
+    "docs/codex-team/runs/worker3-ui9-smoke-cause/detailed-report.md"
+  ],
+  "id": "worker3-ui10-infographic-auth-fix",
+  "worker": 3,
+  "mode": "fix",
+  "allowed_files": [
+    "src/components/learning/InteractiveInfographic.tsx",
+    "src/app/globals.css"
+  ],
+  "task": "Root đã đọc report/UI thực tế và DUYỆT phương án ưu tiên tách mọi nút số khỏi SVG. Sửa CHỈ InteractiveInfographic.tsx và globals.css, root không sửa hai file này. UI-0001 mọiB21–B25: bỏ button overlay trong hình, giữ danh sách số+tiêu đề ngoài ảnh với aria-pressed/controls, explanation đúng; toolbar đổi hướng dẫn cho đúng. Không đổi SVG, content science, coordinates dữ liệu. Bảo đảm >=44x44 hit area và focus không bị cắt (UI-0005 là W3-UI9-02); giữ tảiPNG/SVG/edit ability củaGV. UI-0006 (W3-UI9-03): xem tổng quan+đọc chi tiết có chỉ dẫn rõ mobile, đọc/cuộn/pankeyboard, zoom desktop thật sự tăng kích thước thay vì chỉcắt khung; không coi mấtclipảnh ởfit làđạt. Có thể dùng chiều rộng zoom đủlớn max-currentimage hơn100%, responsive fitscreen; giảmnguy cơ đọc nhãn nhỏ bằng affordance/helper đúng. Không đặt control/focus trên nội dung hình. Root chuẩn bị bảng dữ liệu chữ nếu cần science, ghi đềxuất thiếu.\nUI-0004 /login/register: role-selector input display:none làmTabbỏvai. Sửa CSS native radios visuallyhidden accessible (khôngdisplay:none), relative label, focus-visible ring44taptarget; không sửa login/register.tsx hay auth logic. Thử Tab/Arrow chọn học sinh và quayGV khôngsubmitdata.\nĐọc NextCSS/use-clientdocs trước code. TestB25 cả5viewport yêu cầu1440x9001280x720768x1024390x844360x800; B21–B24 mỗidesktop/mobile vàzoom1ca. Chụp/xem BEFORE từreportUI9 và AFTER ít nhấtB25desktop/mobile+role; đo actualviewport. Ghi chính xácfile/ca/scopedCSSregression; report TMP nháp ngay sau sửa vàfinal trướcdeadline. Không commit/DB/DOCX/env; sourcecontentrootđãsửa2fileđộc lậpkhôngquythuộcchojob. Cácstylemenu/table/chungngoàiphạmvi khôngtựsửatrừcóbugđãsources. Nếuchưađủca ghiCHƯAKIỂM; jobfixkhôngđóngUIthayW2."
+}

@@ -1,0 +1,62 @@
+- article [ref=f2e255]:
+  - generic [ref=f2e256]:
+    - button "B21 · Câu hỏi & Hoạt động nhóm B21 · Câu hỏi chẩn đoán có phản hồi Ba câu kiểm tra kiến thức; chọn đáp án, kiểm tra và đọc lời giải. Kết quả tự luyện không phải điểm lớp học." [expanded] [active] [ref=f2e257] [cursor=pointer]:
+      - generic [ref=f2e258]:
+        - generic [ref=f2e259]: B21 · Câu hỏi & Hoạt động nhóm
+        - strong [ref=f2e260]: B21 · Câu hỏi chẩn đoán có phản hồi
+        - generic [ref=f2e261]: Ba câu kiểm tra kiến thức; chọn đáp án, kiểm tra và đọc lời giải. Kết quả tự luyện không phải điểm lớp học.
+      - generic [ref=f2e262]: −
+    - button "Lưu B21 · Câu hỏi chẩn đoán có phản hồi" [ref=f2e263] [cursor=pointer]: ☆
+  - generic [ref=f2e330]:
+    - generic [ref=f2e331]:
+      - heading "Tự chẩn đoán kiến thức" [level=4] [ref=f2e332]
+      - generic [ref=f2e333]:
+        - group "Carbon-14 có Z = 6. Số neutron là bao nhiêu?" [ref=f2e334]:
+          - generic [ref=f2e336]:
+            - generic [ref=f2e337] [cursor=pointer]:
+              - radio "6" [ref=f2e338]
+              - generic [ref=f2e339]: "6"
+            - generic [ref=f2e340] [cursor=pointer]:
+              - radio "8" [ref=f2e341]
+              - generic [ref=f2e342]: "8"
+            - generic [ref=f2e343] [cursor=pointer]:
+              - radio "14" [ref=f2e344]
+              - generic [ref=f2e345]: "14"
+        - button "Kiểm tra nhận định" [disabled] [ref=f2e346] [cursor=pointer]
+      - generic [ref=f2e347]:
+        - group "Hai đồng vị của một nguyên tố có đại lượng nào giống nhau?" [ref=f2e348]:
+          - generic [ref=f2e350]:
+            - generic [ref=f2e351] [cursor=pointer]:
+              - radio "Số neutron" [ref=f2e352]
+              - generic [ref=f2e353]: Số neutron
+            - generic [ref=f2e354] [cursor=pointer]:
+              - radio "Số khối" [ref=f2e355]
+              - generic [ref=f2e356]: Số khối
+            - generic [ref=f2e357] [cursor=pointer]:
+              - radio "Số proton" [ref=f2e358]
+              - generic [ref=f2e359]: Số proton
+        - button "Kiểm tra nhận định" [disabled] [ref=f2e360] [cursor=pointer]
+      - generic [ref=f2e361]:
+        - group "Hạt α lệch mạnh khi đi gần vùng nào?" [ref=f2e362]:
+          - generic [ref=f2e364]:
+            - generic [ref=f2e365] [cursor=pointer]:
+              - radio "Gần hạt nhân mang điện dương" [ref=f2e366]
+              - generic [ref=f2e367]: Gần hạt nhân mang điện dương
+            - generic [ref=f2e368] [cursor=pointer]:
+              - radio "Bất kì vùng nào đều như nhau" [ref=f2e369]
+              - generic [ref=f2e370]: Bất kì vùng nào đều như nhau
+            - generic [ref=f2e371] [cursor=pointer]:
+              - radio "Chỉ khi gặp electron đứng yên" [ref=f2e372]
+              - generic [ref=f2e373]: Chỉ khi gặp electron đứng yên
+        - button "Kiểm tra nhận định" [disabled] [ref=f2e374] [cursor=pointer]
+      - paragraph [ref=f2e375]:
+        - link "Nguồn đối chiếu kiến thức ↗" [ref=f2e376] [cursor=pointer]:
+          - /url: https://phet.colorado.edu/en/simulations/rutherford-scattering
+    - paragraph [ref=f2e377]:
+      - link "Hỏi AI về bài B21 ↗" [ref=f2e378] [cursor=pointer]:
+        - /url: /hoc-lieu/ai?bai=B21
+      - generic [ref=f2e379]: Ghi câu hỏi và cách làm trước khi trao đổi.
+    - link "Đưa học liệu này vào kế hoạch riêng" [ref=f2e380] [cursor=pointer]:
+      - /url: /hoc-lieu/soan-ke-hoach?material=system-quiz-B21
+    - link "Liên kết mở học liệu này" [ref=f2e381] [cursor=pointer]:
+      - /url: /hoc-lieu?bai=B21&resource=system-quiz-B21#resource-system-quiz-B21

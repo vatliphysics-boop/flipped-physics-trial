@@ -1,0 +1,133 @@
+- generic [ref=f5e1] [box=0,-772,390,3134]:
+  - generic [ref=f5e2] [box=0,-772,390,3134]:
+    - link "Đi đến nội dung chính" [ref=f5e3] [cursor=pointer] [box=-9999,-772,158,24]:
+      - /url: "#main-content"
+    - banner [ref=f5e4] [box=0,0,390,64]:
+      - generic [ref=f5e5] [box=32,8,168,48]:
+        - button "Mở menu" [ref=f5e147] [cursor=pointer] [box=32,15,37,34]:
+          - generic [ref=f5e148] [box=45,22,11,20]: ☰
+        - link "Học liệu Vật lí 12" [ref=f5e8] [cursor=pointer] [box=85,8,115,48]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập lớp học" [ref=f5e10] [cursor=pointer] [box=200,10,158,43]:
+        - /url: /login
+    - main [ref=f5e37] [box=0,-708,390,3070]:
+      - generic [ref=f5e38] [box=24,-676,342,3006]:
+        - generic [ref=f5e39] [box=34,-658,322,259]:
+          - generic [ref=f5e40] [box=34,-658,322,139]:
+            - paragraph [ref=f5e41] [box=34,-658,322,23]: "Chương 4: Vật lí hạt nhân · B21–B25"
+            - heading "Học liệu Vật lí hạt nhân" [level=1] [ref=f5e42] [box=34,-625,322,32]
+            - paragraph [ref=f5e43] [box=34,-579,322,46]: Chọn bài để xem hình minh họa, mô phỏng, video và ghi kết quả học tập.
+          - generic [ref=f5e44] [box=34,-495,322,96]:
+            - button "Chế độ trình chiếu" [ref=f5e45] [cursor=pointer] [box=34,-495,155,43]
+            - link "Toàn bộ kho học liệu" [ref=f5e46] [cursor=pointer] [box=34,-442,169,43]:
+              - /url: /hoc-lieu
+        - navigation "Chọn bài học" [ref=f5e47] [box=34,-371,322,101]:
+          - link "B21 Cấu trúc hạt nhân" [ref=f5e48] [cursor=pointer] [box=34,-371,144,95]:
+            - /url: /hoc-lieu/truc-quan?bai=B21
+            - generic [ref=f5e49] [box=47,-358,118,18]: B21
+            - strong [ref=f5e50] [box=47,-331,118,42]: Cấu trúc hạt nhân
+          - link "B22 Phản ứng hạt nhân" [ref=f5e51] [cursor=pointer] [box=186,-371,144,95]:
+            - /url: /hoc-lieu/truc-quan?bai=B22
+            - generic [ref=f5e52] [box=199,-358,118,18]: B22
+            - strong [ref=f5e53] [box=199,-331,118,42]: Phản ứng hạt nhân
+          - link "B23 Hiện tượng phóng xạ" [ref=f5e54] [cursor=pointer] [box=338,-371,144,95]:
+            - /url: /hoc-lieu/truc-quan?bai=B23
+            - generic [ref=f5e55] [box=351,-358,118,18]: B23
+            - strong [ref=f5e56] [box=351,-331,118,42]: Hiện tượng phóng xạ
+          - link "B24 Công nghiệp hạt nhân" [ref=f5e57] [cursor=pointer] [box=490,-371,144,95]:
+            - /url: /hoc-lieu/truc-quan?bai=B24
+            - generic [ref=f5e58] [box=503,-358,118,18]: B24
+            - strong [ref=f5e59] [box=503,-331,118,42]: Công nghiệp hạt nhân
+          - link "B25 Thực hành bán rã" [ref=f5e60] [cursor=pointer] [box=642,-371,144,95]:
+            - /url: /hoc-lieu/truc-quan?bai=B25
+            - generic [ref=f5e61] [box=655,-358,118,18]: B25
+            - strong [ref=f5e62] [box=655,-331,118,42]: Thực hành bán rã
+        - generic [ref=f5e63] [box=34,-242,322,77]:
+          - generic [ref=f5e64] [box=34,-225,44,44]: B25
+          - generic [ref=f5e65] [box=90,-242,266,77]:
+            - heading "Thực hành đo chu kì bán rã" [level=2] [ref=f5e66] [box=90,-242,266,26]
+            - paragraph [ref=f5e67] [box=90,-207,266,43]: Đọc số liệu phóng xạ, vẽ đồ thị và xác định chu kì bán rã trong mô hình thực hành.
+        - paragraph [ref=f5e68] [box=34,-140,322,119]:
+          - link "Hỏi AI về bài B25 ↗" [ref=f5e69] [cursor=pointer] [box=34,-128,160,43]:
+            - /url: /hoc-lieu/ai?bai=B25
+          - generic [ref=f5e70] [box=34,-75,322,42]: Chuẩn bị câu hỏi, gợi ý từng bước và ghi điều cần kiểm tra.
+        - navigation "Cách học bài này" [ref=f5e71] [box=34,3,322,171]:
+          - button "01 Đọc hình Chạm để khám phá" [pressed] [ref=f5e72] [cursor=pointer] [box=35,4,160,76]:
+            - generic [ref=f5e73] [box=45,23,15,18]: "01"
+            - strong [ref=f5e74] [box=75,18,108,21]: Đọc hình
+            - generic [ref=f5e75] [box=75,46,108,17]: Chạm để khám phá
+          - button "02 Thao tác 3D Dự đoán rồi kiểm tra" [ref=f5e76] [cursor=pointer] [box=196,4,160,76]:
+            - generic [ref=f5e77] [box=206,23,16,18]: "02"
+            - strong [ref=f5e78] [box=236,18,108,21]: Thao tác 3D
+            - generic [ref=f5e79] [box=236,46,108,17]: Dự đoán rồi kiểm tra
+          - button "03 Xem video Theo câu hỏi dẫn dắt" [ref=f5e80] [cursor=pointer] [box=35,80,160,92]:
+            - generic [ref=f5e81] [box=45,99,17,18]: "03"
+            - strong [ref=f5e82] [box=75,94,108,21]: Xem video
+            - generic [ref=f5e83] [box=75,122,108,33]: Theo câu hỏi dẫn dắt
+          - button "04 Ghi & giải thích Chuẩn bị cho giờ học" [ref=f5e84] [cursor=pointer] [box=196,80,160,92]:
+            - generic [ref=f5e85] [box=206,99,17,18]: "04"
+            - strong [ref=f5e86] [box=236,94,108,21]: Ghi & giải thích
+            - generic [ref=f5e87] [box=236,122,108,33]: Chuẩn bị cho giờ học
+        - generic [ref=f5e88] [box=34,197,322,1911]:
+          - region "Infographic Thực hành đo chu kì bán rã" [ref=f5e89] [box=47,210,296,1799]:
+            - generic [ref=f5e90] [box=47,210,296,59]:
+              - generic [ref=f5e91] [box=47,210,162,59]: Chạm số trên hình hoặc chọn điểm bên dưới để đọc.
+              - button "Thu gọn hình" [active] [pressed] [ref=f5e145] [cursor=pointer] [box=223,218,120,43]
+            - region "Hình phóng to, cuộn để xem các phần" [ref=f5e146] [box=47,285,296,560]:
+              - generic [ref=f5e94] [box=48,286,1000,583]:
+                - 'img "Thực hành đo chu kì bán rã. Bảng số liệu: Mô hình có N₀ = 800, N(T) = 400, N(2T) = 200. Đọc đồ thị: Đường N(t) giảm theo hàm mũ; không phải đường thẳng. Phân biệt N và H: H = λN có cùng xu hướng giảm khi λ không đổi." [ref=f5e95] [box=48,286,1000,583]'
+                - 'button "Điểm 1: Bảng số liệu" [ref=f5e96] [cursor=pointer] [box=183,451,30,30]': "1"
+                - 'button "Điểm 2: Đọc đồ thị" [pressed] [ref=f5e97] [cursor=pointer] [box=623,539,30,30]': "2"
+                - 'button "Điểm 3: Phân biệt N và H" [ref=f5e98] [cursor=pointer] [box=853,428,30,30]': "3"
+            - generic "Đọc từng điểm trên hình" [ref=f5e99] [box=47,865,296,88]:
+              - button "1. Bảng số liệu" [ref=f5e100] [cursor=pointer] [box=47,865,144,40]
+              - button "2. Đọc đồ thị" [pressed] [ref=f5e101] [cursor=pointer] [box=199,865,144,40]
+              - button "3. Phân biệt N và H" [ref=f5e102] [cursor=pointer] [box=47,913,296,40]
+            - generic [ref=f5e103] [box=47,967,296,220]:
+              - generic [ref=f5e104] [box=63,983,264,85]:
+                - text: Quan sát
+                - paragraph [ref=f5e105] [box=63,1014,264,54]: Đường N(t) giảm theo hàm mũ; không phải đường thẳng.
+              - generic [ref=f5e106] [box=63,1086,264,85]:
+                - text: Giải thích
+                - paragraph [ref=f5e107] [box=63,1117,264,54]: N(t) = N₀·2^(−t/T). λ = ln2/T; T và t phải cùng đơn vị.
+            - group [ref=f5e108] [box=47,1205,296,72]:
+              - generic "Điểm dễ nhầm và giới hạn của hình" [ref=f5e109] [cursor=pointer] [box=68,1217,257,48]
+            - generic [ref=f5e110] [box=47,1301,296,366]:
+              - group "Ban đầu có 800 hạt. Số hạt kì vọng còn lại sau 3T là bao nhiêu?" [ref=f5e111] [box=68,1322,254,214]:
+                - generic [ref=f5e113] [box=68,1379,254,145]:
+                  - generic [ref=f5e114] [cursor=pointer] [box=68,1379,254,43]:
+                    - radio "400" [ref=f5e115] [box=83,1393,16,16]
+                    - generic [ref=f5e116] [box=109,1390,198,21]: "400"
+                  - generic [ref=f5e117] [cursor=pointer] [box=68,1430,254,43]:
+                    - radio "200" [ref=f5e118] [box=83,1444,16,16]
+                    - generic [ref=f5e119] [box=109,1441,198,21]: "200"
+                  - generic [ref=f5e120] [cursor=pointer] [box=68,1481,254,43]:
+                    - radio "100" [ref=f5e121] [box=83,1495,16,16]
+                    - generic [ref=f5e122] [box=109,1492,198,21]: "100"
+              - status [ref=f5e123] [box=68,1536,254,63]: Chưa chọn đáp án. Chọn một nhận định rồi nhấn Kiểm tra nhận định để xem giải thích.
+              - button "Kiểm tra nhận định" [disabled] [ref=f5e124] [cursor=pointer] [box=68,1607,147,39]
+            - group "Tải và xem hình minh họa" [ref=f5e125] [box=47,1687,296,323]:
+              - generic [ref=f5e126] [box=47,1687,296,96]:
+                - link "Tải hình dùng trong bài giảng" [ref=f5e127] [cursor=pointer] [box=47,1687,296,46]:
+                  - /url: /illustrations/B25-diagram.png
+                - paragraph [ref=f5e128] [box=47,1741,296,42]: Ảnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.
+              - generic [ref=f5e129] [box=47,1800,296,96]:
+                - link "Tải hình để chỉnh sửa" [ref=f5e130] [cursor=pointer] [box=47,1800,296,46]:
+                  - /url: /illustrations/B25-diagram.svg
+                - paragraph [ref=f5e131] [box=47,1854,296,42]: Hình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.
+              - generic [ref=f5e132] [box=47,1914,296,96]:
+                - link "Xem hình lớn ↗" [ref=f5e133] [cursor=pointer] [box=47,1914,296,46]:
+                  - /url: /illustrations/B25-diagram.svg
+                - paragraph [ref=f5e134] [box=47,1968,296,42]: Mở hình trong tab mới để đọc rõ chữ và xem các chi tiết.
+          - generic [ref=f5e135] [box=47,2031,296,64]:
+            - generic [ref=f5e136] [box=47,2052,109,18]: Chạm để khám phá
+            - 'button "Tiếp: Thao tác 3D" [ref=f5e137] [cursor=pointer] [box=192,2052,151,43]'
+        - group [ref=f5e138] [box=34,2132,322,84]:
+          - generic "Dùng bài này để dạy học Gợi ý tổ chức, sản phẩm & kế hoạch riêng" [ref=f5e139] [cursor=pointer] [box=51,2149,288,50]:
+            - text: Dùng bài này để dạy học
+            - generic [ref=f5e149] [box=51,2181,288,18]: Gợi ý tổ chức, sản phẩm & kế hoạch riêng
+        - group [ref=f5e140] [box=34,2240,322,58]:
+          - generic "Nguồn học liệu" [ref=f5e141] [cursor=pointer] [box=51,2257,288,24]
+    - complementary "AI hỗ trợ học tập" [ref=f5e142] [box=322,776,56,56]:
+      - button "Mở khung AI học tập" [ref=f5e143] [cursor=pointer] [box=322,776,56,56]: AI
+  - alert [ref=f5e144] [box=-1,2361,1,1]

@@ -1,0 +1,19 @@
+PART word/document.xml
+P0000 Kiểm tra câu đúng sai Vật lí hạt nhân
+P0001 Vật lí 12   Thời gian 15 phút   Mã đề 101   2 điểm
+P0002 Họ và tên .......................................................... Lớp ................
+P0003 Câu 1 (1 điểm)
+P0004 Cho khối lượng của proton, neutron, hạt nhân 2042Ca, hạt nhân 2043Ca lần lượt là mp=1,007276 amu, mn=1,008665 amu, mCa42=41,958622 amu, mCa43=42,958770 amu. Trong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.
+P0005 a) 2043Ca và 2042Ca đều là đồng vị của 2040Ca.   □ Đúng   □ Sai
+P0006 b) Độ hụt khối của 2043Ca lớn hơn độ hụt khối của 2042Ca.   □ Đúng   □ Sai
+P0007 c) Năng lượng liên kết của 2043Ca lớn hơn năng lượng liên kết của 2042Ca một lượng 9,73 MeV.   □ Đúng   □ Sai
+P0008 d) Hạt nhân 2043Ca kém bền vững hơn hạt nhân 2042Ca.   □ Đúng   □ Sai
+P0009 Câu 2 (1 điểm)
+P0010 Trong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.
+P0011 a) Trong phản ứng hạt nhân chỉ có sự bảo toàn điện tích và bảo toàn số khối.   □ Đúng   □ Sai
+P0012 b) Phản ứng nhiệt hạch là nguồn năng lượng của Mặt Trời và các sao.   □ Đúng   □ Sai
+P0013 c) Phản ứng hạt nhân là quá trình biến đổi từ hạt nhân này thành hạt nhân khác, bao gồm phản ứng hạt nhân kích thích và phản ứng hạt nhân tự phát.   □ Đúng   □ Sai
+P0014 d) Trong một phản ứng hạt nhân, luôn cần từ hai hạt tham gia phản ứng trở lên.   □ Đúng   □ Sai
+PART word/footnotes.xml
+PART word/endnotes.xml
+PART word/comments.xml

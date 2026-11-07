@@ -1,0 +1,40 @@
+PASS B21 opens on demand, plays and seeks middle/end in 390px browser {
+  duration: 72,
+  width: 1920,
+  height: 1080,
+  current: [ 36, 71.9 ],
+  track: 'vi',
+  cues: 6
+}
+PASS B22 opens on demand, plays and seeks middle/end in 390px browser {
+  duration: 60,
+  width: 1920,
+  height: 1080,
+  current: [ 30, 59.9 ],
+  track: 'vi',
+  cues: 5
+}
+PASS B23 opens on demand, plays and seeks middle/end in 390px browser {
+  duration: 60,
+  width: 1920,
+  height: 1080,
+  current: [ 30, 59.9 ],
+  track: 'vi',
+  cues: 5
+}
+PASS B24 opens on demand, plays and seeks middle/end in 390px browser {
+  duration: 60,
+  width: 1920,
+  height: 1080,
+  current: [ 30, 59.9 ],
+  track: 'vi',
+  cues: 5
+}
+PASS B25 opens on demand, plays and seeks middle/end in 390px browser {
+  duration: 60,
+  width: 1920,
+  height: 1080,
+  current: [ 30, 59.9 ],
+  track: 'vi',
+  cues: 5
+}

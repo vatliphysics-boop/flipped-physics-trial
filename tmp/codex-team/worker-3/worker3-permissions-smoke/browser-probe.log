@@ -1,0 +1,13 @@
+Worker 3 browser smoke — CHƯA KIỂM CHỨNG
+Action: mcp__team_browser__browser_navigate
+Requested URL: http://localhost:3001/hoc-lieu
+Result: isError=true
+Exact error: Error: async initializeServer: Socket directory path is too long (125 chars); set PWTEST_SOCKETS_DIR to a shorter location.
+URL before: unknown (initialization failed).
+URL after: not verified (navigation did not complete).
+Filter state: not verified; no click performed.
+Screenshot filename requested: smoke-worker3.png; not created.
+Probe stopped after initialization error.
+Actual tests: 1 navigation attempt, 0 completed UI interactions, 0 screenshots.
+Initial log write via shell heredoc failed: zsh:1: can't create temp file for here document: operation not permitted
+No app/DOCX edits, browser launch via shell, auth/secrets/env reads or DB writes.

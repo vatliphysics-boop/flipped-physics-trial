@@ -1,0 +1,27 @@
+Browser tab: 4, Title: "Học liệu số Vật lí hạt nhân 12", URL: "http://localhost:3001/teacher/classes/new".
+1 AXWebArea Học liệu số Vật lí hạt nhân 12, URL: localhost:3001/teacher/classes/new
+	2 link Description: Đi đến nội dung chính, Value: localhost:3001/teacher/classes/new#main-content
+	3 container
+		4 button (collapsed) Description: Mở menu, Secondary Actions: Expand
+		5 link Description: Học liệu Vật lí 12, Value: localhost:3001/teacher
+		6 button Đăng xuất
+	7 container main-content
+		8 container
+			9 container Đường dẫn
+				10 link Description: Lớp học, Value: localhost:3001/teacher/classes
+				11 text › Tạo lớp
+			12 text KHÔNG GIAN GIÁO VIÊN
+			13 heading Tạo lớp học, Value: 1
+				14 text Tạo lớp học
+			15 text Nhập thông tin cơ bản để tạo không gian học tập mới.
+		16 container
+			17 text Tên lớp 
+			18 text field (settable) Tên lớp, ID: name
+			19 container
+				20 text Mô tả  (tùy chọn)
+			21 text entry area (settable) Mô tả (tùy chọn), ID: description
+			22 text Mã tham gia sẽ được tạo tự động sau khi tạo lớp.
+			23 button Tạo lớp học
+			24 link Description: Hủy, Value: localhost:3001/teacher/classes
+
+The focused UI element is 4 button (collapsed) Description: Mở menu, Secondary Actions: Expand

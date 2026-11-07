@@ -1,0 +1,25 @@
+        Nội dung                                                                      Yêu cầu cần đạt
+                               – Nêu được sự phân hạch và sự tổng hợp hạt nhân.
+                               – Thảo luận để đánh giá được vai trò của một số ngành công nghiệp hạt nhân trong đời sống.
+Sự phóng xạ                    – Nêu được bản chất tự phát và ngẫu nhiên của sự phân rã phóng xạ.
+và chu kì bán rã               – Định nghĩa được độ phóng xạ, hằng số phóng xạ và vận dụng được liên hệ H = λN.
+                               – Vận   dụng   được   công  thức x = x        e–t,   với x là   độ phóng   xạ,   số hạt   chưa  phân   rã   hoặc   tốc   độ số hạt
+                                                                            0
+                               đếm được.
+                               – Định nghĩa được chu kì bán rã.
+                               – Mô tả được sơ lược một số tính chất của các phóng xạ α, β và γ.
+                               – Nhận biết được dấu hiệu vị trí có phóng xạ thông qua các biển báo.
+                               – Nêu được các nguyên tắc an toàn phóng xạ; tuân thủ quy tắc an toàn phóng xạ.
+                                                               CÁC CHUYÊN ĐỀ LỚP 12
+
+       Nội dung                                                                       Yêu cầu cần đạt
+Chuyên đề 12.1. Dòng điện xoay chiều
+Các đặc trưng của              – Thảo luận để thiết kế phương án, chọn phương án, thực hiện phương án, đo được (hoặc mô tả được
+dòng điện xoay chiều           phương pháp đo): tần số, điện áp xoay chiều bằng dụng cụ thực hành.
+                               – Nêu   được:    công    suất    toả nhiệt    trung   bình    trên điện    trở thuần    bằng    một    nửa    công   suất   cực    đại    của
+                               dòng điện xoay chiều hình sin (chạy qua điện trở thuần này).
+                               – Mô    tả được     bằng     biểu    thức     đại     số hoặc    đồ thị:     cường     độ dòng điện,     điện     áp    xoay     chiều;     so     sánh
+                               được giá trị hiệu dụng và giá trị cực đại.
+
+
+                                                                                28

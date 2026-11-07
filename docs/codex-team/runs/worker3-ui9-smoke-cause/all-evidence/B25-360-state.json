@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-05T11:55:37.410Z",
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B25",
+  "viewport": [
+    360,
+    800
+  ],
+  "image": {
+    "x": 47,
+    "y": 583.875,
+    "width": 266,
+    "height": 155.15625,
+    "top": 583.875,
+    "right": 313,
+    "bottom": 739.03125,
+    "left": 47
+  },
+  "pins": [
+    {
+      "label": "Điểm 1: Bảng số liệu",
+      "pressed": "true",
+      "rect": {
+        "x": 71.890625,
+        "y": 616.96875,
+        "width": 30,
+        "height": 30,
+        "top": 616.96875,
+        "right": 101.890625,
+        "bottom": 646.96875,
+        "left": 71.890625
+      }
+    },
+    {
+      "label": "Điểm 2: Đọc đồ thị",
+      "pressed": "false",
+      "rect": {
+        "x": 188.9375,
+        "y": 640.234375,
+        "width": 30,
+        "height": 30,
+        "top": 640.234375,
+        "right": 218.9375,
+        "bottom": 670.234375,
+        "left": 188.9375
+      }
+    },
+    {
+      "label": "Điểm 3: Phân biệt N và H",
+      "pressed": "false",
+      "rect": {
+        "x": 250.109375,
+        "y": 610.765625,
+        "width": 30,
+        "height": 30,
+        "top": 610.765625,
+        "right": 280.109375,
+        "bottom": 640.765625,
+        "left": 250.109375
+      }
+    }
+  ]
+}

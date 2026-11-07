@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-05",
+  "source_template": "docs/templates/BAO_KHOA_HOC_DANG_KHOI.docx",
+  "docx_sha256": "1fb8c4375401afe9ada09d34237ee171e2cdc3228681027823bc9d8e8b2c68c5",
+  "pdf_sha256": "4ad9caf6bbbb5a6f100747c06a8fe0e3101df96fa1dcd20f7d59a55de098a4e9",
+  "pages": [
+    {
+      "page": 1,
+      "sha256": "6f85f8c820e5437ed0e2893912940f3a3f0e0aa656f0ae79d878df8d2fe2e3ba",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-1.png"
+    },
+    {
+      "page": 2,
+      "sha256": "eaaef7addc74a095acc73ed55e2a5d0ef8f0904927c642a909b9b37b1fb2844f",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-2.png"
+    },
+    {
+      "page": 3,
+      "sha256": "677890187f90b246fbdeed3113f58b91a2cea00c79c91854d01fddc4db254965",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-3.png"
+    },
+    {
+      "page": 4,
+      "sha256": "cc9618574e32bc8011352ed4f66b6e38c5536e945994e490ac4b2760ca1c7354",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-4.png"
+    },
+    {
+      "page": 5,
+      "sha256": "ae17566010598322137b9326212c274252517acc1ebba57f89c13d4ef7c14da0",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-5.png"
+    },
+    {
+      "page": 6,
+      "sha256": "d6ce5ac35a0862bf07348645e5d53a93211c57d8c2a6aaad93086dd58e8fe058",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-6.png"
+    },
+    {
+      "page": 7,
+      "sha256": "e1a8b885209bc1912ec2bbb33bbeacdc8e45b5bc7896948619d54f5c68743130",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-7.png"
+    },
+    {
+      "page": 8,
+      "sha256": "498c81265482bea80a3ab3b8c8bdad3bc6c8746df92aa07deadbd5e58115cf8d",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-8.png"
+    },
+    {
+      "page": 9,
+      "sha256": "6116e699bfe742d026b73f1ebb60507aedfde6ad30f7e8d53f2a93a7b8176c9f",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-9.png"
+    },
+    {
+      "page": 10,
+      "sha256": "26b87e166b7e30b653e2761bf7cf1678e3e6e2d3b2319586e9b59ffb9b2e154f",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-10.png"
+    },
+    {
+      "page": 11,
+      "sha256": "4325f7a99af59922c59d4fe654397999a4ffaa5974b296fe3cda8ccdeac877fd",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-11.png"
+    },
+    {
+      "page": 12,
+      "sha256": "3d7cccc8505ac470c54522a2472da11190177f967291f2385cb067ed5453e522",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-12.png"
+    },
+    {
+      "page": 13,
+      "sha256": "3674a425d5703562fe3c6956b776005c525748268a0f6daca537187988fd029e",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-13.png"
+    },
+    {
+      "page": 14,
+      "sha256": "3e8c46f2cff1945dd42dd15f764ac66436a8dc00db8745df9999f58753f210e3",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-14.png"
+    },
+    {
+      "page": 15,
+      "sha256": "7fe2ab583c29e762e14fc7461f3bd488f2954180e70c6c8a5159ec30a4243d46",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-15.png"
+    },
+    {
+      "page": 16,
+      "sha256": "e9438bc7059dabe004bddf00c796349029d5a23f4290c8b6a71e04d2aa0f41f9",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-16.png"
+    },
+    {
+      "page": 17,
+      "sha256": "f23af43cd0aa7333dec2b5f96cf96b1cb817a4ff0cda9054114009cab6352d3c",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-17.png"
+    },
+    {
+      "page": 18,
+      "sha256": "9796d8c4fc9f83ae2d90a09b93072bd5eaf5c67514978f013ed03d9ec37e6ca8",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-18.png"
+    },
+    {
+      "page": 19,
+      "sha256": "c0d8f6c935085dd80dac329ba517d11b34174da2b1caa0fa691f303f019602e5",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-19.png"
+    },
+    {
+      "page": 20,
+      "sha256": "3632bc950ddefda831f3564a9d5aedc659a078fe22584e33d959662788fa2db6",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-20.png"
+    },
+    {
+      "page": 21,
+      "sha256": "e36f376cdeb6a871c50d97a43fda0f79880e2aad294aab4d617693673125a489",
+      "visual_review": "previously viewed identical page",
+      "image": "tmp/report-delivery/page-21.png"
+    },
+    {
+      "page": 22,
+      "sha256": "195c0c0c0e9780a579b9bc1a97103a4e6d5cadde4d77238f691fd5c547732ed1",
+      "visual_review": "viewed latest render",
+      "image": "tmp/report-delivery/page-22.png"
+    },
+    {
+      "page": 23,
+      "sha256": "6078bc7898cb409ceec5198121bee96c9c0e4e566ee50d2b6ee4f26b44042036",
+      "visual_review": "viewed latest render",
+      "image": "tmp/report-delivery/page-23.png"
+    },
+    {
+      "page": 24,
+      "sha256": "625ce843f0a77ee65093a49a6001f0a359f57ac5e17bf8c74b45b2afdc2631df",
+      "visual_review": "viewed latest render",
+      "image": "tmp/report-delivery/page-24.png"
+    },
+    {
+      "page": 25,
+      "sha256": "5ac36d58ac9142617007249d54c8fe5c1bd1cbb6546d3ec83a3a8eafe3bf0909",
+      "visual_review": "viewed latest render",
+      "image": "tmp/report-delivery/page-25.png"
+    }
+  ],
+  "figure_count": 24,
+  "reference_count": 20,
+  "passed_software_tests": 58,
+  "visual_findings": "All pages reviewed, figures retain proportions, table 2 fully fits page 22, no clipped text or blank pages. Final page contains the last two references.",
+  "limitations": [
+    "Internal software/design checks only; no classroom effectiveness data.",
+    "New APA/RIS/BibTeX/CSL references are not synchronized with the preserved Mendeley Cite fields.",
+    "Local AI produced a knowledge wording error; teacher review required."
+  ]
+}

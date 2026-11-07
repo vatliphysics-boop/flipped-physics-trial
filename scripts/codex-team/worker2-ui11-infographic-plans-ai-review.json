@@ -1,0 +1,21 @@
+{
+  "id": "worker2-ui11-infographic-plans-ai-review",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 1500,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [
+    "worker2-ui10-public-teacher-review",
+    "worker3-ui10-infographic-auth-fix"
+  ],
+  "context_files": [
+    "docs/codex-team/ui-review/issues.md",
+    "docs/codex-team/ui-review/coverage.md",
+    "docs/codex-team/ui-review/version-ui11.json",
+    "docs/codex-team/ui-review/UI-0100-source-review.md",
+    "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md",
+    "docs/codex-team/runs/worker3-ui10-infographic-auth-fix/detailed-report.md"
+  ],
+  "task": "Tiếp tục review thực tế phần chưa kiểm và xác nhận sửa, cùng Documents localhost3001 bản UI11 trong manifest. CHỈ ĐỌC workspace/source/DOCX/DB, báo cáo+ảnh TMP. Không gọi đây lượt nghiệm thu cuối vì W3 đang quét17 mô phỏng. 1) B25 infographic đủ5viewport1440x9001280x720768x1024390x844360x800; chọn1/2/3 ngoài hình, TabEnter, Phóngto/Arrow pan tới bốn cạnh/Thu gọn; B21–B24 desktop/mobile từngđiểm, khôngcontrol/focusche chữ; mở ảnh BEFORE UI9/root và AFTER thực tế. XétUI0001/5/6 theoacceptance, không mặcđịnhmãđổiđạt. 2) login/register TabArrowSpacevaiHS↔GV, ảnhfocuschecked, khôngsubmitvalid. UI0004. 3) /hoc-lieu/soan-ke-hoach dùng dữliệu giả localdraft B21/B25 mục tiêu/nhiệm vụ dài, chỉnh học liệu phù hợp kếhoạch, các bước kiểm/sửa/xemtrước/xuấtWord nếucó; tảiWord/kiểmziptext/ảnh khônggọiproductionDB. Desktop/mobile+768/360complex, trạngthái thiếu thôngtin cóhướngsửa. 4) /hoc-lieu/ai mởcác chức năng/đổiB21/B25, ngữcảnhhọc/gợiý, drawerAI menuTabEsc, emptyfeedback vàlỗi trựctiếpkhibrowserhỗtrợ; không suy nội dungAIđãtest khi chưa gọi. /hoc-lieu/chuong-trinh chọncả4chương; I–III ngoài học liệuđềtài phải ghi rõ. 5) UI0100 root đãxem ảnhsáchtrang71nguồncũngtrùng B/C; giữbảnchépoptionsnhưnguồn chuyểndraft, loại khỏiunifiedbank212, khôngbịa C. Đọcsource-review; chọnDE-01&DE-02, xempreview/tảixuấtWord xácnhậnkhôngcòn câu21.3vàoptionsphânbiệt; cóthểbiên tậpdraftcâu khácđểtestduplicateerror nhưngkhôngworkspaceDB. 6) UI0007/8 rootbổsung404VI/cácnút đườngtiếptục vàprivate5route→login; mởảnhrootAFTERvàthửlinksTabdesktop/mobile. Tấtcảprivatepayload/auth/ownership/lưu thậtCHƯAKIỂM theoDBpolicy. Mỗiảnh metadata route/state/actualsize/version UI11 not frozen, MỞxemghi rõ, IDs mớiUI-0110+. BrowserMCPđãhoạtđộng trongUI10; nếuChromeheadlesssandboxtừchốiđừnglặpunchanged, dùngMCP/fallbackroot yêu cầucụthể. Sau mỗi nhóm lưu reportdraft+coverageJSON; dừngtrướcdeadline25phútđểreportfinalnêuthật ca chưa kiểm. Không thêmthẩmmỹkhôngtácđộng, giữteacherautonomy. Source scientific/chỉnhlogicrootlo; bạnphảnbiệncó căn cứ. Khôngsecret/model/APIkey/deploy/commit."
+}

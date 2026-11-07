@@ -1,0 +1,21 @@
+{
+  "id": "worker2-ui13-root-fixes-and-tools-retest",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 1800,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [
+    "worker2-ui10-public-teacher-review",
+    "worker2-ui11-infographic-plans-ai-review"
+  ],
+  "context_files": [
+    "docs/codex-team/runs/worker2-ui10-public-teacher-review/detailed-report.md",
+    "docs/codex-team/runs/worker2-ui11-infographic-plans-ai-review/detailed-report.md",
+    "docs/codex-team/ui-review/version-ui13-candidate.json",
+    "docs/codex-team/ui-review/ROOT_UI12_RETEST_BRIEF.md",
+    "docs/codex-team/ui-review/UI-0100-source-review.md",
+    "docs/codex-team/ui-review/issues.json"
+  ],
+  "task": "UI13 candidate code frozen, root/W3 không sửa mã trong lượt review này. Lượt UI11 timeout chỉB25partial không phải lượt cuối. ĐỔI PHƯƠNG ÁN: MCP team_browser đã hoạt động thật UI10; không Chrome shell/SIGABRT nữa; probe navigate+thao tác+ảnh mở trước. Chia nhỏ5nhóm ưu tiên, lưu draft sau từng nhóm rồi final trước30phút: (1) UI0001/5/6 hìnhB21–25 tất cả nút desktop1440/mobile390, B25thêm360/768/1280 fit/zoom/pan theo keyboard, HTMLdisclosure bảng/công thức N,λ,H/t/T/giới hạn; phải mở ảnh actual, không suy từ số nút ngoài SVG. (2) UI0004 registerrole TabArrowSpace 360/390/1440; UI0009 mobilemenu Tab12/ShiftTab/Esc focusrestore, thật sự focus khôngra background; UI0007 URL missing/404 tiếngViệt và các link; UI0008 routeprivate khôngđăngnhập dẫnlogin, không coi làphânquyềnthật. (3) UI0100 ngân hàng212 tổng/72MCQ, chọn lạiDE-01 vàDE-02, khôngcâu SBT21.3 trùng, GVvẫn chỉnh/bổsungđược; source071.jpg đãrootđốichiếugiữtranscriptiondraft; xem preview và tảiWord/kiểm nội dung nếutoolcó. (4) /hoc-lieu/soan-ke-hoach đủtab/wizard theo UI đangcó, editdraft với tên dài códấu, validation, preview/lưulocal/reload/Word; không gửiDB, dữliệu giảghi rõ. (5) /hoc-lieu/ai public: status/error/pending, B25hint với N0=800,N(10s)=400 đểgiữdữkiện/khôngchépvídụH0151; hỏi ngoàiVật líhạt nhân phảihướngtrởlại; mởdrawerEsc vànộidungdài. Ollama đãcómodel/startlocalhost khôngcloud/APIkey. Worker3 đangMCPfocusednhãn/camera/chart, chưa dùnglượtnàynghiệmthu3issue đó. Cần kịch bảncụthể nếu khôngdùngbrowser đểrootthựchiệnvàtrảảnh, khôngtuyênbốđãthử khi chưa. Không mởrộngtấtcả17sim/videoshoặc lặp25phút fullscan. Ghi scope/case/state/viewport/pathảnh/version/căn cứ/hạn chế, mởmọiảnhđược dùngkếtluận. Không tựxem lượtpartiallàhai lượt nghiệmthu cuối; đềxuất checklist cuối thực tế gọn nhưngbaođủphạmvi chưađạt."
+}

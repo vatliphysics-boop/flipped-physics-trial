@@ -1,0 +1,26 @@
+"use client";
+/* eslint-disable @next/next/no-img-element -- Scientific SVGs are native vector learning materials. */
+import { useId, useState } from "react";
+import { getVisualLesson } from "@/lib/visual-learning";
+import { ChoiceCheck } from "@/components/physics/shared";
+import { NuclearHistory } from "./NuclearHistory";
+export function InteractiveInfographic({ code }: { code: string }) {
+  const lesson = getVisualLesson(code);
+  const [active, setActive] = useState(0);
+  const [zoom, setZoom] = useState(false), imageId = useId();
+  const spot = lesson.spots[active];
+  return <section className="interactive-infographic" aria-label={`Infographic ${lesson.title}`}>
+    <div className="infographic-toolbar"><span>Chạm số trên hình hoặc chọn điểm bên dưới để đọc.</span><button className="btn small" aria-pressed={zoom} aria-controls={imageId} onClick={() => setZoom(v => !v)}>{zoom ? "Thu gọn hình" : "Phóng to hình"}</button></div>
+    <div id={imageId} className={`infographic-viewport ${zoom ? "is-zoomed" : ""}`} tabIndex={zoom ? 0 : undefined} role="region" aria-label={zoom ? "Hình phóng to, cuộn để xem các phần" : "Hình tổng quan"}><div className="infographic-image"><img src={`/illustrations/${lesson.code}-diagram.svg`} alt={`${lesson.title}. ${lesson.spots.map(s => `${s.title}: ${s.observe}`).join(" ")}`} />{lesson.spots.map((s, i) => <button className={`infographic-pin ${active === i ? "is-active" : ""}`} style={{ left: `${s.x}%`, top: `${s.y}%` }} aria-label={`Điểm ${i+1}: ${s.title}`} aria-pressed={active === i} key={s.title} onClick={() => setActive(i)}>{i + 1}</button>)}</div></div>
+    <div className="infographic-tabs" aria-label="Đọc từng điểm trên hình">{lesson.spots.map((s, i) => <button key={s.title} className={active === i ? "is-active" : ""} aria-pressed={active === i} onClick={() => setActive(i)}>{i + 1}. {s.title}</button>)}</div>
+    <div className="infographic-explanation" aria-live="polite"><div><small>Quan sát</small><p>{spot.observe}</p></div><div><small>Giải thích</small><p>{spot.explain}</p></div></div>
+    <details className="visual-detail"><summary>Điểm dễ nhầm và giới hạn của hình</summary><p>{lesson.misconception}</p></details>
+    <ChoiceCheck question={lesson.question.prompt} options={lesson.question.options} correctIndex={lesson.question.answer} explanation={lesson.question.explanation} />
+    {lesson.code === "B21" && <NuclearHistory />}
+    <div className="infographic-file-actions" role="group" aria-label="Tải và xem hình minh họa">
+      <div><a href={`/illustrations/${lesson.code}-diagram.png`} download={`${lesson.code}-infographic.png`} className="btn small" aria-describedby={`${imageId}-png-help`}>Tải hình dùng trong bài giảng</a><p id={`${imageId}-png-help`}>Ảnh PNG để chèn vào PowerPoint, Word hoặc in phiếu học tập.</p></div>
+      <div><a href={`/illustrations/${lesson.code}-diagram.svg`} download={`${lesson.code}-infographic.svg`} className="btn small" aria-describedby={`${imageId}-svg-help`}>Tải hình để chỉnh sửa</a><p id={`${imageId}-svg-help`}>Hình SVG có thể phóng lớn mà vẫn nét. Cần phần mềm hỗ trợ SVG để chỉnh sửa.</p></div>
+      <div><a href={`/illustrations/${lesson.code}-diagram.svg`} target="_blank" rel="noreferrer" className="btn small" aria-describedby={`${imageId}-view-help`}>Xem hình lớn ↗</a><p id={`${imageId}-view-help`}>Mở hình trong tab mới để đọc rõ chữ và xem các chi tiết.</p></div>
+    </div>
+  </section>;
+}

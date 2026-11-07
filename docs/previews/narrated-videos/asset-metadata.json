@@ -1,0 +1,873 @@
+{
+  "B21": {
+    "mp4Sha256": "03d5033a08c06003b9e58801fdd778d797dd2dcdb75dc0517cb52ce651e58a82",
+    "mp4Bytes": 4664141,
+    "mediaPath": "public/videos/nuclear-lessons/b21.mp4",
+    "metadata": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "frames": 2694,
+      "seconds": 89.8,
+      "bytes": 4664141,
+      "renderedMotionFrames": 829,
+      "capturedFrames": 843,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSeconds": 0,
+        "durationSeconds": 89.8
+      },
+      "scenes": [
+        {
+          "sceneIndex": 0,
+          "from": 0,
+          "durationFrames": 563,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 251,
+              "text": "Hai hạt alpha cùng có động năng xa tâm 8 MeV. Ta chỉ đổi tham số va chạm."
+            },
+            {
+              "from": 269,
+              "duration": 270,
+              "text": "Đường tới A cách tâm vàng 90 fm. Đường tới B cách 10 fm. Em dự đoán hạt nào lệch nhiều hơn?"
+            }
+          ]
+        },
+        {
+          "sceneIndex": 1,
+          "from": 563,
+          "durationFrames": 369,
+          "motionFrames": 339,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 174,
+              "text": "Theo dõi lượt A. Lực đẩy điện làm đường đi của hạt alpha cong dần."
+            },
+            {
+              "from": 192,
+              "duration": 153,
+              "text": "Góc lệch là góc giữa hướng tới và hướng đi khi hạt ở xa tâm."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "from": 932,
+          "durationFrames": 407,
+          "motionFrames": 234,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 215,
+              "text": "Giữ cùng động năng và cùng đồng hồ. Hạt ở lượt B đi gần tâm vàng hơn và lệch mạnh hơn."
+            },
+            {
+              "from": 233,
+              "duration": 150,
+              "text": "Góc lệch của A khoảng 18 độ, của B khoảng 110 độ."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 3,
+          "from": 1339,
+          "durationFrames": 422,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 158,
+              "text": "Tán xạ góc lớn cho thấy điện tích dương tập trung trong một vùng nhỏ."
+            },
+            {
+              "from": 176,
+              "duration": 222,
+              "text": "A đếm nucleon, Z đếm proton. Số neutron N bằng A trừ Z."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 4,
+          "from": 1761,
+          "durationFrames": 439,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 227,
+              "text": "Carbon-12 và carbon-13 đều có 6 proton. Carbon-13 có thêm 1 neutron."
+            },
+            {
+              "from": 245,
+              "duration": 170,
+              "text": "Màu và vị trí của các quả cầu chỉ là quy ước để quan sát cấu tạo."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 5,
+          "from": 2200,
+          "durationFrames": 494,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 239,
+              "text": "Hai lượt minh họa không cho biết tần suất tán xạ. Trong thí nghiệm lá vàng, rất ít hạt lệch góc lớn."
+            },
+            {
+              "from": 257,
+              "duration": 213,
+              "text": "Tự kiểm tra. Carbon-14 có 6 proton. Lấy 14 trừ 6 được 8 neutron."
+            }
+          ]
+        }
+      ]
+    },
+    "independentFrames": {
+      "sha256": "03d5033a08c06003b9e58801fdd778d797dd2dcdb75dc0517cb52ce651e58a82",
+      "bytes": 4664141,
+      "frameIndices": [
+        0,
+        268,
+        269,
+        270,
+        562,
+        563,
+        732,
+        754,
+        755,
+        756,
+        931,
+        932,
+        1049,
+        1164,
+        1165,
+        1166,
+        1338,
+        1339,
+        1347,
+        1371,
+        1514,
+        1515,
+        1516,
+        1760,
+        1761,
+        1793,
+        2005,
+        2006,
+        2007,
+        2199,
+        2200,
+        2232,
+        2456,
+        2457,
+        2458,
+        2693
+      ],
+      "overviewSamples": [
+        [
+          "Đầu",
+          0
+        ],
+        [
+          "Giữa",
+          1347
+        ],
+        [
+          "Cuối",
+          2693
+        ]
+      ],
+      "overviewSheet": "b21-overview-transitions.jpg"
+    },
+    "vi.vttSha256": "129482a106f8029f272fd2efd28011b2bdbc8ac8516a9505a4e314fa641eda96",
+    "jpgSha256": "e8d38683699596f096fc294d8b4182182da04ce06978f8797d1a2d579b64dfc4"
+  },
+  "B22": {
+    "mp4Sha256": "3e76c5e71595a710b562298f2a500f80cc3b6075fb896bae641d1af06c5b5e66",
+    "mp4Bytes": 3790638,
+    "mediaPath": "public/videos/nuclear-lessons/b22.mp4",
+    "metadata": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "frames": 2256,
+      "seconds": 75.2,
+      "bytes": 3790638,
+      "renderedMotionFrames": 485,
+      "capturedFrames": 498,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSeconds": 0,
+        "durationSeconds": 75.2
+      },
+      "scenes": [
+        {
+          "sceneIndex": 0,
+          "from": 0,
+          "durationFrames": 439,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 146,
+              "text": "Hạt nhân liên kết nhẹ hơn tổng khối lượng các nucleon tự do."
+            },
+            {
+              "from": 164,
+              "duration": 251,
+              "text": "Lấy độ hụt khối nhân bình phương tốc độ ánh sáng. Chia tiếp cho số nucleon để tính năng lượng liên kết riêng."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 1,
+          "from": 439,
+          "durationFrames": 448,
+          "motionFrames": 229,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 210,
+              "text": "Một neutron tới bị uranium-235 hấp thụ. Hạt nhân kích thích biến dạng rồi tách."
+            },
+            {
+              "from": 228,
+              "duration": 196,
+              "text": "Kênh minh họa cho yttri-95, iốt-138 và 3 neutron."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "from": 887,
+          "durationFrames": 386,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 172,
+              "text": "Bây giờ giữ nguyên uranium-235, nhưng bỏ neutron tới."
+            },
+            {
+              "from": 190,
+              "duration": 172,
+              "text": "Không có tác nhân kích phát, kênh phân hạch cảm ứng vừa xét chưa khởi phát."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 3,
+          "from": 1273,
+          "durationFrames": 518,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 220,
+              "text": "Mỗi vế có 236 nucleon và tổng điện tích bằng 92 lần điện tích nguyên tố."
+            },
+            {
+              "from": 238,
+              "duration": 256,
+              "text": "Khối lượng giảm. Từ chênh lệch khối lượng, kênh này tỏa xấp xỉ 178 MeV."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 4,
+          "from": 1791,
+          "durationFrames": 465,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 198,
+              "text": "Trong phản ứng tổng hợp, đơteri và triti tạo helium-4 và một neutron."
+            },
+            {
+              "from": 216,
+              "duration": 225,
+              "text": "Em hãy kiểm tra: mỗi vế có 5 nucleon và tổng điện tích bằng 2 lần điện tích nguyên tố."
+            }
+          ]
+        }
+      ]
+    },
+    "independentFrames": {
+      "sha256": "3e76c5e71595a710b562298f2a500f80cc3b6075fb896bae641d1af06c5b5e66",
+      "bytes": 3790638,
+      "frameIndices": [
+        0,
+        163,
+        164,
+        165,
+        438,
+        439,
+        553,
+        666,
+        667,
+        668,
+        886,
+        887,
+        919,
+        1076,
+        1077,
+        1078,
+        1128,
+        1272,
+        1273,
+        1305,
+        1510,
+        1511,
+        1512,
+        1790,
+        1791,
+        1823,
+        2006,
+        2007,
+        2008,
+        2255
+      ],
+      "overviewSamples": [
+        [
+          "Đầu",
+          0
+        ],
+        [
+          "Giữa",
+          1128
+        ],
+        [
+          "Cuối",
+          2255
+        ]
+      ],
+      "overviewSheet": "b22-overview-transitions.jpg"
+    },
+    "vi.vttSha256": "311eedc6be10ee2551ff21c117b28ee8d52fba0ecb9cb589cd819cd21175da4b",
+    "jpgSha256": "5b3fcd0428e9211b1389093658ebbfc6c12e1b45f760489b109f457df652e7e3"
+  },
+  "B23": {
+    "mp4Sha256": "c1ab2dd25af0ca762e5dd779daee32634727250119dc2e38af195cae1604cb71",
+    "mp4Bytes": 4794203,
+    "mediaPath": "public/videos/nuclear-lessons/b23.mp4",
+    "metadata": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "frames": 2812,
+      "seconds": 93.733333,
+      "bytes": 4794203,
+      "renderedMotionFrames": 828,
+      "capturedFrames": 841,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSeconds": 0,
+        "durationSeconds": 93.733
+      },
+      "scenes": [
+        {
+          "sceneIndex": 0,
+          "from": 0,
+          "durationFrames": 537,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 244,
+              "text": "N₀ là số hạt ban đầu. N(t) là số hạt mẹ còn lại theo kì vọng ở thời điểm t."
+            },
+            {
+              "from": 262,
+              "duration": 251,
+              "text": "T là chu kì bán rã. Hai lượt dùng cùng 64 hạt và cùng bộ số ngẫu nhiên, chỉ đổi T."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 1,
+          "from": 537,
+          "durationFrames": 456,
+          "motionFrames": 426,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 196,
+              "text": "Lượt A có chu kì 20 giây. Mỗi chấm mờ đi khi một hạt nhân mẹ phân rã."
+            },
+            {
+              "from": 214,
+              "duration": 218,
+              "text": "Thời điểm phân rã của từng hạt là ngẫu nhiên. Ta theo dõi số hạt còn lại của cả mẫu."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "from": 993,
+          "durationFrames": 460,
+          "motionFrames": 210,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 191,
+              "text": "Lượt B có chu kì 40 giây. Ta đọc hai mẫu ở cùng mốc 40 giây."
+            },
+            {
+              "from": 209,
+              "duration": 227,
+              "text": "Lượt A còn 20 hạt, lượt B còn 35 hạt. Đây là hai kết quả mô phỏng cụ thể."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 3,
+          "from": 1453,
+          "durationFrames": 886,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 290,
+              "text": "Ở mốc 40 giây, hai giá trị kì vọng là 16 và 32 hạt. Kết quả một lượt có thể lệch khỏi kì vọng."
+            },
+            {
+              "from": 308,
+              "duration": 326,
+              "text": "Hằng số phóng xạ λ bằng ln 2 chia chu kì T. Độ phóng xạ bằng λ nhân số hạt mẹ còn lại."
+            },
+            {
+              "from": 637,
+              "duration": 225,
+              "text": "H(t) là độ phóng xạ ở thời điểm t. Một becquerel tương ứng một phân rã mỗi giây."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 4,
+          "from": 2339,
+          "durationFrames": 473,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 182,
+              "text": "Sau hai chu kì, em dự đoán còn bao nhiêu phần số hạt ban đầu theo kì vọng?"
+            },
+            {
+              "from": 200,
+              "duration": 249,
+              "text": "Còn một phần tư. Để giảm nguy cơ chiếu xạ, giảm thời gian, tăng khoảng cách và dùng che chắn phù hợp."
+            }
+          ]
+        }
+      ]
+    },
+    "independentFrames": {
+      "sha256": "c1ab2dd25af0ca762e5dd779daee32634727250119dc2e38af195cae1604cb71",
+      "bytes": 4794203,
+      "frameIndices": [
+        0,
+        261,
+        262,
+        263,
+        536,
+        537,
+        750,
+        751,
+        752,
+        992,
+        993,
+        1098,
+        1201,
+        1202,
+        1203,
+        1406,
+        1452,
+        1453,
+        1485,
+        1760,
+        1761,
+        1762,
+        2089,
+        2090,
+        2091,
+        2338,
+        2339,
+        2371,
+        2538,
+        2539,
+        2540,
+        2811
+      ],
+      "overviewSamples": [
+        [
+          "Đầu",
+          0
+        ],
+        [
+          "Giữa",
+          1406
+        ],
+        [
+          "Cuối",
+          2811
+        ]
+      ],
+      "overviewSheet": "b23-overview-transitions.jpg"
+    },
+    "vi.vttSha256": "6cc9b42b9605b4a8b2904271644148516e260643644d57bf347e43b59c162452",
+    "jpgSha256": "942edab60fa2f7dc9186b014fd96b3ebb3f7929958b6a3c0aefc0fc68b01c203"
+  },
+  "B24": {
+    "mp4Sha256": "ac60f3904431fda14c25f3fdef0afd4702613f2d74236e4ee7e882f3d3c7c3f4",
+    "mp4Bytes": 3879423,
+    "mediaPath": "public/videos/nuclear-lessons/b24.mp4",
+    "metadata": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "frames": 2159,
+      "seconds": 71.966667,
+      "bytes": 3879423,
+      "renderedMotionFrames": 1122,
+      "capturedFrames": 1131,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSeconds": 0,
+        "durationSeconds": 71.966
+      },
+      "scenes": [
+        {
+          "sceneIndex": 0,
+          "from": 0,
+          "durationFrames": 394,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 182,
+              "text": "Thanh điều khiển hấp thụ neutron. Ta chọn ba mức cắm khác nhau trong mô hình."
+            },
+            {
+              "from": 200,
+              "duration": 170,
+              "text": "Thang phần trăm là quy ước. Không suy vị trí vận hành lò thật từ thang này."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 1,
+          "from": 394,
+          "durationFrames": 367,
+          "motionFrames": 337,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 203,
+              "text": "Rút thanh ở mức quy ước bằng không. Chỉ số bắt đầu ở 1 và tăng theo các thế hệ."
+            },
+            {
+              "from": 221,
+              "duration": 122,
+              "text": "Trong lượt này, hệ số nhân k lớn hơn 1."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "from": 761,
+          "durationFrames": 484,
+          "motionFrames": 234,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 215,
+              "text": "So sánh ba mức cắm. Hệ số nhân lần lượt là 1,4; 1 và 0,6."
+            },
+            {
+              "from": 233,
+              "duration": 227,
+              "text": "Chỉ số ở thế hệ thứ tư cho thấy xu hướng tăng, giữ nguyên và giảm. Đây là mô hình định tính."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 3,
+          "from": 1245,
+          "durationFrames": 453,
+          "motionFrames": 423,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 220,
+              "text": "Trong lò nước áp lực, vòng sơ cấp truyền nhiệt ở bộ sinh hơi. Hai dòng nước không trộn lẫn."
+            },
+            {
+              "from": 238,
+              "duration": 191,
+              "text": "Hơi thứ cấp quay tua-bin kéo máy phát. Hơi sau tua-bin được làm nguội ở bình ngưng."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 4,
+          "from": 1698,
+          "durationFrames": 461,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 213,
+              "text": "Hãy phân biệt hai chức năng. Thanh điều khiển hấp thụ neutron. Bộ sinh hơi trao đổi nhiệt."
+            },
+            {
+              "from": 231,
+              "duration": 206,
+              "text": "Trong ứng dụng khác, bức xạ còn hỗ trợ y học, sinh học và bảo quản thực phẩm."
+            }
+          ]
+        }
+      ]
+    },
+    "independentFrames": {
+      "sha256": "ac60f3904431fda14c25f3fdef0afd4702613f2d74236e4ee7e882f3d3c7c3f4",
+      "bytes": 3879423,
+      "frameIndices": [
+        0,
+        199,
+        200,
+        201,
+        393,
+        394,
+        562,
+        614,
+        615,
+        616,
+        760,
+        761,
+        878,
+        993,
+        994,
+        995,
+        1079,
+        1244,
+        1245,
+        1456,
+        1482,
+        1483,
+        1484,
+        1697,
+        1698,
+        1730,
+        1928,
+        1929,
+        1930,
+        2158
+      ],
+      "overviewSamples": [
+        [
+          "Đầu",
+          0
+        ],
+        [
+          "Giữa",
+          1079
+        ],
+        [
+          "Cuối",
+          2158
+        ]
+      ],
+      "overviewSheet": "b24-overview-transitions.jpg"
+    },
+    "vi.vttSha256": "4d9957a8fc121ae89141dbc4b8a1ed5cd5f96b24422616d7a7b5b2e6e50c31b0",
+    "jpgSha256": "362904c201f1d94ef11a03be7927321b82c2a50d97fb424accb46d1cf8213a80"
+  },
+  "B25": {
+    "mp4Sha256": "6417f6608f08c65d9edc0ca30bd943991001ebe55bf6e9175405421a438eccd1",
+    "mp4Bytes": 4269159,
+    "mediaPath": "public/videos/nuclear-lessons/b25.mp4",
+    "metadata": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "frames": 2287,
+      "seconds": 76.233333,
+      "bytes": 4269159,
+      "renderedMotionFrames": 952,
+      "capturedFrames": 963,
+      "audio": {
+        "codec": "aac",
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSeconds": 0,
+        "durationSeconds": 76.233
+      },
+      "scenes": [
+        {
+          "sceneIndex": 0,
+          "from": 0,
+          "durationFrames": 474,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 294,
+              "text": "Bảng 25.1 cho độ phóng xạ ban đầu 151 Bq. Một nửa là 75,5 Bq."
+            },
+            {
+              "from": 312,
+              "duration": 138,
+              "text": "Em hãy tìm hai mốc đo nằm hai bên mức nửa ban đầu."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 1,
+          "from": 474,
+          "durationFrames": 434,
+          "motionFrames": 404,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 203,
+              "text": "Giữ độ phóng xạ ban đầu. Thử chu kì 40 giây và theo dõi đường lí thuyết."
+            },
+            {
+              "from": 221,
+              "duration": 189,
+              "text": "Các chấm đánh dấu số liệu SGK, được giữ nguyên khi ta đổi chu kì thử."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "from": 908,
+          "durationFrames": 386,
+          "motionFrames": 356,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 208,
+              "text": "Thử tiếp chu kì 60 giây. Đường này giảm chậm hơn đường ứng với chu kì 40 giây."
+            },
+            {
+              "from": 226,
+              "duration": 136,
+              "text": "Đặt hai đường cùng trục để so sánh tại cùng một thời điểm."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 3,
+          "from": 1294,
+          "durationFrames": 580,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 359,
+              "text": "Tại 30 giây, hai dự báo khoảng 89,8 và 106,8 Bq. Số liệu SGK tại đó là 85 Bq."
+            },
+            {
+              "from": 377,
+              "duration": 179,
+              "text": "Nội suy tuyến tính giữa hai điểm kẹp mức nửa cho khoảng 39,5 giây."
+            }
+          ]
+        },
+        {
+          "sceneIndex": 4,
+          "from": 1874,
+          "durationFrames": 413,
+          "motionFrames": 64,
+          "cues": [
+            {
+              "from": 15,
+              "duration": 153,
+              "text": "Em hãy giải thích vì sao đường lí thuyết có thể lệch khỏi số liệu trong bảng."
+            },
+            {
+              "from": 171,
+              "duration": 218,
+              "text": "Khi nộp bài, ghi rõ cách ước lượng chu kì và tách kết quả ấy khỏi hai giả thuyết đã thử."
+            }
+          ]
+        }
+      ]
+    },
+    "independentFrames": {
+      "sha256": "6417f6608f08c65d9edc0ca30bd943991001ebe55bf6e9175405421a438eccd1",
+      "bytes": 4269159,
+      "frameIndices": [
+        0,
+        311,
+        312,
+        313,
+        473,
+        474,
+        676,
+        694,
+        695,
+        696,
+        907,
+        908,
+        1086,
+        1133,
+        1134,
+        1135,
+        1143,
+        1293,
+        1294,
+        1326,
+        1670,
+        1671,
+        1672,
+        1873,
+        1874,
+        1906,
+        2044,
+        2045,
+        2046,
+        2286
+      ],
+      "overviewSamples": [
+        [
+          "Đầu",
+          0
+        ],
+        [
+          "Giữa",
+          1143
+        ],
+        [
+          "Cuối",
+          2286
+        ]
+      ],
+      "overviewSheet": "b25-overview-transitions.jpg"
+    },
+    "vi.vttSha256": "63d99dcd2119678692c9caf14c4ff29e9a11f7182ebbe5c33b8f087b41a5f697",
+    "jpgSha256": "e4b7bcd3da6edcc98ad70d1e3bb3c1d9b4cc40ebff50a447a371ce32c0b56681"
+  }
+}

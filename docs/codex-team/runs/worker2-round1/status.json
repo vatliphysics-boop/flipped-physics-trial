@@ -1,0 +1,21 @@
+{
+  "id": "worker2-round1",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T08:04:03.236Z",
+  "status": "BLOCKED_CONFIG",
+  "session_ids": [],
+  "exit_code": 1,
+  "allowed_files": [],
+  "timeout_seconds": 1200,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "pid": 25434,
+  "end": "2026-10-05T08:04:52.635Z",
+  "error": "Quoted config key interpreted literally; corrected to TOML inline table; runner EPIPE handler added."
+}

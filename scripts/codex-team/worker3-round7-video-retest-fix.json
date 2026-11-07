@@ -1,0 +1,63 @@
+{
+  "id": "worker3-round7-video-retest-fix",
+  "worker": 3,
+  "mode": "fix",
+  "timeout_seconds": 900,
+  "browser_mcp": true,
+  "allowed_files": [
+    "src/lib/visual-learning.ts"
+  ],
+  "browser_origins": [
+    "https://www.youtube.com",
+    "https://www.youtube-nocookie.com",
+    "https://i.ytimg.com",
+    "https://fonts.gstatic.com",
+    "https://rr1---sn-8qj-nbo6d.googlevideo.com",
+    "https://rr1---sn-q4flrnl6.googlevideo.com",
+    "https://rr2---sn-8qj-i5ody.googlevideo.com",
+    "https://rr2---sn-8qj-nbo6d.googlevideo.com",
+    "https://rr2---sn-q4fzen7l.googlevideo.com",
+    "https://rr3---sn-hgn7rnee.googlevideo.com",
+    "https://rr3---sn-q4flrnez.googlevideo.com",
+    "https://rr3---sn-t0a7lnee.googlevideo.com",
+    "https://rr4---sn-8qj-i5ody.googlevideo.com",
+    "https://rr4---sn-8qj-i5oks.googlevideo.com",
+    "https://rr5---sn-8qj-i5ok6.googlevideo.com",
+    "https://rr6---sn-8qj-i5o6d.googlevideo.com",
+    "https://rr6---sn-8qj-nboey.googlevideo.com",
+    "https://rr7---sn-8qj-nboey.googlevideo.com",
+    "https://rr8---sn-8qj-i5o66.googlevideo.com",
+    "https://www.gstatic.com",
+    "https://yt3.ggpht.com"
+  ],
+  "allowed_domains": [
+    "www.youtube.com",
+    "www.youtube-nocookie.com",
+    "i.ytimg.com",
+    "fonts.gstatic.com",
+    "rr1---sn-8qj-nbo6d.googlevideo.com",
+    "rr1---sn-q4flrnl6.googlevideo.com",
+    "rr2---sn-8qj-i5ody.googlevideo.com",
+    "rr2---sn-8qj-nbo6d.googlevideo.com",
+    "rr2---sn-q4fzen7l.googlevideo.com",
+    "rr3---sn-hgn7rnee.googlevideo.com",
+    "rr3---sn-q4flrnez.googlevideo.com",
+    "rr3---sn-t0a7lnee.googlevideo.com",
+    "rr4---sn-8qj-i5ody.googlevideo.com",
+    "rr4---sn-8qj-i5oks.googlevideo.com",
+    "rr5---sn-8qj-i5ok6.googlevideo.com",
+    "rr6---sn-8qj-i5o6d.googlevideo.com",
+    "rr6---sn-8qj-nboey.googlevideo.com",
+    "rr7---sn-8qj-nboey.googlevideo.com",
+    "rr8---sn-8qj-i5o66.googlevideo.com",
+    "www.gstatic.com",
+    "yt3.ggpht.com"
+  ],
+  "previous_runs": [
+    "worker3-round6-video-review"
+  ],
+  "context_files": [
+    "docs/codex-team/runs/worker3-round6-video-review/detailed-report.md"
+  ],
+  "task": "Chỉ sửa videoTitle B24 trong src/lib/visual-learning.ts thành chính xác \"Những vấn đề của năng lượng hạt nhân — M. V. Ramana và Sajan Saini\" theo tên nguồn đã nhìn thấy. Root đã sửa src/data/nuclear-learning.json cùng nhãn, không sửa file này. Giữ videoId và nội dung khoa học. Đọc guide Next liên quan trước code. Lượt này origins media là các host công khai thực tế từ log vòng6 đã được trưởng nhóm bổ sung, không dùng profile người thật. Dùng browser MCP thử lại B21–B25: click Play thật, xác nhận thời gian tăng/hình động, pause giữ thời gian, tiếp tục phát. Lưu 2 snapshot thể hiện thời gian và PNG cho mỗi ca, xem ảnh. Chỉ cần 10–20 giây phát mỗi video; không tuyên bố xem toàn bộ nếu chưa xem. B24 đối chiếu tên UI/fallback. Kiểm tra phụ đề/ngôn ngữ và nhiệm vụ tiếng Việt, không nói có phụ đề Việt nếu chưa có. Một ca mobile390. Viết report.md trong TMP ngay từ đầu rồi cập nhật sau từng ca. Nếu host mới bị chặn ghi hostname không in URL query/IP; không vô hiệu hóa giới hạn toàn bộ. Không DB/DOCX, không cài Chrome, không nhận terms/login/CAPTCHA. Report rõ phần thực sự dùng thử và phần chưa kiểm chứng. Root đã thấy B22 phát tới2:58/2:58 trên IAB; đây chỉ là bằng chứng trưởng nhóm, lượt này cần bằng chứng worker riêng."
+}

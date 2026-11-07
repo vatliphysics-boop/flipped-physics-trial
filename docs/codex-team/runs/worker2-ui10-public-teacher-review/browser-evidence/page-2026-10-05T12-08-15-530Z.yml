@@ -1,0 +1,82 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e2]:
+    - link "Đi đến nội dung chính" [ref=f13e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f13e4]:
+      - generic [ref=f13e5]:
+        - button "Ẩn menu" [expanded] [ref=f13e6] [cursor=pointer]:
+          - generic [ref=f13e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f13e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f13e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - generic [ref=f13e11]:
+      - complementary "Thanh điều hướng" [ref=f13e12]:
+        - navigation "Điều hướng chính" [ref=f13e13]:
+          - link "Tổng quan" [ref=f13e14] [cursor=pointer]:
+            - /url: /teacher
+          - link "Lớp học" [ref=f13e15] [cursor=pointer]:
+            - /url: /teacher/classes
+          - button "Chương trình Vật lí 12" [ref=f13e17] [cursor=pointer]:
+            - text: Chương trình Vật lí 12
+            - generic [ref=f13e18]: ▼
+          - button "Học liệu" [ref=f13e20] [cursor=pointer]:
+            - text: Học liệu
+            - generic [ref=f13e21]: ▼
+          - link "Kế hoạch dạy học của tôi" [ref=f13e22] [cursor=pointer]:
+            - /url: /teacher/plans
+          - link "Không gian giáo viên" [ref=f13e23] [cursor=pointer]:
+            - /url: /hoc-lieu/ai-giao-vien
+          - link "Học sinh và kết quả" [ref=f13e24] [cursor=pointer]:
+            - /url: /teacher/students
+      - main [ref=f13e25]:
+        - generic [ref=f13e27]:
+          - paragraph [ref=f13e28]: "Chương 4: Vật lí hạt nhân · B21–B25"
+          - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f13e29]
+          - paragraph [ref=f13e30]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+        - generic [ref=f13e31]:
+          - group "Công việc của giáo viên" [ref=f13e32]:
+            - button "Ngân hàng đề" [pressed] [ref=f13e33] [cursor=pointer]
+            - button "Phiếu học tập ba pha" [ref=f13e34] [cursor=pointer]
+            - button "Chuẩn bị giờ học" [ref=f13e35] [cursor=pointer]
+          - generic [ref=f13e37]:
+            - heading "Ngân hàng đề Chương 4 Vật lí hạt nhân" [level=2] [ref=f13e38]
+            - paragraph [ref=f13e39]: Câu hỏi được biên soạn từ ba sách đã cung cấp, giữ yêu cầu và dữ kiện của bài gốc. Nhãn Bloom thể hiện thao tác nhận thức cần thực hiện. Các câu hỏi dùng chung một ngân hàng. Nội dung dạng chữ, công thức LaTeX. Khi xuất Word, công thức chuyển thành Equation có thể chỉnh sửa.
+            - navigation "Năm mục ngân hàng đề" [ref=f13e40]:
+              - button "Ngân hàng đề trắc nghiệm" [pressed] [ref=f13e41] [cursor=pointer]
+              - button "Ngân hàng đề đúng sai" [ref=f13e42] [cursor=pointer]
+              - button "Ngân hàng đề trả lời ngắn" [ref=f13e43] [cursor=pointer]
+              - button "Ngân hàng đề tự luận" [ref=f13e44] [cursor=pointer]
+              - button "Up ma trận đề và xuất ra đề file Word" [ref=f13e45] [cursor=pointer]
+            - status
+            - paragraph [ref=f13e46]: Đang tải ngân hàng…
+            - generic [ref=f13e47]:
+              - generic [ref=f13e48]:
+                - text: Chương
+                - combobox "Chương" [ref=f13e49]:
+                  - option "Tất cả câu đã nhập"
+                  - option "Vật lí nhiệt"
+                  - option "Khí lí tưởng"
+                  - option "Từ trường"
+                  - option "Vật lí hạt nhân" [selected]
+              - generic [ref=f13e50]:
+                - text: Bài/chủ đề
+                - combobox "Bài/chủ đề" [ref=f13e51]:
+                  - option "Tất cả" [selected]
+              - generic [ref=f13e52]:
+                - text: Tình trạng
+                - combobox "Tình trạng" [ref=f13e53]:
+                  - option "Tất cả" [selected]
+                  - option "Đã biên soạn"
+                  - option "Chờ kiểm tra"
+              - generic [ref=f13e54]:
+                - text: Tìm câu hỏi
+                - textbox "Tìm câu hỏi" [ref=f13e55]:
+                  - /placeholder: Nội dung câu hỏi
+            - paragraph [ref=f13e56]: 0 câu · 0 đã biên soạn
+            - generic [ref=f13e57]:
+              - button "Trang trước" [disabled] [ref=f13e58] [cursor=pointer]
+              - generic [ref=f13e59]: Trang 1/1
+              - button "Trang sau" [disabled] [ref=f13e60] [cursor=pointer]
+              - button "Tải bản biên soạn" [ref=f13e61] [cursor=pointer]
+  - alert [ref=f13e62]

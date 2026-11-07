@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "midterm-a",
+    "title": "Đề giữa kỳ · Mã A · Vật lí hạt nhân",
+    "kind": "midterm",
+    "durationMinutes": 45,
+    "scope": [
+      "B21",
+      "B22",
+      "B23"
+    ],
+    "instructions": "Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.",
+    "questions": [
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Nhận biết",
+        "prompt": "Hạt nhân X có A = 23, Z = 11. Số neutron là bao nhiêu?",
+        "options": [
+          "11",
+          "12",
+          "23",
+          "34"
+        ],
+        "answer": 1,
+        "explanation": "N = A − Z = 12.",
+        "points": 0.4,
+        "id": "midterm-a-1"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Hai hạt nhân là đồng vị của cùng nguyên tố khi có:",
+        "options": [
+          "Cùng A, khác Z",
+          "Cùng N, khác Z",
+          "Cùng Z, khác N",
+          "Cùng khối lượng chính xác"
+        ],
+        "answer": 2,
+        "explanation": "Đồng vị có cùng số proton Z và khác số neutron N.",
+        "points": 0.4,
+        "id": "midterm-a-2"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Một số rất ít hạt α bị lệch góc lớn trong thí nghiệm Rutherford cho thấy:",
+        "options": [
+          "Điện tích dương phân bố đều trong nguyên tử",
+          "Hạt nhân nhỏ, mang điện dương",
+          "Nguyên tử không có hạt nhân",
+          "Electron chứa gần hết khối lượng nguyên tử"
+        ],
+        "answer": 1,
+        "explanation": "Sự lệch mạnh gợi ý vùng điện tích dương tập trung; đa số hạt qua thẳng cho thấy phần lớn thể tích nguyên tử là khoảng trống.",
+        "points": 0.4,
+        "id": "midterm-a-3"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Nhận biết",
+        "prompt": "Trong phản ứng hạt nhân, đại lượng nào được bảo toàn khi tính cả các hạt tham gia và sinh ra?",
+        "options": [
+          "Số proton trong từng hạt nhân",
+          "Tổng số khối A và tổng điện tích Z",
+          "Khối lượng nghỉ của từng hạt",
+          "Số neutron của mỗi hạt nhân"
+        ],
+        "answer": 1,
+        "explanation": "Bảo toàn tổng số nucleon và điện tích, không bảo toàn riêng khối lượng nghỉ.",
+        "points": 0.4,
+        "id": "midterm-a-4"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Năng lượng liên kết riêng được xác định bằng:",
+        "options": [
+          "E liên kết / A",
+          "E liên kết × A",
+          "Δm / Z",
+          "A / E liên kết"
+        ],
+        "answer": 0,
+        "explanation": "Năng lượng liên kết riêng là năng lượng liên kết tính trên một nucleon.",
+        "points": 0.4,
+        "id": "midterm-a-5"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Một phản ứng có tổng khối lượng nghỉ trước lớn hơn sau. Phản ứng:",
+        "options": [
+          "Luôn thu năng lượng",
+          "Tỏa năng lượng",
+          "Không trao đổi năng lượng",
+          "Không thể xảy ra vì A không bảo toàn"
+        ],
+        "answer": 1,
+        "explanation": "Q = (m trước − m sau)c² > 0; chênh lệch khối lượng nghỉ chuyển thành năng lượng của sản phẩm.",
+        "points": 0.4,
+        "id": "midterm-a-6"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Nhận biết",
+        "prompt": "Tia γ là:",
+        "options": [
+          "Electron",
+          "Hạt nhân helium-4",
+          "Bức xạ điện từ",
+          "Neutron"
+        ],
+        "answer": 2,
+        "explanation": "Tia γ là photon năng lượng cao, không mang điện.",
+        "points": 0.4,
+        "id": "midterm-a-7"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Sau hai chu kì bán rã, phần số hạt nhân mẹ còn lại theo mô hình là:",
+        "options": [
+          "50%",
+          "25%",
+          "12,5%",
+          "0%"
+        ],
+        "answer": 1,
+        "explanation": "N/N₀ = 2^(−2) = 1/4.",
+        "points": 0.4,
+        "id": "midterm-a-8"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Phân hạch khác tổng hợp hạt nhân ở điểm nào?",
+        "options": [
+          "Phân hạch kết hợp hai hạt nhẹ",
+          "Phân hạch tách hạt nhân nặng thành các mảnh",
+          "Phân hạch luôn cần nhiệt độ Mặt trời",
+          "Tổng hợp hạt nhân không bảo toàn điện tích"
+        ],
+        "answer": 1,
+        "explanation": "Phân hạch tách hạt nhân nặng; tổng hợp kết hợp các hạt nhân nhẹ.",
+        "points": 0.4,
+        "id": "midterm-a-9"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Độ phóng xạ H và số hạt nhân mẹ N liên hệ bởi:",
+        "options": [
+          "H = N / λ",
+          "H = λN",
+          "H = λ / N",
+          "H = N + λ"
+        ],
+        "answer": 1,
+        "explanation": "H = λN, λ = ln2/T; đơn vị H là Bq nếu T theo giây.",
+        "points": 0.4,
+        "id": "midterm-a-10"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Hạt nhân mẹ có A = 238, Z = 92, phát ra một hạt α.",
+        "statements": [
+          {
+            "text": "Hạt nhân con có A = 234.",
+            "answer": true,
+            "explanation": "Hạt α có A = 4."
+          },
+          {
+            "text": "Hạt nhân con có Z = 91.",
+            "answer": false,
+            "explanation": "Z giảm 2, còn 90."
+          },
+          {
+            "text": "Hạt α gồm hai proton và hai neutron.",
+            "answer": true,
+            "explanation": "α là hạt nhân helium-4."
+          },
+          {
+            "text": "Tổng điện tích trước và sau không được bảo toàn.",
+            "answer": false,
+            "explanation": "Tổng điện tích được bảo toàn khi tính cả hạt α."
+          }
+        ],
+        "points": 1,
+        "id": "midterm-a-11"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Xét mẫu phóng xạ có chu kì bán rã T không đổi.",
+        "statements": [
+          {
+            "text": "Sau mỗi T, số hạt nhân mẹ kì vọng còn lại giảm một nửa.",
+            "answer": true,
+            "explanation": "N(t+T) = N(t)/2."
+          },
+          {
+            "text": "Có thể biết chính xác thời điểm phân rã của từng hạt.",
+            "answer": false,
+            "explanation": "Phân rã của từng hạt là ngẫu nhiên."
+          },
+          {
+            "text": "H và N giảm theo cùng quy luật mũ với λ không đổi.",
+            "answer": true,
+            "explanation": "H = λN."
+          },
+          {
+            "text": "Sau 3T tất cả các hạt nhân mẹ đã phân rã.",
+            "answer": false,
+            "explanation": "Theo mô hình kì vọng còn 1/8 N₀."
+          }
+        ],
+        "points": 1,
+        "id": "midterm-a-12"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Mẫu có N₀ = 800 hạt, T = 30 s. Số hạt nhân mẹ kì vọng sau 60 s là bao nhiêu?",
+        "answer": 200.0,
+        "unit": "hạt",
+        "tolerance": 0.01,
+        "explanation": "N = 800 × 2^(−2) = 200 hạt.",
+        "points": 0.5,
+        "id": "midterm-a-13"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B22",
+        "level": "Vận dụng",
+        "prompt": "Hạt nhân có độ hụt khối Δm = 0.03 u. Lấy 1 u c² = 931,5 MeV. Tính năng lượng liên kết, làm tròn đến 0,01 MeV.",
+        "answer": 27.95,
+        "unit": "MeV",
+        "tolerance": 0.011,
+        "explanation": "E = Δm × 931,5 = 27.945 MeV.",
+        "points": 0.5,
+        "id": "midterm-a-14"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B21",
+        "level": "Vận dụng",
+        "prompt": "Hạt nhân có A = 235, Z = 92. Tính số neutron.",
+        "answer": 143,
+        "unit": "neutron",
+        "tolerance": 0.01,
+        "explanation": "N = A − Z = 143.",
+        "points": 0.5,
+        "id": "midterm-a-15"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Sau 120 s, một mẫu còn 1/8 số hạt nhân mẹ ban đầu. Tính T.",
+        "answer": 40,
+        "unit": "s",
+        "tolerance": 0.01,
+        "explanation": "N/N₀ = 1/8 = 2^(−3), nên t = 3T.",
+        "points": 0.5,
+        "id": "midterm-a-16"
+      },
+      {
+        "kind": "written",
+        "topic": "B21",
+        "level": "Vận dụng",
+        "prompt": "Trình bày kết luận từ thí nghiệm Rutherford và thiết kế một lượt quan sát 3D để kiểm tra nhận định “điện tích dương phân bố đều khắp nguyên tử”.",
+        "rubric": [
+          {
+            "text": "Nêu đa số hạt đi gần thẳng, rất ít hạt lệch góc lớn.",
+            "points": 0.4
+          },
+          {
+            "text": "Kết luận điện tích dương tập trung trong hạt nhân nhỏ; phần lớn thể tích là khoảng trống.",
+            "points": 0.3
+          },
+          {
+            "text": "Nêu thao tác đổi khoảng cách tới tâm/góc nhìn và ghi kết quả; phân biệt mô hình quy ước với tần suất đo thật.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Nêu đa số hạt đi gần thẳng, rất ít hạt lệch góc lớn.; Kết luận điện tích dương tập trung trong hạt nhân nhỏ; phần lớn thể tích là khoảng trống.; Nêu thao tác đổi khoảng cách tới tâm/góc nhìn và ghi kết quả; phân biệt mô hình quy ước với tần suất đo thật.",
+        "id": "midterm-a-17"
+      },
+      {
+        "kind": "written",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Thiết kế cách xác định T từ bảng số hạt nhân mẹ theo thời gian. Nêu cách kiểm tra sai sót và một điều em sẽ điều chỉnh nếu câu trả lời ban đầu sai.",
+        "rubric": [
+          {
+            "text": "Xác định N₀ và thời điểm N ≈ N₀/2, hoặc dùng T = t/log₂(N₀/N).",
+            "points": 0.4
+          },
+          {
+            "text": "Ghi đúng đơn vị; đối chiếu thêm điểm tại 2T hoặc 3T và xét sai số.",
+            "points": 0.3
+          },
+          {
+            "text": "Nêu một lỗi cụ thể như nhầm số hạt còn lại với đã phân rã và hành động sửa.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Xác định N₀ và thời điểm N ≈ N₀/2, hoặc dùng T = t/log₂(N₀/N).; Ghi đúng đơn vị; đối chiếu thêm điểm tại 2T hoặc 3T và xét sai số.; Nêu một lỗi cụ thể như nhầm số hạt còn lại với đã phân rã và hành động sửa.",
+        "id": "midterm-a-18"
+      }
+    ]
+  },
+  {
+    "id": "midterm-b",
+    "title": "Đề giữa kỳ · Mã B · Vật lí hạt nhân",
+    "kind": "midterm",
+    "durationMinutes": 45,
+    "scope": [
+      "B21",
+      "B22",
+      "B23"
+    ],
+    "instructions": "Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.",
+    "questions": [
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Nhận biết",
+        "prompt": "Hạt nhân X có A = 56, Z = 26. Số neutron là bao nhiêu?",
+        "options": [
+          "30",
+          "56",
+          "82",
+          "26"
+        ],
+        "answer": 0,
+        "explanation": "N = A − Z = 30.",
+        "points": 0.4,
+        "id": "midterm-b-1"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Hai hạt nhân là đồng vị của cùng nguyên tố khi có:",
+        "options": [
+          "Cùng N, khác Z",
+          "Cùng Z, khác N",
+          "Cùng khối lượng chính xác",
+          "Cùng A, khác Z"
+        ],
+        "answer": 1,
+        "explanation": "Đồng vị có cùng số proton Z và khác số neutron N.",
+        "points": 0.4,
+        "id": "midterm-b-2"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Một số rất ít hạt α bị lệch góc lớn trong thí nghiệm Rutherford cho thấy:",
+        "options": [
+          "Hạt nhân nhỏ, mang điện dương",
+          "Nguyên tử không có hạt nhân",
+          "Electron chứa gần hết khối lượng nguyên tử",
+          "Điện tích dương phân bố đều trong nguyên tử"
+        ],
+        "answer": 0,
+        "explanation": "Sự lệch mạnh gợi ý vùng điện tích dương tập trung; đa số hạt qua thẳng cho thấy phần lớn thể tích nguyên tử là khoảng trống.",
+        "points": 0.4,
+        "id": "midterm-b-3"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Nhận biết",
+        "prompt": "Trong phản ứng hạt nhân, đại lượng nào được bảo toàn khi tính cả các hạt tham gia và sinh ra?",
+        "options": [
+          "Tổng số khối A và tổng điện tích Z",
+          "Khối lượng nghỉ của từng hạt",
+          "Số neutron của mỗi hạt nhân",
+          "Số proton trong từng hạt nhân"
+        ],
+        "answer": 0,
+        "explanation": "Bảo toàn tổng số nucleon và điện tích, không bảo toàn riêng khối lượng nghỉ.",
+        "points": 0.4,
+        "id": "midterm-b-4"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Năng lượng liên kết riêng được xác định bằng:",
+        "options": [
+          "E liên kết × A",
+          "Δm / Z",
+          "A / E liên kết",
+          "E liên kết / A"
+        ],
+        "answer": 3,
+        "explanation": "Năng lượng liên kết riêng là năng lượng liên kết tính trên một nucleon.",
+        "points": 0.4,
+        "id": "midterm-b-5"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Một phản ứng có tổng khối lượng nghỉ trước lớn hơn sau. Phản ứng:",
+        "options": [
+          "Tỏa năng lượng",
+          "Không trao đổi năng lượng",
+          "Không thể xảy ra vì A không bảo toàn",
+          "Luôn thu năng lượng"
+        ],
+        "answer": 0,
+        "explanation": "Q = (m trước − m sau)c² > 0; chênh lệch khối lượng nghỉ chuyển thành năng lượng của sản phẩm.",
+        "points": 0.4,
+        "id": "midterm-b-6"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Nhận biết",
+        "prompt": "Tia γ là:",
+        "options": [
+          "Hạt nhân helium-4",
+          "Bức xạ điện từ",
+          "Neutron",
+          "Electron"
+        ],
+        "answer": 1,
+        "explanation": "Tia γ là photon năng lượng cao, không mang điện.",
+        "points": 0.4,
+        "id": "midterm-b-7"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Sau hai chu kì bán rã, phần số hạt nhân mẹ còn lại theo mô hình là:",
+        "options": [
+          "25%",
+          "12,5%",
+          "0%",
+          "50%"
+        ],
+        "answer": 0,
+        "explanation": "N/N₀ = 2^(−2) = 1/4.",
+        "points": 0.4,
+        "id": "midterm-b-8"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Phân hạch khác tổng hợp hạt nhân ở điểm nào?",
+        "options": [
+          "Phân hạch tách hạt nhân nặng thành các mảnh",
+          "Phân hạch luôn cần nhiệt độ Mặt trời",
+          "Tổng hợp hạt nhân không bảo toàn điện tích",
+          "Phân hạch kết hợp hai hạt nhẹ"
+        ],
+        "answer": 0,
+        "explanation": "Phân hạch tách hạt nhân nặng; tổng hợp kết hợp các hạt nhân nhẹ.",
+        "points": 0.4,
+        "id": "midterm-b-9"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Độ phóng xạ H và số hạt nhân mẹ N liên hệ bởi:",
+        "options": [
+          "H = λN",
+          "H = λ / N",
+          "H = N + λ",
+          "H = N / λ"
+        ],
+        "answer": 0,
+        "explanation": "H = λN, λ = ln2/T; đơn vị H là Bq nếu T theo giây.",
+        "points": 0.4,
+        "id": "midterm-b-10"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Hạt nhân mẹ có A = 210, Z = 84, phát ra một hạt α.",
+        "statements": [
+          {
+            "text": "Hạt nhân con có A = 206.",
+            "answer": true,
+            "explanation": "Hạt α có A = 4."
+          },
+          {
+            "text": "Hạt nhân con có Z = 83.",
+            "answer": false,
+            "explanation": "Z giảm 2, còn 82."
+          },
+          {
+            "text": "Hạt α gồm hai proton và hai neutron.",
+            "answer": true,
+            "explanation": "α là hạt nhân helium-4."
+          },
+          {
+            "text": "Tổng điện tích trước và sau không được bảo toàn.",
+            "answer": false,
+            "explanation": "Tổng điện tích được bảo toàn khi tính cả hạt α."
+          }
+        ],
+        "points": 1,
+        "id": "midterm-b-11"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Xét mẫu phóng xạ có chu kì bán rã T không đổi.",
+        "statements": [
+          {
+            "text": "Sau mỗi T, số hạt nhân mẹ kì vọng còn lại giảm một nửa.",
+            "answer": true,
+            "explanation": "N(t+T) = N(t)/2."
+          },
+          {
+            "text": "Có thể biết chính xác thời điểm phân rã của từng hạt.",
+            "answer": false,
+            "explanation": "Phân rã của từng hạt là ngẫu nhiên."
+          },
+          {
+            "text": "H và N giảm theo cùng quy luật mũ với λ không đổi.",
+            "answer": true,
+            "explanation": "H = λN."
+          },
+          {
+            "text": "Sau 3T tất cả các hạt nhân mẹ đã phân rã.",
+            "answer": false,
+            "explanation": "Theo mô hình kì vọng còn 1/8 N₀."
+          }
+        ],
+        "points": 1,
+        "id": "midterm-b-12"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Mẫu có N₀ = 960 hạt, T = 20 s. Số hạt nhân mẹ kì vọng sau 60 s là bao nhiêu?",
+        "answer": 120.0,
+        "unit": "hạt",
+        "tolerance": 0.01,
+        "explanation": "N = 960 × 2^(−3) = 120 hạt.",
+        "points": 0.5,
+        "id": "midterm-b-13"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B22",
+        "level": "Vận dụng",
+        "prompt": "Hạt nhân có độ hụt khối Δm = 0.02 u. Lấy 1 u c² = 931,5 MeV. Tính năng lượng liên kết, làm tròn đến 0,01 MeV.",
+        "answer": 18.63,
+        "unit": "MeV",
+        "tolerance": 0.011,
+        "explanation": "E = Δm × 931,5 = 18.63 MeV.",
+        "points": 0.5,
+        "id": "midterm-b-14"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B21",
+        "level": "Vận dụng",
+        "prompt": "Hạt nhân có A = 131, Z = 53. Tính số neutron.",
+        "answer": 78,
+        "unit": "neutron",
+        "tolerance": 0.01,
+        "explanation": "N = A − Z = 78.",
+        "points": 0.5,
+        "id": "midterm-b-15"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Sau 90 s, một mẫu còn 1/8 số hạt nhân mẹ ban đầu. Tính T.",
+        "answer": 30,
+        "unit": "s",
+        "tolerance": 0.01,
+        "explanation": "N/N₀ = 1/8 = 2^(−3), nên t = 3T.",
+        "points": 0.5,
+        "id": "midterm-b-16"
+      },
+      {
+        "kind": "written",
+        "topic": "B21",
+        "level": "Vận dụng",
+        "prompt": "Trình bày kết luận từ thí nghiệm Rutherford và thiết kế một lượt quan sát 3D để kiểm tra nhận định “điện tích dương phân bố đều khắp nguyên tử”.",
+        "rubric": [
+          {
+            "text": "Nêu đa số hạt đi gần thẳng, rất ít hạt lệch góc lớn.",
+            "points": 0.4
+          },
+          {
+            "text": "Kết luận điện tích dương tập trung trong hạt nhân nhỏ; phần lớn thể tích là khoảng trống.",
+            "points": 0.3
+          },
+          {
+            "text": "Nêu thao tác đổi khoảng cách tới tâm/góc nhìn và ghi kết quả; phân biệt mô hình quy ước với tần suất đo thật.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Nêu đa số hạt đi gần thẳng, rất ít hạt lệch góc lớn.; Kết luận điện tích dương tập trung trong hạt nhân nhỏ; phần lớn thể tích là khoảng trống.; Nêu thao tác đổi khoảng cách tới tâm/góc nhìn và ghi kết quả; phân biệt mô hình quy ước với tần suất đo thật.",
+        "id": "midterm-b-17"
+      },
+      {
+        "kind": "written",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Thiết kế cách xác định T từ bảng số hạt nhân mẹ theo thời gian. Nêu cách kiểm tra sai sót và một điều em sẽ điều chỉnh nếu câu trả lời ban đầu sai.",
+        "rubric": [
+          {
+            "text": "Xác định N₀ và thời điểm N ≈ N₀/2, hoặc dùng T = t/log₂(N₀/N).",
+            "points": 0.4
+          },
+          {
+            "text": "Ghi đúng đơn vị; đối chiếu thêm điểm tại 2T hoặc 3T và xét sai số.",
+            "points": 0.3
+          },
+          {
+            "text": "Nêu một lỗi cụ thể như nhầm số hạt còn lại với đã phân rã và hành động sửa.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Xác định N₀ và thời điểm N ≈ N₀/2, hoặc dùng T = t/log₂(N₀/N).; Ghi đúng đơn vị; đối chiếu thêm điểm tại 2T hoặc 3T và xét sai số.; Nêu một lỗi cụ thể như nhầm số hạt còn lại với đã phân rã và hành động sửa.",
+        "id": "midterm-b-18"
+      }
+    ]
+  },
+  {
+    "id": "final-a",
+    "title": "Đề cuối kỳ · Mã A · Vật lí hạt nhân",
+    "kind": "final",
+    "durationMinutes": 60,
+    "scope": [
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25"
+    ],
+    "instructions": "Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.",
+    "questions": [
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Nhận biết",
+        "prompt": "Hạt nhân X có A = 23, Z = 11. Số neutron là bao nhiêu?",
+        "options": [
+          "11",
+          "12",
+          "23",
+          "34"
+        ],
+        "answer": 1,
+        "explanation": "N = A − Z = 12.",
+        "points": 0.4,
+        "id": "final-a-1"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Hai hạt nhân là đồng vị của cùng nguyên tố khi có:",
+        "options": [
+          "Cùng A, khác Z",
+          "Cùng N, khác Z",
+          "Cùng Z, khác N",
+          "Cùng khối lượng chính xác"
+        ],
+        "answer": 2,
+        "explanation": "Đồng vị có cùng số proton Z và khác số neutron N.",
+        "points": 0.4,
+        "id": "final-a-2"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Một số rất ít hạt α bị lệch góc lớn trong thí nghiệm Rutherford cho thấy:",
+        "options": [
+          "Điện tích dương phân bố đều trong nguyên tử",
+          "Hạt nhân nhỏ, mang điện dương",
+          "Nguyên tử không có hạt nhân",
+          "Electron chứa gần hết khối lượng nguyên tử"
+        ],
+        "answer": 1,
+        "explanation": "Sự lệch mạnh gợi ý vùng điện tích dương tập trung; đa số hạt qua thẳng cho thấy phần lớn thể tích nguyên tử là khoảng trống.",
+        "points": 0.4,
+        "id": "final-a-3"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Nhận biết",
+        "prompt": "Trong phản ứng hạt nhân, đại lượng nào được bảo toàn khi tính cả các hạt tham gia và sinh ra?",
+        "options": [
+          "Số proton trong từng hạt nhân",
+          "Tổng số khối A và tổng điện tích Z",
+          "Khối lượng nghỉ của từng hạt",
+          "Số neutron của mỗi hạt nhân"
+        ],
+        "answer": 1,
+        "explanation": "Bảo toàn tổng số nucleon và điện tích, không bảo toàn riêng khối lượng nghỉ.",
+        "points": 0.4,
+        "id": "final-a-4"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Năng lượng liên kết riêng được xác định bằng:",
+        "options": [
+          "E liên kết / A",
+          "E liên kết × A",
+          "Δm / Z",
+          "A / E liên kết"
+        ],
+        "answer": 0,
+        "explanation": "Năng lượng liên kết riêng là năng lượng liên kết tính trên một nucleon.",
+        "points": 0.4,
+        "id": "final-a-5"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Một phản ứng có tổng khối lượng nghỉ trước lớn hơn sau. Phản ứng:",
+        "options": [
+          "Luôn thu năng lượng",
+          "Tỏa năng lượng",
+          "Không trao đổi năng lượng",
+          "Không thể xảy ra vì A không bảo toàn"
+        ],
+        "answer": 1,
+        "explanation": "Q = (m trước − m sau)c² > 0; chênh lệch khối lượng nghỉ chuyển thành năng lượng của sản phẩm.",
+        "points": 0.4,
+        "id": "final-a-6"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Nhận biết",
+        "prompt": "Tia γ là:",
+        "options": [
+          "Electron",
+          "Hạt nhân helium-4",
+          "Bức xạ điện từ",
+          "Neutron"
+        ],
+        "answer": 2,
+        "explanation": "Tia γ là photon năng lượng cao, không mang điện.",
+        "points": 0.4,
+        "id": "final-a-7"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Sau hai chu kì bán rã, phần số hạt nhân mẹ còn lại theo mô hình là:",
+        "options": [
+          "50%",
+          "25%",
+          "12,5%",
+          "0%"
+        ],
+        "answer": 1,
+        "explanation": "N/N₀ = 2^(−2) = 1/4.",
+        "points": 0.4,
+        "id": "final-a-8"
+      },
+      {
+        "kind": "choice",
+        "topic": "B24",
+        "level": "Thông hiểu",
+        "prompt": "Trong mô hình nhà máy điện hạt nhân có hai vòng nước, bộ trao đổi nhiệt có nhiệm vụ:",
+        "options": [
+          "Trộn trực tiếp hai vòng nước",
+          "Truyền nhiệt giữa hai vòng, không trộn nước",
+          "Biến neutron thành electron",
+          "Phát điện trực tiếp từ hạt α"
+        ],
+        "answer": 1,
+        "explanation": "Hai vòng tách biệt, trao đổi nhiệt để tạo hơi làm quay turbine.",
+        "points": 0.4,
+        "id": "final-a-9"
+      },
+      {
+        "kind": "choice",
+        "topic": "B24",
+        "level": "Thông hiểu",
+        "prompt": "Thanh điều khiển được đưa sâu hơn vào vùng phản ứng để:",
+        "options": [
+          "Tăng số neutron gây phân hạch",
+          "Hấp thụ thêm neutron và giảm phản ứng dây chuyền",
+          "Tạo thêm uranium",
+          "Chuyển phân hạch thành nhiệt hạch"
+        ],
+        "answer": 1,
+        "explanation": "Thanh điều khiển hấp thụ neutron; trong mô hình, đưa sâu làm giảm số neutron tiếp tục gây phân hạch.",
+        "points": 0.4,
+        "id": "final-a-10"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B24",
+        "level": "Thông hiểu",
+        "prompt": "Xét các ứng dụng hạt nhân sau.",
+        "statements": [
+          {
+            "text": "PET ghi nhận tín hiệu từ chất đánh dấu phóng xạ trong cơ thể.",
+            "answer": true,
+            "explanation": "PET dùng chất đánh dấu phát positron, ghi cặp photon hủy cặp."
+          },
+          {
+            "text": "PET và xạ trị đều có mục đích chính là tiêu diệt mô đích.",
+            "answer": false,
+            "explanation": "PET phục vụ ghi hình; xạ trị đưa năng lượng vào mô đích để điều trị."
+          },
+          {
+            "text": "Thực phẩm đã chiếu xạ đúng quy trình luôn trở thành nguồn phóng xạ.",
+            "answer": false,
+            "explanation": "Chiếu xạ đúng quy trình không đồng nghĩa biến thực phẩm thành nguồn phóng xạ."
+          },
+          {
+            "text": "Kiểm tra mối hàn bằng bức xạ sử dụng sự suy giảm khác nhau khi đi qua vật.",
+            "answer": true,
+            "explanation": "Tín hiệu truyền qua phụ thuộc cấu trúc và độ dày vật."
+          }
+        ],
+        "points": 1,
+        "id": "final-a-11"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B25",
+        "level": "Thông hiểu",
+        "prompt": "Bảng mẫu SGK: H₀ = 151 Bq; H(30 s) = 85 Bq; H(60 s) = 55 Bq.",
+        "statements": [
+          {
+            "text": "H₀/2 = 75,5 Bq.",
+            "answer": true,
+            "explanation": "151/2 = 75,5 Bq."
+          },
+          {
+            "text": "Chu kì bán rã nằm giữa 30 s và 60 s theo bảng.",
+            "answer": true,
+            "explanation": "Mức 75,5 Bq nằm giữa 85 và 55 Bq."
+          },
+          {
+            "text": "Mọi điểm số liệu phải nằm chính xác trên đường cong mũ.",
+            "answer": false,
+            "explanation": "Phép đo có dao động và sai số; cần đối chiếu mô hình."
+          },
+          {
+            "text": "Không cần ghi đơn vị khi báo cáo T.",
+            "answer": false,
+            "explanation": "T cần đơn vị thời gian và nêu cách ước lượng."
+          }
+        ],
+        "points": 1,
+        "id": "final-a-12"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Mẫu có N₀ = 800 hạt, T = 30 s. Số hạt nhân mẹ kì vọng sau 60 s là bao nhiêu?",
+        "answer": 200.0,
+        "unit": "hạt",
+        "tolerance": 0.01,
+        "explanation": "N = 800 × 2^(−2) = 200 hạt.",
+        "points": 0.5,
+        "id": "final-a-13"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B22",
+        "level": "Vận dụng",
+        "prompt": "Hạt nhân có độ hụt khối Δm = 0.03 u. Lấy 1 u c² = 931,5 MeV. Tính năng lượng liên kết, làm tròn đến 0,01 MeV.",
+        "answer": 27.95,
+        "unit": "MeV",
+        "tolerance": 0.011,
+        "explanation": "E = Δm × 931,5 = 27.945 MeV.",
+        "points": 0.5,
+        "id": "final-a-14"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B25",
+        "level": "Vận dụng",
+        "prompt": "Mô hình có H₀ = 480 Bq, H(60 s) = 120 Bq. Tính T.",
+        "answer": 30.0,
+        "unit": "s",
+        "tolerance": 0.01,
+        "explanation": "T = t / log₂(H₀/H) = 30 s.",
+        "points": 0.5,
+        "id": "final-a-15"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Mẫu hữu cơ đã ngừng trao đổi carbon, tuổi 11460 năm; giả sử hoạt tính C-14 ban đầu như mẫu sống, T = 5730 năm. Hoạt tính còn bao nhiêu phần trăm?",
+        "answer": 25,
+        "unit": "%",
+        "tolerance": 0.01,
+        "explanation": "t/T = 2; H/H₀ = 2^(−t/T), tức 25%.",
+        "points": 0.5,
+        "id": "final-a-16"
+      },
+      {
+        "kind": "written",
+        "topic": "B24",
+        "level": "Vận dụng",
+        "prompt": "Đề xuất cách tổ chức thảo luận nhóm về một ứng dụng hạt nhân. Nêu cơ chế, lợi ích và một giới hạn; dẫn ít nhất một nguồn học liệu có tác giả.",
+        "rubric": [
+          {
+            "text": "Nêu đúng một ứng dụng và giải thích được cơ chế vật lí.",
+            "points": 0.4
+          },
+          {
+            "text": "Nêu lợi ích cùng giới hạn phù hợp, tránh đồng nhất chẩn đoán với xạ trị.",
+            "points": 0.3
+          },
+          {
+            "text": "Nêu nguồn, phân công vai trò và sản phẩm nhóm có thể kiểm tra.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Nêu đúng một ứng dụng và giải thích được cơ chế vật lí.; Nêu lợi ích cùng giới hạn phù hợp, tránh đồng nhất chẩn đoán với xạ trị.; Nêu nguồn, phân công vai trò và sản phẩm nhóm có thể kiểm tra.",
+        "id": "final-a-17"
+      },
+      {
+        "kind": "written",
+        "topic": "B25",
+        "level": "Vận dụng",
+        "prompt": "Một nhóm kết luận T = 30 s vì thời điểm 30 s xuất hiện trong bảng H(30 s) = 85 Bq, H₀ = 151 Bq. Hãy sửa lập luận, nêu một bước kiểm tra và cách xử lí số liệu chưa khớp mô hình.",
+        "rubric": [
+          {
+            "text": "Tính đúng mức bán rã 75,5 Bq; 85 Bq chưa đạt mức này.",
+            "points": 0.4
+          },
+          {
+            "text": "Đối chiếu H(60 s) = 55 Bq để kết luận 30 s < T < 60 s.",
+            "points": 0.3
+          },
+          {
+            "text": "Ghi đơn vị, vẽ/khớp đường cong và giải thích sai số, không ép mọi điểm khớp tuyệt đối.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Tính đúng mức bán rã 75,5 Bq; 85 Bq chưa đạt mức này.; Đối chiếu H(60 s) = 55 Bq để kết luận 30 s < T < 60 s.; Ghi đơn vị, vẽ/khớp đường cong và giải thích sai số, không ép mọi điểm khớp tuyệt đối.",
+        "id": "final-a-18"
+      }
+    ]
+  },
+  {
+    "id": "final-b",
+    "title": "Đề cuối kỳ · Mã B · Vật lí hạt nhân",
+    "kind": "final",
+    "durationMinutes": 60,
+    "scope": [
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25"
+    ],
+    "instructions": "Đề mẫu tự luyện trong phạm vi chủ đề hạt nhân, không đại diện toàn bộ học kỳ Vật lí 12. Phần tự động tối đa 8 điểm; tự luận 2 điểm do giáo viên chấm theo rubric. Số liệu trong câu hỏi là dữ kiện đề, không phải thí nghiệm mới.",
+    "questions": [
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Nhận biết",
+        "prompt": "Hạt nhân X có A = 56, Z = 26. Số neutron là bao nhiêu?",
+        "options": [
+          "30",
+          "56",
+          "82",
+          "26"
+        ],
+        "answer": 0,
+        "explanation": "N = A − Z = 30.",
+        "points": 0.4,
+        "id": "final-b-1"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Hai hạt nhân là đồng vị của cùng nguyên tố khi có:",
+        "options": [
+          "Cùng N, khác Z",
+          "Cùng Z, khác N",
+          "Cùng khối lượng chính xác",
+          "Cùng A, khác Z"
+        ],
+        "answer": 1,
+        "explanation": "Đồng vị có cùng số proton Z và khác số neutron N.",
+        "points": 0.4,
+        "id": "final-b-2"
+      },
+      {
+        "kind": "choice",
+        "topic": "B21",
+        "level": "Thông hiểu",
+        "prompt": "Một số rất ít hạt α bị lệch góc lớn trong thí nghiệm Rutherford cho thấy:",
+        "options": [
+          "Hạt nhân nhỏ, mang điện dương",
+          "Nguyên tử không có hạt nhân",
+          "Electron chứa gần hết khối lượng nguyên tử",
+          "Điện tích dương phân bố đều trong nguyên tử"
+        ],
+        "answer": 0,
+        "explanation": "Sự lệch mạnh gợi ý vùng điện tích dương tập trung; đa số hạt qua thẳng cho thấy phần lớn thể tích nguyên tử là khoảng trống.",
+        "points": 0.4,
+        "id": "final-b-3"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Nhận biết",
+        "prompt": "Trong phản ứng hạt nhân, đại lượng nào được bảo toàn khi tính cả các hạt tham gia và sinh ra?",
+        "options": [
+          "Tổng số khối A và tổng điện tích Z",
+          "Khối lượng nghỉ của từng hạt",
+          "Số neutron của mỗi hạt nhân",
+          "Số proton trong từng hạt nhân"
+        ],
+        "answer": 0,
+        "explanation": "Bảo toàn tổng số nucleon và điện tích, không bảo toàn riêng khối lượng nghỉ.",
+        "points": 0.4,
+        "id": "final-b-4"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Năng lượng liên kết riêng được xác định bằng:",
+        "options": [
+          "E liên kết × A",
+          "Δm / Z",
+          "A / E liên kết",
+          "E liên kết / A"
+        ],
+        "answer": 3,
+        "explanation": "Năng lượng liên kết riêng là năng lượng liên kết tính trên một nucleon.",
+        "points": 0.4,
+        "id": "final-b-5"
+      },
+      {
+        "kind": "choice",
+        "topic": "B22",
+        "level": "Thông hiểu",
+        "prompt": "Một phản ứng có tổng khối lượng nghỉ trước lớn hơn sau. Phản ứng:",
+        "options": [
+          "Tỏa năng lượng",
+          "Không trao đổi năng lượng",
+          "Không thể xảy ra vì A không bảo toàn",
+          "Luôn thu năng lượng"
+        ],
+        "answer": 0,
+        "explanation": "Q = (m trước − m sau)c² > 0; chênh lệch khối lượng nghỉ chuyển thành năng lượng của sản phẩm.",
+        "points": 0.4,
+        "id": "final-b-6"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Nhận biết",
+        "prompt": "Tia γ là:",
+        "options": [
+          "Hạt nhân helium-4",
+          "Bức xạ điện từ",
+          "Neutron",
+          "Electron"
+        ],
+        "answer": 1,
+        "explanation": "Tia γ là photon năng lượng cao, không mang điện.",
+        "points": 0.4,
+        "id": "final-b-7"
+      },
+      {
+        "kind": "choice",
+        "topic": "B23",
+        "level": "Thông hiểu",
+        "prompt": "Sau hai chu kì bán rã, phần số hạt nhân mẹ còn lại theo mô hình là:",
+        "options": [
+          "25%",
+          "12,5%",
+          "0%",
+          "50%"
+        ],
+        "answer": 0,
+        "explanation": "N/N₀ = 2^(−2) = 1/4.",
+        "points": 0.4,
+        "id": "final-b-8"
+      },
+      {
+        "kind": "choice",
+        "topic": "B24",
+        "level": "Thông hiểu",
+        "prompt": "Trong mô hình nhà máy điện hạt nhân có hai vòng nước, bộ trao đổi nhiệt có nhiệm vụ:",
+        "options": [
+          "Truyền nhiệt giữa hai vòng, không trộn nước",
+          "Biến neutron thành electron",
+          "Phát điện trực tiếp từ hạt α",
+          "Trộn trực tiếp hai vòng nước"
+        ],
+        "answer": 0,
+        "explanation": "Hai vòng tách biệt, trao đổi nhiệt để tạo hơi làm quay turbine.",
+        "points": 0.4,
+        "id": "final-b-9"
+      },
+      {
+        "kind": "choice",
+        "topic": "B24",
+        "level": "Thông hiểu",
+        "prompt": "Thanh điều khiển được đưa sâu hơn vào vùng phản ứng để:",
+        "options": [
+          "Hấp thụ thêm neutron và giảm phản ứng dây chuyền",
+          "Tạo thêm uranium",
+          "Chuyển phân hạch thành nhiệt hạch",
+          "Tăng số neutron gây phân hạch"
+        ],
+        "answer": 0,
+        "explanation": "Thanh điều khiển hấp thụ neutron; trong mô hình, đưa sâu làm giảm số neutron tiếp tục gây phân hạch.",
+        "points": 0.4,
+        "id": "final-b-10"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B24",
+        "level": "Thông hiểu",
+        "prompt": "Xét các ứng dụng hạt nhân sau.",
+        "statements": [
+          {
+            "text": "PET ghi nhận tín hiệu từ chất đánh dấu phóng xạ trong cơ thể.",
+            "answer": true,
+            "explanation": "PET dùng chất đánh dấu phát positron, ghi cặp photon hủy cặp."
+          },
+          {
+            "text": "PET và xạ trị đều có mục đích chính là tiêu diệt mô đích.",
+            "answer": false,
+            "explanation": "PET phục vụ ghi hình; xạ trị đưa năng lượng vào mô đích để điều trị."
+          },
+          {
+            "text": "Thực phẩm đã chiếu xạ đúng quy trình luôn trở thành nguồn phóng xạ.",
+            "answer": false,
+            "explanation": "Chiếu xạ đúng quy trình không đồng nghĩa biến thực phẩm thành nguồn phóng xạ."
+          },
+          {
+            "text": "Kiểm tra mối hàn bằng bức xạ sử dụng sự suy giảm khác nhau khi đi qua vật.",
+            "answer": true,
+            "explanation": "Tín hiệu truyền qua phụ thuộc cấu trúc và độ dày vật."
+          }
+        ],
+        "points": 1,
+        "id": "final-b-11"
+      },
+      {
+        "kind": "true_false",
+        "topic": "B25",
+        "level": "Thông hiểu",
+        "prompt": "Bảng mẫu SGK: H₀ = 151 Bq; H(30 s) = 85 Bq; H(60 s) = 55 Bq.",
+        "statements": [
+          {
+            "text": "H₀/2 = 75,5 Bq.",
+            "answer": true,
+            "explanation": "151/2 = 75,5 Bq."
+          },
+          {
+            "text": "Chu kì bán rã nằm giữa 30 s và 60 s theo bảng.",
+            "answer": true,
+            "explanation": "Mức 75,5 Bq nằm giữa 85 và 55 Bq."
+          },
+          {
+            "text": "Mọi điểm số liệu phải nằm chính xác trên đường cong mũ.",
+            "answer": false,
+            "explanation": "Phép đo có dao động và sai số; cần đối chiếu mô hình."
+          },
+          {
+            "text": "Không cần ghi đơn vị khi báo cáo T.",
+            "answer": false,
+            "explanation": "T cần đơn vị thời gian và nêu cách ước lượng."
+          }
+        ],
+        "points": 1,
+        "id": "final-b-12"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Mẫu có N₀ = 960 hạt, T = 20 s. Số hạt nhân mẹ kì vọng sau 60 s là bao nhiêu?",
+        "answer": 120.0,
+        "unit": "hạt",
+        "tolerance": 0.01,
+        "explanation": "N = 960 × 2^(−3) = 120 hạt.",
+        "points": 0.5,
+        "id": "final-b-13"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B22",
+        "level": "Vận dụng",
+        "prompt": "Hạt nhân có độ hụt khối Δm = 0.02 u. Lấy 1 u c² = 931,5 MeV. Tính năng lượng liên kết, làm tròn đến 0,01 MeV.",
+        "answer": 18.63,
+        "unit": "MeV",
+        "tolerance": 0.011,
+        "explanation": "E = Δm × 931,5 = 18.63 MeV.",
+        "points": 0.5,
+        "id": "final-b-14"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B25",
+        "level": "Vận dụng",
+        "prompt": "Mô hình có H₀ = 640 Bq, H(90 s) = 80 Bq. Tính T.",
+        "answer": 30.0,
+        "unit": "s",
+        "tolerance": 0.01,
+        "explanation": "T = t / log₂(H₀/H) = 30 s.",
+        "points": 0.5,
+        "id": "final-b-15"
+      },
+      {
+        "kind": "numeric",
+        "topic": "B23",
+        "level": "Vận dụng",
+        "prompt": "Mẫu hữu cơ đã ngừng trao đổi carbon, tuổi 17190 năm; giả sử hoạt tính C-14 ban đầu như mẫu sống, T = 5730 năm. Hoạt tính còn bao nhiêu phần trăm?",
+        "answer": 12.5,
+        "unit": "%",
+        "tolerance": 0.01,
+        "explanation": "t/T = 3; H/H₀ = 2^(−t/T), tức 12.5%.",
+        "points": 0.5,
+        "id": "final-b-16"
+      },
+      {
+        "kind": "written",
+        "topic": "B24",
+        "level": "Vận dụng",
+        "prompt": "Đề xuất cách tổ chức thảo luận nhóm về một ứng dụng hạt nhân. Nêu cơ chế, lợi ích và một giới hạn; dẫn ít nhất một nguồn học liệu có tác giả.",
+        "rubric": [
+          {
+            "text": "Nêu đúng một ứng dụng và giải thích được cơ chế vật lí.",
+            "points": 0.4
+          },
+          {
+            "text": "Nêu lợi ích cùng giới hạn phù hợp, tránh đồng nhất chẩn đoán với xạ trị.",
+            "points": 0.3
+          },
+          {
+            "text": "Nêu nguồn, phân công vai trò và sản phẩm nhóm có thể kiểm tra.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Nêu đúng một ứng dụng và giải thích được cơ chế vật lí.; Nêu lợi ích cùng giới hạn phù hợp, tránh đồng nhất chẩn đoán với xạ trị.; Nêu nguồn, phân công vai trò và sản phẩm nhóm có thể kiểm tra.",
+        "id": "final-b-17"
+      },
+      {
+        "kind": "written",
+        "topic": "B25",
+        "level": "Vận dụng",
+        "prompt": "Một nhóm kết luận T = 30 s vì thời điểm 30 s xuất hiện trong bảng H(30 s) = 85 Bq, H₀ = 151 Bq. Hãy sửa lập luận, nêu một bước kiểm tra và cách xử lí số liệu chưa khớp mô hình.",
+        "rubric": [
+          {
+            "text": "Tính đúng mức bán rã 75,5 Bq; 85 Bq chưa đạt mức này.",
+            "points": 0.4
+          },
+          {
+            "text": "Đối chiếu H(60 s) = 55 Bq để kết luận 30 s < T < 60 s.",
+            "points": 0.3
+          },
+          {
+            "text": "Ghi đơn vị, vẽ/khớp đường cong và giải thích sai số, không ép mọi điểm khớp tuyệt đối.",
+            "points": 0.3
+          }
+        ],
+        "points": 1,
+        "explanation": "Tính đúng mức bán rã 75,5 Bq; 85 Bq chưa đạt mức này.; Đối chiếu H(60 s) = 55 Bq để kết luận 30 s < T < 60 s.; Ghi đơn vị, vẽ/khớp đường cong và giải thích sai số, không ép mọi điểm khớp tuyệt đối.",
+        "id": "final-b-18"
+      }
+    ]
+  }
+]

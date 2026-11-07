@@ -1,0 +1,37 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - generic [ref=f7e4]:
+      - img [ref=f7e6]:
+        - generic [ref=f7e23]:
+          - generic [ref=f7e24]: N=A−Z
+          - generic [ref=f7e25]: A=Z+N
+          - generic [ref=f7e26]: E=mc²
+          - generic [ref=f7e27]: Δm>0
+      - heading "Học liệu số Vật lí 12" [level=2] [ref=f7e28]
+      - paragraph [ref=f7e29]: Nền tảng hỗ trợ giáo viên tổ chức lớp học đảo ngược khoa học, hiệu quả và chủ động.
+    - generic [ref=f7e30]:
+      - generic [ref=f7e31]:
+        - heading "Đăng nhập" [level=1] [ref=f7e32]
+        - paragraph [ref=f7e33]: Truy cập không gian làm việc của bạn
+      - generic [ref=f7e34]:
+        - generic [ref=f7e35]:
+          - generic [ref=f7e36] [cursor=pointer]:
+            - radio "Giáo viên" [checked] [ref=f7e37]
+            - generic [ref=f7e38]: Giáo viên
+          - generic [ref=f7e39] [cursor=pointer]:
+            - radio "Học sinh" [ref=f7e40]
+            - generic [ref=f7e41]: Học sinh
+        - generic [ref=f7e42]:
+          - generic [ref=f7e43]: Email
+          - textbox "Email" [ref=f7e44]
+        - generic [ref=f7e45]:
+          - generic [ref=f7e46]: Mật khẩu
+          - textbox "Mật khẩu" [ref=f7e47]
+        - button "Đăng nhập" [ref=f7e48] [cursor=pointer]
+      - paragraph [ref=f7e49]:
+        - text: Chưa có tài khoản?
+        - link "Đăng ký ngay" [ref=f7e50] [cursor=pointer]:
+          - /url: /register
+      - link "← Quay lại trang chủ" [ref=f7e52] [cursor=pointer]:
+        - /url: /
+  - alert [ref=f7e53]

@@ -73,13 +73,20 @@ export default async function StudentPage() {
         {/* Upcoming Tasks */}
         <section>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
-            <h2 style={{ fontSize: "18px", margin: 0 }}>Nhiệm vụ sắp tới</h2>
+            <h2 style={{ fontSize: "18px", margin: 0 }}>Bài học đã giao</h2>
             <Link href="/student/assignments" style={{ fontSize: "13px", color: "var(--color-primary)", fontWeight: 500 }}>Xem tất cả →</Link>
           </div>
-          <div className="student-empty" style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border-light)", borderRadius: "var(--radius-lg)", padding: "40px 0" }}>
-            <h2>Chưa có nhiệm vụ</h2>
-            <p>Hiện không có bài tập nào cần hoàn thành.</p>
-          </div>
+          {lessons?.length ? (
+            <div className="academic-list">
+              {lessons.slice(0, 3).map((lesson) => <article key={lesson.id} className="student-overview-lesson">
+                <h3>{lesson.title}</h3>
+                <Link href={`/student/lessons/${lesson.id}`} className="btn">Mở bài học →</Link>
+              </article>)}
+            </div>
+          ) : <div className="student-empty" style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border-light)", borderRadius: "var(--radius-lg)", padding: "32px 24px" }}>
+            <h2>Chưa có bài học được giao</h2>
+            <p>Bài học sẽ xuất hiện khi giáo viên giao cho lớp của em.</p>
+          </div>}
         </section>
 
       </div>

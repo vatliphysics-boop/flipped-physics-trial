@@ -1,0 +1,62 @@
+START B21
+b23-gv /teacher/lessons KHÔNG GIAN GIÁO VIÊN
+
+Bài học hạt nhân
+
+Chọn một lớp, sau đó mở một trong năm bài B21–B25 để quản lý từng giai đoạn.
+
+Chọn lớp
+[QA] SGK B21–B25 1793890153017
+12A1-KiemThu-B23
+B21
+Bài 21 — Cấu trúc hạt nhân
+
+Bản nháp — học sinh chưa xem được.
+
+Trước giờ họcTrong giờ họcSau giờ học
+Mở bài học →
+B22
+Bài 22 — Phản ứng hạt nhân và năng lượng liên kết
+
+Bản nháp — học sinh chưa xem được.
+
+Trước giờ họcTrong giờ họcSau giờ học
+Thiết lập bài học
+B23
+Bài 23 — Hiện tượng phóng xạ
+
+Bản nháp — học sinh chưa xem được.
+
+Trước giờ họcTrong giờ họcSau giờ học
+Thiết lập bài học
+B24
+Bài 24 — Công nghiệp hạt nhân
+
+Bản nháp — học sinh chưa xem được.
+
+Trước giờ họcTrong giờ họcSau giờ học
+Thiết lập bài học
+B25
+Bài 25 — Bài tập về vật lí hạt nhân
+
+Bản nháp — học sinh chưa xem được.
+
+Trước giờ họcTrong giờ họcSau giờ học
+Thiết lập bài học
+b23-hs1 blank 
+b23-hs2 blank 
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForURL: Timeout 90000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+  navigated to "http://127.0.0.1:3471/teacher/lessons?classId=98bada8f-4191-409a-97d2-d486892dba39"
+============================================================
+    at /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/scripts/verify/sgk-phase-browser.mjs:182:34 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v24.21.0

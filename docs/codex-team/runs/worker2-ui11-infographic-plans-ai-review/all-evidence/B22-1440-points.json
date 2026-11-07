@@ -1,0 +1,38 @@
+{
+  "route": "http://localhost:3001/hoc-lieu/truc-quan?bai=B22",
+  "size": [
+    1440,
+    900
+  ],
+  "version": "UI11 not frozen",
+  "states": [
+    {
+      "label": "1. Hấp thụ neutron",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nU-235 nhận một neutron và trở thành U-236*.\n\nGIẢI THÍCH\n\nA tăng từ 235 lên 236; Z vẫn là 92. Dấu * chỉ trạng thái kích thích.",
+      "target": [
+        152.578125,
+        45
+      ]
+    },
+    {
+      "label": "2. Tách thành hai mảnh",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nTrong ví dụ này, sản phẩm gồm Y-95, I-138 và 3 neutron.\n\nGIẢI THÍCH\n\n95 + 138 + 3 = 236; 39 + 53 = 92. Hình chỉ minh họa quá trình, không đo kích thước hoặc thời gian thực.",
+      "target": [
+        183.28125,
+        45
+      ]
+    },
+    {
+      "label": "3. Năng lượng & dây chuyền",
+      "pressed": "true",
+      "explanation": "QUAN SÁT\n\nMảnh phân hạch chuyển động; neutron có thể tiếp tục gây phân hạch.\n\nGIẢI THÍCH\n\nNăng lượng tỏa ra gắn với chênh lệch khối lượng nghỉ. Số neutron tiếp tục phản ứng phụ thuộc hấp thụ và thoát ra.",
+      "target": [
+        215.0625,
+        45
+      ]
+    }
+  ],
+  "overlays": 0
+}

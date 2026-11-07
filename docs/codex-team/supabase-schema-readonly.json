@@ -1,0 +1,45 @@
+{
+  "time": "2026-10-05T09:02:45.501Z",
+  "action": "read-only schema presence; GET id limit 0; no row data retained",
+  "remote_environment_confirmed_development": false,
+  "public_key_confirmed": true,
+  "tables": [
+    {
+      "table": "profiles",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "classes",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "class_members",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "lessons",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "material_bank",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "lesson_pathway_steps",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "student_step_progress",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "student_phase_progress",
+      "status": "FETCH_FAILED"
+    },
+    {
+      "table": "teacher_teaching_plans",
+      "status": "FETCH_FAILED"
+    }
+  ],
+  "diagnostic_network_error_code": "ENOTFOUND"
+}

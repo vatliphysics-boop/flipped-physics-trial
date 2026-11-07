@@ -1,0 +1,46 @@
+PART word/document.xml
+P0000 HƯỚNG DẪN GIÁO VIÊN B23
+P0001 Nhầm phần còn lại và phần đã phân rã
+P0002 Mục tiêu: Xác định phần còn lại và đã phân rã sau các chu kì bán rã.
+P0003 1. Trước giờ học
+P0004 Đọc học liệu được giao, ghi dự đoán và một câu hỏi chưa hiểu. Trả lời trước khi xem mô phỏng.
+P0005 Sản phẩm: Dự đoán ban đầu và câu hỏi mang đến lớp.
+P0006 Câu 1. Theo đường lí thuyết, sau 2T phần hạt nhân mẹ còn lại là bao nhiêu?
+P0008 A. 25%
+P0009 B. 50%
+P0010 C. 75%
+P0011 D. 100%
+P0012 ........................................................................................................
+P0013 ........................................................................................................
+P0014 2. Trong giờ học
+P0015 Nhóm dùng chung thiết bị, luân phiên người thao tác và người ghi; mỗi học sinh ghi kết luận riêng. Với N₀ = 800, dự đoán N sau 1T, 2T, 3T trước khi chạy mô phỏng. Lập bảng N còn lại và N đã phân rã. Đối chiếu đồ thị với dự đoán rồi sửa lời giải thích ban đầu.
+P0016 Sản phẩm: Phiếu dự đoán → quan sát → giải thích → điều tự sửa; ghi rõ điều kiện mô hình.
+P0017 Câu 2. Theo hình, sau 2T có bao nhiêu hạt nhân mẹ đã phân rã?
+P0019 A. 100
+P0020 B. 200
+P0021 C. 400
+P0022 D. 600
+P0023 ........................................................................................................
+P0024 ........................................................................................................
+P0025 3. Sau giờ học
+P0026 Làm câu vận dụng, đối chiếu với dự đoán. Viết một điều đã sửa và việc sẽ làm tiếp để kiểm tra cách hiểu.
+P0027 Sản phẩm: Lời giải có giải thích, bản sửa lỗi và bước học tiếp.
+P0028 Câu 3. Giá trị trung bình của ba lượt đếm trong hình là bao nhiêu?
+P0030 A. 18
+P0031 B. 19
+P0032 C. 20
+P0033 D. 22
+P0034 ........................................................................................................
+P0035 ........................................................................................................
+P0036 Việc của giáo viên và lưu ý kiến thức
+P0037 Kiểm tra dự đoán, tổ chức quan sát và yêu cầu giải thích từ bằng chứng. Lưu ý chuyên môn: Sau 2T còn 200/800 = 25%, đã phân rã 75%. Số hạt lí thuyết là giá trị trung bình, không xác định thời điểm phân rã từng hạt.
+P0038 Nhóm cần hỗ trợ: Điền lần lượt N₀, N₀/2, N₀/4; lập hai cột còn lại và đã phân rã.
+Nhóm hoàn thành sớm: Phân biệt giá trị kì vọng N(t) với số hạt còn lại trong một lượt mô phỏng ngẫu nhiên.
+P0039 Tiêu chí: Đúng 400, 200, 100; phân biệt hai tỉ lệ; ghi cách sửa dự đoán và giới hạn mô hình.
+P0040 Câu 1: A. N(2T)=200, N₀=800, tỉ lệ còn lại 25%.
+P0041 Câu 2: D. Nđãphânrã=800−200=600; tương ứng 75%.
+P0042 Câu 3: C. (18+22+20)/3=20 số đếm mỗi 10 s.
+PART word/footer1.xml
+P0000 Trang 
+PART word/footnotes.xml
+PART word/endnotes.xml

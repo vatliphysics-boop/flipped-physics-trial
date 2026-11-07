@@ -1,0 +1,55 @@
+PASS login-role-and-next-route
+PASS responsive-join-field-and-real-metadata
+PASS phase-before-class-navigation-persisted-evidence
+PASS phase-in-class-navigation-persisted-evidence
+PASS phase-after-class-navigation-persisted-evidence
+PASS mobile-menu-navigation-escape-and-focus-restore
+PASS student-screens-read-only-navigation
+PASS register-role-toggle-and-empty-validation-no-submit
+PASS verified-expired-state-and-recovery-links
+PASS qa-progress-hashes-unchanged-no-write-requests
+[
+  {
+    "case": "login-role-and-next-route",
+    "pass": true
+  },
+  {
+    "case": "responsive-join-field-and-real-metadata",
+    "pass": true
+  },
+  {
+    "case": "phase-before-class-navigation-persisted-evidence",
+    "pass": true,
+    "fields": 3
+  },
+  {
+    "case": "phase-in-class-navigation-persisted-evidence",
+    "pass": true,
+    "fields": 3
+  },
+  {
+    "case": "phase-after-class-navigation-persisted-evidence",
+    "pass": true,
+    "fields": 6
+  },
+  {
+    "case": "mobile-menu-navigation-escape-and-focus-restore",
+    "pass": true
+  },
+  {
+    "case": "student-screens-read-only-navigation",
+    "pass": true
+  },
+  {
+    "case": "register-role-toggle-and-empty-validation-no-submit",
+    "pass": true
+  },
+  {
+    "case": "verified-expired-state-and-recovery-links",
+    "pass": true
+  },
+  {
+    "case": "qa-progress-hashes-unchanged-no-write-requests",
+    "pass": true
+  }
+]

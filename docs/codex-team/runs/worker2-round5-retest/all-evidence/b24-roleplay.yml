@@ -1,0 +1,51 @@
+- article [ref=f1e273]:
+  - generic [ref=f1e274]:
+    - button "B24 · Câu hỏi & Hoạt động nhóm B24 · Đóng vai thảo luận dự án điện hạt nhân Chọn vai, nêu lập luận và nguồn, trả lời phản biện; bản ghi cá nhân có thể tải xuống." [expanded] [ref=f1e275] [cursor=pointer]:
+      - generic [ref=f1e276]:
+        - generic [ref=f1e277]: B24 · Câu hỏi & Hoạt động nhóm
+        - strong [ref=f1e278]: B24 · Đóng vai thảo luận dự án điện hạt nhân
+        - generic [ref=f1e279]: Chọn vai, nêu lập luận và nguồn, trả lời phản biện; bản ghi cá nhân có thể tải xuống.
+      - generic [ref=f1e280]: −
+    - button "Lưu B24 · Đóng vai thảo luận dự án điện hạt nhân" [ref=f1e281] [cursor=pointer]: ☆
+  - generic [ref=f1e330]:
+    - generic [ref=f1e331]:
+      - heading "Hội đồng thảo luận dự án điện hạt nhân giả định" [level=3] [ref=f1e332]
+      - paragraph [ref=f1e333]: Cùng nhóm thao tác trên một thiết bị. Tải bản ghi để chia sẻ hoặc nộp trong lớp học.
+      - generic [ref=f1e334]:
+        - text: Vai của nhóm
+        - combobox "Vai của nhóm" [ref=f1e335]:
+          - option "Nhà khoa học" [selected]
+          - option "Người dân địa phương"
+          - option "Chuyên gia kinh tế"
+          - option "Nhà môi trường"
+      - generic [ref=f1e336]:
+        - generic [ref=f1e337]:
+          - strong [ref=f1e338]: Lập luận và bằng chứng
+          - textbox "Lập luận và bằng chứng" [ref=f1e339]:
+            - /placeholder: Nêu nhận định, lí do, nguồn và điều cần kiểm chứng
+            - text: "Bản ghi thử của AI, không phải học sinh: phân hạch chuyển năng lượng liên kết thành động năng rồi nhiệt. Cần phản ứng dây chuyền có kiểm soát; k>1 không tự chứng minh vụ nổ. Căn cứ SGK B22 và học liệu phân hạch; cần đối chiếu địa điểm cụ thể."
+        - generic [ref=f1e340]:
+          - strong [ref=f1e341]: Lợi ích dự kiến
+          - textbox "Lợi ích dự kiến" [ref=f1e342]:
+            - /placeholder: Nêu nhận định, lí do, nguồn và điều cần kiểm chứng
+            - text: Có thể cung cấp điện; cần so sánh chi phí toàn vòng đời và nguồn điện khác.
+        - generic [ref=f1e343]:
+          - strong [ref=f1e344]: Giới hạn và điều chưa có dữ liệu
+          - textbox "Giới hạn và điều chưa có dữ liệu" [ref=f1e345]:
+            - /placeholder: Nêu nhận định, lí do, nguồn và điều cần kiểm chứng
+            - text: Chưa có dữ liệu địa chất, nước làm mát, chất thải, ứng phó sự cố tại địa phương giả định; chưa đủ kết luận xây.
+        - generic [ref=f1e346]:
+          - strong [ref=f1e347]: Phản biện của nhóm khác và câu trả lời
+          - textbox "Phản biện của nhóm khác và câu trả lời" [ref=f1e348]:
+            - /placeholder: Nêu nhận định, lí do, nguồn và điều cần kiểm chứng
+            - text: "Phản biện giả định: có kiểm soát thì có an toàn tuyệt đối không? Trả lời: không; cần nhiều lớp bảo vệ, giám sát và dữ liệu rủi ro. Sửa kết luận thành đề nghị đánh giá bổ sung."
+      - button "Tải sản phẩm nhóm" [active] [ref=f1e349] [cursor=pointer]
+      - paragraph [ref=f1e350]: Nội dung đang nhập chỉ giữ trong phiên mở này; hãy tải bản ghi trước khi đóng.
+    - paragraph [ref=f1e351]:
+      - link "Hỏi AI về bài B24 ↗" [ref=f1e352] [cursor=pointer]:
+        - /url: /hoc-lieu/ai?bai=B24
+      - generic [ref=f1e353]: Ghi câu hỏi và cách làm trước khi trao đổi.
+    - link "Đưa học liệu này vào kế hoạch riêng" [ref=f1e354] [cursor=pointer]:
+      - /url: /hoc-lieu/soan-ke-hoach?material=system-roleplay
+    - link "Liên kết mở học liệu này" [ref=f1e355] [cursor=pointer]:
+      - /url: /hoc-lieu?bai=B24&resource=system-roleplay#resource-system-roleplay

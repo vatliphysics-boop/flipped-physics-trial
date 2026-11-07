@@ -1,0 +1,23 @@
+[
+  {
+    "file": "hd.docx",
+    "sha256": "fed08c644e78bc4121dc662e163c49dd05594b0b4ad05ab2a636a91de0b9980e",
+    "text": "docs/codex-team/hd.txt",
+    "paragraph_count": 27,
+    "chars": 2934
+  },
+  {
+    "file": "ĐÃ SỬA - NCKH.docx",
+    "sha256": "706cc7065b146da7d90d582168439ebb61c3dc6f078b58e84adf5c1e9a3f4907",
+    "text": "docs/codex-team/ĐÃ SỬA - NCKH.txt",
+    "paragraph_count": 268,
+    "chars": 35458
+  },
+  {
+    "file": "BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx",
+    "sha256": "cfb905cd7559457ac4496ecba44597cf67c5be6c2ee9fb25bb456aa8a2fd5826",
+    "text": "docs/codex-team/BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.txt",
+    "paragraph_count": 213,
+    "chars": 45519
+  }
+]

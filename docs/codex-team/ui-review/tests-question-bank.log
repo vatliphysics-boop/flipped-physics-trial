@@ -1,0 +1,23 @@
+(node:42570) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/unified-question-bank.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ published bank contains only checked book questions and compatible mathematics (140.50975ms)
+✔ duplicate source distractors stay out of exams and edited duplicates are rejected (10.899292ms)
+✔ matrix CSV with quoted decimal commas is parsed and validates positive counts (0.590333ms)
+✔ matrix matching can reassign broad slots to satisfy specific rows without duplicate questions (1.362458ms)
+✔ Office equations reject unsupported math and build true fractions and paired scripts (0.581583ms)
+✔ Word isotope equations use native prescripts instead of empty bases (97.549083ms)
+✔ 7991 level names match authored questions and specification retains requirements (2.990792ms)
+✔ true false questions always have exactly four source statements and aligned answers (0.242833ms)
+✔ splitting and same-topic grouping preserve every original statement exactly once (2.381833ms)
+✔ source coverage includes every workbook question and isolates source problems (1.960875ms)
+✔ category numbering remains stable through filters and images preserve proportions (2.215333ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 621.004709

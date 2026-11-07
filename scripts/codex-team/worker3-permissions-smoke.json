@@ -1,0 +1,11 @@
+{
+  "id": "worker3-permissions-smoke",
+  "worker": 3,
+  "mode": "review",
+  "timeout_seconds": 600,
+  "previous_runs": [
+    "worker3-round2"
+  ],
+  "task": "Tiếp tục vòng đang làm, chỉ kiểm tra tối thiểu quyền browser trước: MCP team_browser đã được người dùng yêu cầu cho phép dùng thử; policy công cụ được cấu hình approve riêng server. Dùng browser_navigate mở http://localhost:3001/hoc-lieu, click một bộ lọc Bài học chọn B23 hoặc nút Thí nghiệm 3D, xác nhận trạng thái UI thay đổi, dùng browser_take_screenshot lưu filename smoke-worker3.png (relative output-dir). Lưu log thao tác và báo cáo rõ URL trước/sau, trạng thái bộ lọc, tên ảnh. KHÔNG khởi chạy browser qua shell. Nếu công cụ vẫn bị chặn, báo nguyên văn lỗi và dừng probe (không tuyên bố dùng thử); không sửa app/DOCX. Cần bằng chứng thao tác + ảnh, HTTP200 không đủ.",
+  "browser_mcp": true
+}

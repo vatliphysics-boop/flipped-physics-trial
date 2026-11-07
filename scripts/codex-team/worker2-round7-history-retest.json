@@ -1,0 +1,15 @@
+{
+  "id": "worker2-round7-history-retest",
+  "worker": 2,
+  "mode": "review",
+  "timeout_seconds": 600,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [
+    "worker2-round6-feedback-retest"
+  ],
+  "context_files": [
+    "docs/codex-team/history-sources.md"
+  ],
+  "task": "Chỉ kiểm tra bổ sung lịch sử theo hdP9–11: /hoc-lieu/truc-quan?bai=B21 tab Đọc hình, mục Từ bằng chứng đến mô hình hạt nhân. Đọc nhiệm vụhai cặpbằngchứng→kếtluận, chọn đủ4mốc1896/1898/1911/1932; một lầnTab+Enter/Space sangmốc, kiểmtra aria-pressed vàlive; xác nhận nguồn/câu hỏi/kết luậnkhôngtrộnphóngxạ với hạtnhân/neutron. Xem desktop1280/mobile390, chụp và xem2PNG. Chưa coi nguồn ngoài mởđược vìMCP chỉlocalhost; đốichiếu4mốc từhistory-sources.md và dữliệuhiểnthị, ghi rõ nguồnCuriechỉmetadataindexed. Ghi báo cáohoànchỉnhngắnTMP saucakiểmtracuối, không mởrộng sangvideo/DB/game/AI hay nhiệm vụkhác. Mỗi lỗi cóIDseveritystepsảnhcăn cứtácđộngacceptance. Rootchịuscience/họcliệu; W3đangreviewvideokhôngsửaInteractiveInfographic/NuclearHistory. Không tính làUS03haifullfinal. BáocáovàevidencefilenameTUYỆTĐỐItrongTMP. Dành khoảng3phút chohai kíchthước; nếu côngcụlỗi ghi checkpoint và kếtthúc, không đợi hết timeout. Chưa có nhóm/họcsinhthật; không tuyênbố hiệuquả."
+}

@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "file": ".env.example",
+      "fields": {
+        "NEXT_PUBLIC_SUPABASE_URL": {
+          "configured": false,
+          "kind": "remote",
+          "protocol": ""
+        },
+        "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY": {
+          "configured": false
+        }
+      }
+    },
+    {
+      "file": ".env.local",
+      "fields": {
+        "NEXT_PUBLIC_SUPABASE_URL": {
+          "configured": true,
+          "kind": "remote",
+          "protocol": "https"
+        },
+        "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY": {
+          "configured": true
+        }
+      }
+    }
+  ],
+  "cli_available": {
+    "supabase": false,
+    "docker": false
+  },
+  "test_auth_files": [],
+  "remote_environment_confirmed_development": false
+}

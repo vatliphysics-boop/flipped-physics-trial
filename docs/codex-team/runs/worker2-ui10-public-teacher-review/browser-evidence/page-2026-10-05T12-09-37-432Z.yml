@@ -1,0 +1,215 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - link "Đi đến nội dung chính" [ref=f14e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f14e4]:
+      - generic [ref=f14e5]:
+        - button "Mở menu" [ref=f14e6] [cursor=pointer]:
+          - generic [ref=f14e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f14e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f14e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f14e12]:
+      - generic [ref=f14e14]:
+        - paragraph [ref=f14e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f14e16]
+        - paragraph [ref=f14e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f14e18]:
+        - group "Công việc của giáo viên" [ref=f14e19]:
+          - button "Ngân hàng đề" [ref=f14e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [pressed] [ref=f14e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f14e22] [cursor=pointer]
+        - generic [ref=f14e642]:
+          - generic [ref=f14e643]:
+            - heading "Tạo phiếu học tập ba pha" [level=2] [ref=f14e644]
+            - paragraph [ref=f14e645]: "Phiếu có ba phần: hướng dẫn sử dụng, nhiệm vụ học sinh thực hiện qua ba pha và rubrics đánh giá. Chọn bài, chỉnh phiếu rồi tải Word."
+            - text: Bắt đầu với mẫu Chu kì bán rã của Bài 23.
+          - navigation "Các bước biên soạn" [ref=f14e646]:
+            - button "1 Chọn bài và mẫu" [ref=f14e647] [cursor=pointer]:
+              - generic [ref=f14e648]: "1"
+              - strong [ref=f14e649]: Chọn bài và mẫu
+            - button "2 Chỉnh phiếu" [ref=f14e650] [cursor=pointer]:
+              - generic [ref=f14e651]: "2"
+              - strong [ref=f14e652]: Chỉnh phiếu
+            - button "3 Xem trước và xuất Word" [ref=f14e653] [cursor=pointer]:
+              - generic [ref=f14e654]: "3"
+              - strong [ref=f14e655]: Xem trước và xuất Word
+          - generic [ref=f14e672]:
+            - heading "2. Kiểm tra câu hỏi và hướng dẫn từng pha" [level=3] [ref=f14e673]
+            - paragraph [ref=f14e674]: Nhấn “Thêm câu hỏi” ở pha cần bổ sung. Đổi pha bằng ô chọn bên cạnh từng câu; câu hỏi vẫn giữ nội dung đang có trong ngân hàng. Khi thay câu hỏi, chỉnh hướng dẫn và sản phẩm cho đúng nhiệm vụ mới.
+            - generic [ref=f14e675]:
+              - generic [ref=f14e676]:
+                - heading "Trước giờ học" [level=4] [ref=f14e677]
+                - generic [ref=f14e678]: 1 câu
+              - group [ref=f14e679]:
+                - generic "Mục tiêu, thời gian và sản phẩm của pha" [ref=f14e680] [cursor=pointer]
+              - generic [ref=f14e681]:
+                - text: Hướng dẫn trước giờ học
+                - textbox "Hướng dẫn trước giờ học" [ref=f14e682]: "1. Đọc mục chu kì bán rã trong học liệu Phóng xạ. 2. Trả lời câu hỏi: nêu rõ đại lượng giảm còn một nửa và ý nghĩa của chu kì T. 3. Ghi một điều chưa hiểu để mang đến lớp."
+              - 'link "Xem học liệu: B23 · Kiến thức và phiếu học tập ba giai đoạn ↗" [ref=f14e683] [cursor=pointer]':
+                - /url: /hoc-lieu?resource=system-notes-B23
+              - article [ref=f14e684]:
+                - generic [ref=f14e685]:
+                  - strong [ref=f14e686]: Câu 1
+                  - generic [ref=f14e687]:
+                    - text: Đưa vào pha
+                    - combobox "Pha của câu 1" [ref=f14e688]:
+                      - option "Trước giờ học" [selected]
+                      - option "Trong giờ học"
+                      - option "Sau giờ học"
+                  - button "Bỏ câu 1" [ref=f14e689] [cursor=pointer]
+                - generic [ref=f14e690]: Phát biểu định nghĩa chu kì bán rã.
+              - button "Đóng danh sách" [active] [ref=f14e777] [cursor=pointer]
+              - generic [ref=f14e778]:
+                - heading "Chọn câu hỏi cho trước giờ học" [level=4] [ref=f14e779]
+                - generic [ref=f14e780]:
+                  - generic [ref=f14e781]:
+                    - text: Tìm theo nội dung
+                    - searchbox "Tìm theo nội dung" [ref=f14e782]
+                  - generic [ref=f14e783]:
+                    - text: Loại câu
+                    - combobox "Loại câu" [ref=f14e784]:
+                      - option "Tất cả loại câu" [selected]
+                      - option "trắc nghiệm"
+                      - option "đúng sai"
+                      - option "trả lời ngắn"
+                      - option "tự luận"
+                - paragraph [ref=f14e785]: 68 câu phù hợp · 3/9 câu đã chọn
+                - article [ref=f14e786]:
+                  - strong [ref=f14e787]: Câu 1 trong danh sách
+                  - group [ref=f14e788]:
+                    - generic "Trong thí nghiệm Becquerel, tấm phim có vết sáng dù mẫu uranium được để trong bóng tối. Nguyên nhân nào gây tác dụng lên phim?" [ref=f14e789]
+                  - button "Thêm vào pha này" [ref=f14e791] [cursor=pointer]
+                - article [ref=f14e792]:
+                  - strong [ref=f14e793]: Câu 2 trong danh sách
+                  - group [ref=f14e794]:
+                    - generic "Hiện tượng phóng xạ có tính tự phát hay phụ thuộc nhiệt độ, áp suất của môi trường?" [ref=f14e795]
+                  - button "Thêm vào pha này" [ref=f14e797] [cursor=pointer]
+                - article [ref=f14e798]:
+                  - strong [ref=f14e799]: Câu 3 trong danh sách
+                  - group [ref=f14e800]:
+                    - generic "Có thể điều khiển hiện tượng phóng xạ không? Tại sao?" [ref=f14e801]
+                  - button "Thêm vào pha này" [ref=f14e803] [cursor=pointer]
+                - article [ref=f14e804]:
+                  - strong [ref=f14e805]: Câu 4 trong danh sách
+                  - group [ref=f14e806]:
+                    - 'generic "Bảng 23.1: các khoảng 0–5; 5–10; 10–15; 15–20; 20–25; 25–30 s có số tia ghi nhận lần lượt 1; 3; 2; 0; 3; 1. a) Nhận xét số lượng phân rã trong những khoảng bằng nhau. b) Có dự đoán chính xác thời điểm và số lượng phân rã từng khoảng được không?" [ref=f14e807]'
+                  - button "Thêm vào pha này" [ref=f14e809] [cursor=pointer]
+                - article [ref=f14e810]:
+                  - strong [ref=f14e811]: Câu 5 trong danh sách
+                  - group [ref=f14e812]:
+                    - generic [ref=f14e814]:
+                      - text: Nêu các tính chất tia phóng xạ
+                      - generic [ref=f14e816]:
+                        - math [ref=f14e818]:
+                          - generic [ref=f14e819]: α
+                        - generic [ref=f14e822]: α
+                      - text: .
+                  - button "Thêm vào pha này" [ref=f14e824] [cursor=pointer]
+                - article [ref=f14e825]:
+                  - strong [ref=f14e826]: Câu 6 trong danh sách
+                  - group [ref=f14e827]:
+                    - generic [ref=f14e829]:
+                      - text: Viết phương trình phân rã
+                      - generic [ref=f14e831]:
+                        - math [ref=f14e833]:
+                          - generic [ref=f14e834]: α
+                        - generic [ref=f14e837]: α
+                      - text: của
+                      - generic [ref=f14e840]:
+                        - math [ref=f14e842]:
+                          - generic [ref=f14e844]:
+                            - generic [ref=f14e845]:
+                              - generic [ref=f14e846]: "92"
+                              - generic [ref=f14e847]: "235"
+                            - generic [ref=f14e848]: U
+                        - generic [ref=f14e850]:
+                          - generic [ref=f14e855]:
+                            - generic [ref=f14e856]: "92"
+                            - generic [ref=f14e858]: "235"
+                          - text: U
+                      - text: .
+                  - button "Thêm vào pha này" [ref=f14e863] [cursor=pointer]
+                - generic [ref=f14e864]:
+                  - button "Trang trước" [disabled] [ref=f14e865] [cursor=pointer]
+                  - generic [ref=f14e866]: Trang 1/12
+                  - button "Trang sau" [ref=f14e867] [cursor=pointer]
+            - generic [ref=f14e692]:
+              - generic [ref=f14e693]:
+                - heading "Trong giờ học" [level=4] [ref=f14e694]
+                - generic [ref=f14e695]: 1 câu
+              - group [ref=f14e696]:
+                - generic "Mục tiêu, thời gian và sản phẩm của pha" [ref=f14e697] [cursor=pointer]
+              - generic [ref=f14e698]:
+                - text: Hướng dẫn trong giờ học
+                - textbox "Hướng dẫn trong giờ học" [ref=f14e699]: 1. Đọc dữ kiện bài tập; phân biệt tỉ lệ đã phân rã và tỉ lệ còn lại. 2. Mở mô phỏng bán rã; so sánh phần còn lại sau 1T và 2T để kiểm tra cách hiểu. 3. Lập biểu thức liên hệ thời gian, phần còn lại và T rồi giải bài. Nhóm đối chiếu phép tính, mỗi bạn ghi kết luận riêng.
+              - 'link "Xem học liệu: Mô phỏng: Khảo sát đồ thị định luật phóng xạ và chu kì bán rã T ↗" [ref=f14e700] [cursor=pointer]':
+                - /url: /hoc-lieu?resource=system-sim-half-life
+              - article [ref=f14e701]:
+                - generic [ref=f14e702]:
+                  - strong [ref=f14e703]: Câu 2
+                  - generic [ref=f14e704]:
+                    - text: Đưa vào pha
+                    - combobox "Pha của câu 2" [ref=f14e705]:
+                      - option "Trước giờ học"
+                      - option "Trong giờ học" [selected]
+                      - option "Sau giờ học"
+                  - button "Bỏ câu 2" [ref=f14e706] [cursor=pointer]
+                - generic [ref=f14e707]:
+                  - text: Đồng vị
+                  - generic [ref=f14e709]:
+                    - math [ref=f14e711]:
+                      - generic [ref=f14e713]:
+                        - generic [ref=f14e714]:
+                          - generic [ref=f14e715]: "8"
+                          - generic [ref=f14e716]: "15"
+                        - generic [ref=f14e717]: O
+                    - generic [ref=f14e719]:
+                      - generic [ref=f14e724]:
+                        - generic [ref=f14e725]: "8"
+                        - generic [ref=f14e727]: "15"
+                      - text: O
+                  - text: sau 244 s có 75% số hạt nhân ban đầu đã phân rã. Tính chu kì bán rã.
+              - button "Thêm câu hỏi vào trong giờ học" [ref=f14e732] [cursor=pointer]
+            - generic [ref=f14e733]:
+              - generic [ref=f14e734]:
+                - heading "Sau giờ học" [level=4] [ref=f14e735]
+                - generic [ref=f14e736]: 1 câu
+              - group [ref=f14e737]:
+                - generic "Mục tiêu, thời gian và sản phẩm của pha" [ref=f14e738] [cursor=pointer]
+              - generic [ref=f14e739]:
+                - text: Hướng dẫn sau giờ học
+                - textbox "Hướng dẫn sau giờ học" [ref=f14e740]: "1. Tự làm bài: lập tỉ số lượng đồng vị còn lại so với ban đầu cho từng trường hợp. 2. Dùng công thức bán rã tìm thời gian; trình bày phép tính và đơn vị. 3. Kiểm tra trường hợp nào cần nhiều thời gian hơn; ghi điều đã sửa hoặc cách kiểm tra kết quả."
+              - 'link "Xem học liệu: B23 · Sửa ba lỗi thường gặp ↗" [ref=f14e741] [cursor=pointer]':
+                - /url: /hoc-lieu?resource=system-remediation-B23
+              - article [ref=f14e742]:
+                - generic [ref=f14e743]:
+                  - strong [ref=f14e744]: Câu 3
+                  - generic [ref=f14e745]:
+                    - text: Đưa vào pha
+                    - combobox "Pha của câu 3" [ref=f14e746]:
+                      - option "Trước giờ học"
+                      - option "Trong giờ học"
+                      - option "Sau giờ học" [selected]
+                  - button "Bỏ câu 3" [ref=f14e747] [cursor=pointer]
+                - generic [ref=f14e748]:
+                  - text: Dược chất Flortaucipir chứa
+                  - generic [ref=f14e750]:
+                    - math [ref=f14e752]:
+                      - generic [ref=f14e754]:
+                        - generic [ref=f14e755]:
+                          - generic [ref=f14e756]: "9"
+                          - generic [ref=f14e757]: "18"
+                        - generic [ref=f14e758]: F
+                    - generic [ref=f14e760]:
+                      - generic [ref=f14e765]:
+                        - generic [ref=f14e766]: "9"
+                        - generic [ref=f14e768]: "18"
+                      - text: F
+                  - text: có chu kì bán rã khoảng 110 phút. Sau bao lâu lượng đồng vị giảm còn 10% và 1% lúc đầu?
+              - button "Thêm câu hỏi vào sau giờ học" [ref=f14e773] [cursor=pointer]
+            - generic [ref=f14e774]:
+              - button "Quay lại chọn bài" [ref=f14e775] [cursor=pointer]
+              - 'button "Tiếp tục: xem trước phiếu" [ref=f14e776] [cursor=pointer]'
+  - alert [ref=f14e49]

@@ -1,0 +1,11 @@
+.workspace { min-width: 0; }
+.workspace :global(.plan-studio) { padding-inline: 0; }
+.workspace :global(.breadcrumbs) { flex-wrap: wrap; gap: 6px 8px; line-height: 1.7; }
+.workspace :global(.breadcrumbs) > * { min-width: 0; overflow-wrap: anywhere; }
+.workspace :global(.lesson-kicker) { line-height: 1.8; }
+.workspace :global(.pathway-step-row) > div { min-width: 0; }
+.workspace :global(.pathway-step-instructions-preview) { overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .workspace :global(.phase-navigation) { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; }
+  .workspace :global(.phase-navigation) a { min-width: 0; flex-direction: column; gap: 4px; padding: 10px 6px; white-space: normal; text-align: center; line-height: 1.5; }
+}

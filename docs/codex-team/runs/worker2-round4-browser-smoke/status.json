@@ -1,0 +1,57 @@
+{
+  "id": "worker2-round4-browser-smoke",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T08:18:22.688Z",
+  "status": "COMPLETED_PENDING_LEAD_REVIEW",
+  "session_ids": [
+    "01a10b24-8061-79e1-9d9f-c56758dba1c0"
+  ],
+  "exit_code": 0,
+  "allowed_files": [],
+  "timeout_seconds": 300,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-EFaijB": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-round4-browser-smoke/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-EFaijB",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-EFaijB/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-EFaijB/evidence"
+  },
+  "pid": 28278,
+  "signal": null,
+  "end": "2026-10-05T08:20:31.862Z",
+  "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-EFaijB",
+  "changed_files": [
+    "desktop.png",
+    "home1280.png",
+    "mobile.png",
+    "scripts/codex-team/worker3-round4-ux-review.json"
+  ],
+  "unexpected_changes": [
+    "desktop.png",
+    "home1280.png",
+    "mobile.png",
+    "scripts/codex-team/worker3-round4-ux-review.json"
+  ],
+  "protected_sources_unchanged": true
+}

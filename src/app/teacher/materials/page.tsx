@@ -18,7 +18,7 @@ export default async function TeacherMaterialsPage({
   const materials = await getCombinedMaterialBank(
     supabase,
     user.id,
-    currentType,
+    "all",
     currentQuery
   );
 
@@ -26,10 +26,11 @@ export default async function TeacherMaterialsPage({
     <TeacherShell
       active="materials"
       title="Kho học liệu"
-      description="Quản lí, xem trước và tái sử dụng học liệu số cho các bài học đảo ngược."
+      description="Quản lí, xem trước và phối hợp học liệu, đề kiểm tra thành kế hoạch dạy học riêng."
     >
-      <section className="section" style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
+      <section className="section">
         <MaterialBankViewer
+          key={`${currentType}-${currentQuery}`}
           initialMaterials={materials}
           initialType={currentType}
           teacherId={user.id}

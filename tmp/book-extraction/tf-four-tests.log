@@ -1,0 +1,105 @@
+(node:14874) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/exam-scoring.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ every topic paper totals 10, exposes 8 automatic and reserves 2 written points (4.495917ms)
+✔ unanswered zero-index choice and blank numeric response cannot earn points (0.442584ms)
+✔ numeric answers accept decimal comma, reject units and infinity, and respect tolerance (0.183167ms)
+✔ true-false awards per statement and does not turn unanswered into false (0.125667ms)
+(node:14875) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/fission-model.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ The actual particles used by the 3D scene conserve A and Z in the SGK Y/I channel (2.004459ms)
+✔ Timeline shows absorption before deformation, then products, and stops at its end (0.219959ms)
+✔ Qualitative generations compare decreasing, steady and growing chains (0.886083ms)
+(node:14876) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/flipped-plan.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ plan round-trip keeps form and both roles while rejecting malformed optional fields (1.285916ms)
+✔ student task includes requirements but excludes private teacher directions (0.287958ms)
+✔ chosen forms have paired roles and products in all three phases; hd inventory has nine distinct items (0.084958ms)
+(node:14877) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/local-ai.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ student requests cannot inject a system role or arbitrary lessons (0.508834ms)
+✔ follow-up conversation preserves learner and assistant order (0.096917ms)
+✔ student grounding includes relevant theory and excludes quiz answers (0.159583ms)
+✔ long teacher materials disclose partial coverage and retain exact source text (1.142125ms)
+✔ DOCX preflight rejects malformed files and oversized decompression (1.60675ms)
+✔ hints quote supplied theory and do not pass invented sources or solved calculations (0.478625ms)
+✔ teacher plans keep class time separate and assign both roles in all three phases (0.278542ms)
+✔ public teacher trials use theory without quizzes and worksheet answers are separated (0.11875ms)
+✔ teacher external requests disclose selected excerpts and invented source codes trigger review (0.191834ms)
+✔ observed decay drafting errors raise specific review notes without changing teacher content (0.809042ms)
+(node:14878) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/pathway-progress.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ evidence preserves the learning record and rejects empty or excessive submissions (1.135833ms)
+✔ learning links reject executable and protocol-relative URLs (0.539ms)
+✔ unfinished earlier required steps block later work; optional steps do not (0.099292ms)
+(node:14879) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/physics.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ decay halves at each T and dating inverts the same physical law (2.619667ms)
+✔ atomic mass convention gives a plausible helium-4 binding energy (0.082417ms)
+✔ B25 uses one mass convention for all five nuclides, including oxygen and uranium (0.07575ms)
+✔ simulated detector can produce zero events and reproducible nonnegative counts (0.064125ms)
+(node:14880) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/teacher-production.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ bank pictures are available and all question keys and total scores are valid (40.636209ms)
+✔ eight shuffled versions preserve stems, pictures and correct answer text (3.812667ms)
+✔ options referring to labels are left intact and insufficient variations fail explicitly (0.312ms)
+✔ selection never silently substitutes a question when a scope/image pool is insufficient (0.168583ms)
+✔ import requires all options and answer keys and retains picture markers for reviewed pairing (1.943833ms)
+✔ teacher observations cannot exceed the checked class and public AI context accepts no private text (0.168292ms)
+✔ targeted activity attaches only existing matching resources and plan audit separates class time (0.218ms)
+✔ AI selection cannot introduce numerical facts or choices outside the authored scenarios (0.919417ms)
+(node:14881) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/teaching-plan.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ plan import keeps educational fields and drops undeclared injected properties (2.920083ms)
+✔ plan import rejects unsafe URLs, duplicate activity IDs and unbounded time (1.40425ms)
+✔ moving an activity preserves phase boundaries and complete resources (0.22375ms)
+✔ HTML export preserves goals, products and rubric text while escaping markup (0.64375ms)
+✔ lesson plan reference fields survive saving and HTML export without confusing phases with activity types (0.597375ms)
+(node:14882) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/unified-question-bank.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ published bank contains only checked book questions and compatible mathematics (93.568333ms)
+✔ matrix CSV with quoted decimal commas is parsed and validates positive counts (1.160167ms)
+✔ matrix matching can reassign broad slots to satisfy specific rows without duplicate questions (0.444333ms)
+✔ Office equations reject unsupported math and build true fractions and paired scripts (0.192334ms)
+✔ Word isotope equations use native prescripts instead of empty bases (30.297958ms)
+✔ 7991 level names match authored questions and specification retains requirements (2.949958ms)
+✔ true false questions always have exactly four source statements and aligned answers (0.501292ms)
+✔ splitting and same-topic grouping preserve every original statement exactly once (2.578125ms)
+✔ source coverage includes every workbook question and isolates source problems (1.337833ms)
+✔ category numbering remains stable through filters and images preserve proportions (0.412583ms)
+(node:14883) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/unified-worksheet.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ worksheet uses current unified records and refuses drafts, duplicate IDs and missing phases (3.709958ms)
+(node:14884) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/tests/youtube-learning.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Video embedding accepts YouTube IDs but rejects unrelated or credential-bearing URLs (0.94325ms)
+✔ Each B21–B25 learning path has a video, observable hotspots and a usable concept question (1.040417ms)
+ℹ tests 53
+ℹ suites 0
+ℹ pass 53
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 601.78025

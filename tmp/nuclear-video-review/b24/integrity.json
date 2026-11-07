@@ -1,0 +1,32 @@
+[
+  {
+    "seconds": 0,
+    "frames": 64,
+    "maxDifference": "0.73",
+    "damaged": []
+  },
+  {
+    "seconds": 12,
+    "frames": 64,
+    "maxDifference": "0.86",
+    "damaged": []
+  },
+  {
+    "seconds": 24,
+    "frames": 64,
+    "maxDifference": "0.84",
+    "damaged": []
+  },
+  {
+    "seconds": 36,
+    "frames": 64,
+    "maxDifference": "0.80",
+    "damaged": []
+  },
+  {
+    "seconds": 48,
+    "frames": 64,
+    "maxDifference": "0.78",
+    "damaged": []
+  }
+]

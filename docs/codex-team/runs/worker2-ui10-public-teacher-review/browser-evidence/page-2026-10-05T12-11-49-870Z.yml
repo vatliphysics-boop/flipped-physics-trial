@@ -1,0 +1,155 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - link "Đi đến nội dung chính" [ref=f14e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f14e4]:
+      - generic [ref=f14e5]:
+        - button "Mở menu" [ref=f14e6] [cursor=pointer]:
+          - generic [ref=f14e7]: ☰
+        - link "Học liệu Vật lí 12" [ref=f14e8] [cursor=pointer]:
+          - /url: /hoc-lieu
+      - link "Đăng nhập giáo viên" [ref=f14e10] [cursor=pointer]:
+        - /url: /teacher/ai
+    - main [ref=f14e12]:
+      - generic [ref=f14e14]:
+        - paragraph [ref=f14e15]: "Chương 4: Vật lí hạt nhân · B21–B25"
+        - heading "Không gian hỗ trợ giáo viên" [level=1] [ref=f14e16]
+        - paragraph [ref=f14e17]: Biên soạn câu hỏi, tạo đề theo ma trận, chuẩn bị phiếu học tập và kế hoạch dạy học.
+      - generic [ref=f14e18]:
+        - group "Công việc của giáo viên" [ref=f14e19]:
+          - button "Ngân hàng đề" [pressed] [ref=f14e20] [cursor=pointer]
+          - button "Phiếu học tập ba pha" [ref=f14e21] [cursor=pointer]
+          - button "Chuẩn bị giờ học" [ref=f14e22] [cursor=pointer]
+        - generic [ref=f14e24]:
+          - heading "Ngân hàng đề Chương 4 Vật lí hạt nhân" [level=2] [ref=f14e25]
+          - paragraph [ref=f14e26]: Câu hỏi được biên soạn từ ba sách đã cung cấp, giữ yêu cầu và dữ kiện của bài gốc. Nhãn Bloom thể hiện thao tác nhận thức cần thực hiện. Các câu hỏi dùng chung một ngân hàng. Nội dung dạng chữ, công thức LaTeX. Khi xuất Word, công thức chuyển thành Equation có thể chỉnh sửa.
+          - navigation "Năm mục ngân hàng đề" [ref=f14e27]:
+            - button "Ngân hàng đề trắc nghiệm" [ref=f14e28] [cursor=pointer]
+            - button "Ngân hàng đề đúng sai" [ref=f14e29] [cursor=pointer]
+            - button "Ngân hàng đề trả lời ngắn" [ref=f14e30] [cursor=pointer]
+            - button "Ngân hàng đề tự luận" [active] [pressed] [ref=f14e31] [cursor=pointer]
+            - button "Up ma trận đề và xuất ra đề file Word" [ref=f14e32] [cursor=pointer]
+          - status
+          - generic [ref=f14e1918]:
+            - generic [ref=f14e1919]:
+              - text: Chương
+              - combobox "Chương" [ref=f14e1920]:
+                - option "Tất cả câu đã nhập"
+                - option "Vật lí nhiệt"
+                - option "Khí lí tưởng"
+                - option "Từ trường"
+                - option "Vật lí hạt nhân" [selected]
+            - generic [ref=f14e1921]:
+              - text: Bài/chủ đề
+              - combobox "Bài/chủ đề" [ref=f14e1922]:
+                - option "Tất cả" [selected]
+                - option "B21"
+                - option "B22"
+                - option "B23"
+                - option "B24"
+                - option "B25"
+                - option "Vật lí hạt nhân"
+            - generic [ref=f14e1923]:
+              - text: Tình trạng
+              - combobox "Tình trạng" [ref=f14e1924]:
+                - option "Tất cả" [selected]
+                - option "Đã biên soạn"
+                - option "Chờ kiểm tra"
+            - generic [ref=f14e1925]:
+              - text: Tìm câu hỏi
+              - textbox "Tìm câu hỏi" [ref=f14e1926]:
+                - /placeholder: Nội dung câu hỏi
+          - paragraph [ref=f14e1927]: 109 câu · 109 đã biên soạn
+          - generic [ref=f14e1928]:
+            - article [ref=f14e3564]:
+              - generic [ref=f14e3565]:
+                - strong [ref=f14e3566]: Câu 1
+                - generic [ref=f14e3567]: "B21 · Bloom: Hiểu"
+              - generic [ref=f14e3568]: Các nhà khoa học đã làm thế nào để phát hiện hạt nhân có kích thước nhỏ hơn nhiều so với nguyên tử, dù không thể quan sát bằng kính hiển vi quang học?
+              - figure "Hình minh họa của bài" [ref=f14e3570]:
+                - img "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha" [ref=f14e3571]
+              - generic [ref=f14e3573]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e3574] [cursor=pointer]
+                - group [ref=f14e3575]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e3576]
+              - status
+            - article [ref=f14e3577]:
+              - generic [ref=f14e3578]:
+                - strong [ref=f14e3579]: Câu 2
+                - generic [ref=f14e3580]: "B21 · Bloom: Hiểu"
+              - generic [ref=f14e3581]: "Dựa vào thí nghiệm tán xạ hạt alpha: tần suất đốm sáng lớn nhất tại vị trí (1), đối diện nguồn phát trong Hình 21.2b, chứng tỏ điều gì?"
+              - figure "Hình minh họa của bài" [ref=f14e3583]:
+                - img "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha" [ref=f14e3584]
+              - generic [ref=f14e3586]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e3587] [cursor=pointer]
+                - group [ref=f14e3588]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e3589]
+              - status
+            - article [ref=f14e3590]:
+              - generic [ref=f14e3591]:
+                - strong [ref=f14e3592]: Câu 3
+                - generic [ref=f14e3593]: "B21 · Bloom: Hiểu"
+              - generic [ref=f14e3594]: Tại sao có một số hạt alpha đổi hướng chuyển động khi đi qua lá vàng?
+              - figure "Hình minh họa của bài" [ref=f14e3596]:
+                - img "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha" [ref=f14e3597]
+              - generic [ref=f14e3599]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e3600] [cursor=pointer]
+                - group [ref=f14e3601]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e3602]
+              - status
+            - article [ref=f14e3603]:
+              - generic [ref=f14e3604]:
+                - strong [ref=f14e3605]: Câu 4
+                - generic [ref=f14e3606]: "B21 · Bloom: Hiểu"
+              - generic [ref=f14e3608]:
+                - text: Tần suất hạt alpha bật lại tới vị trí (2) chỉ bằng
+                - generic [ref=f14e3610]:
+                  - math [ref=f14e3612]:
+                    - generic [ref=f14e3615]:
+                      - generic [ref=f14e3616]: "10"
+                      - generic [ref=f14e3617]:
+                        - generic [ref=f14e3618]: −
+                        - generic [ref=f14e3619]: "4"
+                  - generic [ref=f14e3621]:
+                    - text: "1"
+                    - generic [ref=f14e3622]:
+                      - text: "0"
+                      - generic [ref=f14e3623]: −4
+                - text: lần tần suất hạt đi qua tới vị trí (1). Kết quả đó chứng tỏ điều gì?
+              - figure "Hình minh họa của bài" [ref=f14e3629]:
+                - img "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha" [ref=f14e3630]
+              - generic [ref=f14e3632]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e3633] [cursor=pointer]
+                - group [ref=f14e3634]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e3635]
+              - status
+            - article [ref=f14e3636]:
+              - generic [ref=f14e3637]:
+                - strong [ref=f14e3638]: Câu 5
+                - generic [ref=f14e3639]: "B21 · Bloom: Nhớ"
+              - generic [ref=f14e3640]: Mô tả mô hình hành tinh nguyên tử của Rutherford trong Hình 21.5a.
+              - figure "Hình minh họa của bài" [ref=f14e3642]:
+                - img "Hình 21.5. Một số mô hình nguyên tử"
+              - generic [ref=f14e3644]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e3645] [cursor=pointer]
+                - group [ref=f14e3646]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e3647]
+              - status
+            - article [ref=f14e3648]:
+              - generic [ref=f14e3649]:
+                - strong [ref=f14e3650]: Câu 6
+                - generic [ref=f14e3651]: "B21 · Bloom: Phân tích"
+              - generic [ref=f14e3652]: Giải thích mô hình cấu tạo nguyên tử của Rutherford dựa vào kết quả tán xạ ở các ý 1a, 1b, 1c.
+              - figure "Hình minh họa của bài" [ref=f14e3654]:
+                - img "Hình 21.2. Bố trí thí nghiệm tán xạ hạt alpha" [ref=f14e3655]
+              - generic [ref=f14e3657]:
+                - button "Chỉnh sửa câu hỏi" [ref=f14e3658] [cursor=pointer]
+                - group [ref=f14e3659]:
+                  - generic "Đáp án và hướng dẫn chấm" [ref=f14e3660]
+              - status
+          - generic [ref=f14e2766]:
+            - button "Trang trước" [disabled] [ref=f14e2767] [cursor=pointer]
+            - generic [ref=f14e2768]: Trang 1/19
+            - button "Trang sau" [ref=f14e2769] [cursor=pointer]
+            - button "Tải bản biên soạn" [ref=f14e2770] [cursor=pointer]
+  - alert [ref=f14e49]

@@ -1,0 +1,28 @@
+{
+  "changed_parts": [
+    "word/_rels/document.xml.rels",
+    "word/document.xml",
+    "word/settings.xml",
+    "docProps/core.xml"
+  ],
+  "new_media": [
+    "word/media/11-ai-cuc-bo.png",
+    "word/media/12-ngan-hang-sach.jpg",
+    "word/media/18-dung-sai-bon-y.jpg",
+    "word/media/20-ma-tran-bon-loai.jpg",
+    "word/media/14-phieu-ba-pha-moi.jpg",
+    "word/media/17-huong-dan-phieu.jpg",
+    "word/media/18-phieu-cau-hoi-hinh-sgk.jpg",
+    "word/media/19-rubrics-phieu.jpg",
+    "word/media/23-ke-hoach-dieu-kien.jpg",
+    "word/media/24-ke-hoach-yeu-cau.jpg",
+    "word/media/15-chuan-bi-gio-hoc-moi.jpg",
+    "word/media/16-ke-hoach-xem-truoc.jpg",
+    "word/media/21-xuat-word-da-tao.jpg",
+    "word/media/22-ai-giao-vien-hoat-dong.jpg"
+  ],
+  "figures": 24,
+  "references": 20,
+  "tests": 58,
+  "source_sha256": "fd7df26a7999d65f72514e259668101f7eb96664f8cb3368cd9c07b9ddd346a6"
+}

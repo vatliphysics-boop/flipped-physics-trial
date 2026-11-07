@@ -1,0 +1,145 @@
+@260
+Các biểu mẫu dưới đây do nhóm đề xuất để thẩm định và thử trước khi thu dữ liệu chính. Số liệu trong đề bài là dữ kiện phục vụ đánh giá, không phải kết quả khảo sát hoặc số đo của học sinh. Không có phiếu nào đã được điền như dữ liệu thực. Mã công cụ và tên phụ lục chỉ là nhãn tra cứu trong phần Phụ lục, không thêm chương hoặc thay hệ thống đề mục của giảng viên.
+**Phụ lục A. Rubric thực hành năng lực tự học TH1–TH10**
+Đơn vị chấm là cá nhân thực hiện một nhiệm vụ chuẩn hóa. Mỗi chỉ báo chấm 1–4 theo minh chứng được yêu cầu trong đề; ghi vị trí minh chứng và mức trợ giúp. NA là chưa có đủ minh chứng, tách khỏi mức 1. Điểm tổng là trung bình các chỉ báo hợp lệ khi đủ điều kiện nêu ở 1.2.4. Không cộng điểm tự báo cáo, lượt truy cập hoặc điểm kiến thức vào chỉ số này.
+!caption Bảng PL.1. Mô tả bốn mức của mười chỉ báo tự học
+| Chỉ báo | Mức 1 | Mức 2 | Mức 3 | Mức 4 |
+| TH1 Mục tiêu | Không nêu mục tiêu phù hợp | Nêu chung khi được gợi | Nêu việc cần làm và đầu ra rõ | Thêm tiêu chí kiểm tra mức đạt |
+| TH2 Nhận diện khó khăn | Không chỉ ra điều chưa biết | Chỉ ra mơ hồ hoặc cần hỏi dẫn | Nêu điểm thiếu hiểu biết cụ thể | Ưu tiên khó khăn và cách xác minh |
+| TH3 Kế hoạch | Không có trình tự khả thi | Có bước nhưng thiếu thời gian/nguồn | Có trình tự, thời gian, sản phẩm | Dự phòng và điều chỉnh theo tiến độ |
+| TH4 Lựa chọn nguồn | Chọn theo tiện lợi, không căn cứ | Nhận nguồn nhưng chưa đánh giá | Chọn nguồn phù hợp, nêu căn cứ | Đối chiếu độ tin cậy và giới hạn |
+| TH5 Ghi và tổ chức | Chép rời rạc, không liên quan | Có ý đúng nhưng thiếu quan hệ | Ghi chọn lọc, biểu diễn có liên hệ | Tổ chức lại giúp giải quyết vấn đề |
+| TH6 Xử lí thông tin | Không thực hiện được thao tác | Thực hiện một phần khi gợi | Xử lí đúng, ghi đơn vị/điều kiện | Kiểm tra cỡ lớn và giải thích kết quả |
+| TH7 Giám sát | Không kiểm tra tiến độ/cách hiểu | Nhận khó khăn sau nhắc | Tự dừng kiểm tra và chỉ điểm vướng | Dùng tiêu chí để quyết định bước tiếp |
+| TH8 Kiểm chứng | Chấp nhận kết quả không kiểm tra | Kiểm tra hình thức hoặc cần nhắc | Dùng nguồn/quy tắc để kiểm tra | Đối chiếu nhiều căn cứ, nêu giới hạn |
+| TH9 Điều chỉnh | Không sửa hoặc sửa vô căn cứ | Sửa đáp án nhưng thiếu lí do | Sửa bước sai và giải thích nguyên nhân | Đổi chiến lược và kiểm tra lại hiệu quả |
+| TH10 Tìm hỗ trợ | Xin đáp án/làm thay hoặc bỏ cuộc | Hỏi chung, chưa mô tả nỗ lực | Hỏi cụ thể kèm cách đã thử | Chọn mức trợ giúp và tự làm tiếp |
+!source Nguồn: nhóm nghiên cứu xây dựng cho đề tài, tham chiếu chương trình (2018), Zimmerman (2002) và Panadero (2017); chưa kiểm định cấu trúc hoặc chuẩn hóa.
+Phiếu chấm cá nhân: mã học sinh ____; lớp mã ____; thời điểm ____; dạng đề ____; người chấm ____; TH1 ____ đến TH10 ____; vị trí minh chứng ____; số NA ____; lý do NA ____; điểm hợp lệ ____; nhận xét một hành động cần cải thiện ____. Người chấm không suy động cơ hoặc tính cách từ một lần thực hiện. Trước chấm chính, dùng bài thử ngoài mẫu để thống nhất ví dụ neo; giữ cả điểm chấm độc lập trước hòa giải để đánh giá độ nhất quán.
+**Phụ lục B. Phiếu khảo sát giáo viên GV-01**
+Lời mời: Phiếu tìm hiểu điều kiện tổ chức tự học Vật lí để điều chỉnh thiết kế nghiên cứu. Tham gia tự nguyện, không đánh giá thi đua; có thể bỏ câu không muốn trả lời. Không ghi tên hoặc số điện thoại. Mã phiếu ____; ngày ____; loại trường ____; số năm dạy ____; đã dạy nội dung hạt nhân lớp 12: có/chưa.
+GV1. Trong bốn tuần dạy gần nhất, thầy/cô giao nhiệm vụ chuẩn bị trước giờ Vật lí bao nhiêu lần? 0; 1–2; 3–4; trên 4; không có tiết phù hợp trong khoảng này.
+GV2. Dạng nhiệm vụ đã giao (chọn nhiều): đọc có câu hỏi; video có câu hỏi; bài tập; mô phỏng; tìm nguồn; lập kế hoạch; chưa giao. Ghi một ví dụ ____.
+GV3. Sản phẩm được kiểm tra trước tiết học bằng cách nào? chưa kiểm tra; hỏi một số em; thu toàn lớp; hệ thống trực tuyến; cách khác ____.
+GV4. Tần suất tổ chức thảo luận từ lỗi chuẩn bị: chưa bao giờ/hiếm khi/thỉnh thoảng/thường xuyên/rất thường xuyên. Mô tả một tình huống ____.
+GV5. Cách phản hồi sau nhiệm vụ (chọn nhiều): chỉ đáp án/điểm; nêu lỗi; chỉ bước sửa; yêu cầu nộp bản sửa; trao đổi trực tiếp. Cách theo dõi bản sửa ____.
+GV6. Khó khăn nội dung hạt nhân mà thầy/cô đã quan sát (chọn nhiều): cấu trúc; loại khối lượng; năng lượng liên kết; ngẫu nhiên; H và số đếm; an toàn; chưa có quan sát. Minh chứng cụ thể ____.
+GV7. Điều kiện ở trường: máy chiếu; phòng máy; thiết bị dùng chung; mạng ổn định; tài liệu in; hỗ trợ kĩ thuật. Với mỗi mục chọn có/không/chưa rõ.
+GV8. Ước lượng thời gian chuẩn bị học liệu cho một cụm bài ____ phút; thời gian phản hồi học sinh ____ phút. Đây là tự ước lượng, không dùng như đo thời gian khách quan.
+GV9. Đã dùng AI cho mục đích nào? chưa dùng; tạo câu hỏi; soạn kế hoạch; giải thích; phản hồi; mục đích khác ____. Ghi công cụ nếu nhớ ____.
+GV10. Kiểm tra đầu ra AI bằng cách nào? không kiểm tra; tự giải; sách/chương trình; nguồn xuất bản; trao đổi đồng nghiệp; cách khác ____. Có lưu bản sửa không? có/không.
+GV11. Lo ngại chính khi dùng AI (chọn tối đa ba): sai kiến thức; làm thay; dữ liệu riêng tư; truy cập; thời gian kiểm duyệt; thiếu nguồn; khác ____.
+GV12. Với mỗi nhu cầu, chọn 1 không cần đến 5 rất cần: học liệu được duyệt; hướng dẫn tổ chức đảo ngược; rubric tự học; hướng dẫn kiểm chứng AI; xuất dữ liệu; phương án ngoại tuyến.
+GV13. Trong điều kiện hiện tại, thầy/cô có thể bố trí những hình thức hỗ trợ nào cho học sinh thiếu thiết bị? ____.
+GV14. Một điều kiện khiến thầy/cô chưa muốn triển khai và một điều kiện giúp có thể triển khai: ____.
+Phân tích: tần số và mẫu số hợp lệ từng câu; không tính tổng điểm từ các câu không cùng cấu trúc. Thông tin về lớp/trường nếu cần được thu riêng theo quy trình mã hóa, không ghép công khai với câu trả lời.
+**Phụ lục C. Phiếu học sinh HS-01 và tự báo cáo hành vi**
+Lời mời: Các câu hỏi tìm hiểu cách học trong bốn tuần gần nhất. Không có đáp án tốt để lấy điểm; trả lời hoặc không tham gia không ảnh hưởng kết quả học tập. Không ghi tên. Mã ____; ngày ____; học Vật lí lớp 12: có/không; đã học nội dung hạt nhân: chưa/một phần/đã học.
+HS1. Thiết bị có thể dùng để học: riêng/dùng chung/không có; loại thiết bị ____.
+HS2. Mạng tại nơi học: ổn định/thỉnh thoảng gián đoạn/thường xuyên gián đoạn/không có. Có thể tải tài liệu trước ở trường: có/không/chưa rõ.
+HS3. Em có chỗ và thời gian học tương đối yên tĩnh không? thường xuyên/đôi khi/hiếm khi. Nhu cầu hỗ trợ tiếp cận mà em muốn chia sẻ ____ (không bắt buộc).
+HS4. Khi gặp bài Vật lí khó, em thường làm gì trước? thử cách khác/xem tài liệu/hỏi bạn/hỏi giáo viên/hỏi AI/bỏ qua. Có thể chọn nhiều và đánh số thứ tự thường dùng.
+HS5. Em đã dùng AI học Vật lí chưa? chưa/có. Nếu có, mục đích và cách kiểm tra câu trả lời ____.
+HS6. Mức đồng ý 1–5 với từng nhận định: AI có thể sai; em biết tìm nguồn đối chiếu; em dễ dùng đáp án mà chưa hiểu; em muốn được hướng dẫn hỏi gợi ý. Phân tích từng câu, không cộng thành một điểm “thái độ tốt”.
+HS7. Một ví dụ em đã sửa cách học sau khi nhận ra chưa hiểu: ____.
+HS8. Điều gì làm em khó hoàn thành nhiệm vụ trước giờ? thời gian/thiết bị/mạng/không hiểu yêu cầu/khó kiến thức/không thấy cần/khác ____. Điều em muốn giáo viên hỗ trợ ____.
+Tự báo cáo TH-TB gồm 15 câu sau, chọn 1 chưa bao giờ, 2 hiếm khi, 3 thỉnh thoảng, 4 thường xuyên, 5 gần như luôn luôn trong bốn tuần gần nhất; chọn K nếu chưa gặp tình huống. Không dùng K như điểm 1. Ba câu mỗi nhóm chỉ báo là cấu trúc dự kiến, chưa kiểm định.
+TB1 Tôi xác định mình cần hiểu điều gì trước khi bắt đầu học. TB2 Tôi viết hoặc nói rõ sản phẩm cần hoàn thành. TB3 Tôi nhận ra phần mình chưa hiểu để ưu tiên học.
+TB4 Tôi chia nhiệm vụ thành các bước phù hợp thời gian. TB5 Tôi chọn tài liệu dựa trên tác giả, nguồn hoặc mức phù hợp. TB6 Tôi chuẩn bị cách thay thế khi không truy cập được tài nguyên.
+TB7 Tôi ghi ý chính bằng lời hoặc sơ đồ của mình. TB8 Tôi tự làm một bước trước khi xem đáp án. TB9 Tôi giải thích ý nghĩa đại lượng và đơn vị khi tính.
+TB10 Tôi dừng lại kiểm tra mình có hiểu điều vừa đọc hay không. TB11 Tôi đối chiếu câu trả lời AI với nguồn khác. TB12 Tôi dùng ví dụ hoặc trường hợp biên để kiểm tra kết quả.
+TB13 Tôi sửa cách làm và ghi lí do sau phản hồi. TB14 Tôi hỏi cụ thể phần vướng, kèm cách đã thử. TB15 Tôi chọn việc học tiếp theo dựa trên lỗi còn tồn tại.
+Chấm mô tả từng nhóm ba câu khi ít nhất hai câu hợp lệ; báo số K/thiếu. Điểm tự báo cáo được phân tích riêng, không thay điểm thực hành. Phân tích độ nhất quán nếu cỡ mẫu cho phép, nhưng hệ số cao không chứng minh giá trị nội dung hoặc cấu trúc. Không dùng mẫu nhỏ để tuyên bố thang đo đã được chuẩn hóa.
+**Phụ lục D. Nhiệm vụ thực hành tự học tiền kiểm – hậu kiểm TH-A và TH-B**
+Hướng dẫn chung: thời gian 25 phút; làm cá nhân, không dùng AI, điện thoại hoặc trao đổi; được dùng máy tính cầm tay và hai thẻ nguồn được cung cấp. Ghi cả cách làm ban đầu và bản sửa. Đây là đánh giá quá trình tự học một nhiệm vụ mới dựa trên nguồn chung; không đánh giá trí nhớ công thức. Người coi chỉ giải thích thủ tục, không gợi đáp án. Dạng A/B phải thử độ tương đương trước nghiên cứu; cân bằng thứ tự A–B và B–A trong từng lớp nếu khả thi.
+Thẻ nguồn S1 dùng cho cả hai dạng: “Với mẫu một đồng vị không được bổ sung nguồn, số hạt chưa phân rã kỳ vọng N(t) = N0·2^(−t/T); T là thời gian để giá trị kỳ vọng giảm một nửa. Quy luật mô tả tập hợp; từng phân rã có tính ngẫu nhiên.” Thẻ do nhóm diễn giải từ Urone và Hinrichs (2022), ghi URL OpenStax và mục Radioactive Decay. Thẻ S2 là phát biểu dùng để kiểm chứng trong bài, không phải nguồn xuất bản: “Sau mỗi khoảng thời gian bằng T, mẫu mất một số hạt cố định bằng N0/2; với mọi mẫu nhỏ cũng luôn còn đúng một nửa.” Học sinh được biết S2 chưa có căn cứ xác thực.
+**Dạng TH-A.** Một bộ dữ liệu mô hình có N0 = 1200, T = 8 giờ. Em cần giải thích cho bạn số hạt còn lại kỳ vọng sau 24 giờ và đánh giá lời phát biểu S2. Không gọi đây là số đo thực tế.
+Phút 0–3: viết mục tiêu, dấu hiệu đạt, một điểm chưa hiểu và kế hoạch ba bước với thời gian. Phút 3–10: chọn nguồn, nêu căn cứ, lập bảng tại 0, 8, 16, 24 giờ và giải thích bằng lời. Phút 10–15: ghi bước em dùng để kiểm tra, chỉ ra khác biệt giữa hai thẻ và mức chắc chắn. Phút 15–19: đọc phản hồi chung “Hãy kiểm tra em đang trừ một lượng không đổi hay nhân một tỉ lệ; phân biệt kỳ vọng với một lần quan sát ít hạt”; viết một câu hỏi cụ thể em sẽ hỏi giáo viên, kèm điều đã thử. Phút 19–25: sửa hoặc bảo vệ cách làm, chỉ ra căn cứ, đánh giá mục tiêu và đề xuất bước tiếp theo.
+Đáp án nội dung A: bảng 1200, 600, 300, 150; sau 24 giờ còn kỳ vọng 150, đã phân rã 1050. S2 sai về lượng giảm cố định và khẳng định mọi mẫu nhỏ. Không bắt buộc có lỗi ban đầu để được mức cao: học sinh có thể giữ kết quả nhưng phải kiểm tra và giải thích. Người chấm TH9 đánh giá quyết định có căn cứ và điều chỉnh chiến lược khi cần, không thưởng việc cố tạo lỗi.
+**Dạng TH-B.** Một bộ dữ liệu mô hình có N0 = 1600, T = 6 giờ. Em cần giải thích số hạt còn lại kỳ vọng sau 18 giờ và đánh giá phát biểu S2. Thực hiện cùng các bước, thời lượng và phản hồi như dạng A; bảng ở 0, 6, 12, 18 giờ.
+Đáp án nội dung B: 1600, 800, 400, 200; sau 18 giờ còn kỳ vọng 200, đã phân rã 1400. Các yêu cầu về ngẫu nhiên và nguồn giống A. Hai dạng cùng cấu trúc nhưng có thể khác độ khó thực tế; phải dùng thử và kiểm tra ảnh hưởng mã đề, không gọi là đề tương đương đã kiểm chứng.
+Đối chiếu chấm: phần mục tiêu cho TH1–TH2; kế hoạch cho TH3; chọn nguồn cho TH4; bảng và giải thích cho TH5–TH6; bước kiểm tra và mức chắc chắn cho TH7–TH8; bản sửa/bảo vệ có căn cứ cho TH9; câu hỏi kèm nỗ lực cho TH10. Lưu ý phản hồi chuẩn được cung cấp cho mọi em: mức 3–4 đòi hỏi học sinh cụ thể hóa và tự thực hiện, không chỉ chép lời nhắc. Một nhiệm vụ ngắn không bao quát hết năng lực tự học, nên cần đối chiếu sản phẩm quá trình.
+**Phụ lục E. Hai dạng kiểm tra kiến thức VL-A và VL-B**
+Thời gian 35 phút, thang 10, làm cá nhân không dùng AI/tài liệu, được dùng máy tính. Cung cấp ln2 ≈ 0,6931; 1 uc² = 931,5 MeV; mH = 1,007825 u; mn = 1,008665 u. Đề do nhóm biên soạn để thẩm định, không phải đề đã có độ tin cậy/độ phân biệt xác nhận.
+!caption Bảng PL.2. Ma trận hai dạng kiểm tra kiến thức
+| Nội dung | Câu ở mỗi dạng | Điểm | Yêu cầu đánh giá |
+| Cấu trúc, kí hiệu | 1, 2 | 1,0 | Suy luận cấu trúc, nhận diện đồng vị |
+| Khối lượng, liên kết | 3, 9 | 1,5 | Phân biệt đại lượng, tính đúng quy ước |
+| Phóng xạ, bán rã | 4, 5, 6, 10 | 2,5 | Ngẫu nhiên, tia, hàm mũ, H |
+| Phản ứng, năng lượng | 7, 11 | 2,5 | Nhận diện và vận dụng bảo toàn |
+| Ứng dụng, an toàn, bằng chứng | 8, 12 | 2,5 | Quyết định có lí do, phân biệt nguồn |
+!source Nguồn: nhóm xây dựng từ YC1–YC15. Ma trận công cụ nghiên cứu; không tuyên bố thay ma trận kiểm tra định kì theo Công văn 7991.
+**Dạng VL-A. Câu 1–8, mỗi câu chọn một đáp án đúng, 0,5 điểm.**
+1. Từ việc rất ít hạt α bị lệch mạnh khi qua lá vàng mỏng, suy luận phù hợp là: A. Điện tích dương tập trung trong vùng rất nhỏ; B. Electron tập trung toàn bộ khối lượng; C. Nguyên tử là khối đặc đồng nhất; D. Hạt α không tương tác với điện tích.
+2. Hai hạt nhân là đồng vị khi: A. cùng A, khác Z; B. cùng Z, khác Nn; C. cùng Nn, khác Z; D. cùng số electron trong mọi trạng thái ion.
+3. Đại lượng phù hợp để so sánh mức liên kết trung bình mỗi nucleon là: A. Elk; B. A·Elk; C. Elk/A; D. Z/Elk.
+4. Nhận định đúng về phóng xạ: A. Biết chính xác hạt nào phân rã lúc nào; B. Mọi mẫu nhỏ còn đúng nửa sau T; C. Phân rã riêng lẻ ngẫu nhiên, tập hợp lớn có quy luật thống kê; D. Không có quy luật nào cho mẫu lớn.
+5. Theo mô hình một đồng vị, sau 3T số hạt chưa phân rã bằng: A. N0/3; B. N0/6; C. N0/4; D. N0/8.
+6. Tia γ có bản chất là: A. hạt nhân helium; B. electron; C. neutron; D. photon năng lượng cao.
+7. Sự tổng hợp hạt nhân là: A. kết hợp hạt nhân nhẹ thành hạt nhân nặng hơn trong điều kiện thích hợp; B. tách electron khỏi nguyên tử; C. tách mọi hạt nhân nặng bằng nhiệt thường; D. phản ứng hóa học cháy nhiên liệu.
+8. Gặp vật có biển cảnh báo phóng xạ không rõ nguồn, hành động phù hợp là: A. mở để nhận dạng; B. mang về làm thí nghiệm; C. tránh tiếp cận, không thao tác và báo người có trách nhiệm; D. che bằng giấy rồi cầm lên.
+9. (1 điểm) Với nguyên tử trung hòa He-4 có khối lượng 4,002603 u, tính Δm và Elk/A theo dữ kiện chung; nêu quy ước khối lượng.
+10. (1 điểm) Mẫu có N = 10⁵ hạt chưa phân rã, T = 100 s. Tính H và ghi đơn vị.
+11. (2 điểm) Hoàn thành neutron còn thiếu trong phản ứng n + U-235 → Ba-141 + Kr-92 + k n; kiểm tra A và Z. Một phản ứng được cho chênh khối lượng trước trừ sau là 0,200 u: tính Q và giải thích dấu. Hai yêu cầu là bài tập với dữ kiện nêu riêng, không khẳng định chênh khối lượng này đã đo cho kênh trên.
+12. (2 điểm) Một bạn nói: “Tệp CSV tính từ hàm mũ đã chứng minh bằng thực nghiệm định luật phóng xạ; tốc độ đếm luôn bằng H.” Hãy sửa hai nhận định và nêu hai điều kiện/thông tin cần có nếu muốn phân tích số đếm thực.
+**Dạng VL-B. Câu 1–8, mỗi câu 0,5 điểm.**
+1. Việc đa số α đi gần thẳng qua lá vàng mỏng phù hợp với nhận định: A. hạt nhân chiếm gần toàn bộ kích thước nguyên tử; B. phần lớn thể tích nguyên tử không chứa vùng hạt nhân đậm đặc; C. nguyên tử không có điện tích; D. mọi α đều không chịu lực.
+2. Carbon-12 và carbon-14 khác nhau ở: A. số proton; B. điện tích hạt nhân; C. số neutron; D. nguyên tố hóa học.
+3. Nếu đề cho khối lượng nguyên tử trung hòa và muốn tính Δm theo xấp xỉ phổ thông, nên dùng: A. khối lượng nguyên tử hydrogen và neutron; B. proton và khối lượng nguyên tử mà không điều chỉnh; C. chỉ số khối A; D. chỉ khối lượng electron.
+4. Sau một chu kì, một lần mô phỏng mẫu nhỏ không còn đúng nửa số hạt. Kết luận phù hợp: A. chắc chắn định luật sai; B. mọi mô phỏng vô nghĩa; C. phải sửa số liệu thành nửa; D. cần xét tính ngẫu nhiên và so sánh nhiều lần với kỳ vọng.
+5. Mẫu một đồng vị còn N0/4 theo mô hình. Thời gian đã qua là: A. T/4; B. 2T; C. 4T; D. T/2.
+6. Trong phân rã α, hạt nhân con có: A. A giảm 4, Z giảm 2; B. A giảm 2, Z giảm 4; C. A không đổi, Z tăng 1; D. A và Z không đổi.
+7. Phân hạch do neutron gây ra có thể được mô tả là: A. hai nguyên tử uranium va chạm và luôn hợp nhất; B. electron phát ánh sáng; C. hạt nhân nặng hấp thụ neutron rồi tách thành các mảnh và neutron; D. cháy hóa học của uranium.
+8. Phát biểu phù hợp về chiếu xạ và nhiễm bẩn phóng xạ: A. hai khái niệm luôn giống nhau; B. chiếu xạ không tự đồng nghĩa chất phóng xạ được chuyển vào vật; C. mọi vật chiếu xạ đều có nguồn phóng xạ bên trong; D. không cần phân biệt khi đánh giá an toàn.
+9. (1 điểm) Với nguyên tử trung hòa C-12 có khối lượng 12,000000 u, tính Δm và Elk/A theo dữ kiện chung; nêu quy ước khối lượng.
+10. (1 điểm) Mẫu có N = 10⁵ hạt chưa phân rã, T = 200 s. Tính H và ghi đơn vị.
+11. (2 điểm) Trong phân rã α của U-238 (Z = 92), xác định A, Z của hạt nhân con và kiểm tra bảo toàn. Một phản ứng có chênh khối lượng trước trừ sau 0,010 u: tính Q và giải thích dấu; dữ kiện năng lượng này là bài tập riêng.
+12. (2 điểm) Một bạn dùng hình 3D không đúng tỉ lệ để kết luận kích thước hạt nhân bằng một phần mười nguyên tử, rồi cho rằng chỉ cần đứng xa bất kì nguồn phóng xạ một mét là an toàn. Hãy sửa hai nhận định và nêu hai loại căn cứ cần có để đánh giá chúng.
+**Đáp án và hướng dẫn chấm VL-A/VL-B.** Trắc nghiệm A: 1A, 2B, 3C, 4C, 5D, 6D, 7A, 8C. Trắc nghiệm B: 1B, 2C, 3A, 4D, 5B, 6A, 7C, 8B. Mỗi câu đúng 0,5, sai hoặc bỏ 0; không trừ điểm.
+Câu 9A: dùng mH với khối lượng nguyên tử (0,25); Δm = 0,030377 u (0,25); Elk ≈ 28,296 MeV và Elk/A ≈ 7,074 MeV/nucleon (0,5). Câu 9B: cùng quy ước (0,25); Δm = 0,098940 u (0,25); Elk ≈ 92,164 MeV và Elk/A ≈ 7,680 MeV/nucleon (0,5). Chấp nhận sai số làm tròn phù hợp dữ kiện.
+Câu 10A: λ = ln2/100 ≈ 0,006931 s⁻¹ (0,5); H ≈ 693,1 Bq (0,5). Câu 10B: λ ≈ 0,0034655 s⁻¹ (0,5); H ≈ 346,55 Bq (0,5). Nếu đổi đơn vị sai, chấm phần lập công thức đúng, không cho điểm đơn vị/kết quả sai.
+Câu 11A: k = 3 và kiểm tra A, Z (1); Q = 186,3 MeV (0,5), Q > 0 phản ứng tỏa năng lượng theo dữ kiện (0,5). Câu 11B: hạt nhân con Th-234, Z = 90, kiểm tra bảo toàn (1); Q = 9,315 MeV (0,5), tỏa năng lượng (0,5). Không yêu cầu học sinh suy năng lượng từ phương trình thiếu khối lượng.
+Câu 12A: phân biệt dữ liệu tính từ mô hình với đo độc lập (0,5); tốc độ đếm phụ thuộc hiệu suất/hình học/phông, không luôn bằng H (0,5); nêu hai thông tin đúng như hiệu suất, phông, thời gian đếm, hình học ổn định (mỗi ý 0,5). Câu 12B: hình không đúng tỉ lệ không cho kích thước thật (0,5); không có khoảng cách an toàn phổ quát cho mọi nguồn (0,5); nêu căn cứ đo/nguồn khoa học cho kích thước và đặc tính nguồn/đánh giá chuyên môn cho an toàn (mỗi ý 0,5). Chấp nhận cách diễn đạt tương đương, không yêu cầu một câu thuộc lòng.
+**Phụ lục F. Phiếu học tập PHT1–PHT3 và nhật kí**
+Mỗi phiếu ghi mã cá nhân ____; nhiệm vụ ____; ngày ____; phiên bản học liệu ____; nguồn dùng ____; loại trợ giúp ____; bản đầu/bản sửa ____. Không ghi tên trực tiếp trên bản dùng chấm làm mù. Mỗi câu dưới đây cần có vùng trống khi giáo viên phát phiếu hoặc biểu mẫu số tương đương.
+PHT1: (a) Mục tiêu cá nhân và kế hoạch; (b) dự đoán tán xạ, quan sát, suy luận và giới hạn; (c) bảng carbon-12, carbon-14, uranium-235: A, Z, Nn; (d) quy ước khối lượng và phép tính He-4/Fe-56; (e) so sánh Elk và Elk/A; (f) lỗi hoặc điều chưa chắc, cách kiểm tra, bản sửa. Câu hỏi gợi ý chuẩn: “Em dùng loại khối lượng nào và vì sao?”
+PHT2: (a) Dự đoán mẫu nhỏ/lớn sau T; (b) điều kiện và kết quả ba lần mô phỏng; (c) bảng kỳ vọng và đồ thị; (d) tính T, λ, H, ghi đơn vị; (e) phân biệt N, N0−N, H và tốc độ đếm; (f) bản sửa và giới hạn dữ liệu. Câu hỏi gợi ý: “Đề đang hỏi hạt còn lại hay đã phân rã?”
+PHT3: (a) Mục tiêu và nguồn; (b) bảng kiểm A, Z và Q; (c) sơ đồ chuyển hóa năng lượng; (d) ứng dụng: cơ chế, lợi ích, điều kiện, giới hạn; (e) xử lí tình huống an toàn trên giấy; (f) phản biện nhận định và bản sửa. Câu hỏi gợi ý: “Nguồn nào đủ để kiểm tra phát biểu này, và còn thông tin gì chưa biết?”
+Nhật kí sau mỗi lượt: Tôi dự định ____; tôi đã thực hiện ____; minh chứng ____; điều chưa hiểu ____; trợ giúp đã dùng ____; tôi kiểm tra bằng ____; tôi sửa/giữ cách làm vì ____; lần sau tôi sẽ ____. Nếu không dùng AI ghi “không dùng”, không để trống bị hiểu thành thiếu dữ liệu. Các tệp lưu trình duyệt phải xuất và nộp theo kênh được xác nhận; mã tên tệp gợi ý là mãHS_mãNV_ngày_bản.
+**Phụ lục G. Phiếu thẩm định học liệu và công cụ**
+Mã người đánh giá ____; chuyên môn/kinh nghiệm liên quan ____; mã học liệu/công cụ ____; phiên bản ____; ngày ____; có tham gia phát triển sản phẩm không ____.
+Chấm từng tiêu chí 1 chưa đáp ứng, 2 cần sửa nhiều, 3 cần sửa ít, 4 đáp ứng, NA không áp dụng; kèm lỗi hoặc minh chứng: phù hợp yêu cầu cần đạt; chính xác khái niệm; công thức và đơn vị; nguồn và quyền sử dụng; rõ nhiệm vụ/sản phẩm; vừa sức; phản hồi hỗ trợ suy luận; minh chứng tự học; tiếp cận thiết bị; riêng tư/an toàn; tính rõ của rubric; độ phù hợp thời lượng.
+Quyết định: dùng được/cần sửa rồi kiểm tra lại/chưa phù hợp. Lỗi khoa học hoặc an toàn nghiêm trọng ____; sửa bắt buộc ____; đề xuất khác ____. Không quyết định đạt chỉ bằng điểm trung bình khi còn lỗi trọng yếu. Số chuyên gia và tiêu chuẩn tuyển phải ghi trước khi mời; đề xuất mời người có chuyên môn Vật lí, phương pháp dạy học và công nghệ giáo dục, không giả định họ đã nhận lời. Lưu phiếu gốc, bảng tổng hợp và giải trình tiếp thu từng ý kiến.
+**Phụ lục H. Quan sát, phỏng vấn và kiểm soát triển khai**
+Phiếu quan sát QS-01: lớp mã ____; buổi ____; điều kiện ____; người quan sát ____; phiên bản học liệu ____; thời lượng kế hoạch/thực tế ____; số có mặt ____; sự cố ____.
+Với mỗi hành vi, đánh dấu quan sát thấy/chưa thấy/không có cơ hội, ghi thời điểm và minh chứng: học sinh nêu mục tiêu; chọn nguồn có lí do; ghi dự đoán trước thao tác; giải thích kết quả; kiểm tra câu trả lời; hỏi cụ thể; sửa sau phản hồi. Không suy “không có cơ hội” là không có năng lực. Phiếu tuân thủ giáo viên ghi: giao trước có nguồn và tiêu chí; đọc sản phẩm trước lớp; dùng lỗi để thảo luận; tổ chức báo cáo có căn cứ; phản hồi để sửa; thu phiên bản; có bản thay thế khi sự cố. Ghi mức thực hiện và sai lệch, không chỉ đạt/không đạt.
+Phỏng vấn học sinh: (1) Em hãy chỉ một sản phẩm và kể cách bắt đầu; (2) lúc nào em nhận ra chưa hiểu, làm gì tiếp; (3) một phản hồi của người hoặc AI đã giúp/không giúp ra sao; (4) em kiểm chứng thông tin bằng cách nào; (5) điều kiện nào gây khó và nếu không có công cụ em có làm được nhiệm vụ tương tự không? Hỏi tiếp bằng “em có ví dụ không?”, tránh hỏi “AI đã giúp em tiến bộ nhiều như thế nào?”.
+Phỏng vấn giáo viên: (1) nhiệm vụ nào triển khai khác kế hoạch; (2) phản hồi dựa trên minh chứng gì; (3) học sinh nào gặp khó khăn tiếp cận; (4) lỗi khoa học/kĩ thuật hoặc phụ thuộc AI đã quan sát; (5) điều kiện cần để tiếp tục áp dụng. Không ghi âm khi chưa có đồng thuận; nếu ghi chép, cho người trả lời kiểm tra phần trích dự định dùng.
+**Phụ lục I. Thông tin tham gia và quản lí dữ liệu**
+Phiếu thông tin cần điền trước triển khai: tên nghiên cứu; đơn vị và người phụ trách; cách liên hệ được xác nhận; hoạt động, thời lượng, dữ liệu thu; lợi ích kỳ vọng và bất tiện; quyền từ chối/rút lui; cách tiếp tục học nếu không tham gia; người được truy cập; thời hạn lưu và cách xóa; cách công bố kết quả ẩn danh. Phần liên hệ và thời hạn lưu hiện chưa có thông tin được phê duyệt, phải bổ sung trước phát phiếu, không dùng nguyên mẫu chưa điền để xin đồng thuận.
+Các lựa chọn đồng thuận tách riêng: tham gia dữ liệu bài làm; quan sát; phỏng vấn; ghi âm; dùng trích đoạn ẩn danh. Học sinh ký/chọn tự nguyện; người giám hộ thực hiện phần đồng thuận khi quy định áp dụng yêu cầu; nhà trường và giảng viên hướng dẫn xác nhận quy trình trước thu. Không công khai danh sách từ chối hoặc gây ảnh hưởng điểm. Không thu dữ liệu nhạy cảm không cần cho câu hỏi nghiên cứu.
+!caption Bảng PL.3. Từ điển biến tối thiểu cho dữ liệu nghiên cứu
+| Biến | Kiểu và mã | Quy tắc |
+| sid, class_id | Chuỗi mã giả danh | Bảng nối danh tính lưu riêng |
+| group, time, form | TN/ĐC; pre/post; A/B | Không suy từ tên tệp thiếu xác nhận |
+| th1…th10 | 1–4 hoặc NA | Lưu điểm từng người chấm |
+| th_mean | Số từ 1–4 hoặc NA | Đủ ≥8 chỉ báo và cả 5 thành phần |
+| vl_total | 0–10 hoặc NA | Đáp án khóa trước chấm |
+| tb1…tb15 | 1–5, K, thiếu | K không đổi thành 1 |
+| task_id, version | Chuỗi | Truy vết nhiệm vụ và học liệu |
+| support, ai_branch | Không/người/AI; mô hình/quy tắc/chưa xác nhận | Không suy nhánh từ trạng thái ready |
+| missing_reason | Vắng/sự cố/rút lui/chưa rõ | Không tự thay bằng điểm 0 |
+| fidelity, incident | Mã và ghi chú | Lưu sai lệch cả hai điều kiện |
+!source Nguồn: nhóm đề xuất; chưa chứa bản ghi người tham gia.
+Quy trình SPSS dự kiến: nhập bản sao dữ liệu đã ẩn danh; khai báo nhãn và giá trị thiếu; kiểm tra trùng mã và phạm vi; lập bảng luồng mẫu; tính điểm theo điều kiện hợp lệ; mô tả từng lớp; kiểm tra chấm; phân tích thay đổi theo kịch bản số lớp; lưu cú pháp và đầu ra. Dữ liệu thiếu báo cả số và lý do; không mặc định missing at random. Phân tích trường hợp đầy đủ được đối chiếu với toàn bộ mẫu có tiền kiểm để xem hao hụt khác nhau. Không thực hiện thế dữ liệu hoặc kiểm định khi chưa có dữ liệu và giả định đủ căn cứ.
+**Phụ lục K. Hồ sơ kiểm kê và ma trận minh chứng sản phẩm**
+!caption Bảng PL.4. Minh chứng phát triển sản phẩm và giới hạn suy luận
+| Nội dung | Nguồn kiểm tra ngày 04/11/2026 | Kết luận được phép |
+| 89 mục | Danh mục CANONICAL_SYSTEM_MATERIALS trong mã nguồn | Quy mô danh mục chuẩn, không phải số học sinh dùng |
+| 17 hoạt động | FixedPhysicsActivityRenderer và khóa mô phỏng | Có cấu hình hoạt động, không phải 17 mô hình đã thẩm định |
+| 212 câu | src/data/unified-question-bank.json | 72 chọn, 12 đúng–sai, 19 số, 109 tự luận |
+| 62/62 kiểm thử | tests/*.test.ts, chạy bằng trình thực thi có sẵn | Các ca hiện có đạt, không chứng minh hiệu quả giáo dục |
+| Sổ quan sát | ObservationNotebook.tsx | Lưu cục bộ và xuất TXT, chưa là lịch sử nộp |
+| AI học sinh | api/ai/student/route.ts và student-physics-chat-engine.ts | Có nhánh mô hình và dự phòng theo quy tắc |
+| Khảo sát, thẩm định, thực nghiệm | Chưa có hồ sơ người tham gia và dữ liệu được xác nhận | Chờ dữ liệu, không tuyên bố kết quả |
+!source Nguồn: kiểm kê mã nguồn và hồ sơ dự án; đường dẫn chi tiết, lệnh kiểm tra và mã băm trong BAO_CAO_DOI_CHIEU_NCKH.md.

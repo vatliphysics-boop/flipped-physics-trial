@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { PortalShell, type PortalSection } from "@/components/PortalShell";
 import { LogoutButton } from "@/components/LogoutButton";
+import styles from "./TeacherShell.module.css";
 
 type LessonMeta = {
   chapterLabel: string;   // e.g. "CHƯƠNG IV"
@@ -14,6 +15,7 @@ type LessonMeta = {
 export function TeacherShell({ active, title, description, eyebrow = "Không gian giáo viên", breadcrumb, lessonMeta, children }: { active: PortalSection; title: string; description: string; eyebrow?: string; breadcrumb?: ReactNode; lessonMeta?: LessonMeta; children: ReactNode }) {
   if (lessonMeta) {
     return <PortalShell role="teacher" active={active} account={<LogoutButton />}>
+      <div className={styles.workspace}>
       <header className="lesson-header">
         {breadcrumb}
         <p className="lesson-kicker">{lessonMeta.chapterLabel} · {lessonMeta.lessonLabel} · {lessonMeta.className}</p>
@@ -21,7 +23,8 @@ export function TeacherShell({ active, title, description, eyebrow = "Không gia
         <p className="lesson-phase-label">{lessonMeta.phaseLabel} — {lessonMeta.phaseDescription}</p>
       </header>
       {children}
+      </div>
     </PortalShell>;
   }
-  return <PortalShell role="teacher" active={active} account={<LogoutButton />}><header className="page-header"><div>{breadcrumb}<p className="page-kicker">{eyebrow}</p><h1>{title}</h1><p className="page-description">{description}</p></div></header>{children}</PortalShell>;
+  return <PortalShell role="teacher" active={active} account={<LogoutButton />}><div className={styles.workspace}><header className="page-header"><div>{breadcrumb}<p className="page-kicker">{eyebrow}</p><h1>{title}</h1><p className="page-description">{description}</p></div></header>{children}</div></PortalShell>;
 }

@@ -1,0 +1,41 @@
+{
+  "id": "worker2-ui13-root-fixes-and-tools-retest",
+  "worker": 2,
+  "mode": "review",
+  "start": "2026-10-05T14:06:13.044Z",
+  "status": "RUNNING",
+  "session_ids": [
+    "01a10c62-fa58-71e2-a043-b79ba1171166"
+  ],
+  "exit_code": null,
+  "allowed_files": [],
+  "timeout_seconds": 1800,
+  "auth": {
+    "worker": 2,
+    "codex_home": "/Users/vodoandangkhoi/.codex-plus-2",
+    "ok": true,
+    "exit_code": 0,
+    "status": "Logged in using ChatGPT"
+  },
+  "effective_permissions": {
+    "profile": "team-scoped",
+    "extends": ":read-only",
+    "filesystem": {
+      "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-eECvbo": "write",
+      "/Users/vodoandangkhoi/Documents/WEB_WORKING_24-09/docs/codex-team/runs/worker2-ui13-root-fixes-and-tools-retest/report.md": "write"
+    },
+    "network": {
+      "proxy": true,
+      "mode": "limited",
+      "domains": {
+        "localhost": "allow",
+        "127.0.0.1": "allow"
+      }
+    },
+    "browser_mcp": true,
+    "browser_temp": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-eECvbo",
+    "browser_cache": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-eECvbo/cache",
+    "browser_evidence": "/var/folders/4p/n68j0hgj7bn9hshnk07q7ymw0000gn/T/ct-w2-eECvbo/evidence"
+  },
+  "pid": 45889
+}

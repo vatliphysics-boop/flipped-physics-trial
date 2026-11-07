@@ -1,0 +1,112 @@
+{
+  "materials": 89,
+  "types": {
+    "image": 17,
+    "assessment": 4,
+    "document": 18,
+    "colab": 17,
+    "animation": 5,
+    "lecture_video": 10,
+    "real_video": 1,
+    "simulation": 17
+  },
+  "simulations": [
+    {
+      "id": "system-sim-rutherford",
+      "key": "rutherford_alpha_scattering",
+      "lesson": "B21"
+    },
+    {
+      "id": "system-sim-nuclear-builder",
+      "key": "nuclear_structure_builder",
+      "lesson": "B21"
+    },
+    {
+      "id": "system-sim-isotope-size",
+      "key": "isotope_and_nuclear_size",
+      "lesson": "B21"
+    },
+    {
+      "id": "system-sim-reaction-balancer",
+      "key": "nuclear_reaction_balancer",
+      "lesson": "B22"
+    },
+    {
+      "id": "system-sim-binding-energy",
+      "key": "binding_energy_lab",
+      "lesson": "B22"
+    },
+    {
+      "id": "system-sim-nuclear-fission",
+      "key": "nuclear_fission",
+      "lesson": "B22"
+    },
+    {
+      "id": "system-sim-nuclear-fusion",
+      "key": "nuclear_fusion",
+      "lesson": "B22"
+    },
+    {
+      "id": "system-sim-geiger-decay",
+      "key": "geiger_random_decay",
+      "lesson": "B23"
+    },
+    {
+      "id": "system-sim-radiation-properties",
+      "key": "radiation_properties",
+      "lesson": "B23"
+    },
+    {
+      "id": "system-sim-half-life",
+      "key": "radioactive_decay_half_life",
+      "lesson": "B23"
+    },
+    {
+      "id": "system-sim-carbon14-dating",
+      "key": "carbon14_dating",
+      "lesson": "B23"
+    },
+    {
+      "id": "system-sim-radiation-safety",
+      "key": "radiation_safety",
+      "lesson": "B23"
+    },
+    {
+      "id": "system-sim-nuclear-power",
+      "key": "nuclear_power_energy_flow",
+      "lesson": "B24"
+    },
+    {
+      "id": "system-sim-reactor-control",
+      "key": "reactor_control_concept",
+      "lesson": "B24"
+    },
+    {
+      "id": "system-sim-nuclear-medicine",
+      "key": "nuclear_medicine",
+      "lesson": "B24"
+    },
+    {
+      "id": "system-sim-radiation-applications",
+      "key": "radiation_applications",
+      "lesson": "B24"
+    },
+    {
+      "id": "system-sim-practice-lab",
+      "key": "nuclear_physics_practice_lab",
+      "lesson": "B25"
+    }
+  ],
+  "infographics": 5,
+  "questions": 212,
+  "questionKinds": {
+    "written": 109,
+    "choice": 72,
+    "true_false": 12,
+    "numeric": 19
+  },
+  "status": {
+    "ready": 212
+  },
+  "questionIdsUnique": 212
+}

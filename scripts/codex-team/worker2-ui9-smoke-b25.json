@@ -1,0 +1,15 @@
+{
+  "mode": "review",
+  "timeout_seconds": 480,
+  "browser_mcp": true,
+  "allowed_files": [],
+  "previous_runs": [],
+  "context_files": [
+    "docs/codex-team/CHECKPOINT.md",
+    "docs/codex-team/USER_GUIDE.md",
+    "docs/codex-team/curriculum-matrix.md"
+  ],
+  "id": "worker2-ui9-smoke-b25",
+  "worker": 2,
+  "task": "Đợt rà soát UI mới theo yêu cầu người dùng. Trước hết chỉ smoke và phát hiện B25, không sửa mã. Dùng browser MCP navigate /hoc-lieu/truc-quan?bai=B25, chọn Đọc hình. Chụp ảnh trước sửa ở 1440x900 và390x844; MỞ ẢNH bằng view_image để đánh giá nút số1 che tiêu đề Dữ liệu kì vọng. Ghi UI-0001 với bước, ảnh, mức/tác động và nghiệm thu không che chữ/bảng/đồ thị ở5kíchthước. Thử chọn điểm1..3 và Phóng to/thu gọn, bàn phím. Nếu lỗi đã biến mất do W3 sửa song song, nêu timing và xem ảnh backup/baseline root chuyển sau; không bịa before. Sau đó thử /hoc-lieu tìm kiếm chuỗi không tồn tại/clear, mở menu, Escape, chuột/Tab ở390, chụp/xem ảnh. Lưu report nháp sau ca đầu và final report đầy đủ trong TMP; kết thúc sớm sau phạm vi này, không kéo thành review toàn bộ. Ghi xác nhận đã mở ảnh cụ thể; snapshot hoặc ảnh chỉ lưu chưa đủ. Nếu browser không chạy, tự viết kịch bản thao tác để root thực hiện, ghi đúng công cụ/chặn, không lặp cùng lỗi. Không login/API DB/env. Nêu webversion dựa hash checkpoint và thời điểm thao tác, đây là baseline, không nghiệm thu toàn bộ."
+}
