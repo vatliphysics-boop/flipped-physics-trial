@@ -1,0 +1,25 @@
+.lesson { background: var(--bg-page); }
+.toc { position: sticky; top: var(--topbar-height); z-index: 5; display: flex; gap: 8px; overflow-x: auto; padding: 8px clamp(16px, 4vw, 32px); background: var(--bg-surface); border-bottom: 1px solid var(--border); }
+.toc a { white-space: nowrap; min-height: 40px; display: inline-flex; align-items: center; padding: 4px 14px; border-radius: 999px; color: var(--color-primary); text-decoration: none; font-weight: 600; font-size: .9rem; }
+.toc a:hover { background: var(--color-primary-soft); }
+.body { max-width: var(--content-width); margin: 0 auto; padding: 0 clamp(16px, 4vw, 32px) 64px; }
+.section { padding-top: clamp(32px, 5vw, 56px); scroll-margin-top: calc(var(--topbar-height) + 56px); display: grid; gap: 16px; }
+.section h2 { margin: 0; font-size: clamp(1.5rem, 3vw, 2.1rem); color: var(--color-sgu-navy); }
+.section h3 { margin: 12px 0 0; font-size: 1.15rem; color: var(--text-primary); }
+.lead { margin: 0; max-width: 68ch; color: var(--text-secondary); line-height: 1.7; }
+.formulaGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.formulaCard { padding: 14px 16px; background: var(--bg-surface); border: 1px solid var(--border); border-left: 3px solid var(--color-primary); border-radius: var(--radius-md); display: grid; gap: 6px; }
+.formulaCard strong { color: var(--color-sgu-navy); font-size: .95rem; }
+.formulaCard span { font-size: .86rem; color: var(--text-secondary); line-height: 1.55; }
+.videoCard { padding: 16px; background: var(--bg-surface-elevated); border-radius: 12px; border: 1px solid var(--border-light); }
+.videoTitle { margin: 0 0 8px; font-size: 1.1rem; color: var(--color-sgu-navy); }
+.videoMeta { font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; }
+.video { width: 100%; border-radius: 8px; border: 1px solid var(--border-light); display: block; background: #0b1220; }
+.exercise { display: grid; gap: 10px; padding: 16px; background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius-md); }
+.exerciseHeader { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
+.exerciseBadge { font-size: .75rem; font-weight: 700; padding: 2px 9px; border-radius: 999px; background: var(--color-accent-soft); color: var(--color-accent); }
+.exerciseBadge[data-level='vận dụng'] { background: #fef3c7; color: #a16207; }
+.exercise p { margin: 0; line-height: 1.65; }
+.exerciseAnswer { border-top: 1px dashed var(--border); padding-top: 10px; font-size: .93rem; color: var(--text-secondary); line-height: 1.65; }
+.exerciseAnswer summary { cursor: pointer; color: var(--color-primary); font-weight: 600; }
+@media (max-width: 700px) { .formulaGrid { grid-template-columns: minmax(0, 1fr); } }

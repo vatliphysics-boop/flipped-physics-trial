@@ -14,7 +14,7 @@ export type ActivityProps = {
 // The source table, theoretical curve and timeline share one state.
 
 // ─── Sub-lab 2: Cân bằng phương trình phân rã ────────────────────────────────
-function NuclearEquationBalancer({ onSubDone }: { onSubDone: (done: boolean) => void }) {
+export function NuclearEquationBalancer({ onSubDone }: { onSubDone: (done: boolean) => void }) {
   type Mode = 'alpha' | 'beta_neg' | 'beta_pos';
   const [mode, setMode] = useState<Mode>('alpha');
   const [userDaughterA, setUserDaughterA] = useState(234);
@@ -92,7 +92,7 @@ function NuclearEquationBalancer({ onSubDone }: { onSubDone: (done: boolean) => 
 }
 
 // ─── Sub-lab 3: Tính năng lượng liên kết ─────────────────────────────────────
-function BindingEnergyCalculator({ onSubDone }: { onSubDone: (done: boolean) => void }) {
+export function BindingEnergyCalculator({ onSubDone }: { onSubDone: (done: boolean) => void }) {
   const nuclides = BINDING_NUCLIDES;
 
   const [selectedIdx, setSelectedIdx] = useState(0);
