@@ -1,10 +1,12 @@
 import { PublicShell } from "@/app/PublicShell";
 import { B21Lesson } from "@/components/physics/B21Lesson";
+import { B22Lesson } from "@/components/physics/B22Lesson";
 import { B23Lesson } from "@/components/physics/B23Lesson";
 import { B25Lesson } from "@/components/physics/B25Lesson";
 
 const LESSONS: Record<string, { Component: () => React.JSX.Element; title: string }> = {
   B21: { Component: B21Lesson, title: "Bài 21 – Cấu trúc hạt nhân" },
+  B22: { Component: B22Lesson, title: "Bài 22 – Phản ứng hạt nhân và năng lượng liên kết" },
   B23: { Component: B23Lesson, title: "Bài 23 – Hiện tượng phóng xạ" },
   B25: { Component: B25Lesson, title: "Bài 25 – Bài tập về vật lí hạt nhân" },
 };
