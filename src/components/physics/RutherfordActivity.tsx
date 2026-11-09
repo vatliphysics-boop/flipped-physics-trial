@@ -26,8 +26,11 @@ const DETECTOR_R = RUTHERFORD_DETECTOR_RADIUS_FM * SCALE;
 const MODEL_TIME_PER_SECOND_ZS = 5;
 const STEP_ZS = 0.5;
 const number = new Intl.NumberFormat("vi-VN", { maximumFractionDigits: 1 });
-const x = (point: RutherfordSample) => CENTER_X + point.xFm * SCALE;
-const y = (point: RutherfordSample) => CENTER_Y - point.yFm * SCALE;
+// Làm tròn toạ độ SVG: SSR và client tính bằng cùng phép toán nhưng chuỗi số
+// có thể lệch ở chữ số cuối, gây cảnh báo hydration mismatch.
+const round2 = (value: number) => Math.round(value * 100) / 100;
+const x = (point: RutherfordSample) => round2(CENTER_X + point.xFm * SCALE);
+const y = (point: RutherfordSample) => round2(CENTER_Y - point.yFm * SCALE);
 const points = (samples: readonly RutherfordSample[]) => samples.map(sample => `${x(sample)},${y(sample)}`).join(" ");
 
 export function RutherfordActivity({ onProgress }: { onProgress?: (done: boolean) => void }) {
