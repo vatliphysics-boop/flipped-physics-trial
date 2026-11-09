@@ -586,3 +586,147 @@ export function RadiationSafety({ onProgress }: ActivityProps) {
     </Lab>
   );
 }
+
+// ─── 5. Safety Principles – Ba nguyên tắc: thời gian – khoảng cách – che chắn ─
+type ShieldType = 'none' | 'wood' | 'aluminum' | 'lead';
+
+const SHIELD_OPT: Record<ShieldType, { label: string; factor: number; desc: string }> = {
+  none: { label: 'Không che chắn', factor: 1.0, desc: 'Không suy giảm' },
+  wood: { label: 'Gỗ 5 cm', factor: 0.6, desc: 'Giảm khoảng 40%' },
+  aluminum: { label: 'Nhôm 3 mm', factor: 0.25, desc: 'Giảm khoảng 75%' },
+  lead: { label: 'Chì 5 mm', factor: 0.05, desc: 'Giảm khoảng 95%' },
+};
+
+// Mô hình định lượng minh họa: liều tại 1 m, không che chắn, phơi 1 giờ = 100 đơn vị tương đối.
+const SAFETY_BASE_RATE = 100;
+
+export function SafetyPrinciples({ onProgress }: ActivityProps) {
+  const [distance, setDistance] = useState(1.0);
+  const [timeMin, setTimeMin] = useState(60);
+  const [shield, setShield] = useState<ShieldType>('none');
+  const [hasAnswered, setHasAnswered] = useState(false);
+
+  const rate = SAFETY_BASE_RATE / (distance * distance);
+  const shieldedRate = rate * SHIELD_OPT[shield].factor;
+  const totalDose = shieldedRate * (timeMin / 60);
+  const doseColor = (v: number) => (v <= 5 ? '#16a34a' : v <= 25 ? '#d97706' : '#dc2626');
+  const barWidth = (v: number, max: number) => `${Math.min(v / max, 1) * 100}%`;
+
+  function handleAnswered(correct: boolean) {
+    setHasAnswered(correct);
+    onProgress?.(correct);
+  }
+
+  return (
+    <Lab
+      intro="Ba nguyên tắc an toàn phóng xạ (SGK trang 110–111): KHOẢNG CÁCH — THỜI GIAN — CHE CHẮN. Điều chỉnh cả ba yếu tố và quan sát liều hấp thụ tổng cộng thay đổi thế nào."
+      note="Liều ở đây là đơn vị tương đối để minh họa nguyên lí, không phải giá trị liều thực tế theo Sv. Ba nguyên tắc này cấu thành nguyên tắc ALARA (As Low As Reasonably Achievable)."
+    >
+      <div style={{ display: 'grid', gap: '14px', marginBottom: '16px' }}>
+        <label className="physics-field">
+          <span><strong>1. Khoảng cách</strong> — r = <strong>{distance.toFixed(1)} m</strong> (cường độ giảm theo 1/r²)</span>
+          <input type="range" min={0.5} max={10} step={0.5} value={distance} onChange={(e) => setDistance(Number(e.target.value))} />
+        </label>
+        <label className="physics-field">
+          <span><strong>2. Thời gian</strong> — t = <strong>{timeMin} phút</strong> (liều tổng tỉ lệ thuận với thời gian phơi nhiễm)</span>
+          <input type="range" min={5} max={480} step={5} value={timeMin} onChange={(e) => setTimeMin(Number(e.target.value))} />
+        </label>
+        <div>
+          <p style={{ fontSize: '14px', marginBottom: '8px' }}><strong>3. Che chắn</strong> — chọn vật liệu:</p>
+          <div className="physics-controls" style={{ flexWrap: 'wrap' }}>
+            {(Object.keys(SHIELD_OPT) as ShieldType[]).map((s) => (
+              <button key={s} type="button" className={`physics-button ${shield === s ? 'primary' : ''}`} onClick={() => setShield(s)} style={{ fontSize: '13px' }}>
+                {SHIELD_OPT[s].label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+      {/* Sơ đồ minh họa: nguồn – vật chắn – người, khoảng cách biến thiên */}
+      <svg viewBox="0 0 420 130" role="img" aria-label="Sơ đồ minh họa khoảng cách và che chắn" style={{ width: '100%', border: '1px solid var(--border-light)', borderRadius: '8px', backgroundColor: '#f8fafc', marginBottom: '16px' }}>
+        <title>Nguồn phóng xạ, vật che chắn và người ở khoảng cách r</title>
+        <circle cx="40" cy="60" r="18" fill="#fbbf24" stroke="#b45309" strokeWidth="2" />
+        <text x="40" y="56" textAnchor="middle" fontSize="14" fill="#78350f">☢</text>
+        <text x="40" y="96" textAnchor="middle" fontSize="10" fill="#78350f">Nguồn</text>
+        {[0, 1, 2, 3, 4].map((i) => {
+          const a = (i - 2) * 0.22;
+          // Làm tròn để SSR và client sinh cùng chuỗi số (tránh lệch hydration)
+          const x2 = Number((58 + Math.cos(a) * 46).toFixed(2));
+          const y2 = Number((60 + Math.sin(a) * 46).toFixed(2));
+          return (
+            <line key={i} x1={58} y1={60} x2={x2} y2={y2}
+              stroke="#f59e0b" strokeWidth={Number(Math.max(0.5, 2.4 - distance * 0.18).toFixed(2))} opacity={Number(Math.max(0.15, 0.75 - distance * 0.055).toFixed(2))} />
+          );
+        })}
+        {shield !== 'none' && (
+          <>
+            <rect x="104" y="14" width={shield === 'lead' ? 20 : 14} height="92" rx="2"
+              fill={shield === 'lead' ? '#374151' : shield === 'aluminum' ? '#9ca3af' : '#b45309'} opacity={0.9} />
+            <text x={shield === 'lead' ? 114 : 111} y="120" textAnchor="middle" fontSize="9" fill="#374151">{SHIELD_OPT[shield].label}</text>
+          </>
+        )}
+        {(() => {
+          const px = 130 + Math.min((distance - 0.5) * 26, 250);
+          const beamStart = shield === 'none' ? 58 : shield === 'lead' ? 124 : 118;
+          return (
+            <>
+              <line x1={beamStart} y1={60} x2={px - 14} y2={60} stroke="#ef4444" strokeWidth={Math.max(0.6, 3 * SHIELD_OPT[shield].factor * (1 / distance))} opacity={Math.max(0.15, SHIELD_OPT[shield].factor / distance)} />
+              <rect x={px - 7} y={44} width="14" height="24" rx="3" fill="#2563eb" />
+              <circle cx={px} cy={38} r="8" fill="#fde68a" stroke="#b45309" strokeWidth="1.5" />
+              <line x1={px - 10} y1={70} x2={px - 10} y2="84" stroke="#2563eb" strokeWidth="2.5" />
+              <line x1={px + 10} y1={70} x2={px + 10} y2="84" stroke="#2563eb" strokeWidth="2.5" />
+              <line x1="40" y1="106" x2={px} y2="106" stroke="#6b7280" strokeWidth="1" />
+              <line x1="40" y1="102" x2="40" y2="110" stroke="#6b7280" strokeWidth="1" />
+              <line x1={px} y1="102" x2={px} y2="110" stroke="#6b7280" strokeWidth="1" />
+              <text x={(40 + px) / 2} y="117" textAnchor="middle" fontSize="10" fill="#374151">r = {distance.toFixed(1)} m</text>
+            </>
+          );
+        })()}
+      </svg>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '12px' }}>
+        {[
+          { label: 'Cường độ tại vị trí', value: rate.toFixed(1), unit: 'đv/giờ', max: 100 },
+          { label: `Sau che chắn (${SHIELD_OPT[shield].label})`, value: shieldedRate.toFixed(1), unit: 'đv/giờ', max: 100 },
+          { label: `Liều tổng trong ${timeMin} phút`, value: totalDose.toFixed(1), unit: 'đv', max: 400 },
+        ].map((m) => (
+          <div key={m.label} style={{ padding: '12px', backgroundColor: 'var(--bg-surface-elevated)', borderRadius: '8px' }}>
+            <p style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{m.label}</p>
+            <p style={{ fontSize: '1.5rem', fontWeight: 700, color: doseColor(m.max === 400 ? totalDose : Number(m.value)) }}>
+              {m.value} <span style={{ fontSize: '0.8rem', fontWeight: 400 }}>{m.unit}</span>
+            </p>
+            <div style={{ height: '8px', backgroundColor: '#e5e7eb', borderRadius: '4px', overflow: 'hidden' }}>
+              <div style={{ height: '100%', width: barWidth(Number(m.value), m.max), backgroundColor: doseColor(m.max === 400 ? totalDose : Number(m.value)), transition: 'width .3s' }} />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div style={{ padding: '12px', backgroundColor: '#f1f5f9', borderRadius: '8px', marginTop: '12px', fontSize: '13px', color: '#334155', lineHeight: 1.8 }}>
+        <div>Cường độ: 100 ÷ {distance.toFixed(1)}² = <strong>{rate.toFixed(1)}</strong> đv/giờ</div>
+        <div>Che chắn: {rate.toFixed(1)} × {SHIELD_OPT[shield].factor} = <strong>{shieldedRate.toFixed(1)}</strong> đv/giờ</div>
+        <div>Liều tổng: {shieldedRate.toFixed(1)} × {(timeMin / 60).toFixed(2)} giờ = <strong style={{ color: doseColor(totalDose) }}>{totalDose.toFixed(1)}</strong> đv</div>
+      </div>
+      <div className="physics-checklist">
+        <p><strong>Tiêu chí hoàn thành:</strong></p>
+        <ul>
+          <li className={totalDose <= 5 ? 'is-done' : ''}>Điều chỉnh ba yếu tố để liều tổng ≤ 5 đv {totalDose <= 5 ? '✓' : ''}</li>
+          <li className={hasAnswered ? 'is-done' : ''}>Trả lời câu hỏi kiểm tra {hasAnswered ? '✓' : ''}</li>
+        </ul>
+      </div>
+
+      <div>
+        <ChoiceCheck onResult={handleAnswered}
+          question="Một kĩ thuật viên đứng cách nguồn 2 m trong 4 giờ. Cách nào giảm liều hấp thụ NHIỀU NHẤT nếu chỉ được chọn một biện pháp?"
+          options={[
+            'Tăng thời gian nghỉ giải lao nhưng vẫn ở đủ 4 giờ trong phòng.',
+            'Lùi ra xa để khoảng cách tới nguồn tăng từ 2 m lên 4 m.',
+            'Mặc thêm một lớp áo dài tay bên ngoài.',
+          ]}
+          correctIndex={1}
+          explanation="Khoảng cách từ nguồn điểm cho cường độ I ∝ 1/r². Tăng r từ 2 m lên 4 m làm cường độ giảm 4 lần — hiệu quả hơn hẳn việc mặc thêm áo (không chặn được tia phóng xạ). Giảm thời gian phơi nhiễm cũng hiệu quả, nhưng ở đây người đó vẫn ở đủ 4 giờ. Vì vậy tăng khoảng cách là biện pháp mạnh nhất trong ba lựa chọn này."
+        />
+      </div>
+    </Lab>
+  );
+}
