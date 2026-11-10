@@ -2,6 +2,16 @@
   "changed_parts": [
     "word/_rels/document.xml.rels",
     "word/document.xml",
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png",
+    "word/media/image8.png",
+    "word/media/image9.png",
+    "word/media/image10.png",
     "word/settings.xml",
     "docProps/core.xml"
   ],
@@ -19,10 +29,29 @@
     "word/media/15-chuan-bi-gio-hoc-moi.jpg",
     "word/media/16-ke-hoach-xem-truoc.jpg",
     "word/media/21-xuat-word-da-tao.jpg",
-    "word/media/22-ai-giao-vien-hoat-dong.jpg"
+    "word/media/22-ai-giao-vien-hoat-dong.jpg",
+    "word/media/25-b21-hero-rutherford.jpg",
+    "word/media/26-b22-blackett-lien-ket.jpg",
+    "word/media/27-b23-buong-suong-alara.jpg",
+    "word/media/28-b24-lo-phan-ung-pwr.jpg",
+    "word/media/29-b25-bang-25-1-sgk.jpg",
+    "word/media/30-video-3d-ba-bai.jpg"
   ],
-  "figures": 24,
+  "replaced_initial_media": {
+    "word/media/image1.png": "01-kho-hoc-lieu.png",
+    "word/media/image2.png": "02-hinh-thuc-lop-hoc.png",
+    "word/media/image3.png": "03-infographic.png",
+    "word/media/image4.png": "04-phan-hach.png",
+    "word/media/image5.png": "05-video-nhiem-vu.png",
+    "word/media/image6.png": "08-ban-ra.png",
+    "word/media/image7.png": "09-nang-luong-lien-ket.png",
+    "word/media/image8.png": "07-ke-hoach-hai-vai.png",
+    "word/media/image9.png": "06-ban-ghi.png",
+    "word/media/image10.png": "10-de-kiem-tra.png"
+  },
+  "figures": 30,
   "references": 20,
-  "tests": 58,
+  "tests": 102,
+  "video_storyboard_tests": 5,
   "source_sha256": "fd7df26a7999d65f72514e259668101f7eb96664f8cb3368cd9c07b9ddd346a6"
 }

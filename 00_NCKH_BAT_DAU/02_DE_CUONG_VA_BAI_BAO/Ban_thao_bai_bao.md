@@ -1,0 +1,1 @@
+../../docs/BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.md
