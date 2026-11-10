@@ -64,19 +64,25 @@ Hai video `evolution-atomic-model` và `5-types-chemical-bonds` **không thuộc
 - Hình: Remotion + SVG/KaTeX scientific motion graphics, bảng màu SGU (navy + xanh lam nhạt).
 - Không dùng hình ảnh AI sinh ngẫu nhiên, không clone giọng người thật.
 
-## 9. Lô video v2 sản xuất hoàn chỉnh — B21–B25 (2026-11-10)
+## 9. Lô video hoạt hình 3D v2 sản xuất hoàn chỉnh — B21–B25 (2026-11-10)
 
-Toàn bộ 5 bài B21–B25 đã được render đầy đủ ở chuẩn 1920×1080, 30 fps, H.264 (`yuv420p`, `+faststart`), âm thanh AAC 48 kHz mono (VieNeu-TTS v3 Turbo · Kim Thanh · seed 21 · chuẩn hóa `-18 LUFS / -1,9 dBTP`), bảng màu SGU (`#1b2a72 → #0a1230`, điểm nhấn `#43c4ec`), kèm ảnh bìa `.jpg` và phụ đề `.vi.vtt` tại `public/videos/nuclear-lessons-v2/`:
+Toàn bộ 5 bài B21–B25 đã được nâng cấp lên **video hoạt hình 3D liên tục** ở chuẩn 1920×1080, 30 fps, H.264 (`yuv420p`, `+faststart`), âm thanh AAC 48 kHz mono (VieNeu-TTS v3 Turbo · Kim Thanh · seed 21 · chuẩn hóa `-18 LUFS / -1,9 dBTP`), bảng màu SGU (`#1b2a72 → #0a1230`, điểm nhấn `#43c4ec`), kèm ảnh bìa `.jpg` và phụ đề `.vi.vtt`, xuất bản đồng thời tại cả `public/videos/nuclear-lessons/` và `public/videos/nuclear-lessons-v2/` (bản cũ sao lưu tại `tmp/nuclear-voice/backups/`):
 
-| Bài | Tệp MP4 (`public/videos/nuclear-lessons-v2/`) | Thời lượng | Số khung (30 fps) | Dung lượng (bytes) | Phụ đề `.vi.vtt` | Ảnh bìa `.jpg` | SHA-256 |
+| Bài | Tệp MP4 (`nuclear-lessons` & `nuclear-lessons-v2`) | Thời lượng | Số khung (captured / total) | Dung lượng (bytes) | Phụ đề `.vi.vtt` | Ảnh bìa `.jpg` | SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| B21 | `b21.mp4` | 89,80 s (1:30) | 2.694 (829 motion) | 4.704.059 (~4,5 MB) | `b21.vi.vtt` (1.488 B) | `b21.jpg` (245.850 B) | `1e89a3e00c1fc5825c4c907072e6b0005c43a7e10c813281ba51806c95a054ff` |
-| B22 | `b22.mp4` | 75,20 s (1:15) | 2.256 (485 motion) | 3.836.871 (~3,7 MB) | `b22.vi.vtt` (1.255 B) | `b22.jpg` (189.630 B) | `e1d6dacb34d90e8e4d1cf7e4159836f2f0e2e97af1ee37fde0215977ed90152e` |
-| B23 | `b23.mp4` | 93,73 s (1:34) | 2.812 (828 motion) | 4.878.234 (~4,7 MB) | `b23.vi.vtt` (1.529 B) | `b23.jpg` (287.562 B) | `1ed298e3399361b8cb00bb5ebc5e9fbb1b3e6b3874bb67026f48b5bab9f834f4` |
-| B24 | `b24.mp4` | 71,97 s (1:12) | 2.159 (1.122 motion) | 3.896.582 (~3,7 MB) | `b24.vi.vtt` (1.317 B) | `b24.jpg` (245.687 B) | `9376807dfe68160e4375205237a91bdb5ad2523e013b5545fdf51734a673e4ae` |
-| B25 | `b25.mp4` | 76,23 s (1:16) | 2.287 (952 motion) | 4.329.816 (~4,1 MB) | `b25.vi.vtt` (1.244 B) | `b25.jpg` (228.531 B) | `bc524060233a375044bc75cd35ddddcc313714677e36ae03d8183b4a14f4b0cb` |
+| B21 | `b21.mp4` | 89,80 s (1:30) | 1.771 / 2.694 | 7.995.654 (~8,0 MB) | `b21.vi.vtt` (1.488 B) | `b21.jpg` (270.342 B) | `0b4fdb77ebb3f38165f3d99910dc31acf7cf69578537cb5a9ec0be8810b6982d` |
+| B22 | `b22.mp4` | 75,20 s (1:15) | 1.377 / 2.256 | 6.408.049 (~6,4 MB) | `b22.vi.vtt` (1.255 B) | `b22.jpg` (228.615 B) | `bc610f070d4ab3d61b3e69c3600965895bd1c45b44c420abeaabd7731dd64648` |
+| B23 | `b23.mp4` | 93,73 s (1:34) | 1.827 / 2.812 | 10.649.370 (~10,6 MB) | `b23.vi.vtt` (1.529 B) | `b23.jpg` (279.116 B) | `d30a7af81dfe6f97dedf5b582f9f975dbf85ffd319fe5cd2769e909acfe1a5c2` |
+| B24 | `b24.mp4` | 71,97 s (1:12) | 1.646 / 2.159 | 5.816.768 (~5,8 MB) | `b24.vi.vtt` (1.317 B) | `b24.jpg` (273.684 B) | `c3464da7c91638dbc7bcc7689d43b474c7ec11ccfc5ebdc782e161bbd0793cea` |
+| B25 | `b25.mp4` | 76,23 s (1:16) | 1.624 / 2.287 | 5.622.441 (~5,6 MB) | `b25.vi.vtt` (1.244 B) | `b25.jpg` (252.095 B) | `85f0160140237845e64d1e70d64526197d8e93b589549d3fbea4178b8634254f` |
 
+- **Các mô hình hoạt hình 3D trong bộ video**:
+  - `B21`: Mặt phẳng tán xạ Rutherford 3D với hạt nhân vàng ${}^{197}\text{Au}$ đa nucleon, vòng đẳng thế Coulomb 3D, màn huỳnh quang ZnS trụ 3D và chùm hạt $\alpha$ (${}^4\text{He}$) tứ diện 3D; mô hình nguyên tử ${}^{12}_6\text{C}$ 3D với 3 quỹ đạo electron nghiêng; mô hình hạt nhân ${}^{13}_6\text{C}$ xoay 3D liên tục; tổng kết so sánh 3 đồng vị Carbon-12, Carbon-13, Carbon-14 xoay 3D.
+  - `B22`: Mô hình 3D các nucleon rời rạc kết hợp thành hạt nhân liên kết tỏa năng lượng $E_{\text{lk}} = \Delta m c^2$; mô hình giọt chất lỏng 3D ${}^{235}\text{U} + n \to {}^{236}\text{U}^* \to {}^{95}\text{Y} + {}^{138}\text{I} + 3n$; đối chiếu bảo toàn $A, Z$ với cụm nucleon 3D hai vế; mô phỏng 3D phản ứng nhiệt hạch ${}^2_1\text{H} + {}^3_1\text{H} \to {}^4_2\text{He} + {}^1_0\text{n}$.
+  - `B23`: Hai khối mạng tinh thể lập phương 3D ($4\times 4\times 4 = 64$ hạt nhân mẹ) xoay trong không gian và phát tia phóng xạ 3D ngẫu nhiên theo chu kì bán rã $T_A = 20\text{ s}$ và $T_B = 40\text{ s}$; mô hình 3D khả năng đâm xuyên của tia $\alpha, \beta, \gamma$ qua Giấy, Nhôm và Chì.
+  - `B24`: Mô hình 3D buồng tâm lò phản ứng hạt nhân với bó thanh nhiên liệu, thanh điều khiển Boron/Cadmium trượt 3D ở 3 mức (`0%`, `50%`, `100%`) kèm đám mây neutron nhân đôi theo hệ số $k$; sơ đồ 3D nhà máy điện PWR với tua-bin 6 cánh quay 3D và máy phát; tổng kết 3D ứng dụng hạt nhân.
+  - `B25`: Mô hình 3D ống đếm Geiger–Müller và mẫu phóng xạ phát hạt 3D đồng bộ với đồ thị thực nghiệm 8 mốc Bảng 25.1 SGK tr. 121; tổng kết 3D liên kết cấu trúc hạt nhân, định luật phân rã và điều khiển lò phản ứng.
 - **Kiểm định kỹ thuật & trực quan**: Toàn bộ 5 tệp đã giải mã khung hình kiểm tra (`start.jpg`, `middle.jpg`, `end.jpg`, `shot-*`, `caption-*`) và đối chiếu metadata trong `tmp/nuclear-voice/review/b21..b25/metadata.json`.
-- **Tích hợp website**: Đã nối vào 5 trang bài học `B21Lesson`–`B25Lesson` trên route `/hoc-lieu/phong-hat-nhan-v2?bai=B21..B25`.
-- **Video cũ**: Giữ nguyên bản v1 trong `public/videos/nuclear-lessons/b21..b25.mp4` để bảo toàn khả năng đối chiếu và khôi phục.
+- **Tích hợp website**: Đã nối vào cả 5 trang bài học `/hoc-lieu/phong-hat-nhan?bai=B21..B25` và `/hoc-lieu/phong-hat-nhan-v2?bai=B21..B25`.
+- **Sao lưu**: Các bản video cũ được sao lưu tự động trong `tmp/nuclear-voice/backups/`.
 - **Chưa xác minh**: Quyền sử dụng hai video ngoài phạm vi B21–B25 (`evolution-atomic-model.mp4`, `5-types-chemical-bonds.mp4`).

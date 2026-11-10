@@ -57,17 +57,18 @@ Toàn bộ 5 bài Chương IV Vật lí 12 KNTT đã có trang học liệu tư�
 - **Route mở rộng**: `page.tsx` dùng bảng `LESSONS` cho cả 5 bài `B21`–`B25`.
 - **Commit**: `5a33a74` ("feat(B25): thiết kế lại Bài 25 theo cấu trúc SGK").
 
-### Bộ 5 video học liệu v2 (`public/videos/nuclear-lessons-v2/`) — hoàn tất render và tích hợp
+### Bộ 5 video hoạt hình 3D học liệu (`public/videos/nuclear-lessons/` & `public/videos/nuclear-lessons-v2/`) — hoàn tất nâng cấp 3D và tích hợp
 
-Toàn bộ 5 video bài giảng (`b21.mp4`–`b25.mp4`) đã được dựng lại từ pipeline Remotion (`scripts/nuclear-videos/`) với:
-- **Hình ảnh**: 1920×1080, 30 fps, H.264 (`yuv420p`, `+faststart`), bảng màu SGU (`#1b2a72 → #0a1230`, điểm nhấn `#43c4ec`), mô hình hạt nhân 3D và đồ thị/tiến trình vật lí động đồng bộ theo từng cảnh.
+Toàn bộ 5 video bài giảng (`b21.mp4`–`b25.mp4`) đã được nâng cấp toàn diện lên **hoạt hình 3D liên tục** từ pipeline Remotion (`scripts/nuclear-videos/`) với:
+- **Hoạt hình 3D trực quan**: 1920×1080, 30 fps, H.264 (`yuv420p`, `+faststart`), bảng màu SGU (`#1b2a72 → #0a1230`, điểm nhấn `#43c4ec`). Tất cả 26 phân cảnh trên 5 bài đều có mô hình 3D chuyển động liên tục: tán xạ Rutherford 3D (${}^{197}\text{Au}$ đa nucleon + hạt $\alpha$ tứ diện 3D), nguyên tử ${}^{12}_6\text{C}$ 3D với quỹ đạo electron, giọt chất lỏng phân hạch 3D (${}^{235}\text{U} + n \to {}^{95}\text{Y} + {}^{138}\text{I} + 3n$), phản ứng nhiệt hạch 3D ($\text{D} + \text{T}$), mạng tinh thể lập phương 3D $4\times 4\times 4$ phân rã phóng xạ, buồng tâm lò phản ứng 3D với thanh điều khiển Boron/Cadmium và tua-bin 3D, cùng ống đếm Geiger–Müller 3D đồng bộ đồ thị Bảng 25.1 SGK.
 - **Lồng tiếng & phụ đề**: Giọng đọc tiếng Việt tổng hợp cục bộ (VieNeu-TTS v3 Turbo · Kim Thanh · seed 21 · AAC 48 kHz mono · `-18 LUFS / -1,9 dBTP`), đồng bộ với tệp phụ đề `.vi.vtt` và ảnh bìa `.jpg`.
+- **Xuất bản đồng bộ**: Cập nhật tại cả `public/videos/nuclear-lessons/` (phục vụ trang chủ và `/hoc-lieu/phong-hat-nhan`) lẫn `public/videos/nuclear-lessons-v2/` (phục vụ `/hoc-lieu/phong-hat-nhan-v2` kèm thanh chuyển bài nhanh B21–B25).
 - **Tích hợp & kiểm chứng trình duyệt (Playwright + Chrome thực, desktop 1440px & mobile 390px)**:
-  - `B21`: 200 OK, `b21.mp4` (89,80 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
-  - `B22`: 200 OK, `b22.mp4` (75,20 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
-  - `B23`: 200 OK, `b23.mp4` (93,73 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
-  - `B24`: 200 OK, `b24.mp4` (71,97 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
-  - `B25`: 200 OK, `b25.mp4` (76,23 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B21`: 200 OK, `b21.mp4` (89,80 s, ~8,0 MB, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B22`: 200 OK, `b22.mp4` (75,20 s, ~6,4 MB, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B23`: 200 OK, `b23.mp4` (93,73 s, ~10,6 MB, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B24`: 200 OK, `b24.mp4` (71,97 s, ~5,8 MB, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B25`: 200 OK, `b25.mp4` (76,23 s, ~5,6 MB, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
   - Tổng cộng **0 lỗi console, 0 lỗi trang (`pageerror`)** trên toàn bộ 5 bài ở cả hai kích thước màn hình.
 
 ### Test suite toàn dự án — đã thiết lập và đạt

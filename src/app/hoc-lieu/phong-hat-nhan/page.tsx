@@ -55,6 +55,7 @@ export default async function NuclearLabPage({ searchParams }: { searchParams: P
               <NuclearLessonVideo key={lesson.code} lesson={lesson} />
               <p>{lesson.videoTask}</p>
               <div className={styles.links}>
+                <Link href={`/hoc-lieu/phong-hat-nhan-v2?bai=${lesson.code}`}>Bài giảng tương tác v2 ({lesson.code}) ↗</Link>
                 <Link href={`/hoc-lieu?bai=${lesson.code}`}>Học liệu {lesson.code}</Link>
                 <Link href={`/hoc-lieu/truc-quan?bai=${lesson.code}`}>Mô phỏng và bài tập</Link>
               </div>

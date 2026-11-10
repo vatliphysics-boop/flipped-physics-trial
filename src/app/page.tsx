@@ -66,7 +66,8 @@ export default function Home() {
               <h1 id="lab-title">Vật lí <span>hạt nhân</span></h1>
               <p className={styles.lead}>Bắt đầu với hạt nhân carbon-12. Xoay mô hình, chọn từng nucleon và dùng cắt lớp để quan sát bên trong. Sau đó, dùng video và bài tập để khám phá trọn chương B21–B25.</p>
               <div className={styles.links}>
-                <Link href={nuclearLabUrl("B21", "video")} className={styles.primary}>Video bài học ↗</Link>
+                <Link href={nuclearLabUrl("B21", "video")} className={styles.primary}>Video bài học 3D ↗</Link>
+                <Link href="/hoc-lieu/phong-hat-nhan-v2?bai=B21">Phòng học tương tác v2 ↗</Link>
                 <a href="#mo-hinh-trang-chu">Quan sát 3D ↓</a>
                 <Link href="/hoc-lieu">Kho học liệu</Link>
                 <Link href="/demo-lesson">Tiến trình ba pha</Link>
@@ -409,7 +410,18 @@ export default function Home() {
                 >
                   {lesson.summary}
                 </p>
-                <div style={{ display: "flex", gap: "16px", fontSize: "13.5px" }}>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", fontSize: "13.5px" }}>
+                  <Link
+                    href={`/hoc-lieu/phong-hat-nhan-v2?bai=${lesson.code}`}
+                    style={{
+                      color: "var(--color-primary)",
+                      fontWeight: 700,
+                      textDecoration: "underline",
+                      textUnderlineOffset: "4px",
+                    }}
+                  >
+                    Bài giảng 3D v2 ({lesson.code}) ↗
+                  </Link>
                   <Link
                     href={`/hoc-lieu/truc-quan?bai=${lesson.code}`}
                     style={{

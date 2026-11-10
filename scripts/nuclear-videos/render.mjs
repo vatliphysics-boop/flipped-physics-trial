@@ -85,9 +85,15 @@ async function renderLesson(code, scenes, common, audioFile) {
   try {
     const cached = join(temporary, "motion");
     await mkdir(cached);
-    // Compute every 30 fps frame during motion. Only the intentional reading
-    // hold can reuse a still. There is no alternate-frame render mode.
-    const framesByScene = scenes.map(sceneRenderFrames);
+    // Compute every 30 fps frame during initial motion plus continuous 3D
+    // animation frames across the narration hold so 3D models never freeze.
+    const framesByScene = scenes.map(scene => {
+      const frames = new Set(sceneRenderFrames(scene));
+      for (let offset = 0; offset < scene.duration; offset += 2) {
+        frames.add(scene.from + offset);
+      }
+      return [...frames].sort((a, b) => a - b);
+    });
     const renderedFrames = framesByScene.flat();
     const motionCount = scenes.reduce((sum, scene) => sum + scene.motionFrames, 0);
     const cachedFrame = (frame) => join(cached, `${frame}.jpg`);
