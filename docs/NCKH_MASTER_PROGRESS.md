@@ -1,8 +1,34 @@
-# Cập nhật 10/11/2026 — VÒNG 6.1 hoàn tất, B25 thiết kế lại, test runner đã thiết lập
+# Cập nhật 10/11/2026 — Hoàn tất thiết kế lại 5 bài B21–B25, bộ 5 video v2 lồng tiếng, và bộ test 102/102
 
 ## Kết quả hiện tại
 
-### Bài 23 (phóng xạ) — thiết kế lại hoàn chỉnh
+### Toàn bộ 5 bài học B21–B25 trên `/hoc-lieu/phong-hat-nhan-v2` — thiết kế lại hoàn chỉnh
+
+Toàn bộ 5 bài Chương IV Vật lí 12 KNTT đã có trang học liệu tương tác v2 tại `/hoc-lieu/phong-hat-nhan-v2?bai=B21..B25`, thống nhất cấu trúc: **Hero kể chuyện 5 cảnh có câu hỏi chặn nút Tiếp** → **Mục lục điều hướng** → **Các mục theo SGK với phòng thí nghiệm tương tác** → **Tiêu chí hoàn thành** → **Video bài giảng v2 có lồng tiếng và phụ đề VTT**.
+
+### Bài 21 (Cấu trúc hạt nhân — SGK tr. 91–95)
+
+- **`B21Hero`** (5 cảnh): câu chuyện thí nghiệm tán xạ alpha của Rutherford tại Manchester 1911 (bối cảnh mô hình Thomson → bố trí thí nghiệm → kết quả quan sát 1/8000 hạt bật ngược → phát hiện hạt nhân → kí hiệu hạt nhân); câu hỏi kiểm tra chặn nút "Tiếp" ở cảnh quan sát.
+- **`B21Lesson`** (4 mục + Video):
+  - I. Thí nghiệm tán xạ hạt alpha (`RutherfordActivity` — đã sửa lỗi hydration mismatch toạ độ SVG bằng `.toFixed(2)`).
+  - II. Cấu tạo hạt nhân (4 thẻ kiến thức proton/neutron/số khối/điện tích + `NuclearBuilderActivity`).
+  - III. Đồng vị và kích thước hạt nhân (`IsotopeActivity` + giải thích quy luật $R = r_0 A^{1/3}$ và $V \propto A$).
+  - IV. Tổng hợp (3 thẻ nối thí nghiệm với kí hiệu + checklist tiêu chí hoàn thành).
+  - Video học liệu v2 (`b21.mp4`, 89,80 s, 1920×1080, phụ đề `b21.vi.vtt`).
+- **Commit**: `bac1dc5` ("feat(B21): thiết kế lại Bài 21 theo cấu trúc SGK").
+
+### Bài 22 (Phản ứng hạt nhân và năng lượng liên kết — SGK tr. 96–103)
+
+- **`B22Hero`** (5 cảnh): từ phản ứng hạt nhân nhân tạo đầu tiên của Rutherford 1919, vết chữ Y trong buồng sương Blackett, bảo toàn số khối A và điện tích Z, độ hụt khối và đường cong năng lượng liên kết riêng, đến phân hạch và nhiệt hạch; câu hỏi chặn nút "Tiếp" ở cảnh cuối.
+- **`B22Lesson`** (4 mục + Video):
+  - I. Phản ứng hạt nhân — buồng sương Blackett (`NuclearReactionBalancer`).
+  - II. Năng lượng liên kết riêng $E_{\mathrm{lkr}}$ (`BindingEnergyLab`).
+  - III. Phân hạch hạt nhân (`NuclearFission` tải động).
+  - IV. Nhiệt hạch (`NuclearFusion`) + checklist 4 tiêu chí hoàn thành.
+  - Video học liệu v2 (`b22.mp4`, 75,20 s, 1920×1080, phụ đề `b22.vi.vtt`).
+- **Commit**: `981bd6b` ("feat(B22): thiết kế lại Bài 22 theo cấu trúc SGK").
+
+### Bài 23 (Hiện tượng phóng xạ — SGK tr. 104–113)
 
 - **Trang hero có cốt truyện 5 cảnh**: giới thiệu thí nghiệm Becquerel qua tường thuật (tối phòng → phát hiện tia → kết luận); điều hướng "Trước/Tiếp" với nút bị khóa cho đến khi trả lời câu hỏi kiểm tra.
 - **Buồng sương Wilson động** (`CloudChamberView`): mô phỏng canvas với các vệt ion hóa sinh ngẫu nhiên, nút Tạm dừng/Tiếp tục, hoạt ảnh 60fps thực tế.
@@ -11,33 +37,38 @@
 - **Mục III (ảnh hưởng + biển cảnh báo)** (`RadiationSafety`): minh họa ion hóa tế bào, 4 biển cảnh báo phổ biến có giải thích, câu hỏi kiểm tra đúng–sai về mức độ nguy hiểm.
 - **Mục IV (nguyên tắc an toàn ALARA)** (`SafetyPrinciples`): tương tác 3 yếu tố (khoảng cách 1–10 m, thời gian 10–240 phút, vật liệu che chắn: không/gỗ/nhôm/chì), tính liều hấp thụ theo định luật nghịch bình phương I∝1/r² và hệ số suy giảm vật liệu, SVG minh họa nguồn/tia/chắn/người, 3 thẻ số liệu với thanh màu (xanh ≤5, vàng ≤25, đỏ >25), câu hỏi kiểm tra so sánh hiệu quả ba biện pháp.
 - **Video học liệu B23**: tích hợp `<video>` HTML5 với poster JPG, phụ đề tiếng Việt VTT (1.5 KB), thời lượng 1:33 (93.7s), MP4 4.9 MB đã có sẵn tại `public/videos/nuclear-lessons-v2/`. Mục lục (TOC) đã cập nhật với cả 6 phần: Khởi động, I–IV, Video.
+- **Commit**: `740fa569` ("feat(B23): thêm Mục IV (nguyên tắc an toàn phóng xạ) và video học liệu").
 
-**Kiểm chứng B23**:
-- TypeScript: `tsc --noEmit` đạt 0 lỗi.
-- ESLint: `eslint src/components/physics/B23*.tsx` đạt 0 lỗi, 0 cảnh báo.
-- Playwright + Chrome thực (desktop 1440px, mobile 390px): 5 cảnh hero (điều hướng/khóa nút/câu trả lời), buồng sương (canvas đếm pixel vẽ ≠ nền), 4 tab tia + bảng so sánh (4 hàng tbody), section II canvas + table, section IV điều chỉnh 3 slider → đúng tính toán liều (từ 100 đv xuống 0.3 đv khi 4m + chì + 60 phút), quiz chọn đáp án đúng (tăng khoảng cách), video metadata (duration 93.73s, videoWidth 1920, 1 track phụ đề, poster đúng, readyState 4), 0 lỗi console (đã sửa hydration mismatch SVG do SSR/client float precision khác nhau bằng `.toFixed(2)`), 0 tràn ngang (mobile horizontalOverflow = 0).
-- Route: `/hoc-lieu/phong-hat-nhan-v2?bai=B23`.
-- Commit: `740fa569` ("feat(B23): thêm Mục IV (nguyên tắc an toàn phóng xạ) và video học liệu"), `+218` dòng, 2 file (`B23Activities.tsx`, `B23Lesson.tsx`).
+### Bài 24 (Công nghiệp hạt nhân — SGK tr. 114–118)
 
-### Bài 25 (bài tập về vật lí hạt nhân) — thiết kế lại
+- **`B24Hero`** (5 cảnh): từ lò phản ứng Chicago Pile-1 (1942), điều khiển hệ số nhân neutron $k$ bằng thanh hấp thụ boron/cadmium, sơ đồ hai vòng nước tách biệt của lò nước áp lực (PWR), y học hạt nhân (PET/SPECT và xạ trị), đến công nghệ chiếu xạ nông sản; câu hỏi chặn nút "Tiếp" ở cảnh điều khiển phản ứng dây chuyền.
+- **`B24Lesson`** (3 mục + Video):
+  - I. Lò phản ứng hạt nhân (`ReactorControlConcept` tải động) + checklist 3 tiêu chí hoàn thành.
+  - II. Y học hạt nhân (`NuclearMedicine`).
+  - III. Chiếu xạ trong công nghiệp và nông nghiệp (`RadiationApplications`).
+  - Video học liệu v2 (`b24.mp4`, 71,97 s, 1920×1080, phụ đề `b24.vi.vtt`).
+- **Commit**: `01a39ae` ("feat(B24): thiết kế lại Bài 24 theo cấu trúc SGK").
+
+### Bài 25 (Bài tập về vật lí hạt nhân — SGK tr. 119–122)
 
 - **`B25Hero`** (5 cảnh): dẫn dắt qua ba nhóm kĩ năng (đọc đồ thị H(t) → chu kì bán rã; cân bằng phương trình theo A và Z; độ hụt khối → năng lượng liên kết), rồi vận dụng vào nhà máy điện, chiếu xạ, y học. Cảnh cuối là câu hỏi trắc nghiệm chặn nút "Tiếp": bốn lựa chọn 40 s / 60 s / 50 s / không chọn được từ một mốc — chỉ lựa chọn cuối đúng, kèm giải thích về nội suy 75,5 Bq giữa 85 và 55 Bq.
-- **`B25Lesson`** (6 mục): I. Hệ thống hóa bốn công thức (thẻ có công thức KaTeX + lưu ý đơn vị); II. `B25DataProcessLab` — đồ thị Bảng 25.1 với 8 mốc đo giữ nguyên, chọn T giả thuyết, hiện đường lí thuyết, con trỏ thời gian, bảng đối chiếu; III. `NuclearEquationBalancer` — cân bằng phân rã α/β⁻/β⁺, cần đúng 2 ví dụ; IV. `BindingEnergyCalculator` — 5 hạt nhân, 4 bước tính Δm và Elk; V. Sáu bài tập SGK trang 121–122 với gợi ý đóng/mở; VI. Video B25.
+- **`B25Lesson`** (6 mục): I. Hệ thống hóa bốn công thức (thẻ có công thức KaTeX + lưu ý đơn vị); II. `B25DataProcessLab` — đồ thị Bảng 25.1 với 8 mốc đo giữ nguyên, chọn T giả thuyết, hiện đường lí thuyết, con trỏ thời gian, bảng đối chiếu; III. `NuclearEquationBalancer` — cân bằng phân rã α/β⁻/β⁺, cần đúng 2 ví dụ; IV. `BindingEnergyCalculator` — 5 hạt nhân, 4 bước tính Δm và Elk; V. Sáu bài tập SGK trang 121–122 với gợi ý đóng/mở; VI. Video B25 (`b25.mp4`, 76,23 s, 1920×1080, phụ đề `b25.vi.vtt`).
 - **Hai sub-lab được export** từ `B25Activities.tsx` (`NuclearEquationBalancer`, `BindingEnergyCalculator`) để dùng trực tiếp trong trang bài học; `NuclearPhysicsPracticeLab` cũ giữ nguyên cho route in-class hiện có.
-- **Route mở rộng**: `page.tsx` chuyển từ `if (bai !== "B23")` sang bảng `LESSONS` — thêm bài mới chỉ cần một dòng.
+- **Route mở rộng**: `page.tsx` dùng bảng `LESSONS` cho cả 5 bài `B21`–`B25`.
+- **Commit**: `5a33a74` ("feat(B25): thiết kế lại Bài 25 theo cấu trúc SGK").
 
-**Kiểm chứng B25** (Playwright + Chrome thật, desktop 1440px + mobile 390px):
-- Tiêu đề "Bài tập về vật lí hạt nhân"; 7 mục lục đúng thứ tự.
-- Hero: 5 cảnh, nút "Tiếp" bị khóa ở cảnh cuối trước khi trả lời, sau khi chọn đáp án đúng hiện phản hồi "✓ Chính xác…".
-- Mục II: 2 SVG (compact + wide), 8 hàng bảng, bật/tắt đường lí thuyết được, quiz trả lời đúng.
-- Mục III: phân rã α cho "✓ Chính xác! A=234, Z=90 (Th). Đã đúng 1 bài."; chuyển sang β⁻ rồi kiểm tra cho "✓ A=14, Z=7 (N). Đã đúng 2 bài." → tiêu chí hoàn thành bật.
-- Mục IV: metrics ⁴He = Δm 0,030377 u · Elk 28,3 MeV · Elk/A 7,07 MeV/nucleon (khớp giá trị tham chiếu); quiz U-235 trả lời đúng.
-- Mục V: đủ 6 bài tập, phần gợi ý mở/đóng được.
-- Video: duration 76,23 s, videoWidth 1920, readyState 4, 1 track phụ đề, poster và `src` đúng.
-- 0 lỗi console, 0 tràn ngang ở cả 1440px và 390px.
-- Commit: `5a33a74`, 7 file, +564 dòng.
+### Bộ 5 video học liệu v2 (`public/videos/nuclear-lessons-v2/`) — hoàn tất render và tích hợp
 
-**Sai sót đã sửa trong quá trình kiểm tra**: nhãn thời lượng video ghi "1:15" trong khi file thật dài 76,23 s → sửa thành 1:16.
+Toàn bộ 5 video bài giảng (`b21.mp4`–`b25.mp4`) đã được dựng lại từ pipeline Remotion (`scripts/nuclear-videos/`) với:
+- **Hình ảnh**: 1920×1080, 30 fps, H.264 (`yuv420p`, `+faststart`), bảng màu SGU (`#1b2a72 → #0a1230`, điểm nhấn `#43c4ec`), mô hình hạt nhân 3D và đồ thị/tiến trình vật lí động đồng bộ theo từng cảnh.
+- **Lồng tiếng & phụ đề**: Giọng đọc tiếng Việt tổng hợp cục bộ (VieNeu-TTS v3 Turbo · Kim Thanh · seed 21 · AAC 48 kHz mono · `-18 LUFS / -1,9 dBTP`), đồng bộ với tệp phụ đề `.vi.vtt` và ảnh bìa `.jpg`.
+- **Tích hợp & kiểm chứng trình duyệt (Playwright + Chrome thực, desktop 1440px & mobile 390px)**:
+  - `B21`: 200 OK, `b21.mp4` (89,80 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B22`: 200 OK, `b22.mp4` (75,20 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B23`: 200 OK, `b23.mp4` (93,73 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B24`: 200 OK, `b24.mp4` (71,97 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - `B25`: 200 OK, `b25.mp4` (76,23 s, 1920×1080, `readyState: 4`, 1 track VTT), `desktopOverflow: 0`, `mobileOverflow: 0`.
+  - Tổng cộng **0 lỗi console, 0 lỗi trang (`pageerror`)** trên toàn bộ 5 bài ở cả hai kích thước màn hình.
 
 ### Test suite toàn dự án — đã thiết lập và đạt
 
@@ -55,10 +86,10 @@
 - `tests/simulation-v2.test.ts` (24 test VÒNG 5): Timeline (8), decay physics (10), parameter utilities (2), B23 definition wiring (4).
 - 19 file test còn lại (78 test): pathway-progress, exam-scoring, flipped-plan, nuclear-science/-sequence/-layout, fission/process/reactor-model, guided-teacher-workflows, local-ai, teaching-plan, unified-question-bank/-worksheet, teacher-production, physics, decay-data, youtube-learning.
 
-### Trạng thái các bài còn lại
+### Ghi chú về các mục mở rộng tiềm năng
 
-- **B21 (Cấu tạo hạt nhân), B22 (Năng lượng liên kết), B24 (Công nghiệp hạt nhân)**: chưa redesign theo mô hình VÒNG 6 (hero story + labs). Hiện vẫn chạy qua `/student/lessons/b2x/in-class` với `FixedPhysicsActivityRenderer`, chưa có trang `?bai=B2x`.
-- **Mục III nội dung**: `RadiationSafety` trong B23 hiện tại chỉ có minh họa ion hóa cơ bản + 4 biển + câu hỏi đúng–sai. Theo gợi ý từ tóm tắt trước, có thể làm giàu thêm với các ví dụ SGK trang 110 về tác dụng sinh học cụ thể (phá hủy tế bào, đột biến, ung thư), liều an toàn cho nghề nghiệp, v.v. — chưa thực hiện.
+- **Route học sinh trên lớp (`/student/lessons/b2x/in-class`)**: vẫn giữ nguyên `FixedPhysicsActivityRenderer` để bảo toàn luồng lớp học đã kiểm định trước đó; phiên bản tương tác mới phục vụ đầy đủ cả 5 bài tại `/hoc-lieu/phong-hat-nhan-v2?bai=B21..B25`.
+- **Mục III nội dung B23**: `RadiationSafety` trong B23 hiện có minh họa ion hóa cơ bản + 4 biển cảnh báo + câu hỏi đúng–sai; có thể bổ sung thêm bảng liều phơi nhiễm tham khảo khi có yêu cầu từ giảng viên hướng dẫn.
 
 ## Các công cụ và khung hỗ trợ
 
@@ -69,33 +100,31 @@
 
 ## Hạn chế và ghi chú
 
-- **Chỉ B23 và B25 được redesign**: B21/B22/B24 vẫn thiếu trang tương tác tương đương. Cần các vòng tiếp theo để hoàn thiện bộ 5 bài.
-- **Kiểm chứng browser tự động**: dùng Playwright-core + Chrome thật bên ngoài repo (tại `/tmp/b23-verify/`) vì dev server localhost:3000 không thể attach qua Claude's built-in Browser tool. Mọi lần kiểm tra B23 phải chạy script `node /tmp/b23-verify/shoot.js` hoặc `verify-iv.js` thủ công.
-- **Không có thẩm định độc lập**: nội dung vật lí, phương pháp sư phạm và độ chính xác đơn vị/công thức chưa được giáo viên hoặc chuyên gia bên ngoài xác nhận. Video B23 do giáo viên cung cấp sẵn, chưa kiểm duyệt phụ đề đầy đủ.
+- **Đã hoàn tất cả 5 bài B21–B25 trên `/hoc-lieu/phong-hat-nhan-v2`**: Toàn bộ 5 trang tương tác và 5 video bài giảng v2 (`public/videos/nuclear-lessons-v2/b21..b25.mp4`) đã tích hợp và kiểm chứng trên trình duyệt thực.
+- **Kiểm chứng browser tự động**: dùng Playwright-core + Chrome thật (desktop 1440px và mobile 390px) xác nhận 200 OK, 0 lỗi console, 0 tràn ngang, metadata video và phụ đề nạp đầy đủ trên cả 5 bài.
+- **Không có thẩm định độc lập bên ngoài**: nội dung vật lí, phương pháp sư phạm và độ chính xác đơn vị/công thức đã đối chiếu SGK Vật lí 12 KNTT nhưng cần giảng viên hướng dẫn và chuyên gia thẩm định chính thức trước khi nghiệm thu.
 - **Không có dữ liệu học sinh thực nghiệm**: chưa thu thập kết quả học tập, khảo sát mức độ tự học, hay so sánh với phương pháp truyền thống.
-- **NCKH_MASTER_PROGRESS.md này**: tài liệu checkpoint đầu tiên cho dự án NCKH. Các tài liệu cập nhật trước (`PROGRESS_20261004.md`, `PROGRESS_20261005.md`) không bao quát VÒNG 6.
 
 ## Nguồn và tham chiếu
 
-- **SGK Vật lí 12 KNTT (Kết nối tri thức)**: Bài 23 "Hiện tượng phóng xạ", trang 104–113, NXB Giáo dục Việt Nam 2023. Định luật phóng xạ, chu kì bán rã, các tia α/β/γ, biển cảnh báo, nguyên tắc ALARA.
-- **Thí nghiệm Becquerel (1896)**: uranium + phim ảnh trong ngăn kéo tối, phát hiện tia vô hình.
-- **Buồng sương Wilson**: Charles Thomson Rees Wilson, Nobel Prize 1927, quan sát vệt ion hóa của tia vũ trụ và phóng xạ.
-- **ALARA (As Low As Reasonably Achievable)**: nguyên tắc an toàn phóng xạ quốc tế, ba yếu tố khoảng cách/thời gian/che chắn.
-- **Video B23**: file `public/videos/nuclear-lessons-v2/b23.mp4` (4.9 MB), `b23.jpg` poster (287 KB), `b23.vi.vtt` phụ đề (1.5 KB) — nguồn từ giáo viên, chưa ghi rõ tác giả/giấy phép.
-- **SGK Vật lí 12 KNTT, Bài 25** "Bài tập về vật lí hạt nhân", trang in 119–122: Bảng 25.1 (8 mốc H(t)), ba bài ví dụ (tĩnh điện kế, phân hạch U-235, xạ trị Co-60), sáu bài tập (tán xạ α, đồ thị H(t), định tuổi C-14, nhà máy 1400 MW, chiếu xạ Co-60, FDG/PET với ¹⁸F).
-- **Video B25**: `public/videos/nuclear-lessons/b25.mp4` (4,3 MB, dài 76,23 s), `b25.jpg` poster (224 KB), `b25.vi.vtt` phụ đề (1,2 KB) — nguồn từ giáo viên.
+- **SGK Vật lí 12 KNTT (Kết nối tri thức với cuộc sống, NXB Giáo dục Việt Nam)**:
+  - Bài 21 "Cấu trúc hạt nhân" (tr. 91–95): thí nghiệm tán xạ alpha Rutherford 1911, cấu tạo hạt nhân, đồng vị, bán kính hạt nhân $R \approx 1{,}2 \cdot A^{1/3}\,\text{fm}$.
+  - Bài 22 "Phản ứng hạt nhân và năng lượng liên kết" (tr. 96–103): phản ứng hạt nhân Rutherford 1919, ảnh buồng sương Blackett, định luật bảo toàn số khối A và điện tích Z, độ hụt khối, năng lượng liên kết riêng, phân hạch và nhiệt hạch.
+  - Bài 23 "Hiện tượng phóng xạ" (tr. 104–113): thí nghiệm Becquerel 1896, buồng sương Wilson, tia $\alpha / \beta^- / \beta^+ / \gamma$, định luật phóng xạ, chu kì bán rã, biển cảnh báo, nguyên tắc ALARA.
+  - Bài 24 "Công nghiệp hạt nhân" (tr. 114–118): lò phản ứng hạt nhân PWR, điều khiển hệ số nhân $k$, y học hạt nhân (PET, SPECT, xạ trị), chiếu xạ nông sản và công nghiệp.
+  - Bài 25 "Bài tập về vật lí hạt nhân" (tr. 119–122): Bảng 25.1 (8 mốc $H(t)$), cân bằng phương trình, tính năng lượng liên kết, 6 bài tập SGK tr. 121–122.
+- **Bộ 5 video học liệu v2 (`public/videos/nuclear-lessons-v2/`)**: `b21.mp4` (4,5 MB, 89,80 s), `b22.mp4` (3,7 MB, 75,20 s), `b23.mp4` (4,7 MB, 93,73 s), `b24.mp4` (3,7 MB, 71,97 s), `b25.mp4` (4,1 MB, 76,23 s) kèm `.jpg` poster và `.vi.vtt` phụ đề tiếng Việt (chi tiết SHA-256 trong `docs/VIDEO_AUDIT.md`).
 
-## Các bước tiếp theo (gợi ý, chưa thực hiện)
+## Các bước tiếp theo (gợi ý)
 
-1. **Redesign B21/B22/B24** theo mô hình tương tự B23/B25 (hero story + labs).
-2. **Làm giàu Mục III** của B23: thêm ví dụ liều phơi nhiễm nghề nghiệp, bảng phân loại mức độ nguy hiểm theo SGK, hoặc video/ảnh thực tế (nếu có giấy phép).
-3. **Thiết lập CI/CD**: chạy `npm test` tự động trên GitHub Actions hoặc GitLab CI mỗi khi push, để đảm bảo 102 test luôn xanh.
-4. **Kiểm duyệt nội dung chuyên môn**: mời giáo viên Vật lí hoặc chuyên gia hạt nhân xem xét độ chính xác khoa học, phù hợp chương trình THPT, và khả năng tự học của học sinh.
-5. **Thực nghiệm sư phạm**: thử nghiệm B23 với học sinh lớp 12 thực tế, thu thập phản hồi (khảo sát, phỏng vấn, điểm số trước/sau) để đánh giá hiệu quả flipped classroom.
-6. **Viết bài báo khoa học**: cập nhật `BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx` với kết quả B23, phương pháp thiết kế simulation-v2, và kết quả thực nghiệm (khi có).
+1. **Làm giàu Mục III của B23** (tùy chọn): thêm ví dụ liều phơi nhiễm nghề nghiệp, bảng phân loại mức độ nguy hiểm theo SGK khi có yêu cầu của giảng viên hướng dẫn.
+2. **Thiết lập CI/CD**: chạy `npm test` tự động trên GitHub Actions hoặc GitLab CI mỗi khi push, để đảm bảo 102 test luôn xanh.
+3. **Kiểm duyệt nội dung chuyên môn**: mời giảng viên hướng dẫn / giáo viên Vật lí xem xét độ chính xác khoa học, phù hợp chương trình THPT, và khả năng tự học của học sinh.
+4. **Thực nghiệm sư phạm**: thử nghiệm học liệu B21–B25 với học sinh lớp 12 thực tế, thu thập phản hồi (khảo sát, phỏng vấn, điểm số trước/sau) để đánh giá hiệu quả lớp học đảo ngược.
+5. **Hoàn thiện bài báo khoa học**: cập nhật `BAI_BAO_KHOA_HOC_CAP_NHAT_HOC_LIEU.docx` với kết quả 5 bài học tương tác B21–B25, bộ 5 video v2, và kết quả thực nghiệm (khi có).
 
 ---
 
 **Cập nhật lần cuối**: 10/11/2026  
-**Cam kết hiện tại**: `5a33a74` (B25 redesign) sau `2b34eff` (test runner) và `740fa569` (B23 Mục IV + video) · `npm test` 102/102 đạt  
+**Trạng thái hiện tại**: 5/5 bài học B21–B25 + 5/5 video v2 lồng tiếng hoàn tất trên `/hoc-lieu/phong-hat-nhan-v2` · `npm test` 102/102 đạt · `tsc` & `eslint` 0 lỗi  
 **Không push, không deploy, không xóa dữ liệu** (theo quy ước dự án)

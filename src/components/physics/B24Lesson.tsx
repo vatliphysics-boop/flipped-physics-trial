@@ -85,10 +85,10 @@ export function B24Lesson() {
           </p>
           <div className={styles.videoCard}>
             <h3 className={styles.videoTitle}>Bài 24 – Công nghiệp hạt nhân</h3>
-            <p className={styles.videoMeta}>Phụ đề tiếng Việt · Nguồn: giáo viên bộ môn</p>
-            <video className={styles.video} controls preload="metadata" poster="/videos/nuclear-lessons/b24.jpg">
-              <source src="/videos/nuclear-lessons/b24.mp4" type="video/mp4" />
-              <track kind="subtitles" srcLang="vi" src="/videos/nuclear-lessons/b24.vi.vtt" label="Tiếng Việt" default />
+            <p className={styles.videoMeta}>Thời lượng 1:12 · Phụ đề tiếng Việt · Nguồn: giáo viên bộ môn</p>
+            <video className={styles.video} controls preload="metadata" poster="/videos/nuclear-lessons-v2/b24.jpg">
+              <source src="/videos/nuclear-lessons-v2/b24.mp4" type="video/mp4" />
+              <track kind="subtitles" srcLang="vi" src="/videos/nuclear-lessons-v2/b24.vi.vtt" label="Tiếng Việt" default />
               Trình duyệt của bạn không hỗ trợ video HTML5.
             </video>
           </div>

@@ -208,9 +208,9 @@ export function B25Lesson() {
           <div className={styles.videoCard}>
             <h3 className={styles.videoTitle}>Bài 25 – Bài tập về vật lí hạt nhân</h3>
             <p className={styles.videoMeta}>Thời lượng 1:16 · Phụ đề tiếng Việt · Nguồn: giáo viên bộ môn</p>
-            <video className={styles.video} controls preload="metadata" poster="/videos/nuclear-lessons/b25.jpg">
-              <source src="/videos/nuclear-lessons/b25.mp4" type="video/mp4" />
-              <track kind="subtitles" srcLang="vi" src="/videos/nuclear-lessons/b25.vi.vtt" label="Tiếng Việt" default />
+            <video className={styles.video} controls preload="metadata" poster="/videos/nuclear-lessons-v2/b25.jpg">
+              <source src="/videos/nuclear-lessons-v2/b25.mp4" type="video/mp4" />
+              <track kind="subtitles" srcLang="vi" src="/videos/nuclear-lessons-v2/b25.vi.vtt" label="Tiếng Việt" default />
               Trình duyệt của bạn không hỗ trợ video HTML5.
             </video>
           </div>

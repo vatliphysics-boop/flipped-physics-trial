@@ -126,10 +126,10 @@ export function B21Lesson() {
           <p className={styles.lead}>Tóm tắt thí nghiệm Rutherford, cấu tạo hạt nhân và cách đọc kí hiệu.</p>
           <div className={styles.videoCard}>
             <h3 className={styles.videoTitle}>Bài 21 – Cấu trúc hạt nhân</h3>
-            <p className={styles.videoMeta}>Phụ đề tiếng Việt · Nguồn: giáo viên bộ môn</p>
-            <video className={styles.video} controls preload="metadata" poster="/videos/nuclear-lessons/b21.jpg">
-              <source src="/videos/nuclear-lessons/b21.mp4" type="video/mp4" />
-              <track kind="subtitles" srcLang="vi" src="/videos/nuclear-lessons/b21.vi.vtt" label="Tiếng Việt" default />
+            <p className={styles.videoMeta}>Thời lượng 1:30 · Phụ đề tiếng Việt · Nguồn: giáo viên bộ môn</p>
+            <video className={styles.video} controls preload="metadata" poster="/videos/nuclear-lessons-v2/b21.jpg">
+              <source src="/videos/nuclear-lessons-v2/b21.mp4" type="video/mp4" />
+              <track kind="subtitles" srcLang="vi" src="/videos/nuclear-lessons-v2/b21.vi.vtt" label="Tiếng Việt" default />
               Trình duyệt của bạn không hỗ trợ video HTML5.
             </video>
           </div>

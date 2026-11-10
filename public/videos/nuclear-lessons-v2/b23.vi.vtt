@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.500 --> 00:00:08.633
+N₀ là số hạt ban đầu. N(t) là số hạt mẹ còn lại theo kì vọng ở thời điểm t.
+
+00:00:08.733 --> 00:00:17.100
+T là chu kì bán rã. Hai lượt dùng cùng 64 hạt và cùng bộ số ngẫu nhiên, chỉ đổi T.
+
+00:00:18.400 --> 00:00:24.933
+Lượt A có chu kì 20 giây. Mỗi chấm mờ đi khi một hạt nhân mẹ phân rã.
+
+00:00:25.033 --> 00:00:32.300
+Thời điểm phân rã của từng hạt là ngẫu nhiên. Ta theo dõi số hạt còn lại của cả mẫu.
+
+00:00:33.600 --> 00:00:39.967
+Lượt B có chu kì 40 giây. Ta đọc hai mẫu ở cùng mốc 40 giây.
+
+00:00:40.067 --> 00:00:47.633
+Lượt A còn 20 hạt, lượt B còn 35 hạt. Đây là hai kết quả mô phỏng cụ thể.
+
+00:00:48.933 --> 00:00:58.600
+Ở mốc 40 giây, hai giá trị kì vọng là 16 và 32 hạt. Kết quả một lượt có thể lệch khỏi kì vọng.
+
+00:00:58.700 --> 00:01:09.567
+Hằng số phóng xạ λ bằng ln 2 chia chu kì T. Độ phóng xạ bằng λ nhân số hạt mẹ còn lại.
+
+00:01:09.667 --> 00:01:17.167
+H(t) là độ phóng xạ ở thời điểm t. Một becquerel tương ứng một phân rã mỗi giây.
+
+00:01:18.467 --> 00:01:24.533
+Sau hai chu kì, em dự đoán còn bao nhiêu phần số hạt ban đầu theo kì vọng?
+
+00:01:24.633 --> 00:01:32.933
+Còn một phần tư. Để giảm nguy cơ chiếu xạ, giảm thời gian, tăng khoảng cách và dùng che chắn phù hợp.
