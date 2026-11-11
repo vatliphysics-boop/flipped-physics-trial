@@ -1,0 +1,6 @@
+[submodule "tmp/nuclear-video-reference/img2threejs"]
+	path = tmp/nuclear-video-reference/img2threejs
+	url = https://github.com/img2threejs/img2threejs
+[submodule "tmp/nuclear-video-reference/video-shotcraft"]
+	path = tmp/nuclear-video-reference/video-shotcraft
+	url = https://github.com/Vincentwei1021/video-shotcraft
