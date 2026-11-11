@@ -40,6 +40,7 @@
   "exclude": [
     "node_modules",
     "scripts/nuclear-videos",
+    "00_NCKH_BAT_DAU",
     "tmp"
   ]
 }

@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SiteBrand } from "./SiteBrand";
-import { PUBLIC_PRIMARY_LINKS, PUBLIC_TOOL_LINKS } from "./site-navigation";
+import { PUBLIC_PRIMARY_LINKS, PUBLIC_TOOL_LINKS, PUBLIC_TOOL_GROUPS } from "./site-navigation";
 import styles from "./SiteChrome.module.css";
 
 function HeaderNavigation({ pathname }: { pathname: string }) {
@@ -35,7 +35,12 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
       {PUBLIC_PRIMARY_LINKS.map(item => <Link key={item.href} href={item.href} className={styles.navLink} aria-current={pathname === item.href ? "page" : undefined}>{item.label}</Link>)}
       <details className={styles.toolsMenu} ref={toolsMenu}>
         <summary className={styles.navLink} data-active={toolsActive}>Công cụ <span aria-hidden="true">⌄</span></summary>
-        <div className={styles.toolsLinks}>{PUBLIC_TOOL_LINKS.map(item => <Link key={item.href} href={item.href} aria-current={pathname === item.href ? "page" : undefined}>{item.label}</Link>)}</div>
+        <div className={styles.toolsLinks}>
+          {PUBLIC_TOOL_GROUPS.map(group => <div key={group.label} className={styles.toolsGroup}>
+            <p className={styles.toolsGroupLabel} role="presentation">{group.label}<span aria-hidden="true"> · {group.description}</span></p>
+            {group.links.map(item => <Link key={item.href} href={item.href} aria-current={pathname === item.href ? "page" : undefined}>{item.label}</Link>)}
+          </div>)}
+        </div>
       </details>
       <div className={styles.account}>
         <Link className="btn small" href="/login" aria-current={pathname === "/login" ? "page" : undefined}>Đăng nhập</Link>

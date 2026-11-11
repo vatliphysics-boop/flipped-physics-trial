@@ -74,8 +74,8 @@ export const NUCLEAR_SEQUENCES = {
       before_class: {
         title: "Dự đoán số hạt nhân mẹ còn lại",
         goal: "Phân biệt sự kiện phân rã đơn lẻ với xu hướng của cả mẫu.",
-        work: String.raw`Xem video B23 và đọc mục định luật phóng xạ. Với mẫu 64 hạt ban đầu, dự đoán số hạt còn lại theo kì vọng ở \(t=T\) và \(t=2T\). Ghi nguồn, mức chắc chắn và điều em muốn kiểm chứng.`,
-        product: "Hai giá trị dự đoán, lí do và một câu hỏi.",
+        work: String.raw`Trước khi xem học liệu, tự dự đoán với mẫu 64 hạt ban đầu số hạt còn lại theo kì vọng ở \(t=T\) và \(t=2T\). Xem video B23, đọc mục định luật phóng xạ rồi giải thích dự đoán bằng lời của em. Ghi nguồn, điều chưa hiểu; nếu dùng AI, nêu nội dung được hỗ trợ và cách kiểm chứng.`,
+        product: "Hai giá trị dự đoán kèm lí do, nguồn, điều chưa hiểu và ghi chú về việc dùng AI nếu có.",
         criterion: "Dùng đúng mốc thời gian và nêu đây là kì vọng của mẫu, không phải thời điểm của từng hạt.",
       },
       in_class: {

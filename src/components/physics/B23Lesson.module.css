@@ -1,0 +1,9 @@
+.lesson { background: var(--bg-page); }
+.toc { position: sticky; top: var(--topbar-height); z-index: 5; display: flex; gap: 8px; overflow-x: auto; padding: 8px clamp(16px, 4vw, 32px); background: var(--bg-surface); border-bottom: 1px solid var(--border); }
+.toc a { white-space: nowrap; min-height: 40px; display: inline-flex; align-items: center; padding: 4px 14px; border-radius: 999px; color: var(--color-primary); text-decoration: none; font-weight: 600; font-size: .9rem; }
+.toc a:hover { background: var(--color-primary-soft); }
+.body { max-width: var(--content-width); margin: 0 auto; padding: 0 clamp(16px, 4vw, 32px) 64px; }
+.section { padding-top: clamp(32px, 5vw, 56px); scroll-margin-top: calc(var(--topbar-height) + 56px); display: grid; gap: 16px; }
+.section h2 { margin: 0; font-size: clamp(1.5rem, 3vw, 2.1rem); color: var(--color-sgu-navy); }
+.section h3 { margin: 12px 0 0; font-size: 1.15rem; color: var(--text-primary); }
+.lead { margin: 0; max-width: 68ch; color: var(--text-secondary); line-height: 1.7; }

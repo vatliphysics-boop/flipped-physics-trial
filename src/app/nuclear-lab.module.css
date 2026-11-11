@@ -1,42 +1,42 @@
 .lab {
-  --bg-page: #f3f7fa;
+  --bg-page: #f4f7fb;
   --bg-surface: #ffffff;
-  --bg-surface-elevated: #edf4f7;
-  --text-primary: #173244;
-  --text-secondary: #425e70;
-  --text-muted: #597080;
-  --border-light: #d5e1e8;
-  --border-dark: #a6bdc9;
-  --border: #d5e1e8;
-  --color-primary: #116b70;
-  --color-primary-hover: #0c5559;
+  --bg-surface-elevated: #e8edf6;
+  --text-primary: #0e1740;
+  --text-secondary: #445876;
+  --text-muted: #5c6d8a;
+  --border-light: #d4dbe8;
+  --border-dark: #98a8c2;
+  --border: #d4dbe8;
+  --color-primary: #2b3b93;
+  --color-primary-hover: #1f2b6e;
   color: var(--text-primary);
   background: var(--bg-page);
 }
 .hero {
-  --text-primary: #eef9fb;
-  --text-secondary: #bed0d7;
-  --text-muted: #9eb8c2;
-  --border-light: #29424d;
-  --bg-surface: #0d202b;
-  --bg-surface-elevated: #112b36;
+  --text-primary: #f0f4ff;
+  --text-secondary: #b8c6e0;
+  --text-muted: #8fa3c8;
+  --border-light: #293569;
+  --bg-surface: #0e1740;
+  --bg-surface-elevated: #1b2a72;
   color: var(--text-primary);
   isolation: isolate;
   overflow: hidden;
   position: relative;
-  border-bottom: 1px solid #27424e;
+  border-bottom: 1px solid #2b3b93;
   background:
-    radial-gradient(ellipse at 83% 0%, #22675d75, transparent 58%),
-    radial-gradient(ellipse at 0% 70%, #15394c99, transparent 70%), #08151e;
+    radial-gradient(ellipse at 88% 0%, #43c4ec38, transparent 62%),
+    radial-gradient(ellipse at 5% 75%, #2b3b9348, transparent 68%), #0b1230;
 }
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
-  background-image: linear-gradient(#96efdf13 1px, transparent 1px), linear-gradient(90deg, #96efdf13 1px, transparent 1px);
-  background-size: 40px 40px;
-  mask-image: radial-gradient(ellipse at 70% 35%, #000 10%, transparent 85%);
+  background-image: linear-gradient(#43c4ec18 1px, transparent 1px), linear-gradient(90deg, #43c4ec18 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: radial-gradient(ellipse at 72% 38%, #000 12%, transparent 82%);
 }
 .heroInner, .wrap {
   width: min(100%, 1200px);
@@ -55,14 +55,14 @@
   align-items: center;
   gap: .6rem;
   margin: 0 0 .9rem;
-  color: #116b70;
+  color: #2b3b93;
   font-size: .78rem;
   font-weight: 750;
   letter-spacing: .09em;
   text-transform: uppercase;
 }
 .eyebrow::before { content: ""; width: 1.5rem; height: 1px; background: currentColor; }
-.hero .eyebrow { color: #a7f4de; }
+.hero .eyebrow { color: #9fe4ff; }
 .hero h1, .gallery h1 {
   max-width: 15ch;
   margin: 0;
@@ -72,7 +72,7 @@
   letter-spacing: -.06em;
   text-wrap: balance;
 }
-.hero h1 span { color: #91e9d3; display: block; }
+.hero h1 span { color: #43c4ec; display: block; }
 .lead { max-width: 56ch; margin: 1.3rem 0; color: var(--text-secondary); line-height: 1.65; font-size: clamp(1rem, 1.7vw, 1.15rem); }
 .links, .galleryNav { display: flex; align-items: center; flex-wrap: wrap; gap: .7rem; }
 .links a, .galleryNav a {
@@ -89,38 +89,38 @@
   font-weight: 650;
   transition: background-color .18s ease, transform .18s ease;
 }
-.links .primary, .galleryNav a[aria-current="page"] { background: #116b70; border-color: #116b70; color: #ffffff; }
+.links .primary, .galleryNav a[aria-current="page"] { background: #2b3b93; border-color: #2b3b93; color: #ffffff; }
 .links a:hover, .galleryNav a:hover { transform: translateY(-2px); }
-.links a:focus-visible, .galleryNav a:focus-visible, .lessonRail a:focus-visible { outline: 3px solid #cd802e; outline-offset: 3px; }
+.links a:focus-visible, .galleryNav a:focus-visible, .lessonRail a:focus-visible { outline: 3px solid #43c4ec; outline-offset: 3px; }
 .ledger {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1.35rem;
   gap: .5rem 1.1rem;
-  color: #bed5de;
+  color: #b8c6e0;
   font-size: .81rem;
 }
-.ledger strong { color: #ffd09b; }
+.ledger strong { color: #43c4ec; }
 .stage { min-width: 0; scroll-margin-top: 16px; }
-.stageLabel { margin: 0 0 .55rem; color: #c1e8e6; font-size: .82rem; font-weight: 650; letter-spacing: .035em; }
+.stageLabel { margin: 0 0 .55rem; color: #bfe9fb; font-size: .82rem; font-weight: 650; letter-spacing: .035em; }
 .lessonRail { padding-block: 1.5rem 1.75rem; }
-.lessonRail > p { margin: 0 0 .75rem; font-weight: 650; color: #aac7d2; font-size: .86rem; }
+.lessonRail > p { margin: 0 0 .75rem; font-weight: 650; color: #b8c6e0; font-size: .86rem; }
 .lessonRail > div { display: grid; grid-template-columns: repeat(5, 1fr); gap: .6rem; }
 .lessonRail a {
   display: grid;
   gap: .25rem;
   min-width: 0;
   padding: .8rem .85rem;
-  border: 1px solid #2e4a58;
+  border: 1px solid #293569;
   border-radius: 12px;
-  background: linear-gradient(135deg, #183a44, #102530);
+  background: linear-gradient(135deg, #1b2a72, #0e1740);
   color: #eaf8ff;
   text-decoration: none;
   box-shadow: 0 10px 30px #0003;
   transition: background-color .18s, border-color .18s;
 }
-.lessonRail a:hover { border-color: #81d7c2; }
-.lessonRail strong { color: #a8f0dc; font-size: .8rem; letter-spacing: .07em; }
+.lessonRail a:hover { border-color: #43c4ec; }
+.lessonRail strong { color: #7dd3f8; font-size: .8rem; letter-spacing: .07em; }
 .lessonRail span { font-size: .83rem; line-height: 1.35; }
 .gallery { padding-block: clamp(28px, 4vw, 48px); background: var(--bg-page); }
 .gallery h1 { font-size: clamp(2rem, 4.5vw, 3.5rem); max-width: 24ch; letter-spacing: -.045em; }
@@ -137,7 +137,7 @@
 }
 .galleryPane h2 { margin: .2rem 0 .65rem; font-size: 1.32rem; }
 .galleryPane > p { color: var(--text-secondary); }
-.galleryPane > .eyebrow { color: #116b70; }
+.galleryPane > .eyebrow { color: #2b3b93; }
 .question { border-left: 3px solid #c78337; padding-left: .9rem; color: #614624; }
 .gallery :global(.physics-note) { color: var(--text-secondary); }
 .sources {
@@ -150,7 +150,7 @@
 }
 .sources h2 { color: var(--text-primary); }
 .sources summary { color: var(--text-primary); font-weight: 650; cursor: pointer; }
-.sources a { color: #116b70; text-decoration: underline; }
+.sources a { color: #2b3b93; text-decoration: underline; }
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     .lessonRail a, .galleryPane {

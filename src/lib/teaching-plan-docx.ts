@@ -4,11 +4,21 @@ import {parsePreparationDraft,preparationReadiness,type GuidedPreparationDraft} 
 import {officeText} from "./unified-exam-docx";
 const p=(text:string,bold=false)=>new Paragraph({children:bold?[new TextRun({text,bold})]:officeText(text),spacing:{after:100,line:276},keepNext:bold});
 const lines=(text:string)=>text.split("\n").map(line=>p(line));
-export async function teachingPlanDocx(draft:GuidedPreparationDraft,origin:string){
+// Các dòng định danh theo Phụ lục IV để trống khi giáo viên chưa cung cấp; không tự điền thông tin chưa có.
+export type PlanDocumentMeta={school?:string;department?:string;teacherName?:string;periods?:string};
+const DOTS="……………";
+export async function teachingPlanDocx(draft:GuidedPreparationDraft,origin:string,meta:PlanDocumentMeta={}){
  const d=parsePreparationDraft(draft);if(!d)throw new Error("Kế hoạch chưa đúng cấu trúc.");
  const errors=preparationReadiness(d);if(errors.length)throw new Error(errors.join(" "));
  const plan=d.plan;
- const children:(Paragraph|Table)[]=[new Paragraph({style:"Title",alignment:AlignmentType.CENTER,children:[new TextRun({text:"KẾ HOẠCH BÀI DẠY",bold:true,size:28})]}),p(plan.title,true),p("Môn Vật lí · "+d.className),p("Thời gian trên lớp: "+d.budget+" phút. Thời gian tự học trước và sau giờ được ghi riêng."),p("I. Mục tiêu",true),p("1. Kiến thức và yêu cầu cần đạt",true),...lines(plan.knowledgeGoals||plan.goals),p("2. Năng lực",true),...lines(plan.competenceGoals||""),p("3. Phẩm chất",true),...lines(plan.qualityGoals||""),p("II. Thiết bị dạy học và học liệu",true),...lines(plan.preparation),p("Điều kiện lớp: "+plan.classContext)];
+ const identity=(v?:string)=>v?.trim()||DOTS;
+ const children:(Paragraph|Table)[]=[new Paragraph({style:"Title",alignment:AlignmentType.CENTER,children:[new TextRun({text:"KẾ HOẠCH BÀI DẠY",bold:true,size:28})]}),
+  new Paragraph({alignment:AlignmentType.CENTER,children:[new TextRun({text:"(Khung kế hoạch bài dạy — Phụ lục IV Công văn 5512/BGDĐT-GDTrH ngày 18/12/2020)",italics:true,size:20})],spacing:{after:180}}),
+  p("Trường: "+identity(meta.school)),p("Tổ: "+identity(meta.department)),p("Họ và tên giáo viên: "+identity(meta.teacherName)),
+  p("TÊN BÀI DẠY: "+plan.title,true),
+  p("Môn học/Hoạt động giáo dục: Vật lí; lớp: "+d.className),
+  p("Thời gian thực hiện: "+identity(meta.periods)+". Thời gian trên lớp: "+d.budget+" phút; thời gian tự học trước và sau giờ ghi riêng."),
+  p("I. Mục tiêu",true),p("1. Về kiến thức",true),...lines(plan.knowledgeGoals||plan.goals),p("2. Về năng lực",true),...lines(plan.competenceGoals||""),p("3. Về phẩm chất",true),...lines(plan.qualityGoals||""),p("II. Thiết bị dạy học và học liệu",true),...lines(plan.preparation),p("Điều kiện lớp: "+plan.classContext)];
  const allResources=[...new Map(plan.activities.flatMap(a=>a.resources).map(r=>[r.id,r])).values()];
  for(const r of allResources){
   const url=r.url.startsWith("activity:")?new URL("/hoc-lieu?resource="+encodeURIComponent(r.id),origin).href:new URL(r.url,origin).href;

@@ -16,6 +16,7 @@ export function StudentPathwayStepViewer({ steps, error, phase }: { steps: Stude
   return <section aria-label="Tiến trình giáo viên giao" style={{ marginBottom: 48 }}>
     <h2>Tiến trình giáo viên giao</h2>
     <p>Thực hiện các bước theo thứ tự, ghi kết quả và việc em cần tìm hiểu thêm. Bài nộp được lưu để giáo viên xem xét.</p>
+    {phase === "before_class" ? <p>Trước khi xem học liệu, em hãy tự đặt mục tiêu hoặc dự đoán. Sau khi học, giải thích bằng lời của mình và ghi nguồn đã dùng. Nếu dùng AI, nêu phần AI hỗ trợ và cách em kiểm chứng; nếu không dùng, ghi rõ không sử dụng. Đầu giờ, giáo viên có thể trao đổi thêm về bài của em.</p> : null}
     {steps.map((step, index) => <PathwayStepCard key={`${step.id}-${step.completed}`} step={step} index={index} phase={phase} unlocked={isPathwayStepUnlocked(steps, step)} />)}
   </section>;
 }
@@ -64,8 +65,8 @@ function PathwayStepCard({ step, index, unlocked, phase }: { step: StudentPathwa
           <textarea id={`${step.id}-response`} required value={response} onChange={event => setResponse(event.target.value)} maxLength={2000} rows={4} style={{ width: "100%", margin: "8px 0 16px" }} />
           <label htmlFor={`${step.id}-next`}>{nextLabel}{templateFieldsRequired && " *"}</label>
           <textarea id={`${step.id}-next`} value={nextStep} required={templateFieldsRequired} onChange={event => setNextStep(event.target.value)} maxLength={2000} rows={2} style={{ width: "100%", margin: "8px 0 16px" }} />
-          {step.activityKey && !activityDone && !step.completed ? <p>Hoàn thành yêu cầu trong mô phỏng trước khi nộp kết quả.</p> : null}
-          <button className="btn primary" disabled={pending || step.completed || !response.trim() || Boolean(step.activityKey && !activityDone) || (templateFieldsRequired && (!prediction.trim() || !nextStep.trim()))}>{pending ? "Đang lưu…" : step.completed ? "Đã nộp" : "Nộp kết quả bước học"}</button>
+          {step.activityKey && step.required && !activityDone && !step.completed ? <p>Hoàn thành yêu cầu trong mô phỏng trước khi nộp kết quả.</p> : null}
+          <button className="btn primary" disabled={pending || step.completed || !response.trim() || Boolean(step.activityKey && step.required && !activityDone) || (templateFieldsRequired && (!prediction.trim() || !nextStep.trim()))}>{pending ? "Đang lưu…" : step.completed ? "Đã nộp" : "Nộp kết quả bước học"}</button>
         </fieldset>
         {error ? <p role="alert">{error}</p> : null}
         {message ? <p role="status">{message}</p> : null}

@@ -3,18 +3,113 @@
   "width": 1920,
   "height": 1080,
   "fps": 30,
-  "frames": 1800,
-  "seconds": 60,
-  "bytes": 3940545,
-  "renderedMotionFrames": 320,
-  "repairedMotionFrames": [
-    722,
-    735,
-    736,
-    748,
-    762,
-    1452,
-    1453,
-    1454
+  "frames": 2812,
+  "seconds": 93.733333,
+  "bytes": 4878234,
+  "renderedMotionFrames": 828,
+  "capturedFrames": 841,
+  "audio": {
+    "codec": "aac",
+    "sampleRate": 48000,
+    "channels": 1,
+    "startSeconds": 0,
+    "durationSeconds": 93.733
+  },
+  "scenes": [
+    {
+      "sceneIndex": 0,
+      "from": 0,
+      "durationFrames": 537,
+      "motionFrames": 64,
+      "cues": [
+        {
+          "from": 15,
+          "duration": 244,
+          "text": "N₀ là số hạt ban đầu. N(t) là số hạt mẹ còn lại theo kì vọng ở thời điểm t."
+        },
+        {
+          "from": 262,
+          "duration": 251,
+          "text": "T là chu kì bán rã. Hai lượt dùng cùng 64 hạt và cùng bộ số ngẫu nhiên, chỉ đổi T."
+        }
+      ]
+    },
+    {
+      "sceneIndex": 1,
+      "from": 537,
+      "durationFrames": 456,
+      "motionFrames": 426,
+      "cues": [
+        {
+          "from": 15,
+          "duration": 196,
+          "text": "Lượt A có chu kì 20 giây. Mỗi chấm mờ đi khi một hạt nhân mẹ phân rã."
+        },
+        {
+          "from": 214,
+          "duration": 218,
+          "text": "Thời điểm phân rã của từng hạt là ngẫu nhiên. Ta theo dõi số hạt còn lại của cả mẫu."
+        }
+      ]
+    },
+    {
+      "sceneIndex": 2,
+      "from": 993,
+      "durationFrames": 460,
+      "motionFrames": 210,
+      "cues": [
+        {
+          "from": 15,
+          "duration": 191,
+          "text": "Lượt B có chu kì 40 giây. Ta đọc hai mẫu ở cùng mốc 40 giây."
+        },
+        {
+          "from": 209,
+          "duration": 227,
+          "text": "Lượt A còn 20 hạt, lượt B còn 35 hạt. Đây là hai kết quả mô phỏng cụ thể."
+        }
+      ]
+    },
+    {
+      "sceneIndex": 3,
+      "from": 1453,
+      "durationFrames": 886,
+      "motionFrames": 64,
+      "cues": [
+        {
+          "from": 15,
+          "duration": 290,
+          "text": "Ở mốc 40 giây, hai giá trị kì vọng là 16 và 32 hạt. Kết quả một lượt có thể lệch khỏi kì vọng."
+        },
+        {
+          "from": 308,
+          "duration": 326,
+          "text": "Hằng số phóng xạ λ bằng ln 2 chia chu kì T. Độ phóng xạ bằng λ nhân số hạt mẹ còn lại."
+        },
+        {
+          "from": 637,
+          "duration": 225,
+          "text": "H(t) là độ phóng xạ ở thời điểm t. Một becquerel tương ứng một phân rã mỗi giây."
+        }
+      ]
+    },
+    {
+      "sceneIndex": 4,
+      "from": 2339,
+      "durationFrames": 473,
+      "motionFrames": 64,
+      "cues": [
+        {
+          "from": 15,
+          "duration": 182,
+          "text": "Sau hai chu kì, em dự đoán còn bao nhiêu phần số hạt ban đầu theo kì vọng?"
+        },
+        {
+          "from": 200,
+          "duration": 249,
+          "text": "Còn một phần tư. Để giảm nguy cơ chiếu xạ, giảm thời gian, tăng khoảng cách và dùng che chắn phù hợp."
+        }
+      ]
+    }
   ]
 }

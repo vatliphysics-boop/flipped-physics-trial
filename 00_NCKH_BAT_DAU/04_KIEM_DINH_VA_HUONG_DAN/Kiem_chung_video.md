@@ -1,0 +1,1 @@
+../../docs/NARRATED_VIDEO_VERIFICATION.md

@@ -1,0 +1,29 @@
+.wrapper { display: grid; gap: 16px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.tab { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px; border: 1px solid var(--border-dark); border-radius: var(--radius-sm); background: var(--bg-surface); color: var(--text-primary); font: inherit; cursor: pointer; }
+.tab:hover { background: var(--color-primary-soft); }
+.tab[data-active='true'] { border-color: var(--color-primary); background: var(--color-primary-soft); font-weight: 700; }
+.tabSymbol { font-size: 1.15rem; font-weight: 800; }
+.tab:focus-visible, .compareButton:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 2px; }
+.panel { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(16px, 3vw, 32px); align-items: center; }
+.visual { background: #f1f5f9; border-radius: var(--radius-md); overflow: hidden; }
+.svg { display: block; width: 100%; height: auto; }
+.details { display: grid; gap: 8px; }
+.symbolTitle { margin: 0; font-size: 2rem; line-height: 1; }
+.facts { display: grid; gap: 10px; margin: 0; }
+.facts dt { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text-muted); }
+.facts dd { margin: 2px 0 0; color: var(--text-primary); line-height: 1.5; }
+.equation { padding: 14px 16px; background: var(--color-accent-soft); border-left: 4px solid var(--color-accent); border-radius: var(--radius-sm); }
+.equationLabel { margin: 0 0 4px; font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--color-accent); }
+.equationBody { margin: 0; font-size: clamp(1.1rem, 2.4vw, 1.5rem); color: var(--color-sgu-navy); overflow-wrap: anywhere; }
+.equationNote { margin: 6px 0 0; color: var(--text-secondary); line-height: 1.6; }
+.compareButton { justify-self: start; min-height: 44px; padding: 8px 18px; border-radius: var(--radius-sm); border: 1px solid var(--color-primary); background: var(--bg-surface); color: var(--color-primary); font: inherit; font-weight: 600; cursor: pointer; }
+.compareButton:hover { background: var(--color-primary-soft); }
+.tableWrap { overflow-x: auto; }
+.table { width: 100%; min-width: 640px; border-collapse: collapse; font-size: .92rem; }
+.table caption { text-align: left; padding-bottom: 8px; color: var(--text-secondary); font-size: .85rem; }
+.table th, .table td { padding: 8px 10px; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+.table thead th { background: var(--bg-surface-elevated); }
+.table tbody th { background: var(--bg-page); white-space: nowrap; }
+.tableNote { margin: 8px 0 0; font-size: .85rem; color: var(--text-secondary); }
+@media (max-width: 760px) { .panel { grid-template-columns: minmax(0, 1fr); } }

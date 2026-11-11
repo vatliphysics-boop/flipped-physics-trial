@@ -1,0 +1,3 @@
+Mỗi lượt mô phỏng có đúng 64 hạt nhân mẹ. Em quan sát: không phải mọi hạt đều phân rã cùng một lúc.
+Đặt chu kì bán rã là hai mươi giây. Sau mỗi chu kì, một nửa số hạt nhân mẹ còn lại sẽ phân rã.
+Vậy sau hai chu kì, theo kì vọng còn lại bao nhiêu phần? Em hãy dừng lại một chút và dự đoán trước khi tiếp tục.

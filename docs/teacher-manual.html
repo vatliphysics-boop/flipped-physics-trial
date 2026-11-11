@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<title>Sổ tay giáo viên — Hệ thống học liệu Vật lí Hạt nhân 12</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 20mm 16mm; @bottom-center { content: "Trang " counter(page); font-size: 10px; color:#6b7a90; } }
+  * { box-sizing: border-box; }
+  html { font-family: "Helvetica Neue", Arial, sans-serif; color:#1c2433; font-size:11.5pt; line-height:1.55; }
+  :root { --navy:#121c4e; --blue:#2b3b93; --sky:#43c4ec; --light:#eef3fa; --line:#d5deec; --mut:#5c6b84; }
+  .cover { background: linear-gradient(180deg,#1b2a72,#121c4e); color:#fff; border-radius:18px; padding:34px 30px 26px; page-break-after: always; }
+  .cover .k { font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:#8fd9f6; font-weight:700; }
+  .cover h1 { font-size:30px; line-height:1.25; margin:14px 0 10px; font-weight:800; letter-spacing:-.02em; }
+  .cover p.sub { color:#c9d4ee; margin:0 0 18px; font-size:13px; max-width:60ch; }
+  .covermeta { display:grid; gap:6px; font-size:12.5px; color:#dfe7fb; margin-top:10px; }
+  .covermeta b { color:#fff; }
+  .badge { display:inline-block; border:1px solid #8fd9f6; color:#a8dcf5; border-radius:999px; padding:3px 10px; font-size:11px; margin-right:6px; }
+  h2 { font-size:19px; color:var(--navy); border-bottom:3px solid var(--sky); padding-bottom:5px; margin:26px 0 10px; page-break-after:avoid; }
+  h3 { font-size:14.5px; color:var(--blue); margin:18px 0 6px; page-break-after:avoid; }
+  h4 { font-size:12.5px; margin:12px 0 4px; page-break-after:avoid; }
+  p { margin:6px 0; }
+  ol, ul { margin:6px 0 6px 20px; padding:0; }
+  li { margin:3px 0; }
+  .box { background:var(--light); border:1px solid var(--line); border-left:4px solid var(--blue); border-radius:8px; padding:10px 14px; margin:10px 0; page-break-inside:avoid; }
+  .warn { border-left-color:#c98a2e; background:#fdf6ea; }
+  .note { border-left-color:var(--sky); background:#eefaff; }
+  table { width:100%; border-collapse:collapse; font-size:11px; margin:10px 0; }
+  th { background:var(--blue); color:#fff; text-align:left; padding:6px 8px; }
+  td { border:1px solid var(--line); padding:6px 8px; vertical-align:top; }
+  tr:nth-child(even) td { background:#f8fafd; }
+  code, kbd { font-family:Menlo,monospace; background:#eef3fb; padding:1px 5px; border-radius:4px; font-size:10.5px; }
+  .small { font-size:10.5px; color:var(--mut); }
+  .toc a { color:var(--blue); text-decoration:none; }
+  .checklist li::marker { content:"☐ "; color:var(--blue); }
+  .sec { page-break-before: always; }
+  .pill { display:inline-block; background:var(--sky); color:#0b1230; font-weight:700; border-radius:999px; padding:2px 10px; font-size:10.5px; }
+  .footer-note { margin-top:28px; border-top:1px solid var(--line); padding-top:8px; font-size:10px; color:var(--mut); }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="k">Dự án nghiên cứu khoa học · Trường Đại học Sài Gòn</div>
+  <h1>Sổ tay giáo viên<br/>Hệ thống học liệu Vật lí Hạt nhân 12</h1>
+  <p class="sub">Hướng dẫn sử dụng từng tính năng của hệ thống học liệu số có hỗ trợ trí tuệ nhân tạo, theo mô hình lớp học đảo ngược, cho chủ đề <b>Vật lí hạt nhân</b> (Bài 21–25) môn Vật lí lớp 12 — Chương trình giáo dục phổ thông 2018.</p>
+  <div>
+    <span class="badge">Lớp học đảo ngược 3 pha</span>
+    <span class="badge">B21–B25 · SGK Vật lí 12 Kết nối tri thức</span>
+    <span class="badge">Công văn 5512/BGDĐT</span>
+  </div>
+  <div class="covermeta">
+    <div><b>Trường:</b> Trường Đại học Sài Gòn — Khoa Sư phạm Khoa học Tự nhiên</div>
+    <div><b>GV hướng dẫn:</b> PGS.TS. Nguyễn Thị Nhị</div>
+    <div><b>Nhóm thực hiện:</b> Võ Đoàn Đăng Khôi · Nguyễn Bảo Thy · Bùi Ngọc Xuân Phương</div>
+    <div><b>Bản cập nhật:</b> 09/11/2026 — theo phiên bản website tại thời điểm này</div>
+  </div>
+</div>
+
+<h2>Mục lục</h2>
+<div class="toc">
+<table>
+<tr><th>Chương</th><th>Nội dung</th><th>Trang</th></tr>
+<tr><td>1</td><td><a href="#c1">Tổng quan hệ thống và cách đăng nhập</a></td><td>2</td></tr>
+<tr><td>2</td><td><a href="#c2">Tạo lớp và mời học sinh</a></td><td>3</td></tr>
+<tr><td>3</td><td><a href="#c3">Tạo bài học và giao nhiệm vụ theo 3 pha</a></td><td>4</td></tr>
+<tr><td>4</td><td><a href="#c4">Theo dõi tiến độ và xem bài nộp</a></td><td>5</td></tr>
+<tr><td>5</td><td><a href="#c5">Giao bài tập và bài kiểm tra</a></td><td>6</td></tr>
+<tr><td>6</td><td><a href="#c6">Kho học liệu và ngân hàng câu hỏi</a></td><td>7</td></tr>
+<tr><td>7</td><td><a href="#c7">Soạn kế hoạch bài dạy và xuất Word</a></td><td>8</td></tr>
+<tr><td>8</td><td><a href="#c8">Phiếu đánh giá bài dạy (Phụ lục V, CV 5512)</a></td><td>9</td></tr>
+<tr><td>9</td><td><a href="#c9">Dùng AI an toàn và kiểm định học liệu</a></td><td>10</td></tr>
+<tr><td>10</td><td><a href="#c10">Mô hình, video và hệ thống bài B21–B25</a></td><td>11</td></tr>
+<tr><td>11</td><td><a href="#c11">Câu hỏi thường gặp và xử lý sự cố</a></td><td>12</td></tr>
+</table>
+</div>
+
+<div class="box note"><b>Lưu ý khi đọc:</b> các đường dẫn trong tài liệu là đường dẫn trên website của dự án (ví dụ <code>/teacher/lessons</code>). Tên các nút và mục hiển thị đúng như giao diện hiện tại. Đây là <b>sản phẩm nghiên cứu khoa học</b>, không phải website chính thức của Trường Đại học Sài Gòn.</div>
+
+<h2 id="c1" class="sec">1. Tổng quan hệ thống và cách đăng nhập</h2>
+<p>Hệ thống gồm hai khu vực riêng biệt theo vai trò:</p>
+<table>
+<tr><th>Vai trò</th><th>Nơi làm việc</th><th>Việc chính</th></tr>
+<tr><td>Giáo viên</td><td><code>/teacher</code></td><td>Tạo lớp, tạo bài, giao nhiệm vụ, xem bài nộp, soạn kế hoạch, xuất Word, theo dõi tiến độ học sinh</td></tr>
+<tr><td>Học sinh</td><td><code>/student</code></td><td>Thực hiện nhiệm vụ theo ba pha: trước, trong và sau giờ học</td></tr>
+<tr><td>Khách công khai</td><td><code>/</code></td><td>Xem kho học liệu, mô hình, video, giới thiệu dự án</td></tr>
+</table>
+
+<h3>1.1. Đăng nhập</h3>
+<ol>
+<li>Vào trang chủ, bấm <b>Đăng nhập</b> ở góc trên bên phải.</li>
+<li>Nhập tài khoản giáo viên đã đăng ký (email và mật khẩu).</li>
+<li>Sau khi đăng nhập, giáo viên vào <b>Tổng quan giảng dạy</b> tại <code>/teacher</code>.</li>
+</ol>
+
+<h3>1.2. Bố cục trang giáo viên</h3>
+<p>Thanh bên trái gồm các mục (theo đúng thứ tự giao diện):</p>
+<ul>
+<li><b>Tổng quan</b> — trang bắt đầu sau khi đăng nhập.</li>
+<li><b>Lớp học</b> — tạo và quản lý lớp.</li>
+<li><b>Kế hoạch bài dạy của tôi</b> — tìm lại kế hoạch đã soạn.</li>
+<li><b>Chương trình Vật lí 12</b> — xem học liệu theo bốn chương, học liệu đề tài tập trung Chương 4 (B21–B25).</li>
+<li><b>Kho học liệu</b> — ngân hàng hình, video, mô phỏng, bài tập, phiếu.</li>
+<li><b>Bài học</b> — tạo bài B21–B25 và giao theo ba pha.</li>
+<li><b>Không gian giáo viên</b> — công cụ AI hỗ trợ tạo đề, phiếu và kế hoạch.</li>
+<li><b>Học sinh và kết quả</b> — xem danh sách lớp và tiến độ.</li>
+</ul>
+
+<div class="box"><b>Thứ tự thao tác thông thường:</b> Tạo lớp → Tạo bài học → Giao nhiệm vụ → Theo dõi và đọc bài nộp → Soạn kế hoạch/xuất Word. Các chương 2–8 đi theo đúng thứ tự này.</div>
+
+<h2 id="c2" class="sec">2. Tạo lớp và mời học sinh</h2>
+<h3>2.1. Tạo lớp học</h3>
+<ol>
+<li>Vào <b>Lớp học</b> ở thanh bên trái (hoặc <code>/teacher/classes</code>).</li>
+<li>Bấm tạo lớp mới, nhập tên lớp và các thông tin cần thiết.</li>
+<li>Sau khi tạo, hệ thống sinh <b>mã tham gia lớp</b> để học sinh dùng khi đăng ký.</li>
+<li>Mở trang chi tiết lớp để xem danh sách học sinh đã tham gia.</li>
+</ol>
+<div class="box warn"><b>Chưa có dữ liệu mẫu:</b> hệ thống không tự tạo học sinh hay bài nộp giả lập. Lớp chỉ có học sinh thật sau khi học sinh đăng ký bằng mã tham gia.</div>
+
+<h3>2.2. Quản lý lớp</h3>
+<ul>
+<li>Giữ mã tham gia ổn định cho cả chương học; chỉ chia sẻ cho học sinh trong lớp.</li>
+<li>Kiểm tra lại danh sách thành viên trước khi giao bài bước bắt buộc.</li>
+</ul>
+
+<h2 id="c3" class="sec">3. Tạo bài học và giao nhiệm vụ theo 3 pha</h2>
+<p>Mỗi bài (B21–B25) được tổ chức theo ba giai đoạn của lớp học đảo ngược:</p>
+<table>
+<tr><th>Pha</th><th>Thời điểm</th><th>Việc học sinh làm</th><th>Việc giáo viên làm</th></tr>
+<tr><td>Trước giờ học (<code>before-class</code>)</td><td>Ở nhà</td><td>Xem video, đọc học liệu, làm dự đoán, trả lời câu hỏi chuẩn bị</td><td>Giao nhiệm vụ và hạn nộp; kiểm tra hoàn thành</td></tr>
+<tr><td>Trong giờ học (<code>in-class</code>)</td><td>Tại lớp</td><td>Thao tác mô phỏng, xử lí số liệu, thảo luận, hoàn thành phiếu nhóm</td><td>Tổ chức hoạt động, hướng dẫn, nhận xét</td></tr>
+<tr><td>Sau giờ học (<code>after-class</code>)</td><td>Tự học tiếp</td><td>Luyện tập, tự đánh giá, phản tư và điều chỉnh kế hoạch học</td><td>Chấm, phản hồi, điều chỉnh bài học</td></tr>
+</table>
+
+<h3>3.1. Tạo và giao bài</h3>
+<ol>
+<li>Vào <b>Bài học</b> (<code>/teacher/lessons</code>).</li>
+<li><b>Chọn một lớp</b>, rồi chọn một trong năm bài B21–B25.</li>
+<li>Mở bài trong từng giai đoạn (trước / trong / sau giờ).</li>
+<li>Chọn học liệu từ kho (video, mô phỏng, phiếu, bài tập) và thêm vào các bước học.</li>
+<li>Đánh dấu mỗi bước là <b>Bắt buộc</b> hoặc <b>Tự chọn</b>. Chỉ khi bước bắt buộc được hoàn thành thì bước tiếp theo mới mở.</li>
+<li>Chọn <b>Giao bước học</b> để học sinh thấy nhiệm vụ; bước chưa giao chỉ giáo viên nhìn thấy khi xem trước.</li>
+</ol>
+
+<h3>3.2. Trình sửa nhắc và công thức</h3>
+<ul>
+<li>Nhiệm vụ có thể ghi công thức Vật lí theo LaTeX; khi xem trước, kiểm tra hiển thị đúng ký hiệu và đơn vị.</li>
+<li>Ghi rõ điều kiện so sánh (giữ nguyên yếu tố nào, thay đổi yếu tố nào) trong hướng dẫn làm bài.</li>
+</ul>
+<div class="box note"><b>Bắt buộc / Tự chọn:</b> bước <i>tự chọn</i> có mô phỏng không bắt buộc học sinh phải hoàn thành mô phỏng trước khi nộp văn bản. Chỉ bước <i>bắt buộc</i> mới yêu cầu hoàn thành mô phỏng. Quy tắc này đã được kiểm tra và sửa trong hệ thống.</div>
+
+<h2 id="c4" class="sec">4. Theo dõi tiến độ và xem bài nộp</h2>
+<h3>4.1. Xem bài nộp của học sinh</h3>
+<ol>
+<li>Mở bài học trong lớp, vào mục <b>Kết quả</b> (<code>/teacher/lessons/[id]/ket-qua</code>) hoặc <b>Học sinh và kết quả</b>.</li>
+<li>Chọn <b>Học sinh</b> và <b>Giai đoạn</b> (trước / trong / sau giờ) rồi bấm <b>Xem bài nộp</b>.</li>
+<li>Đọc ba phần bằng chứng của mỗi bước học (theo đúng nhãn hiển thị):
+<ul><li>Phần 1: theo giai đoạn — trước giờ: mục tiêu và dự đoán · trong giờ: dự đoán/kế hoạch quan sát · sau giờ: kế hoạch chọn lời giải.</li>
+<li>Phần 2: kế hoạch, ghi chép, số liệu và lời giải.</li>
+<li>Phần 3: điều chưa hiểu / việc cần kiểm chứng / hành động tự học tiếp theo.</li></ul></li>
+<li>Đối chiếu đáp án/giải thích kèm theo (không hiển thị công khai cho học sinh).</li>
+</ol>
+
+<h3>4.2. Cách hiểu cột trạng thái</h3>
+<ul>
+<li><b>"Đã nộp"</b> xác nhận hệ thống đã lưu sản phẩm. Giáo viên cần đọc nội dung để nhận xét mức độ hiểu và việc cần sửa — không coi việc bấm nút hoàn thành là bằng chứng đầy đủ cho năng lực tự học.</li>
+<li>Nhật kí tự học gồm 4 trường: điều đã học, khó khăn, điều chỉnh tiếp theo, mức tự tin.</li>
+<li>Bài đánh giá cuối pha được đối chiếu với gợi ý/đáp án trong mục "Đối chiếu bài đánh giá và gợi ý phản hồi".</li>
+</ul>
+<div class="box warn"><b>Cần lưu ý:</b> trang hiện tại chưa có ô nhập phản hồi trực tiếp gửi cho học sinh. Vui lòng ghi nhận xét trong kênh liên lạc của lớp và lưu lại. Tính năng phản hồi trực tiếp được đánh giá bổ sung sau khi thống nhất với giảng viên hướng dẫn về trường dữ liệu.</div>
+
+<h2 id="c5" class="sec">5. Giao bài tập và bài kiểm tra</h2>
+<ol>
+<li>Vào <b>Không gian giáo viên</b> (<code>/teacher/ai</code>).</li>
+<li>Mở tab <b>Ngân hàng đề</b> để chọn câu hỏi trắc nghiệm, đúng/sai, trả lời ngắn, tự luận theo ma trận.</li>
+<li>Chuyển sang tab <b>Phiếu học tập ba pha</b> để tạo phiếu có nhiệm vụ và sản phẩm theo từng pha.</li>
+<li>Xuất Word khi cần: đề, đáp án, hướng dẫn chấm theo ma trận.</li>
+<li>Giao kiểm tra định kì: xây dựng thêm <b>ma trận, bản đặc tả, đề và hướng dẫn chấm</b> theo Công văn 7991/BGDĐT-GDTrH (tham chiếu, không thay thế văn bản đang áp dụng tại trường).</li>
+</ol>
+
+<h2 id="c6" class="sec">6. Kho học liệu và ngân hàng câu hỏi</h2>
+<h3>6.1. Nơi tìm học liệu</h3>
+<ul>
+<li><b>Kho học liệu</b> (<code>/teacher/materials</code>): lọc theo loại — ảnh tĩnh/sơ đồ, ảnh động/minh họa, video thật/thí nghiệm, video bài giảng, mô phỏng 3D, PDF/phiếu, câu hỏi.</li>
+<li><b>Kho công khai</b> (<code>/hoc-lieu</code>): học sinh và khách xem được.</li>
+<li><b>Chương trình Vật lí 12</b> (<code>/teacher/curriculum?chuong=...</code>): xem theo chương và lớp đang chọn.</li>
+</ul>
+<h3>6.2. Nguyên tắc dùng học liệu trong dự án</h3>
+<ul>
+<li>Ưu tiên học liệu đã kiểm định (đúng ký hiệu, đơn vị, điều kiện áp dụng).</li>
+<li>mô phỏng là minh họa theo mô hình; không phải số đo thực nghiệm.</li>
+<li>Ghi nguồn và phạm vi lớp 12 cho mỗi học liệu đưa vào bài học.</li>
+</ul>
+
+<h2 id="c7" class="sec">7. Soạn kế hoạch bài dạy và xuất Word</h2>
+<p>Đây là chức năng đã chuẩn hóa theo <b>Phụ lục IV – Khung kế hoạch bài dạy, Công văn 5512/BGDĐT-GDTrH ngày 18/12/2020</b>.</p>
+<h3>7.1. Mở bàn soạn</h3>
+<ol>
+<li>Vào <b>Không gian giáo viên</b> → tab <b>Chuẩn bị giờ học</b>, hoặc <code>/hoc-lieu/soan-ke-hoach</code>.</li>
+<li>Bước 1: chọn <b>Bài học (B21–B25)</b>, nhập lớp sử dụng, thời gian trên lớp, thiết bị của lớp, tên kế hoạch; chọn yêu cầu cần đạt.</li>
+<li>Bước 2: rà soát từng hoạt động theo ba pha (trước/trong/sau giờ), mục tiêu, nhiệm vụ, sản phẩm, tiêu chí, hỗ trợ, học liệu kèm theo.</li>
+<li>Bước 3: kiểm tra hồ sơ, điền thông tin trên văn bản, rồi xuất Word.</li>
+</ol>
+<h3>7.2. Phần thông tin trên văn bản (mới)</h3>
+<p>Tại bước 3, nhóm trường <b>Thông tin trên văn bản</b> gồm Trường, Tổ chuyên môn, Họ và tên giáo viên, Số tiết thực hiện. Để trống nếu dùng làm mẫu; phần trống hiển thị dưới dạng chấm để giáo viên điền tay. Hệ thống không tự điền những thông tin chưa được cung cấp.</p>
+<h3>7.3. Cấu trúc Word đã xuất</h3>
+<table>
+<tr><th>Mục</th><th>Nội dung</th></tr>
+<tr><td>Đầu văn bản</td><td>Trường / Tổ / Họ tên giáo viên / Tên bài dạy / Môn Vật lí – Lớp / Thời gian thực hiện. Chú thích "Khung kế hoạch bài dạy — Phụ lục IV".</td></tr>
+<tr><td>I. Mục tiêu</td><td>1. Về kiến thức · 2. Về năng lực · 3. Về phẩm chất</td></tr>
+<tr><td>II. Thiết bị dạy học và học liệu</td><td>Thiết bị và học liệu thực tế dùng trong bài, kèm liên kết học liệu.</td></tr>
+<tr><td>III. Tiến trình dạy học</td><td>Mỗi hoạt động: a) Mục tiêu · b) Nội dung · c) Sản phẩm · d) Tổ chức thực hiện (giao nhiệm vụ / thực hiện / báo cáo–thảo luận / kết luận–nhận định). Tiêu chí đánh giá và hỗ trợ học sinh được ghi riêng.</td></tr>
+<tr><td>IV. Điều chỉnh sau bài dạy</td><td>Mục ghi nhận sau khi tổ chức dạy học.</td></tr>
+<tr><td>Phần cuối</td><td>Ghi căn cứ: Phụ lục IV CV 5512; Thông tư 32/2018/TT-BGDDT; lưu ý CV 7991 khi kiểm tra định kì.</td></tr>
+</table>
+<p>File Word: Times New Roman, khổ A4, tiếng Việt có dấu đúng, có thể mở và chỉnh sửa trong Microsoft Word, có số trang ở chân trang. Giáo viên mở file trong Word, kiểm tra bố cục trước khi in.</p>
+<div class="box note"><b>Tái sử dụng:</b> bản soạn có thể tải về dạng JSON (tối đa 2 MB) để lưu ngoài trình duyệt, và có thể nhập lại để chỉnh sửa tiếp. Kế hoạch đã lưu trên thiết bị giới hạn 30 kế hoạch.</div>
+
+<h2 id="c8" class="sec">8. Phiếu đánh giá bài dạy (Phụ lục V, Công văn 5512)</h2>
+<p>Đây là mẫu <b>Phụ lục V – Mẫu phiếu đánh giá bài dạy</b>. Trong bàn soạn (Bước 3), bấm <b>Tải phiếu đánh giá bài dạy (Phụ lục V)</b> để xuất Word kèm dữ liệu bài, lớp, tiết và giáo viên đã nhập.</p>
+<p>Phiếu gồm ba nhóm tiêu chí với điểm tối đa từng tiêu chí (tổng <b>20,00</b>):</p>
+<table>
+<tr><th>Nhóm</th><th>Tiêu chí chính</th><th>Điểm tối đa</th></tr>
+<tr><td rowspan="4">1. Kế hoạch bài dạy</td><td>Phù hợp hoạt động với mục tiêu/nội dung/phương pháp</td><td>1,00</td></tr>
+<tr><td>Rõ ràng của mục tiêu, nội dung, sản phẩm, tổ chức thực hiện</td><td>2,00</td></tr>
+<tr><td>Phù hợp thiết bị dạy học và học liệu</td><td>1,00</td></tr>
+<tr><td>Phù hợp phương án kiểm tra/đánh giá</td><td>2,00</td></tr>
+<tr><td rowspan="4">2. Hoạt động của giáo viên</td><td>Chính xác, phù hợp, sinh động, hấp dẫn trong giao nhiệm vụ</td><td>2,00</td></tr>
+<tr><td>Theo dõi, quan sát, phát hiện kịp thời khó khăn</td><td>1,00</td></tr>
+<tr><td>Hỗ trợ, khuyến khích hợp tác và giúp đỡ nhau</td><td>2,00</td></tr>
+<tr><td>Tổng hợp, phân tích, đánh giá quá trình và kết quả</td><td>2,00</td></tr>
+<tr><td rowspan="4">3. Hoạt động của học sinh</td><td>Tiếp nhận và sẵn sàng thực hiện nhiệm vụ</td><td>2,00</td></tr>
+<tr><td>Tích cực, chủ động, sáng tạo, hợp tác</td><td>2,00</td></tr>
+<tr><td>Tham gia trình bày và thảo luận</td><td>2,00</td></tr>
+<tr><td>Đúng đắn, chính xác của kết quả thực hiện</td><td>1,00</td></tr>
+</table>
+<p><b>Cách tính điểm:</b> mỗi tiêu chí 3 mức — Mức 1: 50–65% điểm tối đa; Mức 2: 65–80%; Mức 3: 80–100%; điểm thành phần là bội số của 0,25. <b>Xếp loại:</b> GIỎI 18–20 · KHÁ 13,5–&lt;18 · TRUNG BÌNH 10–&lt;13,5 · KHÔNG ĐẠT &lt;10.</p>
+<div class="box note"><b>Phạm vi:</b> phiếu này đánh giá quá trình thực hiện bài dạy; không thay thế đánh giá thường xuyên/định kì của học sinh. Giáo viên ký và ghi rõ họ tên ở cuối phiếu.</div>
+
+<h2 id="c9" class="sec">9. Dùng AI an toàn và kiểm định học liệu</h2>
+<h3>9.1. AI hỗ trợ học sinh</h3>
+<ul>
+<li>Trợ lí học tập gợi mở, tra cứu, hỗ trợ từng bước — không thay thế giáo viên.</li>
+<li>AI tổ chức nháp theo học liệu mẫu; câu trả lời quan trọng nên đối chiếu lại với sách/giáo viên.</li>
+</ul>
+<h3>9.2. AI hỗ trợ giáo viên</h3>
+<ul>
+<li>Tạo đề theo ma trận, làm phiếu, đảo mã đề, phối hợp học liệu.</li>
+<li>Học liệu do AI đề xuất phải qua kiểm định trước khi công bố.</li>
+</ul>
+<h3>9.3. Bộ tiêu chí kiểm định (theo ý kiến phản biện)</h3>
+<table>
+<tr><th>Tiêu chí</th><th>Câu hỏi khi duyệt</th><th>Minh chứng cần lưu</th></tr>
+<tr><td>Khái niệm, thuật ngữ, kí hiệu</td><td>Mô tả đúng bản chất, phân biệt hạt nhân/nguyên tử, số khối/khối lượng, chu kì bán rã?</td><td>Nguồn, đoạn được kiểm, nhận xét người duyệt</td></tr>
+<tr><td>Định luật, phương trình</td><td>Bảo toàn số khối, điện tích; công thức và điều kiện áp dụng đúng?</td><td>Hai vế phương trình, phép kiểm, quy ước</td></tr>
+<tr><td>Đại lượng, số liệu, đơn vị</td><td>Hằng số, đơn vị, phép đổi tính lại được?</td><td>Phép tính độc lập, nguồn và phiên bản số liệu</td></tr>
+<tr><td>Hình ảnh, mô phỏng</td><td>Chú thích, tỉ lệ, quá trình, liên hệ tham số–kết quả đúng? Giới hạn mô hình đã nêu?</td><td>Ảnh, tham số, kịch bản kiểm tra</td></tr>
+<tr><td>Nguồn, phạm vi lớp 12</td><td>Có căn cứ truy được; ngôn ngữ vừa sức?</td><td>Tên nguồn, trang/đường dẫn, ngày kiểm</td></tr>
+<tr><td>Nhất quán và an toàn</td><td>Video, phiếu, đáp án, AI, mô phỏng thống nhất; nội dung phóng xạ không gây hiểu sai an toàn?</td><td>Danh sách khác biệt, sửa chữa, người duyệt</td></tr>
+</table>
+
+<h2 id="c10" class="sec">10. Mô hình, video và hệ thống bài B21–B25</h2>
+<table>
+<tr><th>Bài</th><th>Tên</th><th>Học liệu chính trên web</th></tr>
+<tr><td>B21</td><td>Cấu trúc hạt nhân</td><td>Mô hình hạt nhân, tán xạ alpha, đồng vị, đọc kí hiệu Z/N/A</td></tr>
+<tr><td>B22</td><td>Phản ứng hạt nhân và năng lượng liên kết</td><td>Phân hạch cảm ứng (có/không có neutron tới), bảo toàn A/Z, độ hụt khối, năng lượng liên kết</td></tr>
+<tr><td>B23</td><td>Hiện tượng phóng xạ</td><td>Hai mẫu 64 hạt (T = 20 s và 40 s), đồ thị kì vọng, hằng số phóng xạ, độ phóng xạ</td></tr>
+<tr><td>B24</td><td>Công nghiệp hạt nhân</td><td>Ba mức thanh điều khiển, hệ số nhân neutron, chu trình PWR, ứng dụng</td></tr>
+<tr><td>B25</td><td>Bài tập về vật lí hạt nhân</td><td>Bảng 25.1 (8 điểm SGK), hai đường thử, ước lượng chu kì bán rã</td></tr>
+</table>
+<ul>
+<li>Mỗi bài có video (đã có phụ đề tiếng Việt), mô phỏng tương tác và nhiệm vụ bước học trong 3 pha.</li>
+<li>Video v2 đang thử nghiệm tại <code>/videos/nuclear-lessons-v2/</code>; video cũ trong <code>/videos/nuclear-lessons/</code> chưa bị xóa — vẫn có thể khôi phục.</li>
+</ul>
+
+<h2 id="c11" class="sec">11. Câu hỏi thường gặp và xử lý sự cố</h2>
+<table>
+<tr><th>Tình huống</th><th>Xử lý</th></tr>
+<tr><td>Không vào được trang /teacher</td><td>Kiểm tra đã đăng nhập; nếu không, vào /login. Không dùng tài khoản học sinh cho trang giáo viên.</td></tr>
+<tr><td>Không thấy bài học/bước học</td><td>Kiểm tra đã chọn đúng lớp, bài đã được giao (published), và học sinh đã hoàn thành bước bắt buộc trước đó.</td></tr>
+<tr><td>Học sinh không nộp được bài</td><td>Xem tính chất bước học: bước tự chọn không bắt hoàn thành mô phỏng; bước bắt buộc vẫn bắt buộc. Đọc lỗi báo trên trang.</td></tr>
+<tr><td>Xuất Word lỗi hoặc thiếu mục</td><td>Mở lại bản soạn JSON, chuyển về bước 1–2, bổ sung thông tin trên văn bản và kiểm tra lại lỗi ở bước 3.</td></tr>
+<tr><td>Video không phát được</td><td>Tải lại trang; báo giáo viên kiểm tra học liệu gốc (một số video có chữ ký tạm thời hết hạn).</td></tr>
+<tr><td>mô phỏng chưa hiển thị</td><td>Kiểm tra kết nối và trình duyệt chặn WebGL; hệ thống có sơ đồ tĩnh dự phòng.</td></tr>
+</table>
+<h3>Danh sách kiểm tra trước giờ học (cho giáo viên)</h3>
+<ol class="checklist">
+<li>Đã tạo/tìm đúng lớp học và đủ học sinh.</li>
+<li>Bài B21–B25 đã giao theo đủ 3 pha với bước bắt buộc rõ ràng.</li>
+<li>Video, mô phỏng, phiếu và câu hỏi mở được trên thiết bị lớp học.</li>
+<li>Đã xem trước đề/câu hỏi và đáp án/gợi ý của giáo viên.</li>
+<li>Kế hoạch bài dạy đã rà soát dựa trên Phụ lục IV CV 5512; phiếu đánh giá bài dạy đã sẵn sàng.</li>
+<li>Phương án phòng ngừa khi học sinh thiếu thiết bị/mạng (phiếu giấy, nhóm dùng chung).</li>
+</ol>
+
+<div class="footer-note">
+<p><b>Nguồn tham chiếu:</b> Công văn 5512/BGDĐT-GDTrH ngày 18/12/2020 (Phụ lục IV – Khung kế hoạch bài dạy; Phụ lục V – Mẫu phiếu đánh giá bài dạy); Công văn 7991/BGDĐT-GDTrH ngày 17/12/2024 (kiểm tra định kì — tham chiếu); Thông tư 32/2018/TT-BGDĐT (Chương trình GDPT 2018, môn Vật lí). Nội dung nghiên cứu bám theo đề cương và thuyết minh đề tài đã nêu ở trang bìa.</p>
+<p>Sổ tay này chỉ mô tả tính năng đã có thật trong website tại thời điểm cập nhật. Tính năng chưa có (dashboard tổng hợp thực nghiệm, phản hồi trực tiếp trên trang, tính năng thống kê tạo từ dữ liệu giả) không được đưa vào hướng dẫn.</p>
+</div>
+
+</body>
+</html>

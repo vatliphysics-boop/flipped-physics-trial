@@ -25,21 +25,21 @@
   border-right: 1px solid var(--border-light, #d9e4eb);
 }
 .overview { margin-block: auto; }
-.illustration { display: block; width: 144px; height: 144px; margin: 12px 0 24px; color: var(--color-primary, #116b70); }
+.illustration { display: block; width: 144px; height: 144px; margin: 12px 0 24px; color: var(--color-primary, #2b3b93); }
 .eyebrow { margin: 0 0 8px; font-size: 12px; letter-spacing: .06em; font-weight: 700; color: #476775; }
 .overview h2 { font-size: clamp(25px, 2.7vw, 32px); line-height: 1.2; margin: 0 0 16px; letter-spacing: -.025em; }
 .overview p:not(.eyebrow) { color: #506777; font-size: 15px; line-height: 1.65; margin: 0; }
 .phases { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 14px; font-size: 14px; }
 .phases li { display: flex; align-items: center; gap: 10px; }
-.phases span { display: grid; place-items: center; flex: 0 0 28px; height: 28px; border: 1px solid #bfd9db; border-radius: 8px; font-size: 12px; color: #116b70; background: #fff; }
-.explore { font-size: 13px; color: #116b70; font-weight: 650; text-underline-offset: 4px; }
+.phases span { display: grid; place-items: center; flex: 0 0 28px; height: 28px; border: 1px solid #c3cbe8; border-radius: 8px; font-size: 12px; color: #2b3b93; background: #fff; }
+.explore { font-size: 13px; color: #2b3b93; font-weight: 650; text-underline-offset: 4px; }
 .content { min-width: 0; padding: clamp(24px, 3.5vw, 48px); display: flex; align-items: center; }
 .content :global(.auth-form-container) { width: 100%; min-width: 0; padding: 0; }
 .content :global(.auth-form-header) { margin-bottom: 28px; }
 .content :global(.auth-form-header h1) { font-size: 27px; font-weight: 700; line-height: 1.25; margin: 0 0 12px; letter-spacing: -.02em; }
 .content :global(.auth-form-header p) { font-size: 14px; line-height: 1.65; margin: 0; }
 .content :global(.auth-form input:not([type="radio"]):not([type="hidden"])) { min-height: 46px; background: #fff; color: #173244; }
-.content :global(.auth-form input:not([type="radio"]):not([type="hidden"]):focus-visible) { outline: 3px solid #afd9da; outline-offset: 2px; border-color: #116b70; }
+.content :global(.auth-form input:not([type="radio"]):not([type="hidden"]):focus-visible) { outline: 3px solid #9fc0e8; outline-offset: 2px; border-color: #2b3b93; }
 .content :global(.role-selector) { margin-bottom: 24px; border: 1px solid var(--border-light, #d9e4eb); background: #f3f7fa; }
 .content :global(.role-selector label) { padding-inline: 10px; }
 .content :global(.auth-form-container strong) { overflow-wrap: anywhere; }
